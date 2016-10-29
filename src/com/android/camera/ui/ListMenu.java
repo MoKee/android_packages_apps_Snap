@@ -75,13 +75,18 @@ public class ListMenu extends ListView
             mOffString = context.getString(R.string.setting_off);
         }
 
+        private int getSettingLayoutId(ListPreference pref) {
+            return R.layout.list_menu_item;
+        }
+
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             ListPreference pref = mListItem.get(position);
+            int viewLayoutId = getSettingLayoutId(pref);
             ListMenuItem view = (ListMenuItem) convertView;
 
             view = (ListMenuItem)
-                    mInflater.inflate(R.layout.list_menu_item, parent, false);
+                    mInflater.inflate(viewLayoutId, parent, false);
 
             view.initialize(pref); // no init for restore one
             view.setSettingChangedListener(ListMenu.this);
@@ -107,7 +112,7 @@ public class ListMenu extends ListView
     }
 
     @Override
-    public void onApplyWindowInsets(Rect insets, int rootWidth, int rootHeight) {
+    public void onApplyWindowInsets(Rect insets) {
         if (mHeader == null) {
             mHeader = new Space(getContext());
             addHeaderView(mHeader);
@@ -117,10 +122,8 @@ public class ListMenu extends ListView
             setFooterDividersEnabled(false);
         }
 
-        boolean largerThanRoot =
-                getPreCalculatedHeight() - insets.top - insets.bottom > rootHeight;
-        adjustViewHeight(mHeader, largerThanRoot ? insets.top : 0);
-        adjustViewHeight(mFooter, largerThanRoot ? insets.bottom : 0);
+        adjustViewHeight(mHeader, insets.top);
+        adjustViewHeight(mFooter, insets.bottom);
     }
 
     private void adjustViewHeight(View view, int height) {
@@ -236,12 +239,6 @@ public class ListMenu extends ListView
             mListener.onPreferenceClicked(pref, (int) view.getY());
         }
 
-    }
-
-    private int getPreCalculatedHeight() {
-        int count = getAdapter().getCount();
-        return count * (int) getContext().getResources().getDimension(R.dimen.setting_row_height)
-                + (count - 1) * getDividerHeight();
     }
 
     public void reloadPreference() {

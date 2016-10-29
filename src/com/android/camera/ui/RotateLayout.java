@@ -36,7 +36,7 @@ public class RotateLayout extends ViewGroup implements Rotatable {
     private CameraRootView mRootView;
 
     public interface Child {
-        void onApplyWindowInsets(Rect insets, int rootWidth, int rootHeight);
+        void onApplyWindowInsets(Rect insets);
     }
 
     public RotateLayout(Context context, AttributeSet attrs) {
@@ -66,15 +66,8 @@ public class RotateLayout extends ViewGroup implements Rotatable {
         }
     }
 
-    @Override
     public void addView(View child) {
         super.addView(child);
-        setupChild(child);
-    }
-
-    @Override
-    public void addView(View child, LayoutParams params) {
-        super.addView(child, params);
         setupChild(child);
     }
 
@@ -172,8 +165,7 @@ public class RotateLayout extends ViewGroup implements Rotatable {
     private void applyInsetsToChild() {
         if (mRootView != null && mChild instanceof Child) {
             Rect insets = mRootView.getInsetsForOrientation(mOrientation);
-            final Child child = (Child) mChild;
-            child.onApplyWindowInsets(insets, mRootView.getWidth(), mRootView.getHeight());
+            ((Child) mChild).onApplyWindowInsets(insets);
         }
     }
 
