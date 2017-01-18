@@ -20,9 +20,9 @@
     <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
     <string name="video_camera_label">Camcorder</string>
     <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_ms" translatable="false">%1$02d:%2$02d</string>
     <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="details_hms" translatable="false">%1$d:%2$02d:%3$02d</string>
 
     <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
@@ -221,13 +221,13 @@
         <item quantity="one">1 second</item>
         <item quantity="other">%d seconds</item>
     </plurals>
-    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
+    <string name="pref_camera_timer_sound_default" translatable="false">@string/setting_on_value</string>
     <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
     <string name="pref_camera_timer_sound_title">Beep during countdown</string>
 
     <!-- Entry of camera save path -->
     <string name="pref_camera_savepath_title">Storage</string>
-    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_default" translatable="false">0</string>
     <string name="pref_camera_savepath_entry_0">Phone</string>
     <string name="pref_camera_savepath_entry_1">SD Card</string>
 
@@ -430,10 +430,10 @@
     <string name="pref_exposure_label">EXPOSURE</string>
 
     <!-- Default HDR entry value -->
-    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_default" translatable="false">@string/setting_off_value</string>
 
     <!-- Default HDR+ entry value -->
-    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_plus_default" translatable="false">@string/setting_off_value</string>
 
     <!-- HDR label ON [CHAR LIMIT=60] -->
     <string name="pref_camera_hdr_label">HDR</string>
