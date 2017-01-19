@@ -129,6 +129,7 @@
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
   <string name="please_wait">請稍候</string>
   <!-- Text to show with progress bar while stitching a photo sphere. 'Photo sphere' is a product name. [CHAR LIMIT=35]-->
+  <string name="rendering_photo_sphere">正在轉譯全景拍攝相片</string>
   <!-- title for the dialog showing the error of camera hardware -->
   <string name="camera_error_title">相機發生錯誤</string>
   <!-- message for the dialog showing the error of camera hardware -->
@@ -136,7 +137,9 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">由於安全性政策規定，相機已遭停用。</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
+  <string name="error_permissions">此應用程式沒有取得執行所需的必要權限。請檢查權限設定。</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+  <string name="dialog_dismiss">略過</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">請稍候...</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -148,6 +151,7 @@
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
   <string name="time_lapse_title">延時攝影錄製</string>
   <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
+  <string name="capturing">拍攝中</string>
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
   <string name="pref_camera_id_title">選擇相機</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
@@ -155,6 +159,7 @@
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">前置鏡頭</string>
   <!-- Settings screen, setting title text -->
+  <string name="pref_camera_recordlocation_title">GPS 定位</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">位置</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -166,7 +171,9 @@
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">倒數時發出嗶聲</string>
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_title">儲存裝置</string>
   <string name="pref_camera_savepath_entry_0">電話</string>
+  <string name="pref_camera_savepath_entry_1">SD 卡</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">關閉</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
@@ -244,12 +251,17 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">自動</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ 開啟</string>
   <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">HDR+ 關閉</string>
   <!-- Scene mode to turn on HDR (high dynamic range) [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR 開啟</string>
   <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR 關閉</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">動態</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -282,14 +294,23 @@
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
   <string name="not_selectable_in_scene_mode">在場景模式中無法選取。</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
+  <string name="HDR_disable_continuous_shot">HDR 將停用連拍。</string>
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
+  <string name="advanced_capture_disable_continuous_shot">進階拍攝將停用連拍。</string>
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
+  <string name="video_quality_4k_disable_IS">4K 影片畫質將停用影像穩定功能。</string>
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
+  <string name="video_quality_4k_disable_SeeMore">SeeMore 功能無法在 4K 影片拍攝時啟用</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_HighQualityNoiseReduction">高品質降噪將停用 CDS。</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_HighQualityNoiseReduction">高品質降噪將停用 TNR。</string>
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_SeeMore">SeeMore 功能將停用 CDS。</string>
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_SeeMore">SeeMore 功能將停用 TNR。</string>
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
+  <string name="disable_NR_during_SeeMore">SeeMore 功能將停用降噪。</string>
   <!-- Exposure settings in preference -->
   <string name="pref_exposure_title">曝光</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
@@ -365,6 +386,7 @@
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
   <string name="effect_background">背景</string>
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_shutter_button">快門</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_menu_button">選單按鈕</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
@@ -378,7 +400,9 @@
   <!-- The button to switch to Panorama mode. [CHAR LIMIT = NONE] -->
   <string name="accessibility_switch_to_panorama">切換至全景模式</string>
   <!-- The button to switch to the Photo Sphere mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_photo_sphere">切換至 Photo Sphere 全景拍攝</string>
   <!-- The button to switch to the high quality mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_gcam">切換至高畫質</string>
   <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT = NONE] -->
   <string name="accessibility_review_cancel">[檢視模式] 取消</string>
   <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT = NONE] -->
@@ -501,7 +525,9 @@ CHAR LIMIT = NONE] -->
   <string name="camera_menu_settings_label">設定</string>
   <!--  Tiny Planet -->
   <!-- Button to press for creating a tiny planet image. [CHAR LIMIT = 30] -->
+  <string name="create_tiny_planet">建立小星球視角相片</string>
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
+  <string name="saving_tiny_planet">正在儲存小星球視角相片&#8230;</string>
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
   <string name="tiny_planet_zoom">縮放</string>
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
@@ -516,4 +542,6 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">正在設定桌布</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="remaining_photos_format">%d 左</string>
+  <string name="makeup_video_size_limit">美顏僅在 VGA 尺寸下的影片錄製。</string>
 </resources>
