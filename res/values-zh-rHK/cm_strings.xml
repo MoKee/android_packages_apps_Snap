@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- common aspect ratios -->
   <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
+  <string name="pref_camera_aspectratio_wide">寬</string>
   <!-- format for entries in the picture size menu. Parameter one is aspect ratio
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
@@ -25,6 +26,7 @@
   <string name="pref_camera_megapixel_format">(%1$s) %2$1.0f 萬像素</string>
   <!-- Settings screen, scene mode -->
   <string name="pref_camera_scenemode_entry_antimotionblur">降低動態模糊</string>
+  <string name="pref_camera_scenemode_entry_aqua">水色</string>
   <string name="pref_camera_scenemode_entry_ar">增強實景</string>
   <string name="pref_camera_scenemode_entry_asd">最佳拍攝</string>
   <string name="pref_camera_scenemode_entry_baby">嬰兒</string>
@@ -68,7 +70,7 @@
   <!-- Settings screen, focus mode -->
   <string name="pref_camera_focusmode_entry_continuous">連續</string>
   <string name="pref_camera_focusmode_entry_mw_continuous">連續 (MW)</string>
-  <string name="pref_camera_focusmode_entry_extended">擴展</string>
+  <string name="pref_camera_focusmode_entry_extended">延伸</string>
   <string name="pref_camera_focusmode_entry_facedetect">臉部偵測</string>
   <string name="pref_camera_focusmode_entry_facepriority">臉部優先</string>
   <string name="pref_camera_focusmode_entry_fixed">已固定</string>
@@ -92,6 +94,8 @@
   <string name="pref_camera_max_brightness_title">明亮螢幕</string>
   <!-- Touch focus duration -->
   <string name="pref_camera_focustime_title">觸控對焦持續時間</string>
+  <string name="pref_camera_focustime_entry_0">0 秒</string>
+  <string name="pref_camera_focustime_entry_3">3 秒</string>
   <string name="pref_camera_focustime_entry_5">5 秒</string>
   <string name="pref_camera_focustime_entry_10">10 秒</string>
   <string name="pref_camera_focustime_entry_infinite">無限</string>
@@ -99,4 +103,6 @@
   <string name="pref_camera_shutter_speed_title">快門速度</string>
   <string name="auto_hdr_enabled">已啟用自動 HDR</string>
   <!-- Advanced options -->
+  <string name="developer_menu_enabled">您已啟用了相機進階選項</string>
+  <string name="developer_menu_disabled">您已停用了相機進階選項</string>
 </resources>

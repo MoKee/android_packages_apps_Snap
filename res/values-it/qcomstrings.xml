@@ -53,6 +53,7 @@
   <string name="pref_camera_skinToneEnhancement_title">Miglioramento tono della pelle</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Attiva</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Disabilita</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <string name="pref_camera_zsl_title">Ritardo zero dell\'otturatore</string>
@@ -87,11 +88,17 @@
   <string name="pref_camera_manual_focus_entry_diopter_mode">Modalità regolazione diottrica</string>
   <string name="pref_camera_manual_focus_entry_off">Spenta</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_title" translatable="true">Cattura istantanea</string>
+  <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">AEC aggressivo</string>
+  <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">AEC rapido</string>
+  <string name="pref_camera_instant_capture_entry_disable" translatable="true">Disabilita</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Spenta</string>
   <string name="pref_camera_zsl_entry_on">ON</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
+  <string name="hdr_enable_message">HDR è attivo, è supportata solo la modalità Scena automatica</string>
+  <string name="scene_enable_message">HDR non è supportato in una modalità scena diversa da quella automatica</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">Spenta</string>
   <string name="pref_camera_video_hdr_entry_on">ON</string>
@@ -104,12 +111,15 @@
   <string name="pref_camera_video_cds_entry_on">ON</string>
   <string name="pref_camera_video_cds_entry_auto">Autom.</string>
   <!-- Settings screen, TNR location dialog choices -->
+  <string name="pref_camera_tnr_entry_disable">Disabilita</string>
   <string name="pref_camera_tnr_entry_enable">Attiva</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
+  <string name="pref_camera_video_tnr_entry_disable">Disabilita</string>
   <string name="pref_camera_video_tnr_entry_enable">Attiva</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
+  <string name="pref_camera_video_hdr_title">Video HDR</string>
   <!-- Settings menu, setting title text for cds mode-->
   <string name="pref_camera_cds_title">Modalità CDS</string>
   <!-- Settings menu, setting title text for video cds mode-->
@@ -130,6 +140,7 @@
   <string name="pref_camera_facedetection_entry_on">ON</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
+  <string name="pref_selfie_flash_title">Flash selfie</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">Spenta</string>
   <string name="pref_selfie_flash_entry_on">ON</string>
@@ -138,7 +149,10 @@
   <string name="pref_camera_redeyereduction_title">Riduzione occhi rossi</string>
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Attiva</string>
+  <string name="pref_camera_redeyereduction_entry_disable">Disabilita</string>
   <string name="pref_camera_selfiemirror_entry_enable">Attiva</string>
+  <string name="pref_camera_selfiemirror_entry_disable">Disabilita</string>
+  <string name="pref_camera_shuttersound_title" translatable="true">Suono otturatore</string>
   <string name="pref_camera_shuttersound_entry_enable">Abilitato</string>
   <string name="pref_camera_shuttersound_entry_disable">Disabilitata</string>
   <!-- Default mce setting. Do not translate. -->
@@ -300,6 +314,7 @@
   <string name="pref_camera_histogram_title">Istogramma</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Attiva</string>
+  <string name="pref_camera_histogram_entry_disable">Disabilita</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -309,14 +324,17 @@
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
   <string name="pref_camera_scenedetect_entry_on">ON</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
+  <string name="time_lapse_error">Formato video non valido per la registrazione in time lapse.</string>
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Scatto continuo</string>
   <string name="msg_cancel_longshot_for_limited_memory">Esaurimento della memoria, annullamento scatto continuo</string>
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">Il flash non è supportato in modalità di bracketing AE</string>
   <!-- Settings screen, setting title text for Auto HDR-->
+  <string name="pref_camera_auto_hdr_title">HDR Auto</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Attiva</string>
+  <string name="pref_camera_auto_hdr_entry_disable">Disabilita</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Le spazio d\'archiviazione interno è insufficiente, la memoria predefinita è ora la scheda SD</string>
   <!-- Settings screen, Selectable HDR mode title -->
@@ -334,6 +352,7 @@
   <!--Settings screen, video rotation title-->
   <string name="pref_camera_video_rotation_title">Rotazione video</string>
   <!--Menu, video rotation label-->
+  <string name="pref_camera_video_rotation_label">ROTAZIONE VIDEO</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
   <string name="pref_camera_video_rotation_entry_0">0 gradi</string>
   <string name="pref_camera_video_rotation_entry_90">90 gradi</string>
@@ -347,29 +366,58 @@
   <string name="advance_feature_enable_msg">Lo scatto continuo non è supportato quando sono attive le funzioni avanzate</string>
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">Avvia fotocamera</string>
+  <string name="pref_camera_tsmakeup_title">Abbellimento</string>
   <string name="pref_camera_tsmakeup_entry_on">ON</string>
   <string name="pref_camera_tsmakeup_entry_off">Spenta</string>
   <string name="pref_camera_tsmakeup_entry_low">Basso</string>
   <string name="pref_camera_tsmakeup_entry_high">Alto</string>
   <string name="pref_camera_tsmakeup_custom">Personalizza</string>
+  <string name="text_tsmakeup_alert_title">Attenzione</string>
+  <string name="text_tsmakeup_alert_msg">Il rilevamento del volto deve essere attivato per utilizzare la funzione abbellimento. Continuare?</string>
   <string name="text_tsmakeup_alert_continue">Continua</string>
   <string name="text_tsmakeup_alert_quit">Annulla</string>
   <string name="text_tsmakeup_beautify_toast">Abbellisci</string>
   <string name="all_in_focus">Tutto a fuoco</string>
   <string name="refocus_toast">Per rimettere a fuoco Ultima foto, tocca qui</string>
+  <string name="refocus_prompt_message">Con UbiFocus, la fotocamera catturerà 5 foto ogni volta che ne scatterai una. Queste 5 foto saranno combinate in un\'unica immagine con ogni punto messo a fuoco. In seguito potrai scegliere nuovamente di mettere a fuoco l\'immagine.</string>
+  <string name="camera_thermal_shutdown">Telefono surriscaldato, chiusura della fotocamera.</string>
+  <string name="camera_server_died">Media server terminato, chiusura fotocamera.</string>
+  <string name="camera_unknown_error">Errore sconosciuto, chiusura fotocamera.</string>
+  <string name="mute_button_desc">Pulsante muto</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">OK</string>
+  <string name="help_menu_scene_mode_1">Seleziona una</string>
   <string name="help_menu_scene_mode_2">Modalità scena</string>
+  <string name="help_menu_scene_mode_3">per foto migliori</string>
+  <string name="help_menu_color_filter_1">Applica colore</string>
+  <string name="help_menu_color_filter_2">filtri</string>
+  <string name="help_menu_color_filter_4">migliorare le foto</string>
+  <string name="help_menu_beautify_1">Migliorare i ritratti</string>
+  <string name="help_menu_switcher_3">fotocamera, videocamera e panorama</string>
+  <string name="pref_camera2_camera2_title">Modalità camera2</string>
   <string name="pref_camera2_camera2_entry_enable">Attiva</string>
+  <string name="pref_camera2_camera2_entry_disable">Disabilita</string>
+  <string name="pref_camera2_mono_only_title">Solo mono</string>
+  <string name="pref_camera2_mono_preview_title">Anteprima mono</string>
   <string name="pref_camera2_mono_preview_entry_on">ON</string>
   <string name="pref_camera2_mono_preview_entry_off">Spenta</string>
   <string name="pref_camera2_clearsight_entry_on">ON</string>
   <string name="pref_camera2_clearsight_entry_off">Spenta</string>
+  <string name="pref_camera2_mpo_title">Formato MPO</string>
   <string name="pref_camera2_mpo_entry_on">ON</string>
   <string name="pref_camera2_mpo_entry_off">Spenta</string>
+  <string name="pref_camera2_makeup_title">Ritocco</string>
+  <string name="pref_camera2_noise_reduction_title">Riduzione rumore</string>
   <string name="pref_camera2_noise_reduction_entry_off">Spenta</string>
+  <string name="pref_camera2_noise_reduction_entry_fast">Veloce</string>
+  <string name="pref_camera2_noise_reduction_entry_high_quality">Alta qualità</string>
+  <string name="pref_camera2_videosnap_title">Dimensione snapshot automatica</string>
   <string name="pref_camera2_videosnap_entry_enable">Attiva</string>
+  <string name="pref_camera2_videosnap_entry_disable">Disabilita</string>
+  <string name="pref_camera_scenemode_entry_bestpicture">Immagine migliore</string>
   <string name="bestpicture_done">FATTO</string>
+  <string name="bestpicture_at_least_one_picture">Deve essere selezionata almeno un\'immagine.</string>
   <string name="pref_camera2_shutter_sound_entry_on">ON</string>
   <string name="pref_camera2_shutter_sound_entry_off">Spenta</string>
+  <string name="pref_camera2_shutter_sound_title">Suono otturatore</string>
 </resources>

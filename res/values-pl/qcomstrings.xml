@@ -26,7 +26,10 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
+  <string name="pref_camera_powermode_title">Tryb zasilania</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_entry_lp">Niski pobór mocy</string>
+  <string name="pref_camera_powermode_entry_np">Normalny pobór mocy</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
@@ -53,6 +56,7 @@
   <string name="pref_camera_skinToneEnhancement_title">Poprawa koloru skóry</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Włącz</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Wyłącz</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <string name="pref_camera_zsl_title">Brak opóźnienia migawki</string>
@@ -88,11 +92,17 @@
   <string name="pref_camera_manual_focus_entry_diopter_mode">Tryb dioptrii</string>
   <string name="pref_camera_manual_focus_entry_off">Wyłączone</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_title" translatable="true">Błyskawiczne przechwytywanie</string>
+  <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">Agresywne AEC</string>
+  <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">Szybkie AEC</string>
+  <string name="pref_camera_instant_capture_entry_disable" translatable="true">Wyłącz</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Wyłącz</string>
   <string name="pref_camera_zsl_entry_on">Włączono</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
+  <string name="hdr_enable_message">HDR jest włączony, obsługiwany jest tylko tryb Auto sceny</string>
+  <string name="scene_enable_message">HDR nie jest obsługiwany w trybie innym niż Auto scena</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">Wyłącz</string>
   <string name="pref_camera_video_hdr_entry_on">Włączono</string>
@@ -105,9 +115,11 @@
   <string name="pref_camera_video_cds_entry_on">Włączono</string>
   <string name="pref_camera_video_cds_entry_auto">Automatyczny</string>
   <!-- Settings screen, TNR location dialog choices -->
+  <string name="pref_camera_tnr_entry_disable">Wyłącz</string>
   <string name="pref_camera_tnr_entry_enable">Włącz</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
+  <string name="pref_camera_video_tnr_entry_disable">Wyłącz</string>
   <string name="pref_camera_video_tnr_entry_enable">Włącz</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
@@ -132,6 +144,7 @@
   <string name="pref_camera_facedetection_entry_on">Włączono</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
+  <string name="pref_selfie_flash_title">Lampa przedniego aparatu</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">Wyłącz</string>
   <string name="pref_selfie_flash_entry_on">Włączono</string>
@@ -140,19 +153,28 @@
   <string name="pref_camera_redeyereduction_title">Redukcja czerwonych oczu</string>
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Włącz</string>
+  <string name="pref_camera_redeyereduction_entry_disable">Wyłącz</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Lusterko</string>
   <string name="pref_camera_selfiemirror_entry_enable">Włącz</string>
+  <string name="pref_camera_selfiemirror_entry_disable">Wyłącz</string>
+  <string name="pref_camera_shuttersound_title" translatable="true">Dźwięk migawki</string>
   <string name="pref_camera_shuttersound_entry_enable">Włączone</string>
   <string name="pref_camera_shuttersound_entry_disable">Wyłączone</string>
   <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
+  <string name="error_app_unsupported_hfr_selection">Nagrywanie z dużą ilością klatek nie jest obsługiwane podczas używania opcji: stabilizacja, pętla czasu, HDR</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
+  <string name="error_app_unsupported_hfr">Slow motion nie jest obsługiwane w wybranej wielkości plików wideo. Wybierz niższą rozdzielczość</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
   <string name="error_app_unsupported_dis">Stabilizacja nie jest obsługiwana dla wybranej rozdzielczości wideo. Wybierz niższą rozdzielczość nagrywania wideo</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HSR mode -->
+  <string name="error_app_unsupported_hsr">Tryb dużej prędkości nie jest obsługiwany w wybranej wielkości plików wideo. Wybierz niższą rozdzielczość</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video codec for HFR mode -->
+  <string name="error_app_unsupported_hfr_codec">Gdy włączone jest HFR, możesz użyć tylko kodeka H264</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
   <string name="error_app_unsupported">Niewspierana rozdzielczość wideo dla tego kodeka</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
+  <string name="error_app_unsupported_profile">Nieobsługiwany format wideo</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
   <string name="pref_camera_ae_bracket_hdr_title">Autobracketing ekspozycji</string>
@@ -299,6 +321,7 @@
   <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Włącz</string>
+  <string name="pref_camera_histogram_entry_disable">Wyłącz</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -316,6 +339,7 @@
   <!-- Settings screen, setting title text for Auto HDR-->
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Włącz</string>
+  <string name="pref_camera_auto_hdr_entry_disable">Wyłącz</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Kończy się miejsce w pamięci urządzenia, domyślna pamięć zmieniona na kartę SD</string>
   <!-- Settings screen, Selectable HDR mode title -->
@@ -359,6 +383,7 @@
   <string name="help_menu_ok">Ok</string>
   <string name="help_menu_scene_mode_2">Tryb scenerii</string>
   <string name="pref_camera2_camera2_entry_enable">Włącz</string>
+  <string name="pref_camera2_camera2_entry_disable">Wyłącz</string>
   <string name="pref_camera2_mono_preview_entry_on">Włączono</string>
   <string name="pref_camera2_mono_preview_entry_off">Wyłącz</string>
   <string name="pref_camera2_clearsight_entry_on">Włączono</string>
@@ -367,7 +392,9 @@
   <string name="pref_camera2_mpo_entry_off">Wyłącz</string>
   <string name="pref_camera2_noise_reduction_entry_off">Wyłącz</string>
   <string name="pref_camera2_videosnap_entry_enable">Włącz</string>
+  <string name="pref_camera2_videosnap_entry_disable">Wyłącz</string>
   <string name="bestpicture_done">Gotowe</string>
   <string name="pref_camera2_shutter_sound_entry_on">Włączono</string>
   <string name="pref_camera2_shutter_sound_entry_off">Wyłącz</string>
+  <string name="pref_camera2_shutter_sound_title">Dźwięk migawki</string>
 </resources>
