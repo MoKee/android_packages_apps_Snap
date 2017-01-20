@@ -55,7 +55,7 @@
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">皮肤色调增强</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
-  <string name="pref_camera_skinToneEnhancement_entry_enable">启用</string>
+  <string name="pref_camera_skinToneEnhancement_entry_enable">开启</string>
   <string name="pref_camera_skinToneEnhancement_entry_disable">停用</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
@@ -95,7 +95,7 @@
   <string name="pref_camera_instant_capture_title" translatable="true">即时捕获</string>
   <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">AEC 主动调整</string>
   <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">AEC 快速调整</string>
-  <string name="pref_camera_instant_capture_entry_disable" translatable="true">停用</string>
+  <string name="pref_camera_instant_capture_entry_disable" translatable="true">关闭</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">关闭</string>
@@ -115,12 +115,12 @@
   <string name="pref_camera_video_cds_entry_on">开启</string>
   <string name="pref_camera_video_cds_entry_auto">自动</string>
   <!-- Settings screen, TNR location dialog choices -->
-  <string name="pref_camera_tnr_entry_disable">停用</string>
-  <string name="pref_camera_tnr_entry_enable">启用</string>
+  <string name="pref_camera_tnr_entry_disable">关闭</string>
+  <string name="pref_camera_tnr_entry_enable">开启</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
-  <string name="pref_camera_video_tnr_entry_disable">停用</string>
-  <string name="pref_camera_video_tnr_entry_enable">启用</string>
+  <string name="pref_camera_video_tnr_entry_disable">关闭</string>
+  <string name="pref_camera_video_tnr_entry_enable">开启</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
   <string name="pref_camera_video_hdr_title">视频 HDR</string>
@@ -155,8 +155,8 @@
   <string name="pref_camera_redeyereduction_entry_enable">开启</string>
   <string name="pref_camera_redeyereduction_entry_disable">关闭</string>
   <string name="pref_camera_selfiemirror_title" translatable="true">自拍镜面</string>
-  <string name="pref_camera_selfiemirror_entry_enable">启用</string>
-  <string name="pref_camera_selfiemirror_entry_disable">停用</string>
+  <string name="pref_camera_selfiemirror_entry_enable">开启</string>
+  <string name="pref_camera_selfiemirror_entry_disable">关闭</string>
   <string name="pref_camera_shuttersound_title" translatable="true">快门声音</string>
   <string name="pref_camera_shuttersound_entry_enable">开启</string>
   <string name="pref_camera_shuttersound_entry_disable">关闭</string>
@@ -224,7 +224,7 @@
   <string name="pref_camera_denoise_entry_on">开启</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">感光度</string>
+  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">自动</string>
   <string name="pref_camera_iso_entry_isodeblur">自动（HJR）</string>
@@ -338,8 +338,8 @@
   <!-- Settings screen, Select Histogram title -->
   <string name="pref_camera_histogram_title">直方图</string>
   <!-- Settings screen, Histogram radio button choices -->
-  <string name="pref_camera_histogram_entry_enable">启用</string>
-  <string name="pref_camera_histogram_entry_disable">停用</string>
+  <string name="pref_camera_histogram_entry_enable">开启</string>
+  <string name="pref_camera_histogram_entry_disable">关闭</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -359,7 +359,7 @@
   <string name="pref_camera_auto_hdr_title">自动 HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">启用</string>
-  <string name="pref_camera_auto_hdr_entry_disable">停用</string>
+  <string name="pref_camera_auto_hdr_entry_disable">关闭</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">内部存储空间不足，已将存储位置切换到 SD 卡</string>
   <!-- Settings screen, Selectable HDR mode title -->
@@ -404,7 +404,7 @@
   <string name="text_tsmakeup_alert_msg">必须开启面部检测才能使用美颜功能。 您想继续吗？</string>
   <string name="text_tsmakeup_alert_continue">继续</string>
   <string name="text_tsmakeup_alert_quit">取消</string>
-  <string name="text_tsmakeup_beautify_toast">美肤</string>
+  <string name="text_tsmakeup_beautify_toast">美颜</string>
   <string name="all_in_focus">全焦</string>
   <string name="refocus_toast">点击此处重新对焦上一张照片</string>
   <string name="refocus_prompt_message">当 UbiFocus 启用后，相机会在您每次按下快门时拍摄 5 张图片。这 5 张图片将被合并为 1 张图片，而且图片中的物体都会被合并。拍摄结束后您可以重新对焦。</string>
@@ -428,8 +428,8 @@
   <string name="help_menu_switcher_2">介于</string>
   <string name="help_menu_switcher_3">相机、视频和全景</string>
   <string name="pref_camera2_camera2_title">Camera2 模式</string>
-  <string name="pref_camera2_camera2_entry_enable">启用</string>
-  <string name="pref_camera2_camera2_entry_disable">停用</string>
+  <string name="pref_camera2_camera2_entry_enable">开启</string>
+  <string name="pref_camera2_camera2_entry_disable">关闭</string>
   <string name="pref_camera2_mono_only_title">仅单色</string>
   <string name="pref_camera2_mono_preview_title">单色预览</string>
   <string name="pref_camera2_mono_preview_entry_on">开启</string>
@@ -447,8 +447,8 @@
   <string name="pref_camera2_noise_reduction_entry_fast">快速</string>
   <string name="pref_camera2_noise_reduction_entry_high_quality">高质量</string>
   <string name="pref_camera2_videosnap_title">自动调整快照尺寸</string>
-  <string name="pref_camera2_videosnap_entry_enable">启用</string>
-  <string name="pref_camera2_videosnap_entry_disable">停用</string>
+  <string name="pref_camera2_videosnap_entry_enable">开启</string>
+  <string name="pref_camera2_videosnap_entry_disable">关闭</string>
   <string name="pref_camera2_trackingfocus_title">焦点跟踪</string>
   <string name="pref_camera_scenemode_entry_bestpicture">最佳画面</string>
   <string name="bestpicture_done">完成</string>
