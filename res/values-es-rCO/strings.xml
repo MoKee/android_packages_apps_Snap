@@ -18,6 +18,7 @@
   <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
   <string name="app_name">Cámara</string>
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
+  <string name="video_camera_label">Camara</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
   <!-- Displayed in the title of the dialog for things to do with a picture
@@ -76,11 +77,13 @@
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
   <string name="crop_saved">La imagen recortada se ha guardado en <xliff:g id="FOLDER_NAME">%s</xliff:g>.</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
+  <string name="title">Título</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
   <string name="description">Descripción</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
   <string name="time">Hora</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
+  <string name="location">Ubicación</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
   <string name="path">Ruta</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
@@ -127,6 +130,7 @@
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
   <string name="please_wait">Espera...</string>
   <!-- Text to show with progress bar while stitching a photo sphere. 'Photo sphere' is a product name. [CHAR LIMIT=35]-->
+  <string name="rendering_photo_sphere">Rendereo de la foto 360</string>
   <!-- title for the dialog showing the error of camera hardware -->
   <string name="camera_error_title">Error de cámara</string>
   <!-- message for the dialog showing the error of camera hardware -->
