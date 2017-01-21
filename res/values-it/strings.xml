@@ -143,6 +143,7 @@
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
   <string name="error_permissions">L\'applicazione non dispone delle autorizzazioni necessarie per l\'esecuzione. Controlla le autorizzazioni nelle impostazioni.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+  <string name="dialog_dismiss">Tralascia</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Attendi...</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -545,4 +546,5 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Impostazione dello sfondo</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="remaining_photos_format">%d rimaste</string>
 </resources>

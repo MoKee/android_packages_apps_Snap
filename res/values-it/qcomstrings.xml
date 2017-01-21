@@ -26,7 +26,10 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
+  <string name="pref_camera_powermode_title">Modalità consumo</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_entry_lp">Basso consumo</string>
+  <string name="pref_camera_powermode_entry_np">Consumo normale</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
@@ -70,6 +73,7 @@
   <string name="pref_camera_advanced_features_title">Funzioni avanzate</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Nessuno</string>
+  <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Focus Multi touch</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_title">Esposizione manuale</string>
@@ -169,12 +173,15 @@
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
   <string name="error_app_unsupported">Risoluzione video non supportato per questo tipo di codec</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
+  <string name="error_app_unsupported_profile">Profilo video non supportato</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">L\'immagine RAW non è supportata in modalità ritardo otturatore zero. Seleziona JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Bracketing EA</string>
   <string name="pref_camera_ae_bracket_hdr_title">Auto Exposure Bracketing</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">ON</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Spenta</string>
+  <string name="err_app_unsupport_ae_bracket_code">Bracketing EA non è ancora supportato</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
@@ -190,11 +197,15 @@
   <string name="pref_camera_hfr_entry_hsr_60">Alta Velocità 60 FPS</string>
   <string name="pref_camera_hfr_entry_hsr_90">Alta Velocità 90 FPS</string>
   <string name="pref_camera_hfr_entry_hsr_120">Alta Velocità 120 FPS</string>
+  <string name="pref_camera_hfr_entry_hsr_240">Alta velocità 240 FPS</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
+  <string name="pref_camera_noise_reduction_title">Riduzione rumore</string>
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_noise_reduction_entry_off">Spenta</string>
+  <string name="pref_camera_noise_reduction_entry_fast">Veloce</string>
+  <string name="pref_camera_noise_reduction_entry_high_quality">Alta qualità</string>
   <!-- see more entry values. Do not translate. -->
   <!-- Default see more setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
@@ -213,8 +224,14 @@
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automatico</string>
   <string name="pref_camera_iso_entry_isodeblur">Automatico (HJR)</string>
+  <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
+  <string name="pref_camera_antibanding_title">Antibanding</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Auto</string>
@@ -228,6 +245,7 @@
   <string name="pref_camera_filter_mode_title">Effetti colore</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Nessuno</string>
+  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
   <string name="pref_camera_coloreffect_entry_sepia">Seppia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negativo</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
@@ -236,6 +254,7 @@
   <string name="pref_camera_coloreffect_entry_aqua">Acqua</string>
   <string name="pref_camera_coloreffect_entry_emboss">Rilievo</string>
   <string name="pref_camera_coloreffect_entry_sketch">Schizzo</string>
+  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
   <string name="pref_camera_coloreffect_entry_pastel">Pastello</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mosaico</string>
   <string name="pref_camera_coloreffect_entry_redtint">Tinta rossa</string>
@@ -243,6 +262,7 @@
   <string name="pref_camera_coloreffect_entry_greentint">Tinta verde</string>
   <!-- Default Touch AF/AEC setting. Do not translate. -->
   <!-- Settings screen, Select Touch AF/AEC title -->
+  <string name="pref_camera_touchafaec_title">Tocco AF/AEC</string>
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
   <string name="pref_camera_touchafaec_entry_off">Spenta</string>
   <string name="pref_camera_touchafaec_entry_on">ON</string>

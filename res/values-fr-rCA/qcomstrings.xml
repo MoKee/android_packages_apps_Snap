@@ -26,6 +26,7 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
+  <string name="pref_camera_powermode_title">Mode d\'alimentation</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
@@ -53,6 +54,7 @@
   <string name="pref_camera_skinToneEnhancement_title">Amélioration de la teinte de peau</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Activé</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Desactiver</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <string name="pref_camera_zsl_title">Pas de délai de l\'obturateur</string>
@@ -88,6 +90,7 @@
   <string name="pref_camera_manual_focus_entry_diopter_mode">Mode dioptrie</string>
   <string name="pref_camera_manual_focus_entry_off">Désactivé</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_entry_disable" translatable="true">Desactiver</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Désactivé</string>
@@ -105,9 +108,11 @@
   <string name="pref_camera_video_cds_entry_on">ACTIVÉE</string>
   <string name="pref_camera_video_cds_entry_auto">Automatique</string>
   <!-- Settings screen, TNR location dialog choices -->
+  <string name="pref_camera_tnr_entry_disable">Desactiver</string>
   <string name="pref_camera_tnr_entry_enable">Activé</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
+  <string name="pref_camera_video_tnr_entry_disable">Desactiver</string>
   <string name="pref_camera_video_tnr_entry_enable">Activé</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
@@ -140,7 +145,9 @@
   <string name="pref_camera_redeyereduction_title">Réduction des yeux rouges</string>
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Activé</string>
+  <string name="pref_camera_redeyereduction_entry_disable">Desactiver</string>
   <string name="pref_camera_selfiemirror_entry_enable">Activé</string>
+  <string name="pref_camera_selfiemirror_entry_disable">Desactiver</string>
   <string name="pref_camera_shuttersound_entry_enable">Activé</string>
   <string name="pref_camera_shuttersound_entry_disable">Désactiver</string>
   <!-- Default mce setting. Do not translate. -->
@@ -177,6 +184,7 @@
   <string name="pref_camera_hfr_entry_hsr_60">Haute vitesse 60 IPS</string>
   <string name="pref_camera_hfr_entry_hsr_90">Haute vitesse 90 IPS</string>
   <string name="pref_camera_hfr_entry_hsr_120">Haute vitesse 120 IPS</string>
+  <string name="pref_camera_hfr_entry_hsr_240">Haute vitesse 240 IPS (FPS)</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
@@ -300,6 +308,7 @@
   <string name="pref_camera_histogram_title">Histogramme</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Activé</string>
+  <string name="pref_camera_histogram_entry_disable">Desactiver</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -318,6 +327,7 @@
   <string name="pref_camera_auto_hdr_title">HDR Automatique</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Activé</string>
+  <string name="pref_camera_auto_hdr_entry_disable">Desactiver</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Plus assez de mémoire interne, stockage basculé sur la carte SD</string>
   <!-- Settings screen, Selectable HDR mode title -->
@@ -352,6 +362,7 @@
   <string name="pref_camera_tsmakeup_entry_low">Bas</string>
   <string name="pref_camera_tsmakeup_entry_high">Élevé</string>
   <string name="pref_camera_tsmakeup_custom">Personnalisation</string>
+  <string name="text_tsmakeup_alert_msg">La detection de visage doit être activée pour utiliser la fonction d\'embellissement. Voulez-vous continuer?</string>
   <string name="text_tsmakeup_alert_continue">Continuer</string>
   <string name="text_tsmakeup_alert_quit">Annuler</string>
   <string name="all_in_focus">Tout sur le focus</string>
@@ -359,7 +370,10 @@
   <!-- Help menu strings -->
   <string name="help_menu_ok">OK</string>
   <string name="help_menu_scene_mode_2">Mode Scène</string>
+  <string name="help_menu_switcher_1">Échanger / Intervertir</string>
+  <string name="pref_camera2_camera2_title">Mode caméra 2</string>
   <string name="pref_camera2_camera2_entry_enable">Activé</string>
+  <string name="pref_camera2_camera2_entry_disable">Desactiver</string>
   <string name="pref_camera2_mono_preview_entry_on">ACTIVÉE</string>
   <string name="pref_camera2_mono_preview_entry_off">Désactivé</string>
   <string name="pref_camera2_clearsight_entry_on">ACTIVÉE</string>
@@ -368,6 +382,7 @@
   <string name="pref_camera2_mpo_entry_off">Désactivé</string>
   <string name="pref_camera2_noise_reduction_entry_off">Désactivé</string>
   <string name="pref_camera2_videosnap_entry_enable">Activé</string>
+  <string name="pref_camera2_videosnap_entry_disable">Desactiver</string>
   <string name="bestpicture_done">OK</string>
   <string name="pref_camera2_shutter_sound_entry_on">ACTIVÉE</string>
   <string name="pref_camera2_shutter_sound_entry_off">Désactivé</string>

@@ -26,17 +26,26 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
+  <string name="pref_camera_powermode_title">Modo de Energía</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_entry_lp">Bateria Baja</string>
+  <string name="pref_camera_powermode_entry_np">Bateria Normal</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
+  <string name="pref_camera_autoexposure_title">Exposición automática</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
+  <string name="pref_camera_autoexposure_entry_frameaverage">Media de fotogramas</string>
+  <string name="pref_camera_autoexposure_entry_centerweighted">Compensación al Centro</string>
+  <string name="pref_camera_autoexposure_entry_spotmetering">Medición puntual</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Video encoder title -->
+  <string name="pref_camera_videoencoder_title">Códec de video</string>
   <!-- Settings screen, Video encoder dialog radio button choices -->
   <!-- Default video encoder setting. A numerical value. -->
   <!-- Settings screen, Video encoder dialog title -->
+  <string name="pref_camera_videoencoder_dialogtitle">Códec de video</string>
   <!-- Default audio encoder setting. A numerical value. -->
   <!-- Settings screen, Audio encoder title -->
   <!-- Settings screen, Audio encoder dialog radio button choices -->
@@ -51,8 +60,12 @@
   <!-- Settings screen, Selectable zone af title -->
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_selectablezoneaf_entry_auto">Automático</string>
+  <string name="pref_camera_selectablezoneaf_entry_spotmetering">Medición puntual</string>
+  <string name="pref_camera_selectablezoneaf_entry_centerweighted">Compensación al Centro</string>
+  <string name="pref_camera_selectablezoneaf_entry_frameaverage">Media de fotogramas</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Selectable advanced features title -->
+  <string name="pref_camera_advanced_features_title">Opciones Avanzadas</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Ninguno</string>
   <!-- Auto exposure entry values. Do not translate. -->
