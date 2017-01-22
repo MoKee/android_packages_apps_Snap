@@ -542,6 +542,6 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">正在設定桌布</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
-  <string name="remaining_photos_format">%d 左</string>
+  <string name="remaining_photos_format">剩下 %d 張</string>
   <string name="makeup_video_size_limit">美顏僅在 VGA 尺寸下的影片錄製。</string>
 </resources>
