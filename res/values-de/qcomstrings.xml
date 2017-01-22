@@ -369,7 +369,7 @@
   <string name="all_in_focus">Alles im Fokus</string>
   <string name="refocus_toast">Tippen Sie hier, um das letzte Foto neu zu fokussieren.</string>
   <!-- Help menu strings -->
-  <string name="help_menu_ok">OK</string>
+  <string name="help_menu_ok">Ok</string>
   <string name="help_menu_scene_mode_2">Szenenmodus</string>
   <string name="pref_camera2_camera2_entry_enable">Aktivieren</string>
   <string name="pref_camera2_mono_preview_entry_on">An</string>

@@ -98,7 +98,9 @@
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_entry_0">அலைபேசி</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
+  <string name="setting_off">அணை</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
   <!-- The value of a camera preference indicating the setting is off. -->
   <!-- The value of a camera preference indicating the setting is on. -->
@@ -129,6 +131,7 @@
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
   <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
+  <string name="pref_camera_flashmode_entry_off">அணை</string>
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
   <!-- Default videocamera flash mode setting.-->
   <!-- Default white balance setting. -->
@@ -147,6 +150,7 @@
   <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_night">இரவு</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
   <!-- Scene mode for refocus feature [CHAR LIMIT=16] -->
@@ -229,6 +233,7 @@ CHAR LIMIT = NONE] -->
   <!-- Default text for a button that can be toggled on and off. -->
   <!-- Default text for a button that can be toggled on and off. -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_off">அணை</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -290,6 +295,7 @@ CHAR LIMIT = NONE] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
+  <string name="tiny_planet_rotate">சுழற்று</string>
   <!-- Crop -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->

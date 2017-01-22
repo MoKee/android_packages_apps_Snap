@@ -72,6 +72,7 @@
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
+  <string name="unknown">Unknown</string>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
@@ -292,6 +293,7 @@ CHAR LIMIT = NONE] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
+  <string name="tiny_planet_rotate">ঘোরান</string>
   <!-- Crop -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
