@@ -269,6 +269,7 @@ CHAR LIMIT = NONE] -->
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+  <string name="remember_location_yes">Sí</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
   <!-- settings label [CHAR LIMIT=50] -->

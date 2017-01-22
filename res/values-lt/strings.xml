@@ -144,6 +144,7 @@
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">Laikmačio pyps.</string>
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_entry_0">Telefonas</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">Išjungti</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
@@ -228,6 +229,7 @@
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Veiksmas</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_night">Naktis</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_sunset">Saulėlydis</string>
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
@@ -462,6 +464,7 @@ CHAR LIMIT = NONE] -->
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_no">Ne, ačiū</string>
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+  <string name="remember_location_yes">Taip</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
   <string name="camera_menu_more_label">DAUGIAU PARINKČIŲ</string>
@@ -475,6 +478,7 @@ CHAR LIMIT = NONE] -->
   <string name="tiny_planet_rotate">Pasukti</string>
   <!-- Crop -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
+  <string name="crop_save">Išsaugoti</string>
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
   <string name="cannot_load_image">Nepavyksta įkelti vaizdo!</string>
   <!-- Label for album filmstrip button -->

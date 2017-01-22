@@ -512,6 +512,7 @@ CHAR LIMIT = NONE] -->
   <string name="tiny_planet_rotate">Rotire</string>
   <!-- Crop -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
+  <string name="crop_save">Salvaţi</string>
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
   <string name="cannot_load_image">Nu se poate încărca imaginea!</string>
   <!-- Label for album filmstrip button -->

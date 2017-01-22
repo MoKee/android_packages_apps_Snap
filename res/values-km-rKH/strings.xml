@@ -482,8 +482,10 @@ CHAR LIMIT = NONE] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
+  <string name="tiny_planet_rotate">បង្វិល</string>
   <!-- Crop -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
+  <string name="crop_save">រក្សាទុក</string>
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
   <string name="cannot_load_image">មិន​អាច​ផ្ទុក​រូបភាព​!</string>
   <!-- Label for album filmstrip button -->

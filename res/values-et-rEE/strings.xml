@@ -172,6 +172,7 @@
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">Loenduse heli</string>
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_entry_0">Telefon</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">Väljas</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->

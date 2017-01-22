@@ -314,7 +314,7 @@
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">HAUPTKAMERA</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">Ok</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
   <string name="spaceIsLow_content" product="default">Auf Ihrer SD-Karte ist nicht mehr genügend Speicherplatz vorhanden. Ändern Sie die Qualitätseinstellung oder löschen Sie Bilder oder andere Dateien.</string>
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
