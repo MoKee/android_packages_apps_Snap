@@ -80,7 +80,7 @@
   <string name="pref_camera_manual_exp_entry_ISO_priority">Prioridade ISO</string>
   <string name="pref_camera_manual_exp_entry_exptime_priority">Prioridade de tempo de exposição</string>
   <string name="pref_camera_manual_exp_entry_user_setting">Configuração do usuário</string>
-  <string name="pref_camera_manual_exp_entry_off">Desl.</string>
+  <string name="pref_camera_manual_exp_entry_off">Desligado</string>
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_title">Balanço de branco manual</string>
   <string name="pref_camera_manual_wb_entry_color_temperature">Temperatura da cor</string>
@@ -90,7 +90,7 @@
   <string name="pref_camera_manual_focus_title">Foco manual</string>
   <string name="pref_camera_manual_focus_entry_scale_mode">Modo de escala</string>
   <string name="pref_camera_manual_focus_entry_diopter_mode">Modo de dioptria</string>
-  <string name="pref_camera_manual_focus_entry_off">Desl.</string>
+  <string name="pref_camera_manual_focus_entry_off">Desligado</string>
   <!-- Instant Capture entry -->
   <string name="pref_camera_instant_capture_title" translatable="true">Captura instantânea</string>
   <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">AEC agressivo</string>
@@ -99,7 +99,7 @@
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Desligado</string>
-  <string name="pref_camera_zsl_entry_on">Ativo</string>
+  <string name="pref_camera_zsl_entry_on">Ligado</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
   <string name="hdr_enable_message">HDR está ativado, somente o modo de cena automático é suportado</string>
   <string name="scene_enable_message">HDR não é suportado somente no modo de cena automático</string>

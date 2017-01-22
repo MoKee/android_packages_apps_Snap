@@ -131,7 +131,7 @@
          [CHAR LIMIT=150] -->
   <string name="try_to_set_local_album_available_offline">Este item está armazenado localmente e disponível para uso off-line.</string>
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
-  <string name="please_wait">Aguarde</string>
+  <string name="please_wait">Por favor, aguarde</string>
   <!-- Text to show with progress bar while stitching a photo sphere. 'Photo sphere' is a product name. [CHAR LIMIT=35]-->
   <string name="rendering_photo_sphere">Renderizando photo sphere</string>
   <!-- title for the dialog showing the error of camera hardware -->
@@ -180,7 +180,7 @@
   <string name="pref_camera_savepath_entry_0">Telefone</string>
   <string name="pref_camera_savepath_entry_1">Cartão SD</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
-  <string name="setting_off">Desl.</string>
+  <string name="setting_off">Desligado</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
   <string name="setting_on">Ligado</string>
   <!-- The value of a camera preference indicating the setting is off. -->
