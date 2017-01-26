@@ -169,7 +169,7 @@
     <item quantity="other">%d 秒</item>
   </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
-  <string name="pref_camera_timer_sound_title">倒计时过程中发出提示音</string>
+  <string name="pref_camera_timer_sound_title">倒计时提示音</string>
   <!-- Entry of camera save path -->
   <string name="pref_camera_savepath_title">存储空间</string>
   <string name="pref_camera_savepath_entry_0">电话</string>
