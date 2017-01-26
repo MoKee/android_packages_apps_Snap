@@ -208,12 +208,19 @@
   <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automatique</string>
+  <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Anti-scintillement</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Automatique</string>
+  <string name="pref_camera_antibanding_entry_1">50 Hz (Europe)</string>
+  <string name="pref_camera_antibanding_entry_2">60 Hz (États-Unis)</string>
   <string name="pref_camera_antibanding_entry_3">Automatique</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Activé</string>
