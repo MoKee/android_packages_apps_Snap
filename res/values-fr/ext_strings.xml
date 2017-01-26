@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- common aspect ratios -->
   <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
+  <string name="pref_camera_aspectratio_wide">Large</string>
   <!-- format for entries in the picture size menu. Parameter one is aspect ratio
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
@@ -41,6 +42,7 @@
   <string name="pref_camera_scenemode_entry_dark">Sombre</string>
   <string name="pref_camera_scenemode_entry_dish">Plat</string>
   <string name="pref_camera_scenemode_entry_duskdawn">Crépuscule</string>
+  <string name="pref_camera_scenemode_entry_document">Document</string>
   <string name="pref_camera_scenemode_entry_fallcolor">Couleur d\'automne</string>
   <string name="pref_camera_scenemode_entry_fireworks">Feux d\'artifice</string>
   <string name="pref_camera_scenemode_entry_flowers">Fleurs</string>
@@ -54,8 +56,10 @@
   <string name="pref_camera_scenemode_entry_nightindoor">Intérieur de nuit</string>
   <string name="pref_camera_scenemode_entry_oldfilm">Vieux film</string>
   <string name="pref_camera_scenemode_entry_pet">Animal</string>
+  <string name="pref_camera_scenemode_entry_portrait">Portrait</string>
   <string name="pref_camera_scenemode_entry_snow">Neige</string>
   <string name="pref_camera_scenemode_entry_softskin">Peau douce</string>
+  <string name="pref_camera_scenemode_entry_sports">Sports</string>
   <string name="pref_camera_scenemode_entry_spotlight">Projecteur</string>
   <string name="pref_camera_scenemode_entry_steadyphoto">Photo stable</string>
   <string name="pref_camera_scenemode_entry_supernight">Nuit noire</string>
@@ -71,6 +75,8 @@
   <string name="pref_camera_focusmode_entry_facepriority">Priorité au visage</string>
   <string name="pref_camera_focusmode_entry_fixed">Fixé</string>
   <string name="pref_camera_focusmode_entry_normal">Standard</string>
+  <string name="pref_camera_focusmode_entry_portrait">Portrait</string>
+  <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfocale</string>
   <!-- Color effects -->
   <string name="pref_camera_coloreffect_entry_washed">Lavé</string>
   <string name="pref_camera_coloreffect_entry_vintage_warm">Vintage chaud</string>
@@ -88,9 +94,15 @@
   <string name="pref_camera_max_brightness_title">Luminosité de l\'écran</string>
   <!-- Touch focus duration -->
   <string name="pref_camera_focustime_title">Durée de mise au point tactile</string>
+  <string name="pref_camera_focustime_entry_0">0s</string>
+  <string name="pref_camera_focustime_entry_3">3s</string>
+  <string name="pref_camera_focustime_entry_5">5s</string>
+  <string name="pref_camera_focustime_entry_10">10s</string>
   <string name="pref_camera_focustime_entry_infinite">Infini</string>
   <!-- Shutter speed -->
   <string name="pref_camera_shutter_speed_title">Vitesse d\'obturation</string>
   <string name="auto_hdr_enabled">HDR Auto activé</string>
   <!-- Advanced options -->
+  <string name="developer_menu_enabled">Vous avez activé les options avancées de l\'appareil photo</string>
+  <string name="developer_menu_disabled">Vous avez désactivé les options avancées de l\'appareil photo</string>
 </resources>
