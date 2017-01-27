@@ -28,8 +28,8 @@
   <string name="delete">Usuń</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <plurals name="delete_selection">
-    <item quantity="one">Usunąć wybrany element?</item>
-    <item quantity="few">Usunąć wybrane elementy?</item>
+    <item quantity="one">Czy usunąć wybrany element?</item>
+    <item quantity="few">Czy usunąć wybrane elementy?</item>
     <item quantity="other">Usunąć wybranych elementów?</item>
   </plurals>
   <string name="share">Udostępnij</string>
@@ -38,7 +38,7 @@
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
   <string name="deleted">Usunięto</string>
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
-  <string name="undo">COFNIJ</string>
+  <string name="undo">Cofnij</string>
   <string name="details">Szczegóły</string>
   <string name="close">Zamknij</string>
   <!-- String indicating how many media item(s) is(are) selected
@@ -145,7 +145,9 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">Aparat został wyłączony z powodu zasad bezpieczeństwa.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
+  <string name="error_permissions">Ta aplikacja nie ma uprawnień koniecznych do działania. Sprawdź jej uprawnienia.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+  <string name="dialog_dismiss">Odrzuć</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Proszę czekać\u2026</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -179,7 +181,9 @@
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">Sygnał odliczania</string>
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_title">Pamięć</string>
   <string name="pref_camera_savepath_entry_0">Telefon</string>
+  <string name="pref_camera_savepath_entry_1">Karda SD</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">Wyłączona</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
@@ -257,6 +261,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automatycznie</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -299,14 +304,23 @@
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
   <string name="not_selectable_in_scene_mode">Opcja niedostępna w trybie scenerii.</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
+  <string name="HDR_disable_continuous_shot">HDR wyłączy tryb ciągły</string>
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
+  <string name="advanced_capture_disable_continuous_shot">Zaawansowane przechwytywanie wyłączy tryb ciągły (zdjęcia seryjne).</string>
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
+  <string name="video_quality_4k_disable_IS">Nagrywanie w 4K wyłączy stabilizację.</string>
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
+  <string name="video_quality_4k_disable_SeeMore">Nie można włączyć funkcji SeeMore podczas nagrywania w 4K.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_HighQualityNoiseReduction">Redukcja szumów wysokiej jakości wyłączy CDS.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_HighQualityNoiseReduction">Redukcja szumów wysokiej jakości wyłączy TNR.</string>
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_SeeMore">SeeMore spowoduje wyłączenie CDS.</string>
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_SeeMore">SeeMore spowoduje wyłączenie TNR.</string>
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
+  <string name="disable_NR_during_SeeMore">SeeMore spowoduje wyłączenie redukcji szumów.</string>
   <!-- Exposure settings in preference -->
   <string name="pref_exposure_title">Ekspozycja</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
@@ -538,4 +552,6 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Ustawiam tapetę</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="remaining_photos_format">Pozostało %d</string>
+  <string name="makeup_video_size_limit">\"Makijaż\" działa tylko w rozmiarze wideo VGA.</string>
 </resources>
