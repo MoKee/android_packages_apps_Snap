@@ -67,7 +67,7 @@
   <string name="pref_camera_selectablezoneaf_entry_auto">Automatycznie</string>
   <string name="pref_camera_selectablezoneaf_entry_spotmetering">Pomiar punktowy</string>
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Centralnie ważony</string>
-  <string name="pref_camera_selectablezoneaf_entry_frameaverage">Średnia ramki</string>
+  <string name="pref_camera_selectablezoneaf_entry_frameaverage">Ramka centrująca</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Funkcje zaawansowane</string>
@@ -176,7 +176,7 @@
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
   <string name="error_app_unsupported_profile">Nieobsługiwany format wideo</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
-  <string name="error_app_unsupported_raw">Format RAW nie jest obsługiwany w trybie zerowego opóźnienia migawki. Wybierz JPEG</string>
+  <string name="error_app_unsupported_raw">Format RAW nie jest obsługiwany w trybie zerowego opóźnienia migawki. Wybierz JPEG.</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Autobracketing ekspozycji</string>
   <string name="pref_camera_ae_bracket_hdr_title">Autobracketing ekspozycji</string>
@@ -348,9 +348,9 @@
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
   <string name="pref_camera_scenedetect_entry_on">Włącz</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
-  <string name="time_lapse_error">Błędny rozmiar video dla czasu nagrywania.</string>
+  <string name="time_lapse_error">Błędny rozmiar wideo dla czasu nagrywania</string>
   <!-- longshot value -->
-  <string name="pref_camera_longshot_title">Tryb ciągły</string>
+  <string name="pref_camera_longshot_title">Tryb ciągły (zdjęcia seryjne)</string>
   <string name="msg_cancel_longshot_for_limited_memory">Brak pamięci, tryb ciągły niedostępny</string>
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">Lampa błyskowa nie jest obsługiwana w trybie autobracketingu</string>
@@ -360,7 +360,7 @@
   <string name="pref_camera_auto_hdr_entry_enable">Włącz</string>
   <string name="pref_camera_auto_hdr_entry_disable">Wyłącz</string>
   <!-- toast message for storage location switch -->
-  <string name="on_switch_save_path_to_sdcard">Kończy się miejsce w pamięci urządzenia. Zdjęcia będą zapisywane na karcie SD</string>
+  <string name="on_switch_save_path_to_sdcard">Kończy się miejsce w pamięci urządzenia. Zdjęcia będą zapisywane na karcie SD.</string>
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">Tryb HDR</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
@@ -413,6 +413,7 @@
   <string name="mute_button_desc">Wycisz dźwięk migawki</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">OK</string>
+  <string name="help_menu_scene_mode_1">Wybierz</string>
   <string name="help_menu_scene_mode_2">Tryb scenerii</string>
   <string name="help_menu_scene_mode_3">dla lepszego efektu</string>
   <string name="help_menu_color_filter_1">Zastosuj kolor</string>
@@ -449,7 +450,7 @@
   <string name="pref_camera2_trackingfocus_title">Śledzenie ostrości</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Najlepsze zdjęcie</string>
   <string name="bestpicture_done">Gotowe</string>
-  <string name="bestpicture_at_least_one_picture">Przynajmniej jedno zdjęcie musi zostać wybrane</string>
+  <string name="bestpicture_at_least_one_picture">Musisz wybrać przynajmniej jedno zdjęcie</string>
   <string name="pref_camera2_shutter_sound_entry_on">Włącz</string>
   <string name="pref_camera2_shutter_sound_entry_off">Wyłącz</string>
   <string name="pref_camera2_shutter_sound_title">Dźwięk migawki</string>
