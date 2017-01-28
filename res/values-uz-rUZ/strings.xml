@@ -70,6 +70,7 @@
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
+  <string name="unknown">Ko`rsatilmagan</string>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
