@@ -26,7 +26,9 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
+  <string name="pref_camera_powermode_title">Mode daya</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_entry_lp">Daya rendah</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
@@ -45,6 +47,7 @@
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Power</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Nonaktif</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <!-- Default selectable zone af setting. Do not translate. -->
@@ -57,12 +60,14 @@
   <string name="pref_camera_advanced_feature_entry_none">Tidak ada</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Manual exposure control entry values -->
+  <string name="pref_camera_manual_exp_entry_ISO_priority">Prioritas ISO</string>
   <string name="pref_camera_manual_exp_entry_off">Mati</string>
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_entry_off">Mati</string>
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_entry_off">Mati</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_entry_disable" translatable="true">Nonaktif</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Mati</string>
@@ -80,9 +85,11 @@
   <string name="pref_camera_video_cds_entry_on">Aktif</string>
   <string name="pref_camera_video_cds_entry_auto">Otomatis</string>
   <!-- Settings screen, TNR location dialog choices -->
+  <string name="pref_camera_tnr_entry_disable">Nonaktif</string>
   <string name="pref_camera_tnr_entry_enable">Power</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
+  <string name="pref_camera_video_tnr_entry_disable">Nonaktif</string>
   <string name="pref_camera_video_tnr_entry_enable">Power</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
@@ -96,6 +103,7 @@
   <!-- Default video tnr mode setting-->
   <!-- Default face  detection setting. -->
   <!-- Settings screen, Select Face Detection -->
+  <string name="pref_camera_facedetection_title">Deteksi wajah</string>
   <!-- Settings menu, Face Detection choices -->
   <string name="pref_camera_facedetection_entry_off">Mati</string>
   <string name="pref_camera_facedetection_entry_on">Aktif</string>
@@ -108,7 +116,9 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Power</string>
+  <string name="pref_camera_redeyereduction_entry_disable">Nonaktif</string>
   <string name="pref_camera_selfiemirror_entry_enable">Power</string>
+  <string name="pref_camera_selfiemirror_entry_disable">Nonaktif</string>
   <string name="pref_camera_shuttersound_entry_enable">Diaktifkan</string>
   <string name="pref_camera_shuttersound_entry_disable">Dinonaktifkan</string>
   <!-- Default mce setting. Do not translate. -->
@@ -226,6 +236,7 @@
   <!-- Settings screen, Select Histogram title -->
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Power</string>
+  <string name="pref_camera_histogram_entry_disable">Nonaktif</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -239,6 +250,7 @@
   <!-- Settings screen, setting title text for Auto HDR-->
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Power</string>
+  <string name="pref_camera_auto_hdr_entry_disable">Nonaktif</string>
   <!-- toast message for storage location switch -->
   <!-- Settings screen, Selectable HDR mode title -->
   <!-- Settings screen, Selectable HDR mode radio button choices -->
@@ -266,6 +278,7 @@
   <string name="help_menu_ok">Oke</string>
   <string name="help_menu_scene_mode_2">Mode adegan</string>
   <string name="pref_camera2_camera2_entry_enable">Power</string>
+  <string name="pref_camera2_camera2_entry_disable">Nonaktif</string>
   <string name="pref_camera2_mono_preview_entry_on">Aktif</string>
   <string name="pref_camera2_mono_preview_entry_off">Mati</string>
   <string name="pref_camera2_clearsight_entry_on">Aktif</string>
@@ -274,6 +287,7 @@
   <string name="pref_camera2_mpo_entry_off">Mati</string>
   <string name="pref_camera2_noise_reduction_entry_off">Mati</string>
   <string name="pref_camera2_videosnap_entry_enable">Power</string>
+  <string name="pref_camera2_videosnap_entry_disable">Nonaktif</string>
   <string name="bestpicture_done">SELESAI</string>
   <string name="pref_camera2_shutter_sound_entry_on">Aktif</string>
   <string name="pref_camera2_shutter_sound_entry_off">Mati</string>
