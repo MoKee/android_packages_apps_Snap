@@ -29,42 +29,69 @@
   <string name="pref_camera_powermode_title">Рэжым сілкавання</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_entry_lp">Энергазберажэнне</string>
+  <string name="pref_camera_powermode_entry_np">Звычайнае</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
+  <string name="pref_camera_autoexposure_title">Аўтаматычная экспазіцыя</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
+  <string name="pref_camera_autoexposure_entry_frameaverage">Сярэдні кадр</string>
+  <string name="pref_camera_autoexposure_entry_centerweighted">Па цэнтру кадра</string>
+  <string name="pref_camera_autoexposure_entry_spotmetering">Кропкавы</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Video encoder title -->
+  <string name="pref_camera_videoencoder_title">Відэакодэк</string>
   <!-- Settings screen, Video encoder dialog radio button choices -->
   <!-- Default video encoder setting. A numerical value. -->
   <!-- Settings screen, Video encoder dialog title -->
+  <string name="pref_camera_videoencoder_dialogtitle">Відэакодэк</string>
   <!-- Default audio encoder setting. A numerical value. -->
   <!-- Settings screen, Audio encoder title -->
+  <string name="pref_camera_audioencoder_title">Аўдыёкодэк</string>
   <!-- Settings screen, Audio encoder dialog radio button choices -->
   <!-- Default video duration setting. A numerical value.-->
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
   <!-- Settings screen, Select Skin Tone Enhancement title -->
+  <string name="pref_camera_skinToneEnhancement_title">Паляпшэнне колеру скуры</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Уключыць</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Адключыць</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
+  <string name="pref_camera_zsl_title">Нулявая затрымка засаўкі</string>
   <!-- Default selectable zone af setting. Do not translate. -->
   <!-- Settings screen, Selectable zone af title -->
+  <string name="pref_camera_selectablezoneaf_title">Зона аўтафокусу</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_selectablezoneaf_entry_auto">Аўта</string>
+  <string name="pref_camera_selectablezoneaf_entry_spotmetering">Кропкавы</string>
+  <string name="pref_camera_selectablezoneaf_entry_centerweighted">Па цэнтру кадра</string>
+  <string name="pref_camera_selectablezoneaf_entry_frameaverage">Сярэдні кадр</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Selectable advanced features title -->
+  <string name="pref_camera_advanced_features_title">Дадатковыя налады</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Нічога</string>
+  <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Шматкропкавая факусоўка</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Manual exposure control entry values -->
+  <string name="pref_camera_manual_exp_title">Ручная экспазіцыя</string>
+  <string name="pref_camera_manual_exp_entry_ISO_priority">Прыярытэт ISO</string>
+  <string name="pref_camera_manual_exp_entry_exptime_priority">Прыярытэт вытрымкі</string>
+  <string name="pref_camera_manual_exp_entry_user_setting">Карыст. налады</string>
   <string name="pref_camera_manual_exp_entry_off">Выключыць</string>
   <!-- Manual white balance entry values -->
+  <string name="pref_camera_manual_wb_title">Ручны баланс белага</string>
+  <string name="pref_camera_manual_wb_entry_color_temperature">Каляровая тэмпература</string>
+  <string name="pref_camera_manual_wb_entry_rbgb_gains">Узроўні RBGB</string>
   <string name="pref_camera_manual_wb_entry_off">Выключыць</string>
   <!-- Manual Focus entry values -->
+  <string name="pref_camera_manual_focus_title">Ручная факусоўка</string>
+  <string name="pref_camera_manual_focus_entry_scale_mode">Рэжым шкалы</string>
   <string name="pref_camera_manual_focus_entry_off">Выключыць</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_entry_disable" translatable="true">Адключыць</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Выключыць</string>
@@ -82,9 +109,11 @@
   <string name="pref_camera_video_cds_entry_on">Укл.</string>
   <string name="pref_camera_video_cds_entry_auto">Аўта</string>
   <!-- Settings screen, TNR location dialog choices -->
+  <string name="pref_camera_tnr_entry_disable">Адключыць</string>
   <string name="pref_camera_tnr_entry_enable">Уключыць</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
+  <string name="pref_camera_video_tnr_entry_disable">Адключыць</string>
   <string name="pref_camera_video_tnr_entry_enable">Уключыць</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
@@ -110,7 +139,9 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Уключыць</string>
+  <string name="pref_camera_redeyereduction_entry_disable">Адключыць</string>
   <string name="pref_camera_selfiemirror_entry_enable">Уключыць</string>
+  <string name="pref_camera_selfiemirror_entry_disable">Адключыць</string>
   <string name="pref_camera_shuttersound_entry_enable">Уключана</string>
   <string name="pref_camera_shuttersound_entry_disable">Выключана</string>
   <!-- Default mce setting. Do not translate. -->
@@ -229,6 +260,7 @@
   <string name="pref_camera_histogram_title">Гістаграма</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Уключыць</string>
+  <string name="pref_camera_histogram_entry_disable">Адключыць</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -242,6 +274,7 @@
   <!-- Settings screen, setting title text for Auto HDR-->
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Уключыць</string>
+  <string name="pref_camera_auto_hdr_entry_disable">Адключыць</string>
   <!-- toast message for storage location switch -->
   <!-- Settings screen, Selectable HDR mode title -->
   <!-- Settings screen, Selectable HDR mode radio button choices -->
@@ -272,6 +305,7 @@
   <string name="help_menu_ok">ОК</string>
   <string name="help_menu_scene_mode_2">Рэжым сцэны</string>
   <string name="pref_camera2_camera2_entry_enable">Уключыць</string>
+  <string name="pref_camera2_camera2_entry_disable">Адключыць</string>
   <string name="pref_camera2_mono_preview_entry_on">Укл.</string>
   <string name="pref_camera2_mono_preview_entry_off">Выключыць</string>
   <string name="pref_camera2_clearsight_entry_on">Укл.</string>
@@ -280,6 +314,7 @@
   <string name="pref_camera2_mpo_entry_off">Выключыць</string>
   <string name="pref_camera2_noise_reduction_entry_off">Выключыць</string>
   <string name="pref_camera2_videosnap_entry_enable">Уключыць</string>
+  <string name="pref_camera2_videosnap_entry_disable">Адключыць</string>
   <string name="bestpicture_done">ЗРОБЛЕНА</string>
   <string name="pref_camera2_shutter_sound_entry_on">Укл.</string>
   <string name="pref_camera2_shutter_sound_entry_off">Выключыць</string>

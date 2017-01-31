@@ -92,6 +92,9 @@
   <string name="pref_camera_manual_focus_entry_diopter_mode">Режим диоптрий</string>
   <string name="pref_camera_manual_focus_entry_off">Откл.</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_title" translatable="true">Мгновенный захват</string>
+  <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">Агрессивный AEC</string>
+  <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">Быстрый AEC</string>
   <string name="pref_camera_instant_capture_entry_disable" translatable="true">Выкл</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
@@ -151,8 +154,10 @@
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Включить</string>
   <string name="pref_camera_redeyereduction_entry_disable">Выкл</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Селфи-зеркало</string>
   <string name="pref_camera_selfiemirror_entry_enable">Включить</string>
   <string name="pref_camera_selfiemirror_entry_disable">Выкл</string>
+  <string name="pref_camera_shuttersound_title" translatable="true">Звук затвора</string>
   <string name="pref_camera_shuttersound_entry_enable">Включено</string>
   <string name="pref_camera_shuttersound_entry_disable">Отключено</string>
   <!-- Default mce setting. Do not translate. -->
@@ -169,15 +174,21 @@
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
   <string name="error_app_unsupported">Видеокодек не поддерживает выбранное разрешение</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
+  <string name="error_app_unsupported_profile">Неподдерживаемый профиль видео</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">Съёмка в формате RAW не поддерживается при включённой технологии нулевого запаздывания затвора (ZSL). Переключите формат изображения на JPEG.</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE брекетинг</string>
   <string name="pref_camera_ae_bracket_hdr_title">Автобрекетинг</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Вкл.</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Отключить</string>
+  <string name="err_app_unsupport_ae_bracket_code">AE брекетинг пока не поддерживается</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
+  <string name="snapshot_lower_than_video">Размер эскиза видео меньше, чем размер видео, установлен размер видео. Пожалуйста, выберите разрешение больше или равное текущему разрешению видео.</string>
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
+  <string name="snapshotsize_low_powermode">Изменение разрешения изображения невозможно в энергосберегающем режиме. Переключитесь в режим сбалансированного энергопотребления для использования этой функции.</string>
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
+  <string name="snapshot_qcif_and_d1">Для этого разрешения поддерживается только снимок с текущим разрешением видеосъёмки.</string>
   <!-- Default hfr setting. Do not translate. -->
   <!-- Settings screen, Select hfr title -->
   <string name="pref_camera_hfr_title">Ускоренная съёмка</string>
@@ -190,9 +201,11 @@
   <string name="pref_camera_hfr_entry_hsr_60">Ускор. съёмка — 60 к/с</string>
   <string name="pref_camera_hfr_entry_hsr_90">Ускор. съёмка — 90 к/с</string>
   <string name="pref_camera_hfr_entry_hsr_120">Ускор. съёмка — 120 к/с</string>
+  <string name="pref_camera_hfr_entry_hsr_240">Ускор. съёмка — 240 к/с</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
+  <string name="pref_camera_noise_reduction_title">Шумопонижение</string>
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_noise_reduction_entry_off">Отключить</string>
   <string name="pref_camera_noise_reduction_entry_fast">Быстро</string>
@@ -254,6 +267,7 @@
   <string name="pref_camera_coloreffect_entry_greentint">Зелёный оттенок</string>
   <!-- Default Touch AF/AEC setting. Do not translate. -->
   <!-- Settings screen, Select Touch AF/AEC title -->
+  <string name="pref_camera_touchafaec_title">Сенсорная фокусировка</string>
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
   <string name="pref_camera_touchafaec_entry_off">Отключить</string>
   <string name="pref_camera_touchafaec_entry_on">Вкл.</string>
@@ -335,6 +349,7 @@
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
   <string name="pref_camera_scenedetect_entry_on">Вкл.</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
+  <string name="time_lapse_error">Недопустимый размер кадра для замедленной съемки.</string>
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Непрерывная съёмка</string>
   <string name="msg_cancel_longshot_for_limited_memory">Не хватает памяти, непрерывная съёмка отменена</string>
@@ -362,6 +377,7 @@
   <!--Settings screen, video rotation title-->
   <string name="pref_camera_video_rotation_title">Поворот видео</string>
   <!--Menu, video rotation label-->
+  <string name="pref_camera_video_rotation_label">ПОВОРОТ ВИДЕО</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
   <string name="pref_camera_video_rotation_entry_0">0 градусов</string>
   <string name="pref_camera_video_rotation_entry_90">90 градусов</string>
@@ -375,35 +391,66 @@
   <string name="advance_feature_enable_msg">Непрерывная съёмка не поддерживается, когда включены расширенные функции</string>
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">Включить камеру</string>
+  <string name="pref_camera_tsmakeup_title">Украшение</string>
   <string name="pref_camera_tsmakeup_entry_on">Вкл.</string>
   <string name="pref_camera_tsmakeup_entry_off">Отключить</string>
   <string name="pref_camera_tsmakeup_entry_low">Низкий</string>
+  <string name="pref_camera_tsmakeup_entry_mid">Средний</string>
   <string name="pref_camera_tsmakeup_entry_high">Высокий</string>
   <string name="pref_camera_tsmakeup_custom">Вручную</string>
   <string name="pref_camera_tsmakeup_level_whiten">Отбелить</string>
   <string name="pref_camera_tsmakeup_level_clean">Смягчение</string>
+  <string name="text_tsmakeup_alert_title">Внимание</string>
+  <string name="text_tsmakeup_alert_msg">Необходимо включить распознавание лиц для того, чтобы использовать функцию украшения. Вы хотите продолжить?</string>
   <string name="text_tsmakeup_alert_continue">Продолжить</string>
   <string name="text_tsmakeup_alert_quit">Отмена</string>
   <string name="text_tsmakeup_beautify_toast">Автоулучшение</string>
   <string name="all_in_focus">Все в фокусе</string>
   <string name="refocus_toast">Чтобы перефокусировать последнее фото, нажмите здесь</string>
+  <string name="refocus_prompt_message">С UbiFocus ваша камера будет делать 5 снимков каждый раз, когда вы нажмете кнопку затвора. 5 фотографий будут объединены в 1 фотографию, где все находится в фокусе. Вы можете повторно сфокусироваться после того, как сделаете снимок.</string>
+  <string name="camera_thermal_shutdown">Перегрев телефона, закрытие камеры.</string>
+  <string name="camera_server_died">Медиа-сервер недоступен, закрытие камеры.</string>
+  <string name="camera_unknown_error">Неизвестная ошибка, закрытие камеры.</string>
+  <string name="mute_button_desc">Кнопка отключения звука</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">Да</string>
+  <string name="help_menu_scene_mode_1">Выберите</string>
   <string name="help_menu_scene_mode_2">Режим съемки</string>
+  <string name="help_menu_scene_mode_3">для улучшения изображений</string>
+  <string name="help_menu_color_filter_1">Применить цвет</string>
+  <string name="help_menu_color_filter_2">фильтры</string>
+  <string name="help_menu_color_filter_4">улучшить изображения</string>
+  <string name="help_menu_beautify_1">Улучшение портретов</string>
+  <string name="help_menu_beautify_2">при помощи</string>
+  <string name="help_menu_beautify_3">Функция украшения</string>
+  <string name="help_menu_switcher_1">Переключиться</string>
+  <string name="help_menu_switcher_2">между</string>
+  <string name="help_menu_switcher_3">фото, видео и панорамой</string>
+  <string name="pref_camera2_camera2_title">Режим Камеры 2</string>
   <string name="pref_camera2_camera2_entry_enable">Включить</string>
   <string name="pref_camera2_camera2_entry_disable">Выкл</string>
+  <string name="pref_camera2_mono_only_title">Только моно</string>
+  <string name="pref_camera2_mono_preview_title">Предпочитаю моно</string>
   <string name="pref_camera2_mono_preview_entry_on">Вкл.</string>
   <string name="pref_camera2_mono_preview_entry_off">Отключить</string>
   <string name="pref_camera2_clearsight_entry_on">Вкл.</string>
   <string name="pref_camera2_clearsight_entry_off">Отключить</string>
+  <string name="clearsight_capture_success">Съемка ClearSight успешна</string>
+  <string name="clearsight_capture_fail">Съемка ClearSight не удалась</string>
+  <string name="pref_camera2_mpo_title">MPO формат</string>
   <string name="pref_camera2_mpo_entry_on">Вкл.</string>
   <string name="pref_camera2_mpo_entry_off">Отключить</string>
+  <string name="pref_camera2_noise_reduction_title">Шумопонижение</string>
   <string name="pref_camera2_noise_reduction_entry_off">Отключить</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Быстро</string>
   <string name="pref_camera2_noise_reduction_entry_high_quality">Высокое качество</string>
   <string name="pref_camera2_videosnap_entry_enable">Включить</string>
   <string name="pref_camera2_videosnap_entry_disable">Выкл</string>
+  <string name="pref_camera2_trackingfocus_title">Отслеживание фокус</string>
+  <string name="pref_camera_scenemode_entry_bestpicture">Лучшее изображение</string>
   <string name="bestpicture_done">ГОТОВО</string>
+  <string name="bestpicture_at_least_one_picture">Необходимо выбрать хотя бы одно изображение.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Вкл.</string>
   <string name="pref_camera2_shutter_sound_entry_off">Отключить</string>
+  <string name="pref_camera2_shutter_sound_title">Звук затвора</string>
 </resources>
