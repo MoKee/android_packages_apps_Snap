@@ -56,6 +56,7 @@
   <string name="pref_camera_skinToneEnhancement_title">Vylepšení tónů pleti</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Povolit</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Zakázat</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <string name="pref_camera_zsl_title">Bez zpoždění závěrky</string>
@@ -114,6 +115,7 @@
   <string name="pref_camera_video_cds_entry_on">Zapnuto</string>
   <string name="pref_camera_video_cds_entry_auto">Automaticky</string>
   <!-- Settings screen, TNR location dialog choices -->
+  <string name="pref_camera_tnr_entry_disable">Zakázat</string>
   <string name="pref_camera_tnr_entry_enable">Povolit</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
@@ -151,7 +153,9 @@
   <string name="pref_camera_redeyereduction_title">Redukce červených očí</string>
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Povolit</string>
+  <string name="pref_camera_redeyereduction_entry_disable">Zakázat</string>
   <string name="pref_camera_selfiemirror_entry_enable">Povolit</string>
+  <string name="pref_camera_selfiemirror_entry_disable">Zakázat</string>
   <string name="pref_camera_shuttersound_title" translatable="true">Zvuk závěrky</string>
   <string name="pref_camera_shuttersound_entry_enable">Povoleno</string>
   <string name="pref_camera_shuttersound_entry_disable">Nezobrazovat</string>
@@ -169,15 +173,21 @@
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
   <string name="error_app_unsupported">Nepodporované rozlišení videa pro daný kodek</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
+  <string name="error_app_unsupported_profile">Nepodporovaný formát videa</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">Formát obrázku RAW není v režimu „Bez zpoždění závěrky“ podporován. Zvolte JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Automatický expoziční bracketing</string>
   <string name="pref_camera_ae_bracket_hdr_title">Automatický expoziční bracketing</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Zapnuto</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Vypnuto</string>
+  <string name="err_app_unsupport_ae_bracket_code">AE bracketing není zatím podporován</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
+  <string name="snapshot_lower_than_video">Rozlišení snímků z videa je nižší než vlastní rozlišení videa. Zvolte rozlišení vyšší nebo stejné jako snímané video.</string>
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
+  <string name="snapshotsize_low_powermode">Změna velikosti obrázku není povolena v režimu nízkého výkonu, velikost bude stejná jako snímané video. Zvolte normální výkon pro umožnění změny velikosti rozlišení obrázku.</string>
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
+  <string name="snapshot_qcif_and_d1">V tomto rozlišení je pro snímek z videa povolena pouze velikost snímaného videa.</string>
   <!-- Default hfr setting. Do not translate. -->
   <!-- Settings screen, Select hfr title -->
   <string name="pref_camera_hfr_title">Zpomalený pohyb</string>
@@ -190,11 +200,15 @@
   <string name="pref_camera_hfr_entry_hsr_60">Vysoká rychlost 60 FPS</string>
   <string name="pref_camera_hfr_entry_hsr_90">Vysoká rychlost 90 FPS</string>
   <string name="pref_camera_hfr_entry_hsr_120">Vysoká rychlost 120 FPS</string>
+  <string name="pref_camera_hfr_entry_hsr_240">Vysoká rychlost 240 FPS</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
+  <string name="pref_camera_noise_reduction_title">Redukce šumu</string>
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_noise_reduction_entry_off">Vypnuto</string>
+  <string name="pref_camera_noise_reduction_entry_fast">Rychle</string>
+  <string name="pref_camera_noise_reduction_entry_high_quality">Vysoká kvalita</string>
   <!-- see more entry values. Do not translate. -->
   <!-- Default see more setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
@@ -220,6 +234,7 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Auto</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Evropa)</string>
+  <string name="pref_camera_antibanding_entry_2">60Hz (USA)</string>
   <string name="pref_camera_antibanding_entry_3">Autom.</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Zapnuto</string>
@@ -317,6 +332,7 @@
   <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Povolit</string>
+  <string name="pref_camera_histogram_entry_disable">Zakázat</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -335,6 +351,7 @@
   <string name="pref_camera_auto_hdr_title">Auotmatické HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Povolit</string>
+  <string name="pref_camera_auto_hdr_entry_disable">Zakázat</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Nedostatek místa na vnitřním úložišti. Ukládání se přepne na kartu SD</string>
   <!-- Settings screen, Selectable HDR mode title -->
@@ -378,14 +395,19 @@
   <string name="help_menu_ok">OK</string>
   <string name="help_menu_scene_mode_2">Scénický režim</string>
   <string name="pref_camera2_camera2_entry_enable">Povolit</string>
+  <string name="pref_camera2_camera2_entry_disable">Zakázat</string>
   <string name="pref_camera2_mono_preview_entry_on">Zapnuto</string>
   <string name="pref_camera2_mono_preview_entry_off">Vypnuto</string>
   <string name="pref_camera2_clearsight_entry_on">Zapnuto</string>
   <string name="pref_camera2_clearsight_entry_off">Vypnuto</string>
   <string name="pref_camera2_mpo_entry_on">Zapnuto</string>
   <string name="pref_camera2_mpo_entry_off">Vypnuto</string>
+  <string name="pref_camera2_noise_reduction_title">Redukce šumu</string>
   <string name="pref_camera2_noise_reduction_entry_off">Vypnuto</string>
+  <string name="pref_camera2_noise_reduction_entry_fast">Rychle</string>
+  <string name="pref_camera2_noise_reduction_entry_high_quality">Vysoká kvalita</string>
   <string name="pref_camera2_videosnap_entry_enable">Povolit</string>
+  <string name="pref_camera2_videosnap_entry_disable">Zakázat</string>
   <string name="bestpicture_done">HOTOVO</string>
   <string name="pref_camera2_shutter_sound_entry_on">Zapnuto</string>
   <string name="pref_camera2_shutter_sound_entry_off">Vypnuto</string>
