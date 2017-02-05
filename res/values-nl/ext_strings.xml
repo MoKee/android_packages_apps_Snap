@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- common aspect ratios -->
   <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
+  <string name="pref_camera_aspectratio_wide">Breed</string>
   <!-- format for entries in the picture size menu. Parameter one is aspect ratio
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
@@ -26,7 +27,9 @@
   <!-- Settings screen, scene mode -->
   <string name="pref_camera_scenemode_entry_antimotionblur">Beweging verscherpen</string>
   <string name="pref_camera_scenemode_entry_aqua">Water</string>
+  <string name="pref_camera_scenemode_entry_ar">Augmented reality</string>
   <string name="pref_camera_scenemode_entry_asd">Beste opname</string>
+  <string name="pref_camera_scenemode_entry_baby">Baby</string>
   <string name="pref_camera_scenemode_entry_backgroundblur">Achtergrond vervagen</string>
   <string name="pref_camera_scenemode_entry_backlight">Tegenlicht</string>
   <string name="pref_camera_scenemode_entry_backlightportrait">Portret (tegenlicht)</string>
@@ -39,6 +42,7 @@
   <string name="pref_camera_scenemode_entry_dark">Donker</string>
   <string name="pref_camera_scenemode_entry_dish">Gerecht</string>
   <string name="pref_camera_scenemode_entry_duskdawn">Zonsop-/ondergang</string>
+  <string name="pref_camera_scenemode_entry_document">Document</string>
   <string name="pref_camera_scenemode_entry_fallcolor">Herfstkleuren</string>
   <string name="pref_camera_scenemode_entry_fireworks">Vuurwerk</string>
   <string name="pref_camera_scenemode_entry_flowers">Bloemen</string>
@@ -62,6 +66,7 @@
   <string name="pref_camera_scenemode_entry_sweepstitch">Draaipanorama</string>
   <string name="pref_camera_scenemode_entry_text">Tekst</string>
   <string name="pref_camera_scenemode_entry_theatre">Theater</string>
+  <string name="pref_camera_scenemode_entry_whiteboard">Whiteboard</string>
   <!-- Settings screen, focus mode -->
   <string name="pref_camera_focusmode_entry_continuous">Continu</string>
   <string name="pref_camera_focusmode_entry_mw_continuous">Continu (MW)</string>
@@ -98,4 +103,6 @@
   <string name="pref_camera_shutter_speed_title">Sluitertijd</string>
   <string name="auto_hdr_enabled">Auto-HDR ingeschakeld</string>
   <!-- Advanced options -->
+  <string name="developer_menu_enabled">U heeft de geavanceerde camera opties ingeschakeld</string>
+  <string name="developer_menu_disabled">U heeft de geavanceerde camera opties uitgeschakeld</string>
 </resources>

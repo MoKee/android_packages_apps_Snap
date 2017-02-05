@@ -261,6 +261,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automaticky</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -304,9 +305,13 @@
   <string name="not_selectable_in_scene_mode">Tuto možnost ve scénickém režimu vybrat nelze.</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
+  <string name="advanced_capture_disable_continuous_shot">Povolením rozšířeného snímání dojde k vypnutí sekvenčního snímání.</string>
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
+  <string name="video_quality_4k_disable_IS">Povolení videa velikosti 4k dojde k vypnutí stabilizace.</string>
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
+  <string name="video_quality_4k_disable_SeeMore">Během 4k videa nelze povolit SeeMore.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_HighQualityNoiseReduction">Vysoce kvalitní potlačení šumu zakáže CDS.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
@@ -542,4 +547,5 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Nastavování tapety</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="makeup_video_size_limit">Make-up funguje pouze pokud je rozlišení videa menší než VGA.</string>
 </resources>

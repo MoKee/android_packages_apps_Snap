@@ -88,6 +88,7 @@
   <string name="pref_camera_manual_focus_entry_diopter_mode">Diopter-Modus</string>
   <string name="pref_camera_manual_focus_entry_off">Aus</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_entry_disable" translatable="true">Deaktivieren</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Deaktiviert</string>
@@ -105,9 +106,11 @@
   <string name="pref_camera_video_cds_entry_on">An</string>
   <string name="pref_camera_video_cds_entry_auto">Automatisch</string>
   <!-- Settings screen, TNR location dialog choices -->
+  <string name="pref_camera_tnr_entry_disable">Deaktivieren</string>
   <string name="pref_camera_tnr_entry_enable">Aktivieren</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
+  <string name="pref_camera_video_tnr_entry_disable">Deaktivieren</string>
   <string name="pref_camera_video_tnr_entry_enable">Aktivieren</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
