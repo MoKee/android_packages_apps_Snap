@@ -18,19 +18,91 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- common aspect ratios -->
   <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
+  <string name="pref_camera_aspectratio_wide">Lebar</string>
   <!-- format for entries in the picture size menu. Parameter one is aspect ratio
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
+  <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f megapiksel</string>
   <!-- Settings screen, scene mode -->
+  <string name="pref_camera_scenemode_entry_antimotionblur">Reduksi gerakan yang agak kabur</string>
+  <string name="pref_camera_scenemode_entry_aqua">Aqua</string>
+  <string name="pref_camera_scenemode_entry_ar">Memperkaya realita</string>
+  <string name="pref_camera_scenemode_entry_asd">Bidikan terbaik</string>
+  <string name="pref_camera_scenemode_entry_baby">Bayi</string>
+  <string name="pref_camera_scenemode_entry_backgroundblur">Latar belakang kabur</string>
+  <string name="pref_camera_scenemode_entry_backlight">Lampu latar</string>
+  <string name="pref_camera_scenemode_entry_backlightportrait">Lampu latar foto potret</string>
+  <string name="pref_camera_scenemode_entry_barcode">Barcode</string>
+  <string name="pref_camera_scenemode_entry_beach">Pantai</string>
+  <string name="pref_camera_scenemode_entry_beauty">Cantik</string>
+  <string name="pref_camera_scenemode_entry_candlelight">Cahaya lilin</string>
+  <string name="pref_camera_scenemode_entry_cine">Sinema</string>
+  <string name="pref_camera_scenemode_entry_closeup">Memotret dari dekat</string>
+  <string name="pref_camera_scenemode_entry_dark">Gelap</string>
+  <string name="pref_camera_scenemode_entry_dish">Piring</string>
+  <string name="pref_camera_scenemode_entry_duskdawn">Senja fajar</string>
+  <string name="pref_camera_scenemode_entry_document">Dokumen</string>
+  <string name="pref_camera_scenemode_entry_fallcolor">Jatuh warna</string>
+  <string name="pref_camera_scenemode_entry_fireworks">Kembang api</string>
+  <string name="pref_camera_scenemode_entry_flowers">Bunga</string>
+  <string name="pref_camera_scenemode_entry_handheldtwilight">Mengenggam senja</string>
+  <string name="pref_camera_scenemode_entry_highsensitivity">Sensivitas tinggi</string>
+  <string name="pref_camera_scenemode_entry_indoor">Dalam ruangan</string>
+  <string name="pref_camera_scenemode_entry_landscape">Mendatar</string>
+  <string name="pref_camera_scenemode_entry_mix_illuminant">Pencahayaan campuran</string>
+  <string name="pref_camera_scenemode_entry_mood">Suasana hati</string>
+  <string name="pref_camera_scenemode_entry_nightportrait">Potret malam</string>
+  <string name="pref_camera_scenemode_entry_nightindoor">Dalam ruangan malam</string>
+  <string name="pref_camera_scenemode_entry_oldfilm">Film lama</string>
+  <string name="pref_camera_scenemode_entry_pet">Hewan peliharaan</string>
+  <string name="pref_camera_scenemode_entry_portrait">Tegak</string>
+  <string name="pref_camera_scenemode_entry_snow">Salju</string>
+  <string name="pref_camera_scenemode_entry_softskin">Kulit lembut</string>
+  <string name="pref_camera_scenemode_entry_sports">Olahraga</string>
+  <string name="pref_camera_scenemode_entry_spotlight">Lampu sorot</string>
+  <string name="pref_camera_scenemode_entry_steadyphoto">Foto stabil</string>
+  <string name="pref_camera_scenemode_entry_supernight">Malam gelap</string>
+  <string name="pref_camera_scenemode_entry_sweepstitch">Menyapu tautan</string>
+  <string name="pref_camera_scenemode_entry_text">Teks</string>
+  <string name="pref_camera_scenemode_entry_theatre">Teater</string>
+  <string name="pref_camera_scenemode_entry_whiteboard">Papan tulis putih</string>
   <!-- Settings screen, focus mode -->
+  <string name="pref_camera_focusmode_entry_continuous">Kontiniu</string>
+  <string name="pref_camera_focusmode_entry_mw_continuous">Kontiniu (MW)</string>
+  <string name="pref_camera_focusmode_entry_extended">Diperluas</string>
+  <string name="pref_camera_focusmode_entry_facedetect">Deteksi wajah</string>
+  <string name="pref_camera_focusmode_entry_facepriority">Prioritas wajah</string>
   <string name="pref_camera_focusmode_entry_fixed">Tetap</string>
   <string name="pref_camera_focusmode_entry_normal">Normal</string>
+  <string name="pref_camera_focusmode_entry_portrait">Tegak</string>
+  <string name="pref_camera_focusmode_entry_hyperfocal">Titik api berlebihan</string>
   <!-- Color effects -->
+  <string name="pref_camera_coloreffect_entry_washed">Dicuci</string>
+  <string name="pref_camera_coloreffect_entry_vintage_warm">Vintage hangat</string>
+  <string name="pref_camera_coloreffect_entry_vintage_cold">Vintage dingin</string>
+  <string name="pref_camera_coloreffect_entry_point_blue">Titik biru</string>
+  <string name="pref_camera_coloreffect_entry_point_green">Titik hijau</string>
+  <string name="pref_camera_coloreffect_entry_point_red_yellow">Titik merah kuning</string>
+  <string name="pref_camera_coloreffect_entry_cartoonize">Kartunis</string>
   <!-- Red eye flash mode title -->
+  <string name="pref_camera_flashmode_entry_redeye">Mata Merah</string>
+  <string name="pref_camera_flashmode_label_redeye">MATA MERAH</string>
   <!-- Power shutter -->
+  <string name="pref_camera_power_shutter_title">Kekuatan rana</string>
   <!-- Max brightness -->
+  <string name="pref_camera_max_brightness_title">Layar cerah</string>
   <!-- Touch focus duration -->
+  <string name="pref_camera_focustime_title">Durasi fokus sentuh</string>
+  <string name="pref_camera_focustime_entry_0">0s</string>
+  <string name="pref_camera_focustime_entry_3">3 dtk</string>
+  <string name="pref_camera_focustime_entry_5">5dtk</string>
+  <string name="pref_camera_focustime_entry_10">10 dtk</string>
+  <string name="pref_camera_focustime_entry_infinite">Tak terbatas</string>
   <!-- Shutter speed -->
+  <string name="pref_camera_shutter_speed_title">Kecepatan rana</string>
+  <string name="auto_hdr_enabled">HDR otomatis diaktifkan</string>
   <!-- Advanced options -->
+  <string name="developer_menu_enabled">Anda telah mengaktifkan pilihan kamera canggih</string>
+  <string name="developer_menu_disabled">Anda telah menonaktifkan pilihan kamera canggih</string>
 </resources>
