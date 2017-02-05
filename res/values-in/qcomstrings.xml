@@ -29,50 +29,80 @@
   <string name="pref_camera_powermode_title">Mode daya</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_entry_lp">Daya rendah</string>
+  <string name="pref_camera_powermode_entry_np">Daya normal</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
+  <string name="pref_camera_autoexposure_title">Pencahayaan otomatis</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
+  <string name="pref_camera_autoexposure_entry_frameaverage">Frame rata-rata</string>
+  <string name="pref_camera_autoexposure_entry_centerweighted">Pusat tertimbang</string>
+  <string name="pref_camera_autoexposure_entry_spotmetering">Pengukuran titik</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Video encoder title -->
+  <string name="pref_camera_videoencoder_title">Video codec</string>
   <!-- Settings screen, Video encoder dialog radio button choices -->
   <!-- Default video encoder setting. A numerical value. -->
   <!-- Settings screen, Video encoder dialog title -->
+  <string name="pref_camera_videoencoder_dialogtitle">Video codec</string>
   <!-- Default audio encoder setting. A numerical value. -->
   <!-- Settings screen, Audio encoder title -->
+  <string name="pref_camera_audioencoder_title">Audio codec</string>
   <!-- Settings screen, Audio encoder dialog radio button choices -->
   <!-- Default video duration setting. A numerical value.-->
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
   <!-- Settings screen, Select Skin Tone Enhancement title -->
+  <string name="pref_camera_skinToneEnhancement_title">Peningkatan warna kulit</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Power</string>
   <string name="pref_camera_skinToneEnhancement_entry_disable">Nonaktif</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
+  <string name="pref_camera_zsl_title">Tidak ada keterlambatan pengaturan cahaya</string>
   <!-- Default selectable zone af setting. Do not translate. -->
   <!-- Settings screen, Selectable zone af title -->
+  <string name="pref_camera_selectablezoneaf_title">Zona fokus otomatis</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_selectablezoneaf_entry_auto">Otomatis</string>
+  <string name="pref_camera_selectablezoneaf_entry_spotmetering">Pengukuran titik</string>
+  <string name="pref_camera_selectablezoneaf_entry_centerweighted">Pusat tertimbang</string>
+  <string name="pref_camera_selectablezoneaf_entry_frameaverage">Frame rata-rata</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Selectable advanced features title -->
+  <string name="pref_camera_advanced_features_title">Fitur lanjutan</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Tidak ada</string>
+  <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Fokus sentuh ganda</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Manual exposure control entry values -->
+  <string name="pref_camera_manual_exp_title">Eksposur manual</string>
   <string name="pref_camera_manual_exp_entry_ISO_priority">Prioritas ISO</string>
+  <string name="pref_camera_manual_exp_entry_exptime_priority">Prioritas waktu eksposur</string>
+  <string name="pref_camera_manual_exp_entry_user_setting">Pengaturan pengguna</string>
   <string name="pref_camera_manual_exp_entry_off">Mati</string>
   <!-- Manual white balance entry values -->
+  <string name="pref_camera_manual_wb_title">Keseimbangan putih manual</string>
+  <string name="pref_camera_manual_wb_entry_color_temperature">Temperatur warna</string>
+  <string name="pref_camera_manual_wb_entry_rbgb_gains">Keuntungan RBGB</string>
   <string name="pref_camera_manual_wb_entry_off">Mati</string>
   <!-- Manual Focus entry values -->
+  <string name="pref_camera_manual_focus_title">Fokus manual</string>
+  <string name="pref_camera_manual_focus_entry_scale_mode">Mode skala</string>
+  <string name="pref_camera_manual_focus_entry_diopter_mode">Mode diopter</string>
   <string name="pref_camera_manual_focus_entry_off">Mati</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_title" translatable="true">Ambil foto instan</string>
+  <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">AEC agresif</string>
+  <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">AEC cepat</string>
   <string name="pref_camera_instant_capture_entry_disable" translatable="true">Nonaktif</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Mati</string>
   <string name="pref_camera_zsl_entry_on">Aktif</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
+  <string name="hdr_enable_message">HDR diaktifkan, hanya mode pemotretan otomatis yang didukung</string>
+  <string name="scene_enable_message">HDR tidak didukung pada mode pemotretan selain otomatis</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">Mati</string>
   <string name="pref_camera_video_hdr_entry_on">Aktif</string>
@@ -93,12 +123,17 @@
   <string name="pref_camera_video_tnr_entry_enable">Power</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
+  <string name="pref_camera_video_hdr_title">Video HDR</string>
   <!-- Settings menu, setting title text for cds mode-->
+  <string name="pref_camera_cds_title">Mode CDS</string>
   <!-- Settings menu, setting title text for video cds mode-->
+  <string name="pref_camera_video_cds_title">Mode video CDS</string>
   <!-- Default cds mode setting-->
   <!-- Default video cds mode setting-->
   <!-- Settings menu, setting title text for tnr mode-->
+  <string name="pref_camera_tnr_title">Mode TNR</string>
   <!-- Settings menu, setting title text for video tnr mode-->
+  <string name="pref_camera_video_tnr_title">Mode Video TNR</string>
   <!-- Default tnr mode setting-->
   <!-- Default video tnr mode setting-->
   <!-- Default face  detection setting. -->
@@ -109,6 +144,7 @@
   <string name="pref_camera_facedetection_entry_on">Aktif</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
+  <string name="pref_selfie_flash_title">Flash Swafoto</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">Mati</string>
   <string name="pref_selfie_flash_entry_on">Aktif</string>
@@ -128,11 +164,17 @@
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HSR mode -->
   <!-- The message is shown in dialog when the app encounters an unsupported video codec for HFR mode -->
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
+  <string name="error_app_unsupported">Resolusi video tidak didukung untuk jenis codec ini</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
+  <string name="error_app_unsupported_profile">Profil video tidak didukung</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
+  <string name="error_app_unsupported_raw">Format gambar mentah tidak didukung dalam mode bidikan tanpa jeda. Pilih JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Mengurung AE</string>
+  <string name="pref_camera_ae_bracket_hdr_title">Mengurung AE</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Aktif</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Mati</string>
+  <string name="err_app_unsupport_ae_bracket_code">Gulungan AE belum didukung</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
@@ -234,6 +276,7 @@
   <string name="pref_camera_jpegquality_entry_2">Tinggi</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
+  <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Power</string>
   <string name="pref_camera_histogram_entry_disable">Nonaktif</string>
