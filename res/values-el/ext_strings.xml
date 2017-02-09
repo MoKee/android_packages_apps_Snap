@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- common aspect ratios -->
   <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
+  <string name="pref_camera_aspectratio_wide">Ευρεία</string>
   <!-- format for entries in the picture size menu. Parameter one is aspect ratio
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
@@ -32,6 +33,7 @@
   <string name="pref_camera_scenemode_entry_backgroundblur">Θολό παρασκήνιο</string>
   <string name="pref_camera_scenemode_entry_backlight">Οπίσθιος φωτισμός</string>
   <string name="pref_camera_scenemode_entry_backlightportrait">Πορτραίτο με οπίσθιο φωτισμό</string>
+  <string name="pref_camera_scenemode_entry_barcode">Κώδικας barcode</string>
   <string name="pref_camera_scenemode_entry_beach">Παραλία</string>
   <string name="pref_camera_scenemode_entry_beauty">Ομορφιά</string>
   <string name="pref_camera_scenemode_entry_candlelight">Φως κεριού</string>
@@ -101,4 +103,6 @@
   <string name="pref_camera_shutter_speed_title">Ταχύτητα κλείστρου</string>
   <string name="auto_hdr_enabled">Αυτόματο HDR ενεργοποιημένο</string>
   <!-- Advanced options -->
+  <string name="developer_menu_enabled">Έχετε ενεργοποιήσει τις προχωρημένες ρυθμίσεις κάμερας</string>
+  <string name="developer_menu_disabled">Έχετε απενεργοποιήσει τις προχωρημένες ρυθμίσεις κάμερας</string>
 </resources>
