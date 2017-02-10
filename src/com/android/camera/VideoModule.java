@@ -1309,15 +1309,15 @@ public class VideoModule extends BaseModule<VideoUI> implements
         if (mParameters == null || mCameraDevice == null) return index;
         // Set zoom parameters asynchronously
         mParameters.setZoom(mZoomValue);
-        updateCameraParametersZoom();
+        mCameraDevice.setParameters(mParameters);
         Parameters p = mCameraDevice.getParameters();
         if (p != null) return p.getZoom();
         return index;
     }
 
     private void startPreview() {
-        Log.e(TAG, String.format("startPreview paused=%b device=%b params=%b", mPaused, mCameraDevice == null, mParameters == null), new Throwable());
-        if (mPaused || mCameraDevice == null || mParameters == null) {
+        Log.v(TAG, "startPreview");
+        if (!mPreferenceRead || mPaused || mCameraDevice == null || mParameters == null) {
             return;
         }
 
@@ -2843,6 +2843,8 @@ public class VideoModule extends BaseModule<VideoUI> implements
         synchronized (mCameraDevice) {
             Log.d(TAG, "Preview dimension in App->" + mDesiredPreviewWidth + "X" + mDesiredPreviewHeight);
 
+            forceFlashOffIfSupported(!mPreviewFocused);
+
             // Set exposure compensation
             int value = CameraSettings.readExposure(mPreferences);
             int max = mParameters.getMaxExposureCompensation();
@@ -3058,6 +3060,7 @@ public class VideoModule extends BaseModule<VideoUI> implements
         CameraInfo info = CameraHolder.instance().getCameraInfo()[mCameraId];
         boolean mirror = (info.facing == CameraInfo.CAMERA_FACING_FRONT);
         mFocusManager.setMirror(mirror);
+        mFocusManager.setParameters(mInitialParams);
         setCameraParameters(UPDATE_PARAM_ALL);
         startPreview();
 
