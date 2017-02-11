@@ -55,8 +55,8 @@
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">Peningkatan warna kulit</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
-  <string name="pref_camera_skinToneEnhancement_entry_enable">Aktif</string>
-  <string name="pref_camera_skinToneEnhancement_entry_disable">Nonaktif</string>
+  <string name="pref_camera_skinToneEnhancement_entry_enable">Hidup</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Mati</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <string name="pref_camera_zsl_title">Tidak ada keterlambatan pengaturan cahaya</string>
@@ -99,7 +99,7 @@
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Mati</string>
-  <string name="pref_camera_zsl_entry_on">Aktif</string>
+  <string name="pref_camera_zsl_entry_on">Hidup</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
   <string name="hdr_enable_message">HDR diaktifkan, hanya mode pemotretan otomatis yang didukung</string>
   <string name="scene_enable_message">HDR tidak didukung pada mode pemotretan selain otomatis</string>
@@ -154,7 +154,7 @@
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Power</string>
   <string name="pref_camera_redeyereduction_entry_disable">Nonaktif</string>
-  <string name="pref_camera_selfiemirror_title" translatable="true">Cermin swafoto</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Cermin Selfie</string>
   <string name="pref_camera_selfiemirror_entry_enable">Power</string>
   <string name="pref_camera_selfiemirror_entry_disable">Nonaktif</string>
   <string name="pref_camera_shuttersound_title" translatable="true">Suara jepretan</string>
@@ -180,7 +180,7 @@
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Mengurung AE</string>
   <string name="pref_camera_ae_bracket_hdr_title">Mengurung AE</string>
-  <string name="pref_camera_ae_bracket_hdr_entry_on">Aktif</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_on">Hidup</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Mati</string>
   <string name="err_app_unsupport_ae_bracket_code">Gulungan AE belum didukung</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
@@ -221,7 +221,7 @@
   <string name="pref_camera_denoise_title">Tanpa kebisingan</string>
   <!-- Denoise Settings screen, Record location dialog choices -->
   <string name="pref_camera_denoise_entry_off">Mati</string>
-  <string name="pref_camera_denoise_entry_on">Aktif</string>
+  <string name="pref_camera_denoise_entry_on">Hidup</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
   <string name="pref_camera_iso_title">ISO</string>

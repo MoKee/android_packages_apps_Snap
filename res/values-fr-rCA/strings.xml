@@ -298,11 +298,17 @@
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
   <string name="not_selectable_in_scene_mode">Ce paramètre ne peut pas être sélectionné en mode Scène.</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
+  <string name="HDR_disable_continuous_shot">L\'HDR désactivera le mode rafale.</string>
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
+  <string name="advanced_capture_disable_continuous_shot">La capture avancée désactivera le mode rafale.</string>
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
+  <string name="video_quality_4k_disable_IS">Mode vidéo 4K désactivera la stabilisation d\'image.</string>
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
+  <string name="video_quality_4k_disable_SeeMore">SeeMore ne peut pas être activé pendant l\'enregistrement vidéo 4K.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_HighQualityNoiseReduction">La réduction du bruit en haute qualité désactivera CDS.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_HighQualityNoiseReduction">La réduction du bruit en haute qualité désactivera TNR.</string>
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
   <string name="disable_CDS_during_SeeMore">SeeMore désactivera CDS.</string>
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
@@ -540,4 +546,6 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Définition du fond d\'écran en cours…</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="remaining_photos_format">%d restant</string>
+  <string name="makeup_video_size_limit">Le mode maquillage ne fonctionne que pour les enregistrements vidéos de format égale ou inférieur au VGA.</string>
 </resources>
