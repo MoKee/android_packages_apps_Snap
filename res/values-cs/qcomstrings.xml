@@ -154,6 +154,7 @@
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Povolit</string>
   <string name="pref_camera_redeyereduction_entry_disable">Zakázat</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Selfie zrcadlo</string>
   <string name="pref_camera_selfiemirror_entry_enable">Povolit</string>
   <string name="pref_camera_selfiemirror_entry_disable">Zakázat</string>
   <string name="pref_camera_shuttersound_title" translatable="true">Zvuk závěrky</string>
@@ -227,6 +228,11 @@
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automaticky</string>
   <string name="pref_camera_iso_entry_isodeblur">Automaticky (HJR)</string>
+  <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Odstranění pruhů</string>
@@ -259,8 +265,6 @@
   <string name="pref_camera_coloreffect_entry_redtint">Odstín červené</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Odstín modré</string>
   <string name="pref_camera_coloreffect_entry_greentint">Odstín zelené</string>
-  <!-- Default Touch AF/AEC setting. Do not translate. -->
-  <!-- Settings screen, Select Touch AF/AEC title -->
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
   <string name="pref_camera_touchafaec_entry_off">Vypnuto</string>
   <string name="pref_camera_touchafaec_entry_on">Zapnuto</string>

@@ -265,9 +265,6 @@
   <string name="pref_camera_coloreffect_entry_redtint">Червоний відтінкок</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Блакитний відтінок</string>
   <string name="pref_camera_coloreffect_entry_greentint">Зелений відтінок</string>
-  <!-- Default Touch AF/AEC setting. Do not translate. -->
-  <!-- Settings screen, Select Touch AF/AEC title -->
-  <string name="pref_camera_touchafaec_title">Сенсорне фокусування</string>
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
   <string name="pref_camera_touchafaec_entry_off">Вимкнути</string>
   <string name="pref_camera_touchafaec_entry_on">Увімкнено</string>
