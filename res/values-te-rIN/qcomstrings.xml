@@ -127,8 +127,6 @@
   <string name="pref_camera_coloreffect_entry_negative">నెగిటివ్</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_posterize">పోస్టరైజ్</string>
-  <!-- Default Touch AF/AEC setting. Do not translate. -->
-  <!-- Settings screen, Select Touch AF/AEC title -->
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
   <!-- Select IS title -->
   <!-- DIS choices -->

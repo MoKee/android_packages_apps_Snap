@@ -237,8 +237,6 @@
   <string name="pref_camera_coloreffect_entry_redtint">Rdeči odtenek</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Modri odtenek</string>
   <string name="pref_camera_coloreffect_entry_greentint">Zeleni odtenek</string>
-  <!-- Default Touch AF/AEC setting. Do not translate. -->
-  <!-- Settings screen, Select Touch AF/AEC title -->
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
   <string name="pref_camera_touchafaec_entry_off">Izklopljen</string>
   <string name="pref_camera_touchafaec_entry_on">Vklopljeno</string>

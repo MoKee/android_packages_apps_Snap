@@ -141,6 +141,7 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">L\'appareil photo a été désactivé en raison des règles de sécurité.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
+  <string name="error_permissions">L\'application n\'a pas les autorisations nécessaires pour s\'exécuter. Veuillez vérifier vos paramètres d\'autorisation.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Veuillez patienter…</string>
@@ -303,8 +304,11 @@
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_SeeMore">SeeMore désactivera CDS.</string>
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_SeeMore">SeeMore désactivera TNR.</string>
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
+  <string name="disable_NR_during_SeeMore">SeeMore désactivera la réduction du bruit.</string>
   <!-- Exposure settings in preference -->
   <string name="pref_exposure_title">Exposition</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->

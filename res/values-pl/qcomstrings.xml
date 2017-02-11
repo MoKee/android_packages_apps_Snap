@@ -264,9 +264,6 @@
   <string name="pref_camera_coloreffect_entry_redtint">Czerwony odcień</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Niebieski odcień</string>
   <string name="pref_camera_coloreffect_entry_greentint">Zielony odcień</string>
-  <!-- Default Touch AF/AEC setting. Do not translate. -->
-  <!-- Settings screen, Select Touch AF/AEC title -->
-  <string name="pref_camera_touchafaec_title">Dotykowy AF/AEC</string>
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
   <string name="pref_camera_touchafaec_entry_off">Wyłącz</string>
   <string name="pref_camera_touchafaec_entry_on">Włącz</string>
