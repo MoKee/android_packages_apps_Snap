@@ -26,7 +26,10 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
+  <string name="pref_camera_powermode_title">Energiläge</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_entry_lp">Låg energi</string>
+  <string name="pref_camera_powermode_entry_np">Normal energi</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
@@ -89,6 +92,8 @@
   <string name="pref_camera_manual_focus_entry_diopter_mode">Dioptri läge</string>
   <string name="pref_camera_manual_focus_entry_off">Av</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">Aggressiv AEC</string>
+  <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">Snabb AEC</string>
   <string name="pref_camera_instant_capture_entry_disable" translatable="true">Inaktivera</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
@@ -115,6 +120,7 @@
   <string name="pref_camera_video_tnr_entry_enable">Aktivera</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
+  <string name="pref_camera_video_hdr_title">Video HDR</string>
   <!-- Settings menu, setting title text for cds mode-->
   <string name="pref_camera_cds_title">CDS-läge</string>
   <!-- Settings menu, setting title text for video cds mode-->
@@ -135,6 +141,7 @@
   <string name="pref_camera_facedetection_entry_on">Aktiverad</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
+  <string name="pref_selfie_flash_title">Selfie-blixt</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">Av</string>
   <string name="pref_selfie_flash_entry_on">Aktiverad</string>
@@ -144,6 +151,7 @@
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Aktivera</string>
   <string name="pref_camera_redeyereduction_entry_disable">Inaktivera</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Selfie-spegel</string>
   <string name="pref_camera_selfiemirror_entry_enable">Aktivera</string>
   <string name="pref_camera_selfiemirror_entry_disable">Inaktivera</string>
   <string name="pref_camera_shuttersound_title" translatable="true">Slutarljud</string>
@@ -163,6 +171,7 @@
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
   <string name="error_app_unsupported">Videoupplösningen fungerar inte med denna kodek</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
+  <string name="error_app_unsupported_profile">Videoprofil stöds inte</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">RAW bildformat stöds inte i läget ingen slutarfördröjning. Välj JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
@@ -184,11 +193,14 @@
   <string name="pref_camera_hfr_entry_hsr_60">Höghastighet 60 FPS</string>
   <string name="pref_camera_hfr_entry_hsr_90">Höghastighet 90 FPS</string>
   <string name="pref_camera_hfr_entry_hsr_120">Höghastighet 120 FPS</string>
+  <string name="pref_camera_hfr_entry_hsr_240">Snabbt 240 FPS</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
+  <string name="pref_camera_noise_reduction_title">Brusreducering</string>
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_noise_reduction_entry_off">Av</string>
+  <string name="pref_camera_noise_reduction_entry_fast">Snabb</string>
   <string name="pref_camera_noise_reduction_entry_high_quality">Hög kvalitet</string>
   <!-- see more entry values. Do not translate. -->
   <!-- Default see more setting. Do not translate. -->
@@ -341,6 +353,7 @@
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">HDR-läge</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
+  <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
   <string name="pref_camera_hdr_mode_entry_multi_frame">Flerbilds-HDR</string>
   <!-- HDR mode entry values. Do not translate. -->
   <!-- Settings screen, Selectable HDR need 1x frame default value -->
@@ -352,6 +365,7 @@
   <!--Settings screen, video rotation title-->
   <string name="pref_camera_video_rotation_title">Videorotation</string>
   <!--Menu, video rotation label-->
+  <string name="pref_camera_video_rotation_label">VIDEO-ROTATION</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
   <string name="pref_camera_video_rotation_entry_0">0 grader</string>
   <string name="pref_camera_video_rotation_entry_90">90 grader</string>
@@ -367,19 +381,27 @@
   <string name="camera_gesture_title">Starta kamera</string>
   <string name="pref_camera_tsmakeup_entry_on">Aktiverad</string>
   <string name="pref_camera_tsmakeup_entry_off">Av</string>
+  <string name="pref_camera_tsmakeup_entry_low">Låg</string>
+  <string name="pref_camera_tsmakeup_entry_high">Hög</string>
   <string name="text_tsmakeup_alert_title">Varning</string>
   <string name="text_tsmakeup_alert_continue">Fortsätt</string>
   <string name="text_tsmakeup_alert_quit">Avbryt</string>
   <string name="all_in_focus">Allt i fokus</string>
   <string name="refocus_toast">För att återfokusera senaste bilden, klicka här</string>
+  <string name="camera_unknown_error">Okänt fel, stänger kamera.</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">OK</string>
+  <string name="help_menu_scene_mode_1">Markera en</string>
   <string name="help_menu_scene_mode_2">Scenläge</string>
   <string name="help_menu_scene_mode_3">för bättre bilder</string>
+  <string name="help_menu_color_filter_1">Applicera färg</string>
+  <string name="help_menu_color_filter_2">filter</string>
   <string name="help_menu_color_filter_3">till</string>
   <string name="help_menu_color_filter_4">förbättra bilder</string>
   <string name="help_menu_beautify_1">Förbättra porträtt</string>
+  <string name="help_menu_switcher_1">Växla</string>
   <string name="help_menu_switcher_2">mellan</string>
+  <string name="help_menu_switcher_3">kamera, video och panorama</string>
   <string name="pref_camera2_camera2_title">Camera2-läge</string>
   <string name="pref_camera2_camera2_entry_enable">Aktivera</string>
   <string name="pref_camera2_camera2_entry_disable">Inaktivera</string>
@@ -391,12 +413,16 @@
   <string name="pref_camera2_mpo_title">MPO-format</string>
   <string name="pref_camera2_mpo_entry_on">Aktiverad</string>
   <string name="pref_camera2_mpo_entry_off">Av</string>
+  <string name="pref_camera2_makeup_title">Makeup</string>
+  <string name="pref_camera2_noise_reduction_title">Brusreducering</string>
   <string name="pref_camera2_noise_reduction_entry_off">Av</string>
+  <string name="pref_camera2_noise_reduction_entry_fast">Snabb</string>
   <string name="pref_camera2_noise_reduction_entry_high_quality">Hög kvalitet</string>
   <string name="pref_camera2_videosnap_entry_enable">Aktivera</string>
   <string name="pref_camera2_videosnap_entry_disable">Inaktivera</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Bästa bild</string>
   <string name="bestpicture_done">KLAR</string>
+  <string name="bestpicture_at_least_one_picture">Minst en bild måste väljas.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Aktiverad</string>
   <string name="pref_camera2_shutter_sound_entry_off">Av</string>
   <string name="pref_camera2_shutter_sound_title">Slutarljud</string>

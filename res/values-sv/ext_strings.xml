@@ -29,6 +29,7 @@
   <string name="pref_camera_scenemode_entry_aqua">Vatten</string>
   <string name="pref_camera_scenemode_entry_ar">Förstärkt verklighet</string>
   <string name="pref_camera_scenemode_entry_asd">Bästa bild</string>
+  <string name="pref_camera_scenemode_entry_baby">Baby</string>
   <string name="pref_camera_scenemode_entry_backgroundblur">Bakgrundsoskärpa</string>
   <string name="pref_camera_scenemode_entry_backlight">Motljus</string>
   <string name="pref_camera_scenemode_entry_backlightportrait">Motljusporträtt</string>
@@ -59,6 +60,7 @@
   <string name="pref_camera_scenemode_entry_snow">Snö</string>
   <string name="pref_camera_scenemode_entry_softskin">Mjuk hud</string>
   <string name="pref_camera_scenemode_entry_sports">Sport</string>
+  <string name="pref_camera_scenemode_entry_spotlight">Spotlight</string>
   <string name="pref_camera_scenemode_entry_steadyphoto">Stadigt foto</string>
   <string name="pref_camera_scenemode_entry_supernight">Mörk natt</string>
   <string name="pref_camera_scenemode_entry_sweepstitch">Svepsöm</string>
@@ -72,6 +74,7 @@
   <string name="pref_camera_focusmode_entry_facedetect">Ansiktsigenkänning</string>
   <string name="pref_camera_focusmode_entry_facepriority">Ansiktsprioritet</string>
   <string name="pref_camera_focusmode_entry_fixed">Fast</string>
+  <string name="pref_camera_focusmode_entry_normal">Normal</string>
   <string name="pref_camera_focusmode_entry_portrait">Porträtt</string>
   <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfokalavstånd</string>
   <!-- Color effects -->
