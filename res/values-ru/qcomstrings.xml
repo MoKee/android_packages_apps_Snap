@@ -441,6 +441,7 @@
   <string name="pref_camera2_noise_reduction_entry_off">Отключить</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Быстро</string>
   <string name="pref_camera2_noise_reduction_entry_high_quality">Высокое качество</string>
+  <string name="pref_camera2_videosnap_title">Автоматический размер снимка</string>
   <string name="pref_camera2_videosnap_entry_enable">Включить</string>
   <string name="pref_camera2_videosnap_entry_disable">Выкл</string>
   <string name="pref_camera2_trackingfocus_title">Отслеживание фокус</string>

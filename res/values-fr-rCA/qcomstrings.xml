@@ -173,7 +173,7 @@
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
   <string name="error_app_unsupported">Résolution vidéo non pris en charge pour ce type de codec</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
-  <string name="error_app_unsupported_profile">Format vidéo non pris en charge</string>
+  <string name="error_app_unsupported_profile">Profil vidéo non pris en charge</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">Le format RAW n\'est pas supporté pour le mode \"Pas de délai de l\'obturateur\". Choisissez le JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
@@ -392,6 +392,7 @@
   <string name="pref_camera_tsmakeup_entry_mid">Intermédiaire</string>
   <string name="pref_camera_tsmakeup_entry_high">Élevé</string>
   <string name="pref_camera_tsmakeup_custom">Personnalisation</string>
+  <string name="pref_camera_tsmakeup_level_whiten">Blanchir</string>
   <string name="pref_camera_tsmakeup_level_clean">Adoucir</string>
   <string name="text_tsmakeup_alert_title">Avertissement</string>
   <string name="text_tsmakeup_alert_msg">La detection de visage doit être activée pour utiliser la fonction d\'embellissement. Voulez-vous continuer?</string>
@@ -439,6 +440,7 @@
   <string name="pref_camera2_noise_reduction_entry_off">Désactivé</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Rapide</string>
   <string name="pref_camera2_noise_reduction_entry_high_quality">Haute qualité</string>
+  <string name="pref_camera2_videosnap_title">Résolution automatique</string>
   <string name="pref_camera2_videosnap_entry_enable">Activé</string>
   <string name="pref_camera2_videosnap_entry_disable">Desactiver</string>
   <string name="pref_camera2_trackingfocus_title">Mise au point automatique par suivi du sujet</string>

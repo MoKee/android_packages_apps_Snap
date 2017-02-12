@@ -37,7 +37,7 @@
   <string name="pref_camera_autoexposure_title">Exposition automatique</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
   <string name="pref_camera_autoexposure_entry_frameaverage">Trame moyenne</string>
-  <string name="pref_camera_autoexposure_entry_centerweighted">Pondérée centrale</string>
+  <string name="pref_camera_autoexposure_entry_centerweighted">Centre pondéré</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">Mesure spot</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Video encoder title -->
@@ -65,8 +65,8 @@
   <string name="pref_camera_selectablezoneaf_title">Zone de mise au point automatique</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_selectablezoneaf_entry_auto">Automatique</string>
-  <string name="pref_camera_selectablezoneaf_entry_spotmetering">Mesure de spot</string>
-  <string name="pref_camera_selectablezoneaf_entry_centerweighted">Pondérée centrale</string>
+  <string name="pref_camera_selectablezoneaf_entry_spotmetering">Mesure spot</string>
+  <string name="pref_camera_selectablezoneaf_entry_centerweighted">Centre pondéré</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Trame moyenne</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Selectable advanced features title -->
@@ -78,8 +78,8 @@
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_title">Exposition mannuelle</string>
   <string name="pref_camera_manual_exp_entry_ISO_priority">Priorité ISO</string>
-  <string name="pref_camera_manual_exp_entry_exptime_priority">Priorité temps d\'exposition</string>
-  <string name="pref_camera_manual_exp_entry_user_setting">Réglage utilisateur</string>
+  <string name="pref_camera_manual_exp_entry_exptime_priority">Priorité au temps d’exposition</string>
+  <string name="pref_camera_manual_exp_entry_user_setting">Paramètre d\'utilisateur</string>
   <string name="pref_camera_manual_exp_entry_off">Désactivé</string>
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_title">Balance des blancs manuelle</string>
@@ -165,15 +165,15 @@
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
   <string name="error_app_unsupported_hfr">La vidéo au ralenti n\'est pas compatible avec la résolution sélectionnée. Sélectionner une résolution moins élevée</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
-  <string name="error_app_unsupported_dis">La stabilisation n\'est pas supporté pour le format de vidéo sélectionné. Choisissez un format vidéo inférieur</string>
+  <string name="error_app_unsupported_dis">La stabilisation n\'est pas supporté pour le format vidéo sélectionné. Choisissez un format vidéo inférieur</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HSR mode -->
-  <string name="error_app_unsupported_hsr">La vidéo haute vitesse n\'est pas compatible avec la résolution sélectionnée. Sélectionner une résolution moins élevée</string>
+  <string name="error_app_unsupported_hsr">Le mode haute vitesse n\'est pas compatible avec la résolution vidéo choisie. Sélectionner une résolution moins élevée</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video codec for HFR mode -->
   <string name="error_app_unsupported_hfr_codec">Seul l\'encodage vidéo H.264 est pris en charge lorsque le ralenti est activé</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
   <string name="error_app_unsupported">Résolution vidéo non pris en charge pour ce type de codec</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
-  <string name="error_app_unsupported_profile">Format vidéo non pris en charge</string>
+  <string name="error_app_unsupported_profile">Profil vidéo non pris en charge</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">Le format RAW n\'est pas supporté pour le mode \"Pas de délai de l\'obturateur\". Choisissez le JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
@@ -440,6 +440,7 @@
   <string name="pref_camera2_noise_reduction_entry_off">Désactivé</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Rapide</string>
   <string name="pref_camera2_noise_reduction_entry_high_quality">Haute qualité</string>
+  <string name="pref_camera2_videosnap_title">Résolution automatique</string>
   <string name="pref_camera2_videosnap_entry_enable">Activé</string>
   <string name="pref_camera2_videosnap_entry_disable">Desactiver</string>
   <string name="pref_camera2_trackingfocus_title">Mise au point automatique par suivi du sujet</string>
