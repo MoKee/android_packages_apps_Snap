@@ -437,6 +437,7 @@
   <string name="pref_camera2_mpo_title">MPO формат</string>
   <string name="pref_camera2_mpo_entry_on">Вкл.</string>
   <string name="pref_camera2_mpo_entry_off">Отключить</string>
+  <string name="pref_camera2_makeup_title">Ретуширование</string>
   <string name="pref_camera2_noise_reduction_title">Шумопонижение</string>
   <string name="pref_camera2_noise_reduction_entry_off">Отключить</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Быстро</string>
