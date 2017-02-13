@@ -89,8 +89,10 @@
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_title">Ручная факусоўка</string>
   <string name="pref_camera_manual_focus_entry_scale_mode">Рэжым шкалы</string>
+  <string name="pref_camera_manual_focus_entry_diopter_mode">Рэжым дыёптрый</string>
   <string name="pref_camera_manual_focus_entry_off">Выключыць</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_title" translatable="true">Iмгненны захоп</string>
   <string name="pref_camera_instant_capture_entry_disable" translatable="true">Адключыць</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
@@ -117,6 +119,7 @@
   <string name="pref_camera_video_tnr_entry_enable">Уключыць</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
+  <string name="pref_camera_video_hdr_title">HDR-відэаздымка</string>
   <!-- Settings menu, setting title text for cds mode-->
   <!-- Settings menu, setting title text for video cds mode-->
   <!-- Default cds mode setting-->
@@ -140,6 +143,7 @@
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Уключыць</string>
   <string name="pref_camera_redeyereduction_entry_disable">Адключыць</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Сэлф-люстэрка</string>
   <string name="pref_camera_selfiemirror_entry_enable">Уключыць</string>
   <string name="pref_camera_selfiemirror_entry_disable">Адключыць</string>
   <string name="pref_camera_shuttersound_entry_enable">Уключана</string>

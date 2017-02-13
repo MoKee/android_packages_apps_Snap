@@ -29,8 +29,8 @@
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <plurals name="delete_selection">
     <item quantity="one">Выдаліць абраны файл?</item>
-    <item quantity="few">Выдаліць абраныя файлы?</item>
-    <item quantity="other">Выдаліць абраныя файлы?</item>
+    <item quantity="few">Выдаліць выбраныя файлы?</item>
+    <item quantity="other">Выдаліць выбраныя файлы?</item>
   </plurals>
   <string name="share">Падзяліцца</string>
   <string name="share_panorama">Падзяліцца панарамай</string>
@@ -40,27 +40,27 @@
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
   <string name="undo">АДМЯНІЦЬ</string>
   <string name="details">Звесткі</string>
-  <string name="close">Закрыць</string>
+  <string name="close">Зачыніць</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_items_selected">
-    <item quantity="one">%1$d абрана</item>
-    <item quantity="few">%1$d абрана</item>
-    <item quantity="other">%1$d абрана</item>
+    <item quantity="one">%1$d выбрана</item>
+    <item quantity="few">%1$d выбрана</item>
+    <item quantity="other">%1$d выбрана</item>
   </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_albums_selected">
-    <item quantity="one">%1$d абрана</item>
-    <item quantity="few">%1$d абрана</item>
-    <item quantity="other">%1$d абрана</item>
+    <item quantity="one">%1$d выбрана</item>
+    <item quantity="few">%1$d выбрана</item>
+    <item quantity="other">%1$d выбрана</item>
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_groups_selected">
-    <item quantity="one">%1$d абрана</item>
-    <item quantity="few">%1$d абрана</item>
-    <item quantity="other">%1$d абрана</item>
+    <item quantity="one">%1$d выбрана</item>
+    <item quantity="few">%1$d выбрана</item>
+    <item quantity="other">%1$d выбрана</item>
   </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Паказаць на мапе</string>
@@ -187,7 +187,7 @@
   <string name="pref_camera_savepath_entry_0">Тэлефон</string>
   <string name="pref_camera_savepath_entry_1">SD-картка</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
-  <string name="setting_off">Выключыць</string>
+  <string name="setting_off">Выкл.</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
   <string name="setting_on">Укл.</string>
   <!-- The value of a camera preference indicating the setting is off. -->
@@ -515,7 +515,7 @@ CHAR LIMIT = NONE] -->
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
   <string name="time_lapse_interval_set">Гатова</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
-  <string name="set_time_interval">Ўстаноўка часовага інтэрвалу</string>
+  <string name="set_time_interval">Усталёўка часовага інтэрвалу</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
   <string name="set_time_interval_help">Спачатку уключыце рэжым запаволенай здымкі.</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
@@ -548,7 +548,7 @@ CHAR LIMIT = NONE] -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
   <string name="crop_save">Захаваць</string>
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
-  <string name="cannot_load_image">Не атрымалася запампаваць малюнак!</string>
+  <string name="cannot_load_image">Не атрымалася спампаваць малюнак!</string>
   <!-- Label for album filmstrip button -->
   <string name="switch_photo_filmstrip">Дыястужка</string>
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
