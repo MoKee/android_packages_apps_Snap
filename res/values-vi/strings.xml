@@ -145,6 +145,7 @@
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
   <string name="pref_camera_id_title">Chọn máy ảnh</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+  <string name="pref_camera_id_entry_back">Quay lại</string>
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">Trước</string>
   <!-- Settings screen, setting title text -->

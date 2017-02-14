@@ -18,19 +18,22 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- common aspect ratios -->
   <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
+  <string name="pref_camera_aspectratio_wide">Breitbild</string>
   <!-- format for entries in the picture size menu. Parameter one is aspect ratio
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
-  <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f MP</string>
+  <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f Megapixel</string>
   <!-- Settings screen, scene mode -->
   <string name="pref_camera_scenemode_entry_antimotionblur">Bewegungsunschärfe-Reduktion</string>
   <string name="pref_camera_scenemode_entry_aqua">Wasser</string>
   <string name="pref_camera_scenemode_entry_ar">Erweiterte Realität</string>
   <string name="pref_camera_scenemode_entry_asd">Beste Aufnahme</string>
+  <string name="pref_camera_scenemode_entry_baby">Baby</string>
   <string name="pref_camera_scenemode_entry_backgroundblur">Unscharfer Hintergrund</string>
   <string name="pref_camera_scenemode_entry_backlight">Gegenlicht</string>
   <string name="pref_camera_scenemode_entry_backlightportrait">Gegenlicht-Porträt</string>
+  <string name="pref_camera_scenemode_entry_barcode">Barcode</string>
   <string name="pref_camera_scenemode_entry_beach">Strand</string>
   <string name="pref_camera_scenemode_entry_beauty">Gesichter verschönern</string>
   <string name="pref_camera_scenemode_entry_candlelight">Kerzenschein</string>
@@ -61,6 +64,7 @@
   <string name="pref_camera_scenemode_entry_steadyphoto">Bildstabilisierung</string>
   <string name="pref_camera_scenemode_entry_supernight">Dunkle Nacht</string>
   <string name="pref_camera_scenemode_entry_sweepstitch">Schwenkpanorama</string>
+  <string name="pref_camera_scenemode_entry_text">Text</string>
   <string name="pref_camera_scenemode_entry_theatre">Theater</string>
   <string name="pref_camera_scenemode_entry_whiteboard">Weißwandtafel</string>
   <!-- Settings screen, focus mode -->
@@ -99,4 +103,6 @@
   <string name="pref_camera_shutter_speed_title">Verschlusszeit</string>
   <string name="auto_hdr_enabled">Auto-HDR aktiviert</string>
   <!-- Advanced options -->
+  <string name="developer_menu_enabled">Sie haben die erweiterten Kamera-Optionen aktiviert</string>
+  <string name="developer_menu_disabled">Sie haben die erweiterten Kamera-Optionen deaktiviert</string>
 </resources>

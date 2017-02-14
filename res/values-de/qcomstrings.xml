@@ -26,7 +26,10 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
+  <string name="pref_camera_powermode_title">Maximale Leistung</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_entry_lp">Energie sparen</string>
+  <string name="pref_camera_powermode_entry_np">Ausgeglichener Modus</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
@@ -53,6 +56,7 @@
   <string name="pref_camera_skinToneEnhancement_title">Hauttöne verbessern</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Aktivieren</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Deaktivieren</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <string name="pref_camera_zsl_title">Keine Auslöseverzögerung</string>
@@ -88,12 +92,17 @@
   <string name="pref_camera_manual_focus_entry_diopter_mode">Diopter-Modus</string>
   <string name="pref_camera_manual_focus_entry_off">Aus</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_title" translatable="true">Sofortiges Auslösen</string>
+  <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">Aggressive Belichtungsautomatik</string>
+  <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">Schnelle Belichtungsautomatik</string>
   <string name="pref_camera_instant_capture_entry_disable" translatable="true">Deaktivieren</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Deaktiviert</string>
   <string name="pref_camera_zsl_entry_on">An</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
+  <string name="hdr_enable_message">HDR ist aktiviert. Nur der automatische Szenenmodus wird unterstützt</string>
+  <string name="scene_enable_message">HDR wird nur im automatischen Szenenmodus unterstützt</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">Deaktiviert</string>
   <string name="pref_camera_video_hdr_entry_on">An</string>
@@ -135,6 +144,7 @@
   <string name="pref_camera_facedetection_entry_on">An</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
+  <string name="pref_selfie_flash_title">Frontblitz</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">Deaktiviert</string>
   <string name="pref_selfie_flash_entry_on">An</string>
@@ -143,7 +153,11 @@
   <string name="pref_camera_redeyereduction_title">Rote-Augen-Korrektur</string>
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Aktivieren</string>
+  <string name="pref_camera_redeyereduction_entry_disable">Deaktivieren</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Selfie-Spiegel</string>
   <string name="pref_camera_selfiemirror_entry_enable">Aktivieren</string>
+  <string name="pref_camera_selfiemirror_entry_disable">Deaktivieren</string>
+  <string name="pref_camera_shuttersound_title" translatable="true">Auslöser-Ton</string>
   <string name="pref_camera_shuttersound_entry_enable">Aktiviert</string>
   <string name="pref_camera_shuttersound_entry_disable">Deaktiviert</string>
   <!-- Default mce setting. Do not translate. -->
@@ -160,15 +174,21 @@
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
   <string name="error_app_unsupported">Die gewählte Auflösung wird von diesem Codec nicht unterstützt.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
+  <string name="error_app_unsupported_profile">Videoprofil wird nicht unterstützt</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">Das Raw-Format ist im \"Keine Auslöseverzögerung\"-Modus nicht verfügbar. Bitte JPEG auswählen</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Belichtungsreihe</string>
   <string name="pref_camera_ae_bracket_hdr_title">Belichtungsreihe</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">An</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Deaktiviert</string>
+  <string name="err_app_unsupport_ae_bracket_code">Die Funktion Belichtungsreihe wird noch nicht unterstützt</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
+  <string name="snapshot_lower_than_video">Die Auflösung des Schnappschusses ist geringer als die Videoauflösung. Bitte wählen Sie die gleiche oder eine höhere Auflösung als die aktuelle Videoauflösung.</string>
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
+  <string name="snapshotsize_low_powermode">Ändern der Bildgröße wird im Energiesparmodus nicht unterstützt. Wählen Sie den ausgeglichenen Modus, um die Bildgröße verändern zu können.</string>
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
+  <string name="snapshot_qcif_and_d1">Für diese Auflösung wird nur die Videoschnappschussgröße unterstützt.</string>
   <!-- Default hfr setting. Do not translate. -->
   <!-- Settings screen, Select hfr title -->
   <string name="pref_camera_hfr_title">Zeitlupe</string>
@@ -181,11 +201,15 @@
   <string name="pref_camera_hfr_entry_hsr_60">Highspeed 60 FPS</string>
   <string name="pref_camera_hfr_entry_hsr_90">Highspeed 90 FPS</string>
   <string name="pref_camera_hfr_entry_hsr_120">Highspeed 120 FPS</string>
+  <string name="pref_camera_hfr_entry_hsr_240">Hochgeschwindigkeit mit 240 FPS</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
+  <string name="pref_camera_noise_reduction_title">Rauschunterdrückung</string>
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_noise_reduction_entry_off">Deaktiviert</string>
+  <string name="pref_camera_noise_reduction_entry_fast">Schnell</string>
+  <string name="pref_camera_noise_reduction_entry_high_quality">Hohe Qualität</string>
   <!-- see more entry values. Do not translate. -->
   <!-- Default see more setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
@@ -216,6 +240,7 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Automatisch</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
+  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
   <string name="pref_camera_antibanding_entry_3">Automatisch</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">An</string>
@@ -226,6 +251,7 @@
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Kein</string>
   <string name="pref_camera_coloreffect_entry_mono">Schwarzweiß</string>
+  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Solarisiert</string>
@@ -233,6 +259,7 @@
   <string name="pref_camera_coloreffect_entry_aqua">Aquarell</string>
   <string name="pref_camera_coloreffect_entry_emboss">Prägung</string>
   <string name="pref_camera_coloreffect_entry_sketch">Skizze</string>
+  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
   <string name="pref_camera_coloreffect_entry_pastel">Pastell</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mosaik</string>
   <string name="pref_camera_coloreffect_entry_redtint">Rotstich</string>
@@ -309,6 +336,7 @@
   <string name="pref_camera_histogram_title">Histogramm</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Aktivieren</string>
+  <string name="pref_camera_histogram_entry_disable">Deaktivieren</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -318,6 +346,7 @@
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
   <string name="pref_camera_scenedetect_entry_on">An</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
+  <string name="time_lapse_error">Unzulässige Videogröße für Zeitrafferaufnahme.</string>
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Kontinuierliche Aufnahme</string>
   <string name="msg_cancel_longshot_for_limited_memory">Speicherplatz wird knapp. Abbruch der kontinuierlichen Aufnahme</string>
@@ -327,6 +356,7 @@
   <string name="pref_camera_auto_hdr_title">Auto-HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Aktivieren</string>
+  <string name="pref_camera_auto_hdr_entry_disable">Deaktivieren</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Der Interne Speicher reicht nicht aus. Der Speicherort wurde auf SD-Karte geändert.</string>
   <!-- Settings screen, Selectable HDR mode title -->
@@ -344,6 +374,7 @@
   <!--Settings screen, video rotation title-->
   <string name="pref_camera_video_rotation_title">Videodrehung</string>
   <!--Menu, video rotation label-->
+  <string name="pref_camera_video_rotation_label">VIDEO-DREHUNG</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
   <string name="pref_camera_video_rotation_entry_0">0 Grad</string>
   <string name="pref_camera_video_rotation_entry_90">90 Grad</string>
@@ -357,31 +388,69 @@
   <string name="advance_feature_enable_msg">Der kontinuierliche Aufnahmemodus wird nicht unterstützt, wenn erweiterte Funktionen aktiviert sind.</string>
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">Kamera starten</string>
+  <string name="pref_camera_tsmakeup_title">Verschönerung</string>
   <string name="pref_camera_tsmakeup_entry_on">An</string>
   <string name="pref_camera_tsmakeup_entry_off">Deaktiviert</string>
   <string name="pref_camera_tsmakeup_entry_low">niedrig</string>
+  <string name="pref_camera_tsmakeup_entry_mid">Mittelstark</string>
   <string name="pref_camera_tsmakeup_entry_high">hoch</string>
   <string name="pref_camera_tsmakeup_custom">Benutzerdefiniert</string>
   <string name="pref_camera_tsmakeup_level_whiten">Aufhellen</string>
   <string name="pref_camera_tsmakeup_level_clean">Weichzeichnen</string>
+  <string name="text_tsmakeup_alert_title">Warnung</string>
+  <string name="text_tsmakeup_alert_msg">Gesichtserkennung muss aktiviert sein, um die Verschönerung nutzen zu können. Wollen Sie fortfahren?</string>
   <string name="text_tsmakeup_alert_continue">Fortsetzen</string>
   <string name="text_tsmakeup_alert_quit">Abbrechen</string>
   <string name="text_tsmakeup_beautify_toast">Verschönern</string>
   <string name="all_in_focus">Alles im Fokus</string>
   <string name="refocus_toast">Tippen Sie hier, um das letzte Foto neu zu fokussieren.</string>
+  <string name="refocus_prompt_message">Mit UbiFocus nimmt Ihre Kamera 5 Bilder auf, sobald Sie den Auslöser betätigen. Diese 5 Bilder werden in 1 Bild kombiniert, in dem alles fokussiert ist. Sie können es nach der Aufnahme neu fokussieren.</string>
+  <string name="camera_thermal_shutdown">Telefon überhitzt, Kamera wird geschlossen.</string>
+  <string name="camera_server_died">Medienserver ist abgestürzt, Kamera wird geschlossen.</string>
+  <string name="camera_unknown_error">Unbekannter Fehler, Kamera wird geschlossen.</string>
+  <string name="mute_button_desc">Stumm-Taste</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">Ok</string>
+  <string name="help_menu_scene_mode_1">Wählen Sie einen</string>
   <string name="help_menu_scene_mode_2">Szenenmodus</string>
+  <string name="help_menu_scene_mode_3">für gelungenere Bilder</string>
+  <string name="help_menu_color_filter_1">Anwenden von Farbeinstellung</string>
+  <string name="help_menu_color_filter_2">Filter-Effekte</string>
+  <string name="help_menu_color_filter_3">um</string>
+  <string name="help_menu_color_filter_4">Bilder zu verbessern</string>
+  <string name="help_menu_beautify_1">Verbessern Sie Porträts</string>
+  <string name="help_menu_beautify_2">mit der</string>
+  <string name="help_menu_beautify_3">Verschönern-Funktion</string>
+  <string name="help_menu_switcher_1">Umschalten</string>
+  <string name="help_menu_switcher_2">zwischen</string>
+  <string name="help_menu_switcher_3">Kamera, Video und Panorama</string>
+  <string name="pref_camera2_camera2_title">Kamera2-Modus</string>
   <string name="pref_camera2_camera2_entry_enable">Aktivieren</string>
+  <string name="pref_camera2_camera2_entry_disable">Deaktivieren</string>
+  <string name="pref_camera2_mono_only_title">Nur Mono</string>
+  <string name="pref_camera2_mono_preview_title">Mono-Vorschau</string>
   <string name="pref_camera2_mono_preview_entry_on">An</string>
   <string name="pref_camera2_mono_preview_entry_off">Deaktiviert</string>
   <string name="pref_camera2_clearsight_entry_on">An</string>
   <string name="pref_camera2_clearsight_entry_off">Deaktiviert</string>
+  <string name="clearsight_capture_success">ClearSight Aufnahme erfolgreich</string>
+  <string name="clearsight_capture_fail">ClearSight Aufnahme fehlgeschlagen</string>
+  <string name="pref_camera2_mpo_title">MPO-Format</string>
   <string name="pref_camera2_mpo_entry_on">An</string>
   <string name="pref_camera2_mpo_entry_off">Deaktiviert</string>
+  <string name="pref_camera2_makeup_title">Make-up</string>
+  <string name="pref_camera2_noise_reduction_title">Rauschunterdrückung</string>
   <string name="pref_camera2_noise_reduction_entry_off">Deaktiviert</string>
+  <string name="pref_camera2_noise_reduction_entry_fast">Schnell</string>
+  <string name="pref_camera2_noise_reduction_entry_high_quality">Hohe Qualität</string>
+  <string name="pref_camera2_videosnap_title">Automatische Schnappschussgröße</string>
   <string name="pref_camera2_videosnap_entry_enable">Aktivieren</string>
+  <string name="pref_camera2_videosnap_entry_disable">Deaktivieren</string>
+  <string name="pref_camera2_trackingfocus_title">Fokusnachführung</string>
+  <string name="pref_camera_scenemode_entry_bestpicture">Optimales Bild</string>
   <string name="bestpicture_done">Fertig</string>
+  <string name="bestpicture_at_least_one_picture">Es muss mindestens ein Bild ausgewählt werden.</string>
   <string name="pref_camera2_shutter_sound_entry_on">An</string>
   <string name="pref_camera2_shutter_sound_entry_off">Deaktiviert</string>
+  <string name="pref_camera2_shutter_sound_title">Auslöser-Ton</string>
 </resources>
