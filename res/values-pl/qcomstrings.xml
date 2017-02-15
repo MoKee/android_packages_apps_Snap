@@ -52,6 +52,7 @@
   <!-- Settings screen, Audio encoder dialog radio button choices -->
   <!-- Default video duration setting. A numerical value.-->
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
+  <string name="pref_camera_skinToneEnhancement_default">wyłącz</string>
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">Poprawa koloru skóry</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
@@ -161,6 +162,7 @@
   <string name="pref_camera_shuttersound_entry_enable">Włącz</string>
   <string name="pref_camera_shuttersound_entry_disable">Wyłącz</string>
   <!-- Default mce setting. Do not translate. -->
+  <string name="pref_camera_mce_default">włącz</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Nagrywanie z dużą ilością klatek nie jest obsługiwane podczas używania opcji: stabilizacja, pętla czasu, HDR</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
