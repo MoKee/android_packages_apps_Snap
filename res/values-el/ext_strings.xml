@@ -23,7 +23,7 @@
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
-  <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f megapixel</string>
+  <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f MP</string>
   <!-- Settings screen, scene mode -->
   <string name="pref_camera_scenemode_entry_antimotionblur">Μείωση motion blur</string>
   <string name="pref_camera_scenemode_entry_aqua">Νερό</string>
@@ -33,7 +33,7 @@
   <string name="pref_camera_scenemode_entry_backgroundblur">Θολό παρασκήνιο</string>
   <string name="pref_camera_scenemode_entry_backlight">Οπίσθιος φωτισμός</string>
   <string name="pref_camera_scenemode_entry_backlightportrait">Πορτραίτο με οπίσθιο φωτισμό</string>
-  <string name="pref_camera_scenemode_entry_barcode">Barcode</string>
+  <string name="pref_camera_scenemode_entry_barcode">Κώδικας barcode</string>
   <string name="pref_camera_scenemode_entry_beach">Παραλία</string>
   <string name="pref_camera_scenemode_entry_beauty">Ομορφιά</string>
   <string name="pref_camera_scenemode_entry_candlelight">Φως κεριού</string>
@@ -103,6 +103,6 @@
   <string name="pref_camera_shutter_speed_title">Ταχύτητα κλείστρου</string>
   <string name="auto_hdr_enabled">Αυτόματο HDR ενεργοποιημένο</string>
   <!-- Advanced options -->
-  <string name="developer_menu_enabled">Ενεργοποιήσατε τις προηγμένες ρυθμίσεις φωτογρ. μηχανής</string>
-  <string name="developer_menu_disabled">Απενεργοποιήσατε τις προηγμένες ρυθμίσεις φωτογρ. μηχανής</string>
+  <string name="developer_menu_enabled">Έχετε ενεργοποιήσει τις προχωρημένες ρυθμίσεις κάμερας</string>
+  <string name="developer_menu_disabled">Έχετε απενεργοποιήσει τις προχωρημένες ρυθμίσεις κάμερας</string>
 </resources>

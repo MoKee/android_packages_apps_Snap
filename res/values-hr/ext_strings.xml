@@ -18,15 +18,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- common aspect ratios -->
   <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
-  <string name="pref_camera_aspectratio_wide">Široko</string>
   <!-- format for entries in the picture size menu. Parameter one is aspect ratio
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
-  <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f megapiksela</string>
   <!-- Settings screen, scene mode -->
   <string name="pref_camera_scenemode_entry_antimotionblur">Redukcija zamagljenja zbog gibanja</string>
-  <string name="pref_camera_scenemode_entry_aqua">Aqua</string>
   <string name="pref_camera_scenemode_entry_ar">Proširena stvarnost</string>
   <string name="pref_camera_scenemode_entry_asd">Najbolja snimka</string>
   <string name="pref_camera_scenemode_entry_baby">Beba</string>
@@ -94,15 +91,9 @@
   <string name="pref_camera_max_brightness_title">Sjajan zaslon</string>
   <!-- Touch focus duration -->
   <string name="pref_camera_focustime_title">Trajanje fokusa na dodir</string>
-  <string name="pref_camera_focustime_entry_0">0s</string>
-  <string name="pref_camera_focustime_entry_3">3s</string>
-  <string name="pref_camera_focustime_entry_5">5s</string>
-  <string name="pref_camera_focustime_entry_10">10s</string>
   <string name="pref_camera_focustime_entry_infinite">Neograničeno</string>
   <!-- Shutter speed -->
   <string name="pref_camera_shutter_speed_title">Brzina okidača</string>
   <string name="auto_hdr_enabled">Auto HDR omogućen</string>
   <!-- Advanced options -->
-  <string name="developer_menu_enabled">Omogućili ste napredne opcije kamere</string>
-  <string name="developer_menu_disabled">Onemogućili ste napredne opcije kamere</string>
 </resources>
