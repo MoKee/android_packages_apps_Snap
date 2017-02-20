@@ -73,10 +73,10 @@
   <string name="pref_camera_advanced_features_title">Fonctionnalités avancées</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Aucun</string>
-  <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Focus multi-touches</string>
+  <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Mise au point multi-touches</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Manual exposure control entry values -->
-  <string name="pref_camera_manual_exp_title">Exposition mannuelle</string>
+  <string name="pref_camera_manual_exp_title">Exposition manuelle</string>
   <string name="pref_camera_manual_exp_entry_ISO_priority">Priorité ISO</string>
   <string name="pref_camera_manual_exp_entry_exptime_priority">Priorité au temps d’exposition</string>
   <string name="pref_camera_manual_exp_entry_user_setting">Paramètre d\'utilisateur</string>
@@ -88,7 +88,7 @@
   <string name="pref_camera_manual_wb_entry_off">Désactivé</string>
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_title">Mise au point manuelle</string>
-  <string name="pref_camera_manual_focus_entry_scale_mode">Mode d\'échelle</string>
+  <string name="pref_camera_manual_focus_entry_scale_mode">Mode de mise à l\'échelle</string>
   <string name="pref_camera_manual_focus_entry_diopter_mode">Mode dioptrie</string>
   <string name="pref_camera_manual_focus_entry_off">Désactivé</string>
   <!-- Instant Capture entry -->
@@ -115,7 +115,7 @@
   <string name="pref_camera_video_cds_entry_on">Activé</string>
   <string name="pref_camera_video_cds_entry_auto">Automatique</string>
   <!-- Settings screen, TNR location dialog choices -->
-  <string name="pref_camera_tnr_entry_disable">Desactiver</string>
+  <string name="pref_camera_tnr_entry_disable">Désactiver</string>
   <string name="pref_camera_tnr_entry_enable">Activé</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
@@ -138,13 +138,13 @@
   <!-- Default video tnr mode setting-->
   <!-- Default face  detection setting. -->
   <!-- Settings screen, Select Face Detection -->
-  <string name="pref_camera_facedetection_title">Détection de visage</string>
+  <string name="pref_camera_facedetection_title">Détection du visage</string>
   <!-- Settings menu, Face Detection choices -->
   <string name="pref_camera_facedetection_entry_off">Désactivé</string>
   <string name="pref_camera_facedetection_entry_on">Activé</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
-  <string name="pref_selfie_flash_title">Flash du mode selfie</string>
+  <string name="pref_selfie_flash_title">Flash frontal</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">Désactivé</string>
   <string name="pref_selfie_flash_entry_on">Activé</string>
@@ -158,7 +158,7 @@
   <string name="pref_camera_selfiemirror_entry_disable">Desactiver</string>
   <string name="pref_camera_shuttersound_title" translatable="true">Son de l\'obturateur</string>
   <string name="pref_camera_shuttersound_entry_enable">Activé</string>
-  <string name="pref_camera_shuttersound_entry_disable">Désactiver</string>
+  <string name="pref_camera_shuttersound_entry_disable">Désactivé</string>
   <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Haute vitesse/ralenti non supporté avec la stabilisation, le ralenti et HDR.</string>
@@ -215,7 +215,7 @@
   <string name="pref_camera_see_more_entry_on">Activé</string>
   <!-- see more entry values. Do not translate. -->
   <!-- Denoise Settings screen, setting title text -->
-  <string name="pref_camera_denoise_title">Antibruit</string>
+  <string name="pref_camera_denoise_title">Anti-bruit</string>
   <!-- Denoise Settings screen, Record location dialog choices -->
   <string name="pref_camera_denoise_entry_off">Désactivé</string>
   <string name="pref_camera_denoise_entry_on">Activé</string>
@@ -333,7 +333,7 @@
   <string name="pref_camera_histogram_title">Histogramme</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Activé</string>
-  <string name="pref_camera_histogram_entry_disable">Desactiver</string>
+  <string name="pref_camera_histogram_entry_disable">Désactiver</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -343,7 +343,7 @@
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
   <string name="pref_camera_scenedetect_entry_on">Activé</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
-  <string name="time_lapse_error">Format vidéo non valide pour l\'enregistrement à vitesse réduite « Time-lapse ».</string>
+  <string name="time_lapse_error">Format vidéo non valide pour l\'enregistrement à vitesse réduite.</string>
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Mode rafale</string>
   <string name="msg_cancel_longshot_for_limited_memory">Plus assez de mémoire, prise de vue continue annulée</string>
@@ -360,11 +360,11 @@
   <string name="pref_camera_hdr_mode_title">Mode HDR</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
   <string name="pref_camera_hdr_mode_entry_sensor">Capteur HDR</string>
-  <string name="pref_camera_hdr_mode_entry_multi_frame">Multi-couche HDR</string>
+  <string name="pref_camera_hdr_mode_entry_multi_frame">Multi-images HDR</string>
   <!-- HDR mode entry values. Do not translate. -->
   <!-- Settings screen, Selectable HDR need 1x frame default value -->
   <!-- Settings screen, Selectable HDR need 1x frame title -->
-  <string name="pref_camera_hdr_need_1x_title">HDR requiert 1x couche</string>
+  <string name="pref_camera_hdr_need_1x_title">HDR requiert 1x image</string>
   <!-- Settings screen, Selectable HDR need 1x frame radio button choices -->
   <!-- HDR need 1x frame entry values. Do not translate. -->
   <!--Default video rotation setting-->
@@ -399,7 +399,7 @@
   <string name="text_tsmakeup_alert_continue">Continuer</string>
   <string name="text_tsmakeup_alert_quit">Annuler</string>
   <string name="text_tsmakeup_beautify_toast">Embellir</string>
-  <string name="all_in_focus">Tout sur le focus</string>
+  <string name="all_in_focus">Tout sur la mise au point</string>
   <string name="refocus_toast">Pour refaire la mise au point, appuyez ici</string>
   <string name="refocus_prompt_message">Avec UbiFocus, votre appareil photo prendra 5 photos d\'affilées après chaque appui sur le bouton du déclencheur. Les 5 photos seront combinées en une seule, et conservera la mise au point sur tous les objets et sujets. Vous pouvez ainsi redéfinir le focus après avoir pris la photo.</string>
   <string name="camera_thermal_shutdown">Téléphone en surchauffe, fermeture de l\'appareil photo.</string>

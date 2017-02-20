@@ -346,6 +346,7 @@
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
   <string name="pref_camera_scenedetect_entry_on">Zapnuto</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
+  <string name="time_lapse_error">Neplatná velikost videa pro časosběrné nahrávání.</string>
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Sekvenční snímání</string>
   <string name="msg_cancel_longshot_for_limited_memory">Dochází paměť, ruší se sekvenční snímání</string>
@@ -373,6 +374,7 @@
   <!--Settings screen, video rotation title-->
   <string name="pref_camera_video_rotation_title">Rotace video</string>
   <!--Menu, video rotation label-->
+  <string name="pref_camera_video_rotation_label">OTÁČENÍ VIDEA</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
   <string name="pref_camera_video_rotation_entry_0">0°</string>
   <string name="pref_camera_video_rotation_entry_90">90°</string>
@@ -386,18 +388,40 @@
   <string name="advance_feature_enable_msg">Sekvenční snímání není podporováno při zapnutých rozšířených funkcích</string>
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">Spuštění fotoaparátu</string>
+  <string name="pref_camera_tsmakeup_title">Zkrášlování</string>
   <string name="pref_camera_tsmakeup_entry_on">Zapnuto</string>
   <string name="pref_camera_tsmakeup_entry_off">Vypnuto</string>
   <string name="pref_camera_tsmakeup_entry_low">Nízká</string>
+  <string name="pref_camera_tsmakeup_entry_mid">Střední</string>
   <string name="pref_camera_tsmakeup_entry_high">Vysoký</string>
   <string name="pref_camera_tsmakeup_custom">Vlastní</string>
+  <string name="pref_camera_tsmakeup_level_whiten">Bělení</string>
+  <string name="pref_camera_tsmakeup_level_clean">Změkčit</string>
+  <string name="text_tsmakeup_alert_title">Varování</string>
+  <string name="text_tsmakeup_alert_msg">Detekce obličeje musí být povolena chcete-li použít funkci zkrášlování. Chcete pokračovat?</string>
   <string name="text_tsmakeup_alert_continue">Pokračovat</string>
   <string name="text_tsmakeup_alert_quit">Zrušit</string>
+  <string name="text_tsmakeup_beautify_toast">Zkrášlení</string>
   <string name="all_in_focus">Zaostřeno na vše</string>
   <string name="refocus_toast">Dotykem zde znovu zaostřit poslední fotku</string>
+  <string name="refocus_prompt_message">S UbiFocus dojde při stisknutí závěrky ke zhotovení vždy 5 snímků. Tyto snímky se poté sloučí do jednoho. Po vytvoření tohoto snímku si můžete vybrat zaostření.</string>
+  <string name="camera_thermal_shutdown">Telefon se přehřál, fotoaparát se vypne.</string>
+  <string name="camera_server_died">Mediální server zemřel, vypínám fotoaparát.</string>
+  <string name="camera_unknown_error">Neznámá chyba, fotoaparát se vypne.</string>
+  <string name="mute_button_desc">Tlačítko pro ztlumení</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">OK</string>
+  <string name="help_menu_scene_mode_1">Vybrat</string>
   <string name="help_menu_scene_mode_2">Scénický režim</string>
+  <string name="help_menu_scene_mode_3">pro lepší snímky</string>
+  <string name="help_menu_color_filter_1">Použít barvu</string>
+  <string name="help_menu_color_filter_2">filtry</string>
+  <string name="help_menu_color_filter_4">vylepšení obrázků</string>
+  <string name="help_menu_beautify_1">Vylepšené portréty</string>
+  <string name="help_menu_beautify_2">s</string>
+  <string name="help_menu_beautify_3">Funkce zkrášlení</string>
+  <string name="help_menu_switcher_2">mezi</string>
+  <string name="help_menu_switcher_3">fotoaparát, video a panorama</string>
   <string name="pref_camera2_camera2_entry_enable">Povolit</string>
   <string name="pref_camera2_camera2_entry_disable">Zakázat</string>
   <string name="pref_camera2_mono_preview_entry_on">Zapnuto</string>
