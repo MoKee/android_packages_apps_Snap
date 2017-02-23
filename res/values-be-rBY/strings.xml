@@ -38,7 +38,7 @@
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
   <string name="deleted">Выдалена</string>
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
-  <string name="undo">АДМЯНІЦЬ</string>
+  <string name="undo">СКАСАВАЦЬ</string>
   <string name="details">Звесткі</string>
   <string name="close">Зачыніць</string>
   <!-- String indicating how many media item(s) is(are) selected
@@ -80,7 +80,7 @@
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
   <string name="crop_saved">
-        Абрэзаць выяву захавана ў <xliff:g id="folder_name">%s</xliff:g>.</string>
+        Абрэзаныя выявы захоўваюцца ў <xliff:g id="folder_name">%s</xliff:g>.</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
   <string name="title">Назва</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
@@ -153,7 +153,7 @@
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Чакайце\u2026</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
-  <string name="no_storage" product="default">Ўстаўце SD-карту перад выкарыстаннем камеры.</string>
+  <string name="no_storage" product="default">Устаўце SD-карту перад выкарыстаннем камеры.</string>
   <!-- alert to the user that the SD card is being disk-checked -->
   <string name="preparing_sd" product="default">Падрыхтоўка SD-карткі\u2026</string>
   <!-- alert to the user that the camera fails to read or write the SD card. -->
@@ -513,7 +513,7 @@ CHAR LIMIT = NONE] -->
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <string name="time_lapse_hours">гадзіны</string>
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
-  <string name="time_lapse_interval_set">Гатова</string>
+  <string name="time_lapse_interval_set">Выканана</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
   <string name="set_time_interval">Усталёўка часовага інтэрвалу</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
@@ -525,7 +525,7 @@ CHAR LIMIT = NONE] -->
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
   <string name="remember_location_title">Захоўваць месца здымкі?</string>
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
-  <string name="remember_location_prompt">Інфармацыя аб месцы здымкі будзе аўтаматычна дадавацца ў апісанне вашых фатаграфій і відэазапісаў.\n\nДоступ да гэтых дадзеных, а таксама да саміх здымках і відэа змогуць атрымаць і іншыя праграмы.</string>
+  <string name="remember_location_prompt">Інфармацыя аб месцы здымкі будзе аўтаматычна дадавацца ў апісанне вашых фатаграфій і відэазапісаў.\n\nДоступ да гэтых дадзеных, а таксама да саміх здымкаў і відэа змогуць атрымаць і іншыя праграмы.</string>
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_no">Не, дзякуй</string>
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->

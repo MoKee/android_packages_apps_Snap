@@ -101,6 +101,8 @@
   <string name="pref_camera_zsl_entry_off">Выключыць</string>
   <string name="pref_camera_zsl_entry_on">Укл.</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
+  <string name="hdr_enable_message">HDR уключаны, падтрымліваецца толькі рэжым аўта сцэна</string>
+  <string name="scene_enable_message">HDR не падтрымліваецца ў рэжыме сцэны, акрамя Аўта</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">Выключыць</string>
   <string name="pref_camera_video_hdr_entry_on">Укл.</string>
@@ -129,7 +131,9 @@
   <!-- Default cds mode setting-->
   <!-- Default video cds mode setting-->
   <!-- Settings menu, setting title text for tnr mode-->
+  <string name="pref_camera_tnr_title">Рэжим TNR</string>
   <!-- Settings menu, setting title text for video tnr mode-->
+  <string name="pref_camera_video_tnr_title">Рэжым відэа TNR</string>
   <!-- Default tnr mode setting-->
   <!-- Default video tnr mode setting-->
   <!-- Default face  detection setting. -->
@@ -146,12 +150,14 @@
   <string name="pref_selfie_flash_entry_on">Укл.</string>
   <!-- Default redeye reduction setting. -->
   <!-- Settings screen, Select Redeye Reduction -->
+  <string name="pref_camera_redeyereduction_title">Памяншэнне чырвані вачэй</string>
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Уключыць</string>
   <string name="pref_camera_redeyereduction_entry_disable">Адключыць</string>
-  <string name="pref_camera_selfiemirror_title" translatable="true">Сэлф-люстэрка</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Сэлфі-люстэрка</string>
   <string name="pref_camera_selfiemirror_entry_enable">Уключыць</string>
   <string name="pref_camera_selfiemirror_entry_disable">Адключыць</string>
+  <string name="pref_camera_shuttersound_title" translatable="true">Гук засаўкі</string>
   <string name="pref_camera_shuttersound_entry_enable">Уключана</string>
   <string name="pref_camera_shuttersound_entry_disable">Выключана</string>
   <!-- Default mce setting. Do not translate. -->
@@ -225,9 +231,13 @@
   <!-- Settings screen, Select Color effect title -->
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Нічога</string>
+  <string name="pref_camera_coloreffect_entry_mono">Мона</string>
+  <string name="pref_camera_coloreffect_entry_sepia">Сэпія</string>
   <string name="pref_camera_coloreffect_entry_negative">Негатыў</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_posterize">Пастэрызацыя</string>
+  <string name="pref_camera_coloreffect_entry_aqua">Вада</string>
+  <string name="pref_camera_coloreffect_entry_emboss">Рэльеф</string>
   <string name="pref_camera_coloreffect_entry_sketch">Эскіз</string>
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
   <string name="pref_camera_touchafaec_entry_off">Выключыць</string>
@@ -242,12 +252,14 @@
   <string name="pref_camera_facerc_entry_off">Выключыць</string>
   <string name="pref_camera_facerc_entry_on">Укл.</string>
   <!-- Settings screen, Multiple levels entries -->
+  <string name="pref_camera_sharpness_entry_level0">Узровень 0</string>
   <string name="pref_camera_sharpness_entry_level1">Узровень 1</string>
   <string name="pref_camera_sharpness_entry_level3">Узровень 3</string>
   <string name="pref_camera_sharpness_entry_level4">Узровень 4</string>
   <string name="pref_camera_sharpness_entry_level5">Узровень 5</string>
   <string name="pref_camera_sharpness_entry_level6">Узровень 6</string>
   <!-- Settings screen, Multiple levels entries -->
+  <string name="pref_camera_contrast_entry_level0">Узровень 0</string>
   <string name="pref_camera_contrast_entry_level1">Узровень 1</string>
   <string name="pref_camera_contrast_entry_level2">Узровень 2</string>
   <string name="pref_camera_contrast_entry_level3">Узровень 3</string>
@@ -256,7 +268,9 @@
   <string name="pref_camera_contrast_entry_level7">Узровень 7</string>
   <string name="pref_camera_contrast_entry_level8">Узровень 8</string>
   <string name="pref_camera_contrast_entry_level9">Узровень 9</string>
+  <string name="pref_camera_contrast_entry_level10">Узровень 10</string>
   <!-- Settings screen, Multiple levels entries -->
+  <string name="pref_camera_saturation_entry_level0">Узровень 0</string>
   <string name="pref_camera_saturation_entry_level1">Узровень 1</string>
   <string name="pref_camera_saturation_entry_level2">Узровень 2</string>
   <string name="pref_camera_saturation_entry_level3">Узровень 3</string>
@@ -265,6 +279,7 @@
   <string name="pref_camera_saturation_entry_level7">Узровень 7</string>
   <string name="pref_camera_saturation_entry_level8">Узровень 8</string>
   <string name="pref_camera_saturation_entry_level9">Узровень 9</string>
+  <string name="pref_camera_saturation_entry_level10">Узровень 10</string>
   <!-- Default sharpness setting. Do not translate. -->
   <!-- Settings screen, Select sharpness title -->
   <string name="pref_camera_sharpness_title">Рэзкасць</string>
@@ -300,6 +315,7 @@
   <!-- longshot value -->
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <!-- Settings screen, setting title text for Auto HDR-->
+  <string name="pref_camera_auto_hdr_title">Аўта HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Уключыць</string>
   <string name="pref_camera_auto_hdr_entry_disable">Адключыць</string>
@@ -327,7 +343,7 @@
   <string name="pref_camera_tsmakeup_level_whiten">Бяліць</string>
   <string name="pref_camera_tsmakeup_level_clean">Змякчаць</string>
   <string name="text_tsmakeup_alert_continue">Працягнуць</string>
-  <string name="text_tsmakeup_alert_quit">Адмена</string>
+  <string name="text_tsmakeup_alert_quit">Скасаваць</string>
   <string name="text_tsmakeup_beautify_toast">Аўтапаляпшэнне</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">ОК</string>
@@ -343,9 +359,14 @@
   <string name="pref_camera2_noise_reduction_entry_off">Выключыць</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Хутка</string>
   <string name="pref_camera2_noise_reduction_entry_high_quality">Высокая якасць</string>
+  <string name="pref_camera2_videosnap_title">Аўтаматычны памер здымка</string>
   <string name="pref_camera2_videosnap_entry_enable">Уключыць</string>
   <string name="pref_camera2_videosnap_entry_disable">Адключыць</string>
+  <string name="pref_camera2_trackingfocus_title">Адсочванне фокусу</string>
+  <string name="pref_camera_scenemode_entry_bestpicture">Лепшая выява</string>
   <string name="bestpicture_done">ЗРОБЛЕНА</string>
+  <string name="bestpicture_at_least_one_picture">Неабходна выбраць хаця б адну выяву.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Укл.</string>
   <string name="pref_camera2_shutter_sound_entry_off">Выключыць</string>
+  <string name="pref_camera2_shutter_sound_title">Гук засаўкі</string>
 </resources>

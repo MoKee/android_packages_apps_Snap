@@ -132,6 +132,7 @@
   <!-- Settings screen, white balance title -->
   <!-- Menu, white balance label -->
   <!-- Settings screen, White balance dialog radio button choices -->
+  <string name="pref_camera_whitebalance_entry_cloudy">တိမ်ထူသည်</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
