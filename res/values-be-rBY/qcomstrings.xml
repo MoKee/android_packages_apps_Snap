@@ -162,17 +162,29 @@
   <string name="pref_camera_shuttersound_entry_disable">Выключана</string>
   <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
+  <string name="error_app_unsupported_hfr_selection">Паскораная здымка не падтрымліваецца пры уключанай стабілізацыі выявы, уключаным HDR або ў рэжыме запаволенай здымкі.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
+  <string name="error_app_unsupported_hfr">Запаволенне руху не падтрымліваецца для бягучага памеру відэа. Ўсталюйце больш нізкі памер відэазапісу</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
+  <string name="error_app_unsupported_dis">Стабілізацыя выявы не падтрымліваецца для бягучага памеру відэа. Усталюйце больш нізкі памер відэазапісу</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HSR mode -->
+  <string name="error_app_unsupported_hsr">Паскораная здымка не падтрымліваецца бягучага памеру відэа. Усталюйце больш нізкі памер відэазапісу</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video codec for HFR mode -->
+  <string name="error_app_unsupported_hfr_codec">Паскораная здымка магчымая толькі з відэакодэкам H264</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
+  <string name="error_app_unsupported">Відэакодэкаў не падтрымлівае абраны дазвол</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
+  <string name="error_app_unsupported_profile">Непадтрымоўваны відэа профіль</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
+  <string name="error_app_unsupported_raw">Здымка ў фармаце RAW не падтрымліваюцца пры уключанай тэхналогіі нулявога запазнення засаўкі (ZSL). Выберыце фармат выявы JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE брэкетінг</string>
+  <string name="pref_camera_ae_bracket_hdr_title">AE брэкетінг</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Укл.</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Выключыць</string>
+  <string name="err_app_unsupport_ae_bracket_code">AE брэкетінг пакуль не падтрымліваецца</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
+  <string name="snapshot_lower_than_video">Памер эскіза відэа менш, чым памер відэа. Калі ласка, абярыце дазвол больш або роўнае бягучай разрозненасці відэа.</string>
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
   <!-- Default hfr setting. Do not translate. -->
@@ -331,6 +343,10 @@
   <!--Settings screen, video rotation title-->
   <!--Menu, video rotation label-->
   <!-- Settings screen, Video rotation dialog radio button choices -->
+  <string name="pref_camera_video_rotation_entry_0">0 градусаў</string>
+  <string name="pref_camera_video_rotation_entry_90">90 градусаў</string>
+  <string name="pref_camera_video_rotation_entry_180">180 градусаў</string>
+  <string name="pref_camera_video_rotation_entry_270">270 градусаў</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <!-- Continuous shot enable message -->
   <!-- Advanced features enable message -->
