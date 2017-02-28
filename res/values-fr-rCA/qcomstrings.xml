@@ -154,6 +154,7 @@
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Activé</string>
   <string name="pref_camera_redeyereduction_entry_disable">Desactiver</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Selfie mirror</string>
   <string name="pref_camera_selfiemirror_entry_enable">Activé</string>
   <string name="pref_camera_selfiemirror_entry_disable">Desactiver</string>
   <string name="pref_camera_shuttersound_title" translatable="true">Son de l\'obturateur</string>

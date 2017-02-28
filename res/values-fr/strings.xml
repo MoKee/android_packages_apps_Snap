@@ -35,7 +35,7 @@
   <string name="share_panorama">Partager le panorama</string>
   <string name="share_as_photo">Partager en tant que photo</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
-  <string name="deleted">Photo supprimée.</string>
+  <string name="deleted">Photo supprimée</string>
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
   <string name="undo">ANNULER</string>
   <string name="details">Détails</string>
@@ -60,13 +60,13 @@
   </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Afficher sur la carte</string>
-  <string name="rotate_left">Faire pivoter vers la gauche</string>
-  <string name="rotate_right">Faire pivoter vers la droite</string>
+  <string name="rotate_left">Pivoter à gauche</string>
+  <string name="rotate_right">Pivoter à droite</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
   <string name="edit">Modifier</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
-  <string name="crop_action">Rogner</string>
+  <string name="crop_action">Recadrer</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
   <string name="trim_action">Couper</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
@@ -75,13 +75,13 @@
   <string name="video_err">Impossible de lire la vidéo.</string>
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
-  <string name="crop_saved">L\'image rognée a bien été enregistrée dans le dossier \"<xliff:g id="FOLDER_NAME">%s</xliff:g>\".</string>
+  <string name="crop_saved">L\'image recadrée a été enregistrée dans <xliff:g id="FOLDER_NAME">%s</xliff:g>.</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
   <string name="title">Titre</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
   <string name="description">Description</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
-  <string name="time">Date/Heure</string>
+  <string name="time">Crée le</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
   <string name="location">Lieu</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
@@ -122,9 +122,9 @@
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
   <string name="auto">Automatique</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
-  <string name="flash_on">Flash déclenché</string>
+  <string name="flash_on">Activé</string>
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
-  <string name="flash_off">Flash désactivé</string>
+  <string name="flash_off">Désactivé</string>
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
   <string name="unknown">Inconnue</string>
   <!-- Toast message shown after we try to make a local album available offline
@@ -199,9 +199,9 @@
   <!-- Video quality setting entry. Videos will be recorded in 2K quality. [CHAR LIMIT=24] -->
   <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
-  <string name="pref_video_time_lapse_frame_interval_title">Intervalle de temps</string>
+  <string name="pref_video_time_lapse_frame_interval_title">Time lapse</string>
   <!-- Settings screen, Camera setting category title -->
-  <string name="pref_camera_settings_category">Paramètres de l\'application Appareil photo</string>
+  <string name="pref_camera_settings_category">Paramètres de l\'Appareil photo</string>
   <!-- Settings screen, Camcorder setting category title -->
   <string name="pref_camcorder_settings_category">Paramètres de la caméra</string>
   <!-- Settings screen, Picture size title -->
@@ -221,7 +221,7 @@
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
-  <string name="pref_camera_flashmode_title">Mode Flash</string>
+  <string name="pref_camera_flashmode_title">Flash</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_auto">Automatique</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
@@ -297,7 +297,7 @@
   <!-- Settings menu countdown timer 15 seconds [CHAR LIMIT=50] -->
   <string name="pref_camera_countdown_label_fifteen">15 SECONDES</string>
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
-  <string name="not_selectable_in_scene_mode">Impossible de sélectionner ce paramètre en mode Scène.</string>
+  <string name="not_selectable_in_scene_mode">Ce paramètre ne peut pas être sélectionné en mode Scène.</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
   <string name="HDR_disable_continuous_shot">L\'HDR désactivera le mode rafale.</string>
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
@@ -331,7 +331,7 @@
   <!-- Dialog "OK" button. Dismisses dialog. -->
   <string name="dialog_ok">OK</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
-  <string name="spaceIsLow_content" product="default">L\'espace disponible sur votre carte SD est insuffisant. Modifiez les paramètres de qualité, ou supprimez des images ou d\'autres fichiers.</string>
+  <string name="spaceIsLow_content" product="default">L\'espace disponible sur votre carte SD est insuffisant. Modifier les paramètres de qualité, ou supprimez des images ou d\'autres fichiers.</string>
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
   <!-- Filename prefix for panorama output. -->
@@ -375,11 +375,11 @@
   <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
   <string name="effect_backdropper_space">Dans l\'espace</string>
   <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
-  <string name="effect_backdropper_sunset">Coucher soleil</string>
+  <string name="effect_backdropper_sunset">Coucher de soleil</string>
   <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
   <string name="effect_backdropper_gallery">Votre vidéo</string>
   <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
-  <string name="video_snapshot_hint">Appuyez ici pour prendre photo pendant enregistrement.</string>
+  <string name="video_snapshot_hint">Toucher pour prendre une photo pendant enregistrement.</string>
   <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
   <string name="video_recording_started">L\'enregistrement vidéo a commencé.</string>
   <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
@@ -387,25 +387,25 @@
   <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
   <string name="clear_effects">Effacer les effets</string>
   <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
-  <string name="effect_silly_faces">DRÔLES DE TÊTES</string>
+  <string name="effect_silly_faces">GRIMACES</string>
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
   <string name="effect_background">ARRIÈRE-PLAN</string>
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_shutter_button">Obturateur</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_menu_button">Bouton \"Menu\"</string>
+  <string name="accessibility_menu_button">Bouton Menu</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
   <string name="accessibility_mode_picker">Sélecteur du mode Appareil photo, Vidéo ou Panoramique</string>
   <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->
   <string name="accessibility_check_box">Case à cocher correspondant au paramètre \"%1$s\"</string>
   <!-- The button to switch to Camera mode. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_switch_to_camera">Passer en mode Appareil photo</string>
+  <string name="accessibility_switch_to_camera">Basculer sur l\'appareil photo</string>
   <!-- The button to switch to Video mode. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_switch_to_video">Passer en mode Vidéo</string>
+  <string name="accessibility_switch_to_video">Basculer sur l\'enregistreur vidéo</string>
   <!-- The button to switch to Panorama mode. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_switch_to_panorama">Passer en mode Panoramique</string>
+  <string name="accessibility_switch_to_panorama">Basculer sur la prise de vue panoramique</string>
   <!-- The button to switch to the Photo Sphere mode. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_switch_to_photo_sphere">Passer en mode Photo Sphere</string>
+  <string name="accessibility_switch_to_photo_sphere">Basculer sur le mode Photo Sphère</string>
   <!-- The button to switch to the high quality mode. [CHAR LIMIT = NONE] -->
   <string name="accessibility_switch_to_gcam">Passer en haute qualité</string>
   <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT = NONE] -->
@@ -506,11 +506,11 @@ CHAR LIMIT = NONE] -->
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <string name="time_lapse_hours">heures</string>
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
-  <string name="time_lapse_interval_set">OK</string>
+  <string name="time_lapse_interval_set">Terminé</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
   <string name="set_time_interval">Définir l\'intervalle de temps</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
-  <string name="set_time_interval_help">La fonctionnalité d\'intervalle de temps est désactivée. Veuillez l\'activer pour définir un intervalle.</string>
+  <string name="set_time_interval_help">La fonctionnalité Time lapse est désactivée. Veuillez l\'activer pour définir un intervalle.</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
   <string name="set_duration">Définir la durée en secondes</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->

@@ -56,7 +56,7 @@
   <string name="pref_camera_skinToneEnhancement_title">Amélioration de la teinte de peau</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Activé</string>
-  <string name="pref_camera_skinToneEnhancement_entry_disable">Desactiver</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Désactiver</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <string name="pref_camera_zsl_title">Pas de délai de l\'obturateur</string>
@@ -119,7 +119,7 @@
   <string name="pref_camera_tnr_entry_enable">Activé</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
-  <string name="pref_camera_video_tnr_entry_disable">Desactiver</string>
+  <string name="pref_camera_video_tnr_entry_disable">Désactiver</string>
   <string name="pref_camera_video_tnr_entry_enable">Activé</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
@@ -153,15 +153,16 @@
   <string name="pref_camera_redeyereduction_title">Réduction des yeux rouges</string>
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Activé</string>
-  <string name="pref_camera_redeyereduction_entry_disable">Desactiver</string>
+  <string name="pref_camera_redeyereduction_entry_disable">Désactiver</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Selfie mirror</string>
   <string name="pref_camera_selfiemirror_entry_enable">Activé</string>
-  <string name="pref_camera_selfiemirror_entry_disable">Desactiver</string>
+  <string name="pref_camera_selfiemirror_entry_disable">Désactiver</string>
   <string name="pref_camera_shuttersound_title" translatable="true">Son de l\'obturateur</string>
   <string name="pref_camera_shuttersound_entry_enable">Activé</string>
   <string name="pref_camera_shuttersound_entry_disable">Désactivé</string>
   <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
-  <string name="error_app_unsupported_hfr_selection">Haute vitesse/ralenti non supporté avec la stabilisation, le ralenti et HDR.</string>
+  <string name="error_app_unsupported_hfr_selection">Pendant l\'utilisation de la stabilisation, Time lapse ou HDR, l’enregistrement HFR n\'est pas supporté.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
   <string name="error_app_unsupported_hfr">La vidéo au ralenti n\'est pas compatible avec la résolution sélectionnée. Sélectionner une résolution moins élevée</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -395,7 +396,7 @@
   <string name="pref_camera_tsmakeup_level_whiten">Blanchir</string>
   <string name="pref_camera_tsmakeup_level_clean">Adoucir</string>
   <string name="text_tsmakeup_alert_title">Avertissement</string>
-  <string name="text_tsmakeup_alert_msg">La detection de visage doit être activée pour utiliser la fonction d\'embellissement. Voulez-vous continuer?</string>
+  <string name="text_tsmakeup_alert_msg">La détection de visage doit être activée pour utiliser la fonction d\'embellissement. Voulez-vous continuer?</string>
   <string name="text_tsmakeup_alert_continue">Continuer</string>
   <string name="text_tsmakeup_alert_quit">Annuler</string>
   <string name="text_tsmakeup_beautify_toast">Embellir</string>
@@ -423,7 +424,7 @@
   <string name="help_menu_switcher_3">appareil photo, vidéo et panorama</string>
   <string name="pref_camera2_camera2_title">Mode caméra 2</string>
   <string name="pref_camera2_camera2_entry_enable">Activé</string>
-  <string name="pref_camera2_camera2_entry_disable">Desactiver</string>
+  <string name="pref_camera2_camera2_entry_disable">Désactiver</string>
   <string name="pref_camera2_mono_only_title">Seulement en Monochrome</string>
   <string name="pref_camera2_mono_preview_title">Aperçu monochrome</string>
   <string name="pref_camera2_mono_preview_entry_on">Activé</string>
