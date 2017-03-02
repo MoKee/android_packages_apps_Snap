@@ -301,6 +301,7 @@
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
   <string name="HDR_disable_continuous_shot">HDR disattiverà lo scatto continuo.</string>
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
+  <string name="advanced_capture_disable_continuous_shot">Attivando la Cattura Avanzata lo scatto continuo sarà disattivato.</string>
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
   <string name="video_quality_4k_disable_IS">La qualità video 4k disattiverà la stabilizzazione immagine.</string>
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
@@ -547,4 +548,5 @@ CHAR LIMIT = NONE] -->
   <string name="setting_wallpaper">Impostazione dello sfondo</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
   <string name="remaining_photos_format">%d rimaste</string>
+  <string name="makeup_video_size_limit">Abbellimento funziona solo con la risoluzione VGA per le registrazioni video.</string>
 </resources>

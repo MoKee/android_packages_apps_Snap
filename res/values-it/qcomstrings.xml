@@ -154,6 +154,7 @@
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Attiva</string>
   <string name="pref_camera_redeyereduction_entry_disable">Disabilita</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Selfie specchiato</string>
   <string name="pref_camera_selfiemirror_entry_enable">Attiva</string>
   <string name="pref_camera_selfiemirror_entry_disable">Disabilita</string>
   <string name="pref_camera_shuttersound_title" translatable="true">Suono otturatore</string>
@@ -183,8 +184,11 @@
   <string name="pref_camera_ae_bracket_hdr_entry_off">Spenta</string>
   <string name="err_app_unsupport_ae_bracket_code">Bracketing EA non è ancora supportato</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
+  <string name="snapshot_lower_than_video">Le dimensioni dello snapshot sono inferiori a quelle del video, e sono state adattate. Si prega di selezionare una risoluzione maggiore o uguale a quella del video.</string>
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
+  <string name="snapshotsize_low_powermode">La modifica delle dimensioni dell\'immagine non è supportata in modalità basso consumo; saranno utilizzate le dimensioni del video. Si prega di selezionare la modalità consumo normale per consentire la modifica delle dimensioni dell\'immagine.</string>
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
+  <string name="snapshot_qcif_and_d1">Per questa risoluzione è consentito mantenere per gli snapshot solo la dimensione del video.</string>
   <!-- Default hfr setting. Do not translate. -->
   <!-- Settings screen, Select hfr title -->
   <string name="pref_camera_hfr_title">Slow Motion</string>
@@ -236,6 +240,7 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Auto</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
+  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
   <string name="pref_camera_antibanding_entry_3">Autom.</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">ON</string>
@@ -390,6 +395,8 @@
   <string name="pref_camera_tsmakeup_entry_mid">Medio</string>
   <string name="pref_camera_tsmakeup_entry_high">Alto</string>
   <string name="pref_camera_tsmakeup_custom">Personalizza</string>
+  <string name="pref_camera_tsmakeup_level_whiten">Imbiancati</string>
+  <string name="pref_camera_tsmakeup_level_clean">Ammorbidito</string>
   <string name="text_tsmakeup_alert_title">Attenzione</string>
   <string name="text_tsmakeup_alert_msg">Il rilevamento del volto deve essere attivato per utilizzare la funzione abbellimento. Continuare?</string>
   <string name="text_tsmakeup_alert_continue">Continua</string>
@@ -409,8 +416,13 @@
   <string name="help_menu_scene_mode_3">per foto migliori</string>
   <string name="help_menu_color_filter_1">Applica colore</string>
   <string name="help_menu_color_filter_2">filtri</string>
+  <string name="help_menu_color_filter_3">a</string>
   <string name="help_menu_color_filter_4">migliorare le foto</string>
   <string name="help_menu_beautify_1">Migliorare i ritratti</string>
+  <string name="help_menu_beautify_2">con la</string>
+  <string name="help_menu_beautify_3">Funzione di abbellimento</string>
+  <string name="help_menu_switcher_1">Passa</string>
+  <string name="help_menu_switcher_2">tra</string>
   <string name="help_menu_switcher_3">fotocamera, videocamera e panorama</string>
   <string name="pref_camera2_camera2_title">Modalità camera2</string>
   <string name="pref_camera2_camera2_entry_enable">Attiva</string>
@@ -421,6 +433,8 @@
   <string name="pref_camera2_mono_preview_entry_off">Spenta</string>
   <string name="pref_camera2_clearsight_entry_on">ON</string>
   <string name="pref_camera2_clearsight_entry_off">Spenta</string>
+  <string name="clearsight_capture_success">Cattura ClearSight riuscita</string>
+  <string name="clearsight_capture_fail">Cattura ClearSight fallita</string>
   <string name="pref_camera2_mpo_title">Formato MPO</string>
   <string name="pref_camera2_mpo_entry_on">ON</string>
   <string name="pref_camera2_mpo_entry_off">Spenta</string>
@@ -432,6 +446,7 @@
   <string name="pref_camera2_videosnap_title">Dimensione snapshot automatica</string>
   <string name="pref_camera2_videosnap_entry_enable">Attiva</string>
   <string name="pref_camera2_videosnap_entry_disable">Disabilita</string>
+  <string name="pref_camera2_trackingfocus_title">Inseguimento messa a fuoco</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Immagine migliore</string>
   <string name="bestpicture_done">FATTO</string>
   <string name="bestpicture_at_least_one_picture">Deve essere selezionata almeno un\'immagine.</string>
