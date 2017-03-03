@@ -48,16 +48,20 @@
   <string name="pref_camera_videoencoder_dialogtitle">Códec de video</string>
   <!-- Default audio encoder setting. A numerical value. -->
   <!-- Settings screen, Audio encoder title -->
+  <string name="pref_camera_audioencoder_title">Códec de audio</string>
   <!-- Settings screen, Audio encoder dialog radio button choices -->
   <!-- Default video duration setting. A numerical value.-->
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
   <!-- Settings screen, Select Skin Tone Enhancement title -->
+  <string name="pref_camera_skinToneEnhancement_title">Mejora tono de piel</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Activado</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Desactivar</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <!-- Default selectable zone af setting. Do not translate. -->
   <!-- Settings screen, Selectable zone af title -->
+  <string name="pref_camera_selectablezoneaf_title">Modo de enfoque automático</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_selectablezoneaf_entry_auto">Automático</string>
   <string name="pref_camera_selectablezoneaf_entry_spotmetering">Medición puntual</string>
@@ -74,8 +78,10 @@
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_entry_off">Desactivado</string>
   <!-- Manual Focus entry values -->
+  <string name="pref_camera_manual_focus_title">Enfoque manual</string>
   <string name="pref_camera_manual_focus_entry_off">Desactivado</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_entry_disable" translatable="true">Desactivar</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Desactivado</string>
@@ -93,9 +99,11 @@
   <string name="pref_camera_video_cds_entry_on">Sí</string>
   <string name="pref_camera_video_cds_entry_auto">Automático</string>
   <!-- Settings screen, TNR location dialog choices -->
+  <string name="pref_camera_tnr_entry_disable">Desactivar</string>
   <string name="pref_camera_tnr_entry_enable">Activado</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
+  <string name="pref_camera_video_tnr_entry_disable">Desactivar</string>
   <string name="pref_camera_video_tnr_entry_enable">Activado</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
@@ -121,7 +129,9 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Activado</string>
+  <string name="pref_camera_redeyereduction_entry_disable">Desactivar</string>
   <string name="pref_camera_selfiemirror_entry_enable">Activado</string>
+  <string name="pref_camera_selfiemirror_entry_disable">Desactivar</string>
   <string name="pref_camera_shuttersound_entry_enable">Activado</string>
   <string name="pref_camera_shuttersound_entry_disable">Deshabilitado</string>
   <!-- Default mce setting. Do not translate. -->
@@ -236,6 +246,7 @@
   <string name="pref_camera_histogram_title">Histograma</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Activado</string>
+  <string name="pref_camera_histogram_entry_disable">Desactivar</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -249,6 +260,7 @@
   <!-- Settings screen, setting title text for Auto HDR-->
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Activado</string>
+  <string name="pref_camera_auto_hdr_entry_disable">Desactivar</string>
   <!-- toast message for storage location switch -->
   <!-- Settings screen, Selectable HDR mode title -->
   <!-- Settings screen, Selectable HDR mode radio button choices -->
@@ -276,6 +288,7 @@
   <string name="help_menu_ok">Aceptar</string>
   <string name="help_menu_scene_mode_2">Modo de escena</string>
   <string name="pref_camera2_camera2_entry_enable">Activado</string>
+  <string name="pref_camera2_camera2_entry_disable">Desactivar</string>
   <string name="pref_camera2_mono_preview_entry_on">Sí</string>
   <string name="pref_camera2_mono_preview_entry_off">Desactivado</string>
   <string name="pref_camera2_clearsight_entry_on">Sí</string>
@@ -284,6 +297,7 @@
   <string name="pref_camera2_mpo_entry_off">Desactivado</string>
   <string name="pref_camera2_noise_reduction_entry_off">Desactivado</string>
   <string name="pref_camera2_videosnap_entry_enable">Activado</string>
+  <string name="pref_camera2_videosnap_entry_disable">Desactivar</string>
   <string name="bestpicture_done">LISTO</string>
   <string name="pref_camera2_shutter_sound_entry_on">Sí</string>
   <string name="pref_camera2_shutter_sound_entry_off">Desactivado</string>

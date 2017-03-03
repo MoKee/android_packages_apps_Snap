@@ -41,6 +41,22 @@
   <string name="pref_camera_scenemode_entry_closeup">Detalle</string>
   <string name="pref_camera_scenemode_entry_dark">Oscuro</string>
   <string name="pref_camera_scenemode_entry_dish">Reflector</string>
+  <string name="pref_camera_scenemode_entry_duskdawn">Amanecer/anochecer</string>
+  <string name="pref_camera_scenemode_entry_document">Documento</string>
+  <string name="pref_camera_scenemode_entry_fallcolor">Color otoñal</string>
+  <string name="pref_camera_scenemode_entry_fireworks">Fuegos artificiales</string>
+  <string name="pref_camera_scenemode_entry_flowers">Flores</string>
+  <string name="pref_camera_scenemode_entry_handheldtwilight">Crepúsculo</string>
+  <string name="pref_camera_scenemode_entry_highsensitivity">Alta sensibilidad</string>
+  <string name="pref_camera_scenemode_entry_indoor">Interior</string>
+  <string name="pref_camera_scenemode_entry_landscape">Panorama</string>
+  <string name="pref_camera_scenemode_entry_mix_illuminant">Mezcla de luces</string>
+  <string name="pref_camera_scenemode_entry_mood">Estado de ánimo</string>
+  <string name="pref_camera_scenemode_entry_nightportrait">Retrato nocturno</string>
+  <string name="pref_camera_scenemode_entry_nightindoor">Interior nocturno</string>
+  <string name="pref_camera_scenemode_entry_oldfilm">Película vieja</string>
+  <string name="pref_camera_scenemode_entry_pet">Mascota</string>
+  <string name="pref_camera_scenemode_entry_portrait">Retrato</string>
   <string name="pref_camera_scenemode_entry_snow">Nieve</string>
   <string name="pref_camera_scenemode_entry_softskin">Suavizado</string>
   <string name="pref_camera_scenemode_entry_sports">Deportes</string>
@@ -59,6 +75,7 @@
   <string name="pref_camera_focusmode_entry_facepriority">Prioridad rostro</string>
   <string name="pref_camera_focusmode_entry_fixed">Fijo</string>
   <string name="pref_camera_focusmode_entry_normal">Normal</string>
+  <string name="pref_camera_focusmode_entry_portrait">Retrato</string>
   <!-- Color effects -->
   <!-- Red eye flash mode title -->
   <!-- Power shutter -->
