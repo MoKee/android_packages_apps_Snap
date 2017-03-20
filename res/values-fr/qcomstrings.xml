@@ -185,6 +185,7 @@
   <string name="err_app_unsupport_ae_bracket_code">Le bracketing AE n\'est pas encore pris en charge</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
+  <string name="snapshotsize_low_powermode">Le changement de la résolution d\'image n\'est pas supporté en mode basse consommation, un instantané de la taille vidéo va être pris. Veuillez Sélectionner le mode d\'alimentation normale pour toute modification.</string>
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
   <string name="snapshot_qcif_and_d1">L\'aperçu vidéo ne prend en charge qu\'un seul format dans cette résolution.</string>
   <!-- Default hfr setting. Do not translate. -->
