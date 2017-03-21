@@ -33,7 +33,7 @@
   <string name="pref_camera_scenemode_entry_backgroundblur">Θολό παρασκήνιο</string>
   <string name="pref_camera_scenemode_entry_backlight">Οπίσθιος φωτισμός</string>
   <string name="pref_camera_scenemode_entry_backlightportrait">Πορτραίτο με οπίσθιο φωτισμό</string>
-  <string name="pref_camera_scenemode_entry_barcode">Barcode</string>
+  <string name="pref_camera_scenemode_entry_barcode">Κώδικας barcode</string>
   <string name="pref_camera_scenemode_entry_beach">Παραλία</string>
   <string name="pref_camera_scenemode_entry_beauty">Ομορφιά</string>
   <string name="pref_camera_scenemode_entry_candlelight">Φως κεριού</string>

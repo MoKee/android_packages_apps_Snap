@@ -178,7 +178,6 @@
   <string name="pref_camera_denoise_entry_off">Aus</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automatesch</string>
   <string name="pref_camera_iso_entry_isodeblur">Automatesch (HJR)</string>
@@ -194,7 +193,6 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Aus</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
-  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
   <string name="pref_camera_antibanding_entry_3">Automatesch</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_off">Aus</string>
@@ -203,8 +201,6 @@
   <string name="pref_camera_filter_mode_title">Faarfeffekt</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Keen</string>
-  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
-  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Solariséiert</string>
@@ -212,8 +208,6 @@
   <string name="pref_camera_coloreffect_entry_aqua">Waasser</string>
   <string name="pref_camera_coloreffect_entry_emboss">Prägung</string>
   <string name="pref_camera_coloreffect_entry_sketch">Zeechnen</string>
-  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
-  <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mosaik</string>
   <string name="pref_camera_coloreffect_entry_redtint">Routstach</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Blostach</string>

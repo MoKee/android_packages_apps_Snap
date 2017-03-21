@@ -55,7 +55,6 @@
   <!-- Default selectable zone af setting. Do not translate. -->
   <!-- Settings screen, Selectable zone af title -->
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
-  <string name="pref_camera_selectablezoneaf_entry_auto">Auto</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Selectable advanced features title -->
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -77,9 +76,7 @@
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
   <!-- Settings screen, Video HDR location dialog choices -->
   <!-- Settings screen, CDS location dialog choices -->
-  <string name="pref_camera_cds_entry_auto">Auto</string>
   <!-- Settings screen, video CDS location dialog choices -->
-  <string name="pref_camera_video_cds_entry_auto">Auto</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">Deshabilitar</string>
   <string name="pref_camera_tnr_entry_enable">Habilitar</string>
@@ -150,28 +147,18 @@
   <!-- Denoise Settings screen, Record location dialog choices -->
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
-  <string name="pref_camera_iso_entry_auto">Auto</string>
-  <string name="pref_camera_iso_entry_isodeblur">Auto (HJR)</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
   <string name="pref_camera_antibanding_entry_2">60 Hz (EE.XX)</string>
-  <string name="pref_camera_antibanding_entry_3">Auto</string>
   <!-- Default color effect setting. -->
   <!-- Settings screen, Select Color effect title -->
   <string name="pref_camera_coloreffect_title">Efeutu de color</string>
   <string name="pref_camera_filter_mode_title">Efeutu de color</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
-  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negativu</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
@@ -250,7 +237,6 @@
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">Mou HDR</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
-  <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
   <!-- HDR mode entry values. Do not translate. -->
   <!-- Settings screen, Selectable HDR need 1x frame default value -->
   <!-- Settings screen, Selectable HDR need 1x frame title -->
@@ -295,6 +281,7 @@
   <string name="help_menu_switcher_3">cámara, videu y panorámicu</string>
   <string name="pref_camera2_camera2_title">Mou Camera2</string>
   <string name="pref_camera2_camera2_entry_enable">Habilitar</string>
+  <string name="pref_camera2_camera2_entry_disable">Deshabilitar</string>
   <string name="pref_camera2_mono_only_title">Namái mono</string>
   <string name="pref_camera2_mono_preview_title">Previsualización mono</string>
   <string name="clearsight_capture_fail">Falló la captura ClearSight</string>
@@ -302,6 +289,7 @@
   <string name="pref_camera2_noise_reduction_title">Reducción de ruíu</string>
   <string name="pref_camera2_noise_reduction_entry_high_quality">Calidá alta</string>
   <string name="pref_camera2_videosnap_entry_enable">Habilitar</string>
+  <string name="pref_camera2_videosnap_entry_disable">Deshabilitar</string>
   <string name="pref_camera_scenemode_entry_bestpicture">La meyor semeya</string>
   <string name="bestpicture_done">FECHO</string>
   <string name="bestpicture_at_least_one_picture">Tien d\'esbillase polo menos una semeya.</string>

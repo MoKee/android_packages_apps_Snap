@@ -20,9 +20,7 @@
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <string name="video_camera_label">Відэакамера</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Усталяваць малюнак як</string>
@@ -31,8 +29,8 @@
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <plurals name="delete_selection">
     <item quantity="one">Выдаліць абраны файл?</item>
-    <item quantity="few">Выдаліць абраныя файлы?</item>
-    <item quantity="other">Выдаліць абраныя файлы?</item>
+    <item quantity="few">Выдаліць выбраныя файлы?</item>
+    <item quantity="other">Выдаліць выбраныя файлы?</item>
   </plurals>
   <string name="share">Падзяліцца</string>
   <string name="share_panorama">Падзяліцца панарамай</string>
@@ -46,23 +44,23 @@
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_items_selected">
-    <item quantity="one">%1$d абраны</item>
-    <item quantity="few">%1$d абраны</item>
-    <item quantity="other">%1$d абраныя</item>
+    <item quantity="one">%1$d выбрана</item>
+    <item quantity="few">%1$d выбрана</item>
+    <item quantity="other">%1$d выбрана</item>
   </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_albums_selected">
-    <item quantity="one">%1$d абраны</item>
-    <item quantity="few">%1$d абраны</item>
-    <item quantity="other">%1$d абраныя</item>
+    <item quantity="one">%1$d выбрана</item>
+    <item quantity="few">%1$d выбрана</item>
+    <item quantity="other">%1$d выбрана</item>
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_groups_selected">
-    <item quantity="one">%1$d абраны</item>
-    <item quantity="few">%1$d абраны</item>
-    <item quantity="other">%1$d абраныя</item>
+    <item quantity="one">%1$d выбрана</item>
+    <item quantity="few">%1$d выбрана</item>
+    <item quantity="other">%1$d выбрана</item>
   </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Паказаць на мапе</string>
@@ -82,9 +80,9 @@
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
   <string name="crop_saved">
-        Кадраваная выява захавана ў тэчцы<xliff:g id="folder_name">%s</xliff:g>.</string>
+        Абрэзаныя выявы захоўваюцца ў <xliff:g id="folder_name">%s</xliff:g>.</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
-  <string name="title">Па назве</string>
+  <string name="title">Назва</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
   <string name="description">Апісанне</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
@@ -104,7 +102,7 @@
   <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
   <string name="mimetype">Тып MIME</string>
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
-  <string name="file_size">Памер файлу</string>
+  <string name="file_size">Памер файла</string>
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <string name="maker">Аўтар</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
@@ -149,7 +147,9 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">Камера адключана ў адпаведнасці з палітыкай бяспекі.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
+  <string name="error_permissions">Праграма не мае крытычных дазволаў, неабходных для запуску. Калі ласка, праверце налады дазволаў.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+  <string name="dialog_dismiss">Адхіліць</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Калі ласка, пачакайце\u2026</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -169,6 +169,7 @@
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">Франтальная</string>
   <!-- Settings screen, setting title text -->
+  <string name="pref_camera_recordlocation_title">Месцазнаходжанне</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">МЕСЦАЗНАХОДЖАННЕ</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -182,10 +183,13 @@
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">Гукавы сігнал падчас зваротнага адліку</string>
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_title">Сховішча</string>
+  <string name="pref_camera_savepath_entry_0">Тэлефон</string>
+  <string name="pref_camera_savepath_entry_1">SD-картка</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
-  <string name="setting_off">Адключана</string>
+  <string name="setting_off">Выкл.</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
-  <string name="setting_on">Уключана</string>
+  <string name="setting_on">Укл.</string>
   <!-- The value of a camera preference indicating the setting is off. -->
   <!-- The value of a camera preference indicating the setting is on. -->
   <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
@@ -212,7 +216,7 @@
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Рэжым факусавання</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
-  <string name="pref_camera_focusmode_entry_auto">Аўтаматычна</string>
+  <string name="pref_camera_focusmode_entry_auto">Аўта</string>
   <!-- A setting that lets the camera focus into infinity. [CHAR LIMIT=20] -->
   <string name="pref_camera_focusmode_entry_infinity">Бясконцасць</string>
   <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
@@ -302,14 +306,23 @@
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
   <string name="not_selectable_in_scene_mode">Недаступна ў рэжыме здымкі.</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
+  <string name="HDR_disable_continuous_shot">HDR адключае бесперапынную здымку.</string>
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
+  <string name="advanced_capture_disable_continuous_shot">Пашыраны захоп адключае бесперапынную здымку.</string>
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
+  <string name="video_quality_4k_disable_IS">4к якасць відэа выключыць стабілізацыю выявы.</string>
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
+  <string name="video_quality_4k_disable_SeeMore">SeeMore нельга ўключыць пры 4к відэа.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_HighQualityNoiseReduction">Зніжэнне шуму высокай якасці выключыць CDS.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_HighQualityNoiseReduction">Зніжэнне шуму высокай якасці выключыць TNR.</string>
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_SeeMore">SeeMore выключыць CDS.</string>
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_SeeMore">SeeMore выключыць TNR.</string>
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
+  <string name="disable_NR_during_SeeMore">SeeMore выключыць зніжэнне шуму.</string>
   <!-- Exposure settings in preference -->
   <string name="pref_exposure_title">Экспакарэкцыя</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
@@ -325,14 +338,14 @@
   <!-- Dialog "OK" button. Dismisses dialog. -->
   <string name="dialog_ok">Добра</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
-  <string name="spaceIsLow_content" product="default">На SD-картцы сканчаецца вольнае месца. Зменіце налады якасці ці выдаліце непатрэбныя файлы.</string>
+  <string name="spaceIsLow_content" product="default">Месца на вашай SD-карце заканчваецца. Зменіце налады якасці або выдаліце ​​непатрэбныя выявы і іншыя файлы.</string>
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
   <!-- Filename prefix for panorama output. -->
   <!-- The message shown when video record reaches size limit. -->
-  <string name="video_reach_size_limit">Дасягнута абмежаванне памеру.</string>
+  <string name="video_reach_size_limit">Дасягнуты максімальны памер.</string>
   <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=16] -->
-  <string name="pano_too_fast_prompt">Занадта хутка</string>
+  <string name="pano_too_fast_prompt">Вельмі хутка</string>
   <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
   <string name="pano_dialog_prepare_preview">Апрацоўка</string>
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
@@ -340,7 +353,7 @@
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
   <string name="pano_dialog_title">Панарама</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
-  <string name="pano_capture_indication">Стварэнне панарамы</string>
+  <string name="pano_capture_indication">Стварэнне панарама</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
   <string name="pano_dialog_waiting_previous">Апрацоўка папярэдняга файла</string>
   <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
@@ -502,7 +515,7 @@ CHAR LIMIT = NONE] -->
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
   <string name="time_lapse_interval_set">Выканана</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
-  <string name="set_time_interval">Задайце інтэрвал</string>
+  <string name="set_time_interval">Усталёўка часовага інтэрвалу</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
   <string name="set_time_interval_help">Спачатку ўключыце рэжым запаволенай здымкі.</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
@@ -512,7 +525,7 @@ CHAR LIMIT = NONE] -->
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
   <string name="remember_location_title">Захоўваць месца здымкі?</string>
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
-  <string name="remember_location_prompt">Інфармацыя пра месца здымкі будзе аўтаматычна дададзена ў апісанне вашых фатаграфій і відэазапісаў.\n\nДоступ да гэтых дадзеных, а таксама да саміх фатаграфій і відэа змогуць атрымаць і іншыя дадаткі.</string>
+  <string name="remember_location_prompt">Інфармацыя аб месцы здымкі будзе аўтаматычна дадавацца ў апісанне вашых фатаграфій і відэазапісаў.\n\nДоступ да гэтых дадзеных, а таксама да саміх здымкаў і відэа змогуць атрымаць і іншыя праграмы.</string>
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_no">Не, дзякуй</string>
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
@@ -535,10 +548,12 @@ CHAR LIMIT = NONE] -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
   <string name="crop_save">Захаваць</string>
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
-  <string name="cannot_load_image">Не атрымалася загрузіць выяву!</string>
+  <string name="cannot_load_image">Не атрымалася спампаваць малюнак!</string>
   <!-- Label for album filmstrip button -->
   <string name="switch_photo_filmstrip">Стужка</string>
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Усталёўка шпалер</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="remaining_photos_format">%d злева</string>
+  <string name="makeup_video_size_limit">Макіяж працуе толькі пад памер VGA у запісу відэа.</string>
 </resources>

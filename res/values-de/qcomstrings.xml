@@ -28,7 +28,7 @@
   <!-- Settings screen, Power Mode title -->
   <string name="pref_camera_powermode_title">Energiemodus</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_entry_lp">Energiesparmodus</string>
+  <string name="pref_camera_powermode_entry_lp">Energie sparen</string>
   <string name="pref_camera_powermode_entry_np">Normal</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
@@ -181,6 +181,7 @@
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Belichtungsreihe</string>
   <string name="pref_camera_ae_bracket_hdr_title">Belichtungsreihe</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">An</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">Deaktiviert</string>
   <string name="err_app_unsupport_ae_bracket_code">Belichtungsreihen werden noch nicht unterstützt</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">Die Auflösung des Schnappschusses ist geringer als die Videoauflösung. Bitte wählen Sie die gleiche oder eine höhere Auflösung als die aktuelle Videoauflösung.</string>
@@ -328,7 +329,7 @@
   <string name="pref_camera_jpegquality_title">Bildqualität</string>
   <!-- Settings screen, Picture quality dialog radio button choices -->
   <string name="pref_camera_jpegquality_entry_0">Niedrig</string>
-  <string name="pref_camera_jpegquality_entry_1">Standard</string>
+  <string name="pref_camera_jpegquality_entry_1">65 % (normal)</string>
   <string name="pref_camera_jpegquality_entry_2">Hoch</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
@@ -409,7 +410,7 @@
   <string name="camera_unknown_error">Unbekannter Fehler, Kamera wird geschlossen.</string>
   <string name="mute_button_desc">Stumm-Taste</string>
   <!-- Help menu strings -->
-  <string name="help_menu_ok">OK</string>
+  <string name="help_menu_ok">Ok</string>
   <string name="help_menu_scene_mode_1">Wählen Sie einen</string>
   <string name="help_menu_scene_mode_2">Szenenmodus</string>
   <string name="help_menu_scene_mode_3">für gelungenere Bilder</string>

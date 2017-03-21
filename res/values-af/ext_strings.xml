@@ -26,7 +26,6 @@
   <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f megapieksels</string>
   <!-- Settings screen, scene mode -->
   <string name="pref_camera_scenemode_entry_antimotionblur">Verminder vervaag beweging</string>
-  <string name="pref_camera_scenemode_entry_aqua">Aqua</string>
   <string name="pref_camera_scenemode_entry_ar">Augmented realiteit</string>
   <string name="pref_camera_scenemode_entry_asd">Beste Skoot</string>
   <string name="pref_camera_scenemode_entry_baby">Baba</string>
@@ -94,10 +93,6 @@
   <string name="pref_camera_max_brightness_title">Helder skerm</string>
   <!-- Touch focus duration -->
   <string name="pref_camera_focustime_title">Duur van raak fokus</string>
-  <string name="pref_camera_focustime_entry_0">0s</string>
-  <string name="pref_camera_focustime_entry_3">3s</string>
-  <string name="pref_camera_focustime_entry_5">5s</string>
-  <string name="pref_camera_focustime_entry_10">10s</string>
   <string name="pref_camera_focustime_entry_infinite">Oneindig</string>
   <!-- Shutter speed -->
   <string name="pref_camera_shutter_speed_title">Sluiter spoed</string>

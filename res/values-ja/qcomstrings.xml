@@ -181,6 +181,7 @@
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">自動段階露出</string>
   <string name="pref_camera_ae_bracket_hdr_title">自動段階露出</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">ON</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">オフ</string>
   <string name="err_app_unsupport_ae_bracket_code">自動露出ブラケットはサポートされていません</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">動画スナップショットのサイズが動画のサイズよりも低く設定されています。今の動画のサイズと同等以上の解像度を選択してください。</string>
@@ -223,15 +224,9 @@
   <string name="pref_camera_denoise_entry_on">ON</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">オート</string>
   <string name="pref_camera_iso_entry_isodeblur">オート（HJR）</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">アンチバンディング</string>
@@ -409,7 +404,7 @@
   <string name="camera_unknown_error">不明なエラーが発生したため、カメラを終了します。</string>
   <string name="mute_button_desc">ミュートボタン</string>
   <!-- Help menu strings -->
-  <string name="help_menu_ok">OK</string>
+  <string name="help_menu_ok">はい</string>
   <string name="help_menu_scene_mode_1">最適な</string>
   <string name="help_menu_scene_mode_2">撮影モード</string>
   <string name="help_menu_scene_mode_3">で良い写真を撮影しましょう</string>

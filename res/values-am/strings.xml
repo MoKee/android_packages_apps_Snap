@@ -16,85 +16,159 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
+  <string name="app_name">ካሜራ</string>
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
+  <string name="set_image">ምስል እንደ አዘጋጅ</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
+  <string name="delete">ሰርዝ</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+  <plurals name="delete_selection">
+    <item quantity="one">የተመረጠው ንጥል ይሰረዝ?</item>
+    <item quantity="other">የተመረጡት ንጥሎች ይሰረዙ?</item>
+  </plurals>
+  <string name="share">አጋራ</string>
+  <string name="share_panorama">ፓኖራማ አጋራ</string>
+  <string name="share_as_photo">እንደ ፎቶ አጋራ</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
+  <string name="deleted">ጠፍቷል</string>
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
+  <string name="undo">ቀልብስ</string>
+  <string name="details">ዝርዝሮች</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_items_selected">
+    <item quantity="one">%1$d ተመርጠዋል</item>
+    <item quantity="other">%1$d ተመርጠዋል</item>
+  </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_albums_selected">
+    <item quantity="one">%1$d ተመርጠዋል</item>
+    <item quantity="other">%1$d ተመርጠዋል</item>
+  </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_groups_selected">
+    <item quantity="one">%1$d ተመርጠዋል</item>
+    <item quantity="other">%1$d ተመርጠዋል</item>
+  </plurals>
   <!-- String indicating timestamp of photo or video -->
+  <string name="show_on_map">ካርታ ላይ  አሳይ</string>
+  <string name="rotate_left">ወደ ግራ አሽከርክር</string>
+  <string name="rotate_right">ወደ ቀኝ አሽከርክር</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
+  <string name="crop_action">ከርክም</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
+  <string name="trim_action">አሳጥር</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
+  <string name="set_as">እንደ</string>
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
+  <string name="video_err">ቪዲዮ ማጫወት አይቻልም።</string>
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
+  <string name="crop_saved">የተከረከመ ምስል <xliff:g id="FOLDER_NAME">%s</xliff:g> ላይ ተቀምጧል።</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
+  <string name="description">መግለጫ</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
+  <string name="time">ጊዜ</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
+  <string name="path">ዱካ</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
+  <string name="width">ስፋት</string>
   <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
+  <string name="height">ቁመት</string>
   <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
+  <string name="orientation">አቀማመጠ ገፅ</string>
   <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=18] -->
+  <string name="duration">የጊዜ መጠን፡</string>
   <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
+  <string name="mimetype">MIME ዓይነት</string>
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
+  <string name="file_size">የፋይል መጠን፡</string>
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
+  <string name="maker">ሰሪ</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+  <string name="model">ሞዴል</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
+  <string name="flash">ፍላሽ</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
+  <string name="aperture">የካሜራ ሌንስ ማስገቢያ</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
+  <string name="focal_length">የትክተት ርዝመት</string>
   <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=18] -->
+  <string name="white_balance">ነጭ ምጥጥን</string>
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
+  <string name="exposure_time">የብርሃነ መጠን ጊዜ</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">አይ ኤስ ኦ</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
+  <string name="auto">ራስ ሰር</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
+  <string name="flash_on">ብልጭ ብሏል</string>
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
+  <string name="flash_off">ምንም ብልጭታ</string>
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
+  <string name="try_to_set_local_album_available_offline">ይህ አይነት በአካባቢው ተቀምጧልእና ከመስመር ውጪ አለ።</string>
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
+  <string name="please_wait">እባክዎ ይጠብቁ</string>
   <!-- Text to show with progress bar while stitching a photo sphere. 'Photo sphere' is a product name. [CHAR LIMIT=35]-->
   <!-- title for the dialog showing the error of camera hardware -->
+  <string name="camera_error_title">ካሜራ ስህተት</string>
   <!-- message for the dialog showing the error of camera hardware -->
+  <string name="cannot_connect_camera">ከካሜራ ጋር ማገናኘት አልተቻለም።</string>
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
+  <string name="camera_disabled">በደህንነት ፖሊሲዎች ምክንያት ካሜራ ቦዝኗል።</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
   <!-- alert to the user to wait for some operation to complete -->
+  <string name="wait">እባክዎ ይጠብቁ…</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
+  <string name="no_storage" product="default">እባክህ ካሜራውን ከመጠቀምህ በፊት የSD ካርድ አስገባ።</string>
   <!-- alert to the user that the SD card is being disk-checked -->
+  <string name="preparing_sd" product="default">የ SD  ካርድ በማዘጋጀት ላይ...</string>
   <!-- alert to the user that the camera fails to read or write the SD card. -->
+  <string name="access_sd_fail" product="default">SD ካርድን መድረስ አልተቻለም፡፡</string>
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
+  <string name="time_lapse_title">በመቅዳት የሚፈጀውን ጊዜ</string>
   <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
+  <string name="pref_camera_id_title">ካሜራ ምረጥ</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
+  <string name="pref_camera_id_entry_front">የፊት</string>
   <!-- Settings screen, setting title text -->
   <!--  Label for record location preference [CHAR LIMIT=50] -->
+  <string name="pref_camera_location_label">አካባቢ</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
+  <string name="pref_camera_timer_title">ሰዓት ቆጣሪ</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
+  <plurals name="pref_camera_timer_entry">
+    <item quantity="one">1 ሴኮንድ</item>
+    <item quantity="other">%d ሰከንዶች</item>
+  </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
+  <string name="pref_camera_timer_sound_title">ጊዜ በሚቆጠርበት ጊዜ ድምጽ</string>
   <!-- Entry of camera save path -->
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
+  <string name="setting_on">በርቷል</string>
   <!-- The value of a camera preference indicating the setting is off. -->
   <!-- The value of a camera preference indicating the setting is on. -->
   <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
+  <string name="pref_video_quality_title">ቪዲዮ ጥራት</string>
   <!-- The default quality value is NULL -->
   <!-- Video quality setting entry.
     Videos will be recorded in 4k DCI quality. [CHAR LIMIT=24] -->
@@ -107,30 +181,60 @@
   <!-- Video quality setting entry. Videos will be recorded in 2K quality. [CHAR LIMIT=24] -->
   <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_title">አላፊ ጊዜ</string>
   <!-- Settings screen, Camera setting category title -->
+  <string name="pref_camera_settings_category">የካሜራ ቅንብሮች</string>
   <!-- Settings screen, Camcorder setting category title -->
+  <string name="pref_camcorder_settings_category">የካምኮርድ ቅንብሮች</string>
   <!-- Settings screen, Picture size title -->
+  <string name="pref_camera_picturesize_title">የምስል መጠን</string>
   <!-- Settings screen, Focus mode title -->
+  <string name="pref_camera_focusmode_title">የማተኮር ሁነታ</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
+  <string name="pref_camera_focusmode_entry_auto">ራስ ሰር</string>
   <!-- A setting that lets the camera focus into infinity. [CHAR LIMIT=20] -->
+  <string name="pref_camera_focusmode_entry_infinity">ወሰን የሌለው</string>
   <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
+  <string name="pref_camera_focusmode_entry_macro">ማክሮ</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_focusmode_label_auto">ራስ-ሰር</string>
+  <string name="pref_camera_focusmode_label_infinity">የትየሌለ</string>
+  <string name="pref_camera_focusmode_label_macro">ማክሮ</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
+  <string name="pref_camera_flashmode_title">ፍላሽ</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
+  <string name="pref_camera_flashmode_entry_auto">ራስ ሰር</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
+  <string name="pref_camera_flashmode_entry_on">በርቷል</string>
   <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_flashmode_label_auto">ራስ-ብልጭታ</string>
+  <string name="pref_camera_flashmode_label_on">ብልጭታ በርቷል</string>
+  <string name="pref_camera_flashmode_label_off">ብልጭታ ጠፍቷል</string>
   <!-- Default videocamera flash mode setting.-->
   <!-- Default white balance setting. -->
   <!-- Settings screen, white balance title -->
+  <string name="pref_camera_whitebalance_title">ነጭ ምጥጥን</string>
   <!-- Menu, white balance label -->
+  <string name="pref_camera_whitebalance_label">የነጭ ምጥጥን</string>
   <!-- Settings screen, White balance dialog radio button choices -->
+  <string name="pref_camera_whitebalance_entry_auto">ራስ ሰር</string>
+  <string name="pref_camera_whitebalance_entry_incandescent">ያለፈበት</string>
+  <string name="pref_camera_whitebalance_entry_daylight">የቀን ብርሃን</string>
+  <string name="pref_camera_whitebalance_entry_fluorescent">ፍሎረሰንት</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_whitebalance_label_auto">ራስ-ሰር</string>
+  <string name="pref_camera_whitebalance_label_incandescent">የሙቀት ብርሃን</string>
+  <string name="pref_camera_whitebalance_label_daylight">የቀን ብርሃን</string>
+  <string name="pref_camera_whitebalance_label_fluorescent">ፍሎረሰንት</string>
+  <string name="pref_camera_whitebalance_label_cloudy">ደመናማ</string>
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
+  <string name="pref_camera_scenemode_title">የእይታ ሁነታ</string>
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_auto">ራስ ሰር</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -138,21 +242,35 @@
   <!-- Scene mode to turn on HDR (high dynamic range) [CHAR LIMIT=50] -->
   <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_action">ተግባር</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_sunset">ፀሀይ ስትጠልቅ</string>
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_party">ፓርቲ</string>
   <!-- Scene mode for refocus feature [CHAR LIMIT=16] -->
   <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_label_auto">ምንም</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_label_action">እርምጃ</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_label_night">ማታ</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_label_sunset">ፀሀይ ስትጠልቅ</string>
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_label_party">ጉባኤ</string>
   <!-- Settings menu countdown timer off [CHAR LIMIT=50] -->
+  <string name="pref_camera_countdown_label_off">ሰዓት ቆጣሪ ጠፍቷል</string>
   <!-- Settings menu countdown timer 1 second [CHAR LIMIT=50] -->
+  <string name="pref_camera_countdown_label_one">1 ሴኮንድ</string>
   <!-- Settings menu countdown timer 3 seconds [CHAR LIMIT=50] -->
+  <string name="pref_camera_countdown_label_three">3 ሰከንዶች</string>
   <!-- Settings menu countdown timer 10 seconds [CHAR LIMIT=50] -->
+  <string name="pref_camera_countdown_label_ten">10 ሰከንዶች</string>
   <!-- Settings menu countdown timer 15 seconds [CHAR LIMIT=50] -->
+  <string name="pref_camera_countdown_label_fifteen">15 ሰከንዶች</string>
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
+  <string name="not_selectable_in_scene_mode"> በትዕይንት ሁኔታ መመረጥ የሚችል አይደለም።</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
@@ -163,124 +281,221 @@
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
   <!-- Exposure settings in preference -->
+  <string name="pref_exposure_title">ተጋላጭነት</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
+  <string name="pref_exposure_label">ተጋላጭነት</string>
   <!-- Default HDR entry value -->
   <!-- Default HDR+ entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
   <!-- switch camera label back [CHAR LIMIT=60] -->
+  <string name="pref_camera_id_label_back">የፊት ካሜራ</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
+  <string name="pref_camera_id_label_front">የኋላ ካሜራ</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
+  <string name="spaceIsLow_content" product="default">የSD ካርድዎ ቦታ እያለቀበት ነው። የጥራት ቅንብሩን ይልወጡ ወይም አንዳንድ ምስሎችንወይም ሌሎች ፋይሎችን ይሰርዙ።</string>
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
   <!-- Filename prefix for panorama output. -->
   <!-- The message shown when video record reaches size limit. -->
+  <string name="video_reach_size_limit">መጠኑ ላይ ደርሷል፡፡</string>
   <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=16] -->
+  <string name="pano_too_fast_prompt">በጣም ፈጥኖዋል</string>
   <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
+  <string name="pano_dialog_prepare_preview">ፓናሮማ በማዘጋጀት ላይ</string>
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
+  <string name="pano_dialog_panorama_failed">ፓኖራማ  ማስቀመጥ አልተቻለም::</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
+  <string name="pano_dialog_title">ፓኖራማ</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
+  <string name="pano_capture_indication">ፓኖራማ በማንሳት ላይ</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
+  <string name="pano_dialog_waiting_previous">ቀዳሚ ፓኖራማ በመጠበቅ ላይ</string>
   <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
+  <string name="pano_review_saving_indication_str">በማስቀመጥ ላይ&amp;hellip;</string>
   <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
+  <string name="pano_review_rendering">ፓኖራማን በማሳየት ላይ</string>
   <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
+  <string name="tap_to_focus">ዳሰስ ለማተኮር፡፡</string>
   <!-- Default effect setting that clears the effect. -->
   <!-- Title of video effect setting popup window -->
+  <string name="pref_video_effect_title">ማሳመሪያዎች</string>
   <!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
+  <string name="effect_none">ምንም</string>
   <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_squeeze">ጭመቅ</string>
   <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_big_eyes">ትላልቅ ዓይኖች</string>
   <!-- Effect setting item that makes mouth big. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_big_mouth">ትልቅ አፍ</string>
   <!-- Effect setting item that makes mouth small. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_small_mouth">ትንሽ አፍ</string>
   <!-- Effect setting item that makes nose big. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_big_nose">ትልቅ አፍንጫ</string>
   <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_small_eyes">ትናንሽ ዓይኖች</string>
   <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
+  <string name="effect_backdropper_space">ቦታ ውስጥ</string>
   <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
+  <string name="effect_backdropper_sunset">ፀሀይ ስትጠልቅ</string>
   <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
+  <string name="effect_backdropper_gallery">ቪዲዮህ</string>
   <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
+  <string name="video_snapshot_hint">እየቀዳህ ፎቶ ለማንሳት ንካ።</string>
   <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
+  <string name="video_recording_started">የቪዲዮ ቀረጻ ተጀምሯል።</string>
   <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
+  <string name="video_recording_stopped">የቪዲዮ ቀረጻ ቆሟል።</string>
   <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
+  <string name="clear_effects">ማሳመሪያዎች አጽዳ</string>
   <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
+  <string name="effect_silly_faces">ሞኛሞኝ ፊቶች</string>
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
+  <string name="effect_background">ዳራ</string>
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
   <!-- The menu button. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_menu_button">የምናሌ አዝራር</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_mode_picker">ካሜራ፣ቪድዮ ወይም ፓናሮማ መምረጫ</string>
   <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_check_box">%1$s ምልክት ማድረጊያ ሳጥን</string>
   <!-- The button to switch to Camera mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_camera">ወደ ፎቶ ቀይር</string>
   <!-- The button to switch to Video mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_video">ወደ ቪዲዮ ቀይር</string>
   <!-- The button to switch to Panorama mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_panorama">ወደ ፓኖራማ ቀይር</string>
   <!-- The button to switch to the Photo Sphere mode. [CHAR LIMIT = NONE] -->
   <!-- The button to switch to the high quality mode. [CHAR LIMIT = NONE] -->
   <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT = NONE] -->
+  <string name="accessibility_review_cancel">ግምገማ ይቅር</string>
   <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT = NONE] -->
+  <string name="accessibility_review_ok">ግምገማ፣ ተጠናቅቋል</string>
   <!-- button in review mode indicate the user want to retake another photo/video for attachment [
 CHAR LIMIT = NONE] -->
+  <string name="accessibility_review_retake">ዳግም የተነሳውን ይገምግሙ</string>
   <!-- Default text for a button that can be toggled on and off. -->
+  <string name="capital_on">በርቷል</string>
   <!-- Default text for a button that can be toggled on and off. -->
+  <string name="capital_off">ጠፍቷል</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_500">0.5 ሰከንዶች</string>
+  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_1000">1 ሴኮንድ</string>
+  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_1500">1.5 ሰከንዶች</string>
+  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_2000">2 ሰከንዶች</string>
+  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_2500">2.5 ሰከንዶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_4000">4 ሰከንዶች</string>
+  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_5000">5 ሰከንዶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_10000">10 ሰከንዶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_12000">12 ሰከንዶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_15000">15 ሰከንዶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_24000">24 ሰከንዶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_30000">0.5 ደቂቃዎች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_60000">1 ደቂቃ</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_90000">1.5 ደቂቃዎች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_120000">2 ደቂቃዎች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_150000">2.5 ደቂቃዎች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_180000">3 ደቂቃዎች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_240000">4 ደቂቃዎች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_300000">5 ደቂቃዎች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_360000">6 ደቂቃዎች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_600000">10 ደቂቃዎች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_720000">12 ደቂቃዎች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_900000">15 ደቂቃዎች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_1440000">24 ደቂቃዎች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_1800000">0.5 ሰዓቶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_3600000">1 ሰዓት</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_5400000">1.5 ሰዓት</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_7200000">2 ሰዓቶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_9000000">2.5 ሰዓቶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_10800000">3 ሰዓቶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_14400000">4 ሰዓቶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_18000000">5 ሰዓቶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_21600000">6 ሰዓቶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_36000000">10 ሰዓቶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_43200000">12 ሰዓቶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_54000000">15 ሰዓቶች</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_86400000">24 ሰዓቶች</string>
   <!-- Seconds: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_seconds">ሰኮንዶች</string>
   <!-- Minutes: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_minutes">ደቂቃዎች</string>
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_hours">ሰዓቶች</string>
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
+  <string name="set_time_interval">የጊዜ ክፍተት ያዘጋጁ</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
+  <string name="set_time_interval_help">የአላፊ ጊዜ ባህሪ ጠፍቷል። የጊዜ ክፍተቱን ለማዘጋጀት ያብሩት።</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
+  <string name="set_duration">ቆይታን በሰከንዶች ያዘጋጁ</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
+  <string name="count_down_title_text">ፎቶ ለመውሰድ ጊዜ በመቁጠር ላይ</string>
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
+  <string name="remember_location_title">የፎቶ አካባቢዎች ይታወሱ?</string>
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
+  <string name="remember_location_prompt">ፎቶዎችዎን እና ቪዲዮዎችዎን በተነሱበት አካባቢዎች መለያ ይስጧቸው።\n\nሌሎች መተግበሪያዎች ይህንን መረጃ ከተቀመጡ ምስሎችዎ ጋር ሊደርሱበት ይችላሉ።</string>
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+  <string name="remember_location_no">አይ፣ አመሰግናለሁ</string>
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
+  <string name="camera_menu_more_label">ተጨማሪ አማራጮች</string>
   <!-- settings label [CHAR LIMIT=50] -->
+  <string name="camera_menu_settings_label">ቅንብሮች</string>
   <!--  Tiny Planet -->
   <!-- Button to press for creating a tiny planet image. [CHAR LIMIT = 30] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
+  <string name="tiny_planet_rotate">አሽከርክር</string>
   <!-- Crop -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
+  <string name="crop_save">አስቀምጥ</string>
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
+  <string name="cannot_load_image">ምስሉን መጫን አልተቻለም!</string>
   <!-- Label for album filmstrip button -->
+  <string name="switch_photo_filmstrip">የድርድር ፊልም እይታ</string>
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
+  <string name="setting_wallpaper">ልጥፍ በማዘጋጀት ላይ</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
 </resources>

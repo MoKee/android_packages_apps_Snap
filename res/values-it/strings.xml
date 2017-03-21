@@ -20,9 +20,7 @@
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <string name="video_camera_label">Videocamera</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Imposta foto come</string>
@@ -223,7 +221,7 @@
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
-  <string name="pref_camera_flashmode_title">Flash</string>
+  <string name="pref_camera_flashmode_title">Modalità flash</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_auto">Automatica</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
@@ -549,10 +547,6 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Impostazione dello sfondo</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
-  <string name="pref_camera_video_rotation_label_90">90</string>
-  <string name="pref_camera_video_rotation_label_180">180</string>
-  <string name="pref_camera_video_rotation_label_270">270</string>
   <string name="remaining_photos_format">Ancora %d</string>
-  <string name="initial_recording_seconds">00:00</string>
   <string name="makeup_video_size_limit">Abbellimento funziona solo con la risoluzione VGA per le registrazioni video.</string>
 </resources>

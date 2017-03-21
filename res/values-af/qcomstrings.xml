@@ -227,11 +227,6 @@
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Outo</string>
   <string name="pref_camera_iso_entry_isodeblur">ISO Outo(HJR)</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Teen \'Banding\'</string>
@@ -249,17 +244,12 @@
   <string name="pref_camera_filter_mode_title">Kleur effek</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Geen</string>
-  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
-  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negatief</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Sonsopkoms agtig</string>
   <string name="pref_camera_coloreffect_entry_posterize">Poskaart agtig</string>
-  <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
   <string name="pref_camera_coloreffect_entry_emboss">Reliëf</string>
   <string name="pref_camera_coloreffect_entry_sketch">Skets</string>
-  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
-  <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mosaïek</string>
   <string name="pref_camera_coloreffect_entry_redtint">Rooi tint</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Blou tint</string>
@@ -332,7 +322,6 @@
   <string name="pref_camera_jpegquality_entry_2">Hoog</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
-  <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Aktiveer</string>
   <string name="pref_camera_histogram_entry_disable">Deaktiveer</string>
@@ -409,12 +398,10 @@
   <string name="camera_unknown_error">Onbekende fout, sluit tans kamera.</string>
   <string name="mute_button_desc">Demp knoppie</string>
   <!-- Help menu strings -->
-  <string name="help_menu_ok">OK</string>
   <string name="help_menu_scene_mode_1">Kies \'n</string>
   <string name="help_menu_scene_mode_2">Toneel modus</string>
   <string name="help_menu_scene_mode_3">vir beter fotos</string>
   <string name="help_menu_color_filter_1">Gebruik kleur</string>
-  <string name="help_menu_color_filter_2">filters</string>
   <string name="help_menu_color_filter_3">om te</string>
   <string name="help_menu_color_filter_4">verbeter die fotos</string>
   <string name="help_menu_beautify_1">Verbeter portrette</string>

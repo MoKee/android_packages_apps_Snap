@@ -19,9 +19,7 @@
   <string name="app_name">Cámara</string>
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <!-- Details dialog "OK" button. Dismisses dialog. -->
@@ -71,7 +69,6 @@
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
-  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
@@ -345,6 +342,7 @@ CHAR LIMIT = NONE] -->
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+  <string name="remember_location_yes">Sí</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
   <!-- settings label [CHAR LIMIT=50] -->

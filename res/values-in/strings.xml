@@ -20,12 +20,10 @@
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <string name="video_camera_label">Perekam video</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
-  <string name="set_image">Setel gambar sebagai</string>
+  <string name="set_image">Atur gambar sebagai</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Hapus</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
@@ -62,7 +60,7 @@
   <string name="rotate_right">Putar ke kanan</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
-  <string name="edit">Edit</string>
+  <string name="edit">Ubah</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
   <string name="crop_action">Potong</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
@@ -162,6 +160,7 @@ Gambar yang dipotong disimpan ke <xliff:g id="folder_name">%s</xliff:g>.</string
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">Depan</string>
   <!-- Settings screen, setting title text -->
+  <string name="pref_camera_recordlocation_title">Lokasi GPS</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">LOKASI</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -253,7 +252,7 @@ Gambar yang dipotong disimpan ke <xliff:g id="folder_name">%s</xliff:g>.</string
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Otomatis</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
+  <string name="pref_camera_scenemode_entry_hdr_plus">HDR +</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -326,7 +325,7 @@ Gambar yang dipotong disimpan ke <xliff:g id="folder_name">%s</xliff:g>.</string
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">KAMERA BELAKANG</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">Oke</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
   <string name="spaceIsLow_content" product="default">Kartu SD Anda kehabisan ruang kosong. Ubah pengaturan kualitas atau hapus beberapa gambar atau berkas lain.</string>
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
@@ -531,7 +530,7 @@ CHAR LIMIT = NONE] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
   <string name="saving_tiny_planet">Menyimpan Tiny Planet &#8230;</string>
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
-  <string name="tiny_planet_zoom">Zoom</string>
+  <string name="tiny_planet_zoom">Perbesar</string>
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
   <string name="tiny_planet_rotate">Putar</string>
   <!-- Crop -->
@@ -545,4 +544,5 @@ CHAR LIMIT = NONE] -->
   <string name="setting_wallpaper">Setel wallpaper</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
   <string name="remaining_photos_format">%d tersisa</string>
+  <string name="makeup_video_size_limit">Susunan pekerjaan hanya di bawah ukuran VGA dalam rekaman video.</string>
 </resources>

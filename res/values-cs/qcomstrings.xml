@@ -26,7 +26,7 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
-  <string name="pref_camera_powermode_title">Režim výkonu</string>
+  <string name="pref_camera_powermode_title">Režim napájení</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_entry_lp">Nízký výkon</string>
   <string name="pref_camera_powermode_entry_np">Normální výkon</string>
@@ -55,7 +55,7 @@
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">Vylepšení tónů pleti</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
-  <string name="pref_camera_skinToneEnhancement_entry_enable">Použít</string>
+  <string name="pref_camera_skinToneEnhancement_entry_enable">Povolit</string>
   <string name="pref_camera_skinToneEnhancement_entry_disable">Zakázat</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
@@ -95,13 +95,13 @@
   <string name="pref_camera_instant_capture_title" translatable="true">Okamžité snímání</string>
   <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">Agresivní AEC</string>
   <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">Rychlé AEC</string>
-  <string name="pref_camera_instant_capture_entry_disable" translatable="true">Vypnuto</string>
+  <string name="pref_camera_instant_capture_entry_disable" translatable="true">Zakázat</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Vypnuto</string>
   <string name="pref_camera_zsl_entry_on">Zapnuto</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
-  <string name="hdr_enable_message">HDR je povoleno, je podporován pouze režim Automatická scéna</string>
+  <string name="hdr_enable_message">HDR je povoleno, je podporován pouze režim Automaticky</string>
   <string name="scene_enable_message">HDR není podporováno v jiném než automatickém režimu</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">Vypnuto</string>
@@ -159,7 +159,7 @@
   <string name="pref_camera_selfiemirror_entry_disable">Zakázat</string>
   <string name="pref_camera_shuttersound_title" translatable="true">Zvuk závěrky</string>
   <string name="pref_camera_shuttersound_entry_enable">Povoleno</string>
-  <string name="pref_camera_shuttersound_entry_disable">Zakázáno</string>
+  <string name="pref_camera_shuttersound_entry_disable">Nezobrazovat</string>
   <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Vysoká rychlost snímání (zpomalený pohyb) nelze použít pro stabilizátor / časosběr / HDR.</string>
@@ -181,6 +181,7 @@
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Automatický expoziční bracketing</string>
   <string name="pref_camera_ae_bracket_hdr_title">Automatický expoziční bracketing</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Zapnuto</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">Vypnuto</string>
   <string name="err_app_unsupport_ae_bracket_code">AE bracketing není zatím podporován</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">Rozlišení snímků z videa je nižší než vlastní rozlišení videa. Zvolte rozlišení vyšší nebo stejné jako snímané video.</string>
@@ -237,10 +238,10 @@
   <string name="pref_camera_antibanding_title">Odstranění pruhů</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
-  <string name="pref_camera_antibanding_entry_0">Vypnuto</string>
+  <string name="pref_camera_antibanding_entry_0">Auto</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Evropa)</string>
-  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
-  <string name="pref_camera_antibanding_entry_3">Automaticky</string>
+  <string name="pref_camera_antibanding_entry_2">60Hz (USA)</string>
+  <string name="pref_camera_antibanding_entry_3">Autom.</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Zapnuto</string>
   <string name="pref_camera_filter_mode_entry_off">Vypnuto</string>
@@ -327,14 +328,14 @@
   <!-- Settings screen, Picture quality title -->
   <string name="pref_camera_jpegquality_title">Kvalita obrázku</string>
   <!-- Settings screen, Picture quality dialog radio button choices -->
-  <string name="pref_camera_jpegquality_entry_0">Nízká</string>
-  <string name="pref_camera_jpegquality_entry_1">Standardní</string>
-  <string name="pref_camera_jpegquality_entry_2">Vysoká</string>
+  <string name="pref_camera_jpegquality_entry_0">55%</string>
+  <string name="pref_camera_jpegquality_entry_1">65% (normální)</string>
+  <string name="pref_camera_jpegquality_entry_2">75% (jemné)</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
   <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
-  <string name="pref_camera_histogram_entry_enable">Použít</string>
+  <string name="pref_camera_histogram_entry_enable">Povolit</string>
   <string name="pref_camera_histogram_entry_disable">Zakázat</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
@@ -354,7 +355,7 @@
   <!-- Settings screen, setting title text for Auto HDR-->
   <string name="pref_camera_auto_hdr_title">Auotmatické HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
-  <string name="pref_camera_auto_hdr_entry_enable">Použít</string>
+  <string name="pref_camera_auto_hdr_entry_enable">Povolit</string>
   <string name="pref_camera_auto_hdr_entry_disable">Zakázat</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Nedostatek místa na vnitřním úložišti. Ukládání se přepne na kartu SD</string>
@@ -392,7 +393,7 @@
   <string name="pref_camera_tsmakeup_entry_off">Vypnuto</string>
   <string name="pref_camera_tsmakeup_entry_low">Nízká</string>
   <string name="pref_camera_tsmakeup_entry_mid">Střední</string>
-  <string name="pref_camera_tsmakeup_entry_high">Vysoká</string>
+  <string name="pref_camera_tsmakeup_entry_high">Vysoký</string>
   <string name="pref_camera_tsmakeup_custom">Vlastní</string>
   <string name="pref_camera_tsmakeup_level_whiten">Bělení</string>
   <string name="pref_camera_tsmakeup_level_clean">Změkčit</string>
@@ -424,26 +425,25 @@
   <string name="help_menu_switcher_2">mezi</string>
   <string name="help_menu_switcher_3">fotoaparát, video a panorama</string>
   <string name="pref_camera2_camera2_title">Režim Camera2</string>
-  <string name="pref_camera2_camera2_entry_enable">Použít</string>
-  <string name="pref_camera2_camera2_entry_disable">Nepoužít</string>
+  <string name="pref_camera2_camera2_entry_enable">Povolit</string>
+  <string name="pref_camera2_camera2_entry_disable">Zakázat</string>
   <string name="pref_camera2_mono_only_title">Pouze Mono</string>
   <string name="pref_camera2_mono_preview_title">Náhled Mono</string>
-  <string name="pref_camera2_mono_preview_entry_on">Zapnout</string>
+  <string name="pref_camera2_mono_preview_entry_on">Zapnuto</string>
   <string name="pref_camera2_mono_preview_entry_off">Vypnuto</string>
-  <string name="pref_camera2_clearsight_entry_on">Zapnout</string>
+  <string name="pref_camera2_clearsight_entry_on">Zapnuto</string>
   <string name="pref_camera2_clearsight_entry_off">Vypnuto</string>
   <string name="clearsight_capture_success">ClearSight úspěšně zachyceno</string>
   <string name="clearsight_capture_fail">ClearSight zachycení selhalo</string>
   <string name="pref_camera2_mpo_title">MPO formát</string>
-  <string name="pref_camera2_mpo_entry_on">Zapnout</string>
+  <string name="pref_camera2_mpo_entry_on">Zapnuto</string>
   <string name="pref_camera2_mpo_entry_off">Vypnuto</string>
-  <string name="pref_camera2_makeup_title">Makeup</string>
   <string name="pref_camera2_noise_reduction_title">Redukce šumu</string>
   <string name="pref_camera2_noise_reduction_entry_off">Vypnuto</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Rychle</string>
   <string name="pref_camera2_noise_reduction_entry_high_quality">Vysoká kvalita</string>
   <string name="pref_camera2_videosnap_title">Automatická velikost snímku</string>
-  <string name="pref_camera2_videosnap_entry_enable">Použít</string>
+  <string name="pref_camera2_videosnap_entry_enable">Povolit</string>
   <string name="pref_camera2_videosnap_entry_disable">Zakázat</string>
   <string name="pref_camera2_trackingfocus_title">Sledování zaostření</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Nejlepší obraz</string>

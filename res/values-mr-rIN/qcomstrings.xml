@@ -112,7 +112,6 @@
   <!-- Default cds mode setting-->
   <!-- Default video cds mode setting-->
   <!-- Settings menu, setting title text for tnr mode-->
-  <string name="pref_camera_tnr_title">TNR mode</string>
   <!-- Settings menu, setting title text for video tnr mode-->
   <string name="pref_camera_video_tnr_title">व्हिडिओ TNR मोड</string>
   <!-- Default tnr mode setting-->
@@ -124,7 +123,6 @@
   <string name="pref_camera_facedetection_entry_off">बंद</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
-  <string name="pref_selfie_flash_title">Selfie flash</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">बंद</string>
   <!-- Default redeye reduction setting. -->
@@ -182,15 +180,9 @@
   <string name="pref_camera_denoise_entry_off">बंद</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">ऑटो</string>
   <string name="pref_camera_iso_entry_isodeblur">ऑटो (HJR)</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">अँटिबँडिंग</string>
@@ -305,7 +297,6 @@
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">अंतर्गत संग्रह स्थान पुरेशी नाही, संग्रह स्थान SD कार्डला स्विच केले</string>
   <!-- Settings screen, Selectable HDR mode title -->
-  <string name="pref_camera_hdr_mode_title">HDR mode</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
   <string name="pref_camera_hdr_mode_entry_sensor">सेन्सर HDR</string>
   <string name="pref_camera_hdr_mode_entry_multi_frame">बहु-चौकट HDR</string>

@@ -20,9 +20,7 @@
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <string name="video_camera_label">Videokamera</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Angi bilde som</string>
@@ -115,14 +113,11 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Eksponeringstid</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
-  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
-  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
   <string name="manual">Manuelt</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
-  <string name="auto">Auto</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <string name="flash_on">Blits brukes</string>
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
@@ -211,13 +206,11 @@
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Fokusmodus</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
-  <string name="pref_camera_focusmode_entry_auto">Auto</string>
   <!-- A setting that lets the camera focus into infinity. [CHAR LIMIT=20] -->
   <string name="pref_camera_focusmode_entry_infinity">Uendelig</string>
   <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
   <string name="pref_camera_focusmode_entry_macro">Makro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
-  <string name="pref_camera_focusmode_label_auto">AUTO</string>
   <string name="pref_camera_focusmode_label_infinity">UENDELIG</string>
   <string name="pref_camera_focusmode_label_macro">MAKRO</string>
   <!-- Default flash mode setting.-->
@@ -225,7 +218,6 @@
   <!-- Settings screen, Flash mode title -->
   <string name="pref_camera_flashmode_title">Blits</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
-  <string name="pref_camera_flashmode_entry_auto">Auto</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_on">På</string>
   <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
@@ -241,13 +233,11 @@
   <!-- Menu, white balance label -->
   <string name="pref_camera_whitebalance_label">HVITBALANSE</string>
   <!-- Settings screen, White balance dialog radio button choices -->
-  <string name="pref_camera_whitebalance_entry_auto">Auto</string>
   <string name="pref_camera_whitebalance_entry_incandescent">Hvitglødende</string>
   <string name="pref_camera_whitebalance_entry_daylight">Dagslys</string>
   <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescerende</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Overskyet</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
-  <string name="pref_camera_whitebalance_label_auto">AUTO</string>
   <string name="pref_camera_whitebalance_label_incandescent">HVITGLØDENDE</string>
   <string name="pref_camera_whitebalance_label_daylight">DAGSLYS</string>
   <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCERENDE</string>
@@ -256,11 +246,8 @@
   <!-- Settings screen, Select Scene mode -->
   <string name="pref_camera_scenemode_title">Scenemodus</string>
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_auto">Auto</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ PÅ</string>
   <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -270,7 +257,6 @@
   <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR AV</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_action">Action</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_night">Natt</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
@@ -325,7 +311,6 @@
   <!-- Default HDR entry value -->
   <!-- Default HDR+ entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
-  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">FRONTKAMERA</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
@@ -346,7 +331,6 @@
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
   <string name="pano_dialog_panorama_failed">Kunne ikke lagre panorama.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
-  <string name="pano_dialog_title">Panorama</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
   <string name="pano_capture_indication">Panoramaopptak</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
@@ -536,7 +520,6 @@ CHAR LIMIT = NONE] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
   <string name="saving_tiny_planet">Lagrer miniplanet &#8230;</string>
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
-  <string name="tiny_planet_zoom">Zoom</string>
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
   <string name="tiny_planet_rotate">Rotér</string>
   <!-- Crop -->
@@ -549,10 +532,6 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Angir bakgrunn …</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
-  <string name="pref_camera_video_rotation_label_90">90</string>
-  <string name="pref_camera_video_rotation_label_180">180</string>
-  <string name="pref_camera_video_rotation_label_270">270</string>
   <string name="remaining_photos_format">%d igjen</string>
-  <string name="initial_recording_seconds">00:00</string>
   <string name="makeup_video_size_limit">Makeup fungerer bare under VGA størrelse i videoopptak.</string>
 </resources>

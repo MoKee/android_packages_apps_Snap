@@ -18,14 +18,12 @@
   <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
   <string name="app_name">Kamera</string>
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
-  <string name="video_camera_label">Video Kamera</string>
+  <string name="video_camera_label">Kamera kaydedicisi</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
-  <string name="set_image">Resmi şu şekilde ayarla</string>
+  <string name="set_image">Resmi şu şekilde ayarla:</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Sil</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
@@ -45,20 +43,20 @@
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_items_selected">
-    <item quantity="one">%1$d tane seçildi</item>
-    <item quantity="other">%1$d tane seçildi</item>
+    <item quantity="one">%1$d öğe seçildi</item>
+    <item quantity="other">%1$d öğe seçildi</item>
   </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_albums_selected">
-    <item quantity="one">%1$d tane seçildi</item>
-    <item quantity="other">%1$d tane seçildi</item>
+    <item quantity="one">%1$d öğe seçildi</item>
+    <item quantity="other">%1$d öğe seçildi</item>
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_groups_selected">
-    <item quantity="one">%1$d tane seçildi</item>
-    <item quantity="other">%1$d tane seçildi</item>
+    <item quantity="one">%1$d öğe seçildi</item>
+    <item quantity="other">%1$d öğe seçildi</item>
   </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Haritada göster</string>
@@ -68,33 +66,32 @@
          [CHAR_LIMIT=20]-->
   <string name="edit">Düzenle</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
-  <string name="crop_action">Kes</string>
+  <string name="crop_action">Kırp</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
   <string name="trim_action">Kırp</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
-  <string name="set_as">Şu şekilde ayarla</string>
+  <string name="set_as">Şu şekilde ayarla:</string>
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
   <string name="video_err">Video oynatılamıyor.</string>
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
-  <string name="crop_saved">
-Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</string>
+  <string name="crop_saved">Kırpılan resim <xliff:g id="FOLDER_NAME">%s</xliff:g> klasörüne kaydedildi.</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
   <string name="title">Başlık</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
   <string name="description">Açıklama</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
-  <string name="time">Saat</string>
+  <string name="time">Zaman</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
   <string name="location">Konum</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
-  <string name="path">Yol</string>
+  <string name="path">Dosya Konumu</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
   <string name="width">Genişlik</string>
   <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
   <string name="height">Yükseklik</string>
   <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
-  <string name="orientation">Sayfa yönü</string>
+  <string name="orientation">Yön</string>
   <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=18] -->
   <string name="duration">Süre</string>
   <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
@@ -102,13 +99,13 @@ Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</st
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
   <string name="file_size">Dosya boyutu</string>
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
-  <string name="maker">Üretici</string>
+  <string name="maker">Yapımcı</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Flaş</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
-  <string name="aperture">Diyafram</string>
+  <string name="aperture">Diyafram Açıklığı</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
   <string name="focal_length">Odak Uzaklığı</string>
   <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=18] -->
@@ -121,7 +118,7 @@ Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</st
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
-  <string name="manual">Manuel</string>
+  <string name="manual">Elle</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
   <string name="auto">Otomatik</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
@@ -129,40 +126,40 @@ Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</st
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
   <string name="flash_off">Flaş yok</string>
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
-  <string name="unknown">Bilinmiyor</string>
+  <string name="unknown">Bilinmeyen</string>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
-  <string name="try_to_set_local_album_available_offline">Bu öğe yerel olarak depolandı ve çevrimdışı kullanılabilir.</string>
+  <string name="try_to_set_local_album_available_offline">Bu öğe yerel olarak depolanmıştır ve çevrimdışı kullanılabilir.</string>
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
   <string name="please_wait">Lütfen bekleyin</string>
   <!-- Text to show with progress bar while stitching a photo sphere. 'Photo sphere' is a product name. [CHAR LIMIT=35]-->
-  <string name="rendering_photo_sphere">Fotoğraf küresi oluşturuluyor</string>
+  <string name="rendering_photo_sphere">Fotoğraf küresi oluşturma</string>
   <!-- title for the dialog showing the error of camera hardware -->
   <string name="camera_error_title">Kamera hatası</string>
   <!-- message for the dialog showing the error of camera hardware -->
   <string name="cannot_connect_camera">Kameraya bağlanılamıyor.</string>
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
-  <string name="camera_disabled">Güvenlik politikaları nedeniyle kamera devre dışı bırakıldı.</string>
+  <string name="camera_disabled">Kamera, güvenlik politikaları nedeniyle devre dışı bırakıldı.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
   <string name="error_permissions">Uygulamanın, çalışması için gerekli olan kritik izinleri yok. Lütfen izin ayarlarınızı kontrol edin.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
-  <string name="dialog_dismiss">Vazgeç</string>
+  <string name="dialog_dismiss">Yoksay</string>
   <!-- alert to the user to wait for some operation to complete -->
-  <string name="wait">Lütfen bekleyin…\u2026</string>
+  <string name="wait">Lütfen bekleyin...</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
   <string name="no_storage" product="default">Kamerayı kullanmadan önce bir SD kart takın.</string>
   <!-- alert to the user that the SD card is being disk-checked -->
-  <string name="preparing_sd" product="default">SD kart hazırlanıyor...\u2026</string>
+  <string name="preparing_sd" product="default">SD kart hazırlanıyor...</string>
   <!-- alert to the user that the camera fails to read or write the SD card. -->
   <string name="access_sd_fail" product="default">SD karta erişilemedi.</string>
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
   <string name="time_lapse_title">Zaman atlamalı kayıt</string>
   <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
-  <string name="capturing">Fotoğraf çekiliyor</string>
+  <string name="capturing">Yakalama</string>
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
-  <string name="pref_camera_id_title">Kamera seçin</string>
+  <string name="pref_camera_id_title">Kamera seç</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
-  <string name="pref_camera_id_entry_back">Arka</string>
+  <string name="pref_camera_id_entry_back">Geri</string>
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">Ön</string>
   <!-- Settings screen, setting title text -->
@@ -170,20 +167,20 @@ Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</st
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">KONUM</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
-  <string name="pref_camera_timer_title">Geri sayım zamanlayıcısı</string>
+  <string name="pref_camera_timer_title">Geri sayım zamanlayıcı</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
   <plurals name="pref_camera_timer_entry">
     <item quantity="one">1 saniye</item>
     <item quantity="other">%d saniye</item>
   </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
-  <string name="pref_camera_timer_sound_title">Geri sayımda bip sesi çıkar</string>
+  <string name="pref_camera_timer_sound_title">Geri sayım sırasında bip sesi</string>
   <!-- Entry of camera save path -->
-  <string name="pref_camera_savepath_title">Depolama</string>
+  <string name="pref_camera_savepath_title">Saklama</string>
   <string name="pref_camera_savepath_entry_0">Telefon</string>
   <string name="pref_camera_savepath_entry_1">SD Kart</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
-  <string name="setting_off">Kapalı</string>
+  <string name="setting_off">Kapat</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
   <string name="setting_on">Açık</string>
   <!-- The value of a camera preference indicating the setting is off. -->
@@ -206,7 +203,7 @@ Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</st
   <!-- Settings screen, Camera setting category title -->
   <string name="pref_camera_settings_category">Kamera ayarları</string>
   <!-- Settings screen, Camcorder setting category title -->
-  <string name="pref_camcorder_settings_category">Video kamera ayarları</string>
+  <string name="pref_camcorder_settings_category">Kamera ayarları</string>
   <!-- Settings screen, Picture size title -->
   <string name="pref_camera_picturesize_title">Resim boyutu</string>
   <!-- Settings screen, Focus mode title -->
@@ -230,7 +227,7 @@ Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</st
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_on">Açık</string>
   <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
-  <string name="pref_camera_flashmode_entry_off">Kapalı</string>
+  <string name="pref_camera_flashmode_entry_off">Kapat</string>
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_flashmode_label_auto">OTOMATİK FLAŞ</string>
   <string name="pref_camera_flashmode_label_on">FLAŞ AÇIK</string>
@@ -271,7 +268,7 @@ Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</st
   <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR KAPALI</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_action">Hareket</string>
+  <string name="pref_camera_scenemode_entry_action">Aksiyon</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_night">Gece</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
@@ -282,7 +279,7 @@ Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</st
   <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_auto">YOK</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
-  <string name="pref_camera_scenemode_label_action">HAREKET</string>
+  <string name="pref_camera_scenemode_label_action">AKSİYON</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_night">GECE</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
@@ -302,13 +299,13 @@ Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</st
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
   <string name="not_selectable_in_scene_mode">Sahne modunda seçilemez.</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
-  <string name="HDR_disable_continuous_shot">Sürekli çekimde HDR devre dışı bırakılır.</string>
+  <string name="HDR_disable_continuous_shot">HDR sürekli çekimi devre dışı bırakır.</string>
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
-  <string name="advanced_capture_disable_continuous_shot">Sürekli çekimde gelişmiş yakalama devre dışı bırakılır.</string>
+  <string name="advanced_capture_disable_continuous_shot">Gelişmiş yakalama sürekli çekimi devre dışı bırakır.</string>
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
-  <string name="video_quality_4k_disable_IS">Resim stabilizasyonunda 4K devre dışı bırakılır.</string>
+  <string name="video_quality_4k_disable_IS">4K video kalitesi resim stabilizasyonunu devre dışı bırakılır.</string>
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
-  <string name="video_quality_4k_disable_SeeMore">SeeMore 4K videoda etkinleştirilemez.</string>
+  <string name="video_quality_4k_disable_SeeMore">SeeMore 4K video sırasında etkinleştirilemez.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
   <string name="disable_CDS_during_HighQualityNoiseReduction">Yüksek kalitede parazit azaltma CDS\'yi devre dışı bırakır.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
@@ -353,7 +350,7 @@ Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</st
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
   <string name="pano_dialog_waiting_previous">Önceki panorama bekleniyor</string>
   <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
-  <string name="pano_review_saving_indication_str">Kaydediliyor\u2026</string>
+  <string name="pano_review_saving_indication_str">Kaydediliyor...</string>
   <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
   <string name="pano_review_rendering">Panorama oluşturuluyor</string>
   <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
@@ -362,7 +359,7 @@ Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</st
   <!-- Title of video effect setting popup window -->
   <string name="pref_video_effect_title">Efektler</string>
   <!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
-  <string name="effect_none">Yok</string>
+  <string name="effect_none">Hiçbiri</string>
   <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
   <string name="effect_goofy_face_squeeze">Sıkıştır</string>
   <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
@@ -402,28 +399,28 @@ Kesilen resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</st
   <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->
   <string name="accessibility_check_box">%1$s onay kutusu</string>
   <!-- The button to switch to Camera mode. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_switch_to_camera">Fotoğraf moduna geç</string>
+  <string name="accessibility_switch_to_camera">Fotoğrafa geç</string>
   <!-- The button to switch to Video mode. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_switch_to_video">Video moduna geç</string>
+  <string name="accessibility_switch_to_video">Videoya geç</string>
   <!-- The button to switch to Panorama mode. [CHAR LIMIT = NONE] -->
   <string name="accessibility_switch_to_panorama">Panorama moduna geç</string>
   <!-- The button to switch to the Photo Sphere mode. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_switch_to_photo_sphere">Photo Sphere moduna geç</string>
+  <string name="accessibility_switch_to_photo_sphere">Photo Sphere Modu\'na geç</string>
   <!-- The button to switch to the high quality mode. [CHAR LIMIT = NONE] -->
   <string name="accessibility_switch_to_gcam">Yüksek kaliteye geç</string>
   <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT = NONE] -->
-  <string name="accessibility_review_cancel">İnceleme modu iptal</string>
+  <string name="accessibility_review_cancel">Gözden geçirmeyi iptal et</string>
   <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT = NONE] -->
-  <string name="accessibility_review_ok">İnceleme modu tamam</string>
+  <string name="accessibility_review_ok">Gözden geçirme tamamlandı</string>
   <!-- button in review mode indicate the user want to retake another photo/video for attachment [
 CHAR LIMIT = NONE] -->
-  <string name="accessibility_review_retake">İnceleme modu tekrar çek</string>
+  <string name="accessibility_review_retake">Gözden geçirmeyi tekrar çek</string>
   <!-- Default text for a button that can be toggled on and off. -->
   <string name="capital_on">AÇ</string>
   <!-- Default text for a button that can be toggled on and off. -->
   <string name="capital_off">KAPAT</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <string name="pref_video_time_lapse_frame_interval_off">Kapalı</string>
+  <string name="pref_video_time_lapse_frame_interval_off">Kapat</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_500">0,5 saniye</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -509,17 +506,17 @@ CHAR LIMIT = NONE] -->
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <string name="time_lapse_hours">saat</string>
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
-  <string name="time_lapse_interval_set">Bitti</string>
+  <string name="time_lapse_interval_set">Tamam</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
   <string name="set_time_interval">Zaman Aralığını Ayarla</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
   <string name="set_time_interval_help">Zaman atlama özelliği kapalı. Zaman aralığını ayarlamak için etkinleştirin.</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
-  <string name="set_duration">Süreyi saniye cinsinden ayarla</string>
+  <string name="set_duration">Süreyi saniye cinsinden ayarlayın</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
   <string name="count_down_title_text">Fotoğraf çekmek için geri sayılıyor</string>
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
-  <string name="remember_location_title">Fotoğrafların çekildiği konumlar hatırlansın mı?</string>
+  <string name="remember_location_title">Fotoğrafların çekildiği yerler hatırlansın mı?</string>
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
   <string name="remember_location_prompt">Fotoğraflarınızı ve videolarınızı çekildikleri konumlarla etiketleyin.\n\nDiğer uygulamalar, kaydedilen görüntülerle birlikte bu bilgilere erişebilir.</string>
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
@@ -533,13 +530,13 @@ CHAR LIMIT = NONE] -->
   <string name="camera_menu_settings_label">AYARLAR</string>
   <!--  Tiny Planet -->
   <!-- Button to press for creating a tiny planet image. [CHAR LIMIT = 30] -->
-  <string name="create_tiny_planet">Minik Gezegen Oluştur</string>
+  <string name="create_tiny_planet">Küçük Gezegen oluştur</string>
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
-  <string name="saving_tiny_planet">Minik Gezegen kaydediliyor&#8230;</string>
+  <string name="saving_tiny_planet">Küçük gezegen kaydediliyor&#8230;</string>
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
-  <string name="tiny_planet_zoom">Zum</string>
+  <string name="tiny_planet_zoom">Yakınlaştırma</string>
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
-  <string name="tiny_planet_rotate">Döndürme</string>
+  <string name="tiny_planet_rotate">Döndür</string>
   <!-- Crop -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
   <string name="crop_save">Kaydet</string>
@@ -550,10 +547,8 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Duvar kağıdı ayarlanıyor</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_video_rotation_label_0">0</string>
   <string name="pref_camera_video_rotation_label_90">90</string>
-  <string name="pref_camera_video_rotation_label_180">180</string>
-  <string name="pref_camera_video_rotation_label_270">270</string>
   <string name="remaining_photos_format">%d kaldı</string>
-  <string name="initial_recording_seconds">00:00</string>
   <string name="makeup_video_size_limit">Videoda makyaj sadece VGA kalitede çalışır.</string>
 </resources>

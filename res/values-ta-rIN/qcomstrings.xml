@@ -150,6 +150,7 @@
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE பிரேக்கெட்டிங்</string>
   <string name="pref_camera_ae_bracket_hdr_title">AE பிரேக்கெட்டிங்</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">அணை</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
@@ -177,20 +178,13 @@
   <string name="pref_camera_see_more_entry_off">முடக்கத்தில்</string>
   <!-- see more entry values. Do not translate. -->
   <!-- Denoise Settings screen, setting title text -->
-  <string name="pref_camera_denoise_title">Denoise</string>
   <!-- Denoise Settings screen, Record location dialog choices -->
   <string name="pref_camera_denoise_entry_off">முடக்கத்தில்</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">தானியங்கு</string>
   <string name="pref_camera_iso_entry_isodeblur">தானியக்கம் (HJR)</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">பேண்டிங் எதிர்ப்பு</string>
@@ -198,7 +192,6 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">முடக்கத்தில்</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (ஐரோப்பா)</string>
-  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
   <string name="pref_camera_antibanding_entry_3">தானியங்கு</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_off">முடக்கத்தில்</string>
@@ -333,9 +326,11 @@
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">கேமராவை தொடங்கு</string>
   <string name="pref_camera_tsmakeup_entry_off">முடக்கத்தில்</string>
+  <string name="text_tsmakeup_alert_quit">ரத்துசெய்</string>
   <string name="all_in_focus">அனைத்தும் குவியத்தில்</string>
   <string name="refocus_toast">கடந்தை புகைப்படத்தை மறு-குவியம் செய்ய, இங்கே தட்டு</string>
   <!-- Help menu strings -->
+  <string name="help_menu_ok">சரி</string>
   <string name="pref_camera2_mono_preview_entry_off">முடக்கத்தில்</string>
   <string name="pref_camera2_clearsight_entry_off">முடக்கத்தில்</string>
   <string name="pref_camera2_mpo_entry_off">முடக்கத்தில்</string>

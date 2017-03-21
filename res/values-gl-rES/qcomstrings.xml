@@ -64,7 +64,6 @@
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title">Zona de enfoque automático</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
-  <string name="pref_camera_selectablezoneaf_entry_auto">Auto</string>
   <string name="pref_camera_selectablezoneaf_entry_spotmetering">Medición puntual</string>
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Ponderada ao centro</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Media de marcos</string>
@@ -109,11 +108,9 @@
   <!-- Settings screen, CDS location dialog choices -->
   <string name="pref_camera_cds_entry_off">Apagado</string>
   <string name="pref_camera_cds_entry_on">Acender</string>
-  <string name="pref_camera_cds_entry_auto">Auto</string>
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">Apagado</string>
   <string name="pref_camera_video_cds_entry_on">Acender</string>
-  <string name="pref_camera_video_cds_entry_auto">Auto</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">Desactivar</string>
   <string name="pref_camera_tnr_entry_enable">Activar</string>
@@ -161,7 +158,6 @@
   <string name="pref_camera_shuttersound_entry_enable">Activado</string>
   <string name="pref_camera_shuttersound_entry_disable">Desactivado</string>
   <!-- Default mce setting. Do not translate. -->
-  <string name="pref_camera_mce_default">activar</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Os modos Gran velocidade/Cámara lenta non son compatíbeis con DIS e TimeLapse</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -224,15 +220,8 @@
   <string name="pref_camera_denoise_entry_on">Acender</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
-  <string name="pref_camera_iso_entry_auto">Auto</string>
   <string name="pref_camera_iso_entry_isodeblur">Auto (HjR)</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Antibandas</string>
@@ -240,8 +229,6 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Apagado</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
-  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
-  <string name="pref_camera_antibanding_entry_3">Auto</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Acender</string>
   <string name="pref_camera_filter_mode_entry_off">Apagado</string>
@@ -250,8 +237,6 @@
   <string name="pref_camera_filter_mode_title">Efecto de cor</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Ningún</string>
-  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
-  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negativo</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Solarizar</string>
@@ -259,8 +244,6 @@
   <string name="pref_camera_coloreffect_entry_aqua">Auga</string>
   <string name="pref_camera_coloreffect_entry_emboss">Realzar</string>
   <string name="pref_camera_coloreffect_entry_sketch">Esbozo a lapis</string>
-  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
-  <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mosaico</string>
   <string name="pref_camera_coloreffect_entry_redtint">Tinta vermella</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Tinta azul</string>
@@ -353,7 +336,6 @@
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">O flash non é compatíbel co modo de AE de composición (bracketing)</string>
   <!-- Settings screen, setting title text for Auto HDR-->
-  <string name="pref_camera_auto_hdr_title">Auto HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Activar</string>
   <string name="pref_camera_auto_hdr_entry_disable">Desactivar</string>
@@ -362,7 +344,6 @@
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">Modo HDR</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
-  <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
   <string name="pref_camera_hdr_mode_entry_multi_frame">Multicadro HDR</string>
   <!-- HDR mode entry values. Do not translate. -->
   <!-- Settings screen, Selectable HDR need 1x frame default value -->

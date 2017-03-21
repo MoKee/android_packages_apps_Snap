@@ -76,7 +76,6 @@
   <string name="pref_camera_focusmode_entry_fixed">Korjattu</string>
   <string name="pref_camera_focusmode_entry_normal">Normaali</string>
   <string name="pref_camera_focusmode_entry_portrait">Muotokuva</string>
-  <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfocal</string>
   <!-- Color effects -->
   <string name="pref_camera_coloreffect_entry_washed">Pesty</string>
   <string name="pref_camera_coloreffect_entry_vintage_warm">Vintage, lämmin</string>
@@ -94,10 +93,6 @@
   <string name="pref_camera_max_brightness_title">Kirkas näyttö</string>
   <!-- Touch focus duration -->
   <string name="pref_camera_focustime_title">Kosketustarkennuksen kesto</string>
-  <string name="pref_camera_focustime_entry_0">0s</string>
-  <string name="pref_camera_focustime_entry_3">3s</string>
-  <string name="pref_camera_focustime_entry_5">5s</string>
-  <string name="pref_camera_focustime_entry_10">10s</string>
   <string name="pref_camera_focustime_entry_infinite">Loputon</string>
   <!-- Shutter speed -->
   <string name="pref_camera_shutter_speed_title">Sulkijan nopeus</string>

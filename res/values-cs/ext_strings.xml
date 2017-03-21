@@ -23,7 +23,7 @@
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
-  <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f megapixelů</string>
+  <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f Mpx</string>
   <!-- Settings screen, scene mode -->
   <string name="pref_camera_scenemode_entry_antimotionblur">Redukce rozmazání</string>
   <string name="pref_camera_scenemode_entry_aqua">Voda</string>
@@ -94,7 +94,6 @@
   <string name="pref_camera_max_brightness_title">Plný jas obrazovky</string>
   <!-- Touch focus duration -->
   <string name="pref_camera_focustime_title">Trvání ostření dotykem</string>
-  <string name="pref_camera_focustime_entry_0">0s</string>
   <string name="pref_camera_focustime_entry_3">3s</string>
   <string name="pref_camera_focustime_entry_5">5s</string>
   <string name="pref_camera_focustime_entry_10">10s</string>

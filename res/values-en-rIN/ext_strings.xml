@@ -23,8 +23,10 @@
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
   <!-- Settings screen, scene mode -->
+  <string name="pref_camera_scenemode_entry_fallcolor">Autumn</string>
   <!-- Settings screen, focus mode -->
   <!-- Color effects -->
+  <string name="pref_camera_coloreffect_entry_cartoonize">Cartoonise</string>
   <!-- Red eye flash mode title -->
   <!-- Power shutter -->
   <!-- Max brightness -->

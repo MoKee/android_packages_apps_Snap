@@ -161,7 +161,6 @@
   <string name="pref_camera_shuttersound_entry_enable">Zapnúť</string>
   <string name="pref_camera_shuttersound_entry_disable">Vypnúť</string>
   <!-- Default mce setting. Do not translate. -->
-  <string name="pref_camera_mce_default">enable</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Vysoká rýchlosť/pomalý pohyb nie je podporované pre DIS (optická stabilizácia obrazu) a TimeLapse (časozber)</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -224,7 +223,6 @@
   <string name="pref_camera_denoise_entry_on">Zapnúť</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automaticky</string>
   <string name="pref_camera_iso_entry_isodeblur">Automatické (HJR)</string>
@@ -240,7 +238,6 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Vypnutá</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Európa)</string>
-  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
   <string name="pref_camera_antibanding_entry_3">Automaticky</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Zapnúť</string>
@@ -260,7 +257,6 @@
   <string name="pref_camera_coloreffect_entry_emboss">Reliéf</string>
   <string name="pref_camera_coloreffect_entry_sketch">Náčrtok</string>
   <string name="pref_camera_coloreffect_entry_neon">Neón</string>
-  <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mozaika</string>
   <string name="pref_camera_coloreffect_entry_redtint">Červený odtieň</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Modrý odtieň</string>
@@ -333,7 +329,6 @@
   <string name="pref_camera_jpegquality_entry_2">Vysoká</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
-  <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Zapnúť</string>
   <string name="pref_camera_histogram_entry_disable">Vypnúť</string>
@@ -353,7 +348,6 @@
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">Blesk nie je podporovaný v AE bracketing režime</string>
   <!-- Settings screen, setting title text for Auto HDR-->
-  <string name="pref_camera_auto_hdr_title">Auto HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Zapnúť</string>
   <string name="pref_camera_auto_hdr_entry_disable">Vypnúť</string>
@@ -438,7 +432,6 @@
   <string name="pref_camera2_mpo_title">MPO formát</string>
   <string name="pref_camera2_mpo_entry_on">Zapnúť</string>
   <string name="pref_camera2_mpo_entry_off">Vypnutá</string>
-  <string name="pref_camera2_makeup_title">Makeup</string>
   <string name="pref_camera2_noise_reduction_title">Redukcia šumu</string>
   <string name="pref_camera2_noise_reduction_entry_off">Vypnutá</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Rychlo</string>

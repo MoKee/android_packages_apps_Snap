@@ -20,9 +20,7 @@
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <string name="video_camera_label">Videokamera</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Kép beállítása mint</string>
@@ -259,7 +257,6 @@ Az elem helyileg van tárolva, és elérhető offline módban.</string>
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automatikus</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -332,7 +329,7 @@ Az elem helyileg van tárolva, és elérhető offline módban.</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">HÁTSÓ KAMERA</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">Rendben</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
   <string name="spaceIsLow_content" product="default">Az SD-kártyán kezd elfogyni a hely. Módosítsa a minőségi beállításokat, vagy töröljön néhány képet vagy egyéb fájlt.</string>
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
@@ -550,10 +547,6 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Háttérkép beállítása</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
-  <string name="pref_camera_video_rotation_label_90">90</string>
-  <string name="pref_camera_video_rotation_label_180">180</string>
-  <string name="pref_camera_video_rotation_label_270">270</string>
   <string name="remaining_photos_format">%d maradt</string>
-  <string name="initial_recording_seconds">0:00</string>
   <string name="makeup_video_size_limit">Smink csak a VGA méretű videók rögzítésekor működik.</string>
 </resources>

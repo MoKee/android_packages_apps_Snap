@@ -37,7 +37,7 @@
   <string name="pref_camera_scenemode_entry_beach">Pantai</string>
   <string name="pref_camera_scenemode_entry_beauty">Kecantikan</string>
   <string name="pref_camera_scenemode_entry_candlelight">Cahaya lilin</string>
-  <string name="pref_camera_scenemode_entry_cine">Bioskop</string>
+  <string name="pref_camera_scenemode_entry_cine">Sinema</string>
   <string name="pref_camera_scenemode_entry_closeup">Potret dari dekat</string>
   <string name="pref_camera_scenemode_entry_dark">Suram</string>
   <string name="pref_camera_scenemode_entry_dish">Piring</string>
@@ -47,6 +47,7 @@
   <string name="pref_camera_scenemode_entry_fireworks">Kembang api</string>
   <string name="pref_camera_scenemode_entry_flowers">Bunga</string>
   <string name="pref_camera_scenemode_entry_handheldtwilight">Genggaman senja</string>
+  <string name="pref_camera_scenemode_entry_highsensitivity">Sensivitas tinggi</string>
   <string name="pref_camera_scenemode_entry_indoor">Di dalam ruangan</string>
   <string name="pref_camera_scenemode_entry_landscape">Lanskap</string>
   <string name="pref_camera_scenemode_entry_mix_illuminant">Pencahayaan campuran</string>
@@ -62,7 +63,7 @@
   <string name="pref_camera_scenemode_entry_spotlight">Lampu sorot</string>
   <string name="pref_camera_scenemode_entry_steadyphoto">Foto stabil</string>
   <string name="pref_camera_scenemode_entry_supernight">Malam yang gelap</string>
-  <string name="pref_camera_scenemode_entry_sweepstitch">Sweep stitch</string>
+  <string name="pref_camera_scenemode_entry_sweepstitch">Menyapu tautan</string>
   <string name="pref_camera_scenemode_entry_text">Teks</string>
   <string name="pref_camera_scenemode_entry_theatre">Teater</string>
   <string name="pref_camera_scenemode_entry_whiteboard">Papan tulis </string>
@@ -78,7 +79,7 @@
   <string name="pref_camera_focusmode_entry_hyperfocal">Hiperfokus</string>
   <!-- Color effects -->
   <string name="pref_camera_coloreffect_entry_washed">Dicuci</string>
-  <string name="pref_camera_coloreffect_entry_vintage_warm">Vintage warm</string>
+  <string name="pref_camera_coloreffect_entry_vintage_warm">Vintage hangat</string>
   <string name="pref_camera_coloreffect_entry_vintage_cold">Vintage dingin</string>
   <string name="pref_camera_coloreffect_entry_point_blue">Titik biru</string>
   <string name="pref_camera_coloreffect_entry_point_green">Titik hijau</string>

@@ -161,7 +161,6 @@
   <string name="pref_camera_shuttersound_entry_enable">Omogućeno</string>
   <string name="pref_camera_shuttersound_entry_disable">Онемогућено</string>
   <!-- Default mce setting. Do not translate. -->
-  <string name="pref_camera_mce_default">омогући</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Висока брзина/Успорени снимак није подржано за DIS и TimeLapse</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -182,6 +181,7 @@
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Држање аутоматске експозиције</string>
   <string name="pref_camera_ae_bracket_hdr_title">Држање аутоматске експозиције</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Укљ</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">Искључене</string>
   <string name="err_app_unsupport_ae_bracket_code">Држање аутоматске експозитуре још увек није подржано</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">Величина snapshot-а је мања од величине видеа, премашена видео величина. Изабери резолуцију већу или једнаку тренутној видео величини.</string>
@@ -224,15 +224,9 @@
   <string name="pref_camera_denoise_entry_on">Укљ</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Аутоматски</string>
   <string name="pref_camera_iso_entry_isodeblur">Аутоматски (HJR)</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Смањивање трептања</string>
@@ -240,7 +234,6 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Искључено</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Европа)</string>
-  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
   <string name="pref_camera_antibanding_entry_3">Аутоматски</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Укљ</string>
@@ -344,6 +337,7 @@
   <!-- Settings menu, auto scene detection choices -->
   <string name="pref_camera_scenedetect_entry_off">Искључено</string>
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
+  <string name="pref_camera_scenedetect_entry_on">Укључено</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Непрекидан снимак</string>
@@ -353,6 +347,7 @@
   <!-- Settings screen, setting title text for Auto HDR-->
   <string name="pref_camera_auto_hdr_title">Аутоматски HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
+  <string name="pref_camera_auto_hdr_entry_disable">Онемогући</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Простор унутрашњег складишта није довољан, пребачена локација складишта на SD картицу</string>
   <!-- Settings screen, Selectable HDR mode title -->
@@ -384,6 +379,7 @@
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">Покрени камеру</string>
   <string name="pref_camera_tsmakeup_title">Улепшавање</string>
+  <string name="pref_camera_tsmakeup_entry_on">Укључено</string>
   <string name="pref_camera_tsmakeup_entry_off">Искључено</string>
   <string name="pref_camera_tsmakeup_entry_low">Ниско</string>
   <string name="pref_camera_tsmakeup_entry_mid">Средње</string>
@@ -398,6 +394,8 @@
   <string name="all_in_focus">Све у фокусу</string>
   <string name="refocus_toast">Да поново фокусираш фото, додирни овде</string>
   <!-- Help menu strings -->
+  <string name="help_menu_ok">ОК</string>
+  <string name="help_menu_scene_mode_2">Режим сцене</string>
   <string name="help_menu_scene_mode_3">за боље слике</string>
   <string name="help_menu_color_filter_1">Примена боје</string>
   <string name="help_menu_color_filter_2">филтери</string>

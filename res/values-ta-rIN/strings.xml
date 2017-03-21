@@ -18,11 +18,8 @@
   <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
   <string name="app_name">கேமரா</string>
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
-  <string name="video_camera_label">Camcorder</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">படத்தை இதுவாக அமை</string>
@@ -115,10 +112,8 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">எக்ஸ்போஷர் நேரம்</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
-  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
-  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
   <string name="manual">கைமுறை</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
@@ -175,6 +170,7 @@
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">கவுன்ட்டவுனின்போது பீப் செய்யவும்</string>
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_entry_0">அலைபேசி</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">முடக்கத்தில்</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
@@ -212,8 +208,6 @@
   <string name="pref_camera_focusmode_entry_macro">மேக்ரோ</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">தானியங்கு</string>
-  <string name="pref_camera_focusmode_label_infinity">INFINITY</string>
-  <string name="pref_camera_focusmode_label_macro">MACRO</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
@@ -225,7 +219,6 @@
   <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_off">முடக்கத்தில்</string>
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
-  <string name="pref_camera_flashmode_label_auto">FLASH AUTO</string>
   <string name="pref_camera_flashmode_label_on">பிளாஷ் ஆன்</string>
   <string name="pref_camera_flashmode_label_off">பிளாஷ் ஆஃப்</string>
   <!-- Default videocamera flash mode setting.-->
@@ -252,9 +245,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">தானியங்கு</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ ஆன்</string>
   <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -310,7 +301,6 @@
   <!-- Default HDR entry value -->
   <!-- Default HDR+ entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
-  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">முன்பக்க கேமரா</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
@@ -374,7 +364,6 @@
   <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
   <string name="clear_effects">விளைவுகளை அழிக்கவும்</string>
   <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
-  <string name="effect_silly_faces">SILLY FACES</string>
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
   <string name="effect_background">பின்னணி</string>
   <!-- The shutter button. [CHAR LIMIT = NONE] -->

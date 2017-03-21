@@ -64,7 +64,7 @@
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title">Zona d\'Autofocus</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
-  <string name="pref_camera_selectablezoneaf_entry_auto">Auto</string>
+  <string name="pref_camera_selectablezoneaf_entry_auto">Automàtic</string>
   <string name="pref_camera_selectablezoneaf_entry_spotmetering">Mesura puntual</string>
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Ponderada al centre</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Mitjana de fotogrames</string>
@@ -109,11 +109,11 @@
   <!-- Settings screen, CDS location dialog choices -->
   <string name="pref_camera_cds_entry_off">Desactivat</string>
   <string name="pref_camera_cds_entry_on">Sí</string>
-  <string name="pref_camera_cds_entry_auto">Auto</string>
+  <string name="pref_camera_cds_entry_auto">Automàtic</string>
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">Desactivat</string>
   <string name="pref_camera_video_cds_entry_on">Sí</string>
-  <string name="pref_camera_video_cds_entry_auto">Auto</string>
+  <string name="pref_camera_video_cds_entry_auto">Automàtic</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">Desactiva</string>
   <string name="pref_camera_tnr_entry_enable">Activa</string>
@@ -161,7 +161,6 @@
   <string name="pref_camera_shuttersound_entry_enable">Habilitat</string>
   <string name="pref_camera_shuttersound_entry_disable">Deshabilitat</string>
   <!-- Default mce setting. Do not translate. -->
-  <string name="pref_camera_mce_default">activa</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">L\'enregistrament a alta velocitat no està suportat quan s\'utilitza Estabilització/TimeLapse/HDR.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -182,6 +181,7 @@
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Bracketing d\'AE</string>
   <string name="pref_camera_ae_bracket_hdr_title">Bracketing d\'AE</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Sí</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">Desactivat</string>
   <string name="err_app_unsupport_ae_bracket_code">Encara no hi ha suport per AE bracket</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">La mida de la captura de vídeo és més baixa que la mida del vídeo. S\'està redimensionant a la mida del vídeo. Si us plau selecciona una resolució més gran o igual a la mida del vídeo actual.</string>
@@ -224,24 +224,17 @@
   <string name="pref_camera_denoise_entry_on">Sí</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
-  <string name="pref_camera_iso_entry_auto">Auto</string>
-  <string name="pref_camera_iso_entry_isodeblur">Auto (HJR)</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
+  <string name="pref_camera_iso_entry_auto">Automàtic</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
-  <string name="pref_camera_antibanding_title">Antibanding</string>
+  <string name="pref_camera_antibanding_title">Antibandeig</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Desactivat</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
   <string name="pref_camera_antibanding_entry_2">60 Hz (EUA)</string>
-  <string name="pref_camera_antibanding_entry_3">Auto</string>
+  <string name="pref_camera_antibanding_entry_3">Automàtic</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Sí</string>
   <string name="pref_camera_filter_mode_entry_off">Desactivat</string>
@@ -250,7 +243,6 @@
   <string name="pref_camera_filter_mode_title">Efecte de color</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Cap</string>
-  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
   <string name="pref_camera_coloreffect_entry_sepia">Sèpia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negatiu</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
@@ -260,8 +252,6 @@
   <string name="pref_camera_coloreffect_entry_emboss">Relleu</string>
   <string name="pref_camera_coloreffect_entry_sketch">Esbós</string>
   <string name="pref_camera_coloreffect_entry_neon">Neó</string>
-  <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
-  <string name="pref_camera_coloreffect_entry_mosaic">Mosaic</string>
   <string name="pref_camera_coloreffect_entry_redtint">Tinta vermella</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Tinta blava</string>
   <string name="pref_camera_coloreffect_entry_greentint">Tinta verda</string>
@@ -315,7 +305,6 @@
   <string name="pref_camera_sharpness_title">Nitidesa</string>
   <!-- Default contrast setting. Do not translate. -->
   <!-- Settings screen, Select contrast title -->
-  <string name="pref_camera_contrast_title">Contrast</string>
   <!-- Default saturation setting. Do not translate. -->
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Saturació</string>
@@ -353,7 +342,6 @@
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">El flaix no està suportat en el mode de bracketing d\'exposició automàtica</string>
   <!-- Settings screen, setting title text for Auto HDR-->
-  <string name="pref_camera_auto_hdr_title">Auto HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Activa</string>
   <string name="pref_camera_auto_hdr_entry_disable">Desactiva</string>
@@ -362,7 +350,6 @@
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">Mode de HDR</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
-  <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
   <string name="pref_camera_hdr_mode_entry_multi_frame">Multi-marc HDR</string>
   <!-- HDR mode entry values. Do not translate. -->
   <!-- Settings screen, Selectable HDR need 1x frame default value -->

@@ -181,6 +181,7 @@
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Automatikus expozíció sorozat</string>
   <string name="pref_camera_ae_bracket_hdr_title">Automatikus expozíció sorozat</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Be</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">Ki</string>
   <string name="err_app_unsupport_ae_bracket_code">Expozíciósorozat még nem támogatott</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">Videó pillanatfelvétel mérete kisebb, mint a videó mérete. Határérték módosítva a videó méretére. Válasszon egyenlő vagy nagyobb felbontást a jelenlegi videó mérethez.</string>
@@ -227,11 +228,6 @@
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automatikus</string>
   <string name="pref_camera_iso_entry_isodeblur">ISO Automatikus (HJR)</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Csikozódáscsökkentés</string>
@@ -239,7 +235,6 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Ki</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Európa)</string>
-  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
   <string name="pref_camera_antibanding_entry_3">Automatikus</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Be</string>
@@ -258,7 +253,6 @@
   <string name="pref_camera_coloreffect_entry_aqua">Víz</string>
   <string name="pref_camera_coloreffect_entry_emboss">Dombormű</string>
   <string name="pref_camera_coloreffect_entry_sketch">Vázlat</string>
-  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
   <string name="pref_camera_coloreffect_entry_pastel">Pasztell</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mozaik</string>
   <string name="pref_camera_coloreffect_entry_redtint">Vörös árnyalat</string>
@@ -352,7 +346,6 @@
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">A vaku nem támogatott az automatikus expozíció sorozat módban</string>
   <!-- Settings screen, setting title text for Auto HDR-->
-  <string name="pref_camera_auto_hdr_title">Auto HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Engedélyezés</string>
   <string name="pref_camera_auto_hdr_entry_disable">Letiltás</string>
@@ -409,7 +402,7 @@
   <string name="camera_unknown_error">Ismeretlen hiba, kamera bezárása.</string>
   <string name="mute_button_desc">Némítás gomb</string>
   <!-- Help menu strings -->
-  <string name="help_menu_ok">OK</string>
+  <string name="help_menu_ok">Rendben</string>
   <string name="help_menu_scene_mode_1">Válassza ki a</string>
   <string name="help_menu_scene_mode_2">jelenetet a</string>
   <string name="help_menu_scene_mode_3">jobb képekért</string>

@@ -181,6 +181,7 @@
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">תיחום חשיפה אוטומטי</string>
   <string name="pref_camera_ae_bracket_hdr_title">תיחום חשיפה אוטומטי</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">מופעל</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">ללא</string>
   <string name="err_app_unsupport_ae_bracket_code">תיחום חשיפה אוטומטית (AEB) אינו נתמך עדיין</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">גודל הוידאו נמוך יותר מאשר גודל הוידאו האפשרי. נא בחר ברזולוציה גבוהה או שווה לגודל הווידאו הנוכחי.</string>
@@ -223,15 +224,10 @@
   <string name="pref_camera_denoise_entry_on">מופעל</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
+  <string name="pref_camera_iso_title">‏ISO‏</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">אוטומטי</string>
   <string name="pref_camera_iso_entry_isodeblur">אוטומטי (HJR)</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">החלקת פסי גוונים</string>

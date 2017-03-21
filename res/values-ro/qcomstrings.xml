@@ -64,7 +64,6 @@
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title">Zona de autofocus</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
-  <string name="pref_camera_selectablezoneaf_entry_auto">Auto</string>
   <string name="pref_camera_selectablezoneaf_entry_spotmetering">Măsurare punctuală</string>
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Balansare centrată</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Media cadrului</string>
@@ -84,7 +83,6 @@
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_title">Balans de alb manual</string>
   <string name="pref_camera_manual_wb_entry_color_temperature">Temperatura culorii</string>
-  <string name="pref_camera_manual_wb_entry_rbgb_gains">RBGB gains</string>
   <string name="pref_camera_manual_wb_entry_off">Oprit</string>
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_title">Focalizare manuală</string>
@@ -123,7 +121,6 @@
   <string name="pref_camera_video_tnr_entry_enable">Activați</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
-  <string name="pref_camera_video_hdr_title">Video HDR</string>
   <!-- Settings menu, setting title text for cds mode-->
   <string name="pref_camera_cds_title">Mod CDS</string>
   <!-- Settings menu, setting title text for video cds mode-->
@@ -161,7 +158,6 @@
   <string name="pref_camera_shuttersound_entry_enable">Activat</string>
   <string name="pref_camera_shuttersound_entry_disable">Dezactivat</string>
   <!-- Default mce setting. Do not translate. -->
-  <string name="pref_camera_mce_default">activați</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Înregistrarea cu frecvenţă mare de cadre nu este suportată atunci când utilizaţi Stabilizare/Time lapse/HDR.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -179,9 +175,8 @@
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">Formatul de imagine brut nu este suportat în modul Zero shutter lag. Selectaţi JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
-  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE bracketing</string>
-  <string name="pref_camera_ae_bracket_hdr_title">AE bracketing</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Activat</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">Oprit</string>
   <string name="err_app_unsupport_ae_bracket_code">AE bracketing nu este acceptat momentan</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">Dimensiunea instantaneului video este mai mică decât dimensiunea video, plafonând la dimensiunea video-ului. Vă rugăm selectați o rezoluție mai mare sau egală cu dimensiunea video curentă.</string>
@@ -224,24 +219,14 @@
   <string name="pref_camera_denoise_entry_on">Activat</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
-  <string name="pref_camera_iso_entry_auto">Auto</string>
-  <string name="pref_camera_iso_entry_isodeblur">Auto (HJR)</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
-  <string name="pref_camera_antibanding_title">Antibanding</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Oprit</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
   <string name="pref_camera_antibanding_entry_2">60 Hz (SUA)</string>
-  <string name="pref_camera_antibanding_entry_3">Auto</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Activat</string>
   <string name="pref_camera_filter_mode_entry_off">Oprit</string>
@@ -250,17 +235,12 @@
   <string name="pref_camera_filter_mode_title">Efect de culoare</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Niciunul</string>
-  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
-  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Solarizare</string>
   <string name="pref_camera_coloreffect_entry_posterize">Posterizare</string>
-  <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
   <string name="pref_camera_coloreffect_entry_emboss">Gravare</string>
   <string name="pref_camera_coloreffect_entry_sketch">Schițare</string>
-  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
-  <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mozaic</string>
   <string name="pref_camera_coloreffect_entry_redtint">Tentă roșie</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Tentă albastră</string>
@@ -315,7 +295,6 @@
   <string name="pref_camera_sharpness_title">Claritate</string>
   <!-- Default contrast setting. Do not translate. -->
   <!-- Settings screen, Select contrast title -->
-  <string name="pref_camera_contrast_title">Contrast</string>
   <!-- Default saturation setting. Do not translate. -->
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Saturație</string>
@@ -329,7 +308,7 @@
   <string name="pref_camera_jpegquality_title">Calitatea imaginii</string>
   <!-- Settings screen, Picture quality dialog radio button choices -->
   <string name="pref_camera_jpegquality_entry_0">Redusă</string>
-  <string name="pref_camera_jpegquality_entry_1">Standard</string>
+  <string name="pref_camera_jpegquality_entry_1">65% (normal)</string>
   <string name="pref_camera_jpegquality_entry_2">Ridicată</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
@@ -353,7 +332,6 @@
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">Blițul nu este suportat în modul AE bracketing</string>
   <!-- Settings screen, setting title text for Auto HDR-->
-  <string name="pref_camera_auto_hdr_title">Auto HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Activați</string>
   <string name="pref_camera_auto_hdr_entry_disable">Dezactivați</string>

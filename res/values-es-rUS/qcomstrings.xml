@@ -123,7 +123,7 @@
   <string name="pref_camera_video_tnr_entry_enable">Activar</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
-  <string name="pref_camera_video_hdr_title">Video HDR</string>
+  <string name="pref_camera_video_hdr_title">Vídeo HDR</string>
   <!-- Settings menu, setting title text for cds mode-->
   <string name="pref_camera_cds_title">Modo de CDS</string>
   <!-- Settings menu, setting title text for video cds mode-->
@@ -178,9 +178,10 @@
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">Formato de imagen RAW no es compatible en modo cero retraso de obturador. Seleccionar JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
-  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE bracketing</string>
-  <string name="pref_camera_ae_bracket_hdr_title">AE bracketing</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Bracketing de exposición automática</string>
+  <string name="pref_camera_ae_bracket_hdr_title">Bracketing de exposición automática</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Activado</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">Desactivado</string>
   <string name="err_app_unsupport_ae_bracket_code">Todavía es incompatible el horquillado AE</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">El tamaño de la captura de vídeo es menor que el tamaño del vídeo, limitando el tamaño de vídeo. Seleccione una resolución mayor o igual que el tamaño del vídeo actual.</string>
@@ -223,7 +224,6 @@
   <string name="pref_camera_denoise_entry_on">Activado</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automático</string>
   <string name="pref_camera_iso_entry_isodeblur">Automático (HJR)</string>
@@ -249,8 +249,6 @@
   <string name="pref_camera_filter_mode_title">Efecto de color</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Ninguno</string>
-  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
-  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negativo</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Solarizar</string>
@@ -259,7 +257,6 @@
   <string name="pref_camera_coloreffect_entry_emboss">Realzar</string>
   <string name="pref_camera_coloreffect_entry_sketch">Dibujo</string>
   <string name="pref_camera_coloreffect_entry_neon">Neón</string>
-  <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mosaico</string>
   <string name="pref_camera_coloreffect_entry_redtint">Tono en rojo</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Tono en azul</string>
@@ -352,7 +349,7 @@
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">Flash no es compatible con el modo de bracketing AE</string>
   <!-- Settings screen, setting title text for Auto HDR-->
-  <string name="pref_camera_auto_hdr_title">Auto HDR</string>
+  <string name="pref_camera_auto_hdr_title">HDR Automático</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Activar</string>
   <string name="pref_camera_auto_hdr_entry_disable">Desactivar</string>
@@ -361,8 +358,7 @@
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">Modo HDR</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
-  <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
-  <string name="pref_camera_hdr_mode_entry_multi_frame">Multi-frame HDR</string>
+  <string name="pref_camera_hdr_mode_entry_multi_frame">HDR de marcos múltiples</string>
   <!-- HDR mode entry values. Do not translate. -->
   <!-- Settings screen, Selectable HDR need 1x frame default value -->
   <!-- Settings screen, Selectable HDR need 1x frame title -->

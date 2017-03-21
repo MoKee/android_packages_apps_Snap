@@ -26,7 +26,6 @@
   <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f megapíxeis</string>
   <!-- Settings screen, scene mode -->
   <string name="pref_camera_scenemode_entry_antimotionblur">Redução da desfocagem de movimento</string>
-  <string name="pref_camera_scenemode_entry_aqua">Aqua</string>
   <string name="pref_camera_scenemode_entry_ar">Realidade aumentada</string>
   <string name="pref_camera_scenemode_entry_asd">Melhor disparo</string>
   <string name="pref_camera_scenemode_entry_baby">Bebé</string>
@@ -74,7 +73,6 @@
   <string name="pref_camera_focusmode_entry_facedetect">Deteção de rosto</string>
   <string name="pref_camera_focusmode_entry_facepriority">Prioridade ao rosto</string>
   <string name="pref_camera_focusmode_entry_fixed">Fixo</string>
-  <string name="pref_camera_focusmode_entry_normal">Normal</string>
   <string name="pref_camera_focusmode_entry_portrait">Retrato</string>
   <string name="pref_camera_focusmode_entry_hyperfocal">Hiperfocal</string>
   <!-- Color effects -->
@@ -94,10 +92,6 @@
   <string name="pref_camera_max_brightness_title">Ecrã brilhante</string>
   <!-- Touch focus duration -->
   <string name="pref_camera_focustime_title">Duração do toque para focar</string>
-  <string name="pref_camera_focustime_entry_0">0s</string>
-  <string name="pref_camera_focustime_entry_3">3s</string>
-  <string name="pref_camera_focustime_entry_5">5s</string>
-  <string name="pref_camera_focustime_entry_10">10s</string>
   <string name="pref_camera_focustime_entry_infinite">Infinito</string>
   <!-- Shutter speed -->
   <string name="pref_camera_shutter_speed_title">Velocidade do obturador</string>

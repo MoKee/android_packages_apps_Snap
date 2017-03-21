@@ -181,6 +181,7 @@
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">자동 노출 브래킷</string>
   <string name="pref_camera_ae_bracket_hdr_title">자동 노출 브래킷</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">켜짐</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">오프</string>
   <string name="err_app_unsupport_ae_bracket_code">자동 노출(AE) 브라케팅은 아직 지원하지 않습니다</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">비디오 스냅샷 해상도가 영상의 해상도보다 낮아 해상도를 영상에 맞춥니다. 해상도를 현재 영상 해상도와 같거나 높게 선택해주세요.</string>
@@ -223,15 +224,9 @@
   <string name="pref_camera_denoise_entry_on">켜짐</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">자동</string>
   <string name="pref_camera_iso_entry_isodeblur">자동 (HJR)</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">밴딩 방지</string>

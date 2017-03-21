@@ -181,6 +181,7 @@
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Korektura sam. osvetlitve</string>
   <string name="pref_camera_ae_bracket_hdr_title">Korektura sam. osvetlitve</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Vklopljeno</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">Izklopljen</string>
   <string name="err_app_unsupport_ae_bracket_code">Korektura samodejne osvetlitve še ni podprta</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">Velikost samodejnega posnetka je nižja od velikosti videoposnetka, omejevanje na velikost videoposnetka. Izberite ločljivost višjo ali enako velikosti trenutnega videoposnetka.</string>
@@ -223,7 +224,6 @@
   <string name="pref_camera_denoise_entry_on">Vklopljeno</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Samodejno</string>
   <string name="pref_camera_iso_entry_isodeblur">Samodejno (HJR)</string>
@@ -249,7 +249,6 @@
   <string name="pref_camera_filter_mode_title">Barvni učinek</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Brez</string>
-  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
   <string name="pref_camera_coloreffect_entry_sepia">Sepija</string>
   <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
@@ -332,7 +331,6 @@
   <string name="pref_camera_jpegquality_entry_2">Visoka</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
-  <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Omogoči</string>
   <string name="pref_camera_histogram_entry_disable">Onemogoči</string>

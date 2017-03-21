@@ -27,7 +27,6 @@
   <string name="pref_camera_scenemode_entry_ar">Realidá aumentada</string>
   <string name="pref_camera_scenemode_entry_highsensitivity">Sensibilidá alta</string>
   <!-- Settings screen, focus mode -->
-  <string name="pref_camera_focusmode_entry_normal">Normal</string>
   <!-- Color effects -->
   <!-- Red eye flash mode title -->
   <!-- Power shutter -->

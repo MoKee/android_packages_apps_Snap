@@ -91,10 +91,6 @@
   <string name="pref_camera_max_brightness_title">બ્રાઇટ સ્ક્રીન</string>
   <!-- Touch focus duration -->
   <string name="pref_camera_focustime_title">ટચ ફોકસ સમયગાળો</string>
-  <string name="pref_camera_focustime_entry_0">0s</string>
-  <string name="pref_camera_focustime_entry_3">3s</string>
-  <string name="pref_camera_focustime_entry_5">5s</string>
-  <string name="pref_camera_focustime_entry_10">10s</string>
   <string name="pref_camera_focustime_entry_infinite">અનંત</string>
   <!-- Shutter speed -->
   <string name="pref_camera_shutter_speed_title">શટર સ્પીડ</string>

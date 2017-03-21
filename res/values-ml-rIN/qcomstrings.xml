@@ -186,14 +186,11 @@
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">ഓട്ടോ</string>
   <string name="pref_camera_iso_entry_isodeblur">ഓട്ടോ (HJR)</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
   <string name="pref_camera_iso_entry_iso400">ഐ എസ ഓ 400</string>
   <string name="pref_camera_iso_entry_iso800">ഐ എസ ഓ 800</string>
   <string name="pref_camera_iso_entry_iso1600">ഐ എസ ഓ 1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
-  <string name="pref_camera_antibanding_title">Antibanding</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">ഓഫാണ്</string>
@@ -333,9 +330,11 @@
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">ക്യാമറ സമാരംഭിക്കുക</string>
   <string name="pref_camera_tsmakeup_entry_off">ഓഫാണ്</string>
+  <string name="text_tsmakeup_alert_quit">റദ്ദാക്കുക</string>
   <string name="all_in_focus">എല്ലാ ഫോക്കസിൽ</string>
   <string name="refocus_toast">അവസാന ഫോട്ടോ വീണ്ടും ഫോക്കസ് ചെയ്യുന്നതിന്, ഇവിടെ അമര്‍ത്തുക</string>
   <!-- Help menu strings -->
+  <string name="help_menu_ok">ശരി</string>
   <string name="pref_camera2_mono_preview_entry_off">ഓഫാണ്</string>
   <string name="pref_camera2_clearsight_entry_off">ഓഫാണ്</string>
   <string name="pref_camera2_mpo_entry_off">ഓഫാണ്</string>
