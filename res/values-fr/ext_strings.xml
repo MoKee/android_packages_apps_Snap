@@ -37,7 +37,7 @@
   <string name="pref_camera_scenemode_entry_beach">Plage</string>
   <string name="pref_camera_scenemode_entry_beauty">Beauté</string>
   <string name="pref_camera_scenemode_entry_candlelight">Lueur de chandelles</string>
-  <string name="pref_camera_scenemode_entry_cine">Cinéma</string>
+  <string name="pref_camera_scenemode_entry_cine">Ciné</string>
   <string name="pref_camera_scenemode_entry_closeup">Gros plan</string>
   <string name="pref_camera_scenemode_entry_dark">Sombre</string>
   <string name="pref_camera_scenemode_entry_dish">Plat</string>
@@ -46,8 +46,7 @@
   <string name="pref_camera_scenemode_entry_fallcolor">Couleur d\'automne</string>
   <string name="pref_camera_scenemode_entry_fireworks">Feux d\'artifice</string>
   <string name="pref_camera_scenemode_entry_flowers">Fleurs</string>
-  <string name="pref_camera_scenemode_entry_handheldtwilight">Lampe de poche</string>
-  <string name="pref_camera_scenemode_entry_highsensitivity">Haute sensibilité</string>
+  <string name="pref_camera_scenemode_entry_handheldtwilight">Crépuscule à main levée</string>
   <string name="pref_camera_scenemode_entry_indoor">Intérieur</string>
   <string name="pref_camera_scenemode_entry_landscape">Paysage</string>
   <string name="pref_camera_scenemode_entry_mix_illuminant">Éclairage mixte</string>
@@ -73,29 +72,29 @@
   <string name="pref_camera_focusmode_entry_extended">Étendu</string>
   <string name="pref_camera_focusmode_entry_facedetect">Détection de visage</string>
   <string name="pref_camera_focusmode_entry_facepriority">Priorité au visage</string>
-  <string name="pref_camera_focusmode_entry_fixed">Fixé</string>
-  <string name="pref_camera_focusmode_entry_normal">Standard</string>
+  <string name="pref_camera_focusmode_entry_fixed">Fixe</string>
+  <string name="pref_camera_focusmode_entry_normal">Normal</string>
   <string name="pref_camera_focusmode_entry_portrait">Portrait</string>
-  <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfocale</string>
+  <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfocal</string>
   <!-- Color effects -->
-  <string name="pref_camera_coloreffect_entry_washed">Lavé</string>
+  <string name="pref_camera_coloreffect_entry_washed">Délavé</string>
   <string name="pref_camera_coloreffect_entry_vintage_warm">Vintage chaud</string>
   <string name="pref_camera_coloreffect_entry_vintage_cold">Vintage froid</string>
   <string name="pref_camera_coloreffect_entry_point_blue">Point bleu</string>
   <string name="pref_camera_coloreffect_entry_point_green">Point vert</string>
   <string name="pref_camera_coloreffect_entry_point_red_yellow">Point rouge-jaune</string>
-  <string name="pref_camera_coloreffect_entry_cartoonize">Cartooniser</string>
+  <string name="pref_camera_coloreffect_entry_cartoonize">Bande dessinée</string>
   <!-- Red eye flash mode title -->
   <string name="pref_camera_flashmode_entry_redeye">Yeux rouges</string>
   <string name="pref_camera_flashmode_label_redeye">YEUX ROUGES</string>
   <!-- Power shutter -->
-  <string name="pref_camera_power_shutter_title">Bouton marche</string>
+  <string name="pref_camera_power_shutter_title">Déclencheur par bouton marche/arrêt</string>
   <!-- Max brightness -->
-  <string name="pref_camera_max_brightness_title">Luminosité de l\'écran</string>
+  <string name="pref_camera_max_brightness_title">Luminosité maximale</string>
   <!-- Touch focus duration -->
   <string name="pref_camera_focustime_title">Durée de mise au point tactile</string>
-  <string name="pref_camera_focustime_entry_0">0s</string>
-  <string name="pref_camera_focustime_entry_3">3s</string>
+  <string name="pref_camera_focustime_entry_0">0 s</string>
+  <string name="pref_camera_focustime_entry_3">3 s</string>
   <string name="pref_camera_focustime_entry_5">5s</string>
   <string name="pref_camera_focustime_entry_10">10s</string>
   <string name="pref_camera_focustime_entry_infinite">Infini</string>
@@ -103,6 +102,6 @@
   <string name="pref_camera_shutter_speed_title">Vitesse d\'obturation</string>
   <string name="auto_hdr_enabled">HDR Auto activé</string>
   <!-- Advanced options -->
-  <string name="developer_menu_enabled">Vous avez activé les options avancées de l\'appareil photo</string>
-  <string name="developer_menu_disabled">Vous avez désactivé les options avancées de l\'appareil photo</string>
+  <string name="developer_menu_enabled">Vous avez activé les options avancées d\'appareil photo</string>
+  <string name="developer_menu_disabled">Vous avez désactivé les options avancées d\'appareil photo</string>
 </resources>

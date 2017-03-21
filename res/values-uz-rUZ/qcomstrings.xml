@@ -52,7 +52,6 @@
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Selectable advanced features title -->
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
-  <string name="pref_camera_advanced_feature_entry_none">Asl</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Manual exposure control entry values -->
   <!-- Manual white balance entry values -->
@@ -123,10 +122,7 @@
   <!-- Default color effect setting. -->
   <!-- Settings screen, Select Color effect title -->
   <!-- Settings screen, Color effect dialog radio button choices -->
-  <string name="pref_camera_coloreffect_entry_none">Asl</string>
-  <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
-  <string name="pref_camera_coloreffect_entry_posterize">Posterlash</string>
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
   <!-- Select IS title -->
   <!-- DIS choices -->
@@ -137,13 +133,10 @@
   <!-- Settings screen, Multiple levels entries -->
   <!-- Default sharpness setting. Do not translate. -->
   <!-- Settings screen, Select sharpness title -->
-  <string name="pref_camera_sharpness_title">Keskinlik</string>
   <!-- Default contrast setting. Do not translate. -->
   <!-- Settings screen, Select contrast title -->
-  <string name="pref_camera_contrast_title">Kontrast</string>
   <!-- Default saturation setting. Do not translate. -->
   <!-- Settings screen, Select saturation title -->
-  <string name="pref_camera_saturation_title">Och/to‘qlik</string>
   <!-- Default picture quality setting. See pref_camera_jpegquality_entryvalues for possible values -->
   <!-- Default Picture format setting. Do not translate. -->
   <!-- Settings screen, Select Picture format title -->
@@ -153,7 +146,6 @@
   <!-- Settings screen, Picture quality dialog radio button choices -->
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
-  <string name="pref_camera_histogram_title">Gistogramma</string>
   <!-- Settings screen, Histogram radio button choices -->
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->

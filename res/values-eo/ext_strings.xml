@@ -23,6 +23,7 @@
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
   <!-- Settings screen, scene mode -->
+  <string name="pref_camera_scenemode_entry_document">Dokumento</string>
   <!-- Settings screen, focus mode -->
   <!-- Color effects -->
   <!-- Red eye flash mode title -->

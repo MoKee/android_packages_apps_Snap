@@ -20,7 +20,9 @@
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <string name="video_camera_label">Kamera</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
+  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
+  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Postavi sliku kao</string>
@@ -105,6 +107,7 @@
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <string name="maker">Autor</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+  <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Bljeskalica</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
@@ -116,8 +119,10 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Vrijeme eksp.</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
   <string name="manual">Ručno</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
@@ -142,7 +147,9 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">Fotoaparat je onemogućen zbog sigurnosnih pravila.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
+  <string name="error_permissions">Aplikacija nema potrebne dozvole za pokretanje. Provjerite postavke dozvola.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+  <string name="dialog_dismiss">Odbaci</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Pričekajte…</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -162,7 +169,6 @@
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">Prednji</string>
   <!-- Settings screen, setting title text -->
-  <string name="pref_camera_recordlocation_title">Pohrana lokacije</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">LOKACIJA</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -218,7 +224,7 @@
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
-  <string name="pref_camera_flashmode_title">Način bljeskalice</string>
+  <string name="pref_camera_flashmode_title">Bljeskalica</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_auto">Automatski</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
@@ -332,6 +338,7 @@
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
   <string name="pano_dialog_panorama_failed">Panoramu nije moguće spremiti.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
+  <string name="pano_dialog_title">Panorama</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
   <string name="pano_capture_indication">Snimanje panorame</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->

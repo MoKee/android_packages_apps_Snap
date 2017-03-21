@@ -123,7 +123,6 @@
   <!-- Settings screen, Select Color effect title -->
   <!-- Settings screen, Color effect dialog radio button choices -->
   <!-- Color effect that overexposes and reverses some of the tones. -->
-  <string name="pref_camera_coloreffect_entry_posterize">Posterise</string>
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
   <!-- Select IS title -->
   <!-- DIS choices -->
@@ -174,7 +173,5 @@
   <!-- Continuous shot enable message -->
   <!-- Advanced features enable message -->
   <!-- The alas of CameraActivity for gesture operation -->
-  <string name="text_tsmakeup_alert_quit">Cancel</string>
   <!-- Help menu strings -->
-  <string name="help_menu_ok">OK</string>
 </resources>

@@ -26,7 +26,10 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
+  <string name="pref_camera_powermode_title">Energieverbruik</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_entry_lp">Laag</string>
+  <string name="pref_camera_powermode_entry_np">Normaal</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
@@ -53,6 +56,7 @@
   <string name="pref_camera_skinToneEnhancement_title">Huidskleurverbetering</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Inschakelen</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Uitschakelen</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <string name="pref_camera_zsl_title">Geen ontspanvertraging (ZSL)</string>
@@ -69,21 +73,36 @@
   <string name="pref_camera_advanced_features_title">Geavanceerde functies</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Geen</string>
+  <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Multi-touch Focus</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Manual exposure control entry values -->
+  <string name="pref_camera_manual_exp_title">Handmatige belichting</string>
+  <string name="pref_camera_manual_exp_entry_ISO_priority">ISO-prioriteit</string>
+  <string name="pref_camera_manual_exp_entry_exptime_priority">Belichtingstijd-prioriteit</string>
   <string name="pref_camera_manual_exp_entry_user_setting">Gebruikersinstelling</string>
   <string name="pref_camera_manual_exp_entry_off">Uit</string>
   <!-- Manual white balance entry values -->
+  <string name="pref_camera_manual_wb_title">Handmatige witbalans</string>
+  <string name="pref_camera_manual_wb_entry_color_temperature">Kleurtemperatuur</string>
+  <string name="pref_camera_manual_wb_entry_rbgb_gains">RBGB versterking</string>
   <string name="pref_camera_manual_wb_entry_off">Uit</string>
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_title">Handmatig scherpstellen</string>
+  <string name="pref_camera_manual_focus_entry_scale_mode">Schaalmodus</string>
+  <string name="pref_camera_manual_focus_entry_diopter_mode">Dioptrie modus</string>
   <string name="pref_camera_manual_focus_entry_off">Uit</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_title" translatable="true">Directe opname</string>
+  <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">Agressieve AEC</string>
+  <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">Snelle AEC</string>
+  <string name="pref_camera_instant_capture_entry_disable" translatable="true">Uitschakelen</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Uit</string>
   <string name="pref_camera_zsl_entry_on">Aan</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
+  <string name="hdr_enable_message">HDR is ingeschakeld, alleen Automatische scènedetectie wordt ondersteund</string>
+  <string name="scene_enable_message">HDR wordt alleen ondersteund in Automatische scènedetectie</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">Uit</string>
   <string name="pref_camera_video_hdr_entry_on">Aan</string>
@@ -96,19 +115,25 @@
   <string name="pref_camera_video_cds_entry_on">Aan</string>
   <string name="pref_camera_video_cds_entry_auto">Automatisch</string>
   <!-- Settings screen, TNR location dialog choices -->
+  <string name="pref_camera_tnr_entry_disable">Uitschakelen</string>
   <string name="pref_camera_tnr_entry_enable">Inschakelen</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
+  <string name="pref_camera_video_tnr_entry_disable">Uitschakelen</string>
   <string name="pref_camera_video_tnr_entry_enable">Inschakelen</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
   <string name="pref_camera_video_hdr_title">Video (HDR)</string>
   <!-- Settings menu, setting title text for cds mode-->
+  <string name="pref_camera_cds_title">CDS modus</string>
   <!-- Settings menu, setting title text for video cds mode-->
+  <string name="pref_camera_video_cds_title">Video CDS modus</string>
   <!-- Default cds mode setting-->
   <!-- Default video cds mode setting-->
   <!-- Settings menu, setting title text for tnr mode-->
+  <string name="pref_camera_tnr_title">TNR modus</string>
   <!-- Settings menu, setting title text for video tnr mode-->
+  <string name="pref_camera_video_tnr_title">Video TNR modus</string>
   <!-- Default tnr mode setting-->
   <!-- Default video tnr mode setting-->
   <!-- Default face  detection setting. -->
@@ -119,6 +144,7 @@
   <string name="pref_camera_facedetection_entry_on">Aan</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
+  <string name="pref_selfie_flash_title">Selfie-flits</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">Uit</string>
   <string name="pref_selfie_flash_entry_on">Aan</string>
@@ -127,7 +153,11 @@
   <string name="pref_camera_redeyereduction_title">Rode ogen verminderen</string>
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Inschakelen</string>
+  <string name="pref_camera_redeyereduction_entry_disable">Uitschakelen</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Selfie-spiegel</string>
   <string name="pref_camera_selfiemirror_entry_enable">Inschakelen</string>
+  <string name="pref_camera_selfiemirror_entry_disable">Uitschakelen</string>
+  <string name="pref_camera_shuttersound_title" translatable="true">Sluitergeluid</string>
   <string name="pref_camera_shuttersound_entry_enable">Ingeschakeld</string>
   <string name="pref_camera_shuttersound_entry_disable">Uitgeschakeld</string>
   <!-- Default mce setting. Do not translate. -->
@@ -136,21 +166,28 @@
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
   <string name="error_app_unsupported_hfr">Slow motion video wordt niet ondersteund bij deze resolutie. Selecteer een lagere resolutie</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
+  <string name="error_app_unsupported_dis">Stabilisatie wordt niet ondersteund voor de geselecteerde videogrootte. Selecteer een kleinere videogrootte</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HSR mode -->
   <string name="error_app_unsupported_hsr">Hoge snelheid video wordt niet ondersteund bij deze resolutie</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video codec for HFR mode -->
   <string name="error_app_unsupported_hfr_codec">Alleen H.264-videocodec ondersteund bij opname met hoge beeldsnelheid</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
-  <string name="error_app_unsupported">Videoresolutie niet ondersteund bij deze codec</string>
+  <string name="error_app_unsupported">Videoresolutie wordt niet ondersteund bij deze codec</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
+  <string name="error_app_unsupported_profile">Niet-ondersteund videoformaat</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
+  <string name="error_app_unsupported_raw">Raw beeldformaat wordt niet ondersteund in de stand zonder ontspanvertraging (ZSL). Selecteer JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
-  <string name="pref_camera_ae_bracket_hdr_title">Reeksopname met automatische belichting (AEB)</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Reeksopname met automatische belichtingscompensatie (AEB)</string>
+  <string name="pref_camera_ae_bracket_hdr_title">Reeksopname met automatische belichtingscompensatie (AEB)</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Aan</string>
-  <string name="pref_camera_ae_bracket_hdr_entry_off">Uit</string>
+  <string name="err_app_unsupport_ae_bracket_code">Bracketing (AEB) wordt nog niet ondersteund</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
+  <string name="snapshot_lower_than_video">Resolutie momentopname is kleiner dan die van de video. Momentopname wordt gemaakt ter grootte van de video. Kies een hogere of gelijke resolutie als de huidige videoresolutie.</string>
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
+  <string name="snapshotsize_low_powermode">Resolutie aanpassen wordt niet ondersteund in laag-energieverbruik-stand. Momentopname wordt gemaakt ter grootte van de video. Kies normaal-energieverbruik-stand om de resolutie aan te kunnen passen.</string>
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
+  <string name="snapshot_qcif_and_d1">Alleen momentopname ter grootte van de video wordt ondersteund in deze resolutie.</string>
   <!-- Default hfr setting. Do not translate. -->
   <!-- Settings screen, Select hfr title -->
   <string name="pref_camera_hfr_title">Opname met hoge beeldsnelheid</string>
@@ -163,11 +200,15 @@
   <string name="pref_camera_hfr_entry_hsr_60">Hoge snelheid 60 fps</string>
   <string name="pref_camera_hfr_entry_hsr_90">Hoge snelheid 90 fps</string>
   <string name="pref_camera_hfr_entry_hsr_120">Hoge snelheid 120 fps</string>
+  <string name="pref_camera_hfr_entry_hsr_240">Hoge snelheid 240 fps</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
+  <string name="pref_camera_noise_reduction_title">Ruisonderdrukking</string>
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_noise_reduction_entry_off">Uit</string>
+  <string name="pref_camera_noise_reduction_entry_fast">Snel</string>
+  <string name="pref_camera_noise_reduction_entry_high_quality">Hoge kwaliteit</string>
   <!-- see more entry values. Do not translate. -->
   <!-- Default see more setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
@@ -182,6 +223,7 @@
   <string name="pref_camera_denoise_entry_on">Aan</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
+  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automatisch</string>
   <string name="pref_camera_iso_entry_isodeblur">Automatisch (HJR)</string>
@@ -195,9 +237,10 @@
   <string name="pref_camera_antibanding_title">Anti-banding</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
-  <string name="pref_camera_antibanding_entry_0">Automatisch</string>
+  <string name="pref_camera_antibanding_entry_0">Uit</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
-  <string name="pref_camera_antibanding_entry_3">Autom.</string>
+  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
+  <string name="pref_camera_antibanding_entry_3">Automatisch</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Aan</string>
   <string name="pref_camera_filter_mode_entry_off">Uit</string>
@@ -207,6 +250,7 @@
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Geen</string>
   <string name="pref_camera_coloreffect_entry_mono">Monochroom</string>
+  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negatief</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Solarisatie</string>
@@ -214,6 +258,8 @@
   <string name="pref_camera_coloreffect_entry_aqua">Water</string>
   <string name="pref_camera_coloreffect_entry_emboss">Reliëf</string>
   <string name="pref_camera_coloreffect_entry_sketch">Schets</string>
+  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
+  <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mozaïek</string>
   <string name="pref_camera_coloreffect_entry_redtint">Rode tint</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Blauwe tint</string>
@@ -268,6 +314,7 @@
   <string name="pref_camera_sharpness_title">Scherpte</string>
   <!-- Default contrast setting. Do not translate. -->
   <!-- Settings screen, Select contrast title -->
+  <string name="pref_camera_contrast_title">Contrast</string>
   <!-- Default saturation setting. Do not translate. -->
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Verzadiging</string>
@@ -280,13 +327,15 @@
   <!-- Settings screen, Picture quality title -->
   <string name="pref_camera_jpegquality_title">Beeldkwaliteit</string>
   <!-- Settings screen, Picture quality dialog radio button choices -->
-  <string name="pref_camera_jpegquality_entry_0">55%</string>
-  <string name="pref_camera_jpegquality_entry_1">65% (normaal)</string>
-  <string name="pref_camera_jpegquality_entry_2">75% (fijn)</string>
+  <string name="pref_camera_jpegquality_entry_0">Laag</string>
+  <string name="pref_camera_jpegquality_entry_1">Standaard</string>
+  <string name="pref_camera_jpegquality_entry_2">Hoog</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
+  <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Inschakelen</string>
+  <string name="pref_camera_histogram_entry_disable">Uitschakelen</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -296,55 +345,111 @@
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
   <string name="pref_camera_scenedetect_entry_on">Aan</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
+  <string name="time_lapse_error">Ongeldige videoresolutie voor time-lapse opname.</string>
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Continue opname</string>
   <string name="msg_cancel_longshot_for_limited_memory">Niet genoeg geheugen, continue opname wordt afgebroken</string>
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
+  <string name="flash_aebracket_message">Flits wordt niet ondersteund in AEB-stand</string>
   <!-- Settings screen, setting title text for Auto HDR-->
   <string name="pref_camera_auto_hdr_title">Auto-HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Inschakelen</string>
+  <string name="pref_camera_auto_hdr_entry_disable">Uitschakelen</string>
   <!-- toast message for storage location switch -->
+  <string name="on_switch_save_path_to_sdcard">Onvoldoende interne opslagruimte, opslaglocatie veranderd naar SD-kaart</string>
   <!-- Settings screen, Selectable HDR mode title -->
+  <string name="pref_camera_hdr_mode_title">HDR modus</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
+  <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
+  <string name="pref_camera_hdr_mode_entry_multi_frame">Multi-frame HDR</string>
   <!-- HDR mode entry values. Do not translate. -->
   <!-- Settings screen, Selectable HDR need 1x frame default value -->
   <!-- Settings screen, Selectable HDR need 1x frame title -->
+  <string name="pref_camera_hdr_need_1x_title">HDR heeft 1x beeld nodig</string>
   <!-- Settings screen, Selectable HDR need 1x frame radio button choices -->
   <!-- HDR need 1x frame entry values. Do not translate. -->
   <!--Default video rotation setting-->
   <!--Settings screen, video rotation title-->
+  <string name="pref_camera_video_rotation_title">Videorotatie</string>
   <!--Menu, video rotation label-->
+  <string name="pref_camera_video_rotation_label">VIDEOROTATIE</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
   <string name="pref_camera_video_rotation_entry_0">0 graden</string>
   <string name="pref_camera_video_rotation_entry_90">90 graden</string>
   <string name="pref_camera_video_rotation_entry_180">180 graden</string>
   <string name="pref_camera_video_rotation_entry_270">270 graden</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+  <string name="map_activity_not_found_err">Er is geen kaart-app geïnstalleerd om de locatie weer te geven</string>
   <!-- Continuous shot enable message -->
+  <string name="longshot_enable_message">Geavanceerde functies worden niet ondersteund bij continue opname</string>
   <!-- Advanced features enable message -->
+  <string name="advance_feature_enable_msg">Continue opname wordt niet ondersteund als geavanceerde functies ingeschakeld zijn</string>
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">Camera openen</string>
+  <string name="pref_camera_tsmakeup_title">Verfraaiing</string>
   <string name="pref_camera_tsmakeup_entry_on">Aan</string>
   <string name="pref_camera_tsmakeup_entry_off">Uit</string>
   <string name="pref_camera_tsmakeup_entry_low">Laag</string>
+  <string name="pref_camera_tsmakeup_entry_mid">Middel</string>
   <string name="pref_camera_tsmakeup_entry_high">Hoog</string>
-  <string name="pref_camera_tsmakeup_custom">aangepast</string>
-  <string name="text_tsmakeup_alert_continue">Volgende</string>
+  <string name="pref_camera_tsmakeup_custom">Aangepast</string>
+  <string name="pref_camera_tsmakeup_level_whiten">Witten</string>
+  <string name="pref_camera_tsmakeup_level_clean">Verzachten</string>
+  <string name="text_tsmakeup_alert_title">Let op</string>
+  <string name="text_tsmakeup_alert_msg">Gezichtsherkenning moet ingeschakeld zijn om de optie Verfraaien te kunnen gebruiken. Wilt u doorgaan?</string>
+  <string name="text_tsmakeup_alert_continue">Doorgaan</string>
   <string name="text_tsmakeup_alert_quit">Annuleren</string>
+  <string name="text_tsmakeup_beautify_toast">Verfraaien</string>
+  <string name="all_in_focus">Alles in focus</string>
+  <string name="refocus_toast">Om laatste foto opnieuw scherp te stellen, tik hier</string>
+  <string name="refocus_prompt_message">Met UbiFocus maakt uw camera 5 foto\'s, elke keer als u op de sluiterknop drukt. De 5 foto\'s zullen worden samengevoegd tot 1 afbeelding, waarop alles in focus is. U kunt de focus nog verplaatsen, nadat de foto genomen is.</string>
+  <string name="camera_thermal_shutdown">Telefoon oververhit, camera wordt afgesloten.</string>
+  <string name="camera_server_died">Mediaserver gecrasht, camera wordt gestopt.</string>
+  <string name="camera_unknown_error">Onbekende fout, camera wordt gestopt.</string>
+  <string name="mute_button_desc">Mute-knop</string>
   <!-- Help menu strings -->
-  <string name="help_menu_ok">Oké</string>
-  <string name="help_menu_scene_mode_2">Scènemodus</string>
+  <string name="help_menu_ok">OK</string>
+  <string name="help_menu_scene_mode_1">Selecteer een</string>
+  <string name="help_menu_scene_mode_2">scènemodus</string>
+  <string name="help_menu_scene_mode_3">voor betere foto\'s</string>
+  <string name="help_menu_color_filter_1">Gebruik kleuren</string>
+  <string name="help_menu_color_filter_2">filters</string>
+  <string name="help_menu_color_filter_3">om</string>
+  <string name="help_menu_color_filter_4">foto\'s te verbeteren</string>
+  <string name="help_menu_beautify_1">Verbeter portretfoto\'s</string>
+  <string name="help_menu_beautify_2">met de</string>
+  <string name="help_menu_beautify_3">optie Verfraaien</string>
+  <string name="help_menu_switcher_1">Wissel</string>
+  <string name="help_menu_switcher_2">tussen</string>
+  <string name="help_menu_switcher_3">camera, video en panorama</string>
+  <string name="pref_camera2_camera2_title">Camera2 modus</string>
   <string name="pref_camera2_camera2_entry_enable">Inschakelen</string>
+  <string name="pref_camera2_camera2_entry_disable">Uitschakelen</string>
+  <string name="pref_camera2_mono_only_title">Alleen mono</string>
+  <string name="pref_camera2_mono_preview_title">Mono preview</string>
   <string name="pref_camera2_mono_preview_entry_on">Aan</string>
   <string name="pref_camera2_mono_preview_entry_off">Uit</string>
   <string name="pref_camera2_clearsight_entry_on">Aan</string>
   <string name="pref_camera2_clearsight_entry_off">Uit</string>
+  <string name="clearsight_capture_success">ClearSight-opname gelukt</string>
+  <string name="clearsight_capture_fail">ClearSight-opname mislukt</string>
+  <string name="pref_camera2_mpo_title">MPO-bestand</string>
   <string name="pref_camera2_mpo_entry_on">Aan</string>
   <string name="pref_camera2_mpo_entry_off">Uit</string>
+  <string name="pref_camera2_makeup_title">Make-up</string>
+  <string name="pref_camera2_noise_reduction_title">Ruisonderdrukking</string>
   <string name="pref_camera2_noise_reduction_entry_off">Uit</string>
+  <string name="pref_camera2_noise_reduction_entry_fast">Snel</string>
+  <string name="pref_camera2_noise_reduction_entry_high_quality">Hoge kwaliteit</string>
+  <string name="pref_camera2_videosnap_title">Automatische grootte momentopname</string>
   <string name="pref_camera2_videosnap_entry_enable">Inschakelen</string>
-  <string name="bestpicture_done">GEREED</string>
+  <string name="pref_camera2_videosnap_entry_disable">Uitschakelen</string>
+  <string name="pref_camera2_trackingfocus_title">Focus volgt object</string>
+  <string name="pref_camera_scenemode_entry_bestpicture">Beste foto</string>
+  <string name="bestpicture_done">KLAAR</string>
+  <string name="bestpicture_at_least_one_picture">Er moet ten minste één foto worden gekozen.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Aan</string>
   <string name="pref_camera2_shutter_sound_entry_off">Uit</string>
+  <string name="pref_camera2_shutter_sound_title">Sluitergeluid</string>
 </resources>

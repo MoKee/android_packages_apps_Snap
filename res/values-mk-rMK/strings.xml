@@ -35,7 +35,6 @@
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
-  <string name="crop_action">Исечи</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
@@ -54,12 +53,9 @@
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
-  <string name="model">Модел</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
-  <string name="aperture">Отвор</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
-  <string name="focal_length">Фокусно растојание</string>
   <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=18] -->
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
@@ -167,7 +163,6 @@
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
   <!-- Exposure settings in preference -->
-  <string name="pref_exposure_title">Експозиција</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
   <!-- Default HDR entry value -->
   <!-- Default HDR+ entry value -->
@@ -192,7 +187,6 @@
   <!-- Default effect setting that clears the effect. -->
   <!-- Title of video effect setting popup window -->
   <!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
-  <string name="effect_none">Нема</string>
   <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
   <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
   <!-- Effect setting item that makes mouth big. [CHAR LIMIT=14] -->
@@ -283,13 +277,10 @@ CHAR LIMIT = NONE] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
-  <string name="tiny_planet_rotate">Ротирај</string>
   <!-- Crop -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
-  <string name="cannot_load_image">Не може да се вчита сликата!</string>
   <!-- Label for album filmstrip button -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
-  <string name="setting_wallpaper">Поставување тапет</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
 </resources>

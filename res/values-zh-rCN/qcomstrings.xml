@@ -26,7 +26,7 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
-  <string name="pref_camera_powermode_title">省电模式</string>
+  <string name="pref_camera_powermode_title">电源模式</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_entry_lp">低耗电</string>
   <string name="pref_camera_powermode_entry_np">正常耗电</string>
@@ -55,8 +55,8 @@
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">皮肤色调增强</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
-  <string name="pref_camera_skinToneEnhancement_entry_enable">开启</string>
-  <string name="pref_camera_skinToneEnhancement_entry_disable">停用</string>
+  <string name="pref_camera_skinToneEnhancement_entry_enable">启用</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">禁用</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <string name="pref_camera_zsl_title">零快门延迟</string>
@@ -93,15 +93,15 @@
   <string name="pref_camera_manual_focus_entry_off">关闭</string>
   <!-- Instant Capture entry -->
   <string name="pref_camera_instant_capture_title" translatable="true">即时捕获</string>
-  <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">AEC 主动调整</string>
-  <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">AEC 快速调整</string>
-  <string name="pref_camera_instant_capture_entry_disable" translatable="true">关闭</string>
+  <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">主动 AEC</string>
+  <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">快速 AEC</string>
+  <string name="pref_camera_instant_capture_entry_disable" translatable="true">禁用</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">关闭</string>
   <string name="pref_camera_zsl_entry_on">开启</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
-  <string name="hdr_enable_message">HDR 已启用，仅支持自动场景模式</string>
+  <string name="hdr_enable_message">由于 HDR 已启用，仅能使用自动场景模式</string>
   <string name="scene_enable_message">HDR 不支持自动场景以外的模式</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">关闭</string>
@@ -115,12 +115,12 @@
   <string name="pref_camera_video_cds_entry_on">开启</string>
   <string name="pref_camera_video_cds_entry_auto">自动</string>
   <!-- Settings screen, TNR location dialog choices -->
-  <string name="pref_camera_tnr_entry_disable">关闭</string>
-  <string name="pref_camera_tnr_entry_enable">开启</string>
+  <string name="pref_camera_tnr_entry_disable">禁用</string>
+  <string name="pref_camera_tnr_entry_enable">启用</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
-  <string name="pref_camera_video_tnr_entry_disable">关闭</string>
-  <string name="pref_camera_video_tnr_entry_enable">开启</string>
+  <string name="pref_camera_video_tnr_entry_disable">禁用</string>
+  <string name="pref_camera_video_tnr_entry_enable">启用</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
   <string name="pref_camera_video_hdr_title">视频 HDR</string>
@@ -152,43 +152,42 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">红眼消除</string>
   <!-- Settings menu, redeye reduction choices -->
-  <string name="pref_camera_redeyereduction_entry_enable">开启</string>
-  <string name="pref_camera_redeyereduction_entry_disable">关闭</string>
-  <string name="pref_camera_selfiemirror_title" translatable="true">自拍镜面</string>
-  <string name="pref_camera_selfiemirror_entry_enable">开启</string>
-  <string name="pref_camera_selfiemirror_entry_disable">关闭</string>
+  <string name="pref_camera_redeyereduction_entry_enable">启用</string>
+  <string name="pref_camera_redeyereduction_entry_disable">禁用</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">自拍镜</string>
+  <string name="pref_camera_selfiemirror_entry_enable">启用</string>
+  <string name="pref_camera_selfiemirror_entry_disable">禁用</string>
   <string name="pref_camera_shuttersound_title" translatable="true">快门声音</string>
-  <string name="pref_camera_shuttersound_entry_enable">开启</string>
-  <string name="pref_camera_shuttersound_entry_disable">关闭</string>
+  <string name="pref_camera_shuttersound_entry_enable">已启用</string>
+  <string name="pref_camera_shuttersound_entry_disable">已禁用</string>
   <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
-  <string name="error_app_unsupported_hfr_selection">稳定化/延时/ HDR 模式不支持高帧率拍摄。</string>
+  <string name="error_app_unsupported_hfr_selection">稳定化 / 延时 / HDR 不支持高帧率拍摄。</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
-  <string name="error_app_unsupported_hfr">当前视频尺寸不支持慢动作模式。请选择一个较小的视频尺寸</string>
+  <string name="error_app_unsupported_hfr">所选的视频大小不支持慢动作模式。选择一个较低的视频大小</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
-  <string name="error_app_unsupported_dis">当前视频尺寸不支持稳定化。请选择一个较小的视频尺寸</string>
+  <string name="error_app_unsupported_dis">所选的视频大小不支持稳定化。选择一个较低的视频大小</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HSR mode -->
-  <string name="error_app_unsupported_hsr">当前视频尺寸不支持高速模式。请选择一个较小的视频尺寸</string>
+  <string name="error_app_unsupported_hsr">所选的视频大小不支持高速模式。选择一个较低的视频大小</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video codec for HFR mode -->
   <string name="error_app_unsupported_hfr_codec">开启高帧率时仅支持 H264 视频编码</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
-  <string name="error_app_unsupported">视频分辨率不支持此编解码器类型</string>
+  <string name="error_app_unsupported">视频大小不支持此编码器类型</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
-  <string name="error_app_unsupported_profile">不支持此视频格式</string>
+  <string name="error_app_unsupported_profile">不支持的视频情景模式</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">零快门延迟模式不支持 Raw 格式的图片。请选择 JPEG 格式</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
-  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE 曝光</string>
-  <string name="pref_camera_ae_bracket_hdr_title">AE 曝光</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">自动包围曝光</string>
+  <string name="pref_camera_ae_bracket_hdr_title">自动包围曝光</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">开启</string>
-  <string name="pref_camera_ae_bracket_hdr_entry_off">关闭</string>
-  <string name="err_app_unsupport_ae_bracket_code">不支持 AE 曝光</string>
+  <string name="err_app_unsupport_ae_bracket_code">不支持自动包围曝光</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
-  <string name="snapshot_lower_than_video">视频快照的尺寸小于当前视频尺寸，并以当前视频尺寸为上限。请选择高于或等于当前视频尺寸的分辨率。</string>
+  <string name="snapshot_lower_than_video">视频快照的大小低于视频的大小，以视频大小为上限。请选择高于或等于当前视频大小的分辨率。</string>
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
-  <string name="snapshotsize_low_powermode">在低功耗模式下不支持改变图片尺寸，仅能捕获当前视频尺寸的快照。请选择正常功耗模式以允许改变图片尺寸。</string>
+  <string name="snapshotsize_low_powermode">不支持在低功耗模式下改变图片大小，将捕获视频大小的快照。请选择正常功耗模式以允许改变图片大小。</string>
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
-  <string name="snapshot_qcif_and_d1">此分辨率只支持当前视频尺寸的快照。</string>
+  <string name="snapshot_qcif_and_d1">此分辨率只支持视频尺寸的快照。</string>
   <!-- Default hfr setting. Do not translate. -->
   <!-- Settings screen, Select hfr title -->
   <string name="pref_camera_hfr_title">高帧率录制</string>
@@ -227,20 +226,20 @@
   <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">自动</string>
-  <string name="pref_camera_iso_entry_isodeblur">自动（HJR）</string>
-  <string name="pref_camera_iso_entry_iso100">ISO 100</string>
-  <string name="pref_camera_iso_entry_iso200">ISO 200</string>
-  <string name="pref_camera_iso_entry_iso400">ISO 400</string>
-  <string name="pref_camera_iso_entry_iso800">ISO 800</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO 1600</string>
+  <string name="pref_camera_iso_entry_isodeblur">自动 (HJR)</string>
+  <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">抗条纹</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">关闭</string>
-  <string name="pref_camera_antibanding_entry_1">50 Hz（欧洲）</string>
-  <string name="pref_camera_antibanding_entry_2">60 Hz（美国）</string>
+  <string name="pref_camera_antibanding_entry_1">50 Hz (欧洲)</string>
+  <string name="pref_camera_antibanding_entry_2">60 Hz (美国)</string>
   <string name="pref_camera_antibanding_entry_3">自动</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">开启</string>
@@ -281,7 +280,7 @@
   <!-- Settings screen, Multiple levels entries -->
   <string name="pref_camera_sharpness_entry_level0">0 级</string>
   <string name="pref_camera_sharpness_entry_level1">1 级</string>
-  <string name="pref_camera_sharpness_entry_level2">2 级（默认）</string>
+  <string name="pref_camera_sharpness_entry_level2">2 级 (默认)</string>
   <string name="pref_camera_sharpness_entry_level3">3 级</string>
   <string name="pref_camera_sharpness_entry_level4">4 级</string>
   <string name="pref_camera_sharpness_entry_level5">5 级</string>
@@ -292,7 +291,7 @@
   <string name="pref_camera_contrast_entry_level2">2 级</string>
   <string name="pref_camera_contrast_entry_level3">3 级</string>
   <string name="pref_camera_contrast_entry_level4">4 级</string>
-  <string name="pref_camera_contrast_entry_level5">5 级（默认）</string>
+  <string name="pref_camera_contrast_entry_level5">5 级 (默认)</string>
   <string name="pref_camera_contrast_entry_level6">6 级</string>
   <string name="pref_camera_contrast_entry_level7">7 级</string>
   <string name="pref_camera_contrast_entry_level8">8 级</string>
@@ -304,7 +303,7 @@
   <string name="pref_camera_saturation_entry_level2">2 级</string>
   <string name="pref_camera_saturation_entry_level3">3 级</string>
   <string name="pref_camera_saturation_entry_level4">4 级</string>
-  <string name="pref_camera_saturation_entry_level5">5 级（默认）</string>
+  <string name="pref_camera_saturation_entry_level5">5 级 (默认)</string>
   <string name="pref_camera_saturation_entry_level6">6 级</string>
   <string name="pref_camera_saturation_entry_level7">7 级</string>
   <string name="pref_camera_saturation_entry_level8">8 级</string>
@@ -328,15 +327,15 @@
   <!-- Settings screen, Picture quality title -->
   <string name="pref_camera_jpegquality_title">图片质量</string>
   <!-- Settings screen, Picture quality dialog radio button choices -->
-  <string name="pref_camera_jpegquality_entry_0">低画质</string>
-  <string name="pref_camera_jpegquality_entry_1">标准画质</string>
-  <string name="pref_camera_jpegquality_entry_2">高画质</string>
+  <string name="pref_camera_jpegquality_entry_0">低</string>
+  <string name="pref_camera_jpegquality_entry_1">标准</string>
+  <string name="pref_camera_jpegquality_entry_2">高</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
   <string name="pref_camera_histogram_title">直方图</string>
   <!-- Settings screen, Histogram radio button choices -->
-  <string name="pref_camera_histogram_entry_enable">开启</string>
-  <string name="pref_camera_histogram_entry_disable">关闭</string>
+  <string name="pref_camera_histogram_entry_enable">启用</string>
+  <string name="pref_camera_histogram_entry_disable">禁用</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -349,14 +348,14 @@
   <string name="time_lapse_error">延时录像的视频尺寸无效。</string>
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">连拍</string>
-  <string name="msg_cancel_longshot_for_limited_memory">内存耗尽，正在取消连拍模式</string>
+  <string name="msg_cancel_longshot_for_limited_memory">内存消耗殆尽，正在取消连拍模式</string>
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">AE 曝光模式不支持使用闪光灯</string>
   <!-- Settings screen, setting title text for Auto HDR-->
   <string name="pref_camera_auto_hdr_title">自动 HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">启用</string>
-  <string name="pref_camera_auto_hdr_entry_disable">关闭</string>
+  <string name="pref_camera_auto_hdr_entry_disable">禁用</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">内部存储空间不足，已将存储位置切换到 SD 卡</string>
   <!-- Settings screen, Selectable HDR mode title -->
@@ -381,73 +380,73 @@
   <string name="pref_camera_video_rotation_entry_180">180 度</string>
   <string name="pref_camera_video_rotation_entry_270">270 度</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
-  <string name="map_activity_not_found_err">无法找到用于显示地点的地图应用</string>
+  <string name="map_activity_not_found_err">找不到用于显示地点的地图应用</string>
   <!-- Continuous shot enable message -->
-  <string name="longshot_enable_message">当启用连拍时，不能使用高级功能</string>
+  <string name="longshot_enable_message">在连拍模式下高级功能不被支持</string>
   <!-- Advanced features enable message -->
-  <string name="advance_feature_enable_msg">当启用高级功能时，连拍不能使用</string>
+  <string name="advance_feature_enable_msg">当高级功能启用时，连拍不被支持</string>
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">启动相机</string>
-  <string name="pref_camera_tsmakeup_title">美颜</string>
+  <string name="pref_camera_tsmakeup_title">美化</string>
   <string name="pref_camera_tsmakeup_entry_on">开启</string>
   <string name="pref_camera_tsmakeup_entry_off">关闭</string>
   <string name="pref_camera_tsmakeup_entry_low">低</string>
-  <string name="pref_camera_tsmakeup_entry_mid">中级</string>
+  <string name="pref_camera_tsmakeup_entry_mid">中</string>
   <string name="pref_camera_tsmakeup_entry_high">高</string>
   <string name="pref_camera_tsmakeup_custom">自定义</string>
   <string name="pref_camera_tsmakeup_level_whiten">美白</string>
   <string name="pref_camera_tsmakeup_level_clean">磨皮</string>
   <string name="text_tsmakeup_alert_title">警告</string>
-  <string name="text_tsmakeup_alert_msg">必须开启面部检测才能使用美颜功能。 您想继续吗？</string>
+  <string name="text_tsmakeup_alert_msg">必须启用面部检测才能使用美化功能。您想继续吗？</string>
   <string name="text_tsmakeup_alert_continue">继续</string>
   <string name="text_tsmakeup_alert_quit">取消</string>
-  <string name="text_tsmakeup_beautify_toast">美颜</string>
+  <string name="text_tsmakeup_beautify_toast">美肤</string>
   <string name="all_in_focus">全焦</string>
-  <string name="refocus_toast">点击此处重新对焦上一张照片</string>
-  <string name="refocus_prompt_message">当 UbiFocus 启用后，相机会在您每次按下快门时拍摄 5 张图片。这 5 张图片将被合并为 1 张图片，而且图片中的物体都会被合并。拍摄结束后您可以重新对焦。</string>
+  <string name="refocus_toast">点击此处为上张照片重新对焦</string>
+  <string name="refocus_prompt_message">使用 UbiFocus，每次按下快门时，相机将拍摄 5 张图片。这 5 张图片将合并为 1 张图片，一切物体都将合焦。照片拍摄后，您可以重新选择焦点。</string>
   <string name="camera_thermal_shutdown">手机过热，正在关闭相机。</string>
   <string name="camera_server_died">媒体服务器意外终止，正在关闭相机。</string>
   <string name="camera_unknown_error">未知错误，正在关闭相机。</string>
   <string name="mute_button_desc">静音按钮</string>
   <!-- Help menu strings -->
-  <string name="help_menu_ok">确认</string>
-  <string name="help_menu_scene_mode_1">已选择</string>
-  <string name="help_menu_scene_mode_2">取景模式</string>
+  <string name="help_menu_ok">确定</string>
+  <string name="help_menu_scene_mode_1">选择一个</string>
+  <string name="help_menu_scene_mode_2">场景模式</string>
   <string name="help_menu_scene_mode_3">为更好的图片</string>
   <string name="help_menu_color_filter_1">应用颜色</string>
   <string name="help_menu_color_filter_2">滤镜</string>
   <string name="help_menu_color_filter_3">到</string>
-  <string name="help_menu_color_filter_4">提高图片质量</string>
+  <string name="help_menu_color_filter_4">改善图片</string>
   <string name="help_menu_beautify_1">肖像增强</string>
   <string name="help_menu_beautify_2">和</string>
-  <string name="help_menu_beautify_3">美颜功能</string>
-  <string name="help_menu_switcher_1">切换</string>
+  <string name="help_menu_beautify_3">美化功能</string>
+  <string name="help_menu_switcher_1">开关</string>
   <string name="help_menu_switcher_2">介于</string>
   <string name="help_menu_switcher_3">相机、视频和全景</string>
   <string name="pref_camera2_camera2_title">Camera2 模式</string>
-  <string name="pref_camera2_camera2_entry_enable">开启</string>
-  <string name="pref_camera2_camera2_entry_disable">关闭</string>
+  <string name="pref_camera2_camera2_entry_enable">启用</string>
+  <string name="pref_camera2_camera2_entry_disable">禁用</string>
   <string name="pref_camera2_mono_only_title">仅单色</string>
   <string name="pref_camera2_mono_preview_title">单色预览</string>
-  <string name="pref_camera2_mono_preview_entry_on">开启</string>
+  <string name="pref_camera2_mono_preview_entry_on">开</string>
   <string name="pref_camera2_mono_preview_entry_off">关闭</string>
-  <string name="pref_camera2_clearsight_entry_on">开启</string>
+  <string name="pref_camera2_clearsight_entry_on">开</string>
   <string name="pref_camera2_clearsight_entry_off">关闭</string>
-  <string name="clearsight_capture_success">ClearSight 捕获成功</string>
-  <string name="clearsight_capture_fail">ClearSight 捕获失败</string>
+  <string name="clearsight_capture_success">ClearSight 拍摄成功</string>
+  <string name="clearsight_capture_fail">ClearSight 拍摄失败</string>
   <string name="pref_camera2_mpo_title">MPO 格式</string>
-  <string name="pref_camera2_mpo_entry_on">开启</string>
+  <string name="pref_camera2_mpo_entry_on">开</string>
   <string name="pref_camera2_mpo_entry_off">关闭</string>
-  <string name="pref_camera2_makeup_title">化妆</string>
+  <string name="pref_camera2_makeup_title">美颜</string>
   <string name="pref_camera2_noise_reduction_title">降噪</string>
   <string name="pref_camera2_noise_reduction_entry_off">关闭</string>
   <string name="pref_camera2_noise_reduction_entry_fast">快速</string>
   <string name="pref_camera2_noise_reduction_entry_high_quality">高质量</string>
-  <string name="pref_camera2_videosnap_title">自动调整快照尺寸</string>
-  <string name="pref_camera2_videosnap_entry_enable">开启</string>
-  <string name="pref_camera2_videosnap_entry_disable">关闭</string>
+  <string name="pref_camera2_videosnap_title">自动快照大小</string>
+  <string name="pref_camera2_videosnap_entry_enable">启用</string>
+  <string name="pref_camera2_videosnap_entry_disable">禁用</string>
   <string name="pref_camera2_trackingfocus_title">焦点跟踪</string>
-  <string name="pref_camera_scenemode_entry_bestpicture">最佳画面</string>
+  <string name="pref_camera_scenemode_entry_bestpicture">最佳图片</string>
   <string name="bestpicture_done">完成</string>
   <string name="bestpicture_at_least_one_picture">至少选择一张图片。</string>
   <string name="pref_camera2_shutter_sound_entry_on">开启</string>

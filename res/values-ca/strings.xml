@@ -20,10 +20,12 @@
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <string name="video_camera_label">Càmera de vídeo</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
+  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
+  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
-  <string name="set_image">Defineix la foto com a</string>
+  <string name="set_image">Estableix la foto com a</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Esborra</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
@@ -70,7 +72,7 @@
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
   <string name="trim_action">Retalla</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
-  <string name="set_as">Defineix com a</string>
+  <string name="set_as">Estableix com a</string>
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
   <string name="video_err">No es pot reproduir el vídeo.</string>
   <!-- Toast message shown when the cropped image has been saved in the
@@ -101,6 +103,7 @@
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <string name="maker">Creador</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+  <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Flaix</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
@@ -112,12 +115,14 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Temps d\'expos.</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
   <string name="manual">Manual</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
-  <string name="auto">Automàtic</string>
+  <string name="auto">Auto</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <string name="flash_on">Flaix activat</string>
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
@@ -138,7 +143,9 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">La càmera s\'ha desactivat a causa de les polítiques de seguretat.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
+  <string name="error_permissions">L\'aplicació no té els permisos crítics necessaris per executar-se. Si us plau, comprova la configuració de permisos.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+  <string name="dialog_dismiss">Descarta</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Si us plau espera\u2026</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -158,7 +165,7 @@
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">Frontal</string>
   <!-- Settings screen, setting title text -->
-  <string name="pref_camera_recordlocation_title">Desa la ubicació</string>
+  <string name="pref_camera_recordlocation_title">Ubicació GPS</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">UBICACIÓ</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -171,7 +178,9 @@
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">So en compte enrera</string>
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_title">Emmagatzematge</string>
   <string name="pref_camera_savepath_entry_0">Telèfon</string>
+  <string name="pref_camera_savepath_entry_1">Targeta SD</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">Desactivat</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
@@ -202,19 +211,21 @@
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Mode d\'enfocament</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
-  <string name="pref_camera_focusmode_entry_auto">Automàtic</string>
+  <string name="pref_camera_focusmode_entry_auto">Auto</string>
   <!-- A setting that lets the camera focus into infinity. [CHAR LIMIT=20] -->
   <string name="pref_camera_focusmode_entry_infinity">Infinit</string>
   <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
+  <string name="pref_camera_focusmode_entry_macro">Macro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">AUTOMÀTIC</string>
   <string name="pref_camera_focusmode_label_infinity">INFINIT</string>
+  <string name="pref_camera_focusmode_label_macro">MACRO</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
-  <string name="pref_camera_flashmode_title">Mode de flaix</string>
+  <string name="pref_camera_flashmode_title">Flaix</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
-  <string name="pref_camera_flashmode_entry_auto">Automàtic</string>
+  <string name="pref_camera_flashmode_entry_auto">Auto</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_on">Activat</string>
   <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
@@ -230,20 +241,26 @@
   <!-- Menu, white balance label -->
   <string name="pref_camera_whitebalance_label">BALANÇ DE BLANCS</string>
   <!-- Settings screen, White balance dialog radio button choices -->
-  <string name="pref_camera_whitebalance_entry_auto">Automàtic</string>
+  <string name="pref_camera_whitebalance_entry_auto">Auto</string>
+  <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
   <string name="pref_camera_whitebalance_entry_daylight">Llum natural</string>
+  <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Ennuvolat</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <string name="pref_camera_whitebalance_label_auto">AUTOMÀTIC</string>
+  <string name="pref_camera_whitebalance_label_incandescent">INCANDESCENT</string>
   <string name="pref_camera_whitebalance_label_daylight">LLUM NATURAL</string>
+  <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCENT</string>
   <string name="pref_camera_whitebalance_label_cloudy">ENNUVOLAT</string>
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
   <string name="pref_camera_scenemode_title">Mode d\'escena</string>
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_auto">Automàtic</string>
+  <string name="pref_camera_scenemode_entry_auto">Auto</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ ACTIVAT</string>
   <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -284,14 +301,23 @@
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
   <string name="not_selectable_in_scene_mode">No es pot seleccionar en mode d\'escena.</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
+  <string name="HDR_disable_continuous_shot">Habilitar l\'HDR deshabilitarà el mode d\'obturador continu.</string>
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
+  <string name="advanced_capture_disable_continuous_shot">Habilitar la captura avançada deshabilitarà el mode d\'obturador continu.</string>
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
+  <string name="video_quality_4k_disable_IS">Habilitar la qualitat de vídeo 4k deshabilitarà l\'estabilització.</string>
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
+  <string name="video_quality_4k_disable_SeeMore">SeeMore no es pot habilitar durant el vídeo 4k.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_HighQualityNoiseReduction">La reducció de soroll d\'alta qualitat, deshabilitarà el CDS.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_HighQualityNoiseReduction">La reducció de soroll d\'alta qualitat, deshabilitarà el TNR.</string>
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_SeeMore">SeeMore deshabilitarà CDS.</string>
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_SeeMore">SeeMore deshabilitarà TNR.</string>
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
+  <string name="disable_NR_during_SeeMore">SeeMore deshabilitarà la reducció de soroll.</string>
   <!-- Exposure settings in preference -->
   <string name="pref_exposure_title">Exposició</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
@@ -299,12 +325,13 @@
   <!-- Default HDR entry value -->
   <!-- Default HDR+ entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">CÀMERA FRONTAL</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">CÀMERA POSTERIOR</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">D\'acord</string>
+  <string name="dialog_ok">D\'ACORD</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
   <string name="spaceIsLow_content" product="default">La targeta SD s\'està quedant sense espai. Canvia la configuració de qualitat o suprimeix unes quantes imatges o altres fitxers.</string>
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
@@ -391,9 +418,9 @@
 CHAR LIMIT = NONE] -->
   <string name="accessibility_review_retake">Revisa la nova presa</string>
   <!-- Default text for a button that can be toggled on and off. -->
-  <string name="capital_on">ACTIVA</string>
+  <string name="capital_on">SÍ</string>
   <!-- Default text for a button that can be toggled on and off. -->
-  <string name="capital_off">DESACTIVA</string>
+  <string name="capital_off">NO</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_off">Desactivat</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -509,6 +536,7 @@ CHAR LIMIT = NONE] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
   <string name="saving_tiny_planet">S\'està desant el planeta petit\u2026</string>
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
+  <string name="tiny_planet_zoom">Zoom</string>
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
   <string name="tiny_planet_rotate">Gira</string>
   <!-- Crop -->
@@ -521,4 +549,10 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">S\'està establint el fons de pantalla</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_video_rotation_label_90">90</string>
+  <string name="pref_camera_video_rotation_label_180">180</string>
+  <string name="pref_camera_video_rotation_label_270">270</string>
+  <string name="remaining_photos_format">en queden %d</string>
+  <string name="initial_recording_seconds">00:00</string>
+  <string name="makeup_video_size_limit">Makeup només funciona sota una mida VGA en gravació de vídeo.</string>
 </resources>

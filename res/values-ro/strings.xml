@@ -16,31 +16,33 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
-  <string name="app_name">Cameră</string>
+  <string name="app_name">Cameră foto</string>
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <string name="video_camera_label">Cameră video</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
+  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
+  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Setați fotografia ca</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
-  <string name="delete">Ștergeţi</string>
+  <string name="delete">Ștergeți</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <plurals name="delete_selection">
     <item quantity="one">Ștergeți articolul selectat?</item>
     <item quantity="few">Ștergeți articolele selectate?</item>
     <item quantity="other">Ștergeți articolele selectate?</item>
   </plurals>
-  <string name="share">Distribuiţi</string>
+  <string name="share">Distribuire</string>
   <string name="share_panorama">Trimiteți panorama</string>
-  <string name="share_as_photo">Trimiteți fotografia</string>
+  <string name="share_as_photo">Distribuiți ca fotografie</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
   <string name="deleted">S-a șters</string>
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
   <string name="undo">ANULAȚI</string>
   <string name="details">Detalii</string>
-  <string name="close">Închideţi</string>
+  <string name="close">Închideți</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_items_selected">
@@ -79,13 +81,14 @@
   <string name="video_err">Nu se poate reda videoclipul.</string>
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
-  <string name="crop_saved">Imaginea decupată a fost salvată în <xliff:g id="FOLDER_NAME">%s</xliff:g>.</string>
+  <string name="crop_saved">
+        Imaginea decupată a fost salvată în <xliff:g id="folder_name">%s</xliff:g>.</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
   <string name="title">Titlu</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
   <string name="description">Descriere</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
-  <string name="time">Oră</string>
+  <string name="time">Timp</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
   <string name="location">Locație</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
@@ -105,6 +108,7 @@
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <string name="maker">Producător</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+  <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Bliț</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
@@ -116,10 +120,12 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Timp expunere</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
-  <string name="manual">Manuală</string>
+  <string name="manual">Manual</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
   <string name="auto">Automat</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
@@ -130,10 +136,12 @@
   <string name="unknown">Necunoscută</string>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
-  <string name="try_to_set_local_album_available_offline">Acest element este stocat local şi disponibil offline.</string>
+  <string name="try_to_set_local_album_available_offline">
+        Acest element este stocat local și disponibil offline.</string>
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
   <string name="please_wait">Așteptați</string>
   <!-- Text to show with progress bar while stitching a photo sphere. 'Photo sphere' is a product name. [CHAR LIMIT=35]-->
+  <string name="rendering_photo_sphere">Redare fotografie sferică</string>
   <!-- title for the dialog showing the error of camera hardware -->
   <string name="camera_error_title">Eroare cameră foto</string>
   <!-- message for the dialog showing the error of camera hardware -->
@@ -141,7 +149,9 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">Camera foto a fost dezactivată din cauza politicilor de securitate.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
+  <string name="error_permissions">Aplicaţia nu are permisiunile critice necesare pentru a rula. Vă rugăm să verificaţi setările de permisiuni.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+  <string name="dialog_dismiss">Renunţaţi</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Așteptați\u2026</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -153,18 +163,19 @@
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
   <string name="time_lapse_title">Înregistrare cu filmare lentă</string>
   <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
+  <string name="capturing">Se capturează</string>
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
-  <string name="pref_camera_id_title">Alegeţi camera foto</string>
+  <string name="pref_camera_id_title">Alegeți camera foto</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_back">Înapoi</string>
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">Frontală</string>
   <!-- Settings screen, setting title text -->
-  <string name="pref_camera_recordlocation_title">Stocați locația</string>
+  <string name="pref_camera_recordlocation_title">Locație GPS</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">LOCAȚIE</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
-  <string name="pref_camera_timer_title">Cronometru numărătoare inversă</string>
+  <string name="pref_camera_timer_title">Temporizator</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
   <plurals name="pref_camera_timer_entry">
     <item quantity="one">1 secundă</item>
@@ -172,9 +183,11 @@
     <item quantity="other">%d secunde</item>
   </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
-  <string name="pref_camera_timer_sound_title">Beep numărătoare</string>
+  <string name="pref_camera_timer_sound_title">Bip în timpul numărătorii inverse</string>
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_title">Stocare</string>
   <string name="pref_camera_savepath_entry_0">Telefon</string>
+  <string name="pref_camera_savepath_entry_1">Card SD</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">Dezactivat</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
@@ -197,7 +210,7 @@
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
   <string name="pref_video_time_lapse_frame_interval_title">Filmare lentă</string>
   <!-- Settings screen, Camera setting category title -->
-  <string name="pref_camera_settings_category">Setările camerei foto</string>
+  <string name="pref_camera_settings_category">Setări cameră foto</string>
   <!-- Settings screen, Camcorder setting category title -->
   <string name="pref_camcorder_settings_category">Setările camerei video</string>
   <!-- Settings screen, Picture size title -->
@@ -209,13 +222,15 @@
   <!-- A setting that lets the camera focus into infinity. [CHAR LIMIT=20] -->
   <string name="pref_camera_focusmode_entry_infinity">Infinit</string>
   <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
+  <string name="pref_camera_focusmode_entry_macro">Macro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">AUTOMAT</string>
   <string name="pref_camera_focusmode_label_infinity">INFINIT</string>
+  <string name="pref_camera_focusmode_label_macro">MACRO</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
-  <string name="pref_camera_flashmode_title">Mod bliț</string>
+  <string name="pref_camera_flashmode_title">Bliț</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_auto">Automat</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
@@ -234,11 +249,15 @@
   <string name="pref_camera_whitebalance_label">BALANS DE ALB</string>
   <!-- Settings screen, White balance dialog radio button choices -->
   <string name="pref_camera_whitebalance_entry_auto">Automat</string>
+  <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
   <string name="pref_camera_whitebalance_entry_daylight">Lumină de zi</string>
+  <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Înnorat</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <string name="pref_camera_whitebalance_label_auto">AUTOMAT</string>
+  <string name="pref_camera_whitebalance_label_incandescent">INCANDESCENT</string>
   <string name="pref_camera_whitebalance_label_daylight">LUMINĂ DE ZI</string>
+  <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCENT</string>
   <string name="pref_camera_whitebalance_label_cloudy">ÎNNORAT</string>
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
@@ -246,7 +265,9 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automat</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ ACTIVAT</string>
   <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -287,14 +308,23 @@
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
   <string name="not_selectable_in_scene_mode">Nu este selectabil în modul scenă.</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
+  <string name="HDR_disable_continuous_shot">HDR va dezactiva captura continuă.</string>
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
+  <string name="advanced_capture_disable_continuous_shot">Captura avansată va dezactiva captura continuă.</string>
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
+  <string name="video_quality_4k_disable_IS">Calitatea 4k a video-ului va dezactiva stabilizarea imaginii.</string>
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
+  <string name="video_quality_4k_disable_SeeMore">SeeMore nu poate fi activat în timpul video-ului 4k.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_HighQualityNoiseReduction">Reducere de calitate înaltă a zgomotului va dezactiva CDS.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_HighQualityNoiseReduction">Reducere de calitate înaltă a zgomotului va dezactiva TNR.</string>
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_SeeMore">SeeMore va dezactiva CDS.</string>
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_SeeMore">SeeMore va dezactiva TNR.</string>
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
+  <string name="disable_NR_during_SeeMore">SeeMore va dezactiva reducere zgomot.</string>
   <!-- Exposure settings in preference -->
   <string name="pref_exposure_title">Expunere</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
@@ -302,14 +332,15 @@
   <!-- Default HDR entry value -->
   <!-- Default HDR+ entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">CAMERA FRONTALĂ</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
-  <string name="pref_camera_id_label_front">CAMERA FOTO SPATE</string>
+  <string name="pref_camera_id_label_front">CAMERĂ FOTO SPATE</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
   <string name="dialog_ok">OK</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
-  <string name="spaceIsLow_content" product="default">Cardul SD rămâne fără spaţiu de stocare. Editaţi setarea de calitate sau ştergeţi câteva imagini sau alte fişiere.</string>
+  <string name="spaceIsLow_content" product="default">Cardul SD rămâne fără spaţiu de stocare. Schimbaţi setarea de calitate sau ştergeţi câteva imagini sau alte fişiere.</string>
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
   <!-- Filename prefix for panorama output. -->
@@ -326,7 +357,7 @@
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
   <string name="pano_capture_indication">Se fotografiază panorama</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
-  <string name="pano_dialog_waiting_previous">Se aşteaptă panorama anterioară</string>
+  <string name="pano_dialog_waiting_previous">Se așteaptă panorama anterioară</string>
   <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
   <string name="pano_review_saving_indication_str">Se salvează\u2026</string>
   <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
@@ -355,9 +386,9 @@
   <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
   <string name="effect_backdropper_sunset">Apus de soare</string>
   <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
-  <string name="effect_backdropper_gallery">Videoclip</string>
+  <string name="effect_backdropper_gallery">Videoclipul dvs.</string>
   <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
-  <string name="video_snapshot_hint">Atingeţi pentru a fotografia în timpul înregistrării.</string>
+  <string name="video_snapshot_hint">Atingeți pentru a fotografia în timpul înregistrării.</string>
   <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
   <string name="video_recording_started">A început înregistrarea videoclipului.</string>
   <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
@@ -373,17 +404,19 @@
   <!-- The menu button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_menu_button">Buton Meniu</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_mode_picker">Selector pentru modurile cameră foto, cameră video sau panoramă</string>
+  <string name="accessibility_mode_picker">Selector pentru cameră foto, cameră video sau panoramă</string>
   <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_check_box">Caseta de selectare %1$s</string>
+  <string name="accessibility_check_box">Caseta de selectare pentru %1$s</string>
   <!-- The button to switch to Camera mode. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_switch_to_camera">Comutaţi la camera foto</string>
+  <string name="accessibility_switch_to_camera">Comutați la foto</string>
   <!-- The button to switch to Video mode. [CHAR LIMIT = NONE] -->
   <string name="accessibility_switch_to_video">Comutați la modul video</string>
   <!-- The button to switch to Panorama mode. [CHAR LIMIT = NONE] -->
   <string name="accessibility_switch_to_panorama">Comutați la panoramă</string>
   <!-- The button to switch to the Photo Sphere mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_photo_sphere">Comutați la Photo Sphere</string>
   <!-- The button to switch to the high quality mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_gcam">Comutați la calitate înaltă</string>
   <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT = NONE] -->
   <string name="accessibility_review_cancel">Anulaţi examinarea</string>
   <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT = NONE] -->
@@ -482,11 +515,11 @@ CHAR LIMIT = NONE] -->
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <string name="time_lapse_hours">ore</string>
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
-  <string name="time_lapse_interval_set">Realizat</string>
+  <string name="time_lapse_interval_set">Efectuat</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
   <string name="set_time_interval">Setați intervalul de timp</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
-  <string name="set_time_interval_help">Funcţia Filmare lentă este dezactivată. Activaţi-o pentru a seta intervalul de timp.</string>
+  <string name="set_time_interval_help">Funcţia filmare lentă este dezactivată. Activaţi-o pentru a seta intervalul de timp.</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
   <string name="set_duration">Setați durata în secunde</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
@@ -506,18 +539,27 @@ CHAR LIMIT = NONE] -->
   <string name="camera_menu_settings_label">SETĂRI</string>
   <!--  Tiny Planet -->
   <!-- Button to press for creating a tiny planet image. [CHAR LIMIT = 30] -->
+  <string name="create_tiny_planet">Creați o Miniplanetă</string>
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
+  <string name="saving_tiny_planet">Se salvează Miniplaneta &#8230;</string>
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
+  <string name="tiny_planet_zoom">Zoom</string>
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
-  <string name="tiny_planet_rotate">Rotire</string>
+  <string name="tiny_planet_rotate">Rotiţi</string>
   <!-- Crop -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
-  <string name="crop_save">Salvaţi</string>
+  <string name="crop_save">Salvați</string>
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
   <string name="cannot_load_image">Nu se poate încărca imaginea!</string>
   <!-- Label for album filmstrip button -->
-  <string name="switch_photo_filmstrip">Afişare tip bandă de film</string>
+  <string name="switch_photo_filmstrip">Afișare tip peliculă</string>
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Se setează imaginea de fundal</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_video_rotation_label_90">90</string>
+  <string name="pref_camera_video_rotation_label_180">180</string>
+  <string name="pref_camera_video_rotation_label_270">270</string>
+  <string name="remaining_photos_format">%d rămase</string>
+  <string name="initial_recording_seconds">00:00</string>
+  <string name="makeup_video_size_limit">Machiajul funcționează numai sub dimensiunea VGA în înregistrarea video.</string>
 </resources>

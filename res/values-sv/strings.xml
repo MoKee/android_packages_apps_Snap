@@ -20,7 +20,9 @@
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <string name="video_camera_label">Videokamera</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
+  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
+  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Använd bild som</string>
@@ -143,6 +145,7 @@ Den beskurna bilden har sparats i <xliff:g id="folder_name">%s</xliff:g>.</strin
   <string name="camera_disabled">Kameran har inaktiverats på grund av gällande säkerhetspolicyer.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+  <string name="dialog_dismiss">Avvisa</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Vänta\u2026</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -162,7 +165,7 @@ Den beskurna bilden har sparats i <xliff:g id="folder_name">%s</xliff:g>.</strin
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">Främre</string>
   <!-- Settings screen, setting title text -->
-  <string name="pref_camera_recordlocation_title">Spara plats</string>
+  <string name="pref_camera_recordlocation_title">GPS plats</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">PLATS</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -219,7 +222,7 @@ Den beskurna bilden har sparats i <xliff:g id="folder_name">%s</xliff:g>.</strin
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
-  <string name="pref_camera_flashmode_title">Blixtläge</string>
+  <string name="pref_camera_flashmode_title">Blixt</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_auto">Auto</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
@@ -301,15 +304,10 @@ Den beskurna bilden har sparats i <xliff:g id="folder_name">%s</xliff:g>.</strin
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
-  <string name="disable_CDS_during_HighQualityNoiseReduction">Högkvalitativ brusreducering kommer inaktivera CDS.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
-  <string name="disable_TNR_during_HighQualityNoiseReduction">Högkvalitativ brusreducering kommer inaktivera TNR.</string>
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
-  <string name="disable_CDS_during_SeeMore">SeeMore kommer inaktivera CDS.</string>
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
-  <string name="disable_TNR_during_SeeMore">SeeMore kommer inaktivera TNR.</string>
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
-  <string name="disable_NR_during_SeeMore">SeeMore kommer inaktivera brusreducering.</string>
   <!-- Exposure settings in preference -->
   <string name="pref_exposure_title">Exponering</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
@@ -541,5 +539,4 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Bakgrund anges</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
-  <string name="remaining_photos_format">%d kvar</string>
 </resources>

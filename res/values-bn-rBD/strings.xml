@@ -34,9 +34,7 @@
   <!-- String indicating timestamp of photo or video -->
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
-  <string name="edit">Edit</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
-  <string name="crop_action">ক্রপ</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
@@ -55,24 +53,19 @@
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
-  <string name="model">মডেল</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
-  <string name="aperture">অ্যাপারচার</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
-  <string name="focal_length">ফোকাল দৈর্ঘ্য</string>
   <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=18] -->
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
-  <string name="manual">নির্দেশিকা</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
-  <string name="unknown">Unknown</string>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
@@ -97,9 +90,7 @@
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <!-- Entry of camera save path -->
-  <string name="pref_camera_savepath_entry_0">ফোন</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
-  <string name="setting_off">Off</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
   <!-- The value of a camera preference indicating the setting is off. -->
   <!-- The value of a camera preference indicating the setting is on. -->
@@ -130,14 +121,12 @@
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
   <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
-  <string name="pref_camera_flashmode_entry_off">Off</string>
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
   <!-- Default videocamera flash mode setting.-->
   <!-- Default white balance setting. -->
   <!-- Settings screen, white balance title -->
   <!-- Menu, white balance label -->
   <!-- Settings screen, White balance dialog radio button choices -->
-  <string name="pref_camera_whitebalance_entry_cloudy">Cloudy</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
@@ -174,7 +163,6 @@
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
   <!-- Exposure settings in preference -->
-  <string name="pref_exposure_title">এক্সপোজার</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
   <!-- Default HDR entry value -->
   <!-- Default HDR+ entry value -->
@@ -199,7 +187,6 @@
   <!-- Default effect setting that clears the effect. -->
   <!-- Title of video effect setting popup window -->
   <!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
-  <string name="effect_none">কোনো কিছুই নয়</string>
   <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
   <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
   <!-- Effect setting item that makes mouth big. [CHAR LIMIT=14] -->
@@ -231,7 +218,6 @@ CHAR LIMIT = NONE] -->
   <!-- Default text for a button that can be toggled on and off. -->
   <!-- Default text for a button that can be toggled on and off. -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <string name="pref_video_time_lapse_frame_interval_off">Off</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -275,7 +261,6 @@ CHAR LIMIT = NONE] -->
   <!-- Minutes: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
-  <string name="time_lapse_interval_set">সম্পন্ন হয়েছে</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
@@ -284,7 +269,6 @@ CHAR LIMIT = NONE] -->
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
-  <string name="remember_location_yes">হ্যাঁ</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
   <!-- settings label [CHAR LIMIT=50] -->
@@ -293,13 +277,10 @@ CHAR LIMIT = NONE] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
-  <string name="tiny_planet_rotate">ঘোরান</string>
   <!-- Crop -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
-  <string name="cannot_load_image">চিত্রটি লোড করা যাবে না!</string>
   <!-- Label for album filmstrip button -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
-  <string name="setting_wallpaper">ওয়ালপেপার সেট করা হচ্ছে</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
 </resources>

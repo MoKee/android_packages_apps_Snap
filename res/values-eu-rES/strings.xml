@@ -20,7 +20,9 @@
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <string name="video_camera_label">Bideo kamera</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
+  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
+  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Ezarri irudia honela</string>
@@ -114,8 +116,10 @@ Moztutako irudia hemen gorde da <xliff:g id="folder_name">%s</xliff:g>.</string>
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Esposizio denbora</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
   <string name="manual">Eskuz</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
@@ -141,7 +145,9 @@ Elementua gailuan gorde da eta konexiorik gabe erabili daiteke.</string>
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">Kamera ezgaitu da segurtasun politikei jarraituz.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
+  <string name="error_permissions">Aplikazioak ez ditu ibiltzeko ezinbestekoak zaizkion baimenak. Egiaztatu baimenen ezarpenak mesedez.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+  <string name="dialog_dismiss">Baztertu</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Itxaron mesedez\u2026</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -174,7 +180,9 @@ Elementua gailuan gorde da eta konexiorik gabe erabili daiteke.</string>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">Soinua egin atzera-kontaketan</string>
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_title">Biltegiratzea</string>
   <string name="pref_camera_savepath_entry_0">Telefonoa</string>
+  <string name="pref_camera_savepath_entry_1">SD txartela</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">Ez</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
@@ -195,6 +203,7 @@ Elementua gailuan gorde da eta konexiorik gabe erabili daiteke.</string>
   <!-- Video quality setting entry. Videos will be recorded in 2K quality. [CHAR LIMIT=24] -->
   <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_title">Time lapse</string>
   <!-- Settings screen, Camera setting category title -->
   <string name="pref_camera_settings_category">Kameraren ezarpenak</string>
   <!-- Settings screen, Camcorder setting category title -->
@@ -216,7 +225,7 @@ Elementua gailuan gorde da eta konexiorik gabe erabili daiteke.</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
-  <string name="pref_camera_flashmode_title">Flash modua</string>
+  <string name="pref_camera_flashmode_title">Flasha</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_auto">Automatikoa</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
@@ -238,20 +247,22 @@ Elementua gailuan gorde da eta konexiorik gabe erabili daiteke.</string>
   <string name="pref_camera_whitebalance_entry_incandescent">Goritasun lanpara</string>
   <string name="pref_camera_whitebalance_entry_daylight">Egun argia</string>
   <string name="pref_camera_whitebalance_entry_fluorescent">Fluoreszentea</string>
-  <string name="pref_camera_whitebalance_entry_cloudy">Lainotsua</string>
+  <string name="pref_camera_whitebalance_entry_cloudy">Hodeitsua</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <string name="pref_camera_whitebalance_label_auto">AUTOMATIKOA</string>
   <string name="pref_camera_whitebalance_label_incandescent">GORITASUN LANPARA</string>
   <string name="pref_camera_whitebalance_label_daylight">EGUN ARGIA</string>
   <string name="pref_camera_whitebalance_label_fluorescent">FLUORESZENTEA</string>
-  <string name="pref_camera_whitebalance_label_cloudy">LAINOTSUA</string>
+  <string name="pref_camera_whitebalance_label_cloudy">HODEITSUA</string>
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
   <string name="pref_camera_scenemode_title">Eszena modua</string>
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automatikoa</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ BAI</string>
   <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -292,14 +303,23 @@ Elementua gailuan gorde da eta konexiorik gabe erabili daiteke.</string>
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
   <string name="not_selectable_in_scene_mode">Ezin da hautatu eszena moduan.</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
+  <string name="HDR_disable_continuous_shot">HDR gaitzeak etengabeko kliskatzea desgaituko du.</string>
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
+  <string name="advanced_capture_disable_continuous_shot">Atzemate aurreratua gaitzeak etengabeko kliskatzea desgaituko du.</string>
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
+  <string name="video_quality_4k_disable_IS">4k bideo kalitateak irudi estabilizazioa desgaituko du.</string>
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
+  <string name="video_quality_4k_disable_SeeMore">Ezin da SeeMore gaitu 4k bideoarekin batera.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_HighQualityNoiseReduction">Kalitate altuko zarata murrizketak CDS desgaituko du.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_HighQualityNoiseReduction">Kalitate altuko zarata murrizketak TNR desgaituko du.</string>
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_SeeMore">SeeMore gaitzeak CDS ezgaituko du.</string>
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_SeeMore">SeeMore gaitzeak TNR ezgaituko du.</string>
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
+  <string name="disable_NR_during_SeeMore">SeeMore gaitzeak zarata murriztea ezgaituko du.</string>
   <!-- Exposure settings in preference -->
   <string name="pref_exposure_title">Esposizioa</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
@@ -307,6 +327,7 @@ Elementua gailuan gorde da eta konexiorik gabe erabili daiteke.</string>
   <!-- Default HDR entry value -->
   <!-- Default HDR+ entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">AURREKO KAMERA</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
@@ -327,6 +348,7 @@ Elementua gailuan gorde da eta konexiorik gabe erabili daiteke.</string>
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
   <string name="pano_dialog_panorama_failed">Ezin izan da panorama gorde.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
+  <string name="pano_dialog_title">Panorama</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
   <string name="pano_capture_indication">Panorama atzematen</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
@@ -516,6 +538,7 @@ CHAR LIMIT = NONE] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
   <string name="saving_tiny_planet">Planetatxoa gordetzen &#8230;</string>
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
+  <string name="tiny_planet_zoom">Zoom</string>
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
   <string name="tiny_planet_rotate">Biratu</string>
   <!-- Crop -->
@@ -528,4 +551,6 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Horma-papera ezartzen</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="remaining_photos_format">%d geratzen dira</string>
+  <string name="makeup_video_size_limit">Makillaje moduak VGA tamainako bideo grabaketan soilik funtzionatzen du.</string>
 </resources>

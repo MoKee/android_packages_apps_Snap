@@ -86,8 +86,8 @@
   <string name="pref_camera_coloreffect_entry_point_red_yellow">Выделить красный и жёлтый</string>
   <string name="pref_camera_coloreffect_entry_cartoonize">Комикс</string>
   <!-- Red eye flash mode title -->
-  <string name="pref_camera_flashmode_entry_redeye">Ум. эфф. красных глаз</string>
-  <string name="pref_camera_flashmode_label_redeye">УМ. ЭФФ. КРАСНЫХ ГЛАЗ</string>
+  <string name="pref_camera_flashmode_entry_redeye">Устр. эфф. красных глаз</string>
+  <string name="pref_camera_flashmode_label_redeye">УСТР. ЭФФ. КРАСНЫХ ГЛАЗ</string>
   <!-- Power shutter -->
   <string name="pref_camera_power_shutter_title">Съёмка кн. питания</string>
   <!-- Max brightness -->
@@ -103,6 +103,6 @@
   <string name="pref_camera_shutter_speed_title">Время экспозиции</string>
   <string name="auto_hdr_enabled">Авто HDR включён</string>
   <!-- Advanced options -->
-  <string name="developer_menu_enabled">Вы включили дополнительные параметры камеры</string>
-  <string name="developer_menu_disabled">Вы отключили дополнительные параметры камеры</string>
+  <string name="developer_menu_enabled">Вы включили расширенные параметры камеры</string>
+  <string name="developer_menu_disabled">Вы отключили расширенные параметры камеры</string>
 </resources>

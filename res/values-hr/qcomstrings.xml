@@ -89,21 +89,22 @@
   <!-- Instant Capture entry -->
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
-  <string name="pref_camera_zsl_entry_on">Uključeno</string>
+  <string name="pref_camera_zsl_entry_off">Isključen</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
   <!-- Settings screen, Video HDR location dialog choices -->
-  <string name="pref_camera_video_hdr_entry_on">Uključeno</string>
+  <string name="pref_camera_video_hdr_entry_off">Isključen</string>
   <!-- Settings screen, CDS location dialog choices -->
-  <string name="pref_camera_cds_entry_on">Uključeno</string>
+  <string name="pref_camera_cds_entry_off">Isključen</string>
   <string name="pref_camera_cds_entry_auto">Automatski</string>
   <!-- Settings screen, video CDS location dialog choices -->
-  <string name="pref_camera_video_cds_entry_on">Uključeno</string>
+  <string name="pref_camera_video_cds_entry_off">Isključen</string>
   <string name="pref_camera_video_cds_entry_auto">Automatski</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
+  <string name="pref_camera_video_hdr_title">Video HDR</string>
   <!-- Settings menu, setting title text for cds mode-->
   <string name="pref_camera_cds_title">CDS način</string>
   <!-- Settings menu, setting title text for video cds mode-->
@@ -120,11 +121,12 @@
   <!-- Settings screen, Select Face Detection -->
   <string name="pref_camera_facedetection_title">Prepoznavanje lica</string>
   <!-- Settings menu, Face Detection choices -->
-  <string name="pref_camera_facedetection_entry_on">Uključeno</string>
+  <string name="pref_camera_facedetection_entry_off">Isključen</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
+  <string name="pref_selfie_flash_title">Selfie flash</string>
   <!-- Settings menu, Selfie Flash choices -->
-  <string name="pref_selfie_flash_entry_on">Uključeno</string>
+  <string name="pref_selfie_flash_entry_off">Isključen</string>
   <!-- Default redeye reduction setting. -->
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">Smanjenje efekta crvenih očiju</string>
@@ -146,8 +148,8 @@
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">Raw format slike nije podržan u režimu Nula laga okidača. Odaberite JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Držanje automatske ekspozicije</string>
   <string name="pref_camera_ae_bracket_hdr_title">Držanje automatske ekspozicije</string>
-  <string name="pref_camera_ae_bracket_hdr_entry_on">Uključeno</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
@@ -167,42 +169,52 @@
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
   <!-- Settings screen, see more radio button choices -->
+  <string name="pref_camera_noise_reduction_entry_off">Isključen</string>
+  <string name="pref_camera_noise_reduction_entry_fast">Brzo</string>
   <!-- see more entry values. Do not translate. -->
   <!-- Default see more setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
   <!-- Settings screen, see more radio button choices -->
-  <string name="pref_camera_see_more_entry_on">Uključeno</string>
+  <string name="pref_camera_see_more_entry_off">Isključen</string>
   <!-- see more entry values. Do not translate. -->
   <!-- Denoise Settings screen, setting title text -->
   <string name="pref_camera_denoise_title">Uklanjanje šuma</string>
   <!-- Denoise Settings screen, Record location dialog choices -->
-  <string name="pref_camera_denoise_entry_on">Uključeno</string>
+  <string name="pref_camera_denoise_entry_off">Isključen</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
+  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Autom.</string>
   <string name="pref_camera_iso_entry_isodeblur">Automatski (HJR)</string>
+  <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Sprječavanje spajanja u trake</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
-  <string name="pref_camera_antibanding_entry_0">Autom.</string>
+  <string name="pref_camera_antibanding_entry_0">Isključen</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
   <string name="pref_camera_antibanding_entry_2">60 Hz (SAD)</string>
   <string name="pref_camera_antibanding_entry_3">Automatski</string>
   <!-- Default color effect setting. -->
-  <string name="pref_camera_filter_mode_entry_on">Uključeno</string>
+  <string name="pref_camera_filter_mode_entry_off">Isključen</string>
   <!-- Settings screen, Select Color effect title -->
   <string name="pref_camera_coloreffect_title">Efekt boje</string>
   <string name="pref_camera_filter_mode_title">Efekt boje</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Nijedan</string>
+  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
   <string name="pref_camera_coloreffect_entry_sepia">Sepija</string>
   <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Osunčano</string>
   <string name="pref_camera_coloreffect_entry_posterize">Posterizirano</string>
+  <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
   <string name="pref_camera_coloreffect_entry_emboss">Reljefno</string>
   <string name="pref_camera_coloreffect_entry_sketch">Skica</string>
   <string name="pref_camera_coloreffect_entry_neon">Neonsko</string>
@@ -212,15 +224,15 @@
   <string name="pref_camera_coloreffect_entry_bluetint">Plavo obojano</string>
   <string name="pref_camera_coloreffect_entry_greentint">Zeleno obojano</string>
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
-  <string name="pref_camera_touchafaec_entry_on">Uključeno</string>
+  <string name="pref_camera_touchafaec_entry_off">Isključen</string>
   <!-- Select IS title -->
   <string name="pref_camera_dis_title">Stabilizacija</string>
   <!-- DIS choices -->
-  <string name="pref_camera_dis_entry_on">Uključeno</string>
+  <string name="pref_camera_dis_entry_off">Isključen</string>
   <!-- Select Face Recognition title -->
   <string name="pref_camera_facerc_title">Prepoznavanje lica</string>
   <!-- Face Recognition choices -->
-  <string name="pref_camera_facerc_entry_on">Uključeno</string>
+  <string name="pref_camera_facerc_entry_off">Isključen</string>
   <!-- Settings screen, Multiple levels entries -->
   <string name="pref_camera_sharpness_entry_level0">Razina 0</string>
   <string name="pref_camera_sharpness_entry_level1">Razina 1</string>
@@ -271,19 +283,17 @@
   <!-- Settings screen, Picture quality title -->
   <string name="pref_camera_jpegquality_title">Kvaliteta slike</string>
   <!-- Settings screen, Picture quality dialog radio button choices -->
-  <string name="pref_camera_jpegquality_entry_0">55%</string>
-  <string name="pref_camera_jpegquality_entry_1">65% (uobičajeno)</string>
-  <string name="pref_camera_jpegquality_entry_2">75% (kvalitetno)</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
+  <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
   <string name="pref_camera_scenedetect_title">Automatska detekcija scene</string>
   <!-- Settings menu, auto scene detection choices -->
+  <string name="pref_camera_scenedetect_entry_off">Isključen</string>
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
-  <string name="pref_camera_scenedetect_entry_on">Uključeno</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Kontinuirano snimanje</string>
@@ -291,6 +301,7 @@
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">Blic nije podržan u AE načinu izdvajanja</string>
   <!-- Settings screen, setting title text for Auto HDR-->
+  <string name="pref_camera_auto_hdr_title">Auto HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Prostor interne pohrane nije dovoljan, prebačena lokacija pohrane na SD karticu</string>
@@ -322,14 +333,24 @@
   <string name="advance_feature_enable_msg">Neprekidno slikanje nije podržano pri uključenim naprednim mogućnostima</string>
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">Pokreni kameru</string>
-  <string name="pref_camera_tsmakeup_entry_on">Uključeno</string>
+  <string name="pref_camera_tsmakeup_entry_off">Isključen</string>
   <string name="all_in_focus">Sve u fokusu</string>
   <string name="refocus_toast">Za ponovo fokusiranje zadnje slike, dodirnite ovdje</string>
   <!-- Help menu strings -->
-  <string name="help_menu_scene_mode_2">Način scene</string>
-  <string name="pref_camera2_mono_preview_entry_on">Uključeno</string>
-  <string name="pref_camera2_clearsight_entry_on">Uključeno</string>
-  <string name="pref_camera2_mpo_entry_on">Uključeno</string>
-  <string name="bestpicture_done">GOTOVO</string>
-  <string name="pref_camera2_shutter_sound_entry_on">Uključeno</string>
+  <string name="pref_camera2_camera2_entry_enable">Uključi</string>
+  <string name="pref_camera2_camera2_entry_disable">Isključi</string>
+  <string name="pref_camera2_mono_preview_entry_on">Uključen</string>
+  <string name="pref_camera2_mono_preview_entry_off">Isključen</string>
+  <string name="pref_camera2_clearsight_entry_on">Uključen</string>
+  <string name="pref_camera2_clearsight_entry_off">Isključen</string>
+  <string name="clearsight_capture_success">ClearSight snimanje upješno</string>
+  <string name="clearsight_capture_fail">ClearSight snimanje nije uspjelo</string>
+  <string name="pref_camera2_mpo_entry_on">Uključen</string>
+  <string name="pref_camera2_mpo_entry_off">Isključen</string>
+  <string name="pref_camera2_makeup_title">Šminka</string>
+  <string name="pref_camera2_noise_reduction_entry_off">Isključen</string>
+  <string name="pref_camera2_noise_reduction_entry_fast">Brzo</string>
+  <string name="pref_camera2_videosnap_entry_enable">Uključi</string>
+  <string name="pref_camera2_videosnap_entry_disable">Isključi</string>
+  <string name="pref_camera2_shutter_sound_entry_off">Isključen</string>
 </resources>

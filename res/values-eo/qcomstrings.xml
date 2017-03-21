@@ -119,6 +119,7 @@
   <!-- Settings screen, Anti Banding title -->
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
+  <string name="pref_camera_antibanding_entry_1">50 Hz (Eŭropo)</string>
   <!-- Default color effect setting. -->
   <!-- Settings screen, Select Color effect title -->
   <!-- Settings screen, Color effect dialog radio button choices -->

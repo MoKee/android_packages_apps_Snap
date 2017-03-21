@@ -26,10 +26,8 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
-  <string name="pref_camera_powermode_title">Energiläge</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_entry_lp">Låg energi</string>
-  <string name="pref_camera_powermode_entry_np">Normal energi</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
@@ -56,7 +54,6 @@
   <string name="pref_camera_skinToneEnhancement_title">Hudfärgsförstärkning</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Aktivera</string>
-  <string name="pref_camera_skinToneEnhancement_entry_disable">Inaktivera</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <string name="pref_camera_zsl_title">Ingen slutarfördröjning</string>
@@ -92,31 +89,29 @@
   <string name="pref_camera_manual_focus_entry_diopter_mode">Dioptri läge</string>
   <string name="pref_camera_manual_focus_entry_off">Av</string>
   <!-- Instant Capture entry -->
-  <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">Aggressiv AEC</string>
-  <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">Snabb AEC</string>
-  <string name="pref_camera_instant_capture_entry_disable" translatable="true">Inaktivera</string>
+  <string name="pref_camera_instant_capture_entry_disable" translatable="true">Avaktivera</string>
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Av</string>
-  <string name="pref_camera_zsl_entry_on">Aktiverad</string>
+  <string name="pref_camera_zsl_entry_on">På</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">Av</string>
-  <string name="pref_camera_video_hdr_entry_on">Aktiverad</string>
+  <string name="pref_camera_video_hdr_entry_on">På</string>
   <!-- Settings screen, CDS location dialog choices -->
   <string name="pref_camera_cds_entry_off">Av</string>
-  <string name="pref_camera_cds_entry_on">Aktiverad</string>
+  <string name="pref_camera_cds_entry_on">På</string>
   <string name="pref_camera_cds_entry_auto">Auto</string>
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">Av</string>
-  <string name="pref_camera_video_cds_entry_on">Aktiverad</string>
+  <string name="pref_camera_video_cds_entry_on">På</string>
   <string name="pref_camera_video_cds_entry_auto">Auto</string>
   <!-- Settings screen, TNR location dialog choices -->
-  <string name="pref_camera_tnr_entry_disable">Inaktivera</string>
+  <string name="pref_camera_tnr_entry_disable">Avaktivera</string>
   <string name="pref_camera_tnr_entry_enable">Aktivera</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
-  <string name="pref_camera_video_tnr_entry_disable">Inaktivera</string>
+  <string name="pref_camera_video_tnr_entry_disable">Avaktivera</string>
   <string name="pref_camera_video_tnr_entry_enable">Aktivera</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
@@ -138,25 +133,23 @@
   <string name="pref_camera_facedetection_title">Ansiktsigenkänning</string>
   <!-- Settings menu, Face Detection choices -->
   <string name="pref_camera_facedetection_entry_off">Av</string>
-  <string name="pref_camera_facedetection_entry_on">Aktiverad</string>
+  <string name="pref_camera_facedetection_entry_on">På</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
-  <string name="pref_selfie_flash_title">Selfie-blixt</string>
+  <string name="pref_selfie_flash_title">Selfie blixt</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">Av</string>
-  <string name="pref_selfie_flash_entry_on">Aktiverad</string>
+  <string name="pref_selfie_flash_entry_on">På</string>
   <!-- Default redeye reduction setting. -->
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">Röda ögon-reduktion</string>
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Aktivera</string>
-  <string name="pref_camera_redeyereduction_entry_disable">Inaktivera</string>
-  <string name="pref_camera_selfiemirror_title" translatable="true">Selfie-spegel</string>
+  <string name="pref_camera_redeyereduction_entry_disable">Avaktivera</string>
   <string name="pref_camera_selfiemirror_entry_enable">Aktivera</string>
-  <string name="pref_camera_selfiemirror_entry_disable">Inaktivera</string>
-  <string name="pref_camera_shuttersound_title" translatable="true">Slutarljud</string>
+  <string name="pref_camera_selfiemirror_entry_disable">Avaktivera</string>
   <string name="pref_camera_shuttersound_entry_enable">Aktiverad</string>
-  <string name="pref_camera_shuttersound_entry_disable">Inaktiverad</string>
+  <string name="pref_camera_shuttersound_entry_disable">Avaktiverad</string>
   <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Höghastighetsinspelning stöds inte när du använder stabilisering/intervallinspelning/HDR.</string>
@@ -171,13 +164,12 @@
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
   <string name="error_app_unsupported">Videoupplösningen fungerar inte med denna kodek</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
-  <string name="error_app_unsupported_profile">Videoprofil stöds inte</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">RAW bildformat stöds inte i läget ingen slutarfördröjning. Välj JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Automatisk exponeringsvariation</string>
   <string name="pref_camera_ae_bracket_hdr_title">Automatisk exponeringsvariation</string>
-  <string name="pref_camera_ae_bracket_hdr_entry_on">Aktiverad</string>
-  <string name="pref_camera_ae_bracket_hdr_entry_off">Av</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_on">På</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
@@ -193,11 +185,9 @@
   <string name="pref_camera_hfr_entry_hsr_60">Höghastighet 60 FPS</string>
   <string name="pref_camera_hfr_entry_hsr_90">Höghastighet 90 FPS</string>
   <string name="pref_camera_hfr_entry_hsr_120">Höghastighet 120 FPS</string>
-  <string name="pref_camera_hfr_entry_hsr_240">Snabbt 240 FPS</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
-  <string name="pref_camera_noise_reduction_title">Brusreducering</string>
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_noise_reduction_entry_off">Av</string>
   <string name="pref_camera_noise_reduction_entry_fast">Snabb</string>
@@ -207,13 +197,13 @@
   <!-- Settings screen, Select See More title -->
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_see_more_entry_off">Av</string>
-  <string name="pref_camera_see_more_entry_on">Aktiverad</string>
+  <string name="pref_camera_see_more_entry_on">På</string>
   <!-- see more entry values. Do not translate. -->
   <!-- Denoise Settings screen, setting title text -->
   <string name="pref_camera_denoise_title">Brusreducering</string>
   <!-- Denoise Settings screen, Record location dialog choices -->
   <string name="pref_camera_denoise_entry_off">Av</string>
-  <string name="pref_camera_denoise_entry_on">Aktiverad</string>
+  <string name="pref_camera_denoise_entry_on">På</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
   <string name="pref_camera_iso_title">ISO</string>
@@ -230,12 +220,12 @@
   <string name="pref_camera_antibanding_title">Antibandning</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
-  <string name="pref_camera_antibanding_entry_0">Auto</string>
+  <string name="pref_camera_antibanding_entry_0">Av</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
   <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
   <string name="pref_camera_antibanding_entry_3">Auto</string>
   <!-- Default color effect setting. -->
-  <string name="pref_camera_filter_mode_entry_on">Aktiverad</string>
+  <string name="pref_camera_filter_mode_entry_on">På</string>
   <string name="pref_camera_filter_mode_entry_off">Av</string>
   <!-- Settings screen, Select Color effect title -->
   <string name="pref_camera_coloreffect_title">Färgeffekt</string>
@@ -259,17 +249,17 @@
   <string name="pref_camera_coloreffect_entry_greentint">Grön toning</string>
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
   <string name="pref_camera_touchafaec_entry_off">Av</string>
-  <string name="pref_camera_touchafaec_entry_on">Aktiverad</string>
+  <string name="pref_camera_touchafaec_entry_on">På</string>
   <!-- Select IS title -->
   <string name="pref_camera_dis_title">Stabilisering</string>
   <!-- DIS choices -->
   <string name="pref_camera_dis_entry_off">Av</string>
-  <string name="pref_camera_dis_entry_on">Aktiverad</string>
+  <string name="pref_camera_dis_entry_on">På</string>
   <!-- Select Face Recognition title -->
   <string name="pref_camera_facerc_title">Ansiktsigenkänning</string>
   <!-- Face Recognition choices -->
   <string name="pref_camera_facerc_entry_off">Av</string>
-  <string name="pref_camera_facerc_entry_on">Aktiverad</string>
+  <string name="pref_camera_facerc_entry_on">På</string>
   <!-- Settings screen, Multiple levels entries -->
   <string name="pref_camera_sharpness_entry_level0">Nivå 0</string>
   <string name="pref_camera_sharpness_entry_level1">Nivå 1</string>
@@ -320,15 +310,15 @@
   <!-- Settings screen, Picture quality title -->
   <string name="pref_camera_jpegquality_title">Bildkvalitet</string>
   <!-- Settings screen, Picture quality dialog radio button choices -->
-  <string name="pref_camera_jpegquality_entry_0">55%</string>
-  <string name="pref_camera_jpegquality_entry_1">65% (normal)</string>
-  <string name="pref_camera_jpegquality_entry_2">75% (fin)</string>
+  <string name="pref_camera_jpegquality_entry_0">Låg</string>
+  <string name="pref_camera_jpegquality_entry_1">Standard</string>
+  <string name="pref_camera_jpegquality_entry_2">Hög</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
   <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Aktivera</string>
-  <string name="pref_camera_histogram_entry_disable">Inaktivera</string>
+  <string name="pref_camera_histogram_entry_disable">Avaktivera</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
@@ -336,7 +326,7 @@
   <!-- Settings menu, auto scene detection choices -->
   <string name="pref_camera_scenedetect_entry_off">Av</string>
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
-  <string name="pref_camera_scenedetect_entry_on">Aktiverad</string>
+  <string name="pref_camera_scenedetect_entry_on">På</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Kontinuerlig bildtagning</string>
@@ -347,7 +337,7 @@
   <string name="pref_camera_auto_hdr_title">Auto HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Aktivera</string>
-  <string name="pref_camera_auto_hdr_entry_disable">Inaktivera</string>
+  <string name="pref_camera_auto_hdr_entry_disable">Avaktivera</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Det finns inte tillräckligt internt lagringsutrymme, bytte lagringsplats till SD-kort</string>
   <!-- Settings screen, Selectable HDR mode title -->
@@ -365,7 +355,7 @@
   <!--Settings screen, video rotation title-->
   <string name="pref_camera_video_rotation_title">Videorotation</string>
   <!--Menu, video rotation label-->
-  <string name="pref_camera_video_rotation_label">VIDEO-ROTATION</string>
+  <string name="pref_camera_video_rotation_label">VIDEO ROTATION</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
   <string name="pref_camera_video_rotation_entry_0">0 grader</string>
   <string name="pref_camera_video_rotation_entry_90">90 grader</string>
@@ -379,51 +369,41 @@
   <string name="advance_feature_enable_msg">Kontinuerlig bildtagning stöds inte när avancerade funktioner är aktiverade</string>
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">Starta kamera</string>
-  <string name="pref_camera_tsmakeup_entry_on">Aktiverad</string>
+  <string name="pref_camera_tsmakeup_entry_on">På</string>
   <string name="pref_camera_tsmakeup_entry_off">Av</string>
   <string name="pref_camera_tsmakeup_entry_low">Låg</string>
+  <string name="pref_camera_tsmakeup_entry_mid">Medium</string>
   <string name="pref_camera_tsmakeup_entry_high">Hög</string>
+  <string name="pref_camera_tsmakeup_custom">Anpassad</string>
   <string name="text_tsmakeup_alert_title">Varning</string>
   <string name="text_tsmakeup_alert_continue">Fortsätt</string>
   <string name="text_tsmakeup_alert_quit">Avbryt</string>
   <string name="all_in_focus">Allt i fokus</string>
   <string name="refocus_toast">För att återfokusera senaste bilden, klicka här</string>
-  <string name="camera_unknown_error">Okänt fel, stänger kamera.</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">OK</string>
-  <string name="help_menu_scene_mode_1">Markera en</string>
-  <string name="help_menu_scene_mode_2">Scenläge</string>
-  <string name="help_menu_scene_mode_3">för bättre bilder</string>
-  <string name="help_menu_color_filter_1">Applicera färg</string>
   <string name="help_menu_color_filter_2">filter</string>
   <string name="help_menu_color_filter_3">till</string>
-  <string name="help_menu_color_filter_4">förbättra bilder</string>
-  <string name="help_menu_beautify_1">Förbättra porträtt</string>
-  <string name="help_menu_switcher_1">Växla</string>
+  <string name="help_menu_switcher_1">Byt till</string>
   <string name="help_menu_switcher_2">mellan</string>
-  <string name="help_menu_switcher_3">kamera, video och panorama</string>
-  <string name="pref_camera2_camera2_title">Camera2-läge</string>
   <string name="pref_camera2_camera2_entry_enable">Aktivera</string>
-  <string name="pref_camera2_camera2_entry_disable">Inaktivera</string>
-  <string name="pref_camera2_mono_only_title">Mono endast</string>
-  <string name="pref_camera2_mono_preview_entry_on">Aktiverad</string>
+  <string name="pref_camera2_camera2_entry_disable">Avaktivera</string>
+  <string name="pref_camera2_mono_only_title">Endast mono</string>
+  <string name="pref_camera2_mono_preview_entry_on">På</string>
   <string name="pref_camera2_mono_preview_entry_off">Av</string>
-  <string name="pref_camera2_clearsight_entry_on">Aktiverad</string>
+  <string name="pref_camera2_clearsight_entry_on">På</string>
   <string name="pref_camera2_clearsight_entry_off">Av</string>
-  <string name="pref_camera2_mpo_title">MPO-format</string>
-  <string name="pref_camera2_mpo_entry_on">Aktiverad</string>
+  <string name="pref_camera2_mpo_entry_on">På</string>
   <string name="pref_camera2_mpo_entry_off">Av</string>
-  <string name="pref_camera2_makeup_title">Makeup</string>
   <string name="pref_camera2_noise_reduction_title">Brusreducering</string>
   <string name="pref_camera2_noise_reduction_entry_off">Av</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Snabb</string>
-  <string name="pref_camera2_noise_reduction_entry_high_quality">Hög kvalitet</string>
+  <string name="pref_camera2_noise_reduction_entry_high_quality">Hög kvalite</string>
   <string name="pref_camera2_videosnap_entry_enable">Aktivera</string>
-  <string name="pref_camera2_videosnap_entry_disable">Inaktivera</string>
+  <string name="pref_camera2_videosnap_entry_disable">Avaktivera</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Bästa bild</string>
   <string name="bestpicture_done">KLAR</string>
   <string name="bestpicture_at_least_one_picture">Minst en bild måste väljas.</string>
-  <string name="pref_camera2_shutter_sound_entry_on">Aktiverad</string>
+  <string name="pref_camera2_shutter_sound_entry_on">På</string>
   <string name="pref_camera2_shutter_sound_entry_off">Av</string>
-  <string name="pref_camera2_shutter_sound_title">Slutarljud</string>
 </resources>

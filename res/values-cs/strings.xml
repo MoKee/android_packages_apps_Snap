@@ -20,7 +20,9 @@
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <string name="video_camera_label">Videokamera</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
+  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
+  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Nastavit fotku jako</string>
@@ -145,9 +147,9 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">Fotoaparát byl z důvodu zásad zabezpečení deaktivován.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
-  <string name="error_permissions">Aplikace nemá žádné kritické oprávnění potřebná ke spuštění. Prosím zkontrolujte nastavení oprávnění.</string>
+  <string name="error_permissions">Tato aplikace nemá udělené kritické oprávnění vyžadované pro spuštění. Prosím zkontrolujte nastavení oprávnění.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
-  <string name="dialog_dismiss">Odmítnout</string>
+  <string name="dialog_dismiss">Zamítnout</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Čekejte prosím…</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -167,7 +169,7 @@
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">Přední</string>
   <!-- Settings screen, setting title text -->
-  <string name="pref_camera_recordlocation_title">Ukládat polohu</string>
+  <string name="pref_camera_recordlocation_title">Poloha GPS</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">POLOHA</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -226,7 +228,7 @@
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
-  <string name="pref_camera_flashmode_title">Režim blesku</string>
+  <string name="pref_camera_flashmode_title">Blesk</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_auto">Automaticky</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
@@ -552,6 +554,10 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Nastavování tapety</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_video_rotation_label_90">90</string>
+  <string name="pref_camera_video_rotation_label_180">180</string>
+  <string name="pref_camera_video_rotation_label_270">270</string>
   <string name="remaining_photos_format">%d zbývá</string>
+  <string name="initial_recording_seconds">00:00</string>
   <string name="makeup_video_size_limit">Make-up funguje pouze pokud je rozlišení videa menší než VGA.</string>
 </resources>
