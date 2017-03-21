@@ -176,19 +176,19 @@
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
   <string name="error_app_unsupported_profile">Profil vidéo non pris en charge</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
-  <string name="error_app_unsupported_raw">Le format RAW n\'est pas supporté pour le mode \"Pas de délai de l\'obturateur\". Choisissez le JPEG</string>
+  <string name="error_app_unsupported_raw">Le format RAW n\'est pas pris en charge pour le mode « Pas de délai de l\'obturateur ». Choisir JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
-  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Bracketing d\'exposition automatique</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Exposition automatique</string>
   <string name="pref_camera_ae_bracket_hdr_title">Exposition automatique</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Activé</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Désactivé</string>
-  <string name="err_app_unsupport_ae_bracket_code">Le bracketing AE n\'est pas encore supporté</string>
+  <string name="err_app_unsupport_ae_bracket_code">Le bracketing AE n\'est pas encore pris en charge</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">La taille de capture vidéo est inférieure à la taille de la vidéo. Veuillez sélectionner une résolution supérieure ou égale à la taille actuelle de la vidéo.</string>
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
-  <string name="snapshotsize_low_powermode">Changer la taille de l\'image n\'est pas supporté en mode Basse Consommation, un instantané de la taille de la vidéo va être pris. Sélectionnez le mode Alimentation Normale pour modifier la taille de l\'image.</string>
+  <string name="snapshotsize_low_powermode">Le changement de la résolution d\'image n\'est pas supporté en mode basse consommation, un instantané de la taille vidéo va être pris. Veuillez Sélectionner le mode d\'alimentation normale pour toute modification.</string>
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
-  <string name="snapshot_qcif_and_d1">Seul un cliché de la taille de la vidéo est pris en charge pour cette résolution.</string>
+  <string name="snapshot_qcif_and_d1">L\'aperçu vidéo ne prend en charge qu\'un seul format dans cette résolution.</string>
   <!-- Default hfr setting. Do not translate. -->
   <!-- Settings screen, Select hfr title -->
   <string name="pref_camera_hfr_title">Ralenti</string>
@@ -238,7 +238,7 @@
   <string name="pref_camera_antibanding_title">Anti-scintillement</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
-  <string name="pref_camera_antibanding_entry_0">Automatique</string>
+  <string name="pref_camera_antibanding_entry_0">Désactivé</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europe)</string>
   <string name="pref_camera_antibanding_entry_2">60 Hz (États-Unis)</string>
   <string name="pref_camera_antibanding_entry_3">Automatique</string>
@@ -346,16 +346,16 @@
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
   <string name="pref_camera_scenedetect_entry_on">Activé</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
-  <string name="time_lapse_error">Taille de vidéo invalide pour l\'enregistrement en time-lapse.</string>
+  <string name="time_lapse_error">Format vidéo non valide pour l\'enregistrement à vitesse réduite.</string>
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Mode rafale</string>
-  <string name="msg_cancel_longshot_for_limited_memory">Plus assez de mémoire, mode rafale annulé</string>
+  <string name="msg_cancel_longshot_for_limited_memory">Plus assez de mémoire, prise de vue continue annulée</string>
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">Le flash n\'est pas supporté dans le mode AE bracketing</string>
   <!-- Settings screen, setting title text for Auto HDR-->
   <string name="pref_camera_auto_hdr_title">HDR Automatique</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
-  <string name="pref_camera_auto_hdr_entry_enable">Activé</string>
+  <string name="pref_camera_auto_hdr_entry_enable">Activer</string>
   <string name="pref_camera_auto_hdr_entry_disable">Desactiver</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Plus assez de mémoire interne, stockage basculé sur la carte SD</string>
@@ -391,15 +391,15 @@
   <string name="pref_camera_tsmakeup_title">Embellissement</string>
   <string name="pref_camera_tsmakeup_entry_on">Activé</string>
   <string name="pref_camera_tsmakeup_entry_off">Désactivé</string>
-  <string name="pref_camera_tsmakeup_entry_low">Bas</string>
+  <string name="pref_camera_tsmakeup_entry_low">Faible</string>
   <string name="pref_camera_tsmakeup_entry_mid">Moyenne</string>
-  <string name="pref_camera_tsmakeup_entry_high">Élevé</string>
-  <string name="pref_camera_tsmakeup_custom">Personnalisation</string>
+  <string name="pref_camera_tsmakeup_entry_high">Élevée</string>
+  <string name="pref_camera_tsmakeup_custom">Personnalisée</string>
   <string name="pref_camera_tsmakeup_level_whiten">Blanchir</string>
   <string name="pref_camera_tsmakeup_level_clean">Adoucir</string>
   <string name="text_tsmakeup_alert_title">Avertissement</string>
-  <string name="text_tsmakeup_alert_msg">La détection de visage doit être activée pour utiliser la fonctionnalité d\'embellissement. Souhaitez-vous continuer ?</string>
-  <string name="text_tsmakeup_alert_continue">Continuer</string>
+  <string name="text_tsmakeup_alert_msg">La détection de visage doit être activée pour utiliser la fonction d\'embellissement. Voulez-vous continuer?</string>
+  <string name="text_tsmakeup_alert_continue">Poursuivre</string>
   <string name="text_tsmakeup_alert_quit">Annuler</string>
   <string name="text_tsmakeup_beautify_toast">Embellir</string>
   <string name="all_in_focus">Tout sur la mise au point</string>
@@ -411,7 +411,7 @@
   <string name="mute_button_desc">Bouton de mise en sourdine</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">OK</string>
-  <string name="help_menu_scene_mode_1">Sélectionnez un</string>
+  <string name="help_menu_scene_mode_1">Sélectionner un</string>
   <string name="help_menu_scene_mode_2">Mode Scène</string>
   <string name="help_menu_scene_mode_3">pour de meilleures photos</string>
   <string name="help_menu_color_filter_1">Appliquer la couleur</string>
@@ -425,29 +425,29 @@
   <string name="help_menu_switcher_2">entre</string>
   <string name="help_menu_switcher_3">appareil photo, vidéo et panorama</string>
   <string name="pref_camera2_camera2_title">Mode Camera2</string>
-  <string name="pref_camera2_camera2_entry_enable">Activé</string>
+  <string name="pref_camera2_camera2_entry_enable">Activer</string>
   <string name="pref_camera2_camera2_entry_disable">Désactiver</string>
-  <string name="pref_camera2_mono_only_title">Mono uniquement</string>
-  <string name="pref_camera2_mono_preview_title">Aperçu mono</string>
+  <string name="pref_camera2_mono_only_title">Uniquement en Monochrome</string>
+  <string name="pref_camera2_mono_preview_title">Aperçu monochrome</string>
   <string name="pref_camera2_mono_preview_entry_on">Activé</string>
   <string name="pref_camera2_mono_preview_entry_off">Désactivé</string>
   <string name="pref_camera2_clearsight_entry_on">Activé</string>
   <string name="pref_camera2_clearsight_entry_off">Désactivé</string>
-  <string name="clearsight_capture_success">Photo ClearSight réussie</string>
-  <string name="clearsight_capture_fail">Photo ClearSight échouée</string>
+  <string name="clearsight_capture_success">La capture ClearSight est réussie</string>
+  <string name="clearsight_capture_fail">La capture ClearSight a échoué</string>
   <string name="pref_camera2_mpo_title">Format MPO</string>
   <string name="pref_camera2_mpo_entry_on">Activé</string>
   <string name="pref_camera2_mpo_entry_off">Désactivé</string>
-  <string name="pref_camera2_makeup_title">Maquillage</string>
+  <string name="pref_camera2_makeup_title">Retouche</string>
   <string name="pref_camera2_noise_reduction_title">Réduction du bruit</string>
   <string name="pref_camera2_noise_reduction_entry_off">Désactivé</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Rapide</string>
   <string name="pref_camera2_noise_reduction_entry_high_quality">Haute qualité</string>
-  <string name="pref_camera2_videosnap_title">Taille auto de l\'instantané</string>
-  <string name="pref_camera2_videosnap_entry_enable">Activé</string>
+  <string name="pref_camera2_videosnap_title">Résolution automatique</string>
+  <string name="pref_camera2_videosnap_entry_enable">Activer</string>
   <string name="pref_camera2_videosnap_entry_disable">Désactiver</string>
   <string name="pref_camera2_trackingfocus_title">Mise au point automatique par suivi du sujet</string>
-  <string name="pref_camera_scenemode_entry_bestpicture">Image optimale</string>
+  <string name="pref_camera_scenemode_entry_bestpicture">Qualité photo optimale</string>
   <string name="bestpicture_done">TERMINÉ</string>
   <string name="bestpicture_at_least_one_picture">Vous devez choisir au moins une photo.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Activé</string>
