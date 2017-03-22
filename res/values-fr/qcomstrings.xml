@@ -28,7 +28,7 @@
   <!-- Settings screen, Power Mode title -->
   <string name="pref_camera_powermode_title">Mode d\'alimentation</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_entry_lp">Faible puissance</string>
+  <string name="pref_camera_powermode_entry_lp">Consommation réduite</string>
   <string name="pref_camera_powermode_entry_np">Alimentation normale</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
@@ -79,7 +79,7 @@
   <string name="pref_camera_manual_exp_title">Exposition manuelle</string>
   <string name="pref_camera_manual_exp_entry_ISO_priority">Priorité ISO</string>
   <string name="pref_camera_manual_exp_entry_exptime_priority">Priorité au temps d’exposition</string>
-  <string name="pref_camera_manual_exp_entry_user_setting">Paramètre utilisateur</string>
+  <string name="pref_camera_manual_exp_entry_user_setting">Paramètre d\'utilisateur</string>
   <string name="pref_camera_manual_exp_entry_off">Désactivé</string>
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_title">Balance des blancs manuelle</string>
@@ -93,7 +93,7 @@
   <string name="pref_camera_manual_focus_entry_off">Désactivé</string>
   <!-- Instant Capture entry -->
   <string name="pref_camera_instant_capture_title" translatable="true">Capture instantanée</string>
-  <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">AEC agressive</string>
+  <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">AEC agressif</string>
   <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">AEC rapide</string>
   <string name="pref_camera_instant_capture_entry_disable" translatable="true">Desactiver</string>
   <!-- Instant Capture entry values -->
@@ -101,7 +101,7 @@
   <string name="pref_camera_zsl_entry_off">Désactivé</string>
   <string name="pref_camera_zsl_entry_on">Activé</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
-  <string name="hdr_enable_message">Le HDR est activé, seul le mode scène automatique est pris en charge</string>
+  <string name="hdr_enable_message">HDR est activé, seul le mode scène automatique est pris en charge</string>
   <string name="scene_enable_message">HDR n\'est pas compatible avec les différentes prises de vues, à l\'exception du mode automatique</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">Désactivé</string>
@@ -154,7 +154,7 @@
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Activé</string>
   <string name="pref_camera_redeyereduction_entry_disable">Désactiver</string>
-  <string name="pref_camera_selfiemirror_title" translatable="true">Miroir pour selfie</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Selfie mirror</string>
   <string name="pref_camera_selfiemirror_entry_enable">Activé</string>
   <string name="pref_camera_selfiemirror_entry_disable">Désactiver</string>
   <string name="pref_camera_shuttersound_title" translatable="true">Son de l\'obturateur</string>
@@ -162,7 +162,7 @@
   <string name="pref_camera_shuttersound_entry_disable">Désactivé</string>
   <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
-  <string name="error_app_unsupported_hfr_selection">Haute vitesse/ralenti non pris en charge lors de l\'utilisation de la stabilisation, du ralenti et du HDR.</string>
+  <string name="error_app_unsupported_hfr_selection">Pendant l\'utilisation de la stabilisation, Time lapse ou HDR, l’enregistrement HFR n\'est pas supporté.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
   <string name="error_app_unsupported_hfr">La vidéo au ralenti n\'est pas compatible avec la résolution sélectionnée. Sélectionner une résolution moins élevée</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -172,7 +172,7 @@
   <!-- The message is shown in dialog when the app encounters an unsupported video codec for HFR mode -->
   <string name="error_app_unsupported_hfr_codec">Seul l\'encodage vidéo H.264 est pris en charge lorsque le ralenti est activé</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
-  <string name="error_app_unsupported">Résolution vidéo non pris en charge pour ce type de codec</string>
+  <string name="error_app_unsupported">Résolution vidéo non prise en charge pour ce type de codec</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
   <string name="error_app_unsupported_profile">Profil vidéo non pris en charge</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
@@ -335,7 +335,7 @@
   <!-- Settings screen, Select Histogram title -->
   <string name="pref_camera_histogram_title">Histogramme</string>
   <!-- Settings screen, Histogram radio button choices -->
-  <string name="pref_camera_histogram_entry_enable">Activer</string>
+  <string name="pref_camera_histogram_entry_enable">Activé</string>
   <string name="pref_camera_histogram_entry_disable">Désactiver</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
@@ -355,7 +355,7 @@
   <!-- Settings screen, setting title text for Auto HDR-->
   <string name="pref_camera_auto_hdr_title">HDR Automatique</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
-  <string name="pref_camera_auto_hdr_entry_enable">Activer</string>
+  <string name="pref_camera_auto_hdr_entry_enable">Activé</string>
   <string name="pref_camera_auto_hdr_entry_disable">Desactiver</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Plus assez de mémoire interne, stockage basculé sur la carte SD</string>
@@ -425,7 +425,7 @@
   <string name="help_menu_switcher_2">entre</string>
   <string name="help_menu_switcher_3">appareil photo, vidéo et panorama</string>
   <string name="pref_camera2_camera2_title">Mode Camera2</string>
-  <string name="pref_camera2_camera2_entry_enable">Activer</string>
+  <string name="pref_camera2_camera2_entry_enable">Activé</string>
   <string name="pref_camera2_camera2_entry_disable">Désactiver</string>
   <string name="pref_camera2_mono_only_title">Uniquement en Monochrome</string>
   <string name="pref_camera2_mono_preview_title">Aperçu monochrome</string>

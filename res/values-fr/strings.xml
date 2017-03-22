@@ -141,9 +141,9 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">L\'appareil photo a été désactivé en raison des règles de sécurité.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
-  <string name="error_permissions">L\'application ne dispose pas des autorisations critiques nécessaires à l\'exécution. Veuillez vérifier vos paramètres d\'autorisations.</string>
+  <string name="error_permissions">L\'application n\'a pas les autorisations nécessaires pour s\'exécuter. Veuillez vérifier vos paramètres d\'autorisation.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
-  <string name="dialog_dismiss">Fermer</string>
+  <string name="dialog_dismiss">Refuser</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Veuillez patienter\u2026</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -153,7 +153,7 @@
   <!-- alert to the user that the camera fails to read or write the SD card. -->
   <string name="access_sd_fail" product="default">Impossible d\'accéder à la carte SD.</string>
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
-  <string name="time_lapse_title">Enregistrement en mode accéléré</string>
+  <string name="time_lapse_title">Enregistrement Timelapse</string>
   <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
   <string name="capturing">Prise de vue en cours</string>
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
@@ -163,7 +163,7 @@
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">Frontale</string>
   <!-- Settings screen, setting title text -->
-  <string name="pref_camera_recordlocation_title">Enregistrer le lieu</string>
+  <string name="pref_camera_recordlocation_title">Localisation GPS</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">LIEU</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -301,15 +301,15 @@
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
   <string name="HDR_disable_continuous_shot">L\'HDR désactivera le mode rafale.</string>
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
-  <string name="advanced_capture_disable_continuous_shot">La capture avancée va désactiver le mode rafale.</string>
+  <string name="advanced_capture_disable_continuous_shot">La capture avancée désactivera le mode rafale.</string>
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
-  <string name="video_quality_4k_disable_IS">La qualité vidéo 4K va désactiver la stabilisation d\'image.</string>
+  <string name="video_quality_4k_disable_IS">Le mode vidéo 4K désactivera la stabilisation d\'image.</string>
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
-  <string name="video_quality_4k_disable_SeeMore">SeeMore n\'est pas activable pendant la vidéo 4k.</string>
+  <string name="video_quality_4k_disable_SeeMore">SeeMore ne peut pas être activé pendant l\'enregistrement vidéo 4K.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
-  <string name="disable_CDS_during_HighQualityNoiseReduction">En haute qualité, la réduction du bruit désactivera CDS.</string>
+  <string name="disable_CDS_during_HighQualityNoiseReduction">La réduction du bruit en haute qualité désactivera CDS.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
-  <string name="disable_TNR_during_HighQualityNoiseReduction">En haute qualité, la réduction du bruit désactivera TNR.</string>
+  <string name="disable_TNR_during_HighQualityNoiseReduction">La réduction du bruit en haute qualité désactivera TNR.</string>
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
   <string name="disable_CDS_during_SeeMore">SeeMore désactivera CDS.</string>
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
@@ -354,7 +354,7 @@
   <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
   <string name="pano_review_rendering">Rendu du panorama en cours</string>
   <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
-  <string name="tap_to_focus">Appuyez pour mettre au point.</string>
+  <string name="tap_to_focus">Appuyer pour mettre au point.</string>
   <!-- Default effect setting that clears the effect. -->
   <!-- Title of video effect setting popup window -->
   <string name="pref_video_effect_title">Effets</string>
@@ -379,7 +379,7 @@
   <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
   <string name="effect_backdropper_gallery">Votre vidéo</string>
   <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
-  <string name="video_snapshot_hint">Appuyer ici pour prendre photo pendant enregistrement.</string>
+  <string name="video_snapshot_hint">Toucher pour prendre une photo pendant enregistrement.</string>
   <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
   <string name="video_recording_started">L\'enregistrement vidéo a commencé.</string>
   <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
@@ -407,7 +407,7 @@
   <!-- The button to switch to the Photo Sphere mode. [CHAR LIMIT = NONE] -->
   <string name="accessibility_switch_to_photo_sphere">Basculer sur le mode Photo Sphère</string>
   <!-- The button to switch to the high quality mode. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_switch_to_gcam">Passer en mode Haute qualité</string>
+  <string name="accessibility_switch_to_gcam">Passer en haute qualité</string>
   <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT = NONE] -->
   <string name="accessibility_review_cancel">Examen – Annuler</string>
   <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT = NONE] -->
@@ -422,7 +422,7 @@ CHAR LIMIT = NONE] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_off">Désactivé</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <string name="pref_video_time_lapse_frame_interval_500">1 demi-seconde</string>
+  <string name="pref_video_time_lapse_frame_interval_500">0,5 secondes</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_1000">1 seconde</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -448,7 +448,7 @@ CHAR LIMIT = NONE] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_24000">24 secondes</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <string name="pref_video_time_lapse_frame_interval_30000">1,5 minute</string>
+  <string name="pref_video_time_lapse_frame_interval_30000">0,5 minutes</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_60000">1 minute</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -510,7 +510,7 @@ CHAR LIMIT = NONE] -->
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
   <string name="set_time_interval">Définir l\'intervalle de temps</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
-  <string name="set_time_interval_help">La fonctionnalité d\'intervalle de temps est désactivée. L\'activer pour définir un intervalle.</string>
+  <string name="set_time_interval_help">La fonctionnalité Time lapse est désactivée. Veuillez l\'activer pour définir un intervalle.</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
   <string name="set_duration">Définir la durée en secondes</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
