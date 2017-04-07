@@ -105,6 +105,7 @@
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <string name="maker">Autor</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+  <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Blesk</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
@@ -116,8 +117,10 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Doba expozície</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
   <string name="manual">Ručne</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
@@ -217,6 +220,7 @@
   <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
   <string name="pref_camera_focusmode_entry_macro">Makro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_focusmode_label_auto">AUTO</string>
   <string name="pref_camera_focusmode_label_infinity">NEKONEČNO</string>
   <string name="pref_camera_focusmode_label_macro">MAKRO</string>
   <!-- Default flash mode setting.-->
@@ -246,6 +250,7 @@
   <string name="pref_camera_whitebalance_entry_fluorescent">Žiarivka</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Zamračené</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_whitebalance_label_auto">AUTO</string>
   <string name="pref_camera_whitebalance_label_incandescent">ŽIAROVKA</string>
   <string name="pref_camera_whitebalance_label_daylight">DENNÉ SVETLO</string>
   <string name="pref_camera_whitebalance_label_fluorescent">ŽIARIVKA</string>
@@ -256,7 +261,9 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automaticky</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ ZAPNUTÉ</string>
   <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -321,6 +328,7 @@
   <!-- Default HDR entry value -->
   <!-- Default HDR+ entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">PREDNÝ FOTOAPARÁT</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
