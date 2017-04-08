@@ -374,6 +374,7 @@
   <!--Settings screen, video rotation title-->
   <string name="pref_camera_video_rotation_title">Паварот відэа</string>
   <!--Menu, video rotation label-->
+  <string name="pref_camera_video_rotation_label">ПАВАРОТ ВІДЭА</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
   <string name="pref_camera_video_rotation_entry_0">0 градусаў</string>
   <string name="pref_camera_video_rotation_entry_90">90 градусаў</string>
@@ -387,6 +388,7 @@
   <string name="advance_feature_enable_msg">Бесперапынная здымка не падтрымваецца, калі ўлучаныя пашыраныя функцыі</string>
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">Уключыць камеру</string>
+  <string name="pref_camera_tsmakeup_title">Упрыгожванне</string>
   <string name="pref_camera_tsmakeup_entry_on">Укл.</string>
   <string name="pref_camera_tsmakeup_entry_off">Адключана</string>
   <string name="pref_camera_tsmakeup_entry_low">Нізкі</string>
@@ -396,16 +398,29 @@
   <string name="pref_camera_tsmakeup_level_whiten">Бяліць</string>
   <string name="pref_camera_tsmakeup_level_clean">Змякчаць</string>
   <string name="text_tsmakeup_alert_title">Увага</string>
+  <string name="text_tsmakeup_alert_msg">Неабходна ўключыць распазнаванне асоб для таго, каб выкарыстоўваць функцыю ўпрыгожвання. Вы хочаце працягнуць?</string>
   <string name="text_tsmakeup_alert_continue">Працягнуць</string>
   <string name="text_tsmakeup_alert_quit">Скасаваць</string>
   <string name="text_tsmakeup_beautify_toast">Аўтапаляпшэнне</string>
   <string name="all_in_focus">Усё ў фокусе</string>
   <string name="refocus_toast">Каб перафакусаваць апошняе фота, націсні тут</string>
+  <string name="refocus_prompt_message">З UbiFocus ваша камера будзе рабіць адразу 5 фатаграфій за адзін раз. Пасля гэтага, 5 фатаграфій будуць аб\'яднаны ў адну, дзе ўсе аб\'екты будуць у фокусе. Пасля аб\'яднання вы зможаце выбраць месца факусоўкі на выніковым малюнку.</string>
+  <string name="camera_thermal_shutdown">Перагрэў прылады. Камера будзе адключана.</string>
+  <string name="camera_server_died">Сервер медыя нечакана завяршыў працу. Камера будзе адключана.</string>
+  <string name="camera_unknown_error">Адбылася невядомая памылка. Камера будзе адключана.</string>
+  <string name="mute_button_desc">Кнопка адключэння гуку</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">ОК</string>
   <string name="help_menu_scene_mode_1">Выбраць</string>
   <string name="help_menu_scene_mode_2">Рэжым сцэны</string>
+  <string name="help_menu_scene_mode_3">для паляпшэння фатаграфій</string>
+  <string name="help_menu_color_filter_1">Ужыванне колеру</string>
   <string name="help_menu_color_filter_2">фільтры</string>
+  <string name="help_menu_color_filter_3">для</string>
+  <string name="help_menu_color_filter_4">паляпшэння фатаграфій</string>
+  <string name="help_menu_beautify_1">Паляпшэнне партрэтаў</string>
+  <string name="help_menu_beautify_2">пры дапамозе</string>
+  <string name="help_menu_beautify_3">Функцыя ўпрыгожвання</string>
   <string name="pref_camera2_camera2_entry_enable">Уключыць</string>
   <string name="pref_camera2_camera2_entry_disable">Адключыць</string>
   <string name="pref_camera2_mono_preview_entry_on">Укл.</string>
