@@ -438,6 +438,7 @@
   <string name="pref_camera2_mpo_title">MPO formát</string>
   <string name="pref_camera2_mpo_entry_on">Zapnuto</string>
   <string name="pref_camera2_mpo_entry_off">Vypnuto</string>
+  <string name="pref_camera2_makeup_title">Make-up</string>
   <string name="pref_camera2_noise_reduction_title">Redukce šumu</string>
   <string name="pref_camera2_noise_reduction_entry_off">Vypnuto</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Rychle</string>
