@@ -224,6 +224,7 @@
   <string name="pref_camera_denoise_entry_on">Activado</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
+  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automático</string>
   <string name="pref_camera_iso_entry_isodeblur">Automático (HJR)</string>
@@ -249,6 +250,8 @@
   <string name="pref_camera_filter_mode_title">Efecto de color</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Ninguno</string>
+  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negativo</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Solarizar</string>
@@ -257,6 +260,7 @@
   <string name="pref_camera_coloreffect_entry_emboss">Realzar</string>
   <string name="pref_camera_coloreffect_entry_sketch">Dibujo</string>
   <string name="pref_camera_coloreffect_entry_neon">Neón</string>
+  <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mosaico</string>
   <string name="pref_camera_coloreffect_entry_redtint">Tono en rojo</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Tono en azul</string>
@@ -358,6 +362,7 @@
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">Modo HDR</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
+  <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
   <string name="pref_camera_hdr_mode_entry_multi_frame">HDR de marcos múltiples</string>
   <!-- HDR mode entry values. Do not translate. -->
   <!-- Settings screen, Selectable HDR need 1x frame default value -->
