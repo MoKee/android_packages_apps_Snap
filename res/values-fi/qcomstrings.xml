@@ -123,6 +123,7 @@
   <string name="pref_camera_video_tnr_entry_enable">Ota käyttöön</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
+  <string name="pref_camera_video_hdr_title">Video HDR</string>
   <!-- Settings menu, setting title text for cds mode-->
   <string name="pref_camera_cds_title">CDS-tila</string>
   <!-- Settings menu, setting title text for video cds mode-->
@@ -180,6 +181,7 @@
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Automaattisen valotuksen kiinnitys</string>
   <string name="pref_camera_ae_bracket_hdr_title">Automaattisen valotuksen kiinnitys</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Käytössä</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">Pois</string>
   <string name="err_app_unsupport_ae_bracket_code">AE-kiinnitystä ei tueta vielä</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">Videon pikakuvan koko on pienempi kuin videon koko, Valitse suurempi tai yhtä suuri resloluutio kuin videossa.</string>
@@ -222,15 +224,23 @@
   <string name="pref_camera_denoise_entry_on">Käytössä</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
+  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automaattinen</string>
   <string name="pref_camera_iso_entry_isodeblur">Automaattinen (HJR)</string>
+  <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
+  <string name="pref_camera_antibanding_title">Antibanding</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Pois käyt.</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Eurooppa)</string>
+  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
   <string name="pref_camera_antibanding_entry_3">Automaattinen</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Käytössä</string>
@@ -248,6 +258,7 @@
   <string name="pref_camera_coloreffect_entry_aqua">Vesi</string>
   <string name="pref_camera_coloreffect_entry_emboss">Kohota</string>
   <string name="pref_camera_coloreffect_entry_sketch">Luonnos</string>
+  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
   <string name="pref_camera_coloreffect_entry_pastel">Pastelli</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mosaiikki</string>
   <string name="pref_camera_coloreffect_entry_redtint">Punainen sävy</string>
@@ -341,6 +352,7 @@
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">Salamaa ei tueta AE bracketing-tilassa</string>
   <!-- Settings screen, setting title text for Auto HDR-->
+  <string name="pref_camera_auto_hdr_title">Automaattinen HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Ota käyttöön</string>
   <string name="pref_camera_auto_hdr_entry_disable">Poista käytöstä</string>
@@ -350,6 +362,7 @@
   <string name="pref_camera_hdr_mode_title">HDR-tila</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
   <string name="pref_camera_hdr_mode_entry_sensor">Sensori-HDR</string>
+  <string name="pref_camera_hdr_mode_entry_multi_frame">Monikehys HDR</string>
   <!-- HDR mode entry values. Do not translate. -->
   <!-- Settings screen, Selectable HDR need 1x frame default value -->
   <!-- Settings screen, Selectable HDR need 1x frame title -->
@@ -396,6 +409,7 @@
   <string name="camera_unknown_error">Tuntematon virhe, suljetaan kamera.</string>
   <string name="mute_button_desc">Vaimennuspainike</string>
   <!-- Help menu strings -->
+  <string name="help_menu_ok">OK</string>
   <string name="help_menu_scene_mode_1">Valitse</string>
   <string name="help_menu_scene_mode_2">Kuvaustila</string>
   <string name="help_menu_scene_mode_3">ottaaksesi parempia kuvia</string>
