@@ -40,15 +40,12 @@
   <string name="pref_camera_focusmode_entry_facepriority">Fytyra prioritet</string>
   <string name="pref_camera_focusmode_entry_fixed">E fiksuar</string>
   <string name="pref_camera_focusmode_entry_normal">Normale</string>
+  <string name="pref_camera_focusmode_entry_portrait">Portret</string>
   <!-- Color effects -->
   <!-- Red eye flash mode title -->
   <!-- Power shutter -->
   <!-- Max brightness -->
   <!-- Touch focus duration -->
-  <string name="pref_camera_focustime_entry_0">0s</string>
-  <string name="pref_camera_focustime_entry_3">3s</string>
-  <string name="pref_camera_focustime_entry_5">5s</string>
-  <string name="pref_camera_focustime_entry_10">10s</string>
   <!-- Shutter speed -->
   <string name="pref_camera_shutter_speed_title">Shpejtësia e shkrepjes</string>
   <string name="auto_hdr_enabled">HDR automatik i aktivizuar</string>
