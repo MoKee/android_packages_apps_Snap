@@ -26,7 +26,10 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
+  <string name="pref_camera_powermode_title">وضع الطاقة</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_entry_lp">طاقة منخفضة</string>
+  <string name="pref_camera_powermode_entry_np">طاقة عادية</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
@@ -292,6 +295,8 @@
   <!-- Settings screen, Picture quality title -->
   <string name="pref_camera_jpegquality_title">جودة الصورة</string>
   <!-- Settings screen, Picture quality dialog radio button choices -->
+  <string name="pref_camera_jpegquality_entry_0">منخفض</string>
+  <string name="pref_camera_jpegquality_entry_2">مرتفع</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
   <string name="pref_camera_histogram_title">مدرج تكراري</string>
@@ -345,6 +350,8 @@
   <string name="camera_gesture_title">تشغيل الكاميرا</string>
   <string name="pref_camera_tsmakeup_entry_on">تشغيل</string>
   <string name="pref_camera_tsmakeup_entry_off">إيقاف تشغيل</string>
+  <string name="pref_camera_tsmakeup_entry_low">منخفض</string>
+  <string name="pref_camera_tsmakeup_entry_high">مرتفع</string>
   <string name="text_tsmakeup_alert_continue">متابعة</string>
   <string name="text_tsmakeup_alert_quit">إلغاء</string>
   <string name="all_in_focus">كل شيء في التركيز</string>
