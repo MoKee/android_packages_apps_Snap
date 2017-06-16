@@ -1262,10 +1262,17 @@ public class PhotoModule extends BaseModule<PhotoUI> implements
         }
     }
 
-    private byte[] flipJpeg(byte[] jpegData) {
+    private byte[] flipJpeg(byte[] jpegData, int orientation, int jpegOrientation) {
         Bitmap srcBitmap = BitmapFactory.decodeByteArray(jpegData, 0, jpegData.length);
         Matrix m = new Matrix();
-        m.preScale(-1, 1);
+        if(orientation == 270 || orientation == 90) {
+            // Judge whether the picture or phone is horizontal screen
+            if (jpegOrientation == 0 || jpegOrientation == 180) {
+                m.preScale(-1, 1);
+            } else { // the picture or phone is Vertical screen
+                m.preScale(1, -1);
+            }
+        }
         Bitmap dstBitmap = Bitmap.createBitmap(srcBitmap, 0, 0, srcBitmap.getWidth(), srcBitmap.getHeight(), m, false);
         dstBitmap.setDensity(DisplayMetrics.DENSITY_DEFAULT);
         int size = dstBitmap.getWidth() * dstBitmap.getHeight();
@@ -1273,6 +1280,18 @@ public class PhotoModule extends BaseModule<PhotoUI> implements
         dstBitmap.compress(Bitmap.CompressFormat.JPEG, 100, outStream);
 
         return outStream.toByteArray();
+    }
+
+    public static byte[] addExifTags(byte[] jpeg, int orientationInDegree) {
+        ExifInterface exif = new ExifInterface();
+        exif.addOrientationTag(orientationInDegree);
+        ByteArrayOutputStream jpegOut = new ByteArrayOutputStream();
+        try {
+            exif.writeExif(jpeg, jpegOut);
+        } catch (IOException e) {
+            Log.e(TAG, "Could not write EXIF", e);
+        }
+        return jpegOut.toByteArray();
     }
 
     private final class JpegPictureCallback
@@ -1415,9 +1434,8 @@ public class PhotoModule extends BaseModule<PhotoUI> implements
                             .findPreference(CameraSettings.KEY_SELFIE_MIRROR);
                     if (selfieMirrorPref != null && selfieMirrorPref.getValue() != null &&
                             selfieMirrorPref.getValue().equalsIgnoreCase("enable")) {
-                        jpegData = flipJpeg(jpegData);
-                        exif = Exif.getExif(jpegData);
-                        exif.addOrientationTag(orientation);
+                        jpegData = flipJpeg(jpegData, info.orientation, orientation);
+                        jpegData = addExifTags(jpegData, orientation);
                     }
                 }
                 if (!mIsImageCaptureIntent) {

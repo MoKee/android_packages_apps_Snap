@@ -544,8 +544,6 @@ public class CaptureModule extends BaseModule<CaptureUI> implements PhotoControl
                 // AF_PASSIVE is added for continous auto focus mode
                 if (CaptureResult.CONTROL_AF_STATE_FOCUSED_LOCKED == afState ||
                         CaptureResult.CONTROL_AF_STATE_NOT_FOCUSED_LOCKED == afState ||
-                        CaptureResult.CONTROL_AF_STATE_PASSIVE_FOCUSED == afState ||
-                        CaptureResult.CONTROL_AF_STATE_PASSIVE_UNFOCUSED == afState ||
                         (mLockRequestHashCode[id] == result.getRequest().hashCode() &&
                                 afState == CaptureResult.CONTROL_AF_STATE_INACTIVE)) {
                     if(id == MONO_ID && getCameraMode() == DUAL_MODE && isBackCamera()) {
@@ -640,6 +638,11 @@ public class CaptureModule extends BaseModule<CaptureUI> implements PhotoControl
             mState[id] = STATE_PICTURE_TAKEN;
             captureStillPicture(id);
         }
+    }
+
+    public void unRegisterSettingsListener(){
+        mSettingsManager.unregisterListener(this);
+        mSettingsManager.unregisterListener(mUI);
     }
 
     public void startFaceDetection() {
@@ -1179,10 +1182,12 @@ public class CaptureModule extends BaseModule<CaptureUI> implements PhotoControl
 
             Location location = mLocationManager.getCurrentLocation();
             if(location != null) {
-                Log.d(TAG, "captureStillPicture gps: " + location.toString());
+                // make copy so that we don't alter the saved location since we may re-use it
+                location = new Location(location);
                 // workaround for Google bug. Need to convert timestamp from ms -> sec
                 location.setTime(location.getTime()/1000);
                 captureBuilder.set(CaptureRequest.JPEG_GPS_LOCATION, location);
+                Log.d(TAG, "captureStillPicture gps: " + location.toString());
             } else {
                 Log.d(TAG, "captureStillPicture no location - getRecordLocation: " + getRecordLocation());
             }
@@ -1780,6 +1785,7 @@ public class CaptureModule extends BaseModule<CaptureUI> implements PhotoControl
             mState[i] = STATE_PREVIEW;
         }
         mLongshotActive = false;
+        mZoomValue = 1.0f;
     }
 
     private void setCurrentMode() {
@@ -2280,13 +2286,11 @@ public class CaptureModule extends BaseModule<CaptureUI> implements PhotoControl
     private void updatePictureSize() {
         String pictureSize = mSettingsManager.getValue(SettingsManager.KEY_PICTURE_SIZE);
         mPictureSize = parsePictureSize(pictureSize);
-        Point screenSize = new Point();
-        mActivity.getWindowManager().getDefaultDisplay().getSize(screenSize);
         Size[] prevSizes = mSettingsManager.getSupportedOutputSize(getMainCameraId(),
                 SurfaceHolder.class);
-        mPreviewSize = getOptimalPreviewSize(mPictureSize, prevSizes, screenSize.x, screenSize.y);
+        mPreviewSize = getOptimalPreviewSize(mPictureSize, prevSizes);
         Size[] thumbSizes = mSettingsManager.getSupportedThumbnailSizes(getMainCameraId());
-        mPictureThumbSize = getOptimalPreviewSize(mPictureSize, thumbSizes, 0, 0); // get largest thumb size
+        mPictureThumbSize = getOptimalPreviewSize(mPictureSize, thumbSizes); // get largest thumb size
     }
 
     public boolean isRecordingVideo() {
@@ -2308,23 +2312,22 @@ public class CaptureModule extends BaseModule<CaptureUI> implements PhotoControl
     private void updateVideoSize() {
         String videoSize = mSettingsManager.getValue(SettingsManager.KEY_VIDEO_QUALITY);
         mVideoSize = parsePictureSize(videoSize);
-        Point screenSize = new Point();
-        mActivity.getWindowManager().getDefaultDisplay().getSize(screenSize);
         Size[] prevSizes = mSettingsManager.getSupportedOutputSize(getMainCameraId(),
                 MediaRecorder.class);
-        mVideoPreviewSize = getOptimalPreviewSize(mVideoSize, prevSizes, screenSize.x, screenSize.y);
+        mVideoPreviewSize = getOptimalPreviewSize(mVideoSize, prevSizes);
     }
 
     private void updateVideoSnapshotSize() {
-        String auto = mSettingsManager.getValue(SettingsManager.KEY_AUTO_VIDEOSNAP_SIZE);
-        if (auto != null && auto.equals("enable")) {
-            Size[] sizes = mSettingsManager.getSupportedOutputSize(getMainCameraId(), ImageFormat.JPEG);
-            mVideoSnapshotSize = getMaxSizeWithRatio(sizes, mVideoSize);
-        } else {
-            mVideoSnapshotSize = mPictureSize;
+        mVideoSnapshotSize = mVideoSize;
+        if (is4kSize(mVideoSize) && is4kSize(mVideoSnapshotSize)) {
+            mVideoSnapshotSize = getMaxPictureSizeLessThan4k();
         }
         Size[] thumbSizes = mSettingsManager.getSupportedThumbnailSizes(getMainCameraId());
-        mVideoSnapshotThumbSize = getOptimalPreviewSize(mVideoSnapshotSize, thumbSizes, 0, 0); // get largest thumb size
+        mVideoSnapshotThumbSize = getOptimalPreviewSize(mVideoSnapshotSize, thumbSizes); // get largest thumb size
+    }
+
+    private boolean is4kSize(Size size) {
+        return (size.getHeight() >= 2160 || size.getWidth() >= 3840);
     }
 
     private void updateMaxVideoDuration() {
@@ -3376,37 +3379,44 @@ public class CaptureModule extends BaseModule<CaptureUI> implements PhotoControl
         }
     }
 
-    private Size getOptimalPreviewSize(Size pictureSize, Size[] prevSizes, int screenW, int
-            screenH) {
-        if (pictureSize.getWidth() <= screenH && pictureSize.getHeight() <= screenW) {
-            return pictureSize;
+    private Size getOptimalPreviewSize(Size pictureSize, Size[] prevSizes) {
+        Point[] points = new Point[prevSizes.length];
+
+        double targetRatio = (double) pictureSize.getWidth() / pictureSize.getHeight();
+        int index = 0;
+        for (Size s : prevSizes) {
+            points[index++] = new Point(s.getWidth(), s.getHeight());
         }
-        Size optimal = prevSizes[0];
-        float ratio = (float) pictureSize.getWidth() / pictureSize.getHeight();
-        for (Size prevSize: prevSizes) {
-            float prevRatio = (float) prevSize.getWidth() / prevSize.getHeight();
-            if (Math.abs(prevRatio - ratio) < 0.01) {
-                // flip w and h
-                if (prevSize.getWidth() <= screenH && prevSize.getHeight() <= screenW &&
-                        prevSize.getWidth() <= pictureSize.getWidth() && prevSize.getHeight() <= pictureSize.getHeight()) {
-                    return prevSize;
-                } else {
-                    optimal = prevSize;
+
+        int optimalPickIndex = CameraUtil.getOptimalPreviewSize(mActivity, points, targetRatio);
+        return (optimalPickIndex == -1) ? null : prevSizes[optimalPickIndex];
+    }
+
+    private Size getMaxPictureSizeLessThan4k() {
+        Size[] sizes = mSettingsManager.getSupportedOutputSize(getMainCameraId(), ImageFormat.JPEG);
+        float ratio = (float) mVideoSize.getWidth() / mVideoSize.getHeight();
+        Size optimalSize = null;
+        for (Size size : sizes) {
+            if (is4kSize(size)) continue;
+            float pictureRatio = (float) size.getWidth() / size.getHeight();
+            if (Math.abs(pictureRatio - ratio) > 0.01) continue;
+            if (optimalSize == null || size.getWidth() > optimalSize.getWidth()) {
+                optimalSize = size;
+            }
+        }
+
+        // Cannot find one that matches the aspect ratio. This should not happen.
+        // Ignore the requirement.
+        if (optimalSize == null) {
+            Log.w(TAG, "No picture size match the aspect ratio");
+            for (Size size : sizes) {
+                if (is4kSize(size)) continue;
+                if (optimalSize == null || size.getWidth() > optimalSize.getWidth()) {
+                    optimalSize = size;
                 }
             }
         }
-        return optimal;
-    }
-
-    private Size getMaxSizeWithRatio(Size[] sizes, Size reference) {
-        float ratio = (float) reference.getWidth() / reference.getHeight();
-        for (Size size : sizes) {
-            float prevRatio = (float) size.getWidth() / size.getHeight();
-            if (Math.abs(prevRatio - ratio) < 0.01) {
-                return size;
-            }
-        }
-        return sizes[0];
+        return optimalSize;
     }
 
     public TrackingFocusRenderer getTrackingForcusRenderer() {
