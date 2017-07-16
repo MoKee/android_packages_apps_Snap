@@ -333,6 +333,7 @@
   <string name="pref_camera_jpegquality_entry_2">Visoka</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
+  <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Omogoči</string>
   <string name="pref_camera_histogram_entry_disable">Onemogoči</string>
