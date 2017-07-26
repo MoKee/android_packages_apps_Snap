@@ -410,7 +410,7 @@
   <string name="camera_unknown_error">未知错误，正在关闭相机。</string>
   <string name="mute_button_desc">静音按钮</string>
   <!-- Help menu strings -->
-  <string name="help_menu_ok">确认</string>
+  <string name="help_menu_ok">确定</string>
   <string name="help_menu_scene_mode_1">已选择</string>
   <string name="help_menu_scene_mode_2">取景模式</string>
   <string name="help_menu_scene_mode_3">为更好的图片</string>

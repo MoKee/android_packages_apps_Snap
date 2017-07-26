@@ -59,11 +59,13 @@
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
   <string name="crop_saved">Apkarpytas vaizdas išsaugotas aplanke <xliff:g id="FOLDER_NAME">%s</xliff:g>.</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
+  <string name="title">Pavadinimas</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
   <string name="description">Apibūdinimas</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
   <string name="time">Laikas</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
+  <string name="location">Vietovė</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
   <string name="path">Kelias</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
@@ -376,11 +378,13 @@ CHAR LIMIT = NONE] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_2500">2,5 sek.</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_3000">3 sek.</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_4000">4 sek.</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_5000">5 sek.</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_6000">6 sek.</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_10000">10 sek.</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->

@@ -395,6 +395,8 @@
   <string name="pref_camera_tsmakeup_entry_mid">Media</string>
   <string name="pref_camera_tsmakeup_entry_high">Alta</string>
   <string name="pref_camera_tsmakeup_custom">Personalizado</string>
+  <string name="pref_camera_tsmakeup_level_whiten">Blanqueado</string>
+  <string name="pref_camera_tsmakeup_level_clean">Suavizado</string>
   <string name="text_tsmakeup_alert_title">Aviso</string>
   <string name="text_tsmakeup_alert_msg">La detección de cara tiene que estar activada para usar el embellecimiento. ¿Quieres continuar?</string>
   <string name="text_tsmakeup_alert_continue">Continuar</string>

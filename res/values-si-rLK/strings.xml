@@ -74,11 +74,13 @@
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
   <string name="crop_saved"><xliff:g id="FOLDER_NAME">%s</xliff:g> වෙත කප්පාදු කළ පින්තුරය සුරැකිණි.</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
+  <string name="title">පටබැඳිනාමය</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
   <string name="description">විස්තරය</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
   <string name="time">කාලය</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
+  <string name="location">ස්ථානය</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
   <string name="path">මග</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->

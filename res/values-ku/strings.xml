@@ -16,85 +16,163 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
+  <string name="app_name">کامێرا</string>
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
+  <string name="set_image">دانانی وێنە وەکوو</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
+  <string name="delete">سڕینه‌وه‌</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+  <plurals name="delete_selection">
+    <item quantity="one">سڕینەوەی بڕگه‌ی دیاریکراو؟</item>
+    <item quantity="other">سڕینەوەی بڕگه‌ دیاریکراوەکان؟</item>
+  </plurals>
+  <string name="share">به‌شداری پێکردن</string>
+  <string name="share_panorama">هاوبەشیکردنی پانۆراما</string>
+  <string name="share_as_photo">هاوبەشیکردن وەکوو وێنە</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
+  <string name="deleted">سڕایەوە</string>
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
+  <string name="undo">پاشگەزبوونەوە</string>
+  <string name="details">زانیاری زیاتر</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_items_selected">
+    <item quantity="one">%1$d دیاریکرا</item>
+    <item quantity="other">%1$d دیاریکراون</item>
+  </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_albums_selected">
+    <item quantity="one">%1$d دیاریکرا</item>
+    <item quantity="other">%1$d دیاریکراون</item>
+  </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_groups_selected">
+    <item quantity="one">%1$d دیاریکرا</item>
+    <item quantity="other">%1$d دیاریکراون</item>
+  </plurals>
   <!-- String indicating timestamp of photo or video -->
+  <string name="show_on_map">پیشاندانی لەسەر نەخشە</string>
+  <string name="rotate_left">سووڕاندنەوە بۆ چەپ</string>
+  <string name="rotate_right">سووڕاندنەوە بۆ ڕاست</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
+  <string name="crop_action">قرتاندن</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
+  <string name="trim_action">بڕین</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
+  <string name="set_as">دانان وەکوو</string>
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
+  <string name="video_err">ناتوانرێت ڤیدۆکە لێبدرێت.</string>
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
+  <string name="crop_saved">
+        وێنەی قرتێنراو پاشەکەوت کرا بۆ <xliff:g id="folder_name">%s</xliff:g>.</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
+  <string name="title">سەردێڕ</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
+  <string name="description">پێناسه</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
+  <string name="time">کات</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
+  <string name="location">شوێن</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
+  <string name="path">ڕێچکە</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
+  <string name="width">پانی</string>
   <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
+  <string name="height">بەرزی</string>
   <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
+  <string name="orientation">ڕووتێکەری</string>
   <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=18] -->
+  <string name="duration">ماوه‌</string>
   <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
+  <string name="mimetype">جۆری MIME</string>
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
+  <string name="file_size">ئەندازە پەڕگە</string>
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
+  <string name="maker">دروستکەر</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+  <string name="model">مۆدێل</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
+  <string name="flash">فلاش</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
+  <string name="aperture">دیافراگم</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
+  <string name="focal_length">درێژیی تیشکۆیی</string>
   <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=18] -->
+  <string name="white_balance">هاوسەنگیی سپی</string>
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
+  <string name="exposure_time">کاتی ڕووناککردنەوە</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">م‌م</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
+  <string name="auto">خۆکارانه</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
+  <string name="flash_on">فلاش لێدرا</string>
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
+  <string name="flash_off">بێ فلاش</string>
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
+  <string name="try_to_set_local_album_available_offline">
+        ئەم بڕگەیە له‌ ناوخۆدا پاشەکەوتکراوە و به‌بێ هێڵیش به‌رده‌سته‌.</string>
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
+  <string name="please_wait">تکایه‌ چاوه‌ڕێ بکە</string>
   <!-- Text to show with progress bar while stitching a photo sphere. 'Photo sphere' is a product name. [CHAR LIMIT=35]-->
   <!-- title for the dialog showing the error of camera hardware -->
+  <string name="camera_error_title">هەڵەی کامێرا</string>
   <!-- message for the dialog showing the error of camera hardware -->
+  <string name="cannot_connect_camera">ناتوانێت ببەسترێتەوە بە کامێراوە.</string>
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
+  <string name="camera_disabled">کامێرا بە هۆکاری پلانی پاراستنەوە  نەتوانا کراوە.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
   <!-- alert to the user to wait for some operation to complete -->
+  <string name="wait">تکایە چاوەڕێ بکە\u2026</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
+  <string name="no_storage" product="default">پێش بەکارهێنانی کامێرا بیرگەی دەرەکی تێبخە.</string>
   <!-- alert to the user that the SD card is being disk-checked -->
+  <string name="preparing_sd" product="default">ئامادەکردنی بیرگەی دەرەکی\u2026</string>
   <!-- alert to the user that the camera fails to read or write the SD card. -->
+  <string name="access_sd_fail" product="default">نەتوانرا دەست بگەیەنێتە بیرگەی دەرەکی.</string>
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
+  <string name="time_lapse_title">تۆمارکردنی تێپەڕبوونی کات</string>
   <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
+  <string name="pref_camera_id_title">کامێرا هەڵبژێرە</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
+  <string name="pref_camera_id_entry_front">پێشەوە</string>
   <!-- Settings screen, setting title text -->
   <!--  Label for record location preference [CHAR LIMIT=50] -->
+  <string name="pref_camera_location_label">شوێن</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
+  <string name="pref_camera_timer_title">کاتژمێری بەرەوژێرژمار</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
+  <plurals name="pref_camera_timer_entry">
+    <item quantity="one">١ چرکە</item>
+    <item quantity="other">%d چرکە</item>
+  </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
+  <string name="pref_camera_timer_sound_title">توتە لە ماوەی ژماردنی بەرەوژێر</string>
   <!-- Entry of camera save path -->
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
+  <string name="setting_on">هەڵکردن</string>
   <!-- The value of a camera preference indicating the setting is off. -->
   <!-- The value of a camera preference indicating the setting is on. -->
   <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
+  <string name="pref_video_quality_title">جۆرایه‌تیی کامێرا</string>
   <!-- The default quality value is NULL -->
   <!-- Video quality setting entry.
     Videos will be recorded in 4k DCI quality. [CHAR LIMIT=24] -->
@@ -107,30 +185,56 @@
   <!-- Video quality setting entry. Videos will be recorded in 2K quality. [CHAR LIMIT=24] -->
   <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_title">کات تێپەڕبوون</string>
   <!-- Settings screen, Camera setting category title -->
+  <string name="pref_camera_settings_category">ڕێکخستنەکانی کامێرا</string>
   <!-- Settings screen, Camcorder setting category title -->
+  <string name="pref_camcorder_settings_category">ڕێکخستنەکانی کامێرای هەڵگرتەنی</string>
   <!-- Settings screen, Picture size title -->
+  <string name="pref_camera_picturesize_title">قەبارەی وێنە</string>
   <!-- Settings screen, Focus mode title -->
+  <string name="pref_camera_focusmode_title">شێوازی سەرنجدان</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
+  <string name="pref_camera_focusmode_entry_auto">خۆکارانه</string>
   <!-- A setting that lets the camera focus into infinity. [CHAR LIMIT=20] -->
   <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_focusmode_label_auto">خۆکارانە</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
+  <string name="pref_camera_flashmode_title">فلاش</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
+  <string name="pref_camera_flashmode_entry_auto">خۆکارانه</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
+  <string name="pref_camera_flashmode_entry_on">هەڵکردن</string>
   <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_flashmode_label_auto">فلاشی خۆکار</string>
+  <string name="pref_camera_flashmode_label_on">فلاش هەڵە</string>
+  <string name="pref_camera_flashmode_label_off">فلاش کوژاوەیە</string>
   <!-- Default videocamera flash mode setting.-->
   <!-- Default white balance setting. -->
   <!-- Settings screen, white balance title -->
+  <string name="pref_camera_whitebalance_title">هاوسەنگیی سپی</string>
   <!-- Menu, white balance label -->
+  <string name="pref_camera_whitebalance_label">هاوسه‌نگیی سپێتی</string>
   <!-- Settings screen, White balance dialog radio button choices -->
+  <string name="pref_camera_whitebalance_entry_auto">خۆکارانه</string>
+  <string name="pref_camera_whitebalance_entry_incandescent">درەوشاوە</string>
+  <string name="pref_camera_whitebalance_entry_daylight">ڕۆژی ڕووناک</string>
+  <string name="pref_camera_whitebalance_entry_fluorescent">تيشكاوى</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_whitebalance_label_auto">خۆکارانە</string>
+  <string name="pref_camera_whitebalance_label_incandescent">درەوشاوە</string>
+  <string name="pref_camera_whitebalance_label_daylight">ڕۆژی ڕووناک</string>
+  <string name="pref_camera_whitebalance_label_fluorescent">تيشكاوى</string>
+  <string name="pref_camera_whitebalance_label_cloudy">هەوری</string>
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
+  <string name="pref_camera_scenemode_title">شێوازی دیمەن</string>
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_auto">خۆکارانه</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -138,21 +242,35 @@
   <!-- Scene mode to turn on HDR (high dynamic range) [CHAR LIMIT=50] -->
   <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_action">چالاکی</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_sunset">خۆراوابوون</string>
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_party">میوانی</string>
   <!-- Scene mode for refocus feature [CHAR LIMIT=16] -->
   <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_label_auto">هیچیان</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_label_action">چالاکی</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_label_night">شەو</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_label_sunset">خۆراوابوون</string>
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_label_party">میوانی</string>
   <!-- Settings menu countdown timer off [CHAR LIMIT=50] -->
+  <string name="pref_camera_countdown_label_off">کوژاندنەوەی کاتڕاگر</string>
   <!-- Settings menu countdown timer 1 second [CHAR LIMIT=50] -->
+  <string name="pref_camera_countdown_label_one">١ چرکە</string>
   <!-- Settings menu countdown timer 3 seconds [CHAR LIMIT=50] -->
+  <string name="pref_camera_countdown_label_three">٣ چرکە</string>
   <!-- Settings menu countdown timer 10 seconds [CHAR LIMIT=50] -->
+  <string name="pref_camera_countdown_label_ten">١٠ چرکە</string>
   <!-- Settings menu countdown timer 15 seconds [CHAR LIMIT=50] -->
+  <string name="pref_camera_countdown_label_fifteen">١٥ چرکە</string>
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
+  <string name="not_selectable_in_scene_mode">لە شیوازی دیمەندا دیارینەکراوەیە.</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
@@ -163,124 +281,223 @@
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
   <!-- Exposure settings in preference -->
+  <string name="pref_exposure_title">ڕووناکیپێدان</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
+  <string name="pref_exposure_label">ڕۆشنایی پێدان</string>
   <!-- Default HDR entry value -->
   <!-- Default HDR+ entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
   <!-- switch camera label back [CHAR LIMIT=60] -->
+  <string name="pref_camera_id_label_back">کامێرای پێشەوە</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
+  <string name="pref_camera_id_label_front">کامێرای دواوە</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
+  <string name="spaceIsLow_content" product="default">بۆشاییی بیرگەی دەرەکیت بەرەو تەواوبوون دەڕوات. ڕێکخستنەکانی جۆرێتی بگۆڕە یان هەندێک وێنە یان دیکەی پەڕگەکان بسڕەوە.</string>
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
   <!-- Filename prefix for panorama output. -->
   <!-- The message shown when video record reaches size limit. -->
+  <string name="video_reach_size_limit">قەبارە گەیشتۆتە سنوور.</string>
   <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=16] -->
+  <string name="pano_too_fast_prompt">زۆر خێرا</string>
   <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
+  <string name="pano_dialog_prepare_preview">ئامادەکردنی پانۆراما</string>
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
+  <string name="pano_dialog_panorama_failed">نەیتوانی پانۆراما پاشەکەوت بکات.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
+  <string name="pano_dialog_title">پانۆراما</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
+  <string name="pano_capture_indication">گرتنی پانۆراما</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
+  <string name="pano_dialog_waiting_previous">چاوەڕێکردن بۆ پانۆرامای پێشوو</string>
   <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
+  <string name="pano_review_saving_indication_str">پاشەکەوتکردن\u2026</string>
   <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
+  <string name="pano_review_rendering">نواندنی پانۆرامایی</string>
   <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
+  <string name="tap_to_focus">بیسوو بۆ سەرنجدان.</string>
   <!-- Default effect setting that clears the effect. -->
   <!-- Title of video effect setting popup window -->
+  <string name="pref_video_effect_title">کاریگه‌رییه‌کان</string>
   <!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
+  <string name="effect_none">هیچیان</string>
   <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_squeeze">گوشین</string>
   <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_big_eyes">چاوی گەورە</string>
   <!-- Effect setting item that makes mouth big. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_big_mouth">دەمی گەورە</string>
   <!-- Effect setting item that makes mouth small. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_small_mouth">دەمی بچوک</string>
   <!-- Effect setting item that makes nose big. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_big_nose">لوتی گەورە</string>
   <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_small_eyes">چاوی بچوک</string>
   <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
+  <string name="effect_backdropper_space">لە بۆشایی</string>
   <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
+  <string name="effect_backdropper_sunset">خۆراوابوون</string>
   <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
+  <string name="effect_backdropper_gallery">ڤیدیۆکه‌ت</string>
   <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
+  <string name="video_snapshot_hint">له‌ کاتی تۆمارکردندا بیسوو بۆ وێنه‌گرتن.</string>
   <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
+  <string name="video_recording_started">تۆمارکردنی ڤیدیۆ دەستی پێکردووه‌.</string>
   <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
+  <string name="video_recording_stopped">تۆمارکردنی ڤیدیۆ وەستاوه‌.</string>
   <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
+  <string name="clear_effects">پاککردنەوەی کاریگەرییەکان</string>
   <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
+  <string name="effect_silly_faces">ڕووخساری گەمژانه‌</string>
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
+  <string name="effect_background">پاشبنەما</string>
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
   <!-- The menu button. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_menu_button">دوگمەی پێڕست</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_mode_picker">کامێرا، ڤیدیۆ یان هەڵبژێرەری پانۆراما</string>
   <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_check_box">%1$s خانه‌ی پیاچوونه‌وه‌</string>
   <!-- The button to switch to Camera mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_camera">گۆڕان بۆ وێنە</string>
   <!-- The button to switch to Video mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_video">گۆڕان بۆ ڤیدیۆ</string>
   <!-- The button to switch to Panorama mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_panorama">گۆڕان بۆ پانۆراما</string>
   <!-- The button to switch to the Photo Sphere mode. [CHAR LIMIT = NONE] -->
   <!-- The button to switch to the high quality mode. [CHAR LIMIT = NONE] -->
   <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT = NONE] -->
+  <string name="accessibility_review_cancel">چاوپێداگێڕانەوەی هەڵوەشاندنەوە</string>
   <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT = NONE] -->
+  <string name="accessibility_review_ok">چاوپێداگێڕانەوە کرا</string>
   <!-- button in review mode indicate the user want to retake another photo/video for attachment [
 CHAR LIMIT = NONE] -->
+  <string name="accessibility_review_retake">چاوپێداگێڕانەوەی وێنەگرتنەوە</string>
   <!-- Default text for a button that can be toggled on and off. -->
+  <string name="capital_on">هەڵکردن</string>
   <!-- Default text for a button that can be toggled on and off. -->
+  <string name="capital_off">کوژاندن</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_500">٠.٥ چرکه‌</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_1000">١ چرکە</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_1500">١.٥ چرکە</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_2000">٢ چرکه‌</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_2500">٢.٥  چرکە</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_3000">3 چرکە</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_4000">٤ چرکه‌</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_5000">٥ چرکە</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_6000">6 چرکە</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_10000">١٠ چرکە</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_12000">١٢ چرکە</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_15000">١٥ چرکە</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_24000">٢٤ چرکە</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_30000">٠.٥ خولەک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_60000">١ خوله‌ک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_90000">١.٥ خولەک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_120000">٢ خولەک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_150000">٢.٥ خولەک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_180000">٣ خولەک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_240000">٤ خولەک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_300000">٥ خوله‌ک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_360000">٦ خولەک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_600000">١٠ خولەک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_720000">١٢ خولەک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_900000">١٥ خوله‌ک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_1440000">٢٤ خولەک</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_1800000">٠.٥ کاژێر</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_3600000">١ کاژێر</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_5400000">١.٥ کاژێر</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_7200000">٢ کاژێر</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_9000000">٢.٥ کاژێر</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_10800000">٣ کاژێر</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_14400000">٤ کاژێر</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_18000000">٥ کاژێر</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_21600000">٦ کاژێر</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_36000000">١٠ کاژێر</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_43200000">١٢ کاژێر</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_54000000">١٥ کاژێر</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_86400000">٢٤ کاژێر</string>
   <!-- Seconds: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_seconds">چرکە</string>
   <!-- Minutes: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_minutes">خولەک</string>
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_hours">کاژێر</string>
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
+  <string name="set_time_interval">دانانی مەودای کات</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
+  <string name="set_time_interval_help">تایبەتمەندیی تێپەڕینی کات کوژاوەیە. هەڵی بکە بۆ دانانی مەودای کات.</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
+  <string name="set_duration">دانانی ماوە لە چەند چرکەدا</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
+  <string name="count_down_title_text">ژماردنی بەرەوژێر تاوەکوو گرتنی وێنە</string>
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
+  <string name="remember_location_title">شوێنی وێنه‌کانت له‌ یاده‌؟</string>
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
+  <string name="remember_location_prompt">وێنە و ڤيديۆکانت به شوێنی گرتنه‌کانیانه‌وه‌ پینە بکە. \n\nبەرنامەکانی تر دەتوانن دەست پێ راگەیەنن به‌م زانیارییه‌وه‌ کە له‌گه‌ڵ وێنه‌ پاشه‌که‌وتکراوه‌کانتدایە.</string>
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+  <string name="remember_location_no">نا سپاس</string>
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
+  <string name="camera_menu_more_label">بەربژاردەی زیاتر</string>
   <!-- settings label [CHAR LIMIT=50] -->
+  <string name="camera_menu_settings_label">ڕێکخستنەکان</string>
   <!--  Tiny Planet -->
   <!-- Button to press for creating a tiny planet image. [CHAR LIMIT = 30] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
+  <string name="tiny_planet_rotate">سووڕاندنەوە</string>
   <!-- Crop -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
+  <string name="crop_save">پاشەکەوتکردن</string>
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
+  <string name="cannot_load_image">ناتوانێت وێنەکە بار بکات!</string>
   <!-- Label for album filmstrip button -->
+  <string name="switch_photo_filmstrip">پیشاندانی بە شێوەی ئەڵقەی فیلم</string>
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
+  <string name="setting_wallpaper">دانانی وێنەی سەر ڕوونما</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
 </resources>
