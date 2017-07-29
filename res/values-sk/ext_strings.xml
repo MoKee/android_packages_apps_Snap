@@ -25,12 +25,12 @@
          will be multiplied by 100 as those languages want to count by ten thousands -->
   <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f megapixelov</string>
   <!-- Settings screen, scene mode -->
-  <string name="pref_camera_scenemode_entry_antimotionblur">Redukcia rozmazania pohybu</string>
+  <string name="pref_camera_scenemode_entry_antimotionblur">Redukcia rozostrenia pohybu</string>
   <string name="pref_camera_scenemode_entry_aqua">Voda</string>
   <string name="pref_camera_scenemode_entry_ar">Rozšírená realita</string>
   <string name="pref_camera_scenemode_entry_asd">Najlepší záber</string>
   <string name="pref_camera_scenemode_entry_baby">Dieťa</string>
-  <string name="pref_camera_scenemode_entry_backgroundblur">Rozmazanie pozadia</string>
+  <string name="pref_camera_scenemode_entry_backgroundblur">Rozostrenie pozadia</string>
   <string name="pref_camera_scenemode_entry_backlight">Protisvetlo</string>
   <string name="pref_camera_scenemode_entry_backlightportrait">Portrét v protisvetle</string>
   <string name="pref_camera_scenemode_entry_barcode">Čiarový kód</string>
