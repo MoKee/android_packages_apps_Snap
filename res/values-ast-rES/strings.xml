@@ -307,6 +307,7 @@ CHAR LIMIT = NONE] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_30000">0,5 minutos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_60000">1 minutu</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_90000">1,5 minutos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
