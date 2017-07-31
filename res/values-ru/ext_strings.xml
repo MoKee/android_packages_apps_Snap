@@ -39,7 +39,7 @@
   <string name="pref_camera_scenemode_entry_candlelight">Свечи</string>
   <string name="pref_camera_scenemode_entry_cine">Кино</string>
   <string name="pref_camera_scenemode_entry_closeup">Крупный план</string>
-  <string name="pref_camera_scenemode_entry_dark">Темнота</string>
+  <string name="pref_camera_scenemode_entry_dark">Тёмная</string>
   <string name="pref_camera_scenemode_entry_dish">Блюда</string>
   <string name="pref_camera_scenemode_entry_duskdawn">Сумерки</string>
   <string name="pref_camera_scenemode_entry_document">Документ</string>
