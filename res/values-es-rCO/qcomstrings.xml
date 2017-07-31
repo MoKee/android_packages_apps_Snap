@@ -401,6 +401,7 @@
   <string name="text_tsmakeup_alert_msg">La detección de cara tiene que estar activada para usar el embellecimiento. ¿Quieres continuar?</string>
   <string name="text_tsmakeup_alert_continue">Continuar</string>
   <string name="text_tsmakeup_alert_quit">Cancelar</string>
+  <string name="text_tsmakeup_beautify_toast">Embellecer</string>
   <string name="all_in_focus">Todo en foco</string>
   <string name="refocus_toast">Para volver a enfocar la última foto, pulsa aquí</string>
   <string name="refocus_prompt_message">Con UbiFocus, la cámara tomará 5 fotos, cada vez que pulses el disparador. Las 5 fotos se combinarán en una foto, donde todo estará enfocado. Puedes volver a enfocar, después de tomar la fotografía.</string>
