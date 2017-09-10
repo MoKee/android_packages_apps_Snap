@@ -172,6 +172,8 @@
   <!-- Picture format entry values. Do not translate. -->
   <!-- Settings screen, Picture quality title -->
   <!-- Settings screen, Picture quality dialog radio button choices -->
+  <string name="pref_camera_jpegquality_entry_0">Low</string>
+  <string name="pref_camera_jpegquality_entry_2">High</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
   <!-- Settings screen, Histogram radio button choices -->
@@ -203,6 +205,8 @@
   <!-- Advanced features enable message -->
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="pref_camera_tsmakeup_entry_off">Off</string>
+  <string name="pref_camera_tsmakeup_entry_low">Low</string>
+  <string name="pref_camera_tsmakeup_entry_high">High</string>
   <string name="text_tsmakeup_alert_continue">Next</string>
   <string name="text_tsmakeup_alert_quit">Cancel</string>
   <!-- Help menu strings -->
