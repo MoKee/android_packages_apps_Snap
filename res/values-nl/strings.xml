@@ -98,6 +98,7 @@
   <string name="file_size">Bestandsgrootte</string>
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+  <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Flits</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
@@ -109,6 +110,7 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Belichtingstijd</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->

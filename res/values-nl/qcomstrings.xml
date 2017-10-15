@@ -223,6 +223,7 @@
   <string name="pref_camera_denoise_entry_on">Aan</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
+  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automatisch</string>
   <string name="pref_camera_iso_entry_isodeblur">Automatisch (HJR)</string>
@@ -309,6 +310,7 @@
   <string name="pref_camera_sharpness_title">Scherpte</string>
   <!-- Default contrast setting. Do not translate. -->
   <!-- Settings screen, Select contrast title -->
+  <string name="pref_camera_contrast_title">Contrast</string>
   <!-- Default saturation setting. Do not translate. -->
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Verzadiging</string>
@@ -326,6 +328,7 @@
   <string name="pref_camera_jpegquality_entry_2">Hoog</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
+  <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Inschakelen</string>
   <string name="pref_camera_histogram_entry_disable">Uitschakelen</string>
