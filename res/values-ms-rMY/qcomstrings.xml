@@ -92,6 +92,7 @@
   <!-- Default redeye reduction setting. -->
   <!-- Settings screen, Select Redeye Reduction -->
   <!-- Settings menu, redeye reduction choices -->
+  <string name="pref_camera_shuttersound_entry_disable">Tidak-aktif</string>
   <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -195,7 +196,9 @@
   <!-- Advanced features enable message -->
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="pref_camera_tsmakeup_entry_on">Hidupkan</string>
+  <string name="text_tsmakeup_alert_quit">Batal</string>
   <!-- Help menu strings -->
+  <string name="help_menu_ok">OK</string>
   <string name="help_menu_scene_mode_2">Mod pemandangan</string>
   <string name="pref_camera2_mono_preview_entry_on">Hidupkan</string>
   <string name="pref_camera2_clearsight_entry_on">Hidupkan</string>
