@@ -73,6 +73,7 @@
   <string name="pref_camera_advanced_features_title">Geavanceerde functies</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Geen</string>
+  <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Multi-touch focus</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_title">Handmatige belichting</string>
@@ -239,6 +240,7 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Uit</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
+  <string name="pref_camera_antibanding_entry_2">60 Hz (VS)</string>
   <string name="pref_camera_antibanding_entry_3">Automatisch</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Aan</string>
@@ -249,6 +251,7 @@
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Geen</string>
   <string name="pref_camera_coloreffect_entry_mono">Monochroom</string>
+  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negatief</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Solarisatie</string>
@@ -256,6 +259,8 @@
   <string name="pref_camera_coloreffect_entry_aqua">Water</string>
   <string name="pref_camera_coloreffect_entry_emboss">Reliëf</string>
   <string name="pref_camera_coloreffect_entry_sketch">Schets</string>
+  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
+  <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mozaïek</string>
   <string name="pref_camera_coloreffect_entry_redtint">Rode tint</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Blauwe tint</string>
@@ -357,6 +362,8 @@
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">HDR modus</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
+  <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
+  <string name="pref_camera_hdr_mode_entry_multi_frame">Multi-frame HDR</string>
   <!-- HDR mode entry values. Do not translate. -->
   <!-- Settings screen, Selectable HDR need 1x frame default value -->
   <!-- Settings screen, Selectable HDR need 1x frame title -->
@@ -408,6 +415,7 @@
   <string name="help_menu_scene_mode_2">scènemodus</string>
   <string name="help_menu_scene_mode_3">voor betere foto\'s</string>
   <string name="help_menu_color_filter_1">Gebruik kleuren</string>
+  <string name="help_menu_color_filter_2">filters</string>
   <string name="help_menu_color_filter_3">om</string>
   <string name="help_menu_color_filter_4">foto\'s te verbeteren</string>
   <string name="help_menu_beautify_1">Verbeter portretfoto\'s</string>
@@ -420,6 +428,7 @@
   <string name="pref_camera2_camera2_entry_enable">Inschakelen</string>
   <string name="pref_camera2_camera2_entry_disable">Uitschakelen</string>
   <string name="pref_camera2_mono_only_title">Alleen mono</string>
+  <string name="pref_camera2_mono_preview_title">Mono preview</string>
   <string name="pref_camera2_mono_preview_entry_on">Aan</string>
   <string name="pref_camera2_mono_preview_entry_off">Uit</string>
   <string name="pref_camera2_clearsight_entry_on">Aan</string>
