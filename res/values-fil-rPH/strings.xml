@@ -25,6 +25,7 @@
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
+  <string name="close">Isara</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <!-- String indicating how many media album(s) is(are) selected
@@ -34,6 +35,7 @@
   <!-- String indicating timestamp of photo or video -->
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
+  <string name="edit">I-edit</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
@@ -41,9 +43,11 @@
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
+  <string name="title">Pamagat</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
+  <string name="location">Lokasyon</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
@@ -53,19 +57,25 @@
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+  <string name="model">Modelo</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
+  <string name="aperture">Siwang</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
+  <string name="focal_length">Haba ng Fokal</string>
   <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=18] -->
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
+  <string name="manual">Mano-mano</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
+  <string name="unknown">Hindi alam</string>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
@@ -83,6 +93,7 @@
   <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+  <string name="pref_camera_id_entry_back">Bumalik</string>
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <!-- Settings screen, setting title text -->
   <!--  Label for record location preference [CHAR LIMIT=50] -->
@@ -90,7 +101,9 @@
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_entry_0">Telepono</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
+  <string name="setting_off">Patay</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
   <!-- The value of a camera preference indicating the setting is off. -->
   <!-- The value of a camera preference indicating the setting is on. -->
@@ -121,6 +134,7 @@
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
   <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
+  <string name="pref_camera_flashmode_entry_off">Patay</string>
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
   <!-- Default videocamera flash mode setting.-->
   <!-- Default white balance setting. -->
@@ -139,6 +153,7 @@
   <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_night">Gabi</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
   <!-- Scene mode for refocus feature [CHAR LIMIT=16] -->
@@ -163,6 +178,7 @@
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
   <!-- Exposure settings in preference -->
+  <string name="pref_exposure_title">Pagkakalantad</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
   <!-- Default HDR entry value -->
   <!-- Default HDR+ entry value -->
@@ -170,6 +186,7 @@
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <!-- Dialog "OK" button. Dismisses dialog. -->
+  <string name="dialog_ok">OK</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
@@ -218,6 +235,7 @@ CHAR LIMIT = NONE] -->
   <!-- Default text for a button that can be toggled on and off. -->
   <!-- Default text for a button that can be toggled on and off. -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_off">Patay</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -261,6 +279,7 @@ CHAR LIMIT = NONE] -->
   <!-- Minutes: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_interval_set">Natapos</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
@@ -269,6 +288,7 @@ CHAR LIMIT = NONE] -->
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+  <string name="remember_location_yes">Oo</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
   <!-- settings label [CHAR LIMIT=50] -->
