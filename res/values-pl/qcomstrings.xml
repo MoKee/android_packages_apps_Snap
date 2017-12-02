@@ -190,6 +190,7 @@
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
   <string name="snapshotsize_low_powermode">Zmiana rozmiaru obrazka w trybie Niskiego Poboru Mocy nie jest wspierana. Zostanie wykonany zrzut o wielkości wideo. Wybierz standardowy tryb pracy baterii, aby zmienić rozmiar obrazka.</string>
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
+  <string name="snapshot_qcif_and_d1">Tylko rozmiar video jest obsługiwany dla zrzutu w tej rozdzielczości.</string>
   <!-- Default hfr setting. Do not translate. -->
   <!-- Settings screen, Select hfr title -->
   <string name="pref_camera_hfr_title">Nagrywanie z dużą liczbą klatek</string>
@@ -417,6 +418,7 @@
   <string name="help_menu_scene_mode_3">dla lepszego efektu</string>
   <string name="help_menu_color_filter_1">Zastosuj kolor</string>
   <string name="help_menu_color_filter_2">Filtry</string>
+  <string name="help_menu_color_filter_3">do</string>
   <string name="help_menu_color_filter_4">popraw jakość zdjęć</string>
   <string name="help_menu_beautify_1">Uwydatnij portret</string>
   <string name="help_menu_beautify_2">z</string>
