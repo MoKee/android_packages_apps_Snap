@@ -181,5 +181,7 @@
   <!-- Continuous shot enable message -->
   <!-- Advanced features enable message -->
   <!-- The alas of CameraActivity for gesture operation -->
+  <string name="text_tsmakeup_alert_quit">မလုပ်တော့</string>
   <!-- Help menu strings -->
+  <string name="help_menu_ok">အိုကေ</string>
 </resources>

@@ -25,6 +25,7 @@
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
+  <string name="close">ပိတ်သည်</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <!-- String indicating how many media album(s) is(are) selected
@@ -67,6 +68,7 @@
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
+  <string name="manual">တစ်ဆင့်ခြင်း</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
@@ -178,6 +180,7 @@
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <!-- Dialog "OK" button. Dismisses dialog. -->
+  <string name="dialog_ok">အိုကေ</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
