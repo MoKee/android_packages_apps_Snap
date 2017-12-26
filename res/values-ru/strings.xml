@@ -149,7 +149,7 @@
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
   <string name="error_permissions">У приложения нет разрешений, необходимых для запуска. Проверьте настройки разрешений.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
-  <string name="dialog_dismiss">Закрыть</string>
+  <string name="dialog_dismiss">Отклонить</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Подождите…</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -157,7 +157,7 @@
   <!-- alert to the user that the SD card is being disk-checked -->
   <string name="preparing_sd" product="default">Подготовка SD-карты…</string>
   <!-- alert to the user that the camera fails to read or write the SD card. -->
-  <string name="access_sd_fail" product="default">Нет доступа к SD-карте</string>
+  <string name="access_sd_fail" product="default">Нет доступа к SD-карте.</string>
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
   <string name="time_lapse_title">Режим замедленной съемки</string>
   <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
@@ -218,12 +218,12 @@
   <!-- Settings screen, Focus mode dialog radio button choices -->
   <string name="pref_camera_focusmode_entry_auto">Авто</string>
   <!-- A setting that lets the camera focus into infinity. [CHAR LIMIT=20] -->
-  <string name="pref_camera_focusmode_entry_infinity">Бесконечность</string>
+  <string name="pref_camera_focusmode_entry_infinity">Непрерывный</string>
   <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
   <string name="pref_camera_focusmode_entry_macro">Макросъемка</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">АВТО</string>
-  <string name="pref_camera_focusmode_label_infinity">БЕСКОНЕЧНОСТЬ</string>
+  <string name="pref_camera_focusmode_label_infinity">НЕПРЕРЫВНЫЙ</string>
   <string name="pref_camera_focusmode_label_macro">МАКРОСЪЕМКА</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
@@ -263,13 +263,13 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Авто</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_hdr_plus">HDR +</string>
+  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_hdr">Эффект HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">ВКЛЮЧИТЬ HDR+</string>
   <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
-  <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">ОТКЛЮЧИТЬ HDR+</string>
+  <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">ВЫКЛЮЧИТЬ HDR+</string>
   <!-- Scene mode to turn on HDR (high dynamic range) [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_entry_turn_hdr_on">ВКЛЮЧИТЬ HDR</string>
   <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
@@ -548,12 +548,17 @@ CHAR LIMIT = NONE] -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
   <string name="crop_save">Сохранить</string>
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
-  <string name="cannot_load_image">Не удалось загрузить изображение</string>
+  <string name="cannot_load_image">Не удалось загрузить изображение.</string>
   <!-- Label for album filmstrip button -->
   <string name="switch_photo_filmstrip">Лента</string>
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Установка обоев…</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_video_rotation_label_0">0</string>
+  <string name="pref_camera_video_rotation_label_90">90</string>
+  <string name="pref_camera_video_rotation_label_180">180</string>
+  <string name="pref_camera_video_rotation_label_270">270</string>
   <string name="remaining_photos_format">Осталось: %d</string>
+  <string name="initial_recording_seconds">00:00</string>
   <string name="makeup_video_size_limit">Функция Makeup работает только при записи видео в VGA.</string>
 </resources>

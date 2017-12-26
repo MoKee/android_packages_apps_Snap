@@ -25,7 +25,7 @@
          will be multiplied by 100 as those languages want to count by ten thousands -->
   <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f Мпикс.</string>
   <!-- Settings screen, scene mode -->
-  <string name="pref_camera_scenemode_entry_antimotionblur">Устранение разм. движения</string>
+  <string name="pref_camera_scenemode_entry_antimotionblur">Уменьш. размытия в движении</string>
   <string name="pref_camera_scenemode_entry_aqua">Вода</string>
   <string name="pref_camera_scenemode_entry_ar">Дополненная реальность</string>
   <string name="pref_camera_scenemode_entry_asd">Лучший снимок</string>
@@ -39,7 +39,7 @@
   <string name="pref_camera_scenemode_entry_candlelight">Свечи</string>
   <string name="pref_camera_scenemode_entry_cine">Кино</string>
   <string name="pref_camera_scenemode_entry_closeup">Крупный план</string>
-  <string name="pref_camera_scenemode_entry_dark">Тёмная</string>
+  <string name="pref_camera_scenemode_entry_dark">Темнота</string>
   <string name="pref_camera_scenemode_entry_dish">Блюда</string>
   <string name="pref_camera_scenemode_entry_duskdawn">Сумерки</string>
   <string name="pref_camera_scenemode_entry_document">Документ</string>
@@ -55,13 +55,13 @@
   <string name="pref_camera_scenemode_entry_nightportrait">Ночной портрет</string>
   <string name="pref_camera_scenemode_entry_nightindoor">В помещении ночью</string>
   <string name="pref_camera_scenemode_entry_oldfilm">Старый фильм</string>
-  <string name="pref_camera_scenemode_entry_pet">Домашний любимец</string>
+  <string name="pref_camera_scenemode_entry_pet">Питомец</string>
   <string name="pref_camera_scenemode_entry_portrait">Портрет</string>
   <string name="pref_camera_scenemode_entry_snow">Снег</string>
-  <string name="pref_camera_scenemode_entry_softskin">Эффект нежной кожи</string>
+  <string name="pref_camera_scenemode_entry_softskin">Мягкая кожа</string>
   <string name="pref_camera_scenemode_entry_sports">Спорт</string>
-  <string name="pref_camera_scenemode_entry_spotlight">Направленный свет</string>
-  <string name="pref_camera_scenemode_entry_steadyphoto">Стабильный снимок</string>
+  <string name="pref_camera_scenemode_entry_spotlight">Прожектор</string>
+  <string name="pref_camera_scenemode_entry_steadyphoto">Неподвижное фото</string>
   <string name="pref_camera_scenemode_entry_supernight">Тёмная ночь</string>
   <string name="pref_camera_scenemode_entry_sweepstitch">Панорамная съёмка</string>
   <string name="pref_camera_scenemode_entry_text">Текст</string>
@@ -70,7 +70,7 @@
   <!-- Settings screen, focus mode -->
   <string name="pref_camera_focusmode_entry_continuous">Непрерывный</string>
   <string name="pref_camera_focusmode_entry_mw_continuous">Непрерывный (MW)</string>
-  <string name="pref_camera_focusmode_entry_extended">Расширенный</string>
+  <string name="pref_camera_focusmode_entry_extended">Дополнительные</string>
   <string name="pref_camera_focusmode_entry_facedetect">Обнаружение лиц</string>
   <string name="pref_camera_focusmode_entry_facepriority">Фокус на лица</string>
   <string name="pref_camera_focusmode_entry_fixed">Фиксированный</string>
