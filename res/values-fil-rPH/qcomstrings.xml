@@ -156,8 +156,29 @@
   <!-- Face Recognition choices -->
   <string name="pref_camera_facerc_entry_off">Patay</string>
   <!-- Settings screen, Multiple levels entries -->
+  <string name="pref_camera_sharpness_entry_level1">Antas 1</string>
+  <string name="pref_camera_sharpness_entry_level3">Antas 3</string>
+  <string name="pref_camera_sharpness_entry_level4">Antas 4</string>
+  <string name="pref_camera_sharpness_entry_level5">Antas 5</string>
+  <string name="pref_camera_sharpness_entry_level6">Antas 6</string>
   <!-- Settings screen, Multiple levels entries -->
+  <string name="pref_camera_contrast_entry_level1">Antas 1</string>
+  <string name="pref_camera_contrast_entry_level2">Antas 2</string>
+  <string name="pref_camera_contrast_entry_level3">Antas 3</string>
+  <string name="pref_camera_contrast_entry_level4">Antas 4</string>
+  <string name="pref_camera_contrast_entry_level6">Antas 6</string>
+  <string name="pref_camera_contrast_entry_level7">Antas 7</string>
+  <string name="pref_camera_contrast_entry_level8">Antas 8</string>
+  <string name="pref_camera_contrast_entry_level9">Antas 9</string>
   <!-- Settings screen, Multiple levels entries -->
+  <string name="pref_camera_saturation_entry_level1">Antas 1</string>
+  <string name="pref_camera_saturation_entry_level2">Antas 2</string>
+  <string name="pref_camera_saturation_entry_level3">Antas 3</string>
+  <string name="pref_camera_saturation_entry_level4">Antas 4</string>
+  <string name="pref_camera_saturation_entry_level6">Antas 6</string>
+  <string name="pref_camera_saturation_entry_level7">Antas 7</string>
+  <string name="pref_camera_saturation_entry_level8">Antas 8</string>
+  <string name="pref_camera_saturation_entry_level9">Antas 9</string>
   <!-- Default sharpness setting. Do not translate. -->
   <!-- Settings screen, Select sharpness title -->
   <string name="pref_camera_sharpness_title">Kataliman</string>
