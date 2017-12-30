@@ -52,6 +52,7 @@
   <!-- Settings screen, Audio encoder dialog radio button choices -->
   <!-- Default video duration setting. A numerical value.-->
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
+  <string name="pref_camera_skinToneEnhancement_default">disable</string>
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">Улучшение цвета кожи</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
@@ -161,6 +162,7 @@
   <string name="pref_camera_shuttersound_entry_enable">Включить</string>
   <string name="pref_camera_shuttersound_entry_disable">Отключить</string>
   <!-- Default mce setting. Do not translate. -->
+  <string name="pref_camera_mce_default">enable</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Ускоренная съёмка не поддерживается при включённой стабилизации изобр., включённом HDR или в режиме замедленной съёмки.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
