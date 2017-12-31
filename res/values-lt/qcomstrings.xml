@@ -222,6 +222,7 @@
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="pref_camera_tsmakeup_entry_on">Įjungta</string>
   <string name="pref_camera_tsmakeup_entry_off">Išjungti</string>
+  <string name="pref_camera_tsmakeup_custom">Tinkintas</string>
   <string name="text_tsmakeup_alert_quit">Atšaukti</string>
   <!-- Help menu strings -->
   <string name="help_menu_scene_mode_2">Scenų režimas</string>

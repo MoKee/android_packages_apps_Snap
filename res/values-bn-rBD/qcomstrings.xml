@@ -84,11 +84,11 @@
   <string name="pref_camera_video_cds_entry_off">Off</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">নিক্রিয় করুন</string>
-  <string name="pref_camera_tnr_entry_enable">Enable</string>
+  <string name="pref_camera_tnr_entry_enable">সক্রিয় করুন</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
   <string name="pref_camera_video_tnr_entry_disable">নিক্রিয় করুন</string>
-  <string name="pref_camera_video_tnr_entry_enable">Enable</string>
+  <string name="pref_camera_video_tnr_entry_enable">সক্রিয় করুন</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
   <!-- Settings menu, setting title text for cds mode-->
@@ -110,9 +110,9 @@
   <!-- Default redeye reduction setting. -->
   <!-- Settings screen, Select Redeye Reduction -->
   <!-- Settings menu, redeye reduction choices -->
-  <string name="pref_camera_redeyereduction_entry_enable">Enable</string>
+  <string name="pref_camera_redeyereduction_entry_enable">সক্রিয় করুন</string>
   <string name="pref_camera_redeyereduction_entry_disable">নিক্রিয় করুন</string>
-  <string name="pref_camera_selfiemirror_entry_enable">Enable</string>
+  <string name="pref_camera_selfiemirror_entry_enable">সক্রিয় করুন</string>
   <string name="pref_camera_selfiemirror_entry_disable">নিক্রিয় করুন</string>
   <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
@@ -197,7 +197,7 @@
   <!-- Settings screen, Select Histogram title -->
   <string name="pref_camera_histogram_title">হিস্টোগ্রাম</string>
   <!-- Settings screen, Histogram radio button choices -->
-  <string name="pref_camera_histogram_entry_enable">Enable</string>
+  <string name="pref_camera_histogram_entry_enable">সক্রিয় করুন</string>
   <string name="pref_camera_histogram_entry_disable">নিক্রিয় করা</string>
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
@@ -210,7 +210,7 @@
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <!-- Settings screen, setting title text for Auto HDR-->
   <!-- Settings screen, Auto HDR location dialog choices -->
-  <string name="pref_camera_auto_hdr_entry_enable">Enable</string>
+  <string name="pref_camera_auto_hdr_entry_enable">সক্রিয় করুন</string>
   <string name="pref_camera_auto_hdr_entry_disable">নিক্রিয় করুন</string>
   <!-- toast message for storage location switch -->
   <!-- Settings screen, Selectable HDR mode title -->
@@ -230,6 +230,7 @@
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="pref_camera_tsmakeup_entry_off">Off</string>
   <string name="pref_camera_tsmakeup_entry_high">High</string>
+  <string name="pref_camera_tsmakeup_custom">কাস্টম</string>
   <string name="pref_camera_tsmakeup_level_clean">হালকা</string>
   <string name="text_tsmakeup_alert_title">সতর্কতা</string>
   <string name="text_tsmakeup_alert_msg">বিউটিফিকেশন ফিচারটির জন্য চেহারা শনাক্তকরণ সক্রিয় রাখুন । আপনি কি এটা এভাবেই রাখতে চান ?</string>

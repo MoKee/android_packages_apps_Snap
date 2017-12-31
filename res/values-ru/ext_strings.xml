@@ -71,18 +71,18 @@
   <string name="pref_camera_focusmode_entry_continuous">Непрерывный</string>
   <string name="pref_camera_focusmode_entry_mw_continuous">Непрерывный (MW)</string>
   <string name="pref_camera_focusmode_entry_extended">Дополнительные</string>
-  <string name="pref_camera_focusmode_entry_facedetect">Обнаружение лиц</string>
-  <string name="pref_camera_focusmode_entry_facepriority">Фокус на лица</string>
+  <string name="pref_camera_focusmode_entry_facedetect">Распознавание лиц</string>
+  <string name="pref_camera_focusmode_entry_facepriority">Приоритет лица</string>
   <string name="pref_camera_focusmode_entry_fixed">Фиксированный</string>
   <string name="pref_camera_focusmode_entry_normal">Обычный</string>
   <string name="pref_camera_focusmode_entry_portrait">Портрет</string>
   <string name="pref_camera_focusmode_entry_hyperfocal">Гиперфокальный</string>
   <!-- Color effects -->
   <string name="pref_camera_coloreffect_entry_washed">Размытие</string>
-  <string name="pref_camera_coloreffect_entry_vintage_warm">Винтаж теплый</string>
-  <string name="pref_camera_coloreffect_entry_vintage_cold">Винтаж холодный</string>
+  <string name="pref_camera_coloreffect_entry_vintage_warm">Тёплый винтаж</string>
+  <string name="pref_camera_coloreffect_entry_vintage_cold">Холодный винтаж</string>
   <string name="pref_camera_coloreffect_entry_point_blue">Выделить синий</string>
-  <string name="pref_camera_coloreffect_entry_point_green">Выделить зеленый</string>
+  <string name="pref_camera_coloreffect_entry_point_green">Выделить зелёный</string>
   <string name="pref_camera_coloreffect_entry_point_red_yellow">Выделить красный и жёлтый</string>
   <string name="pref_camera_coloreffect_entry_cartoonize">Комикс</string>
   <!-- Red eye flash mode title -->
@@ -103,6 +103,6 @@
   <string name="pref_camera_shutter_speed_title">Время экспозиции</string>
   <string name="auto_hdr_enabled">Авто HDR включён</string>
   <!-- Advanced options -->
-  <string name="developer_menu_enabled">Вы включили расширенные параметры камеры</string>
+  <string name="developer_menu_enabled">Вы включили расширенные настройки камеры</string>
   <string name="developer_menu_disabled">Вы отключили расширенные параметры камеры</string>
 </resources>
