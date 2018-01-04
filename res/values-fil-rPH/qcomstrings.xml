@@ -235,6 +235,7 @@
   <string name="text_tsmakeup_alert_quit">Kanselahin</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">OK</string>
+  <string name="help_menu_scene_mode_2">Scene mode</string>
   <string name="pref_camera2_camera2_entry_enable">Paganahin</string>
   <string name="pref_camera2_mono_preview_entry_off">Patay</string>
   <string name="pref_camera2_clearsight_entry_off">Patay</string>
