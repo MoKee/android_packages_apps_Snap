@@ -347,7 +347,7 @@
   <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=16] -->
   <string name="pano_too_fast_prompt">Слишком быстро</string>
   <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
-  <string name="pano_dialog_prepare_preview">Подготовка панорамы</string>
+  <string name="pano_dialog_prepare_preview">Подготовка панорамы...</string>
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
   <string name="pano_dialog_panorama_failed">Не удалось сохранить панораму.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
@@ -521,7 +521,7 @@ CHAR LIMIT = NONE] -->
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
   <string name="set_duration">Время отсчета в секундах</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
-  <string name="count_down_title_text">Обратный отсчет перед съемкой</string>
+  <string name="count_down_title_text">Обратный отсчет перед съёмкой</string>
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
   <string name="remember_location_title"> Сохранять места съёмки?</string>
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
@@ -560,5 +560,5 @@ CHAR LIMIT = NONE] -->
   <string name="pref_camera_video_rotation_label_270">270</string>
   <string name="remaining_photos_format">Осталось: %d</string>
   <string name="initial_recording_seconds">00:00</string>
-  <string name="makeup_video_size_limit">Функция Makeup работает только при записи видео в VGA.</string>
+  <string name="makeup_video_size_limit">Функция макияжа работает только при записи видео в разрешении VGA.</string>
 </resources>

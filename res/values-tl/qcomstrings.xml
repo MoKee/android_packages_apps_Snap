@@ -191,7 +191,9 @@
   <!-- Advanced features enable message -->
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="pref_camera_tsmakeup_entry_on">Naka-on</string>
+  <string name="text_tsmakeup_alert_quit">Kanselahin</string>
   <!-- Help menu strings -->
+  <string name="help_menu_ok">OK</string>
   <string name="pref_camera2_mono_preview_entry_on">Naka-on</string>
   <string name="pref_camera2_clearsight_entry_on">Naka-on</string>
   <string name="pref_camera2_mpo_entry_on">Naka-on</string>

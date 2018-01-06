@@ -85,12 +85,12 @@
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_title">Ручной баланс белого</string>
   <string name="pref_camera_manual_wb_entry_color_temperature">Цветовая температура</string>
-  <string name="pref_camera_manual_wb_entry_rbgb_gains">Уровни RGBG</string>
+  <string name="pref_camera_manual_wb_entry_rbgb_gains">Уровни RBGB</string>
   <string name="pref_camera_manual_wb_entry_off">Откл.</string>
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_title">Ручная фокусировка</string>
   <string name="pref_camera_manual_focus_entry_scale_mode">Режим шкалы</string>
-  <string name="pref_camera_manual_focus_entry_diopter_mode">Режим диоптрий</string>
+  <string name="pref_camera_manual_focus_entry_diopter_mode">Режим диоптрия</string>
   <string name="pref_camera_manual_focus_entry_off">Откл.</string>
   <!-- Instant Capture entry -->
   <string name="pref_camera_instant_capture_title" translatable="true">Мгновенный захват</string>
@@ -166,15 +166,15 @@
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Ускоренная съёмка не поддерживается при включённой стабилизации изображения, включённом HDR или в режиме интервальной съёмки.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
-  <string name="error_app_unsupported_hfr">Замедл. движения не поддерживается для текущего разрешения видео. Установите более низкое разрешение</string>
+  <string name="error_app_unsupported_hfr">Режим замедленной съёмки не поддерживается для текущего разрешения видео. Установите более низкое разрешение.</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
   <string name="error_app_unsupported_dis">Стабилизация изображения не поддерживается для текущего разрешения видео. Установите более низкое разрешение.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HSR mode -->
-  <string name="error_app_unsupported_hsr">Ускоренная съёмка не поддерживается для текущего разрешения видео. Установите более низкое разрешение</string>
+  <string name="error_app_unsupported_hsr">Режим ускоренной съёмки не поддерживается для текущего разрешения видео. Установите более низкое разрешение.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video codec for HFR mode -->
-  <string name="error_app_unsupported_hfr_codec">Ускоренная съёмка возможна только с видеокодеком H264</string>
+  <string name="error_app_unsupported_hfr_codec">Режим ускоренной съёмки поддерживает только видеокодек H264</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
-  <string name="error_app_unsupported">Видеокодек не поддерживает выбранное разрешение</string>
+  <string name="error_app_unsupported">Неподдерживаемое разрешение видео для выбранного кодирования</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
   <string name="error_app_unsupported_profile">Неподдерживаемый профиль видео</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
@@ -390,7 +390,7 @@
   <string name="advance_feature_enable_msg">Непрерывная съёмка не поддерживается, когда включены расширенные функции</string>
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">Включить камеру</string>
-  <string name="pref_camera_tsmakeup_title">Украшение</string>
+  <string name="pref_camera_tsmakeup_title">Улучшение</string>
   <string name="pref_camera_tsmakeup_entry_on">Вкл.</string>
   <string name="pref_camera_tsmakeup_entry_off">Откл.</string>
   <string name="pref_camera_tsmakeup_entry_low">Низкий</string>
