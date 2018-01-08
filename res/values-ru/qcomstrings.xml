@@ -188,7 +188,7 @@
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">Размер эскиза видео меньше, чем размер видео, установлен размер видео. Пожалуйста, выберите разрешение больше или равное текущему разрешению видео.</string>
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
-  <string name="snapshotsize_low_powermode">Изменение разрешения изображения невозможно в энергосберегающем режиме. Переключитесь в режим сбалансированного энергопотребления для использования этой функции.</string>
+  <string name="snapshotsize_low_powermode">Изменение разрешения изображения не поддерживается в энергосберегающем режиме. Переключитесь в стандартный режим энергопотребления для использования этой функции.</string>
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
   <string name="snapshot_qcif_and_d1">Для этого разрешения поддерживается только снимок с текущим разрешением видеосъёмки.</string>
   <!-- Default hfr setting. Do not translate. -->

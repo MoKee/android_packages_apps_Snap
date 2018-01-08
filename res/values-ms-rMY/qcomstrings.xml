@@ -189,6 +189,8 @@
   <!-- Picture format entry values. Do not translate. -->
   <!-- Settings screen, Picture quality title -->
   <!-- Settings screen, Picture quality dialog radio button choices -->
+  <string name="pref_camera_jpegquality_entry_0">Rendah</string>
+  <string name="pref_camera_jpegquality_entry_2">Tinggi</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
   <!-- Settings screen, Histogram radio button choices -->
@@ -224,6 +226,8 @@
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="pref_camera_tsmakeup_entry_on">Hidupkan</string>
   <string name="pref_camera_tsmakeup_entry_off">Dimatikan</string>
+  <string name="pref_camera_tsmakeup_entry_low">Rendah</string>
+  <string name="pref_camera_tsmakeup_entry_high">Tinggi</string>
   <string name="pref_camera_tsmakeup_custom">Peribadi</string>
   <string name="text_tsmakeup_alert_quit">Batal</string>
   <!-- Help menu strings -->

@@ -411,7 +411,7 @@
   <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT = NONE] -->
   <string name="accessibility_review_cancel">Examen – Annuler</string>
   <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT = NONE] -->
-  <string name="accessibility_review_ok">Examen – OK</string>
+  <string name="accessibility_review_ok">Vérification OK</string>
   <!-- button in review mode indicate the user want to retake another photo/video for attachment [
 CHAR LIMIT = NONE] -->
   <string name="accessibility_review_retake">Examiner la deuxième prise de la photo</string>
