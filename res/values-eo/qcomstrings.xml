@@ -174,5 +174,6 @@
   <!-- Continuous shot enable message -->
   <!-- Advanced features enable message -->
   <!-- The alas of CameraActivity for gesture operation -->
+  <string name="pref_camera_tsmakeup_custom">Propra</string>
   <!-- Help menu strings -->
 </resources>

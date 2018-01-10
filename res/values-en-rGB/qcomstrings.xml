@@ -207,6 +207,7 @@
   <string name="pref_camera_tsmakeup_entry_off">Off</string>
   <string name="pref_camera_tsmakeup_entry_low">Low</string>
   <string name="pref_camera_tsmakeup_entry_high">High</string>
+  <string name="pref_camera_tsmakeup_custom">Customise</string>
   <string name="text_tsmakeup_alert_continue">Next</string>
   <string name="text_tsmakeup_alert_quit">Cancel</string>
   <!-- Help menu strings -->

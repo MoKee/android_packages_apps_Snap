@@ -200,6 +200,7 @@
   <!-- Advanced features enable message -->
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="pref_camera_tsmakeup_entry_on">Aktiv</string>
+  <string name="pref_camera_tsmakeup_custom">Fərdi</string>
   <!-- Help menu strings -->
   <string name="help_menu_scene_mode_2">Səhnə rejimi</string>
   <string name="pref_camera2_mono_preview_entry_on">Aktiv</string>

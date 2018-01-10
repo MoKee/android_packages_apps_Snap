@@ -326,6 +326,7 @@
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">கேமராவை தொடங்கு</string>
   <string name="pref_camera_tsmakeup_entry_off">முடக்கத்தில்</string>
+  <string name="pref_camera_tsmakeup_custom">தனிப்பயன்</string>
   <string name="text_tsmakeup_alert_quit">ரத்துசெய்</string>
   <string name="all_in_focus">அனைத்தும் குவியத்தில்</string>
   <string name="refocus_toast">கடந்தை புகைப்படத்தை மறு-குவியம் செய்ய, இங்கே தட்டு</string>
