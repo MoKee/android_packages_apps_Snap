@@ -18,6 +18,7 @@
   <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
   <string name="app_name">Kamera</string>
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
+  <string name="video_camera_label">Ang Camcorder</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
   <!-- Displayed in the title of the dialog for things to do with a picture
@@ -65,14 +66,21 @@
          [CHAR_LIMIT=20]-->
   <string name="edit">I-edit</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
+  <string name="crop_action">Ang I-crop</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
+  <string name="trim_action">Ang I-trim</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
+  <string name="set_as">Ang itakna bilang</string>
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
+  <string name="video_err">Hindi maaaring i-play ang video.</string>
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
+  <string name="crop_saved">
+Na-crop na larawan ay naka-save sa <xliff:g id="folder_name">%s</xliff:g>.</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
   <string name="title">Pamagat</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
+  <string name="description">Ang paglalarawan</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
   <string name="time">Oras</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
@@ -84,9 +92,11 @@
   <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
   <string name="height">Taas</string>
   <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
+  <string name="orientation">Ang Oryentasyon</string>
   <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=18] -->
   <string name="duration">Tagal</string>
   <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
+  <string name="mimetype">Ang uri ng MIME</string>
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
   <string name="file_size">Laki ng file</string>
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
@@ -94,21 +104,28 @@
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">Modelo</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
+  <string name="flash">Ang Flash</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
   <string name="aperture">Siwang</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
   <string name="focal_length">Haba ng Fokal</string>
   <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=18] -->
+  <string name="white_balance">Ang puting balanse</string>
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
+  <string name="exposure_time">Ang Oras ng pagkakalantad</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
   <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">ang mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
   <string name="manual">Mano-mano</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
+  <string name="auto">Naka-auto</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
+  <string name="flash_on">Nagpaputok na flash</string>
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
+  <string name="flash_off">Walang flash</string>
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
   <string name="unknown">Hindi alam</string>
   <!-- Toast message shown after we try to make a local album available offline
@@ -118,19 +135,29 @@ Ang item na ito ay lokal na naka-imbak at magagamit na offline.</string>
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
   <string name="please_wait">Pakihintay</string>
   <!-- Text to show with progress bar while stitching a photo sphere. 'Photo sphere' is a product name. [CHAR LIMIT=35]-->
+  <string name="rendering_photo_sphere">Ang pagsasalin sa larawan ng sphere</string>
   <!-- title for the dialog showing the error of camera hardware -->
+  <string name="camera_error_title">Ang maling kamera</string>
   <!-- message for the dialog showing the error of camera hardware -->
+  <string name="cannot_connect_camera">Hindi maka konek sa camera.</string>
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
+  <string name="camera_disabled">Ang kamera ay hindi pinagana dahil sa seguridad ng patakaran.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
+  <string name="error_permissions">Ang app ay walang kritikal na mga permiso na kailangan para tumakbo. Mangyaring suriin ang iyong mga settings sa pahintulot.</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+  <string name="dialog_dismiss">I-dismiss</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Mangyaring maghintay ng \u2026</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
+  <string name="no_storage" product="default">Ipasok ang isang SD card bago gamitin ang kamera.</string>
   <!-- alert to the user that the SD card is being disk-checked -->
+  <string name="preparing_sd" product="default">Ang paghahanda ng SD card\u2026</string>
   <!-- alert to the user that the camera fails to read or write the SD card. -->
   <string name="access_sd_fail" product="default">Hindi ma-access ang SD card.</string>
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
+  <string name="time_lapse_title">Ang oras ng pahinga sa pagrerekord</string>
   <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
+  <string name="capturing">Ang Pagkuha</string>
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
   <string name="pref_camera_id_title">Pumili ng camera</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
@@ -138,21 +165,26 @@ Ang item na ito ay lokal na naka-imbak at magagamit na offline.</string>
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">Harapan</string>
   <!-- Settings screen, setting title text -->
+  <string name="pref_camera_recordlocation_title">Ang lokasyon ng GPS</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">Lokasyon</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
+  <string name="pref_camera_timer_title">Ang timer ng countdown</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
   <plurals name="pref_camera_timer_entry">
     <item quantity="one">1 segundo</item>
     <item quantity="other">%d segundo</item>
   </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
+  <string name="pref_camera_timer_sound_title">Ang pag beep habang sa countdown</string>
   <!-- Entry of camera save path -->
   <string name="pref_camera_savepath_title">Imbakan</string>
   <string name="pref_camera_savepath_entry_0">Telepono</string>
+  <string name="pref_camera_savepath_entry_1">Ang SD Card</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">Patay</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
+  <string name="setting_on">Naka-bukas</string>
   <!-- The value of a camera preference indicating the setting is off. -->
   <!-- The value of a camera preference indicating the setting is on. -->
   <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
@@ -169,20 +201,33 @@ Ang item na ito ay lokal na naka-imbak at magagamit na offline.</string>
   <!-- Video quality setting entry. Videos will be recorded in 2K quality. [CHAR LIMIT=24] -->
   <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_title">Ang oras ng paglipas</string>
   <!-- Settings screen, Camera setting category title -->
+  <string name="pref_camera_settings_category">Ang setting ng kamera</string>
   <!-- Settings screen, Camcorder setting category title -->
+  <string name="pref_camcorder_settings_category">Ang setting ng Camcorder</string>
   <!-- Settings screen, Picture size title -->
   <string name="pref_camera_picturesize_title">Laki ng larawan</string>
   <!-- Settings screen, Focus mode title -->
+  <string name="pref_camera_focusmode_title">Ang mode ng focus</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
+  <string name="pref_camera_focusmode_entry_auto">Naka-auto</string>
   <!-- A setting that lets the camera focus into infinity. [CHAR LIMIT=20] -->
+  <string name="pref_camera_focusmode_entry_infinity">Ang walang katapusan</string>
   <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
+  <string name="pref_camera_focusmode_entry_macro">Ang makro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_focusmode_label_auto">NAKA-AUTO</string>
+  <string name="pref_camera_focusmode_label_infinity">WALANG KATAPUSAN</string>
+  <string name="pref_camera_focusmode_label_macro">NAKA-MACRO</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
+  <string name="pref_camera_flashmode_title">Ang flash</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
+  <string name="pref_camera_flashmode_entry_auto">Naka-auto</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
+  <string name="pref_camera_flashmode_entry_on">Naka-bukas</string>
   <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_off">Patay</string>
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
@@ -192,14 +237,17 @@ Ang item na ito ay lokal na naka-imbak at magagamit na offline.</string>
   <!-- Default videocamera flash mode setting.-->
   <!-- Default white balance setting. -->
   <!-- Settings screen, white balance title -->
+  <string name="pref_camera_whitebalance_title">Ang puting balanse</string>
   <!-- Menu, white balance label -->
   <string name="pref_camera_whitebalance_label">WHITE BALANCE</string>
   <!-- Settings screen, White balance dialog radio button choices -->
+  <string name="pref_camera_whitebalance_entry_auto">Naka-auto</string>
   <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
   <string name="pref_camera_whitebalance_entry_daylight">Daylight</string>
   <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Maulap</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_whitebalance_label_auto">NAKA-AUTO</string>
   <string name="pref_camera_whitebalance_label_incandescent">INCANDESCENT</string>
   <string name="pref_camera_whitebalance_label_daylight">DAYLIGHT</string>
   <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCENT</string>
@@ -208,13 +256,19 @@ Ang item na ito ay lokal na naka-imbak at magagamit na offline.</string>
   <!-- Settings screen, Select Scene mode -->
   <string name="pref_camera_scenemode_title">Scene mode</string>
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_auto">Naka-auto</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr_plus">Ang HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">Ang HDR+ ay naka-ON</string>
   <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">Ang HDR+ ay naka-OFF</string>
   <!-- Scene mode to turn on HDR (high dynamic range) [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_entry_turn_hdr_on">Ang HDR ay naka-ON</string>
   <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_entry_turn_hdr_off">Ang HDR ay naka-OFF</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Aksyon</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -247,14 +301,23 @@ Ang item na ito ay lokal na naka-imbak at magagamit na offline.</string>
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
   <string name="not_selectable_in_scene_mode">Hindi piliin na scene mode.</string>
   <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
+  <string name="HDR_disable_continuous_shot">Ang HDR ay hindi nagpapagana ng tuloy-tuloy na kuha.</string>
   <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
+  <string name="advanced_capture_disable_continuous_shot">Ang pinakaunang kuha ay hindi mapagana ang tuloy-tuloy na kuha.</string>
   <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
+  <string name="video_quality_4k_disable_IS">Ang 4k na kalidad ng video ay hindi pinagana ang stabilisasyon ng imahe.</string>
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
+  <string name="video_quality_4k_disable_SeeMore">Ang SeeMore ay hindi pwedeng mapagana sa panahon ng 4k video.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_HighQualityNoiseReduction">Ang mga mataas ng kalidad ng ingay na pagbabawas ay hindi pinagana ang CDS.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_HighQualityNoiseReduction">Ang mataas na kalidad ng ingay na pagbabawas ay hindi pinagana ang TNR.</string>
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
+  <string name="disable_CDS_during_SeeMore">Ang SeeMore ay hindi pinagana ang CDS.</string>
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
+  <string name="disable_TNR_during_SeeMore">Ang SeeMore ay hindi pinagana ang TNR.</string>
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
+  <string name="disable_NR_during_SeeMore">Ang SeeMore ay hindi pinagana ang pagbabawas ng ingay.</string>
   <!-- Exposure settings in preference -->
   <string name="pref_exposure_title">Pagkakalantad</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
@@ -300,37 +363,64 @@ Ang item na ito ay lokal na naka-imbak at magagamit na offline.</string>
   <!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
   <string name="effect_none">Wala</string>
   <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_squeeze">I-Squeeze</string>
   <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_big_eyes">Ang malaking mata</string>
   <!-- Effect setting item that makes mouth big. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_big_mouth">Ang malaking bibig</string>
   <!-- Effect setting item that makes mouth small. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_small_mouth">Ang maliit na bibig</string>
   <!-- Effect setting item that makes nose big. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_big_nose">Ang malaking ilong</string>
   <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_small_eyes">Ang maliit na mata</string>
   <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
+  <string name="effect_backdropper_space">Ang nasa espasyo</string>
   <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
   <string name="effect_backdropper_sunset">Sunset</string>
   <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
+  <string name="effect_backdropper_gallery">Ang iyong video</string>
   <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
+  <string name="video_snapshot_hint">Hawakan para kumuha ng larawan habang nag-rerekord.</string>
   <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
+  <string name="video_recording_started">Ang pag-rekord ng video ay sinimulan na.</string>
   <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
+  <string name="video_recording_stopped">Ang pag-rekord ng video ay hininto na.</string>
   <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
   <string name="clear_effects">Burahin ang mga effect</string>
   <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
+  <string name="effect_silly_faces">MGA HANGAL NA MUKHA</string>
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
+  <string name="effect_background">LIKOD NA IMAHE</string>
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_shutter_button">Ang Shutter</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_menu_button">Ang buton ng menu</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_mode_picker">Ang Kamera, video o panorama na pagpipilian</string>
   <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_check_box">%1$s na check box</string>
   <!-- The button to switch to Camera mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_camera">I-switch sa larawan</string>
   <!-- The button to switch to Video mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_video">I-switch sa video</string>
   <!-- The button to switch to Panorama mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_panorama">Lumipat sa panorama</string>
   <!-- The button to switch to the Photo Sphere mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_photo_sphere">Lumipat sa Photo Sphere</string>
   <!-- The button to switch to the high quality mode. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_switch_to_gcam">Lumipat sa mataas na kalidad</string>
   <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT = NONE] -->
+  <string name="accessibility_review_cancel">Tingnan muli ang kansel</string>
   <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT = NONE] -->
+  <string name="accessibility_review_ok">Tingnan muli ang natapos</string>
   <!-- button in review mode indicate the user want to retake another photo/video for attachment [
 CHAR LIMIT = NONE] -->
+  <string name="accessibility_review_retake">Tingnan muli ang kinuha muli</string>
   <!-- Default text for a button that can be toggled on and off. -->
+  <string name="capital_on">NAKA-ON</string>
   <!-- Default text for a button that can be toggled on and off. -->
+  <string name="capital_off">NAKA-OFF</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_off">Patay</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -420,23 +510,35 @@ CHAR LIMIT = NONE] -->
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
   <string name="time_lapse_interval_set">Natapos</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
+  <string name="set_time_interval">I-set ang oras ng interval</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
+  <string name="set_time_interval_help">Ang oras ng paglipas na tampok ay naka-off. I-turn on at i-set ang oras ng interval.</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
   <string name="set_duration">Itakda ang tagal gamit ang segundo</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
+  <string name="count_down_title_text">Ang pagbilang sa kinukuhang larawan</string>
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
+  <string name="remember_location_title">Tandaan ang mga lokasyon ng larawan?</string>
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
+  <string name="remember_location_prompt">I-tag ang iyong mga larawan at video na may mga lokasyon na kung saan sila kinuha.\n\nIbang mga app ay mag-access sa impormasyon ito habang naka save sa mga imahe.</string>
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+  <string name="remember_location_no">Salamat nalang</string>
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Oo</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
+  <string name="camera_menu_more_label">MARAMING OPTIONS</string>
   <!-- settings label [CHAR LIMIT=50] -->
+  <string name="camera_menu_settings_label">MGA SETTINGS</string>
   <!--  Tiny Planet -->
   <!-- Button to press for creating a tiny planet image. [CHAR LIMIT = 30] -->
+  <string name="create_tiny_planet">Ang paglikha ng Tiny Planet</string>
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
+  <string name="saving_tiny_planet">Ang pag-save ng Tiny Planet &#8230;</string>
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
+  <string name="tiny_planet_zoom">Palakihin</string>
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
+  <string name="tiny_planet_rotate">Ang Paikutin</string>
   <!-- Crop -->
   <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
   <string name="crop_save">I-save</string>
@@ -447,4 +549,6 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Pagtakda ng wallpaper</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="remaining_photos_format">%d kaliwa</string>
+  <string name="makeup_video_size_limit">Ang pampaganda ay gumagana lamang sa ilalim ng laki ng VGA sa pag-rekord ng video.</string>
 </resources>
