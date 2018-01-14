@@ -188,10 +188,6 @@
   <!-- Settings screen, Selectable HDR mode title -->
   <!-- Settings screen, Selectable HDR mode radio button choices -->
   <!-- HDR mode entry values. Do not translate. -->
-  <!-- Settings screen, Selectable HDR need 1x frame default value -->
-  <!-- Settings screen, Selectable HDR need 1x frame title -->
-  <!-- Settings screen, Selectable HDR need 1x frame radio button choices -->
-  <!-- HDR need 1x frame entry values. Do not translate. -->
   <!--Default video rotation setting-->
   <!--Settings screen, video rotation title-->
   <!--Menu, video rotation label-->
@@ -201,6 +197,7 @@
   <!-- Advanced features enable message -->
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="pref_camera_tsmakeup_entry_on">ເປີດ</string>
+  <string name="pref_camera_tsmakeup_custom">ກຳນົດເອງ</string>
   <!-- Help menu strings -->
   <string name="help_menu_scene_mode_2">ຮູບແບບສາກ</string>
   <string name="pref_camera2_mono_preview_entry_on">ເປີດ</string>

@@ -343,11 +343,6 @@
   <string name="pref_camera_hdr_mode_entry_sensor">Senzor HDR</string>
   <string name="pref_camera_hdr_mode_entry_multi_frame">HDR multi-cadru</string>
   <!-- HDR mode entry values. Do not translate. -->
-  <!-- Settings screen, Selectable HDR need 1x frame default value -->
-  <!-- Settings screen, Selectable HDR need 1x frame title -->
-  <string name="pref_camera_hdr_need_1x_title">HDR are nevoie de 1x cadru</string>
-  <!-- Settings screen, Selectable HDR need 1x frame radio button choices -->
-  <!-- HDR need 1x frame entry values. Do not translate. -->
   <!--Default video rotation setting-->
   <!--Settings screen, video rotation title-->
   <string name="pref_camera_video_rotation_title">Rotire video</string>

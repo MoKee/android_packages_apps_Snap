@@ -143,6 +143,7 @@
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
   <string name="pref_camera_id_title">ជ្រើស​ម៉ាស៊ីន​ថត</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+  <string name="pref_camera_id_entry_back">ខាង​ក្រោយ</string>
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">ខាង​មុខ</string>
   <!-- Settings screen, setting title text -->
@@ -472,6 +473,7 @@ CHAR LIMIT = NONE] -->
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_no">ទេ អរគុណ</string>
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+  <string name="remember_location_yes">បាទ/ចាស</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
   <string name="camera_menu_more_label">ជម្រើស​ច្រើន​ទៀត</string>

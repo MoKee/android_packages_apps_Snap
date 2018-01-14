@@ -304,11 +304,6 @@
   <string name="pref_camera_hdr_mode_entry_sensor">સેન્સર HDR</string>
   <string name="pref_camera_hdr_mode_entry_multi_frame">મલ્ટિ-ફ્રેમ HDR</string>
   <!-- HDR mode entry values. Do not translate. -->
-  <!-- Settings screen, Selectable HDR need 1x frame default value -->
-  <!-- Settings screen, Selectable HDR need 1x frame title -->
-  <string name="pref_camera_hdr_need_1x_title">HDR માટે જરૂરી છે 1x ફ્રેમ</string>
-  <!-- Settings screen, Selectable HDR need 1x frame radio button choices -->
-  <!-- HDR need 1x frame entry values. Do not translate. -->
   <!--Default video rotation setting-->
   <!--Settings screen, video rotation title-->
   <string name="pref_camera_video_rotation_title">વિડિયો રોટેશન</string>
@@ -327,6 +322,7 @@
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">કેમેરા લૉન્ચ કરો</string>
   <string name="pref_camera_tsmakeup_entry_off">બંધ</string>
+  <string name="pref_camera_tsmakeup_custom">કસ્ટમ</string>
   <string name="all_in_focus">તમામ ફોકસમાં</string>
   <string name="refocus_toast">છેલ્લો ફોટો ફરી ફોકસ કરવા અહીં ટૅપ કરો</string>
   <!-- Help menu strings -->
