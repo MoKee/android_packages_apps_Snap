@@ -167,7 +167,7 @@
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">POSITION</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
-  <string name="pref_camera_timer_title">Compte à rebours</string>
+  <string name="pref_camera_timer_title">Retardateur</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
   <plurals name="pref_camera_timer_entry">
     <item quantity="one">1 seconde</item>
@@ -510,7 +510,7 @@ CHAR LIMIT = NONE] -->
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
   <string name="set_time_interval">Définir l\'intervalle de temps</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
-  <string name="set_time_interval_help">La fonctionnalité Time Lapse est désactivée. Veuillez l\'activer pour définir un intervalle.</string>
+  <string name="set_time_interval_help">La fonction Accéléré est désactivée. Veuillez l’activer pour définir un intervalle.</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
   <string name="set_duration">Définir la durée en secondes</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->

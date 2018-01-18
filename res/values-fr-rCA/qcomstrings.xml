@@ -70,7 +70,7 @@
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Trame moyenne</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Selectable advanced features title -->
-  <string name="pref_camera_advanced_features_title">Fonctionnalités avancées</string>
+  <string name="pref_camera_advanced_features_title">Fonctions avancées</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Aucun</string>
   <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Focus multi-touches</string>
@@ -164,7 +164,7 @@
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Haute vitesse/ralenti non supporté avec la stabilisation, le ralenti et HDR.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
-  <string name="error_app_unsupported_hfr">La vidéo au ralenti n\'est pas compatible avec la résolution sélectionnée. Sélectionner une résolution moins élevée</string>
+  <string name="error_app_unsupported_hfr">Le mode Ralenti n’est pas pris en charge avec la résolution sélectionnée. Choisir une résolution moins élevée</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
   <string name="error_app_unsupported_dis">La stabilisation n\'est pas supporté pour le format de vidéo sélectionné. Choisissez un format vidéo inférieur</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HSR mode -->
@@ -194,10 +194,10 @@
   <string name="pref_camera_hfr_title">Ralenti</string>
   <!-- Settings screen, hfr radio button choices -->
   <string name="pref_camera_hfr_entry_off">Désactivé</string>
-  <string name="pref_camera_hfr_entry_2x">Ralenti 60 IPS</string>
-  <string name="pref_camera_hfr_entry_3x">Ralenti 90 IPS</string>
-  <string name="pref_camera_hfr_entry_4x">Ralenti 120 IPS</string>
-  <string name="pref_camera_hfr_entry_8x">Ralenti 240 IPS</string>
+  <string name="pref_camera_hfr_entry_2x">Ralenti 60 ips</string>
+  <string name="pref_camera_hfr_entry_3x">Ralenti 90 ips</string>
+  <string name="pref_camera_hfr_entry_4x">Ralenti 120 ips</string>
+  <string name="pref_camera_hfr_entry_8x">Ralenti 240 ips</string>
   <string name="pref_camera_hfr_entry_hsr_60">Haute vitesse 60 IPS</string>
   <string name="pref_camera_hfr_entry_hsr_90">Haute vitesse 90 IPS</string>
   <string name="pref_camera_hfr_entry_hsr_120">Haute vitesse 120 IPS</string>
@@ -378,9 +378,9 @@
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <string name="map_activity_not_found_err">Il n\'y a aucune application de cartographie installée pour afficher la position</string>
   <!-- Continuous shot enable message -->
-  <string name="longshot_enable_message">Les fonctionnalités avancées ne sont pas supportées dans le mode de prise de vue continue</string>
+  <string name="longshot_enable_message">Les fonctions avancées ne sont pas prises en charge dans le mode de prise de vue continue</string>
   <!-- Advanced features enable message -->
-  <string name="advance_feature_enable_msg">La prise de vue continue n\'est pas supportée quand les fonctionnalités avancées sont activées</string>
+  <string name="advance_feature_enable_msg">La prise de vue continue n’est pas prise en charge quand les fonctions avancées sont activées</string>
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">Lancer l\'appareil photo</string>
   <string name="pref_camera_tsmakeup_title">Filtre d\'embellissement</string>
