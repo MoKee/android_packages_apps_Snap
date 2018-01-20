@@ -122,6 +122,8 @@
   <string name="pref_camera_redeyereduction_entry_disable">I-disable</string>
   <string name="pref_camera_selfiemirror_entry_enable">I-enable</string>
   <string name="pref_camera_selfiemirror_entry_disable">I-disable</string>
+  <string name="pref_camera_shuttersound_title" translatable="true">Tunog ng shutter</string>
+  <string name="pref_camera_shuttersound_entry_disable">Naka-disable</string>
   <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Ang high-framerate na recording ay hindi suportado habang ginagamit ang Stabilization/Time lapse/HDR.</string>
@@ -155,6 +157,7 @@
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
+  <string name="pref_camera_noise_reduction_title">Pagbabawas ng ingay</string>
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_noise_reduction_entry_off">I-off</string>
   <!-- see more entry values. Do not translate. -->
@@ -182,8 +185,11 @@
   <string name="pref_camera_filter_mode_entry_on">Naka-on</string>
   <string name="pref_camera_filter_mode_entry_off">I-off</string>
   <!-- Settings screen, Select Color effect title -->
+  <string name="pref_camera_coloreffect_title">Epekto ng kulay</string>
+  <string name="pref_camera_filter_mode_title">Epekto ng kulay</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Wala</string>
+  <string name="pref_camera_coloreffect_entry_negative">Negatibo</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_posterize">I-posterize</string>
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
@@ -283,28 +289,40 @@
   <!-- Advanced features enable message -->
   <string name="advance_feature_enable_msg">Tuloy-tuloy na kuha ay hindi suportado kapag ang mga advanced feature ay ginagamit</string>
   <!-- The alas of CameraActivity for gesture operation -->
+  <string name="pref_camera_tsmakeup_title">Pagpapaganda</string>
   <string name="pref_camera_tsmakeup_entry_on">Naka-on</string>
   <string name="pref_camera_tsmakeup_entry_off">I-off</string>
   <string name="pref_camera_tsmakeup_entry_low">Mababa</string>
   <string name="pref_camera_tsmakeup_entry_high">Mataas</string>
+  <string name="pref_camera_tsmakeup_level_whiten">Paputiin</string>
+  <string name="text_tsmakeup_alert_title">Babala</string>
   <string name="text_tsmakeup_alert_msg">Ang face detection ay dapat i-enable upang magamit ang beautification na feature. Gusto mo bang magpatuloy?</string>
   <string name="text_tsmakeup_alert_continue">Magpatuloy</string>
   <string name="text_tsmakeup_alert_quit">Kanselahin</string>
   <string name="text_tsmakeup_beautify_toast">Pagandahin</string>
+  <string name="all_in_focus">Lahat ay naka-pokus</string>
+  <string name="refocus_toast">Upang ma re-focus ang huling litrato, tumapik dito</string>
+  <string name="refocus_prompt_message">Sa UbiFocus, ang iyong kamera ay kukuha ng 5 mga larawan, sa bawat oras na pindutin mo ang pindutan ng shutter. Ang 5 mga larawan ay pagsasama-samahin sa 1 larawan, kung saan ang lahat ay naka-pokus. Maaari mong piliin na muling i-pokus, pagkatapos mong kunin ang larawan.</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">OK</string>
+  <string name="help_menu_scene_mode_3">para sa mas mabuti na mga litrato</string>
+  <string name="help_menu_color_filter_1">Mag-lagay ng kulay</string>
+  <string name="help_menu_color_filter_3">para</string>
   <string name="pref_camera2_camera2_entry_enable">I-enable</string>
   <string name="pref_camera2_camera2_entry_disable">I-disable</string>
+  <string name="pref_camera2_mono_only_title">Mono lamang</string>
   <string name="pref_camera2_mono_preview_entry_on">Naka-on</string>
   <string name="pref_camera2_mono_preview_entry_off">I-off</string>
   <string name="pref_camera2_clearsight_entry_on">Naka-on</string>
   <string name="pref_camera2_clearsight_entry_off">I-off</string>
   <string name="pref_camera2_mpo_entry_on">Naka-on</string>
   <string name="pref_camera2_mpo_entry_off">I-off</string>
+  <string name="pref_camera2_noise_reduction_title">Pagbabawas ng ingay</string>
   <string name="pref_camera2_noise_reduction_entry_off">I-off</string>
   <string name="pref_camera2_videosnap_entry_enable">I-enable</string>
   <string name="pref_camera2_videosnap_entry_disable">I-disable</string>
   <string name="bestpicture_done">TAPOS NA</string>
   <string name="pref_camera2_shutter_sound_entry_on">Naka-on</string>
   <string name="pref_camera2_shutter_sound_entry_off">I-off</string>
+  <string name="pref_camera2_shutter_sound_title">Tunog ng shutter</string>
 </resources>

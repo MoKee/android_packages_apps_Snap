@@ -23,16 +23,36 @@
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
   <!-- Settings screen, scene mode -->
+  <string name="pref_camera_scenemode_entry_backgroundblur">Labo ng likuran</string>
+  <string name="pref_camera_scenemode_entry_backlightportrait">Pinatayong backlight</string>
+  <string name="pref_camera_scenemode_entry_beauty">Ganda</string>
+  <string name="pref_camera_scenemode_entry_document">Dokumento</string>
+  <string name="pref_camera_scenemode_entry_fireworks">Paputok</string>
+  <string name="pref_camera_scenemode_entry_flowers">Bulaklak</string>
+  <string name="pref_camera_scenemode_entry_highsensitivity">Mataas na pagkamapagdamdam</string>
+  <string name="pref_camera_scenemode_entry_indoor">Panloob</string>
+  <string name="pref_camera_scenemode_entry_mix_illuminant">Magkahalong pag-iilaw</string>
+  <string name="pref_camera_scenemode_entry_nightportrait">Larawan ng gabi</string>
+  <string name="pref_camera_scenemode_entry_oldfilm">Lumang pelikula</string>
+  <string name="pref_camera_scenemode_entry_snow">Niyebe</string>
+  <string name="pref_camera_scenemode_entry_softskin">Malambot na balat</string>
+  <string name="pref_camera_scenemode_entry_sports">Mga laro</string>
+  <string name="pref_camera_scenemode_entry_steadyphoto">Larawang hindi gumagalaw</string>
+  <string name="pref_camera_scenemode_entry_supernight">Madilim na gabi</string>
   <!-- Settings screen, focus mode -->
   <string name="pref_camera_focusmode_entry_continuous">Tuloy-tuloy</string>
   <string name="pref_camera_focusmode_entry_mw_continuous">Tuloy-tuloy (MW)</string>
+  <string name="pref_camera_focusmode_entry_extended">Pinalawak</string>
   <string name="pref_camera_focusmode_entry_fixed">Nakapirmi</string>
   <!-- Color effects -->
+  <string name="pref_camera_coloreffect_entry_vintage_warm">Mainit na antigo</string>
+  <string name="pref_camera_coloreffect_entry_vintage_cold">Malamig na antigo</string>
   <!-- Red eye flash mode title -->
   <!-- Power shutter -->
   <!-- Max brightness -->
   <!-- Touch focus duration -->
   <!-- Shutter speed -->
+  <string name="auto_hdr_enabled">Pinagana ang Auto HDR</string>
   <!-- Advanced options -->
   <string name="developer_menu_enabled">Pinagana mo ang advanced camera na mga option</string>
   <string name="developer_menu_disabled">Hindi mo pinagana ang advanced camera na mga option</string>
