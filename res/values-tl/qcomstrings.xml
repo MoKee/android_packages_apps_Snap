@@ -57,11 +57,13 @@
   <string name="pref_camera_selectablezoneaf_entry_auto">Awtomatiko</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Selectable advanced features title -->
+  <string name="pref_camera_advanced_features_title">I-advance ang mga katangian</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Wala</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_title">Manual na exposure</string>
+  <string name="pref_camera_manual_exp_entry_ISO_priority">Prayoridad ng ISO</string>
   <string name="pref_camera_manual_exp_entry_off">I-off</string>
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_entry_off">I-off</string>
@@ -112,14 +114,17 @@
   <string name="pref_camera_facedetection_entry_on">Naka-on</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
+  <string name="pref_selfie_flash_title">Kislap ng selfie</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">I-off</string>
   <string name="pref_selfie_flash_entry_on">Naka-on</string>
   <!-- Default redeye reduction setting. -->
   <!-- Settings screen, Select Redeye Reduction -->
+  <string name="pref_camera_redeyereduction_title">Pagbawas ng red eye</string>
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">I-enable</string>
   <string name="pref_camera_redeyereduction_entry_disable">I-disable</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Salamin ng selfie</string>
   <string name="pref_camera_selfiemirror_entry_enable">I-enable</string>
   <string name="pref_camera_selfiemirror_entry_disable">I-disable</string>
   <string name="pref_camera_shuttersound_title" translatable="true">Tunog ng shutter</string>
@@ -144,6 +149,7 @@
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
   <string name="pref_camera_ae_bracket_hdr_entry_on">Naka-on</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">I-off</string>
+  <string name="err_app_unsupport_ae_bracket_code">Ang AE bracketing ay hindi pa suportado</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <string name="snapshot_lower_than_video">Ang video snapshot na sukat ay mas mababa kaysa sa sukat ng video, kina-cap sa sukat ng video. Mangyaring pumili ng isang resolution na mas mataas o katulad sa kasalukuyang sukat ng video.</string>
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
@@ -152,8 +158,17 @@
   <string name="snapshot_qcif_and_d1">Video size na snapshot lamang suportado sa resolution na ito.</string>
   <!-- Default hfr setting. Do not translate. -->
   <!-- Settings screen, Select hfr title -->
+  <string name="pref_camera_hfr_title">Mataas na framerate na recording</string>
   <!-- Settings screen, hfr radio button choices -->
   <string name="pref_camera_hfr_entry_off">I-off</string>
+  <string name="pref_camera_hfr_entry_2x">Mabagal na galaw 60 FPS</string>
+  <string name="pref_camera_hfr_entry_3x">Mabagal na galaw 90 FPS</string>
+  <string name="pref_camera_hfr_entry_4x">Mabagal na galaw 120 FPS</string>
+  <string name="pref_camera_hfr_entry_8x">Mabagal na galaw 240 FPS</string>
+  <string name="pref_camera_hfr_entry_hsr_60">Mataas na bilis 60 FPS</string>
+  <string name="pref_camera_hfr_entry_hsr_90">Mataas na bilis 90 FPS</string>
+  <string name="pref_camera_hfr_entry_hsr_120">Mataas na bilis 120 FPS</string>
+  <string name="pref_camera_hfr_entry_hsr_240">Mataas na bilis 240 FPS</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
@@ -192,10 +207,13 @@
   <string name="pref_camera_coloreffect_entry_negative">Negatibo</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_posterize">I-posterize</string>
+  <string name="pref_camera_coloreffect_entry_sketch">Dibuho</string>
+  <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
   <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
   <string name="pref_camera_touchafaec_entry_off">I-off</string>
   <string name="pref_camera_touchafaec_entry_on">Naka-on</string>
   <!-- Select IS title -->
+  <string name="pref_camera_dis_title">Pagpapanatili</string>
   <!-- DIS choices -->
   <string name="pref_camera_dis_entry_off">I-off</string>
   <string name="pref_camera_dis_entry_on">Naka-on</string>
@@ -260,6 +278,7 @@
   <!-- Histogram entry values. Do not translate. -->
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
+  <string name="pref_camera_scenedetect_title">Pag-detect auto scene</string>
   <!-- Settings menu, auto scene detection choices -->
   <string name="pref_camera_scenedetect_entry_off">I-off</string>
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
@@ -268,14 +287,18 @@
   <string name="time_lapse_error">Hindi wastong sukat ng video para sa time-lapse recording.</string>
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Tuloy-tuloy na kuha</string>
+  <string name="msg_cancel_longshot_for_limited_memory">Paubos na ang memory, kinakansela ang tuloy-tuloy na kuha</string>
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
+  <string name="flash_aebracket_message">Ang flash ay hindi suportado sa AE bracketing na mode</string>
   <!-- Settings screen, setting title text for Auto HDR-->
+  <string name="pref_camera_auto_hdr_title">Auto HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">I-enable</string>
   <string name="pref_camera_auto_hdr_entry_disable">I-disable</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Ang internal storage space ay hindi sapat - ipinalit ang SD card bilang storage location</string>
   <!-- Settings screen, Selectable HDR mode title -->
+  <string name="pref_camera_hdr_mode_title">Mode na HDR</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
   <!-- HDR mode entry values. Do not translate. -->
   <!--Default video rotation setting-->
@@ -303,11 +326,24 @@
   <string name="all_in_focus">Lahat ay naka-pokus</string>
   <string name="refocus_toast">Upang ma re-focus ang huling litrato, tumapik dito</string>
   <string name="refocus_prompt_message">Sa UbiFocus, ang iyong kamera ay kukuha ng 5 mga larawan, sa bawat oras na pindutin mo ang pindutan ng shutter. Ang 5 mga larawan ay pagsasama-samahin sa 1 larawan, kung saan ang lahat ay naka-pokus. Maaari mong piliin na muling i-pokus, pagkatapos mong kunin ang larawan.</string>
+  <string name="camera_thermal_shutdown">Ang telepono ay uminit, sinasara ang kamera.</string>
+  <string name="camera_server_died">Ang media server ay namatay, sinasara ang kamera.</string>
+  <string name="camera_unknown_error">Hindi kilalang error, sinasara ang kamera.</string>
+  <string name="mute_button_desc">Pindutan ng mute</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">OK</string>
+  <string name="help_menu_scene_mode_1">Pumili ng</string>
   <string name="help_menu_scene_mode_3">para sa mas mabuti na mga litrato</string>
   <string name="help_menu_color_filter_1">Mag-lagay ng kulay</string>
   <string name="help_menu_color_filter_3">para</string>
+  <string name="help_menu_color_filter_4">pabutihin ang mga larawan</string>
+  <string name="help_menu_beautify_1">Pahusayan ang mga larawan</string>
+  <string name="help_menu_beautify_2">kasama ang</string>
+  <string name="help_menu_beautify_3">Pagandahin ang feature</string>
+  <string name="help_menu_switcher_1">Switch</string>
+  <string name="help_menu_switcher_2">gitna</string>
+  <string name="help_menu_switcher_3">kamera, video at panorama</string>
+  <string name="pref_camera2_camera2_title">Mode na kamera2</string>
   <string name="pref_camera2_camera2_entry_enable">I-enable</string>
   <string name="pref_camera2_camera2_entry_disable">I-disable</string>
   <string name="pref_camera2_mono_only_title">Mono lamang</string>
@@ -315,13 +351,18 @@
   <string name="pref_camera2_mono_preview_entry_off">I-off</string>
   <string name="pref_camera2_clearsight_entry_on">Naka-on</string>
   <string name="pref_camera2_clearsight_entry_off">I-off</string>
+  <string name="clearsight_capture_success">Ang ClearSight na kuha ay tagumpay</string>
+  <string name="clearsight_capture_fail">Ang ClearSight na kuha ay nabigo</string>
   <string name="pref_camera2_mpo_entry_on">Naka-on</string>
   <string name="pref_camera2_mpo_entry_off">I-off</string>
   <string name="pref_camera2_noise_reduction_title">Pagbabawas ng ingay</string>
   <string name="pref_camera2_noise_reduction_entry_off">I-off</string>
+  <string name="pref_camera2_noise_reduction_entry_high_quality">Mataas na kalidad</string>
+  <string name="pref_camera2_videosnap_title">Awtomatikong sukat ng snapshot</string>
   <string name="pref_camera2_videosnap_entry_enable">I-enable</string>
   <string name="pref_camera2_videosnap_entry_disable">I-disable</string>
   <string name="bestpicture_done">TAPOS NA</string>
+  <string name="bestpicture_at_least_one_picture">Hindi bababa sa isa na larawan ang dapat piliin.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Naka-on</string>
   <string name="pref_camera2_shutter_sound_entry_off">I-off</string>
   <string name="pref_camera2_shutter_sound_title">Tunog ng shutter</string>
