@@ -364,7 +364,7 @@
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">Режим HDR</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
-  <string name="pref_camera_hdr_mode_entry_sensor">HDR матрицы</string>
+  <string name="pref_camera_hdr_mode_entry_sensor">Датчик HDR</string>
   <string name="pref_camera_hdr_mode_entry_multi_frame">Многокадровый HDR</string>
   <!-- HDR mode entry values. Do not translate. -->
   <!--Default video rotation setting-->
@@ -440,7 +440,7 @@
   <string name="pref_camera2_noise_reduction_entry_off">Откл.</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Быстро</string>
   <string name="pref_camera2_noise_reduction_entry_high_quality">Высокое качество</string>
-  <string name="pref_camera2_videosnap_title">Автоматический размер снимка</string>
+  <string name="pref_camera2_videosnap_title">Размер автом. снимка</string>
   <string name="pref_camera2_videosnap_entry_enable">Вкл.</string>
   <string name="pref_camera2_videosnap_entry_disable">Выключить</string>
   <string name="pref_camera2_trackingfocus_title">Следящий автофокус</string>

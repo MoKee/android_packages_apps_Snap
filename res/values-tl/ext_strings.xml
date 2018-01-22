@@ -23,21 +23,31 @@
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
+  <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f mga megapixel</string>
   <!-- Settings screen, scene mode -->
+  <string name="pref_camera_scenemode_entry_antimotionblur">Pagbawas ng paglabo sa galaw</string>
+  <string name="pref_camera_scenemode_entry_aqua">Aqua</string>
+  <string name="pref_camera_scenemode_entry_baby">Sanggol</string>
   <string name="pref_camera_scenemode_entry_backgroundblur">Labo ng likuran</string>
   <string name="pref_camera_scenemode_entry_backlightportrait">Pinatayong backlight</string>
   <string name="pref_camera_scenemode_entry_beauty">Ganda</string>
+  <string name="pref_camera_scenemode_entry_candlelight">Kandila</string>
+  <string name="pref_camera_scenemode_entry_dark">Maitim</string>
   <string name="pref_camera_scenemode_entry_document">Dokumento</string>
   <string name="pref_camera_scenemode_entry_fireworks">Paputok</string>
   <string name="pref_camera_scenemode_entry_flowers">Bulaklak</string>
   <string name="pref_camera_scenemode_entry_highsensitivity">Mataas na pagkamapagdamdam</string>
   <string name="pref_camera_scenemode_entry_indoor">Panloob</string>
   <string name="pref_camera_scenemode_entry_mix_illuminant">Magkahalong pag-iilaw</string>
+  <string name="pref_camera_scenemode_entry_mood">Kalooban</string>
   <string name="pref_camera_scenemode_entry_nightportrait">Larawan ng gabi</string>
+  <string name="pref_camera_scenemode_entry_nightindoor">Gabi na panloob</string>
   <string name="pref_camera_scenemode_entry_oldfilm">Lumang pelikula</string>
+  <string name="pref_camera_scenemode_entry_pet">Alaga</string>
   <string name="pref_camera_scenemode_entry_snow">Niyebe</string>
   <string name="pref_camera_scenemode_entry_softskin">Malambot na balat</string>
   <string name="pref_camera_scenemode_entry_sports">Mga laro</string>
+  <string name="pref_camera_scenemode_entry_spotlight">Spotlight</string>
   <string name="pref_camera_scenemode_entry_steadyphoto">Larawang hindi gumagalaw</string>
   <string name="pref_camera_scenemode_entry_supernight">Madilim na gabi</string>
   <!-- Settings screen, focus mode -->
@@ -48,13 +58,22 @@
   <string name="pref_camera_focusmode_entry_facepriority">Pag-prayoridad ng mukha</string>
   <string name="pref_camera_focusmode_entry_fixed">Nakapirmi</string>
   <!-- Color effects -->
+  <string name="pref_camera_coloreffect_entry_washed">Nahugasan</string>
   <string name="pref_camera_coloreffect_entry_vintage_warm">Mainit na antigo</string>
   <string name="pref_camera_coloreffect_entry_vintage_cold">Malamig na antigo</string>
   <!-- Red eye flash mode title -->
+  <string name="pref_camera_flashmode_entry_redeye">Red eye</string>
+  <string name="pref_camera_flashmode_label_redeye">RED EYE</string>
   <!-- Power shutter -->
   <!-- Max brightness -->
   <string name="pref_camera_max_brightness_title">Maliwang ang screen</string>
   <!-- Touch focus duration -->
+  <string name="pref_camera_focustime_title">Tagal ng pokus sa paghawak</string>
+  <string name="pref_camera_focustime_entry_0">0s</string>
+  <string name="pref_camera_focustime_entry_3">3s</string>
+  <string name="pref_camera_focustime_entry_5">5s</string>
+  <string name="pref_camera_focustime_entry_10">10s</string>
+  <string name="pref_camera_focustime_entry_infinite">Walang hanggan</string>
   <!-- Shutter speed -->
   <string name="auto_hdr_enabled">Pinagana ang Auto HDR</string>
   <!-- Advanced options -->
