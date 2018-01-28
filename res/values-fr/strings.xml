@@ -325,6 +325,8 @@
   <string name="pref_exposure_title">Exposition</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
   <string name="pref_exposure_label">EXPOSITION</string>
+  <!-- Default HDR entry value -->
+  <!-- Default HDR+ entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
   <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->

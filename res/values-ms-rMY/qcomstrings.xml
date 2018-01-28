@@ -25,34 +25,88 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
+  <string name="pref_camera_powermode_title">Mod Kuasa</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_entry_lp">Kuasa_rendah</string>
+  <string name="pref_camera_powermode_entry_np">Kuasa_biasa</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_value_lp">Kuasa_rendah</string>
+  <string name="pref_camera_powermode_value_np">Kuasa_biasa</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
+  <string name="pref_camera_autoexposure_default">frame-purata</string>
   <!-- Settings screen, Select auto exposure title -->
+  <string name="pref_camera_autoexposure_title">Pilih mod dedahan auto</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
+  <string name="pref_camera_autoexposure_entry_frameaverage">Purata frame</string>
+  <string name="pref_camera_autoexposure_entry_spotmetering">Titik permeteran</string>
   <!-- Auto exposure entry values. Do not translate. -->
+  <string name="pref_camera_autoexposure_value_frameaverage">frame-purata</string>
   <!-- Settings screen, Video encoder title -->
+  <string name="pref_camera_videoencoder_title">Pengekod video</string>
   <!-- Settings screen, Video encoder dialog radio button choices -->
+  <string name="pref_camera_videoencoder_entry_0">MPEG4</string>
+  <string name="pref_camera_videoencoder_entry_1">H263</string>
+  <string name="pref_camera_videoencoder_entry_2">H264</string>
+  <string name="pref_camera_videoencoder_entry_3">H265</string>
   <!-- Default video encoder setting. A numerical value. -->
   <!-- Settings screen, Video encoder dialog title -->
+  <string name="pref_camera_videoencoder_dialogtitle">Pengekod video</string>
   <!-- Default audio encoder setting. A numerical value. -->
   <!-- Settings screen, Audio encoder title -->
+  <string name="pref_camera_audioencoder_title">Pengekod Audio</string>
   <!-- Settings screen, Audio encoder dialog radio button choices -->
+  <string name="pref_camera_audioencoder_entry_0">AMRNB</string>
+  <string name="pref_camera_audioencoder_entry_1">AAC</string>
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
+  <string name="pref_camera_skinToneEnhancement_default">lumpuh</string>
   <!-- Settings screen, Select Skin Tone Enhancement title -->
+  <string name="pref_camera_skinToneEnhancement_title">Peningkatan ton kulit</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Mendayakan</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Lumpuh</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
+  <string name="pref_camera_skinToneEnhancement_value_enable">mendayakan</string>
+  <string name="pref_camera_skinToneEnhancement_value_disable">lumpuh</string>
   <!-- Settings screen, setting title text for ZSL-->
+  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
+  <string name="pref_camera_selectablezoneaf_default">auto</string>
   <!-- Settings screen, Selectable zone af title -->
+  <string name="pref_camera_selectablezoneaf_title"> Fokus auto zon boleh dipilih</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
+  <string name="pref_camera_selectablezoneaf_entry_auto">Auto</string>
+  <string name="pref_camera_selectablezoneaf_entry_spotmetering">Tempat pemeteran</string>
+  <string name="pref_camera_selectablezoneaf_entry_centerweighted">Pusat wajaran</string>
+  <string name="pref_camera_selectablezoneaf_entry_frameaverage">Purata frame</string>
   <!-- Auto exposure entry values. Do not translate. -->
+  <string name="pref_camera_selectablezoneaf_value_auto">auto</string>
+  <string name="pref_camera_selectablezoneaf_value_spotmetering">tempat- pemeteran</string>
+  <string name="pref_camera_selectablezoneaf_value_centerweighted">pusat-wajaran</string>
+  <string name="pref_camera_selectablezoneaf_value_frameaverage">purata-frame</string>
+  <string name="pref_camera_advanced_feature_default">tiada</string>
   <!-- Settings screen, Selectable advanced features title -->
+  <string name="pref_camera_advanced_features_title">Ciri lanjutan</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Tiada</string>
+  <string name="pref_camera_advanced_feature_entry_ubifocus">Tumpuan ubi</string>
+  <string name="pref_camera_advanced_feature_entry_refocus">Fokus semula</string>
+  <string name="pref_camera_advanced_feature_entry_chromaflash">Flash kroma</string>
+  <string name="pref_camera_advanced_feature_entry_optizoom">Zum opti</string>
+  <string name="pref_camera_advanced_feature_entry_FSSR">FSSR</string>
+  <string name="pref_camera_advanced_feature_entry_trueportrait">Potret benar</string>
+  <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Fokus multi-touch</string>
+  <string name="pref_camera_advanced_feature_entry_stillmore">Masih banyak lagi</string>
   <!-- Auto exposure entry values. Do not translate. -->
+  <string name="pref_camera_advanced_feature_value_none">tiada</string>
+  <string name="pref_camera_advanced_feature_value_ubifocus_on">af-tanda kurung-on</string>
+  <string name="pref_camera_advanced_feature_value_refocus_on">re-fokus-on</string>
+  <string name="pref_camera_advanced_feature_value_chromaflash_on">kroma-flash-on</string>
+  <string name="pref_camera_advanced_feature_value_optizoom_on">opti-zum-on</string>
+  <string name="pref_camera_advanced_feature_value_FSSR_on">FSSR-on</string>
+  <string name="pref_camera_advanced_feature_value_trueportrait_on">potret-benar-on</string>
+  <string name="pref_camera_advanced_feature_value_multi_touch_focus_on">multi-touch-fokus-on</string>
+  <string name="pref_camera_advanced_feature_value_stillmore_on">still-more-on</string>
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_entry_off">Matikan</string>
   <!-- Manual white balance entry values -->
@@ -74,38 +128,60 @@
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">Matikan</string>
   <string name="pref_camera_video_cds_entry_on">Hidupkan</string>
+  <string name="pref_camera_video_cds_value_on">on</string>
+  <string name="pref_camera_video_cds_value_auto">auto</string>
   <!-- Settings screen, TNR location dialog choices -->
+  <string name="pref_camera_tnr_entry_disable">Lumpuh</string>
   <string name="pref_camera_tnr_entry_enable">Mendayakan</string>
   <!-- Settings screen, TNR location dialog choices -->
+  <string name="pref_camera_tnr_value_off">off</string>
+  <string name="pref_camera_tnr_value_on">on</string>
   <!-- Settings screen, video TNR location dialog choices -->
+  <string name="pref_camera_video_tnr_entry_disable">Lumpuh</string>
   <string name="pref_camera_video_tnr_entry_enable">Mendayakan</string>
   <!-- Settings screen, video TNR location dialog choices -->
+  <string name="pref_camera_video_tnr_value_off">off</string>
+  <string name="pref_camera_video_tnr_value_on">on</string>
   <!-- Settings screen, setting title text for Video HDR-->
+  <string name="pref_camera_video_hdr_title">Video HDR</string>
   <!-- Settings menu, setting title text for cds mode-->
+  <string name="pref_camera_cds_title">Mod CDS</string>
   <!-- Settings menu, setting title text for video cds mode-->
+  <string name="pref_camera_video_cds_title">Mod video CDS</string>
   <!-- Default cds mode setting-->
   <!-- Default video cds mode setting-->
   <!-- Settings menu, setting title text for tnr mode-->
+  <string name="pref_camera_tnr_title">Mod TNR</string>
   <!-- Settings menu, setting title text for video tnr mode-->
+  <string name="pref_camera_video_tnr_title">Mod video TNR</string>
   <!-- Default tnr mode setting-->
   <!-- Default video tnr mode setting-->
   <!-- Default face  detection setting. -->
   <!-- Settings screen, Select Face Detection -->
+  <string name="pref_camera_facedetection_title">Pengesanan muka</string>
   <!-- Settings menu, Face Detection choices -->
   <string name="pref_camera_facedetection_entry_off">Matikan</string>
   <string name="pref_camera_facedetection_entry_on">Hidupkan</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
+  <string name="pref_selfie_flash_title">Selfie Flash</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">Matikan</string>
   <string name="pref_selfie_flash_entry_on">Hidupkan</string>
   <!-- Default redeye reduction setting. -->
   <!-- Settings screen, Select Redeye Reduction -->
+  <string name="pref_camera_redeyereduction_title">Pengurangan mata merah</string>
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Mendayakan</string>
+  <string name="pref_camera_redeyereduction_entry_disable">Lumpuh</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Cermin selfie</string>
   <string name="pref_camera_selfiemirror_entry_enable">Mendayakan</string>
+  <string name="pref_camera_selfiemirror_entry_disable">Lumpuh</string>
+  <string name="pref_camera_shuttersound_title" translatable="true">Bunyi penutup</string>
   <string name="pref_camera_shuttersound_entry_enable">Mendayakan</string>
+  <string name="pref_camera_shuttersound_entry_disable">Lumpuh</string>
   <!-- Default mce setting. Do not translate. -->
+  <string name="pref_camera_mce_default">mendayakan</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -246,6 +322,7 @@
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Matikan</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">Mendayakan</string>
+  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Matikan</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->

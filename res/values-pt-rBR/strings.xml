@@ -177,7 +177,6 @@ Item armazenado localmente e disponível offline.</string>
     <item quantity="one">1 segundo</item>
     <item quantity="other">%d segundos</item>
   </plurals>
-  <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">Apitar durante a contagem regressiva</string>
   <!-- Entry of camera save path -->
@@ -227,7 +226,7 @@ Item armazenado localmente e disponível offline.</string>
   <!-- Settings screen, Flash mode title -->
   <string name="pref_camera_flashmode_title">Flash</string>
   <!-- flash label [CHAR LIMIT=50] -->
-  <string name="pref_camera_flashmode_label">FLASH</string>
+  <string name="pref_camera_flashmode_label">MODO FLASH</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_auto">Automático</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
@@ -329,9 +328,7 @@ Item armazenado localmente e disponível offline.</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
   <string name="pref_exposure_label">EXPOSIÇÃO</string>
   <!-- Default HDR entry value -->
-  <string name="pref_camera_hdr_default">@string/setting_off_value</string>
   <!-- Default HDR+ entry value -->
-  <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
   <!-- HDR label ON [CHAR LIMIT=60] -->
   <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->

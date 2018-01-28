@@ -173,7 +173,6 @@
     <item quantity="one">1 seconde</item>
     <item quantity="other">%d seconde(s)</item>
   </plurals>
-  <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">Compte à rebours sonore</string>
   <!-- Entry of camera save path -->

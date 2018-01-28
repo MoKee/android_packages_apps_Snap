@@ -25,36 +25,86 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
+  <string name="pref_camera_powermode_title">Pawer Mode</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_entry_lp">Mababa na Pawer</string>
+  <string name="pref_camera_powermode_entry_np">Normal na Pawer</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_value_lp">Mababa na Pawer</string>
+  <string name="pref_camera_powermode_value_np">Normal na Pawer</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
+  <string name="pref_camera_autoexposure_default">average na frame</string>
   <!-- Settings screen, Select auto exposure title -->
+  <string name="pref_camera_autoexposure_title">Piliin ang Auto Exposure Mode</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
+  <string name="pref_camera_autoexposure_entry_frameaverage">Average na Frame</string>
+  <string name="pref_camera_autoexposure_entry_centerweighted">Gitna ng Tinimbangan</string>
+  <string name="pref_camera_autoexposure_entry_spotmetering">Lugar ng Pagsukat</string>
   <!-- Auto exposure entry values. Do not translate. -->
+  <string name="pref_camera_autoexposure_value_frameaverage">average na frame</string>
+  <string name="pref_camera_autoexposure_value_centerweighted">gitna ng tinimbangan</string>
+  <string name="pref_camera_autoexposure_value_spotmetering">lugar ng pagsukat</string>
   <!-- Settings screen, Video encoder title -->
+  <string name="pref_camera_videoencoder_title">Video ng Encoder</string>
   <!-- Settings screen, Video encoder dialog radio button choices -->
+  <string name="pref_camera_videoencoder_entry_0">MPEG4</string>
+  <string name="pref_camera_videoencoder_entry_1">H263</string>
+  <string name="pref_camera_videoencoder_entry_2">H264</string>
+  <string name="pref_camera_videoencoder_entry_3">H265</string>
   <!-- Default video encoder setting. A numerical value. -->
   <!-- Settings screen, Video encoder dialog title -->
+  <string name="pref_camera_videoencoder_dialogtitle">Video ng Encoder</string>
   <!-- Default audio encoder setting. A numerical value. -->
   <!-- Settings screen, Audio encoder title -->
+  <string name="pref_camera_audioencoder_title">Audio ng Encoder</string>
   <!-- Settings screen, Audio encoder dialog radio button choices -->
+  <string name="pref_camera_audioencoder_entry_0">AMRNB</string>
+  <string name="pref_camera_audioencoder_entry_1">AAC</string>
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
+  <string name="pref_camera_skinToneEnhancement_default">huwag paganahin</string>
   <!-- Settings screen, Select Skin Tone Enhancement title -->
+  <string name="pref_camera_skinToneEnhancement_title">Ang pagpapahusay sa Tono ng Balat</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Paganahin</string>
   <string name="pref_camera_skinToneEnhancement_entry_disable">Hindi pinagana</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
+  <string name="pref_camera_skinToneEnhancement_value_enable">paganahin</string>
+  <string name="pref_camera_skinToneEnhancement_value_disable">huwag paganahin</string>
   <!-- Settings screen, setting title text for ZSL-->
+  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
+  <string name="pref_camera_selectablezoneaf_default">auto</string>
   <!-- Settings screen, Selectable zone af title -->
+  <string name="pref_camera_selectablezoneaf_title"> Maaaring Piliin ang Zone ng Auto Focus</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
+  <string name="pref_camera_selectablezoneaf_entry_auto">Auto</string>
+  <string name="pref_camera_selectablezoneaf_entry_spotmetering">Lugar ng Pagsukat</string>
+  <string name="pref_camera_selectablezoneaf_entry_centerweighted">Gitna ng Tinimbangan</string>
+  <string name="pref_camera_selectablezoneaf_entry_frameaverage">Average na Frame</string>
   <!-- Auto exposure entry values. Do not translate. -->
+  <string name="pref_camera_selectablezoneaf_value_auto">auto</string>
+  <string name="pref_camera_selectablezoneaf_value_spotmetering">lugar ng pagsukat</string>
+  <string name="pref_camera_selectablezoneaf_value_centerweighted">gitna ng tinimbangan</string>
+  <string name="pref_camera_selectablezoneaf_value_frameaverage">average na frame</string>
+  <string name="pref_camera_advanced_feature_default">wala</string>
   <!-- Settings screen, Selectable advanced features title -->
+  <string name="pref_camera_advanced_features_title">Advanced na Tampok</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Wala</string>
+  <string name="pref_camera_advanced_feature_entry_ubifocus">Ubi Focus</string>
+  <string name="pref_camera_advanced_feature_entry_refocus">Muling i-pokus</string>
+  <string name="pref_camera_advanced_feature_entry_chromaflash">Chroma Flash</string>
+  <string name="pref_camera_advanced_feature_entry_optizoom">Opti Zoom</string>
+  <string name="pref_camera_advanced_feature_entry_FSSR">FSSR</string>
+  <string name="pref_camera_advanced_feature_entry_trueportrait">Tunay na Larawan</string>
   <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Ang mga focus ng Multi-touch</string>
+  <string name="pref_camera_advanced_feature_entry_stillmore">Higit pa rin</string>
   <!-- Auto exposure entry values. Do not translate. -->
+  <string name="pref_camera_advanced_feature_value_none">wala</string>
+  <string name="pref_camera_advanced_feature_value_ubifocus_on">af-bracket-on</string>
+  <string name="pref_camera_advanced_feature_value_refocus_on">muling-i-focus-sa</string>
+  <string name="pref_camera_advanced_feature_value_chromaflash_on">chroma-flash-sa</string>
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_entry_ISO_priority">Ang prioridad ng ISO</string>
   <string name="pref_camera_manual_exp_entry_exptime_priority">Ang prioridad ng pagkakalantad ng oras</string>
@@ -108,27 +158,40 @@
   <!-- Default video tnr mode setting-->
   <!-- Default face  detection setting. -->
   <!-- Settings screen, Select Face Detection -->
+  <string name="pref_camera_facedetection_title">Pagtukoy ng Mukha</string>
   <!-- Settings menu, Face Detection choices -->
   <string name="pref_camera_facedetection_entry_off">Patay</string>
+  <string name="pref_camera_facedetection_entry_on">Bukas</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
+  <string name="pref_selfie_flash_title">Flash ng Selfie</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">Patay</string>
+  <string name="pref_selfie_flash_entry_on">Bukas</string>
   <!-- Default redeye reduction setting. -->
   <!-- Settings screen, Select Redeye Reduction -->
+  <string name="pref_camera_redeyereduction_title">Pagbawas ng Redeye</string>
   <!-- Settings menu, redeye reduction choices -->
   <string name="pref_camera_redeyereduction_entry_enable">Paganahin</string>
   <string name="pref_camera_redeyereduction_entry_disable">Hindi pinagana</string>
+  <string name="pref_camera_selfiemirror_title" translatable="true">Salamin ng Selfie</string>
   <string name="pref_camera_selfiemirror_entry_enable">Paganahin</string>
   <string name="pref_camera_selfiemirror_entry_disable">Hindi pinagana</string>
+  <string name="pref_camera_shuttersound_title" translatable="true">Tunog ng Shutter</string>
   <string name="pref_camera_shuttersound_entry_enable">Paganahin</string>
   <string name="pref_camera_shuttersound_entry_disable">Hindi pinagana</string>
   <!-- Default mce setting. Do not translate. -->
+  <string name="pref_camera_mce_default">paganahin</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
+  <string name="error_app_unsupported_hfr_selection">HFR/HSR ay hindi suportado pra sa imahe ng Pagpapatatag/TimeLapse/HDR</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
+  <string name="error_app_unsupported_hfr">HFR ay hindi suportado para sa mga napiling resolusyon</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
+  <string name="error_app_unsupported_dis">Hindi suportadong video resolution para sa pagpapanatag ng imahe</string>
   <!-- The message is shown in dialog when the app
          encounters an unsupported resolution for HSR mode -->
+  <string name="error_app_unsupported_hsr">
+HSR ay hindi suportado para sa mga napiling resolusyon     </string>
   <!-- The message is shown in dialog when the app encounters an unsupported video codec for HFR mode -->
   <string name="error_app_unsupported_hfr_codec">H264 video encoding lamay ang suportado kung ang HFR ay naka-ON</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
@@ -136,10 +199,18 @@
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
   <string name="error_app_unsupported_profile">Ang hindi suportado na video profile</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
+  <string name="error_app_unsupported_raw">Hilaw na format ng imahe ay hindi suportado sa zsl mode, baguhin sa JPEG    </string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE-Panaklaw</string>
+  <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE-Panaklaw</string>
+  <string name="pref_camera_ae_bracket_hdr_title">AE-Panaklaw</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_on">Bukas</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Patay</string>
+  <string name="err_app_unsupport_ae_bracket_code">walang ae panaklaw na nakasuporta ng Apps ngayon</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
+  <string name="snapshot_lower_than_video">Ang laki ng video snapshot ay mas mababa kaysa sa laki ng video. Capping para sa laki ng Video. Pakiusap pumili ng isang resolusyon na mas mataas or katumbas sa kasalukuyang laki ng video. </string>
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
+  <string name="snapshotsize_low_powermode">Hindi namin suportado ang resolusyon ng larawan sa Low Power Mode. Aalisin ang laki ng video ng snapshot. Pumili ng mataas na pawer mode para sa sukat ng litrato.    </string>
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
   <!-- Default hfr setting. Do not translate. -->
   <!-- Settings screen, Select hfr title -->
@@ -359,6 +430,7 @@
   <string name="pref_camera_zoom_entry_off">Patay</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">Paganahin</string>
   <string name="pref_camera2_bsgc_entry_disable" translatable="true">Hindi pinagana</string>
+  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Patay</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
