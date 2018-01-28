@@ -50,7 +50,6 @@
   <string name="pref_camera_skinToneEnhancement_entry_disable">Desactiver</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
-  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title"> Zone auto focus sélectionnable</string>
@@ -61,10 +60,6 @@
   <string name="pref_camera_advanced_features_title">Fonctions avancées</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Aucun</string>
-  <string name="pref_camera_advanced_feature_entry_ubifocus">Ubi Focus</string>
-  <string name="pref_camera_advanced_feature_entry_refocus">Refocus</string>
-  <string name="pref_camera_advanced_feature_entry_chromaflash">Chroma Flash</string>
-  <string name="pref_camera_advanced_feature_entry_optizoom">Opti Zoom</string>
   <string name="pref_camera_advanced_feature_entry_trueportrait">Portrait fidèle</string>
   <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Focus multi-touches</string>
   <!-- Auto exposure entry values. Do not translate. -->
@@ -196,11 +191,6 @@
   <string name="pref_camera_iso_entry_iso800">ISO800</string>
   <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
-  <string name="pref_camera_iso_value_iso100">ISO100</string>
-  <string name="pref_camera_iso_value_iso200">ISO200</string>
-  <string name="pref_camera_iso_value_iso400">ISO400</string>
-  <string name="pref_camera_iso_value_iso800">ISO800</string>
-  <string name="pref_camera_iso_value_iso1600">ISO1600</string>
   <!-- Settings screen, Anti Banding title -->
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
@@ -269,11 +259,9 @@
   <!-- Settings screen, Select sharpness title -->
   <string name="pref_camera_sharpness_title">Netteté</string>
   <!-- Default contrast setting. Do not translate. -->
-  <string name="pref_camera_contrast_default">5</string>
   <!-- Settings screen, Select contrast title -->
   <string name="pref_camera_contrast_title">Contraste</string>
   <!-- Default saturation setting. Do not translate. -->
-  <string name="pref_camera_saturation_default">5</string>
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Saturation</string>
   <!-- Default picture quality setting. See
@@ -404,7 +392,6 @@ Continuous n\'est pas supportée quand les fonctionnalités avancées sont activ
   <string name="pref_camera_zoom_entry_off">Désactivé</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">Activé</string>
   <string name="pref_camera2_bsgc_entry_disable" translatable="true">Desactiver</string>
-  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Désactivé</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->

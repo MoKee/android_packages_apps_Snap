@@ -34,7 +34,6 @@
   <string name="pref_camera_powermode_value_np">正常電量</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
-  <string name="pref_camera_autoexposure_default">平均幀率</string>
   <!-- Settings screen, Select auto exposure title -->
   <string name="pref_camera_autoexposure_title">選擇自動曝光模式</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
@@ -42,9 +41,6 @@
   <string name="pref_camera_autoexposure_entry_centerweighted">中央加權測光</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">點測光</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_autoexposure_value_frameaverage">平均幀率</string>
-  <string name="pref_camera_autoexposure_value_centerweighted">中央加權測光</string>
-  <string name="pref_camera_autoexposure_value_spotmetering">點測光</string>
   <!-- Settings screen, Video encoder title -->
   <string name="pref_camera_videoencoder_title">影片編碼</string>
   <!-- Settings screen, Video encoder dialog radio button choices -->
@@ -61,19 +57,14 @@
   <!-- Settings screen, Audio encoder dialog radio button choices -->
   <string name="pref_camera_audioencoder_entry_1">AAC</string>
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
-  <string name="pref_camera_skinToneEnhancement_default">停用</string>
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">膚色色調強化</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">啓用</string>
   <string name="pref_camera_skinToneEnhancement_entry_disable">關閉</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
-  <string name="pref_camera_skinToneEnhancement_value_enable">啟用</string>
-  <string name="pref_camera_skinToneEnhancement_value_disable">停用</string>
   <!-- Settings screen, setting title text for ZSL-->
-  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
-  <string name="pref_camera_selectablezoneaf_default">自動</string>
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title"> 可選區域自動對焦</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -82,10 +73,6 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">中央加權測光</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">平均幀率</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_selectablezoneaf_value_auto">自動</string>
-  <string name="pref_camera_selectablezoneaf_value_spotmetering">點測光</string>
-  <string name="pref_camera_selectablezoneaf_value_centerweighted">中央加權測光</string>
-  <string name="pref_camera_selectablezoneaf_value_frameaverage">平均幀率</string>
   <string name="pref_camera_advanced_feature_default">無</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">進階功能</string>
@@ -98,7 +85,6 @@
   <string name="pref_camera_advanced_feature_entry_trueportrait">真實肖像</string>
   <string name="pref_camera_advanced_feature_entry_multi_touch_focus">多點觸控對焦</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_value_none">無</string>
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_title">手動曝光</string>
   <string name="pref_camera_manual_exp_entry_ISO_priority">ISO 優先</string>
@@ -233,14 +219,6 @@ HFR 不支援所選取的解析度     </string>
   <string name="pref_camera_hfr_title">影片高影格率</string>
   <!-- Settings screen, hfr radio button choices -->
   <string name="pref_camera_hfr_entry_off">關閉</string>
-  <string name="pref_camera_hfr_entry_2x">HFR 60</string>
-  <string name="pref_camera_hfr_entry_3x">HFR 90</string>
-  <string name="pref_camera_hfr_entry_4x">HFR 120</string>
-  <string name="pref_camera_hfr_entry_8x">HFR 240</string>
-  <string name="pref_camera_hfr_entry_hsr_60">HSR 60</string>
-  <string name="pref_camera_hfr_entry_hsr_90">HSR 90</string>
-  <string name="pref_camera_hfr_entry_hsr_120">HSR 120</string>
-  <string name="pref_camera_hfr_entry_hsr_240">HSR 240</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
@@ -268,61 +246,12 @@ HFR 不支援所選取的解析度     </string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">自動</string>
   <string name="pref_camera_iso_entry_isodeblur">ISO 自動 (HJR)</string>
-  <string name="pref_camera_iso_entry_iso50">ISO50</string>
   <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso125">ISO125</string>
-  <string name="pref_camera_iso_entry_iso150">ISO150</string>
   <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso250">ISO250</string>
-  <string name="pref_camera_iso_entry_iso300">ISO300</string>
-  <string name="pref_camera_iso_entry_iso320">ISO320</string>
-  <string name="pref_camera_iso_entry_iso350">ISO350</string>
   <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso450">ISO450</string>
-  <string name="pref_camera_iso_entry_iso500">ISO500</string>
-  <string name="pref_camera_iso_entry_iso600">ISO600</string>
-  <string name="pref_camera_iso_entry_iso640">ISO640</string>
-  <string name="pref_camera_iso_entry_iso700">ISO700</string>
   <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
-  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
-  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
-  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
   <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
-  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
-  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
-  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
-  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
-  <string name="pref_camera_iso_value_iso50">ISO50</string>
-  <string name="pref_camera_iso_value_iso100">ISO100</string>
-  <string name="pref_camera_iso_value_iso125">ISO125</string>
-  <string name="pref_camera_iso_value_iso150">ISO150</string>
-  <string name="pref_camera_iso_value_iso200">ISO200</string>
-  <string name="pref_camera_iso_value_iso250">ISO250</string>
-  <string name="pref_camera_iso_value_iso300">ISO300</string>
-  <string name="pref_camera_iso_value_iso320">ISO320</string>
-  <string name="pref_camera_iso_value_iso350">ISO350</string>
-  <string name="pref_camera_iso_value_iso400">ISO400</string>
-  <string name="pref_camera_iso_value_iso450">ISO450</string>
-  <string name="pref_camera_iso_value_iso500">ISO500</string>
-  <string name="pref_camera_iso_value_iso600">ISO600</string>
-  <string name="pref_camera_iso_value_iso640">ISO640</string>
-  <string name="pref_camera_iso_value_iso700">ISO700</string>
-  <string name="pref_camera_iso_value_iso800">ISO800</string>
-  <string name="pref_camera_iso_value_iso1000">ISO1000</string>
-  <string name="pref_camera_iso_value_iso1200">ISO1200</string>
-  <string name="pref_camera_iso_value_iso1250">ISO1250</string>
-  <string name="pref_camera_iso_value_iso1500">ISO1500</string>
-  <string name="pref_camera_iso_value_iso1600">ISO1600</string>
-  <string name="pref_camera_iso_value_iso2000">ISO2000</string>
-  <string name="pref_camera_iso_value_iso2500">ISO2500</string>
-  <string name="pref_camera_iso_value_iso2700">ISO2700</string>
-  <string name="pref_camera_iso_value_iso3200">ISO3200</string>
-  <string name="pref_camera_iso_value_iso6400">ISO6400</string>
-  <string name="pref_camera_iso_value_iso12800">ISO12800</string>
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">防閃爍</string>
   <!-- Default Anti Banding setting. -->
@@ -399,11 +328,9 @@ HFR 不支援所選取的解析度     </string>
   <!-- Settings screen, Select sharpness title -->
   <string name="pref_camera_sharpness_title">銳利度</string>
   <!-- Default contrast setting. Do not translate. -->
-  <string name="pref_camera_contrast_default">5</string>
   <!-- Settings screen, Select contrast title -->
   <string name="pref_camera_contrast_title">對比</string>
   <!-- Default saturation setting. Do not translate. -->
-  <string name="pref_camera_saturation_default">5</string>
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">飽和度</string>
   <!-- Default picture quality setting. See
@@ -412,7 +339,6 @@ HFR 不支援所選取的解析度     </string>
   <!-- Settings screen, Select Picture format title -->
   <string name="pref_camera_picture_format_title">選擇圖片格式</string>
   <!-- Settings screen, picture format dialog radio button choices -->
-  <string name="pref_camera_picture_format_entry_jpeg">Jpeg</string>
   <!-- Picture format entry values. Do not translate. -->
   <!-- Settings screen, Picture quality title -->
   <string name="pref_camera_jpegquality_title">相片品質</string>
@@ -427,13 +353,6 @@ HFR 不支援所選取的解析度     </string>
   <string name="pref_camera_histogram_entry_enable">啓用</string>
   <string name="pref_camera_histogram_entry_disable">關閉</string>
   <!-- Histogram entry values. Do not translate. -->
-  <string name="pref_camera_picturesize_entry_1920x1080">HD1080</string>
-  <string name="pref_camera_picturesize_entry_1280x768">WXGA</string>
-  <string name="pref_camera_picturesize_entry_1280x720">HD720</string>
-  <string name="pref_camera_picturesize_entry_800x600">SVGA</string>
-  <string name="pref_camera_picturesize_entry_800x480">WVGA</string>
-  <string name="pref_camera_picturesize_entry_960x720">960 x 720</string>
-  <string name="pref_camera_picturesize_entry_720x480">720 x 480</string>
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
   <string name="pref_camera_scenedetect_title">自動場景偵測</string>
@@ -514,24 +433,15 @@ HFR 不支援所選取的解析度     </string>
   <string name="pref_camera2_mpo_entry_off" translatable="true">關閉</string>
   <string name="pref_camera2_makeup_title" translatable="true">美顏</string>
   <string name="pref_camera2_noise_reduction_title" translatable="true">降噪</string>
-  <string name="pref_camera2_noise_reduction_entry_off" translatable="true">關閉前鏡頭降噪</string>
-  <string name="pref_camera2_noise_reduction_entry_fast" translatable="true">前鏡頭快速降噪</string>
-  <string name="pref_camera2_noise_reduction_entry_high_quality" translatable="true">高品質前鏡頭降噪</string>
   <string name="pref_camera2_videosnap_title" translatable="true">自動快照大小</string>
   <string name="pref_camera2_videosnap_entry_enable" translatable="true">啓用</string>
   <string name="pref_camera2_videosnap_entry_disable" translatable="true">關閉</string>
   <string name="pref_camera2_trackingfocus_title" translatable="true">追蹤對焦</string>
   <string name="pref_camera_scenemode_entry_bestpicture" translatable="true">最佳相片</string>
-  <string name="pref_camera_scenemode_entry_blurbuster" translatable="true">BlurBuster</string>
-  <string name="pref_camera_scenemode_entry_sharpshooter" translatable="true">SharpPhoto</string>
   <string name="pref_camera_scenemode_entry_trackingfocus" translatable="true">追蹤對焦</string>
   <string name="pref_camera_scenemode_entry_panorama" translatable="true">全景</string>
   <string name="pref_camera_scenemode_entry_promode" translatable="true">專業模式</string>
-  <string name="bestpicture_done" translatable="true">SAVE</string>
   <string name="bestpicture_at_least_one_picture" translatable="true">至少需要一張圖片有可供選擇。</string>
-  <string name="pref_camera2_shutter_sound_entry_on" translatable="true">啟用前鏡頭快門聲音</string>
-  <string name="pref_camera2_shutter_sound_entry_off" translatable="true">關閉前鏡頭快門聲音</string>
-  <string name="pref_camera2_shutter_sound_title" translatable="true">前鏡頭快門聲音</string>
   <string name="pref_camera2_timer_entry_off" translatable="true">關閉</string>
   <string name="pref_camera2_timer_entry_2sec" translatable="true">2 秒</string>
   <string name="pref_camera2_timer_entry_5sec" translatable="true">5 秒</string>
@@ -618,11 +528,7 @@ HFR 不支援所選取的解析度     </string>
   <string name="pref_camera2_bsgc_title" translatable="true">微笑/眨眼/凝視檢測</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">啓用</string>
   <string name="pref_camera2_bsgc_entry_disable" translatable="true">關閉</string>
-  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">關閉</string>
-  <string name="pref_camera2_zsl_entry_app_zsl" translatable="true">APP-ZSL</string>
-  <string name="pref_camera2_zsl_entry_hal_zsl" translatable="true">HAL-ZSL</string>
   <!-- QCFA Title -->
-  <string name="pref_camera2_qcfa_title" translatable="true">QCFA</string>
   <!-- QCFA choices -->
 </resources>

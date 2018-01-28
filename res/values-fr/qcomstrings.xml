@@ -52,40 +52,29 @@
   <!-- Settings screen, Audio encoder dialog radio button choices -->
   <string name="pref_camera_audioencoder_entry_1">AAC</string>
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
-  <string name="pref_camera_skinToneEnhancement_default">desactiver</string>
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">Amélioration de la tonalité</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Activé</string>
   <string name="pref_camera_skinToneEnhancement_entry_disable">Désactiver</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
-  <string name="pref_camera_skinToneEnhancement_value_enable">activé</string>
-  <string name="pref_camera_skinToneEnhancement_value_disable">désactivé</string>
   <!-- Settings screen, setting title text for ZSL-->
-  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
-  <string name="pref_camera_selectablezoneaf_default">automatique</string>
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title"> Zone auto focus sélectionnable</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_selectablezoneaf_entry_auto">Automatique</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_selectablezoneaf_value_auto">automatique</string>
   <string name="pref_camera_advanced_feature_default">aucun</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Fonctions avancées</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Aucun</string>
-  <string name="pref_camera_advanced_feature_entry_ubifocus">Ubi Focus</string>
-  <string name="pref_camera_advanced_feature_entry_refocus">Refocus</string>
-  <string name="pref_camera_advanced_feature_entry_chromaflash">Chroma Flash</string>
-  <string name="pref_camera_advanced_feature_entry_optizoom">Opti Zoom</string>
   <string name="pref_camera_advanced_feature_entry_FSSR">FSSR</string>
   <string name="pref_camera_advanced_feature_entry_trueportrait">Portrait fidèle</string>
   <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Mise au point multi-touches</string>
   <string name="pref_camera_advanced_feature_entry_stillmore">Encore Plus</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_value_none">aucun</string>
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_entry_ISO_priority">Priorité ISO</string>
   <string name="pref_camera_manual_exp_entry_exptime_priority">Priorité au temps d’exposition</string>
@@ -213,11 +202,6 @@
   <string name="pref_camera_iso_entry_iso800">ISO800</string>
   <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
-  <string name="pref_camera_iso_value_iso100">ISO100</string>
-  <string name="pref_camera_iso_value_iso200">ISO200</string>
-  <string name="pref_camera_iso_value_iso400">ISO400</string>
-  <string name="pref_camera_iso_value_iso800">ISO800</string>
-  <string name="pref_camera_iso_value_iso1600">ISO1600</string>
   <!-- Settings screen, Anti Banding title -->
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
@@ -286,11 +270,9 @@
   <!-- Settings screen, Select sharpness title -->
   <string name="pref_camera_sharpness_title">Netteté</string>
   <!-- Default contrast setting. Do not translate. -->
-  <string name="pref_camera_contrast_default">5</string>
   <!-- Settings screen, Select contrast title -->
   <string name="pref_camera_contrast_title">Contraste</string>
   <!-- Default saturation setting. Do not translate. -->
-  <string name="pref_camera_saturation_default">5</string>
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Saturation</string>
   <!-- Default picture quality setting. See
@@ -337,10 +319,6 @@
   <!--Menu, video rotation label-->
   <string name="pref_camera_video_rotation_label">ROTATION VIDÉO</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
-  <string name="pref_camera_video_rotation_entry_0">0</string>
-  <string name="pref_camera_video_rotation_entry_90">90</string>
-  <string name="pref_camera_video_rotation_entry_180">180</string>
-  <string name="pref_camera_video_rotation_entry_270">270</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <string name="map_activity_not_found_err">Il n\'y a pas de carte pour la localisation affichée.</string>
   <!-- Continous shot enable message -->
@@ -424,7 +402,6 @@ Continuous n\'est pas supportée quand les fonctionnalités avancées sont activ
   <string name="pref_camera_zoom_entry_off">Désactivé</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">Activé</string>
   <string name="pref_camera2_bsgc_entry_disable" translatable="true">Désactiver</string>
-  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Désactivé</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->

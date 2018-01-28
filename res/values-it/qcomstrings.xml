@@ -34,7 +34,6 @@
   <string name="pref_camera_powermode_value_np">Consumo normale</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
-  <string name="pref_camera_autoexposure_default">media frame</string>
   <!-- Settings screen, Select auto exposure title -->
   <string name="pref_camera_autoexposure_title">Selezionare la modalità di esposizione automatica</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
@@ -42,9 +41,6 @@
   <string name="pref_camera_autoexposure_entry_centerweighted">Pesata al centro</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">Punto singolo</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_autoexposure_value_frameaverage">media frame</string>
-  <string name="pref_camera_autoexposure_value_centerweighted">ponderata centrale</string>
-  <string name="pref_camera_autoexposure_value_spotmetering">misurazione spot</string>
   <!-- Settings screen, Video encoder title -->
   <string name="pref_camera_videoencoder_title">Codificatore video</string>
   <!-- Settings screen, Video encoder dialog radio button choices -->
@@ -62,19 +58,14 @@
   <string name="pref_camera_audioencoder_entry_0">AMRNB</string>
   <string name="pref_camera_audioencoder_entry_1">AAC</string>
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
-  <string name="pref_camera_skinToneEnhancement_default">disattivata</string>
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">Miglioramento tono della pelle</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Attiva</string>
   <string name="pref_camera_skinToneEnhancement_entry_disable">Disattiva</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
-  <string name="pref_camera_skinToneEnhancement_value_enable">attiva</string>
-  <string name="pref_camera_skinToneEnhancement_value_disable">disattiva</string>
   <!-- Settings screen, setting title text for ZSL-->
-  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
-  <string name="pref_camera_selectablezoneaf_default">auto</string>
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title"> Messa a fuoco automatica con zona selezionabile</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -83,30 +74,17 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Pesata al centro</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Media dei frame</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_selectablezoneaf_value_auto">auto</string>
-  <string name="pref_camera_selectablezoneaf_value_spotmetering">misurazione spot</string>
-  <string name="pref_camera_selectablezoneaf_value_centerweighted">ponderata centrale</string>
-  <string name="pref_camera_selectablezoneaf_value_frameaverage">media frame</string>
   <string name="pref_camera_advanced_feature_default">nessuno</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Funzioni avanzate</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Nessuno</string>
-  <string name="pref_camera_advanced_feature_entry_ubifocus">Ubi Focus</string>
   <string name="pref_camera_advanced_feature_entry_refocus">Rimessa a fuoco</string>
-  <string name="pref_camera_advanced_feature_entry_chromaflash">Chroma Flash</string>
-  <string name="pref_camera_advanced_feature_entry_optizoom">Opti Zoom</string>
   <string name="pref_camera_advanced_feature_entry_FSSR">FSSR</string>
   <string name="pref_camera_advanced_feature_entry_trueportrait">Vero ritratto</string>
   <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Focus Multi touch</string>
   <string name="pref_camera_advanced_feature_entry_stillmore">Ancor più</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_value_none">nessuno</string>
-  <string name="pref_camera_advanced_feature_value_ubifocus_on">af-bracket-on</string>
-  <string name="pref_camera_advanced_feature_value_refocus_on">re-focus-on</string>
-  <string name="pref_camera_advanced_feature_value_chromaflash_on">chroma-flash-on</string>
-  <string name="pref_camera_advanced_feature_value_optizoom_on">opti-zoom-on</string>
-  <string name="pref_camera_advanced_feature_value_FSSR_on">FSSR-on</string>
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_entry_ISO_priority">Priorità ISO</string>
   <string name="pref_camera_manual_exp_entry_exptime_priority">Priorità tempo esposizione</string>
@@ -234,11 +212,6 @@
   <string name="pref_camera_iso_entry_iso800">ISO800</string>
   <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
-  <string name="pref_camera_iso_value_iso100">ISO100</string>
-  <string name="pref_camera_iso_value_iso200">ISO200</string>
-  <string name="pref_camera_iso_value_iso400">ISO400</string>
-  <string name="pref_camera_iso_value_iso800">ISO800</string>
-  <string name="pref_camera_iso_value_iso1600">ISO1600</string>
   <!-- Settings screen, Anti Banding title -->
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
@@ -307,11 +280,9 @@
   <!-- Settings screen, Select sharpness title -->
   <string name="pref_camera_sharpness_title">Nitidezza</string>
   <!-- Default contrast setting. Do not translate. -->
-  <string name="pref_camera_contrast_default">5</string>
   <!-- Settings screen, Select contrast title -->
   <string name="pref_camera_contrast_title">Contrasto</string>
   <!-- Default saturation setting. Do not translate. -->
-  <string name="pref_camera_saturation_default">5</string>
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Saturazione</string>
   <!-- Default picture quality setting. See
@@ -435,7 +406,6 @@
   <string name="pref_camera_zoom_entry_off">Spenta</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">Attiva</string>
   <string name="pref_camera2_bsgc_entry_disable" translatable="true">Disattiva</string>
-  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Spenta</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->

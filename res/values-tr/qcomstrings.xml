@@ -34,7 +34,6 @@
   <string name="pref_camera_powermode_value_np">Normal_Güç</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
-  <string name="pref_camera_autoexposure_default">çerçeve-ortalaması</string>
   <!-- Settings screen, Select auto exposure title -->
   <string name="pref_camera_autoexposure_title">Otomatik Pozlama Modunu Seçin</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
@@ -42,9 +41,6 @@
   <string name="pref_camera_autoexposure_entry_centerweighted">Merkez Ağırlıklı</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">Nokta Ölçümü</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_autoexposure_value_frameaverage">çerçeve-ortalaması</string>
-  <string name="pref_camera_autoexposure_value_centerweighted">merkez-ağırlıklı</string>
-  <string name="pref_camera_autoexposure_value_spotmetering">nokta-ölçümü</string>
   <!-- Settings screen, Video encoder title -->
   <string name="pref_camera_videoencoder_title">Video Kodlayıcı</string>
   <!-- Settings screen, Video encoder dialog radio button choices -->
@@ -62,19 +58,14 @@
   <string name="pref_camera_audioencoder_entry_0">AMRNB</string>
   <string name="pref_camera_audioencoder_entry_1">AAC</string>
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
-  <string name="pref_camera_skinToneEnhancement_default">devre dışı</string>
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">Cilt Rengi Geliştirmesi</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Etkinleştir</string>
   <string name="pref_camera_skinToneEnhancement_entry_disable">Devredışı</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
-  <string name="pref_camera_skinToneEnhancement_value_enable">etkin</string>
-  <string name="pref_camera_skinToneEnhancement_value_disable">devre dışı</string>
   <!-- Settings screen, setting title text for ZSL-->
-  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
-  <string name="pref_camera_selectablezoneaf_default">otomatik</string>
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title"> Seçilebilir Otomatik Odaklama Alanı</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -83,16 +74,11 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Merkez Ağırlıklı</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Çerçeve Ortalaması</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_selectablezoneaf_value_auto">otomatik</string>
-  <string name="pref_camera_selectablezoneaf_value_spotmetering">nokta-ölçümü</string>
-  <string name="pref_camera_selectablezoneaf_value_centerweighted">merkez-ağırlıklı</string>
-  <string name="pref_camera_selectablezoneaf_value_frameaverage">çevçeve-ortalaması</string>
   <string name="pref_camera_advanced_feature_default">hiçbiri</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Gelişmiş Özellikler</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Hiçbiri</string>
-  <string name="pref_camera_advanced_feature_entry_ubifocus">Ubi Focus</string>
   <string name="pref_camera_advanced_feature_entry_refocus">Yeniden Odaklama</string>
   <string name="pref_camera_advanced_feature_entry_chromaflash">Renkli Flaş</string>
   <string name="pref_camera_advanced_feature_entry_optizoom">Optik Yakınlaştırma</string>
@@ -101,23 +87,6 @@
   <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Çoklu-dokunmalı Odaklama</string>
   <string name="pref_camera_advanced_feature_entry_stillmore">Daha Fazlası</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_value_none">hiçbiri</string>
-  <string name="pref_camera_advanced_feature_value_ubifocus_on">af-desteği-etkin</string>
-  <string name="pref_camera_advanced_feature_value_refocus_on">tekrar-odaklama-etkin</string>
-  <string name="pref_camera_advanced_feature_value_chromaflash_on">renkli-flaş-etkin</string>
-  <string name="pref_camera_advanced_feature_value_optizoom_on">opti-yakınlaştırma-etkin</string>
-  <string name="pref_camera_advanced_feature_value_FSSR_on">FSSR-etkin</string>
-  <string name="pref_camera_advanced_feature_value_trueportrait_on">gerçek-porte-açık</string>
-  <string name="pref_camera_advanced_feature_value_multi_touch_focus_on">çoklu-dokunmalı-odaklama-açık</string>
-  <string name="pref_camera_advanced_feature_value_stillmore_on">daha-hala-açık</string>
-  <string name="pref_camera_advanced_feature_value_ubifocus_off">af-deteği-kapalı</string>
-  <string name="pref_camera_advanced_feature_value_refocus_off">tekrar-focus-kapalı</string>
-  <string name="pref_camera_advanced_feature_value_chromaflash_off">renkli-flaş-kapalı</string>
-  <string name="pref_camera_advanced_feature_value_optizoom_off">opti-yakınlaştırma-kapalı</string>
-  <string name="pref_camera_advanced_feature_value_FSSR_off">FSSR-kapalı</string>
-  <string name="pref_camera_advanced_feature_value_trueportrait_off">gerçek-portre-kapalı</string>
-  <string name="pref_camera_advanced_feature_value_multi_touch_focus_off">çoklu-dokunmalı-odaklama-kapalı</string>
-  <string name="pref_camera_advanced_feature_value_stillmore_off">daha-hala-kapalı</string>
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_title">Manuel Pozlama</string>
   <string name="pref_camera_manual_exp_entry_ISO_priority">ISO öncelikli</string>
@@ -231,7 +200,6 @@
   <string name="pref_camera_shuttersound_entry_enable">Etkinleştir</string>
   <string name="pref_camera_shuttersound_entry_disable">Devredışı</string>
   <!-- Default mce setting. Do not translate. -->
-  <string name="pref_camera_mce_default">etkin</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Görüntü Sabitleme/Zaman Atlama/HDR için HFR/HSR desteklenmiyor</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -268,31 +236,13 @@ HSR seçilen çözünürlükte desteklenmiyor
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
   <string name="snapshot_qcif_and_d1">Bu çözünürlük için sadece Video boyutu anlık görüntüsü destekleniyor. </string>
   <!-- Default hfr setting. Do not translate. -->
-  <string name="pref_camera_hfr_default">kapalı</string>
   <!-- Settings screen, Select hfr title -->
   <string name="pref_camera_hfr_title">Video Yüksek Kare Hızı</string>
   <!-- Settings screen, hfr radio button choices -->
   <string name="pref_camera_hfr_entry_off">Kapat</string>
-  <string name="pref_camera_hfr_entry_2x">HFR 60</string>
   <string name="pref_camera_hfr_entry_3x">HFR 60</string>
-  <string name="pref_camera_hfr_entry_4x">HFR 120</string>
-  <string name="pref_camera_hfr_entry_8x">HFR 240</string>
-  <string name="pref_camera_hfr_entry_hsr_60">HSR 60</string>
-  <string name="pref_camera_hfr_entry_hsr_90">HSR 90</string>
-  <string name="pref_camera_hfr_entry_hsr_120">HSR 120</string>
-  <string name="pref_camera_hfr_entry_hsr_240">HSR 240</string>
   <!-- HFR entry values. Do not translate. -->
-  <string name="pref_camera_hfr_value_off">kapalı</string>
-  <string name="pref_camera_hfr_value_2x">hfr60</string>
-  <string name="pref_camera_hfr_value_3x">hfr90</string>
-  <string name="pref_camera_hfr_value_4x">hfr120</string>
-  <string name="pref_camera_hfr_value_8x">hfr240</string>
-  <string name="pref_camera_hfr_value_hsr_60">hsr60</string>
-  <string name="pref_camera_hfr_value_hsr_90">hsr90</string>
-  <string name="pref_camera_hfr_value_hsr_120">hsr120</string>
-  <string name="pref_camera_hfr_value_hsr_240">hsr240</string>
   <!-- Default noise reduction setting. Do not translate. -->
-  <string name="pref_camera_noise_reduction_default">kapalı</string>
   <!-- Settings screen, Select See More title -->
   <string name="pref_camera_noise_reduction_title">Gürültü Azaltma</string>
   <!-- Settings screen, see more radio button choices -->
@@ -300,88 +250,30 @@ HSR seçilen çözünürlükte desteklenmiyor
   <string name="pref_camera_noise_reduction_entry_fast">Hızlı</string>
   <string name="pref_camera_noise_reduction_entry_high_quality">Yüksek Kalite</string>
   <!-- see more entry values. Do not translate. -->
-  <string name="pref_camera_noise_reduction_value_off">kapalı</string>
-  <string name="pref_camera_noise_reduction_value_fast">hızlı</string>
-  <string name="pref_camera_noise_reduction_value_high_quality">yüksek-kalite</string>
   <!-- Default see more setting. Do not translate. -->
-  <string name="pref_camera_see_more_default">kapalı</string>
   <!-- Settings screen, Select See More title -->
   <string name="pref_camera_see_more_title">Daha Fazlası</string>
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_see_more_entry_off">Kapat</string>
   <string name="pref_camera_see_more_entry_on">Açık</string>
   <!-- see more entry values. Do not translate. -->
-  <string name="pref_camera_see_more_value_off">kapalı</string>
-  <string name="pref_camera_see_more_value_on">açık</string>
   <!-- Denoise Settings screen, setting title text -->
   <string name="pref_camera_denoise_title">Dalgacık Gürültü Giderme Modu</string>
   <!-- Denoise Settings screen, Record location dialog choices -->
   <string name="pref_camera_denoise_entry_off">Kapat</string>
   <string name="pref_camera_denoise_entry_on">Açık</string>
   <!-- Default iso setting. Do not translate. -->
-  <string name="pref_camera_iso_default">otomatik</string>
   <!-- Settings screen, Select Iso title -->
   <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Otomatik</string>
   <string name="pref_camera_iso_entry_isodeblur">ISO Otomatik(HJR)</string>
-  <string name="pref_camera_iso_entry_iso50">ISO50</string>
   <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso125">ISO125</string>
-  <string name="pref_camera_iso_entry_iso150">ISO150</string>
   <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso250">ISO250</string>
-  <string name="pref_camera_iso_entry_iso300">ISO300</string>
-  <string name="pref_camera_iso_entry_iso320">ISO320</string>
-  <string name="pref_camera_iso_entry_iso350">ISO350</string>
   <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso450">ISO450</string>
-  <string name="pref_camera_iso_entry_iso500">ISO500</string>
-  <string name="pref_camera_iso_entry_iso600">ISO600</string>
-  <string name="pref_camera_iso_entry_iso640">ISO640</string>
-  <string name="pref_camera_iso_entry_iso700">ISO700</string>
   <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
-  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
-  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
-  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
   <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
-  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
-  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
-  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
-  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
-  <string name="pref_camera_iso_value_auto">otomatik</string>
-  <string name="pref_camera_iso_value_isodeblur">ISO_HJR</string>
-  <string name="pref_camera_iso_value_iso50">ISO50</string>
-  <string name="pref_camera_iso_value_iso100">ISO100</string>
-  <string name="pref_camera_iso_value_iso125">ISO125</string>
-  <string name="pref_camera_iso_value_iso150">ISO150</string>
-  <string name="pref_camera_iso_value_iso200">ISO200</string>
-  <string name="pref_camera_iso_value_iso250">ISO250</string>
-  <string name="pref_camera_iso_value_iso300">ISO300</string>
-  <string name="pref_camera_iso_value_iso320">ISO320</string>
-  <string name="pref_camera_iso_value_iso350">ISO350</string>
-  <string name="pref_camera_iso_value_iso400">ISO400</string>
-  <string name="pref_camera_iso_value_iso450">ISO450</string>
-  <string name="pref_camera_iso_value_iso500">ISO500</string>
-  <string name="pref_camera_iso_value_iso600">ISO600</string>
-  <string name="pref_camera_iso_value_iso640">ISO640</string>
-  <string name="pref_camera_iso_value_iso700">ISO700</string>
-  <string name="pref_camera_iso_value_iso800">ISO800</string>
-  <string name="pref_camera_iso_value_iso1000">ISO1000</string>
-  <string name="pref_camera_iso_value_iso1200">ISO1200</string>
-  <string name="pref_camera_iso_value_iso1250">ISO1250</string>
-  <string name="pref_camera_iso_value_iso1500">ISO1500</string>
-  <string name="pref_camera_iso_value_iso1600">ISO1600</string>
-  <string name="pref_camera_iso_value_iso2000">ISO2000</string>
-  <string name="pref_camera_iso_value_iso2500">ISO2500</string>
-  <string name="pref_camera_iso_value_iso2700">ISO2700</string>
-  <string name="pref_camera_iso_value_iso3200">ISO3200</string>
-  <string name="pref_camera_iso_value_iso6400">ISO6400</string>
-  <string name="pref_camera_iso_value_iso12800">ISO12800</string>
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Şeritlenmeyi Önleme</string>
   <!-- Default Anti Banding setting. -->
@@ -460,25 +352,20 @@ HSR seçilen çözünürlükte desteklenmiyor
   <string name="pref_camera_saturation_entry_level9">Seviye 9</string>
   <string name="pref_camera_saturation_entry_level10">Seviye 10</string>
   <!-- Default sharpness setting. Do not translate. -->
-  <string name="pref_camera_sharpness_default">2</string>
   <!-- Settings screen, Select sharpness title -->
   <string name="pref_camera_sharpness_title">Keskinlik</string>
   <!-- Default contrast setting. Do not translate. -->
-  <string name="pref_camera_contrast_default">5</string>
   <!-- Settings screen, Select contrast title -->
   <string name="pref_camera_contrast_title">Kontrast</string>
   <!-- Default saturation setting. Do not translate. -->
-  <string name="pref_camera_saturation_default">5</string>
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Doygunluk</string>
   <!-- Default picture quality setting. See
          pref_camera_jpegquality_entryvalues for possible values -->
   <!-- Default Picture format setting. Do not translate. -->
-  <string name="pref_camera_picture_format_default">jpeg</string>
   <!-- Settings screen, Select Picture format title -->
   <string name="pref_camera_picture_format_title">Resim Formatı Seçin</string>
   <!-- Settings screen, picture format dialog radio button choices -->
-  <string name="pref_camera_picture_format_entry_jpeg">Jpeg</string>
   <string name="pref_camera_picture_format_entry_raw">Raw</string>
   <string name="pref_camera_picture_format_entry_raw_yuv_422_sp">YUV422SP</string>
   <!-- Picture format entry values. Do not translate. -->
@@ -489,15 +376,12 @@ HSR seçilen çözünürlükte desteklenmiyor
   <string name="pref_camera_jpegquality_entry_1">Standart</string>
   <string name="pref_camera_jpegquality_entry_2">Yüksek</string>
   <!-- Default auto histogram setting. Do not translate. -->
-  <string name="pref_camera_histogram_default">devre dışı</string>
   <!-- Settings screen, Select Histogram title -->
   <string name="pref_camera_histogram_title">Histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Etkinleştir</string>
   <string name="pref_camera_histogram_entry_disable">Devredışı</string>
   <!-- Histogram entry values. Do not translate. -->
-  <string name="pref_camera_histogram_value_enable">etkin</string>
-  <string name="pref_camera_histogram_value_disable">devre dışı</string>
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
   <string name="pref_camera_scenedetect_title">Otomatik Sahne Tespiti</string>
@@ -528,7 +412,6 @@ HSR seçilen çözünürlükte desteklenmiyor
   <string name="pref_camera_hdr_mode_entry_sensor">Sensör HDR</string>
   <string name="pref_camera_hdr_mode_entry_multi_frame">Çoklu kare HDR</string>
   <!-- HDR mode entry values. Do not translate. -->
-  <string name="pref_hdr_mode_value_sensor">hdr-sensör-modu</string>
   <!--Default video rotation setting-->
   <!--Settings screen, video rotation title-->
   <string name="pref_camera_video_rotation_title">Video Döndürme</string>
@@ -657,8 +540,6 @@ HSR seçilen çözünürlükte desteklenmiyor
   <string name="pref_camera2_saturation_level_entry_10" translatable="true">Seviye 10</string>
   <string name="pref_camera2_anti_banding_level_title" translatable="true">Şerinlemeyi Önleme Seviyesi</string>
   <string name="pref_camera2_anti_banding_level_entry_off" translatable="true">Kapat</string>
-  <string name="pref_camera2_anti_banding_level_entry_50hz" translatable="true">50HZ</string>
-  <string name="pref_camera2_anti_banding_level_entry_60hz" translatable="true">60HZ</string>
   <string name="pref_camera2_anti_banding_level_entry_auto" translatable="true">Otomatik</string>
   <string name="pref_camera2_histogram_title" translatable="true">Histogram</string>
   <string name="pref_camera2_histogram_entry_enable" translatable="true">Etkinleştir</string>
@@ -680,25 +561,11 @@ HSR seçilen çözünürlükte desteklenmiyor
   <string name="pref_camera_zoom_title">Yakınlaştırma</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Kapat</string>
-  <string name="pref_camera_zoom_entry_1x">1x</string>
-  <string name="pref_camera_zoom_entry_2x">2x</string>
-  <string name="pref_camera_zoom_entry_3x">3x</string>
-  <string name="pref_camera_zoom_entry_4x">4x</string>
-  <string name="pref_camera_zoom_entry_5x">5x</string>
-  <string name="pref_camera_zoom_entry_6x">6x</string>
-  <string name="pref_camera_zoom_entry_7x">7x</string>
-  <string name="pref_camera_zoom_entry_8x">8x</string>
-  <string name="pref_camera_zoom_entry_9x">9x</string>
-  <string name="pref_camera_zoom_entry_10x">10x</string>
   <string name="pref_camera2_bsgc_title" translatable="true">Gülümseme/Göz Kırpma/Bakış Algılama</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">Etkinleştir</string>
   <string name="pref_camera2_bsgc_entry_disable" translatable="true">Devredışı</string>
-  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Kapat</string>
-  <string name="pref_camera2_zsl_entry_app_zsl" translatable="true">APP-ZSL</string>
-  <string name="pref_camera2_zsl_entry_hal_zsl" translatable="true">HAL-ZSL</string>
   <!-- QCFA Title -->
-  <string name="pref_camera2_qcfa_title" translatable="true">QCFA</string>
   <!-- QCFA choices -->
   <string name="pref_camera_qcfa_value_disable">devre dışı</string>
   <string name="pref_camera_qcfa_value_enable">etkin</string>

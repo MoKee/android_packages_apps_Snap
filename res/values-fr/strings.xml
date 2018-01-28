@@ -292,7 +292,7 @@
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_party">FÊTE</string>
   <!-- Settings menu countdown timer off [CHAR LIMIT=50] -->
-  <string name="pref_camera_countdown_label_off">MINUTEUR DÉSACTIVÉ</string>
+  <string name="pref_camera_countdown_label_off">RETARDATEUR DÉSACTIVÉ</string>
   <!-- Settings menu countdown timer 1 second [CHAR LIMIT=50] -->
   <string name="pref_camera_countdown_label_one">1 SECONDE</string>
   <!-- Settings menu countdown timer 3 seconds [CHAR LIMIT=50] -->

@@ -186,7 +186,7 @@
   <string name="pref_camera_savepath_title">Úložisko</string>
   <string name="pref_camera_savepath_default">0</string>
   <string name="pref_camera_savepath_entry_0">Telefón</string>
-  <string name="pref_camera_savepath_entry_1">Karta SD</string>
+  <string name="pref_camera_savepath_entry_1">SD karta</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">Vypnuté</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->

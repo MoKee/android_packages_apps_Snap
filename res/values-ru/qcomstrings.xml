@@ -34,7 +34,6 @@
   <string name="pref_camera_powermode_value_np">Normal_Power</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
-  <string name="pref_camera_autoexposure_default">frame-average</string>
   <!-- Settings screen, Select auto exposure title -->
   <string name="pref_camera_autoexposure_title">Выбрать режим автоэкспозиции</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
@@ -42,9 +41,6 @@
   <string name="pref_camera_autoexposure_entry_centerweighted">Центровзвешенный</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">Точечный</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_autoexposure_value_frameaverage">frame-average</string>
-  <string name="pref_camera_autoexposure_value_centerweighted">center-weighted</string>
-  <string name="pref_camera_autoexposure_value_spotmetering">spot-metering</string>
   <!-- Settings screen, Video encoder title -->
   <string name="pref_camera_videoencoder_title">Кодирование видео</string>
   <!-- Settings screen, Video encoder dialog radio button choices -->
@@ -62,19 +58,14 @@
   <string name="pref_camera_audioencoder_entry_0">AMRNB</string>
   <string name="pref_camera_audioencoder_entry_1">AAC</string>
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
-  <string name="pref_camera_skinToneEnhancement_default">disable</string>
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">Усиление тона кожи</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Вкл.</string>
   <string name="pref_camera_skinToneEnhancement_entry_disable">Выключить</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
-  <string name="pref_camera_skinToneEnhancement_value_enable">enable</string>
-  <string name="pref_camera_skinToneEnhancement_value_disable">disable</string>
   <!-- Settings screen, setting title text for ZSL-->
-  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
-  <string name="pref_camera_selectablezoneaf_default">auto</string>
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title">Выбор зоны автофокуса</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -83,10 +74,6 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Центровзвешенный</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Усреднённый</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_selectablezoneaf_value_auto">auto</string>
-  <string name="pref_camera_selectablezoneaf_value_spotmetering">spot-metering</string>
-  <string name="pref_camera_selectablezoneaf_value_centerweighted">center-weighted</string>
-  <string name="pref_camera_selectablezoneaf_value_frameaverage">frame-average</string>
   <string name="pref_camera_advanced_feature_default">none</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Расширенные настройки</string>
@@ -101,23 +88,6 @@
   <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Многоточечная фокусировка</string>
   <string name="pref_camera_advanced_feature_entry_stillmore">Still More</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_value_none">none</string>
-  <string name="pref_camera_advanced_feature_value_ubifocus_on">af-bracket-on</string>
-  <string name="pref_camera_advanced_feature_value_refocus_on">re-focus-on</string>
-  <string name="pref_camera_advanced_feature_value_chromaflash_on">chroma-flash-on</string>
-  <string name="pref_camera_advanced_feature_value_optizoom_on">opti-zoom-on</string>
-  <string name="pref_camera_advanced_feature_value_FSSR_on">FSSR-on</string>
-  <string name="pref_camera_advanced_feature_value_trueportrait_on">true-portrait-on</string>
-  <string name="pref_camera_advanced_feature_value_multi_touch_focus_on">multi-touch-focus-on</string>
-  <string name="pref_camera_advanced_feature_value_stillmore_on">still-more-on</string>
-  <string name="pref_camera_advanced_feature_value_ubifocus_off">af-bracket-off</string>
-  <string name="pref_camera_advanced_feature_value_refocus_off">re-focus-off</string>
-  <string name="pref_camera_advanced_feature_value_chromaflash_off">chroma-flash-off</string>
-  <string name="pref_camera_advanced_feature_value_optizoom_off">opti-zoom-off</string>
-  <string name="pref_camera_advanced_feature_value_FSSR_off">FSSR-off</string>
-  <string name="pref_camera_advanced_feature_value_trueportrait_off">true-portrait-off</string>
-  <string name="pref_camera_advanced_feature_value_multi_touch_focus_off">multi-touch-focus-off</string>
-  <string name="pref_camera_advanced_feature_value_stillmore_off">still-more-off</string>
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_title">Ручная экспозиция</string>
   <string name="pref_camera_manual_exp_entry_ISO_priority">Приоритет ISO</string>
@@ -197,13 +167,13 @@
   <!-- Settings menu, setting title text for cds mode-->
   <string name="pref_camera_cds_title">Режим CDS</string>
   <!-- Settings menu, setting title text for video cds mode-->
-  <string name="pref_camera_video_cds_title">Режим CDS видео</string>
+  <string name="pref_camera_video_cds_title">Режим CDS-видео</string>
   <!-- Default cds mode setting-->
   <!-- Default video cds mode setting-->
   <!-- Settings menu, setting title text for tnr mode-->
   <string name="pref_camera_tnr_title">Режим TNR</string>
   <!-- Settings menu, setting title text for video tnr mode-->
-  <string name="pref_camera_video_tnr_title">Режим TNR видео</string>
+  <string name="pref_camera_video_tnr_title">Режим TNR-видео</string>
   <!-- Default tnr mode setting-->
   <!-- Default video tnr mode setting-->
   <!-- Default face  detection setting. -->
@@ -231,7 +201,6 @@
   <string name="pref_camera_shuttersound_entry_enable">Вкл.</string>
   <string name="pref_camera_shuttersound_entry_disable">Выключить</string>
   <!-- Default mce setting. Do not translate. -->
-  <string name="pref_camera_mce_default">enable</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Режимы замедленной и высокоскоростной съемки не поддерживаются при включенных режимах стабилизации видео, интервальной съёмки или HDR</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -267,31 +236,12 @@
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
   <string name="snapshot_qcif_and_d1">Для этого разрешения поддерживается только размер эскиза, равный оригинальному размеру видео. </string>
   <!-- Default hfr setting. Do not translate. -->
-  <string name="pref_camera_hfr_default">off</string>
   <!-- Settings screen, Select hfr title -->
   <string name="pref_camera_hfr_title">Видео с высокой скоростью кадров</string>
   <!-- Settings screen, hfr radio button choices -->
   <string name="pref_camera_hfr_entry_off">Отключить</string>
-  <string name="pref_camera_hfr_entry_2x">HFR 60</string>
-  <string name="pref_camera_hfr_entry_3x">HFR 90</string>
-  <string name="pref_camera_hfr_entry_4x">HFR 120</string>
-  <string name="pref_camera_hfr_entry_8x">HFR 240</string>
-  <string name="pref_camera_hfr_entry_hsr_60">HSR 60</string>
-  <string name="pref_camera_hfr_entry_hsr_90">HSR 90</string>
-  <string name="pref_camera_hfr_entry_hsr_120">HSR 120</string>
-  <string name="pref_camera_hfr_entry_hsr_240">HSR 240</string>
   <!-- HFR entry values. Do not translate. -->
-  <string name="pref_camera_hfr_value_off">off</string>
-  <string name="pref_camera_hfr_value_2x">hfr60</string>
-  <string name="pref_camera_hfr_value_3x">hfr90</string>
-  <string name="pref_camera_hfr_value_4x">hfr120</string>
-  <string name="pref_camera_hfr_value_8x">hfr240</string>
-  <string name="pref_camera_hfr_value_hsr_60">hsr60</string>
-  <string name="pref_camera_hfr_value_hsr_90">hsr90</string>
-  <string name="pref_camera_hfr_value_hsr_120">hsr120</string>
-  <string name="pref_camera_hfr_value_hsr_240">hsr240</string>
   <!-- Default noise reduction setting. Do not translate. -->
-  <string name="pref_camera_noise_reduction_default">off</string>
   <!-- Settings screen, Select See More title -->
   <string name="pref_camera_noise_reduction_title">Шумоподавление</string>
   <!-- Settings screen, see more radio button choices -->
@@ -299,26 +249,19 @@
   <string name="pref_camera_noise_reduction_entry_fast">Быстро</string>
   <string name="pref_camera_noise_reduction_entry_high_quality">Высокое качество</string>
   <!-- see more entry values. Do not translate. -->
-  <string name="pref_camera_noise_reduction_value_off">off</string>
-  <string name="pref_camera_noise_reduction_value_fast">fast</string>
-  <string name="pref_camera_noise_reduction_value_high_quality">high-quality</string>
   <!-- Default see more setting. Do not translate. -->
-  <string name="pref_camera_see_more_default">off</string>
   <!-- Settings screen, Select See More title -->
   <string name="pref_camera_see_more_title">SeeMore</string>
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_see_more_entry_off">Отключить</string>
   <string name="pref_camera_see_more_entry_on">Вкл.</string>
   <!-- see more entry values. Do not translate. -->
-  <string name="pref_camera_see_more_value_off">off</string>
-  <string name="pref_camera_see_more_value_on">on</string>
   <!-- Denoise Settings screen, setting title text -->
   <string name="pref_camera_denoise_title">Режим вейвлет-удаления шума</string>
   <!-- Denoise Settings screen, Record location dialog choices -->
   <string name="pref_camera_denoise_entry_off">Отключить</string>
   <string name="pref_camera_denoise_entry_on">Вкл.</string>
   <!-- Default iso setting. Do not translate. -->
-  <string name="pref_camera_iso_default">auto</string>
   <!-- Settings screen, Select Iso title -->
   <string name="pref_camera_iso_title">Значение ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
@@ -352,35 +295,6 @@
   <string name="pref_camera_iso_entry_iso6400">ISO 6400</string>
   <string name="pref_camera_iso_entry_iso12800">ISO 12800</string>
   <!-- ISO entry values. Do not translate. -->
-  <string name="pref_camera_iso_value_auto">auto</string>
-  <string name="pref_camera_iso_value_isodeblur">ISO_HJR</string>
-  <string name="pref_camera_iso_value_iso50">ISO 50</string>
-  <string name="pref_camera_iso_value_iso100">ISO 100</string>
-  <string name="pref_camera_iso_value_iso125">ISO 125</string>
-  <string name="pref_camera_iso_value_iso150">ISO 150</string>
-  <string name="pref_camera_iso_value_iso200">ISO 200</string>
-  <string name="pref_camera_iso_value_iso250">ISO 250</string>
-  <string name="pref_camera_iso_value_iso300">ISO 300</string>
-  <string name="pref_camera_iso_value_iso320">ISO 320</string>
-  <string name="pref_camera_iso_value_iso350">ISO 350</string>
-  <string name="pref_camera_iso_value_iso400">ISO 400</string>
-  <string name="pref_camera_iso_value_iso450">ISO 450</string>
-  <string name="pref_camera_iso_value_iso500">ISO 500</string>
-  <string name="pref_camera_iso_value_iso600">ISO 600</string>
-  <string name="pref_camera_iso_value_iso640">ISO 640</string>
-  <string name="pref_camera_iso_value_iso700">ISO 700</string>
-  <string name="pref_camera_iso_value_iso800">ISO 800</string>
-  <string name="pref_camera_iso_value_iso1000">ISO 1000</string>
-  <string name="pref_camera_iso_value_iso1200">ISO 1200</string>
-  <string name="pref_camera_iso_value_iso1250">ISO 1250</string>
-  <string name="pref_camera_iso_value_iso1500">ISO 1500</string>
-  <string name="pref_camera_iso_value_iso1600">ISO 1600</string>
-  <string name="pref_camera_iso_value_iso2000">ISO 2000</string>
-  <string name="pref_camera_iso_value_iso2500">ISO 2500</string>
-  <string name="pref_camera_iso_value_iso2700">ISO 2700</string>
-  <string name="pref_camera_iso_value_iso3200">ISO 3200</string>
-  <string name="pref_camera_iso_value_iso6400">ISO 6400</string>
-  <string name="pref_camera_iso_value_iso12800">ISO 12800</string>
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Устранение бликов</string>
   <!-- Default Anti Banding setting. -->
@@ -459,25 +373,20 @@
   <string name="pref_camera_saturation_entry_level9">Уровень 9</string>
   <string name="pref_camera_saturation_entry_level10">Уровень 10</string>
   <!-- Default sharpness setting. Do not translate. -->
-  <string name="pref_camera_sharpness_default">2</string>
   <!-- Settings screen, Select sharpness title -->
   <string name="pref_camera_sharpness_title">Резкость</string>
   <!-- Default contrast setting. Do not translate. -->
-  <string name="pref_camera_contrast_default">5</string>
   <!-- Settings screen, Select contrast title -->
   <string name="pref_camera_contrast_title">Контраст</string>
   <!-- Default saturation setting. Do not translate. -->
-  <string name="pref_camera_saturation_default">5</string>
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Насыщенность</string>
   <!-- Default picture quality setting. See
          pref_camera_jpegquality_entryvalues for possible values -->
   <!-- Default Picture format setting. Do not translate. -->
-  <string name="pref_camera_picture_format_default">jpeg</string>
   <!-- Settings screen, Select Picture format title -->
   <string name="pref_camera_picture_format_title">Выбрать формат фото</string>
   <!-- Settings screen, picture format dialog radio button choices -->
-  <string name="pref_camera_picture_format_entry_jpeg">Jpeg</string>
   <string name="pref_camera_picture_format_entry_raw">Raw</string>
   <string name="pref_camera_picture_format_entry_raw_yuv_422_sp">YUV422SP</string>
   <string name="pref_camera_picture_format_entry_raw_yuv_8bit_yuyv">YUVRaw8YUYV</string>
@@ -549,100 +458,19 @@
   <string name="pref_camera_picture_format_entry_raw_bayer_ideal_plain16_12rggb">BayerIP1612rggb</string>
   <string name="pref_camera_picture_format_entry_raw_bayer_ideal_plain16_12bggr">BayerIP1612bggr</string>
   <!-- Picture format entry values. Do not translate. -->
-  <string name="pref_camera_picture_format_value_jpeg">jpeg</string>
-  <string name="pref_camera_picture_format_value_raw">raw</string>
-  <string name="pref_camera_picture_format_value_raw_yuv_422_sp">yuv422sp</string>
-  <string name="pref_camera_picture_format_value_raw_yuv_8bit_yuyv">yuv-raw8-yuyv</string>
-  <string name="pref_camera_picture_format_value_raw_yuv_8bit_yvyu">yuv-raw8-yvyu</string>
-  <string name="pref_camera_picture_format_value_raw_yuv_8bit_uyvy">yuv-raw8-uyvy</string>
-  <string name="pref_camera_picture_format_value_raw_yuv_8bit_vyuy">yuv-raw8-vyuy</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_qcom_8gbrg">bayer-qcom-8gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_qcom_8grbg">bayer-qcom-8grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_qcom_8rggb">bayer-qcom-8rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_qcom_8bggr">bayer-qcom-8bgrr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_qcom_10gbrg">bayer-qcom-10gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_qcom_10grbg">bayer-qcom-10grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_qcom_10rggb">bayer-qcom-10rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_qcom_10bggr">bayer-qcom-10bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_qcom_12gbrg">bayer-qcom-12gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_qcom_12grbg">bayer-qcom-12grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_qcom_12rggb">bayer-qcom-12rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_qcom_12bggr">bayer-qcom-12bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_mipi_8gbrg">bayer-mipi-8gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_mipi_8grbg">bayer-mipi-8grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_mipi_8rggb">bayer-mipi-8rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_mipi_8bggr">bayer-mipi-8bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_mipi_10gbrg">bayer-mipi-10gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_mipi_10grbg">bayer-mipi-10grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_mipi_10rggb">bayer-mipi-10rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_mipi_10bggr">bayer-mipi-10bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_mipi_12gbrg">bayer-mipi-12gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_mipi_12grbg">bayer-mipi-12grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_mipi_12rggb">bayer-mipi-12rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_mipi_12bggr">bayer-mipi-12bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_qcom_8gbrg">bayer-ideal-qcom-8gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_qcom_8grbg">bayer-ideal-qcom-8grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_qcom_8rggb">bayer-ideal-qcom-8rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_qcom_8bggr">bayer-ideal-qcom-8bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_qcom_10gbrg">bayer-ideal-qcom-10gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_qcom_10grbg">bayer-ideal-qcom-10grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_qcom_10rggb">bayer-ideal-qcom-10rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_qcom_10bggr">bayer-ideal-qcom-10bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_qcom_12gbrg">bayer-ideal-qcom-12gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_qcom_12grbg">bayer-ideal-qcom-12grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_qcom_12rggb">bayer-ideal-qcom-12rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_qcom_12bggr">bayer-ideal-qcom-12bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_mipi_8gbrg">bayer-ideal-mipi-8gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_mipi_8grbg">bayer-ideal-mipi-8grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_mipi_8rggb">bayer-ideal-mipi-8rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_mipi_8bggr">bayer-ideal-mipi-8bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_mipi_10gbrg">bayer-ideal-mipi-10gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_mipi_10grbg">bayer-ideal-mipi-10grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_mipi_10rggb">bayer-ideal-mipi-10rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_mipi_10bggr">bayer-ideal-mipi-8bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_mipi_12gbrg">bayer-ideal-mipi-12gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_mipi_12grbg">bayer-ideal-mipi-12grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_mipi_12rggb">bayer-ideal-mipi-12rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_mipi_12bggr">bayer-ideal-mipi-12bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain8_8gbrg">bayer-ideal-plain8-8gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain8_8grbg">bayer-ideal-plain8-8grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain8_8rggb">bayer-ideal-plain8-8rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain8_8bggr">bayer-ideal-plain8-8bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain16_8gbrg">bayer-ideal-plain16-8gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain16_8grbg">bayer-ideal-plain16-8grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain16_8rggb">bayer-ideal-plain16-8rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain16_8bggr">bayer-ideal-plain16-8bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain16_10gbrg">bayer-ideal-plain16-10gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain16_10grbg">bayer-ideal-plain16-10grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain16_10rggb">bayer-ideal-plain16-10rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain16_10bggr">bayer-ideal-plain16-10bggr</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain16_12gbrg">bayer-ideal-plain16-12gbrg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain16_12grbg">bayer-ideal-plain16-12grbg</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain16_12rggb">bayer-ideal-plain16-12rggb</string>
-  <string name="pref_camera_picture_format_value_raw_bayer_ideal_plain16_12bggr">bayer-ideal-plain16-12bggr</string>
   <!-- Settings screen, Picture quality title -->
   <string name="pref_camera_jpegquality_title">Качество изображения</string>
   <!-- Settings screen, Picture quality dialog radio button choices -->
-  <string name="pref_camera_jpegquality_entry_0">Низкий</string>
+  <string name="pref_camera_jpegquality_entry_0">Низкое</string>
   <string name="pref_camera_jpegquality_entry_1">Стандартное</string>
-  <string name="pref_camera_jpegquality_entry_2">Высокий</string>
+  <string name="pref_camera_jpegquality_entry_2">Высокое</string>
   <!-- Default auto histogram setting. Do not translate. -->
-  <string name="pref_camera_histogram_default">disable</string>
   <!-- Settings screen, Select Histogram title -->
   <string name="pref_camera_histogram_title">Гистограмма</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Вкл.</string>
   <string name="pref_camera_histogram_entry_disable">Выключить</string>
   <!-- Histogram entry values. Do not translate. -->
-  <string name="pref_camera_histogram_value_enable">enable</string>
-  <string name="pref_camera_histogram_value_disable">disable</string>
-  <string name="pref_camera_picturesize_entry_1920x1080">HD1080</string>
-  <string name="pref_camera_picturesize_entry_1280x768">WXGA</string>
-  <string name="pref_camera_picturesize_entry_1280x720">HD720</string>
-  <string name="pref_camera_picturesize_entry_800x600">SVGA</string>
-  <string name="pref_camera_picturesize_entry_800x480">WVGA</string>
-  <string name="pref_camera_picturesize_entry_960x720">960 x 720</string>
-  <string name="pref_camera_picturesize_entry_720x480">720 x 480</string>
   <string name="pref_camera_picturesize_entry_352x288">CIF</string>
   <string name="pref_camera_picturesize_entry_176x144">QCIF</string>
   <!-- Default auto scene detection setting. -->
@@ -675,8 +503,6 @@
   <string name="pref_camera_hdr_mode_entry_sensor">Датчик HDR</string>
   <string name="pref_camera_hdr_mode_entry_multi_frame">Многокадровый HDR</string>
   <!-- HDR mode entry values. Do not translate. -->
-  <string name="pref_hdr_mode_value_sensor">hdr-mode-sensor</string>
-  <string name="pref_hdr_mode_value_multi_frame">hdr-mode-multiframe</string>
   <!--Default video rotation setting-->
   <!--Settings screen, video rotation title-->
   <string name="pref_camera_video_rotation_title">Поворот видео</string>
@@ -736,9 +562,6 @@
   <string name="pref_camera2_mpo_entry_off" translatable="true">Отключить</string>
   <string name="pref_camera2_makeup_title" translatable="true">Макияж</string>
   <string name="pref_camera2_noise_reduction_title" translatable="true">Шумоподавление</string>
-  <string name="pref_camera2_noise_reduction_entry_off" translatable="true">@string/pref_camera_noise_reduction_entry_off</string>
-  <string name="pref_camera2_noise_reduction_entry_fast" translatable="true">@string/pref_camera_noise_reduction_entry_fast</string>
-  <string name="pref_camera2_noise_reduction_entry_high_quality" translatable="true">@string/pref_camera_noise_reduction_entry_high_quality</string>
   <string name="pref_camera2_videosnap_title" translatable="true">Размер моментального автоснимка</string>
   <string name="pref_camera2_videosnap_value_enable" translatable="true">enable</string>
   <string name="pref_camera2_videosnap_value_disable" translatable="true">disable</string>
@@ -748,7 +571,6 @@
   <string name="pref_camera_scenemode_entry_bestpicture" translatable="true">Лучший снимок</string>
   <string name="pref_camera_scenemode_entry_chromaflash" translatable="true">ChromaFlash</string>
   <string name="pref_camera_scenemode_entry_blurbuster" translatable="true">Размытие</string>
-  <string name="pref_camera_scenemode_entry_sharpshooter" translatable="true">SharpPhoto</string>
   <string name="pref_camera_scenemode_entry_trackingfocus" translatable="true">Следящий фокус</string>
   <string name="pref_camera_scenemode_entry_panorama" translatable="true">Панорама</string>
   <string name="pref_camera_scenemode_entry_promode" translatable="true">Ручной режим</string>
@@ -757,9 +579,6 @@
   <string name="pref_camera2_shutter_sound_default" translatable="true">on</string>
   <string name="pref_camera2_shutter_sound_value_on" translatable="true">on</string>
   <string name="pref_camera2_shutter_sound_value_off" translatable="true">off</string>
-  <string name="pref_camera2_shutter_sound_entry_on" translatable="true">@string/pref_camera_shuttersound_entry_enable</string>
-  <string name="pref_camera2_shutter_sound_entry_off" translatable="true">@string/pref_camera_shuttersound_entry_disable</string>
-  <string name="pref_camera2_shutter_sound_title" translatable="true">@string/pref_camera_shuttersound_title</string>
   <string name="pref_camera2_timer_entry_off" translatable="true">Отключить</string>
   <string name="pref_camera2_timer_entry_2sec" translatable="true">2 сек.</string>
   <string name="pref_camera2_timer_entry_5sec" translatable="true">5 сек.</string>
@@ -836,25 +655,11 @@
   <string name="pref_camera_zoom_title">Масштаб</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Отключить</string>
-  <string name="pref_camera_zoom_entry_1x">1x</string>
-  <string name="pref_camera_zoom_entry_2x">2x</string>
-  <string name="pref_camera_zoom_entry_3x">3x</string>
-  <string name="pref_camera_zoom_entry_4x">4x</string>
-  <string name="pref_camera_zoom_entry_5x">5x</string>
-  <string name="pref_camera_zoom_entry_6x">6x</string>
-  <string name="pref_camera_zoom_entry_7x">7x</string>
-  <string name="pref_camera_zoom_entry_8x">8x</string>
-  <string name="pref_camera_zoom_entry_9x">9x</string>
-  <string name="pref_camera_zoom_entry_10x">10x</string>
   <string name="pref_camera2_bsgc_title" translatable="true">Обнаружение улыбки/подмигивания/взгляда</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">Вкл.</string>
   <string name="pref_camera2_bsgc_entry_disable" translatable="true">Выключить</string>
-  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Отключить</string>
-  <string name="pref_camera2_zsl_entry_app_zsl" translatable="true">APP-ZSL</string>
-  <string name="pref_camera2_zsl_entry_hal_zsl" translatable="true">HAL-ZSL</string>
   <!-- QCFA Title -->
-  <string name="pref_camera2_qcfa_title" translatable="true">QCFA</string>
   <!-- QCFA choices -->
   <string name="pref_camera_qcfa_value_disable">disable</string>
   <string name="pref_camera_qcfa_value_enable">enable</string>

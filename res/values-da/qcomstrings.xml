@@ -234,11 +234,9 @@
   <!-- Settings screen, Select sharpness title -->
   <string name="pref_camera_sharpness_title">Skarphed</string>
   <!-- Default contrast setting. Do not translate. -->
-  <string name="pref_camera_contrast_default">5</string>
   <!-- Settings screen, Select contrast title -->
   <string name="pref_camera_contrast_title">Kontrast</string>
   <!-- Default saturation setting. Do not translate. -->
-  <string name="pref_camera_saturation_default">5</string>
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Mætning</string>
   <!-- Default picture quality setting. See

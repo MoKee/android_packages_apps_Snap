@@ -27,7 +27,6 @@
   <!-- Settings screen, Power Mode title -->
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_entry_lp">Mababang_Power</string>
-  <string name="pref_camera_powermode_entry_np">Normal_Power</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_value_lp">Mababang_Power</string>
   <string name="pref_camera_powermode_value_np">Normal_Power</string>
@@ -153,9 +152,7 @@ HSR ay hindi suportado para sa napiling resolusyon
   <string name="error_app_unsupported_profile">Hindi suportadong video profile</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
-  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE-Bracket</string>
   <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE-Bracket</string>
-  <string name="pref_camera_ae_bracket_hdr_title">AE-Bracket</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Naka-on</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">I-off</string>
   <string name="err_app_unsupport_ae_bracket_code">walang ae bracket na suporta sa mga App ngayon</string>
@@ -165,30 +162,11 @@ HSR ay hindi suportado para sa napiling resolusyon
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
   <string name="snapshot_qcif_and_d1">Ang video size snapshot ay suportado sa resolusyon na ito lamang. </string>
   <!-- Default hfr setting. Do not translate. -->
-  <string name="pref_camera_hfr_default">off</string>
   <!-- Settings screen, Select hfr title -->
   <!-- Settings screen, hfr radio button choices -->
   <string name="pref_camera_hfr_entry_off">I-off</string>
-  <string name="pref_camera_hfr_entry_2x">HFR 60</string>
-  <string name="pref_camera_hfr_entry_3x">HFR 90</string>
-  <string name="pref_camera_hfr_entry_4x">HFR 120</string>
-  <string name="pref_camera_hfr_entry_8x">HFR 240</string>
-  <string name="pref_camera_hfr_entry_hsr_60">HSR 60</string>
-  <string name="pref_camera_hfr_entry_hsr_90">HSR 90</string>
-  <string name="pref_camera_hfr_entry_hsr_120">HSR 120</string>
-  <string name="pref_camera_hfr_entry_hsr_240">HSR 240</string>
   <!-- HFR entry values. Do not translate. -->
-  <string name="pref_camera_hfr_value_off">off</string>
-  <string name="pref_camera_hfr_value_2x">hfr60</string>
-  <string name="pref_camera_hfr_value_3x">hfr90</string>
-  <string name="pref_camera_hfr_value_4x">hfr120</string>
-  <string name="pref_camera_hfr_value_8x">hfr240</string>
-  <string name="pref_camera_hfr_value_hsr_60">hsr60</string>
-  <string name="pref_camera_hfr_value_hsr_90">hsr90</string>
-  <string name="pref_camera_hfr_value_hsr_120">hsr120</string>
-  <string name="pref_camera_hfr_value_hsr_240">hsr240</string>
   <!-- Default noise reduction setting. Do not translate. -->
-  <string name="pref_camera_noise_reduction_default">off</string>
   <!-- Settings screen, Select See More title -->
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_noise_reduction_entry_off">I-off</string>
@@ -209,11 +187,7 @@ HSR ay hindi suportado para sa napiling resolusyon
   <!-- Settings screen, Select Iso title -->
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Awtomatiko</string>
-  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
   <!-- ISO entry values. Do not translate. -->
-  <string name="pref_camera_iso_value_iso2700">ISO2700</string>
-  <string name="pref_camera_iso_value_iso3200">ISO3200</string>
   <!-- Settings screen, Anti Banding title -->
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
@@ -277,10 +251,8 @@ HSR ay hindi suportado para sa napiling resolusyon
   <!-- Default sharpness setting. Do not translate. -->
   <!-- Settings screen, Select sharpness title -->
   <!-- Default contrast setting. Do not translate. -->
-  <string name="pref_camera_contrast_default">5</string>
   <!-- Settings screen, Select contrast title -->
   <!-- Default saturation setting. Do not translate. -->
-  <string name="pref_camera_saturation_default">5</string>
   <!-- Settings screen, Select saturation title -->
   <!-- Default picture quality setting. See
          pref_camera_jpegquality_entryvalues for possible values -->
@@ -296,14 +268,11 @@ HSR ay hindi suportado para sa napiling resolusyon
   <string name="pref_camera_jpegquality_entry_1">Standard</string>
   <string name="pref_camera_jpegquality_entry_2">Mataas</string>
   <!-- Default auto histogram setting. Do not translate. -->
-  <string name="pref_camera_histogram_default">hindi paganahin</string>
   <!-- Settings screen, Select Histogram title -->
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">I-enable</string>
   <string name="pref_camera_histogram_entry_disable">I-disable</string>
   <!-- Histogram entry values. Do not translate. -->
-  <string name="pref_camera_histogram_value_enable">paganahin</string>
-  <string name="pref_camera_histogram_value_disable">hindi paganahin</string>
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
   <!-- Settings menu, auto scene detection choices -->
@@ -334,9 +303,6 @@ HSR ay hindi suportado para sa napiling resolusyon
   <!--Menu, video rotation label-->
   <string name="pref_camera_video_rotation_label">Pag-ikot ng video</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
-  <string name="pref_camera_video_rotation_entry_90">90</string>
-  <string name="pref_camera_video_rotation_entry_180">180</string>
-  <string name="pref_camera_video_rotation_entry_270">270</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <string name="map_activity_not_found_err">Walang app na mapa para ipakita ang lokasyon.</string>
   <!-- Continous shot enable message -->
@@ -416,7 +382,6 @@ HSR ay hindi suportado para sa napiling resolusyon
   <string name="pref_camera2_saturation_level_entry_10" translatable="true">Antas 10</string>
   <string name="pref_camera2_anti_banding_level_entry_off" translatable="true">I-off</string>
   <string name="pref_camera2_anti_banding_level_entry_auto" translatable="true">Awtomatiko</string>
-  <string name="pref_camera2_histogram_title" translatable="true">Histogram</string>
   <string name="pref_camera2_histogram_entry_enable" translatable="true">I-enable</string>
   <string name="pref_camera2_histogram_entry_disable" translatable="true">I-disable</string>
   <string name="pref_camera2_hdr_entry_enable" translatable="true">I-enable</string>

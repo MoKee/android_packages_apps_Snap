@@ -34,14 +34,12 @@
   <string name="pref_camera_powermode_value_np">Kuasa_biasa</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
-  <string name="pref_camera_autoexposure_default">frame-purata</string>
   <!-- Settings screen, Select auto exposure title -->
   <string name="pref_camera_autoexposure_title">Pilih mod dedahan auto</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
   <string name="pref_camera_autoexposure_entry_frameaverage">Purata frame</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">Titik permeteran</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_autoexposure_value_frameaverage">frame-purata</string>
   <!-- Settings screen, Video encoder title -->
   <string name="pref_camera_videoencoder_title">Pengekod video</string>
   <!-- Settings screen, Video encoder dialog radio button choices -->
@@ -59,19 +57,14 @@
   <string name="pref_camera_audioencoder_entry_0">AMRNB</string>
   <string name="pref_camera_audioencoder_entry_1">AAC</string>
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
-  <string name="pref_camera_skinToneEnhancement_default">lumpuh</string>
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">Peningkatan ton kulit</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Mendayakan</string>
   <string name="pref_camera_skinToneEnhancement_entry_disable">Lumpuh</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
-  <string name="pref_camera_skinToneEnhancement_value_enable">mendayakan</string>
-  <string name="pref_camera_skinToneEnhancement_value_disable">lumpuh</string>
   <!-- Settings screen, setting title text for ZSL-->
-  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
-  <string name="pref_camera_selectablezoneaf_default">auto</string>
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title"> Fokus auto zon boleh dipilih</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -80,10 +73,6 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Pusat wajaran</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Purata frame</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_selectablezoneaf_value_auto">auto</string>
-  <string name="pref_camera_selectablezoneaf_value_spotmetering">tempat- pemeteran</string>
-  <string name="pref_camera_selectablezoneaf_value_centerweighted">pusat-wajaran</string>
-  <string name="pref_camera_selectablezoneaf_value_frameaverage">purata-frame</string>
   <string name="pref_camera_advanced_feature_default">tiada</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Ciri lanjutan</string>
@@ -98,15 +87,6 @@
   <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Fokus multi-touch</string>
   <string name="pref_camera_advanced_feature_entry_stillmore">Masih banyak lagi</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_value_none">tiada</string>
-  <string name="pref_camera_advanced_feature_value_ubifocus_on">af-tanda kurung-on</string>
-  <string name="pref_camera_advanced_feature_value_refocus_on">re-fokus-on</string>
-  <string name="pref_camera_advanced_feature_value_chromaflash_on">kroma-flash-on</string>
-  <string name="pref_camera_advanced_feature_value_optizoom_on">opti-zum-on</string>
-  <string name="pref_camera_advanced_feature_value_FSSR_on">FSSR-on</string>
-  <string name="pref_camera_advanced_feature_value_trueportrait_on">potret-benar-on</string>
-  <string name="pref_camera_advanced_feature_value_multi_touch_focus_on">multi-touch-fokus-on</string>
-  <string name="pref_camera_advanced_feature_value_stillmore_on">still-more-on</string>
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_entry_off">Matikan</string>
   <!-- Manual white balance entry values -->
@@ -164,7 +144,6 @@
   <string name="pref_camera_facedetection_entry_on">Hidupkan</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
-  <string name="pref_selfie_flash_title">Selfie Flash</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">Matikan</string>
   <string name="pref_selfie_flash_entry_on">Hidupkan</string>
@@ -181,7 +160,6 @@
   <string name="pref_camera_shuttersound_entry_enable">Mendayakan</string>
   <string name="pref_camera_shuttersound_entry_disable">Lumpuh</string>
   <!-- Default mce setting. Do not translate. -->
-  <string name="pref_camera_mce_default">mendayakan</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -322,7 +300,6 @@
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Matikan</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">Mendayakan</string>
-  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Matikan</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->

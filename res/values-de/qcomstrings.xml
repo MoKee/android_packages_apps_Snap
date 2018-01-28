@@ -184,11 +184,6 @@
   <string name="pref_camera_iso_entry_iso800">ISO 800</string>
   <string name="pref_camera_iso_entry_iso1600">ISO 1600</string>
   <!-- ISO entry values. Do not translate. -->
-  <string name="pref_camera_iso_value_iso100">ISO 100</string>
-  <string name="pref_camera_iso_value_iso200">ISO 200</string>
-  <string name="pref_camera_iso_value_iso400">ISO 400</string>
-  <string name="pref_camera_iso_value_iso800">ISO 800</string>
-  <string name="pref_camera_iso_value_iso1600">ISO 1600</string>
   <!-- Settings screen, Anti Banding title -->
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
@@ -257,11 +252,9 @@
   <!-- Settings screen, Select sharpness title -->
   <string name="pref_camera_sharpness_title">Schärfe</string>
   <!-- Default contrast setting. Do not translate. -->
-  <string name="pref_camera_contrast_default">5</string>
   <!-- Settings screen, Select contrast title -->
   <string name="pref_camera_contrast_title">Kontrast</string>
   <!-- Default saturation setting. Do not translate. -->
-  <string name="pref_camera_saturation_default">5</string>
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Sättigung</string>
   <!-- Default picture quality setting. See

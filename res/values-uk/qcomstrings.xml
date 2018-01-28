@@ -184,11 +184,6 @@
   <string name="pref_camera_iso_entry_iso800">ISO800</string>
   <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
-  <string name="pref_camera_iso_value_iso100">ISO100</string>
-  <string name="pref_camera_iso_value_iso200">ISO200</string>
-  <string name="pref_camera_iso_value_iso400">ISO400</string>
-  <string name="pref_camera_iso_value_iso800">ISO800</string>
-  <string name="pref_camera_iso_value_iso1600">ISO1600</string>
   <!-- Settings screen, Anti Banding title -->
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
@@ -254,15 +249,12 @@
   <string name="pref_camera_saturation_entry_level9">Рівень 9</string>
   <string name="pref_camera_saturation_entry_level10">Рівень 10</string>
   <!-- Default sharpness setting. Do not translate. -->
-  <string name="pref_camera_sharpness_default">2</string>
   <!-- Settings screen, Select sharpness title -->
   <string name="pref_camera_sharpness_title">Різкість</string>
   <!-- Default contrast setting. Do not translate. -->
-  <string name="pref_camera_contrast_default">5</string>
   <!-- Settings screen, Select contrast title -->
   <string name="pref_camera_contrast_title">Контраст</string>
   <!-- Default saturation setting. Do not translate. -->
-  <string name="pref_camera_saturation_default">5</string>
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Насиченість</string>
   <!-- Default picture quality setting. See
