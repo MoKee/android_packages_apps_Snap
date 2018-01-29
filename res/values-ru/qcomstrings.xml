@@ -65,6 +65,7 @@
   <string name="pref_camera_skinToneEnhancement_entry_disable">Выключить</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
+  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title">Выбор зоны автофокуса</string>
@@ -82,7 +83,7 @@
   <string name="pref_camera_advanced_feature_entry_ubifocus">Фокусировка UBI</string>
   <string name="pref_camera_advanced_feature_entry_refocus">Рефокусировка</string>
   <string name="pref_camera_advanced_feature_entry_chromaflash">Chroma-вспышка</string>
-  <string name="pref_camera_advanced_feature_entry_optizoom">Оптическое увеличение</string>
+  <string name="pref_camera_advanced_feature_entry_optizoom">Оптический зум</string>
   <string name="pref_camera_advanced_feature_entry_FSSR">FSSR</string>
   <string name="pref_camera_advanced_feature_entry_trueportrait">Реалистичный портрет</string>
   <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Многоточечная фокусировка</string>
@@ -240,6 +241,14 @@
   <string name="pref_camera_hfr_title">Видео с высокой скоростью кадров</string>
   <!-- Settings screen, hfr radio button choices -->
   <string name="pref_camera_hfr_entry_off">Отключить</string>
+  <string name="pref_camera_hfr_entry_2x">HFR 60</string>
+  <string name="pref_camera_hfr_entry_3x">HFR 90</string>
+  <string name="pref_camera_hfr_entry_4x">HFR 120</string>
+  <string name="pref_camera_hfr_entry_8x">HFR 240</string>
+  <string name="pref_camera_hfr_entry_hsr_60">HSR 60</string>
+  <string name="pref_camera_hfr_entry_hsr_90">HSR 90</string>
+  <string name="pref_camera_hfr_entry_hsr_120">HSR 120</string>
+  <string name="pref_camera_hfr_entry_hsr_240">HSR 240</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
@@ -257,7 +266,7 @@
   <string name="pref_camera_see_more_entry_on">Вкл.</string>
   <!-- see more entry values. Do not translate. -->
   <!-- Denoise Settings screen, setting title text -->
-  <string name="pref_camera_denoise_title">Режим вейвлет-удаления шума</string>
+  <string name="pref_camera_denoise_title">Режим шумоподавления</string>
   <!-- Denoise Settings screen, Record location dialog choices -->
   <string name="pref_camera_denoise_entry_off">Отключить</string>
   <string name="pref_camera_denoise_entry_on">Вкл.</string>
@@ -387,6 +396,7 @@
   <!-- Settings screen, Select Picture format title -->
   <string name="pref_camera_picture_format_title">Выбрать формат фото</string>
   <!-- Settings screen, picture format dialog radio button choices -->
+  <string name="pref_camera_picture_format_entry_jpeg">Jpeg</string>
   <string name="pref_camera_picture_format_entry_raw">Raw</string>
   <string name="pref_camera_picture_format_entry_raw_yuv_422_sp">YUV422SP</string>
   <string name="pref_camera_picture_format_entry_raw_yuv_8bit_yuyv">YUVRaw8YUYV</string>
@@ -471,11 +481,18 @@
   <string name="pref_camera_histogram_entry_enable">Вкл.</string>
   <string name="pref_camera_histogram_entry_disable">Выключить</string>
   <!-- Histogram entry values. Do not translate. -->
+  <string name="pref_camera_picturesize_entry_1920x1080">1920 x 1080</string>
+  <string name="pref_camera_picturesize_entry_1280x768">1280 x 768</string>
+  <string name="pref_camera_picturesize_entry_1280x720">1280 x 720</string>
+  <string name="pref_camera_picturesize_entry_800x600">800 x 600</string>
+  <string name="pref_camera_picturesize_entry_800x480">800 x 480</string>
+  <string name="pref_camera_picturesize_entry_960x720">960 x 720</string>
+  <string name="pref_camera_picturesize_entry_720x480">720 x 480</string>
   <string name="pref_camera_picturesize_entry_352x288">CIF</string>
   <string name="pref_camera_picturesize_entry_176x144">QCIF</string>
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
-  <string name="pref_camera_scenedetect_title">Автоопределение режима съемки</string>
+  <string name="pref_camera_scenedetect_title">Автоопределение режима съёмки</string>
   <!-- Settings menu, auto scene detection choices -->
   <string name="pref_camera_scenedetect_entry_off">Отключить</string>
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
@@ -549,7 +566,7 @@
   <string name="pref_camera2_camera2_entry_enable" translatable="true">Вкл.</string>
   <string name="pref_camera2_camera2_entry_disable" translatable="true">Выключить</string>
   <string name="pref_camera2_mono_only_title" translatable="true">Только моно</string>
-  <string name="pref_camera2_mono_preview_title" translatable="true">Предпросмотр моно</string>
+  <string name="pref_camera2_mono_preview_title" translatable="true">Демонстрация моно</string>
   <string name="pref_camera2_mono_preview_entry_on" translatable="true">Вкл.</string>
   <string name="pref_camera2_mono_preview_entry_off" translatable="true">Отключить</string>
   <string name="pref_camera2_clearsight_title" translatable="true">ClearSight</string>
@@ -569,8 +586,9 @@
   <string name="pref_camera2_videosnap_entry_disable" translatable="true">Выключить</string>
   <string name="pref_camera2_trackingfocus_title" translatable="true">Следящий фокус</string>
   <string name="pref_camera_scenemode_entry_bestpicture" translatable="true">Лучший снимок</string>
-  <string name="pref_camera_scenemode_entry_chromaflash" translatable="true">ChromaFlash</string>
+  <string name="pref_camera_scenemode_entry_chromaflash" translatable="true">Chroma-вспышка</string>
   <string name="pref_camera_scenemode_entry_blurbuster" translatable="true">Размытие</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter" translatable="true">SharpPhoto</string>
   <string name="pref_camera_scenemode_entry_trackingfocus" translatable="true">Следящий фокус</string>
   <string name="pref_camera_scenemode_entry_panorama" translatable="true">Панорама</string>
   <string name="pref_camera_scenemode_entry_promode" translatable="true">Ручной режим</string>
@@ -610,7 +628,7 @@
   <string name="pref_camera2_scene_mode_tracking_focus_instructional_content" translatable="true">Позволяет вам отслеживать и фокусироваться на выбранном человеке или объекте во время фото- или видеосъёмки. Чтобы начать, расположите прямоугольник фокуса на человеке или объекте, который вы хотите отслеживать.</string>
   <string name="pref_camera2_scene_mode_time_lapse_instructional_content" translatable="true">В режиме интервальной съёмки вы можете преобразовать длинную видеозапись в видео малого размера. Эффект применим только к видео.</string>
   <string name="pref_camera2_scene_mode_panorama_instructional_content" translatable="true">Позволяет сдвигать окно съёмки влево или вправо для съёмки ландшафтного фото. Вы можете также сдвигать его вверх или вниз, чтобы снимать высокие фотографии.</string>
-  <string name="pref_camera2_scene_mode_blur_buster_instructional_content" translatable="true">BlurBuster уменьшает размытие при съёмке с трясущимися руками. Может быть полезно при съёмке в тяжёлых условиях.</string>
+  <string name="pref_camera2_scene_mode_blur_buster_instructional_content" translatable="true">Режим размытия уменьшает размытие при съёмке с трясущимися руками. Может быть полезно при съёмке в тяжёлых условиях.</string>
   <string name="pref_camera2_scene_mode_pro_instructional_content" translatable="true">В ручном режиме можно управлять настройками ISO, экспозиции, баланса белого и фокусировки. Вы получите лёгкий доступ ко всем этим дополнительным параметрам.</string>
   <string name="pref_camera2_not_show_again">Не показывать снова</string>
   <string name="pref_camera2_scene_mode_instructional_ok" translatable="true">ОК</string>
@@ -655,11 +673,25 @@
   <string name="pref_camera_zoom_title">Масштаб</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Отключить</string>
+  <string name="pref_camera_zoom_entry_1x">1x</string>
+  <string name="pref_camera_zoom_entry_2x">2x</string>
+  <string name="pref_camera_zoom_entry_3x">3x</string>
+  <string name="pref_camera_zoom_entry_4x">4x</string>
+  <string name="pref_camera_zoom_entry_5x">5x</string>
+  <string name="pref_camera_zoom_entry_6x">6x</string>
+  <string name="pref_camera_zoom_entry_7x">7x</string>
+  <string name="pref_camera_zoom_entry_8x">8x</string>
+  <string name="pref_camera_zoom_entry_9x">9x</string>
+  <string name="pref_camera_zoom_entry_10x">10x</string>
   <string name="pref_camera2_bsgc_title" translatable="true">Обнаружение улыбки/подмигивания/взгляда</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">Вкл.</string>
   <string name="pref_camera2_bsgc_entry_disable" translatable="true">Выключить</string>
+  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Отключить</string>
+  <string name="pref_camera2_zsl_entry_app_zsl" translatable="true">APP-ZSL</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl" translatable="true">HAL-ZSL</string>
   <!-- QCFA Title -->
+  <string name="pref_camera2_qcfa_title" translatable="true">QCFA</string>
   <!-- QCFA choices -->
   <string name="pref_camera_qcfa_value_disable">disable</string>
   <string name="pref_camera_qcfa_value_enable">enable</string>

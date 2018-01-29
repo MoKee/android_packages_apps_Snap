@@ -27,6 +27,8 @@
   <!-- Settings screen, Power Mode title -->
   <string name="pref_camera_powermode_title">Chế độ nguồn điện</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_entry_lp">Low_Power</string>
+  <string name="pref_camera_powermode_entry_np">Normal_Power</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_value_lp">Low_Power</string>
   <string name="pref_camera_powermode_value_np">Normal_Power</string>
@@ -63,6 +65,7 @@
   <string name="pref_camera_skinToneEnhancement_entry_disable">Tắt</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
+  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title"> Chọn khu vực tự động lấy nét</string>
@@ -77,7 +80,10 @@
   <string name="pref_camera_advanced_features_title">Tính năng nâng cao</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Không có</string>
+  <string name="pref_camera_advanced_feature_entry_ubifocus">Ubi Focus</string>
   <string name="pref_camera_advanced_feature_entry_refocus">Tập trung lại</string>
+  <string name="pref_camera_advanced_feature_entry_chromaflash">Chroma Flash</string>
+  <string name="pref_camera_advanced_feature_entry_optizoom">Opti Zoom</string>
   <string name="pref_camera_advanced_feature_entry_FSSR">FSSR</string>
   <string name="pref_camera_advanced_feature_entry_trueportrait">Chân dung</string>
   <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Lấy nét đa chạm</string>
@@ -216,7 +222,9 @@ HFR không hỗ trợ độ phân giải đã chọn     </string>
   <string name="error_app_unsupported_raw">Định dạng ảnh thô không được hỗ trợ
         ở chế độ zsl, thay đổi sang JPEG    </string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Khung</string>
   <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE-Bracket</string>
+  <string name="pref_camera_ae_bracket_hdr_title">Khung</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Bật</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Tắt</string>
   <string name="err_app_unsupport_ae_bracket_code">không hỗ trợ khung ae bởi Apps ngay bây giờ</string>
@@ -233,6 +241,14 @@ HFR không hỗ trợ độ phân giải đã chọn     </string>
   <string name="pref_camera_hfr_title">Video có tốc độ cao</string>
   <!-- Settings screen, hfr radio button choices -->
   <string name="pref_camera_hfr_entry_off">Tắt</string>
+  <string name="pref_camera_hfr_entry_2x">HFR 60</string>
+  <string name="pref_camera_hfr_entry_3x">HFR 90</string>
+  <string name="pref_camera_hfr_entry_4x">HFR 120</string>
+  <string name="pref_camera_hfr_entry_8x">HFR 240</string>
+  <string name="pref_camera_hfr_entry_hsr_60">HSR 60</string>
+  <string name="pref_camera_hfr_entry_hsr_90">HSR 90</string>
+  <string name="pref_camera_hfr_entry_hsr_120">HSR 120</string>
+  <string name="pref_camera_hfr_entry_hsr_240">HSR 240</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
@@ -259,13 +275,37 @@ HFR không hỗ trợ độ phân giải đã chọn     </string>
   <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Tự động</string>
+  <string name="pref_camera_iso_entry_isodeblur">ISO tự động (HJR)</string>
+  <string name="pref_camera_iso_entry_iso50">ISO50</string>
   <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso125">ISO125</string>
+  <string name="pref_camera_iso_entry_iso150">ISO150</string>
   <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso250">ISO250</string>
+  <string name="pref_camera_iso_entry_iso300">ISO300</string>
+  <string name="pref_camera_iso_entry_iso320">ISO320</string>
+  <string name="pref_camera_iso_entry_iso350">ISO350</string>
   <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso450">ISO450</string>
+  <string name="pref_camera_iso_entry_iso500">ISO500</string>
+  <string name="pref_camera_iso_entry_iso600">ISO600</string>
+  <string name="pref_camera_iso_entry_iso640">ISO640</string>
+  <string name="pref_camera_iso_entry_iso700">ISO700</string>
   <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
+  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
+  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
+  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
   <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
+  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
+  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
+  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
+  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
+  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
+  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
+  <string name="pref_camera_antibanding_title">Chống dải</string>
   <!-- Default Anti Banding setting. -->
   <string name="pref_camera_antibanding_default">auto</string>
   <!-- Settings screen, Anti Banding entries -->
@@ -356,6 +396,7 @@ HFR không hỗ trợ độ phân giải đã chọn     </string>
   <!-- Settings screen, Select Picture format title -->
   <string name="pref_camera_picture_format_title">Chọn hình ảnh lỗi</string>
   <!-- Settings screen, picture format dialog radio button choices -->
+  <string name="pref_camera_picture_format_entry_jpeg">Jpeg</string>
   <string name="pref_camera_picture_format_entry_raw">Raw</string>
   <string name="pref_camera_picture_format_entry_raw_yuv_422_sp">YUV422SP</string>
   <string name="pref_camera_picture_format_entry_raw_yuv_8bit_yuyv">YUVRaw8YUYV</string>
@@ -440,6 +481,15 @@ HFR không hỗ trợ độ phân giải đã chọn     </string>
   <string name="pref_camera_histogram_entry_enable">Bật</string>
   <string name="pref_camera_histogram_entry_disable">Tắt</string>
   <!-- Histogram entry values. Do not translate. -->
+  <string name="pref_camera_picturesize_entry_1920x1080">HD1080</string>
+  <string name="pref_camera_picturesize_entry_1280x768">WXGA</string>
+  <string name="pref_camera_picturesize_entry_1280x720">HD720</string>
+  <string name="pref_camera_picturesize_entry_800x600">SVGA</string>
+  <string name="pref_camera_picturesize_entry_800x480">WVGA</string>
+  <string name="pref_camera_picturesize_entry_960x720">960 x 720</string>
+  <string name="pref_camera_picturesize_entry_720x480">720 x 480</string>
+  <string name="pref_camera_picturesize_entry_352x288">CIF</string>
+  <string name="pref_camera_picturesize_entry_176x144">QCIF</string>
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
   <string name="pref_camera_scenedetect_title">Tự phát hiện cảnh</string>
@@ -455,6 +505,7 @@ HFR không hỗ trợ độ phân giải đã chọn     </string>
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">Không hỗ trợ đèn flash trong chế độ Chụp liên tục với độ phơi sáng tự động</string>
   <!-- Settings screen, setting title text for Auto HDR-->
+  <string name="pref_camera_auto_hdr_title">HDR tự động</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Bật</string>
   <string name="pref_camera_auto_hdr_entry_disable">Tắt</string>
@@ -475,7 +526,12 @@ HFR không hỗ trợ độ phân giải đã chọn     </string>
   <!--Menu, video rotation label-->
   <string name="pref_camera_video_rotation_label">XOAY VIDEO</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
+  <string name="pref_camera_video_rotation_entry_0">0</string>
+  <string name="pref_camera_video_rotation_entry_90">90</string>
+  <string name="pref_camera_video_rotation_entry_180">180</string>
+  <string name="pref_camera_video_rotation_entry_270">270</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+  <string name="map_activity_not_found_err">Không có ứng dụng bản đồ cho thấy địa điểm.</string>
   <!-- Continous shot enable message -->
   <string name="longshot_enable_message">
 Các tính năng nâng cao không được hỗ trợ trong chế độ chụp liên tục</string>
@@ -488,6 +544,7 @@ Chụp liên tục không được hỗ trợ khi các tính năng nâng cao đ�
   <string name="pref_camera_tsmakeup_entry_on">Bật</string>
   <string name="pref_camera_tsmakeup_entry_off">Tắt</string>
   <string name="pref_camera_tsmakeup_entry_low">Thấp</string>
+  <string name="pref_camera_tsmakeup_entry_mid">Giữa</string>
   <string name="pref_camera_tsmakeup_entry_high">Cao</string>
   <string name="pref_camera_tsmakeup_custom">Tùy chỉnh</string>
   <string name="pref_camera_tsmakeup_level_whiten">Làm trắng</string>
@@ -528,7 +585,14 @@ Chụp liên tục không được hỗ trợ khi các tính năng nâng cao đ�
   <string name="pref_camera2_videosnap_entry_enable" translatable="true">Bật</string>
   <string name="pref_camera2_videosnap_entry_disable" translatable="true">Tắt</string>
   <string name="pref_camera2_trackingfocus_title" translatable="true">Lấy nét bám đuổi</string>
+  <string name="pref_camera_scenemode_entry_bestpicture" translatable="true">Ảnh đẹp nhất</string>
+  <string name="pref_camera_scenemode_entry_chromaflash" translatable="true">ChromaFlash</string>
+  <string name="pref_camera_scenemode_entry_blurbuster" translatable="true">BlurBuster</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter" translatable="true">SharpPhoto</string>
+  <string name="pref_camera_scenemode_entry_trackingfocus" translatable="true">TrackingFocus</string>
   <string name="pref_camera_scenemode_entry_panorama" translatable="true">Toàn cảnh</string>
+  <string name="pref_camera_scenemode_entry_promode" translatable="true">ProMode</string>
+  <string name="bestpicture_done" translatable="true">LƯU</string>
   <string name="bestpicture_at_least_one_picture" translatable="true">Ít nhất một hình ảnh phải được chọn.</string>
   <string name="pref_camera2_shutter_sound_default" translatable="true">on</string>
   <string name="pref_camera2_shutter_sound_value_on" translatable="true">on</string>
@@ -537,7 +601,10 @@ Chụp liên tục không được hỗ trợ khi các tính năng nâng cao đ�
   <string name="pref_camera2_timer_entry_2sec" translatable="true">2 giây</string>
   <string name="pref_camera2_timer_entry_5sec" translatable="true">5 giây</string>
   <string name="pref_camera2_timer_entry_10sec" translatable="true">10 giây</string>
+  <string name="pref_camera2_saveraw_default">tắt</string>
   <string name="pref_camera2_saveraw_title">Lưu với định dạng RAW</string>
+  <string name="pref_camera2_saveraw_entry_disable">vô hiệu</string>
+  <string name="pref_camera2_saveraw_entry_enable">kích hoạt</string>
   <string name="panocapture_direction_is_not_determined" translatable="true">Di chuyển liên tục trong một direciton.</string>
   <string name="panocapture_intro" translatable="true">Nhấn nút camera để bắt đầu.</string>
   <string name="panocapture_direction_is_changed" translatable="true">Hướng thay đổi. Dừng ngay bây giờ...</string>
@@ -592,6 +659,7 @@ Chụp liên tục không được hỗ trợ khi các tính năng nâng cao đ�
   <string name="pref_camera2_hdr_title" translatable="true">HDR &amp; -HDR</string>
   <string name="pref_camera2_hdr_entry_enable" translatable="true">Bật</string>
   <string name="pref_camera2_hdr_entry_disable" translatable="true">Tắt</string>
+  <string name="pref_camera2_auto_hdr_title" translatable="true">HDR tự động</string>
   <string name="pref_camera2_auto_hdr_entry_enable" translatable="true">Bật</string>
   <string name="pref_camera2_auto_hdr_entry_disable" translatable="true">Tắt</string>
   <string name="pref_camera_bokeh_mode_title" translatable="true">Chế độ nguồn điện</string>
@@ -605,12 +673,25 @@ Chụp liên tục không được hỗ trợ khi các tính năng nâng cao đ�
   <string name="pref_camera_zoom_title">Thu phóng</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Tắt</string>
+  <string name="pref_camera_zoom_entry_1x">1x</string>
+  <string name="pref_camera_zoom_entry_2x">2x</string>
+  <string name="pref_camera_zoom_entry_3x">3x</string>
+  <string name="pref_camera_zoom_entry_4x">4x</string>
+  <string name="pref_camera_zoom_entry_5x">5x</string>
+  <string name="pref_camera_zoom_entry_6x">6x</string>
+  <string name="pref_camera_zoom_entry_7x">7x</string>
+  <string name="pref_camera_zoom_entry_8x">8x</string>
+  <string name="pref_camera_zoom_entry_9x">9x</string>
+  <string name="pref_camera_zoom_entry_10x">10x</string>
   <string name="pref_camera2_bsgc_title" translatable="true">Chiêm ngưỡng nụ cười/blink Detection</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">Bật</string>
   <string name="pref_camera2_bsgc_entry_disable" translatable="true">Tắt</string>
+  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Tắt</string>
   <string name="pref_camera2_zsl_entry_app_zsl" translatable="true">ỨNG DỤNG-ZSL</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl" translatable="true">HAL-ZSL</string>
   <!-- QCFA Title -->
+  <string name="pref_camera2_qcfa_title" translatable="true">QCFA</string>
   <!-- QCFA choices -->
   <string name="pref_camera_qcfa_value_disable">vô hiệu</string>
   <string name="pref_camera_qcfa_value_enable">đã kích hoạt</string>

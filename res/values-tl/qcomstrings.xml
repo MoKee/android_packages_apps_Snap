@@ -313,6 +313,7 @@ HSR ay hindi suportado para sa napiling resolusyon
   <string name="pref_camera_tsmakeup_entry_off">I-off</string>
   <string name="pref_camera_tsmakeup_entry_low">Mababa</string>
   <string name="pref_camera_tsmakeup_entry_high">Mataas</string>
+  <string name="pref_camera_tsmakeup_custom">Custom</string>
   <string name="pref_camera_tsmakeup_level_whiten">Paputiin</string>
   <string name="text_tsmakeup_alert_title">Babala</string>
   <string name="text_tsmakeup_alert_continue">Magpatuloy</string>

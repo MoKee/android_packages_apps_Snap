@@ -68,8 +68,11 @@
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
   <string name="crop_action">I-crop</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
+  <string name="trim_action">I-trim ang video</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
+  <string name="set_as">Itakda ito bilang</string>
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
+  <string name="video_err">Hindi masimulan ang video.</string>
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
