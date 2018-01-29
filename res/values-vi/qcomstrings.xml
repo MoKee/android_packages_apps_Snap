@@ -30,8 +30,6 @@
   <string name="pref_camera_powermode_entry_lp">Low_Power</string>
   <string name="pref_camera_powermode_entry_np">Normal_Power</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_value_lp">Low_Power</string>
-  <string name="pref_camera_powermode_value_np">Normal_Power</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
@@ -75,7 +73,6 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Đo sáng trung tâm</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Khung hình trung bình</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_default">không</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Tính năng nâng cao</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -95,29 +92,16 @@
   <string name="pref_camera_manual_exp_entry_exptime_priority">Ưu tiên thời gian phơi sáng</string>
   <string name="pref_camera_manual_exp_entry_user_setting">Cài đặt của người dùng</string>
   <string name="pref_camera_manual_exp_entry_off">Tắt</string>
-  <string name="pref_camera_manual_exp_default">tắt</string>
-  <string name="pref_camera_manual_exp_value_ISO_priority">iso-priority</string>
-  <string name="pref_camera_manual_exp_value_exptime_priority">exp-time-priority</string>
-  <string name="pref_camera_manual_exp_value_user_setting">user-setting</string>
-  <string name="pref_camera_manual_exp_value_off">tắt</string>
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_title">Cân bằng trắng thủ công</string>
   <string name="pref_camera_manual_wb_entry_color_temperature">Nhiệt độ màu</string>
   <string name="pref_camera_manual_wb_entry_rbgb_gains">Tăng RBGB</string>
   <string name="pref_camera_manual_wb_entry_off">Tắt</string>
-  <string name="pref_camera_manual_wb_default">tắt</string>
-  <string name="pref_camera_manual_wb_value_color_temperature">color-temperature</string>
-  <string name="pref_camera_manual_wb_value_rbgb_gains">rbgb-gains</string>
-  <string name="pref_camera_manual_wb_value_off">tắt</string>
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_title">Lấy nét thủ công</string>
   <string name="pref_camera_manual_focus_entry_scale_mode">Chế độ thu phóng</string>
   <string name="pref_camera_manual_focus_entry_diopter_mode">Chế độ thước ngắm</string>
   <string name="pref_camera_manual_focus_entry_off">Tắt</string>
-  <string name="pref_camera_manual_focus_default">tắt</string>
-  <string name="pref_camera_manual_focus_value_scale_mode">scale-mode</string>
-  <string name="pref_camera_manual_focus_value_diopter_mode">diopter-mode</string>
-  <string name="pref_camera_manual_focus_value_off">tắt</string>
   <!-- Instant Capture entry -->
   <string name="pref_camera_instant_capture_title" translatable="true">Chụp ảnh tức thì</string>
   <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">AEC tích cực</string>
@@ -127,42 +111,28 @@
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Tắt</string>
   <string name="pref_camera_zsl_entry_on">Bật</string>
-  <string name="pref_camera_zsl_value_off">off</string>
-  <string name="pref_camera_zsl_value_on">on</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
   <string name="hdr_enable_message">HDR được bật, chỉ hỗ trợ chế độ cảnh tự động</string>
   <string name="scene_enable_message">HDR không hỗ trợ chế độ cảnh nào ngoài tự động</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">Tắt</string>
   <string name="pref_camera_video_hdr_entry_on">Bật</string>
-  <string name="pref_camera_video_hdr_value_off">off</string>
-  <string name="pref_camera_video_hdr_value_on">on</string>
   <!-- Settings screen, CDS location dialog choices -->
   <string name="pref_camera_cds_entry_off">Tắt</string>
   <string name="pref_camera_cds_entry_on">Bật</string>
   <string name="pref_camera_cds_entry_auto">Tự động</string>
-  <string name="pref_camera_cds_value_off">off</string>
-  <string name="pref_camera_cds_value_on">on</string>
-  <string name="pref_camera_cds_value_auto">auto</string>
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">Tắt</string>
   <string name="pref_camera_video_cds_entry_on">Bật</string>
   <string name="pref_camera_video_cds_entry_auto">Tự động</string>
-  <string name="pref_camera_video_cds_value_off">off</string>
-  <string name="pref_camera_video_cds_value_on">on</string>
-  <string name="pref_camera_video_cds_value_auto">auto</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">Tắt</string>
   <string name="pref_camera_tnr_entry_enable">Bật</string>
   <!-- Settings screen, TNR location dialog choices -->
-  <string name="pref_camera_tnr_value_off">off</string>
-  <string name="pref_camera_tnr_value_on">on</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <string name="pref_camera_video_tnr_entry_disable">Tắt</string>
   <string name="pref_camera_video_tnr_entry_enable">Bật</string>
   <!-- Settings screen, video TNR location dialog choices -->
-  <string name="pref_camera_video_tnr_value_off">off</string>
-  <string name="pref_camera_video_tnr_value_on">on</string>
   <!-- Settings screen, setting title text for Video HDR-->
   <string name="pref_camera_video_hdr_title">HDR video</string>
   <!-- Settings menu, setting title text for cds mode-->
@@ -223,7 +193,6 @@ HFR không hỗ trợ độ phân giải đã chọn     </string>
         ở chế độ zsl, thay đổi sang JPEG    </string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Khung</string>
-  <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE-Bracket</string>
   <string name="pref_camera_ae_bracket_hdr_title">Khung</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Bật</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Tắt</string>
@@ -307,7 +276,6 @@ HFR không hỗ trợ độ phân giải đã chọn     </string>
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Chống dải</string>
   <!-- Default Anti Banding setting. -->
-  <string name="pref_camera_antibanding_default">auto</string>
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Tự động</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Châu Âu)</string>
@@ -340,12 +308,8 @@ HFR không hỗ trợ độ phân giải đã chọn     </string>
   <!-- DIS choices -->
   <string name="pref_camera_dis_entry_off">Tắt</string>
   <string name="pref_camera_dis_entry_on">Bật</string>
-  <string name="pref_camera_dis_default">vô hiệu</string>
-  <string name="pref_camera_dis_value_disable">vô hiệu</string>
-  <string name="pref_camera_dis_value_enable">đã kích hoạt</string>
   <!-- Select Face Recognition title -->
   <string name="pref_camera_facerc_title">Nhận diện khuôn mặt</string>
-  <string name="pref_camera_facerc_default">tắt</string>
   <!-- Face Recognition choices -->
   <string name="pref_camera_facerc_entry_off">Tắt</string>
   <string name="pref_camera_facerc_entry_on">Bật</string>
@@ -509,11 +473,8 @@ HFR không hỗ trợ độ phân giải đã chọn     </string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Bật</string>
   <string name="pref_camera_auto_hdr_entry_disable">Tắt</string>
-  <string name="pref_camera_auto_hdr_value_enable">đã kích hoạt</string>
-  <string name="pref_camera_auto_hdr_value_disable">vô hiệu</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Bộ nhớ trong không đủ, đã chuyển vị trí lưu trữ sang thẻ nhớ</string>
-  <string name="pref_camera_hdr_mode_default">hdr-mode-multiframe</string>
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">Chế độ HDR</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
@@ -580,8 +541,6 @@ Chụp liên tục không được hỗ trợ khi các tính năng nâng cao đ�
   <string name="pref_camera2_makeup_title" translatable="true">Làm đẹp</string>
   <string name="pref_camera2_noise_reduction_title" translatable="true">Giảm nhiễu</string>
   <string name="pref_camera2_videosnap_title" translatable="true">Kích cỡ ảnh chụp tự động</string>
-  <string name="pref_camera2_videosnap_value_enable" translatable="true">đã kích hoạt</string>
-  <string name="pref_camera2_videosnap_value_disable" translatable="true">vô hiệu</string>
   <string name="pref_camera2_videosnap_entry_enable" translatable="true">Bật</string>
   <string name="pref_camera2_videosnap_entry_disable" translatable="true">Tắt</string>
   <string name="pref_camera2_trackingfocus_title" translatable="true">Lấy nét bám đuổi</string>
@@ -594,14 +553,10 @@ Chụp liên tục không được hỗ trợ khi các tính năng nâng cao đ�
   <string name="pref_camera_scenemode_entry_promode" translatable="true">ProMode</string>
   <string name="bestpicture_done" translatable="true">LƯU</string>
   <string name="bestpicture_at_least_one_picture" translatable="true">Ít nhất một hình ảnh phải được chọn.</string>
-  <string name="pref_camera2_shutter_sound_default" translatable="true">on</string>
-  <string name="pref_camera2_shutter_sound_value_on" translatable="true">on</string>
-  <string name="pref_camera2_shutter_sound_value_off" translatable="true">off</string>
   <string name="pref_camera2_timer_entry_off" translatable="true">Tắt</string>
   <string name="pref_camera2_timer_entry_2sec" translatable="true">2 giây</string>
   <string name="pref_camera2_timer_entry_5sec" translatable="true">5 giây</string>
   <string name="pref_camera2_timer_entry_10sec" translatable="true">10 giây</string>
-  <string name="pref_camera2_saveraw_default">tắt</string>
   <string name="pref_camera2_saveraw_title">Lưu với định dạng RAW</string>
   <string name="pref_camera2_saveraw_entry_disable">vô hiệu</string>
   <string name="pref_camera2_saveraw_entry_enable">kích hoạt</string>
@@ -693,6 +648,4 @@ Chụp liên tục không được hỗ trợ khi các tính năng nâng cao đ�
   <!-- QCFA Title -->
   <string name="pref_camera2_qcfa_title" translatable="true">QCFA</string>
   <!-- QCFA choices -->
-  <string name="pref_camera_qcfa_value_disable">vô hiệu</string>
-  <string name="pref_camera_qcfa_value_enable">đã kích hoạt</string>
 </resources>

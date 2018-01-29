@@ -30,8 +30,6 @@
   <string name="pref_camera_powermode_entry_lp">Basso consumo</string>
   <string name="pref_camera_powermode_entry_np">Consumo normale</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_value_lp">Basso consumo</string>
-  <string name="pref_camera_powermode_value_np">Consumo normale</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
@@ -74,7 +72,6 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Pesata al centro</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Media dei frame</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_default">nessuno</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Funzioni avanzate</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->

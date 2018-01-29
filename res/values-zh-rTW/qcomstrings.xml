@@ -30,8 +30,6 @@
   <string name="pref_camera_powermode_entry_lp">低電量</string>
   <string name="pref_camera_powermode_entry_np">正常電量</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_value_lp">低電量</string>
-  <string name="pref_camera_powermode_value_np">正常電量</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
@@ -75,7 +73,6 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">中央加權測光</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">平均影格數</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_default">無</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">進階功能</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -95,29 +92,16 @@
   <string name="pref_camera_manual_exp_entry_exptime_priority">曝光時間優先</string>
   <string name="pref_camera_manual_exp_entry_user_setting">使用者設定</string>
   <string name="pref_camera_manual_exp_entry_off">關閉</string>
-  <string name="pref_camera_manual_exp_default">關閉</string>
-  <string name="pref_camera_manual_exp_value_ISO_priority">iso-priority</string>
-  <string name="pref_camera_manual_exp_value_exptime_priority">exp-time-priority</string>
-  <string name="pref_camera_manual_exp_value_user_setting">user-setting</string>
-  <string name="pref_camera_manual_exp_value_off">關閉</string>
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_title">手動白平衡</string>
   <string name="pref_camera_manual_wb_entry_color_temperature">色溫</string>
   <string name="pref_camera_manual_wb_entry_rbgb_gains">RBGB 增益</string>
   <string name="pref_camera_manual_wb_entry_off">關閉</string>
-  <string name="pref_camera_manual_wb_default">關閉</string>
-  <string name="pref_camera_manual_wb_value_color_temperature">color-temperature</string>
-  <string name="pref_camera_manual_wb_value_rbgb_gains">rbgb-gains</string>
-  <string name="pref_camera_manual_wb_value_off">關閉</string>
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_title">手動對焦</string>
   <string name="pref_camera_manual_focus_entry_scale_mode">比例模式</string>
   <string name="pref_camera_manual_focus_entry_diopter_mode">屈光度模式</string>
   <string name="pref_camera_manual_focus_entry_off">關閉</string>
-  <string name="pref_camera_manual_focus_default">關閉</string>
-  <string name="pref_camera_manual_focus_value_scale_mode">scale-mode</string>
-  <string name="pref_camera_manual_focus_value_diopter_mode">diopter-mode</string>
-  <string name="pref_camera_manual_focus_value_off">關閉</string>
   <!-- Instant Capture entry -->
   <string name="pref_camera_instant_capture_title" translatable="true">即時捕捉</string>
   <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">主動 AEC</string>
@@ -127,42 +111,28 @@
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">關閉</string>
   <string name="pref_camera_zsl_entry_on">開啟</string>
-  <string name="pref_camera_zsl_value_off">關閉</string>
-  <string name="pref_camera_zsl_value_on">開啟</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
   <string name="hdr_enable_message">已啟用 HDR ，僅支援自動場景模式</string>
   <string name="scene_enable_message">HDR 不支援自動場景之外的模式</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">關閉</string>
   <string name="pref_camera_video_hdr_entry_on">開啟</string>
-  <string name="pref_camera_video_hdr_value_off">關閉</string>
-  <string name="pref_camera_video_hdr_value_on">開啟</string>
   <!-- Settings screen, CDS location dialog choices -->
   <string name="pref_camera_cds_entry_off">關閉</string>
   <string name="pref_camera_cds_entry_on">開啟</string>
   <string name="pref_camera_cds_entry_auto">自動</string>
-  <string name="pref_camera_cds_value_off">關閉</string>
-  <string name="pref_camera_cds_value_on">開啟</string>
-  <string name="pref_camera_cds_value_auto">自動</string>
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">關閉</string>
   <string name="pref_camera_video_cds_entry_on">開啟</string>
   <string name="pref_camera_video_cds_entry_auto">自動</string>
-  <string name="pref_camera_video_cds_value_off">關閉</string>
-  <string name="pref_camera_video_cds_value_on">開啟</string>
-  <string name="pref_camera_video_cds_value_auto">自動</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">關閉</string>
   <string name="pref_camera_tnr_entry_enable">啓用</string>
   <!-- Settings screen, TNR location dialog choices -->
-  <string name="pref_camera_tnr_value_off">關閉</string>
-  <string name="pref_camera_tnr_value_on">開啟</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <string name="pref_camera_video_tnr_entry_disable">關閉</string>
   <string name="pref_camera_video_tnr_entry_enable">啓用</string>
   <!-- Settings screen, video TNR location dialog choices -->
-  <string name="pref_camera_video_tnr_value_off">關閉</string>
-  <string name="pref_camera_video_tnr_value_on">開啟</string>
   <!-- Settings screen, setting title text for Video HDR-->
   <string name="pref_camera_video_hdr_title">HDR 影片</string>
   <!-- Settings menu, setting title text for cds mode-->
@@ -222,7 +192,6 @@ HFR 不支援所選取的解析度     </string>
   <string name="error_app_unsupported_raw">在 zsl 模式下不支援 raw 圖片格式、 請更改為 JPEG    </string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE 包覆曝光</string>
-  <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE 包覆曝光</string>
   <string name="pref_camera_ae_bracket_hdr_title">AE 包覆曝光</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">開啟</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">關閉</string>
@@ -305,7 +274,6 @@ HFR 不支援所選取的解析度     </string>
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">防閃爍</string>
   <!-- Default Anti Banding setting. -->
-  <string name="pref_camera_antibanding_default">自動</string>
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">自動</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (歐洲)</string>
@@ -338,12 +306,8 @@ HFR 不支援所選取的解析度     </string>
   <!-- DIS choices -->
   <string name="pref_camera_dis_entry_off">關閉</string>
   <string name="pref_camera_dis_entry_on">開啟</string>
-  <string name="pref_camera_dis_default">停用</string>
-  <string name="pref_camera_dis_value_disable">停用</string>
-  <string name="pref_camera_dis_value_enable">啟用</string>
   <!-- Select Face Recognition title -->
   <string name="pref_camera_facerc_title">人臉識別</string>
-  <string name="pref_camera_facerc_default">關閉</string>
   <!-- Face Recognition choices -->
   <string name="pref_camera_facerc_entry_off">關閉</string>
   <string name="pref_camera_facerc_entry_on">開啟</string>
@@ -507,11 +471,8 @@ HFR 不支援所選取的解析度     </string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">啓用</string>
   <string name="pref_camera_auto_hdr_entry_disable">關閉</string>
-  <string name="pref_camera_auto_hdr_value_enable">啟用</string>
-  <string name="pref_camera_auto_hdr_value_disable">停用</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">內部儲存空間不足，已切換儲存位置至 SD 卡</string>
-  <string name="pref_camera_hdr_mode_default">hdr-mode-multiframe</string>
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">HDR 模式</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
@@ -578,8 +539,6 @@ HFR 不支援所選取的解析度     </string>
   <string name="pref_camera2_makeup_title" translatable="true">美顏</string>
   <string name="pref_camera2_noise_reduction_title" translatable="true">降噪</string>
   <string name="pref_camera2_videosnap_title" translatable="true">自動快照大小</string>
-  <string name="pref_camera2_videosnap_value_enable" translatable="true">啟用</string>
-  <string name="pref_camera2_videosnap_value_disable" translatable="true">停用</string>
   <string name="pref_camera2_videosnap_entry_enable" translatable="true">啓用</string>
   <string name="pref_camera2_videosnap_entry_disable" translatable="true">關閉</string>
   <string name="pref_camera2_trackingfocus_title" translatable="true">追蹤對焦</string>
@@ -592,14 +551,10 @@ HFR 不支援所選取的解析度     </string>
   <string name="pref_camera_scenemode_entry_promode" translatable="true">專業模式</string>
   <string name="bestpicture_done" translatable="true">SAVE</string>
   <string name="bestpicture_at_least_one_picture" translatable="true">至少需要一張圖片有可供選擇。</string>
-  <string name="pref_camera2_shutter_sound_default" translatable="true">開啟</string>
-  <string name="pref_camera2_shutter_sound_value_on" translatable="true">開啟</string>
-  <string name="pref_camera2_shutter_sound_value_off" translatable="true">關閉</string>
   <string name="pref_camera2_timer_entry_off" translatable="true">關閉</string>
   <string name="pref_camera2_timer_entry_2sec" translatable="true">2 秒</string>
   <string name="pref_camera2_timer_entry_5sec" translatable="true">5 秒</string>
   <string name="pref_camera2_timer_entry_10sec" translatable="true">10 秒</string>
-  <string name="pref_camera2_saveraw_default">停用</string>
   <string name="pref_camera2_saveraw_title">以 RAW 格式儲存</string>
   <string name="pref_camera2_saveraw_entry_disable">停用</string>
   <string name="pref_camera2_saveraw_entry_enable">啟用</string>
@@ -691,6 +646,4 @@ HFR 不支援所選取的解析度     </string>
   <!-- QCFA Title -->
   <string name="pref_camera2_qcfa_title" translatable="true">QCFA</string>
   <!-- QCFA choices -->
-  <string name="pref_camera_qcfa_value_disable">停用</string>
-  <string name="pref_camera_qcfa_value_enable">啟用</string>
 </resources>

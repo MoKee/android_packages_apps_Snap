@@ -29,7 +29,6 @@
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_entry_lp">低电量</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_value_lp">低功耗模式</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
@@ -70,7 +69,6 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">中心测光</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">平均帧</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_default">无</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">高级功能</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -85,25 +83,16 @@
   <string name="pref_camera_manual_exp_entry_exptime_priority">曝光时间优先</string>
   <string name="pref_camera_manual_exp_entry_user_setting">用户设置</string>
   <string name="pref_camera_manual_exp_entry_off">关闭</string>
-  <string name="pref_camera_manual_exp_default">关闭</string>
-  <string name="pref_camera_manual_exp_value_ISO_priority">优先iso</string>
-  <string name="pref_camera_manual_exp_value_user_setting">用户设置</string>
-  <string name="pref_camera_manual_exp_value_off">关闭</string>
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_title">手动白平衡</string>
   <string name="pref_camera_manual_wb_entry_color_temperature">色温</string>
   <string name="pref_camera_manual_wb_entry_rbgb_gains">RBGB 增益</string>
   <string name="pref_camera_manual_wb_entry_off">关闭</string>
-  <string name="pref_camera_manual_wb_default">关闭</string>
-  <string name="pref_camera_manual_wb_value_color_temperature">色温</string>
-  <string name="pref_camera_manual_wb_value_off">关闭</string>
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_title">手动对焦</string>
   <string name="pref_camera_manual_focus_entry_scale_mode">比例模式</string>
   <string name="pref_camera_manual_focus_entry_diopter_mode">屈光模式</string>
   <string name="pref_camera_manual_focus_entry_off">关闭</string>
-  <string name="pref_camera_manual_focus_default">关闭</string>
-  <string name="pref_camera_manual_focus_value_off">关闭</string>
   <!-- Instant Capture entry -->
   <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">AEC 主动调整</string>
   <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">AEC 快速调整</string>
@@ -112,35 +101,24 @@
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">关闭</string>
   <string name="pref_camera_zsl_entry_on">开启</string>
-  <string name="pref_camera_zsl_value_on">开启</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
   <string name="hdr_enable_message">HDR 已启用，仅支持自动场景模式</string>
   <string name="scene_enable_message">HDR 不支持自动场景以外的模式</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">关闭</string>
   <string name="pref_camera_video_hdr_entry_on">开启</string>
-  <string name="pref_camera_video_hdr_value_off">关闭</string>
-  <string name="pref_camera_video_hdr_value_on">开启</string>
   <!-- Settings screen, CDS location dialog choices -->
   <string name="pref_camera_cds_entry_off">关闭</string>
   <string name="pref_camera_cds_entry_on">开启</string>
   <string name="pref_camera_cds_entry_auto">自动</string>
-  <string name="pref_camera_cds_value_off">关闭</string>
-  <string name="pref_camera_cds_value_on">开启</string>
-  <string name="pref_camera_cds_value_auto">自动</string>
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">关闭</string>
   <string name="pref_camera_video_cds_entry_on">开启</string>
   <string name="pref_camera_video_cds_entry_auto">自动</string>
-  <string name="pref_camera_video_cds_value_off">关闭</string>
-  <string name="pref_camera_video_cds_value_on">开启</string>
-  <string name="pref_camera_video_cds_value_auto">自动</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">停用</string>
   <string name="pref_camera_tnr_entry_enable">开启</string>
   <!-- Settings screen, TNR location dialog choices -->
-  <string name="pref_camera_tnr_value_off">关闭</string>
-  <string name="pref_camera_tnr_value_on">开启</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <string name="pref_camera_video_tnr_entry_disable">停用</string>
   <string name="pref_camera_video_tnr_entry_enable">开启</string>
@@ -238,7 +216,6 @@
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">防闪烁</string>
   <!-- Default Anti Banding setting. -->
-  <string name="pref_camera_antibanding_default">自动</string>
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">自动</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz（欧洲）</string>
@@ -271,12 +248,8 @@
   <!-- DIS choices -->
   <string name="pref_camera_dis_entry_off">关闭</string>
   <string name="pref_camera_dis_entry_on">开启</string>
-  <string name="pref_camera_dis_default">禁用</string>
-  <string name="pref_camera_dis_value_disable">禁用</string>
-  <string name="pref_camera_dis_value_enable">启用</string>
   <!-- Select Face Recognition title -->
   <string name="pref_camera_facerc_title">人脸识别</string>
-  <string name="pref_camera_facerc_default">关闭</string>
   <!-- Face Recognition choices -->
   <string name="pref_camera_facerc_entry_off">关闭</string>
   <string name="pref_camera_facerc_entry_on">开启</string>
@@ -359,8 +332,6 @@
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">开启</string>
   <string name="pref_camera_auto_hdr_entry_disable">停用</string>
-  <string name="pref_camera_auto_hdr_value_enable">启用</string>
-  <string name="pref_camera_auto_hdr_value_disable">禁用</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">内部存储空间不足，已将保存位置切换到 SD 卡</string>
   <!-- Settings screen, Selectable HDR mode title -->
@@ -424,9 +395,6 @@
   <string name="pref_camera_scenemode_entry_promode" translatable="true">专业模式</string>
   <string name="bestpicture_done" translatable="true">保存</string>
   <string name="bestpicture_at_least_one_picture" translatable="true">至少选择一张图像。</string>
-  <string name="pref_camera2_shutter_sound_default" translatable="true">开启</string>
-  <string name="pref_camera2_shutter_sound_value_on" translatable="true">开启</string>
-  <string name="pref_camera2_shutter_sound_value_off" translatable="true">关闭</string>
   <string name="pref_camera2_timer_entry_off" translatable="true">关闭</string>
   <string name="pref_camera2_timer_entry_2sec" translatable="true">2 秒</string>
   <string name="pref_camera2_timer_entry_5sec" translatable="true">5 秒</string>

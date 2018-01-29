@@ -30,8 +30,6 @@
   <string name="pref_camera_powermode_entry_lp">低電量</string>
   <string name="pref_camera_powermode_entry_np">正常電量</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_value_lp">低電量</string>
-  <string name="pref_camera_powermode_value_np">正常電量</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
@@ -74,7 +72,6 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">中央加權測光</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">平均幀率</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_default">無</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">進階功能</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -97,16 +94,11 @@
   <string name="pref_camera_manual_wb_entry_color_temperature">色溫</string>
   <string name="pref_camera_manual_wb_entry_rbgb_gains">RBGB 增益</string>
   <string name="pref_camera_manual_wb_entry_off">關閉</string>
-  <string name="pref_camera_manual_wb_default">關閉</string>
-  <string name="pref_camera_manual_wb_value_color_temperature">色溫</string>
-  <string name="pref_camera_manual_wb_value_off">關閉</string>
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_title">手動對焦</string>
   <string name="pref_camera_manual_focus_entry_scale_mode">比例模式</string>
   <string name="pref_camera_manual_focus_entry_diopter_mode">屈光度模式</string>
   <string name="pref_camera_manual_focus_entry_off">關閉</string>
-  <string name="pref_camera_manual_focus_default">關閉</string>
-  <string name="pref_camera_manual_focus_value_off">關閉</string>
   <!-- Instant Capture entry -->
   <string name="pref_camera_instant_capture_title" translatable="true">即時拍攝</string>
   <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">主動 AEC</string>
@@ -116,29 +108,20 @@
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">關閉</string>
   <string name="pref_camera_zsl_entry_on">開啟</string>
-  <string name="pref_camera_zsl_value_off">關閉</string>
-  <string name="pref_camera_zsl_value_on">開啟</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
   <string name="hdr_enable_message">已啟用 HDR ，僅支援自動場景模式</string>
   <string name="scene_enable_message">HDR 不支援自動場景之外的模式</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">關閉</string>
   <string name="pref_camera_video_hdr_entry_on">開啟</string>
-  <string name="pref_camera_video_hdr_value_off">關閉</string>
-  <string name="pref_camera_video_hdr_value_on">開啟</string>
   <!-- Settings screen, CDS location dialog choices -->
   <string name="pref_camera_cds_entry_off">關閉</string>
   <string name="pref_camera_cds_entry_on">開啟</string>
   <string name="pref_camera_cds_entry_auto">自動</string>
-  <string name="pref_camera_cds_value_off">關閉</string>
-  <string name="pref_camera_cds_value_on">開啟</string>
-  <string name="pref_camera_cds_value_auto">自動</string>
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">關閉</string>
   <string name="pref_camera_video_cds_entry_on">開啟</string>
   <string name="pref_camera_video_cds_entry_auto">自動</string>
-  <string name="pref_camera_video_cds_value_off">關閉</string>
-  <string name="pref_camera_video_cds_value_on">開啟</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">關閉</string>
   <string name="pref_camera_tnr_entry_enable">啓用</string>

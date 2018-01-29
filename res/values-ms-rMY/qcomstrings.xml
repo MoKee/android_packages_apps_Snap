@@ -30,8 +30,6 @@
   <string name="pref_camera_powermode_entry_lp">Kuasa_rendah</string>
   <string name="pref_camera_powermode_entry_np">Kuasa_biasa</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_value_lp">Kuasa_rendah</string>
-  <string name="pref_camera_powermode_value_np">Kuasa_biasa</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
@@ -73,7 +71,6 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Pusat wajaran</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Purata frame</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_default">tiada</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Ciri lanjutan</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -108,20 +105,14 @@
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">Matikan</string>
   <string name="pref_camera_video_cds_entry_on">Hidupkan</string>
-  <string name="pref_camera_video_cds_value_on">on</string>
-  <string name="pref_camera_video_cds_value_auto">auto</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">Lumpuh</string>
   <string name="pref_camera_tnr_entry_enable">Mendayakan</string>
   <!-- Settings screen, TNR location dialog choices -->
-  <string name="pref_camera_tnr_value_off">off</string>
-  <string name="pref_camera_tnr_value_on">on</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <string name="pref_camera_video_tnr_entry_disable">Lumpuh</string>
   <string name="pref_camera_video_tnr_entry_enable">Mendayakan</string>
   <!-- Settings screen, video TNR location dialog choices -->
-  <string name="pref_camera_video_tnr_value_off">off</string>
-  <string name="pref_camera_video_tnr_value_on">on</string>
   <!-- Settings screen, setting title text for Video HDR-->
   <string name="pref_camera_video_hdr_title">Video HDR</string>
   <!-- Settings menu, setting title text for cds mode-->

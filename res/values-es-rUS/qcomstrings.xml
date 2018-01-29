@@ -28,8 +28,6 @@
   <string name="pref_camera_powermode_title">Modo de energía</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_value_lp">Low_Power</string>
-  <string name="pref_camera_powermode_value_np">Normal_Power</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
@@ -72,7 +70,6 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Compensación en el centro</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Cuadro promedio</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_default">ninguno</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Características avanzadas</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -91,29 +88,16 @@
   <string name="pref_camera_manual_exp_entry_exptime_priority">Prioridad tiempo de exposición</string>
   <string name="pref_camera_manual_exp_entry_user_setting">Ajustes de usuario</string>
   <string name="pref_camera_manual_exp_entry_off">Desactivado</string>
-  <string name="pref_camera_manual_exp_default">desactivado</string>
-  <string name="pref_camera_manual_exp_value_ISO_priority">iso-prioridad</string>
-  <string name="pref_camera_manual_exp_value_exptime_priority">exp-tiempo-prioridad</string>
-  <string name="pref_camera_manual_exp_value_user_setting">ajustes de usuario</string>
-  <string name="pref_camera_manual_exp_value_off">desactivado</string>
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_title">Balance de blancos manual</string>
   <string name="pref_camera_manual_wb_entry_color_temperature">Temperatura de color</string>
   <string name="pref_camera_manual_wb_entry_rbgb_gains">Ganancias RBGB</string>
   <string name="pref_camera_manual_wb_entry_off">Desactivado</string>
-  <string name="pref_camera_manual_wb_default">desactivado</string>
-  <string name="pref_camera_manual_wb_value_color_temperature">temperatura del color</string>
-  <string name="pref_camera_manual_wb_value_rbgb_gains">rbgb-beneficios</string>
-  <string name="pref_camera_manual_wb_value_off">desactivado</string>
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_title">Enfoque manual</string>
   <string name="pref_camera_manual_focus_entry_scale_mode">Modo de escala</string>
   <string name="pref_camera_manual_focus_entry_diopter_mode">Modo de dioptrías</string>
   <string name="pref_camera_manual_focus_entry_off">Desactivado</string>
-  <string name="pref_camera_manual_focus_default">desactivado</string>
-  <string name="pref_camera_manual_focus_value_scale_mode">modo de escala</string>
-  <string name="pref_camera_manual_focus_value_diopter_mode">modo de dioptrías</string>
-  <string name="pref_camera_manual_focus_value_off">desactivado</string>
   <!-- Instant Capture entry -->
   <string name="pref_camera_instant_capture_title" translatable="true">Captura instantánea</string>
   <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">AEC agresivo</string>
@@ -123,42 +107,28 @@
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Desactivado</string>
   <string name="pref_camera_zsl_entry_on">Activada</string>
-  <string name="pref_camera_zsl_value_off">desactivado</string>
-  <string name="pref_camera_zsl_value_on">activado</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
   <string name="hdr_enable_message">HDR está activado, sólo es compatible el modo de escena automático</string>
   <string name="scene_enable_message">HDR es incompatible con el modo de escena que no sea Auto</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">Desactivado</string>
   <string name="pref_camera_video_hdr_entry_on">Activada</string>
-  <string name="pref_camera_video_hdr_value_off">desactivado</string>
-  <string name="pref_camera_video_hdr_value_on">activado</string>
   <!-- Settings screen, CDS location dialog choices -->
   <string name="pref_camera_cds_entry_off">Desactivado</string>
   <string name="pref_camera_cds_entry_on">Activada</string>
   <string name="pref_camera_cds_entry_auto">Automático</string>
-  <string name="pref_camera_cds_value_off">desactivado</string>
-  <string name="pref_camera_cds_value_on">activado</string>
-  <string name="pref_camera_cds_value_auto">auto</string>
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">Desactivado</string>
   <string name="pref_camera_video_cds_entry_on">Activada</string>
   <string name="pref_camera_video_cds_entry_auto">Automático</string>
-  <string name="pref_camera_video_cds_value_off">desactivado</string>
-  <string name="pref_camera_video_cds_value_on">activado</string>
-  <string name="pref_camera_video_cds_value_auto">auto</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">Desactivar</string>
   <string name="pref_camera_tnr_entry_enable">Activar</string>
   <!-- Settings screen, TNR location dialog choices -->
-  <string name="pref_camera_tnr_value_off">desactivado</string>
-  <string name="pref_camera_tnr_value_on">activado</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <string name="pref_camera_video_tnr_entry_disable">Desactivar</string>
   <string name="pref_camera_video_tnr_entry_enable">Activar</string>
   <!-- Settings screen, video TNR location dialog choices -->
-  <string name="pref_camera_video_tnr_value_off">desactivado</string>
-  <string name="pref_camera_video_tnr_value_on">activado</string>
   <!-- Settings screen, setting title text for Video HDR-->
   <string name="pref_camera_video_hdr_title">Vídeo HDR</string>
   <!-- Settings menu, setting title text for cds mode-->
@@ -221,7 +191,6 @@ HSR no admite la resolución seleccionada
     </string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE-soporte</string>
-  <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE-soporte</string>
   <string name="pref_camera_ae_bracket_hdr_title">AE-soporte</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Activada</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Desactivado</string>
@@ -275,7 +244,6 @@ HSR no admite la resolución seleccionada
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Contra las bandas</string>
   <!-- Default Anti Banding setting. -->
-  <string name="pref_camera_antibanding_default">auto</string>
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Automático</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
@@ -308,12 +276,8 @@ HSR no admite la resolución seleccionada
   <!-- DIS choices -->
   <string name="pref_camera_dis_entry_off">Desactivado</string>
   <string name="pref_camera_dis_entry_on">Activada</string>
-  <string name="pref_camera_dis_default">desactivado</string>
-  <string name="pref_camera_dis_value_disable">desactivado</string>
-  <string name="pref_camera_dis_value_enable">activado</string>
   <!-- Select Face Recognition title -->
   <string name="pref_camera_facerc_title">Reconocimiento de rostro</string>
-  <string name="pref_camera_facerc_default">desactivado</string>
   <!-- Face Recognition choices -->
   <string name="pref_camera_facerc_entry_off">Desactivado</string>
   <string name="pref_camera_facerc_entry_on">Activada</string>
@@ -466,11 +430,8 @@ HSR no admite la resolución seleccionada
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Activar</string>
   <string name="pref_camera_auto_hdr_entry_disable">Desactivar</string>
-  <string name="pref_camera_auto_hdr_value_enable">activado</string>
-  <string name="pref_camera_auto_hdr_value_disable">desactivado</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">El espacio de almacenamiento interno no es suficiente, cambia la ubicación del almacenamiento a la tarjeta SD</string>
-  <string name="pref_camera_hdr_mode_default">hdr-modo-multiframe</string>
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">Modo HDR</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
@@ -534,22 +495,16 @@ El disparo continuo no es compatible cuando se activan las características avan
   <string name="pref_camera2_makeup_title" translatable="true">Maquillaje</string>
   <string name="pref_camera2_noise_reduction_title" translatable="true">Reducción de ruido</string>
   <string name="pref_camera2_videosnap_title" translatable="true">Tamaño automático de foto</string>
-  <string name="pref_camera2_videosnap_value_enable" translatable="true">activado</string>
-  <string name="pref_camera2_videosnap_value_disable" translatable="true">desactivado</string>
   <string name="pref_camera2_videosnap_entry_enable" translatable="true">Activar</string>
   <string name="pref_camera2_videosnap_entry_disable" translatable="true">Desactivar</string>
   <string name="pref_camera2_trackingfocus_title" translatable="true">Seguimiento del enfoque</string>
   <string name="pref_camera_scenemode_entry_panorama" translatable="true">Panorámico</string>
   <string name="bestpicture_done" translatable="true">GUARDAR</string>
   <string name="bestpicture_at_least_one_picture" translatable="true">Se debe marcar al menos una imagen.</string>
-  <string name="pref_camera2_shutter_sound_default" translatable="true">activado</string>
-  <string name="pref_camera2_shutter_sound_value_on" translatable="true">activado</string>
-  <string name="pref_camera2_shutter_sound_value_off" translatable="true">desactivado</string>
   <string name="pref_camera2_timer_entry_off" translatable="true">Desactivado</string>
   <string name="pref_camera2_timer_entry_2sec" translatable="true">2 segundos</string>
   <string name="pref_camera2_timer_entry_5sec" translatable="true">5 segundos</string>
   <string name="pref_camera2_timer_entry_10sec" translatable="true">10 segundos</string>
-  <string name="pref_camera2_saveraw_default">desactivado</string>
   <string name="pref_camera2_saveraw_title">Guardar con formato RAW</string>
   <string name="pref_camera2_saveraw_entry_disable">desactivado</string>
   <string name="pref_camera2_saveraw_entry_enable">activado</string>
@@ -624,6 +579,4 @@ El disparo continuo no es compatible cuando se activan las características avan
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Desactivado</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
-  <string name="pref_camera_qcfa_value_disable">desactivado</string>
-  <string name="pref_camera_qcfa_value_enable">activado</string>
 </resources>

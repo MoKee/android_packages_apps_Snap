@@ -28,8 +28,6 @@
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_entry_lp">Mababang_Power</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_value_lp">Mababang_Power</string>
-  <string name="pref_camera_powermode_value_np">Normal_Power</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
@@ -85,12 +83,10 @@
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">I-off</string>
   <string name="pref_camera_video_hdr_entry_on">Naka-on</string>
-  <string name="pref_camera_video_hdr_value_off">i-off</string>
   <!-- Settings screen, CDS location dialog choices -->
   <string name="pref_camera_cds_entry_off">I-off</string>
   <string name="pref_camera_cds_entry_on">Naka-on</string>
   <string name="pref_camera_cds_entry_auto">Awtomatiko</string>
-  <string name="pref_camera_cds_value_auto">auto</string>
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">I-off</string>
   <string name="pref_camera_video_cds_entry_on">Naka-on</string>
@@ -152,7 +148,6 @@ HSR ay hindi suportado para sa napiling resolusyon
   <string name="error_app_unsupported_profile">Hindi suportadong video profile</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
-  <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE-Bracket</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Naka-on</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">I-off</string>
   <string name="err_app_unsupport_ae_bracket_code">walang ae bracket na suporta sa mga App ngayon</string>
@@ -210,8 +205,6 @@ HSR ay hindi suportado para sa napiling resolusyon
   <!-- DIS choices -->
   <string name="pref_camera_dis_entry_off">I-off</string>
   <string name="pref_camera_dis_entry_on">Naka-on</string>
-  <string name="pref_camera_dis_value_disable">hindi pinagana</string>
-  <string name="pref_camera_dis_value_enable">pinagana</string>
   <!-- Select Face Recognition title -->
   <!-- Face Recognition choices -->
   <string name="pref_camera_facerc_entry_off">I-off</string>
@@ -290,8 +283,6 @@ HSR ay hindi suportado para sa napiling resolusyon
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">I-enable</string>
   <string name="pref_camera_auto_hdr_entry_disable">I-disable</string>
-  <string name="pref_camera_auto_hdr_value_enable">paganahin</string>
-  <string name="pref_camera_auto_hdr_value_disable">hindi paganahin</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Ang internal storage space ay hindi sapat - palitan ang save path sa SD card</string>
   <!-- Settings screen, Selectable HDR mode title -->
@@ -335,8 +326,6 @@ HSR ay hindi suportado para sa napiling resolusyon
   <string name="clearsight_capture_fail">Nabigo na kinuha ng ClearSight</string>
   <string name="pref_camera2_mpo_entry_on" translatable="true">Naka-on</string>
   <string name="pref_camera2_mpo_entry_off" translatable="true">I-off</string>
-  <string name="pref_camera2_videosnap_value_enable" translatable="true">paganahin</string>
-  <string name="pref_camera2_videosnap_value_disable" translatable="true">hindi paganahin</string>
   <string name="pref_camera2_videosnap_entry_enable" translatable="true">I-enable</string>
   <string name="pref_camera2_videosnap_entry_disable" translatable="true">I-disable</string>
   <string name="bestpicture_done" translatable="true">I-save</string>
@@ -345,7 +334,6 @@ HSR ay hindi suportado para sa napiling resolusyon
   <string name="pref_camera2_timer_entry_2sec" translatable="true">2 segundo</string>
   <string name="pref_camera2_timer_entry_5sec" translatable="true">5 segundo</string>
   <string name="pref_camera2_timer_entry_10sec" translatable="true">10 segundo</string>
-  <string name="pref_camera2_saveraw_default">hindi paganahin</string>
   <string name="pref_camera2_saveraw_title">I-save gamit ang RAW na ayos</string>
   <string name="pref_camera2_saveraw_entry_disable">hindi paganahin</string>
   <string name="pref_camera2_saveraw_entry_enable">paganahin</string>

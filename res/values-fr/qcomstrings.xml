@@ -29,8 +29,6 @@
   <string name="pref_camera_powermode_entry_lp">Faible_Puissance</string>
   <string name="pref_camera_powermode_entry_np">Puissance_Normale</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_value_lp">Faible_Puissance</string>
-  <string name="pref_camera_powermode_value_np">Puissance_Normale</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
@@ -65,7 +63,6 @@
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_selectablezoneaf_entry_auto">Automatique</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_default">aucun</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Fonctions avancées</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->

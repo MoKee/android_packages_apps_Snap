@@ -29,8 +29,6 @@
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_entry_lp">Daya_Rendah</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_value_lp">Daya_Rendah</string>
-  <string name="pref_camera_powermode_value_np">Daya_Rendah</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
@@ -73,7 +71,6 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Pusat Tertimbang</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Frame rata-rata</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_default">tidak ada</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Fitur-fitur lanjutan</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -92,29 +89,16 @@
   <string name="pref_camera_manual_exp_entry_exptime_priority">Prioritas waktu pencahayaan</string>
   <string name="pref_camera_manual_exp_entry_user_setting">Pengaturan pada pengguna</string>
   <string name="pref_camera_manual_exp_entry_off">Mati</string>
-  <string name="pref_camera_manual_exp_default">tidak aktif</string>
-  <string name="pref_camera_manual_exp_value_ISO_priority">prioritas-iso</string>
-  <string name="pref_camera_manual_exp_value_exptime_priority">exp-prioritas waktu</string>
-  <string name="pref_camera_manual_exp_value_user_setting">setelan pengguna</string>
-  <string name="pref_camera_manual_exp_value_off">tidak aktif</string>
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_title">Keseimbangan manual putih</string>
   <string name="pref_camera_manual_wb_entry_color_temperature">Suhu pada warna</string>
   <string name="pref_camera_manual_wb_entry_rbgb_gains">Dapatkan RBGB</string>
   <string name="pref_camera_manual_wb_entry_off">Mati</string>
-  <string name="pref_camera_manual_wb_default">tidak aktif</string>
-  <string name="pref_camera_manual_wb_value_color_temperature">suhu warna</string>
-  <string name="pref_camera_manual_wb_value_rbgb_gains">rbgb-penguatan</string>
-  <string name="pref_camera_manual_wb_value_off">tidak aktif</string>
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_title">Fokus Manual</string>
   <string name="pref_camera_manual_focus_entry_scale_mode">Modus skala</string>
   <string name="pref_camera_manual_focus_entry_diopter_mode">Modus Diopter</string>
   <string name="pref_camera_manual_focus_entry_off">Mati</string>
-  <string name="pref_camera_manual_focus_default">tidak aktif</string>
-  <string name="pref_camera_manual_focus_value_scale_mode">skala-mode</string>
-  <string name="pref_camera_manual_focus_value_diopter_mode">mode-diopter</string>
-  <string name="pref_camera_manual_focus_value_off">tidak aktif</string>
   <!-- Instant Capture entry -->
   <string name="pref_camera_instant_capture_title" translatable="true">Tangkap Instan</string>
   <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">AEC agresif</string>
@@ -124,42 +108,28 @@
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">Mati</string>
   <string name="pref_camera_zsl_entry_on">Aktif</string>
-  <string name="pref_camera_zsl_value_off">tidak aktif</string>
-  <string name="pref_camera_zsl_value_on">aktifkan</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
   <string name="hdr_enable_message">HDR dihidupkan, hanya mode pemotretan Auto yang didukung</string>
   <string name="scene_enable_message">HDR tidak didukung pada mode pemotretan selain Auto</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">Mati</string>
   <string name="pref_camera_video_hdr_entry_on">Aktif</string>
-  <string name="pref_camera_video_hdr_value_off">nonaktifkan</string>
-  <string name="pref_camera_video_hdr_value_on">aktifkan</string>
   <!-- Settings screen, CDS location dialog choices -->
   <string name="pref_camera_cds_entry_off">Mati</string>
   <string name="pref_camera_cds_entry_on">Aktif</string>
   <string name="pref_camera_cds_entry_auto">Otomatis</string>
-  <string name="pref_camera_cds_value_off">nonaktifkan</string>
-  <string name="pref_camera_cds_value_on">aktifkan</string>
-  <string name="pref_camera_cds_value_auto">otomatis</string>
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">Mati</string>
   <string name="pref_camera_video_cds_entry_on">Aktif</string>
   <string name="pref_camera_video_cds_entry_auto">Otomatis</string>
-  <string name="pref_camera_video_cds_value_off">nonaktifkan</string>
-  <string name="pref_camera_video_cds_value_on">aktifkan</string>
-  <string name="pref_camera_video_cds_value_auto">otomatis</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">Mati</string>
   <string name="pref_camera_tnr_entry_enable">Hidup</string>
   <!-- Settings screen, TNR location dialog choices -->
-  <string name="pref_camera_tnr_value_off">nonaktifkan</string>
-  <string name="pref_camera_tnr_value_on">aktifkan</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <string name="pref_camera_video_tnr_entry_disable">Mati</string>
   <string name="pref_camera_video_tnr_entry_enable">Hidup</string>
   <!-- Settings screen, video TNR location dialog choices -->
-  <string name="pref_camera_video_tnr_value_off">nonaktifkan</string>
-  <string name="pref_camera_video_tnr_value_on">aktifkan</string>
   <!-- Settings screen, setting title text for Video HDR-->
   <string name="pref_camera_video_hdr_title">Video HDR</string>
   <!-- Settings menu, setting title text for cds mode-->
@@ -219,7 +189,6 @@ HSR tidak didukung untuk resolusi yang dipilih     </string>
   <string name="error_app_unsupported_raw">Format gambar mentah tidak didukung
          dalam mode zsl, ganti ke JPEG    </string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
-  <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE-Bracket</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Aktif</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Mati</string>
   <string name="err_app_unsupport_ae_bracket_code">belum ada dukungan braket oleh Apps sekarang</string>
@@ -270,7 +239,6 @@ HSR tidak didukung untuk resolusi yang dipilih     </string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <!-- Default Anti Banding setting. -->
-  <string name="pref_camera_antibanding_default">auto</string>
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Otomatis</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Eropa)</string>
@@ -301,12 +269,8 @@ HSR tidak didukung untuk resolusi yang dipilih     </string>
   <!-- DIS choices -->
   <string name="pref_camera_dis_entry_off">Mati</string>
   <string name="pref_camera_dis_entry_on">Aktif</string>
-  <string name="pref_camera_dis_default">nonaktifkan</string>
-  <string name="pref_camera_dis_value_disable">nonaktifkan</string>
-  <string name="pref_camera_dis_value_enable">aktifkan</string>
   <!-- Select Face Recognition title -->
   <string name="pref_camera_facerc_title">Pengenalan wajah</string>
-  <string name="pref_camera_facerc_default">tidak aktif</string>
   <!-- Face Recognition choices -->
   <string name="pref_camera_facerc_entry_off">Mati</string>
   <string name="pref_camera_facerc_entry_on">Aktif</string>
@@ -460,11 +424,8 @@ HSR tidak didukung untuk resolusi yang dipilih     </string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Hidup</string>
   <string name="pref_camera_auto_hdr_entry_disable">Mati</string>
-  <string name="pref_camera_auto_hdr_value_enable">aktifkan</string>
-  <string name="pref_camera_auto_hdr_value_disable">nonaktifkan</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">Ruang penyimpanan internal tidak cukup - jalur simpan ke kartu SD</string>
-  <string name="pref_camera_hdr_mode_default">hdr-mode-multiframe</string>
   <!-- Settings screen, Selectable HDR mode title -->
   <string name="pref_camera_hdr_mode_title">Mode HDR</string>
   <!-- Settings screen, Selectable HDR mode radio button choices -->
@@ -527,8 +488,6 @@ Tembakan terus menerus tidak didukung saat fitur sebelumnya diaktifkan</string>
   <string name="pref_camera2_makeup_title" translatable="true">Rias wajah</string>
   <string name="pref_camera2_noise_reduction_title" translatable="true">Pengurangan kebisingan</string>
   <string name="pref_camera2_videosnap_title" translatable="true">Ukuran Snapshot Otomatis</string>
-  <string name="pref_camera2_videosnap_value_enable" translatable="true">aktifkan</string>
-  <string name="pref_camera2_videosnap_value_disable" translatable="true">nonaktifkan</string>
   <string name="pref_camera2_videosnap_entry_enable" translatable="true">Hidup</string>
   <string name="pref_camera2_videosnap_entry_disable" translatable="true">Mati</string>
   <string name="pref_camera2_trackingfocus_title" translatable="true">Fokus Pelacakan</string>
@@ -536,14 +495,10 @@ Tembakan terus menerus tidak didukung saat fitur sebelumnya diaktifkan</string>
   <string name="pref_camera_scenemode_entry_panorama" translatable="true">Panorama</string>
   <string name="bestpicture_done" translatable="true">Menyimpan</string>
   <string name="bestpicture_at_least_one_picture" translatable="true">Paling tidak, satu gambar harus dipilih.</string>
-  <string name="pref_camera2_shutter_sound_default" translatable="true">aktifkan</string>
-  <string name="pref_camera2_shutter_sound_value_on" translatable="true">aktifkan</string>
-  <string name="pref_camera2_shutter_sound_value_off" translatable="true">nonaktifkan</string>
   <string name="pref_camera2_timer_entry_off" translatable="true">Mati</string>
   <string name="pref_camera2_timer_entry_2sec" translatable="true">2 detik</string>
   <string name="pref_camera2_timer_entry_5sec" translatable="true">5 detik</string>
   <string name="pref_camera2_timer_entry_10sec" translatable="true">10 detik</string>
-  <string name="pref_camera2_saveraw_default">nonaktifkan</string>
   <string name="pref_camera2_saveraw_entry_disable">nonaktifkan</string>
   <string name="pref_camera2_saveraw_entry_enable">aktifkan</string>
   <string name="panocapture_direction_is_not_determined" translatable="true">Bergerak terus-menerus dalam satu arah.</string>
@@ -615,6 +570,4 @@ Tembakan terus menerus tidak didukung saat fitur sebelumnya diaktifkan</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Mati</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
-  <string name="pref_camera_qcfa_value_disable">nonaktifkan</string>
-  <string name="pref_camera_qcfa_value_enable">aktifkan</string>
 </resources>

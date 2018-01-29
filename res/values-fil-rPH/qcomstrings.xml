@@ -30,8 +30,6 @@
   <string name="pref_camera_powermode_entry_lp">Mababa na Pawer</string>
   <string name="pref_camera_powermode_entry_np">Normal na Pawer</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
-  <string name="pref_camera_powermode_value_lp">Mababa na Pawer</string>
-  <string name="pref_camera_powermode_value_np">Normal na Pawer</string>
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
@@ -74,7 +72,6 @@
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Gitna ng Tinimbangan</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Average na Frame</string>
   <!-- Auto exposure entry values. Do not translate. -->
-  <string name="pref_camera_advanced_feature_default">wala</string>
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Advanced na Tampok</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -181,7 +178,6 @@ HSR ay hindi suportado para sa mga napiling resolusyon     </string>
   <string name="error_app_unsupported_raw">Hilaw na format ng imahe ay hindi suportado sa zsl mode, baguhin sa JPEG    </string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE-Panaklaw</string>
-  <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE-Panaklaw</string>
   <string name="pref_camera_ae_bracket_hdr_title">AE-Panaklaw</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Bukas</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Patay</string>
@@ -223,7 +219,6 @@ HSR ay hindi suportado para sa mga napiling resolusyon     </string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <!-- Default Anti Banding setting. -->
-  <string name="pref_camera_antibanding_default">auto</string>
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_1">Ang 50 Hz (Europa)</string>
   <string name="pref_camera_antibanding_entry_2">Ang 60 Hz (USA)</string>
@@ -252,11 +247,7 @@ HSR ay hindi suportado para sa mga napiling resolusyon     </string>
   <!-- DIS choices -->
   <string name="pref_camera_dis_entry_off">Patay</string>
   <string name="pref_camera_dis_entry_on">Bukas</string>
-  <string name="pref_camera_dis_default">huwag paganahin</string>
-  <string name="pref_camera_dis_value_disable">huwag paganahin</string>
-  <string name="pref_camera_dis_value_enable">paganahin</string>
   <!-- Select Face Recognition title -->
-  <string name="pref_camera_facerc_default">off</string>
   <!-- Face Recognition choices -->
   <string name="pref_camera_facerc_entry_off">Patay</string>
   <string name="pref_camera_facerc_entry_on">Bukas</string>
@@ -401,14 +392,9 @@ HSR ay hindi suportado para sa mga napiling resolusyon     </string>
   <string name="pref_camera2_mpo_entry_on" translatable="true">Bukas</string>
   <string name="pref_camera2_mpo_entry_off" translatable="true">Patay</string>
   <string name="pref_camera2_makeup_title" translatable="true">Ang pampaganda</string>
-  <string name="pref_camera2_videosnap_value_enable" translatable="true">paganahin</string>
-  <string name="pref_camera2_videosnap_value_disable" translatable="true">huwag paganahin</string>
   <string name="pref_camera2_videosnap_entry_enable" translatable="true">Paganahin</string>
   <string name="pref_camera2_videosnap_entry_disable" translatable="true">Hindi pinagana</string>
   <string name="pref_camera_scenemode_entry_panorama" translatable="true">Panorama</string>
-  <string name="pref_camera2_shutter_sound_default" translatable="true">sa</string>
-  <string name="pref_camera2_shutter_sound_value_on" translatable="true">sa</string>
-  <string name="pref_camera2_shutter_sound_value_off" translatable="true">off</string>
   <string name="pref_camera2_timer_entry_off" translatable="true">Patay</string>
   <string name="pref_camera2_timer_entry_10sec" translatable="true">10 segundo</string>
   <string name="makeup_ui_ok_button" translatable="true">OK</string>
