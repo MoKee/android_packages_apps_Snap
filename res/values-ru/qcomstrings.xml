@@ -36,8 +36,8 @@
   <!-- Settings screen, Select auto exposure title -->
   <string name="pref_camera_autoexposure_title">Автоэкспозиция</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
-  <string name="pref_camera_autoexposure_entry_frameaverage">Среднее знач.</string>
-  <string name="pref_camera_autoexposure_entry_centerweighted">По центру кадра</string>
+  <string name="pref_camera_autoexposure_entry_frameaverage">Усреднённый</string>
+  <string name="pref_camera_autoexposure_entry_centerweighted">Центровзвешенный</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">Точечный замер</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Video encoder title -->
@@ -67,8 +67,8 @@
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_selectablezoneaf_entry_auto">Авто</string>
   <string name="pref_camera_selectablezoneaf_entry_spotmetering">Точечный замер</string>
-  <string name="pref_camera_selectablezoneaf_entry_centerweighted">По центру кадра</string>
-  <string name="pref_camera_selectablezoneaf_entry_frameaverage">Среднее знач.</string>
+  <string name="pref_camera_selectablezoneaf_entry_centerweighted">Центровзвешенный</string>
+  <string name="pref_camera_selectablezoneaf_entry_frameaverage">Усреднённый</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Selectable advanced features title -->
   <string name="pref_camera_advanced_features_title">Расширенные настройки</string>

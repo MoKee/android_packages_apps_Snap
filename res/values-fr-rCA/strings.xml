@@ -64,7 +64,7 @@
   <string name="rotate_right">Faire pivoter vers la droite</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
-  <string name="edit">Édition</string>
+  <string name="edit">Modifier</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
   <string name="crop_action">Rogner</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
@@ -287,7 +287,7 @@
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_party">FÊTE</string>
   <!-- Settings menu countdown timer off [CHAR LIMIT=50] -->
-  <string name="pref_camera_countdown_label_off">COMPTE À REBOURS DÉSACTIVÉ</string>
+  <string name="pref_camera_countdown_label_off">RETARDATEUR DÉSACTIVÉ</string>
   <!-- Settings menu countdown timer 1 second [CHAR LIMIT=50] -->
   <string name="pref_camera_countdown_label_one">1 SECONDE</string>
   <!-- Settings menu countdown timer 3 seconds [CHAR LIMIT=50] -->

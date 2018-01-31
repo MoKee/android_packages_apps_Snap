@@ -358,6 +358,7 @@
   <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
   <string name="effect_silly_faces">MGA KATAWA-TAWANG MUKHA</string>
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
+  <string name="effect_background">Ang background</string>
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
   <!-- The menu button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_menu_button">Button ng menu</string>
