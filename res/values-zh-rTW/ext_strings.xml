@@ -90,7 +90,7 @@
   <string name="pref_camera_flashmode_entry_redeye">紅眼</string>
   <string name="pref_camera_flashmode_label_redeye">紅眼</string>
   <!-- Power shutter -->
-  <string name="pref_camera_power_shutter_title">電源按鈕快門</string>
+  <string name="pref_camera_power_shutter_title">電源鍵快門</string>
   <!-- Touch focus duration -->
   <string name="pref_camera_focustime_title">觸控對焦持續時間</string>
   <string name="pref_camera_focustime_entry_0">0 秒</string>

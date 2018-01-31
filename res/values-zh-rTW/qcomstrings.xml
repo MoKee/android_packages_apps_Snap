@@ -59,7 +59,7 @@
   <!-- Settings screen, Select Skin Tone Enhancement title -->
   <string name="pref_camera_skinToneEnhancement_title">膚色色調強化</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
-  <string name="pref_camera_skinToneEnhancement_entry_enable">啓用</string>
+  <string name="pref_camera_skinToneEnhancement_entry_enable">啟用</string>
   <string name="pref_camera_skinToneEnhancement_entry_disable">關閉</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
@@ -127,7 +127,7 @@
   <string name="pref_camera_video_cds_entry_auto">自動</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">關閉</string>
-  <string name="pref_camera_tnr_entry_enable">啓用</string>
+  <string name="pref_camera_tnr_entry_enable">啟用</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
   <string name="pref_camera_video_tnr_entry_disable">關閉</string>
@@ -163,7 +163,7 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">消除紅眼</string>
   <!-- Settings menu, redeye reduction choices -->
-  <string name="pref_camera_redeyereduction_entry_enable">啓用</string>
+  <string name="pref_camera_redeyereduction_entry_enable">啟用</string>
   <string name="pref_camera_redeyereduction_entry_disable">關閉</string>
   <string name="pref_camera_selfiemirror_title" translatable="true">自拍鏡</string>
   <string name="pref_camera_selfiemirror_entry_enable">啓用</string>
@@ -208,10 +208,10 @@ HFR 不支援所選取的解析度     </string>
   <string name="pref_camera_hfr_title">影片高影格率</string>
   <!-- Settings screen, hfr radio button choices -->
   <string name="pref_camera_hfr_entry_off">關閉</string>
-  <string name="pref_camera_hfr_entry_2x">2倍慢動作</string>
-  <string name="pref_camera_hfr_entry_3x">3倍慢動作</string>
-  <string name="pref_camera_hfr_entry_4x">4倍慢動作</string>
-  <string name="pref_camera_hfr_entry_8x">8倍慢動作</string>
+  <string name="pref_camera_hfr_entry_2x">HFR 60</string>
+  <string name="pref_camera_hfr_entry_3x">HFR 90</string>
+  <string name="pref_camera_hfr_entry_4x">HFR 120</string>
+  <string name="pref_camera_hfr_entry_8x">HFR 240</string>
   <string name="pref_camera_hfr_entry_hsr_60">HSR 60</string>
   <string name="pref_camera_hfr_entry_hsr_90">HSR 90</string>
   <string name="pref_camera_hfr_entry_hsr_120">HSR 120</string>
@@ -469,7 +469,7 @@ HFR 不支援所選取的解析度     </string>
   <!-- Settings screen, setting title text for Auto HDR-->
   <string name="pref_camera_auto_hdr_title">自動 HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
-  <string name="pref_camera_auto_hdr_entry_enable">啓用</string>
+  <string name="pref_camera_auto_hdr_entry_enable">啟用</string>
   <string name="pref_camera_auto_hdr_entry_disable">關閉</string>
   <!-- toast message for storage location switch -->
   <string name="on_switch_save_path_to_sdcard">內部儲存空間不足，已切換儲存位置至 SD 卡</string>
@@ -607,7 +607,7 @@ HFR 不支援所選取的解析度     </string>
   <string name="pref_camera2_anti_banding_level_entry_60hz" translatable="true">60Hz</string>
   <string name="pref_camera2_anti_banding_level_entry_auto" translatable="true">自動</string>
   <string name="pref_camera2_histogram_title" translatable="true">直方圖</string>
-  <string name="pref_camera2_histogram_entry_enable" translatable="true">啓用</string>
+  <string name="pref_camera2_histogram_entry_enable" translatable="true">啟用</string>
   <string name="pref_camera2_histogram_entry_disable" translatable="true">關閉</string>
   <string name="pref_camera2_hdr_title" translatable="true">HDR 和無 HDR</string>
   <string name="pref_camera2_hdr_entry_enable" translatable="true">啓用</string>
@@ -637,7 +637,7 @@ HFR 不支援所選取的解析度     </string>
   <string name="pref_camera_zoom_entry_9x">9 倍</string>
   <string name="pref_camera_zoom_entry_10x">10 倍</string>
   <string name="pref_camera2_bsgc_title" translatable="true">微笑/眨眼/凝視檢測</string>
-  <string name="pref_camera2_bsgc_entry_enable" translatable="true">啓用</string>
+  <string name="pref_camera2_bsgc_entry_enable" translatable="true">啟用</string>
   <string name="pref_camera2_bsgc_entry_disable" translatable="true">關閉</string>
   <string name="pref_camera2_zsl_title" translatable="true">零快門延遲</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">關閉</string>

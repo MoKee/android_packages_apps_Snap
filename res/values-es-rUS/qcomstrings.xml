@@ -27,6 +27,8 @@
   <!-- Settings screen, Power Mode title -->
   <string name="pref_camera_powermode_title">Modo de energía</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
+  <string name="pref_camera_powermode_entry_lp">Bajo_Poder</string>
+  <string name="pref_camera_powermode_entry_np">Poer_Normal</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
@@ -61,6 +63,7 @@
   <string name="pref_camera_skinToneEnhancement_entry_disable">Desactivar</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
+  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title"> Enfoque automático de zona seleccionable</string>
@@ -76,6 +79,7 @@
   <string name="pref_camera_advanced_feature_entry_none">Ninguno</string>
   <string name="pref_camera_advanced_feature_entry_ubifocus">Enfoque de Ubi</string>
   <string name="pref_camera_advanced_feature_entry_refocus">Reorientar</string>
+  <string name="pref_camera_advanced_feature_entry_chromaflash">Chroma Flash</string>
   <string name="pref_camera_advanced_feature_entry_optizoom">Zoom Opti</string>
   <string name="pref_camera_advanced_feature_entry_FSSR">FSSR</string>
   <string name="pref_camera_advanced_feature_entry_trueportrait">Verdadero retrato</string>
@@ -209,6 +213,14 @@ HSR no admite la resolución seleccionada
   <string name="pref_camera_hfr_title">Velocidad de fotogramas alta del video</string>
   <!-- Settings screen, hfr radio button choices -->
   <string name="pref_camera_hfr_entry_off">Desactivado</string>
+  <string name="pref_camera_hfr_entry_2x">HFR 60</string>
+  <string name="pref_camera_hfr_entry_3x">HFR 90</string>
+  <string name="pref_camera_hfr_entry_4x">HFR 120</string>
+  <string name="pref_camera_hfr_entry_8x">HFR 240</string>
+  <string name="pref_camera_hfr_entry_hsr_60">HSR 60</string>
+  <string name="pref_camera_hfr_entry_hsr_90">HSR 90</string>
+  <string name="pref_camera_hfr_entry_hsr_120">HSR 120</string>
+  <string name="pref_camera_hfr_entry_hsr_240">HSR 240</string>
   <!-- HFR entry values. Do not translate. -->
   <!-- Default noise reduction setting. Do not translate. -->
   <!-- Settings screen, Select See More title -->
@@ -235,11 +247,34 @@ HSR no admite la resolución seleccionada
   <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automático</string>
+  <string name="pref_camera_iso_entry_isodeblur">ISO Auto(HJR)</string>
+  <string name="pref_camera_iso_entry_iso50">ISO50</string>
   <string name="pref_camera_iso_entry_iso100">ISO 100</string>
+  <string name="pref_camera_iso_entry_iso125">ISO125</string>
+  <string name="pref_camera_iso_entry_iso150">ISO150</string>
   <string name="pref_camera_iso_entry_iso200">ISO 200</string>
+  <string name="pref_camera_iso_entry_iso250">ISO250</string>
+  <string name="pref_camera_iso_entry_iso300">ISO300</string>
+  <string name="pref_camera_iso_entry_iso320">ISO320</string>
+  <string name="pref_camera_iso_entry_iso350">ISO350</string>
   <string name="pref_camera_iso_entry_iso400">ISO 400</string>
+  <string name="pref_camera_iso_entry_iso450">ISO450</string>
+  <string name="pref_camera_iso_entry_iso500">ISO500</string>
+  <string name="pref_camera_iso_entry_iso600">ISO600</string>
+  <string name="pref_camera_iso_entry_iso640">ISO640</string>
+  <string name="pref_camera_iso_entry_iso700">ISO700</string>
   <string name="pref_camera_iso_entry_iso800">ISO 800</string>
+  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
+  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
+  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
+  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
   <string name="pref_camera_iso_entry_iso1600">ISO 1600</string>
+  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
+  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
+  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
+  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
+  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
+  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Contra las bandas</string>
@@ -328,6 +363,7 @@ HSR no admite la resolución seleccionada
   <!-- Settings screen, Select Picture format title -->
   <string name="pref_camera_picture_format_title">Seleccionar formato de imagen</string>
   <!-- Settings screen, picture format dialog radio button choices -->
+  <string name="pref_camera_picture_format_entry_jpeg">Jpeg</string>
   <string name="pref_camera_picture_format_entry_raw">Raw</string>
   <string name="pref_camera_picture_format_entry_raw_yuv_422_sp">YUV422SP</string>
   <string name="pref_camera_picture_format_entry_raw_yuv_8bit_yuyv">YUVRaw8YUYV</string>
@@ -412,6 +448,15 @@ HSR no admite la resolución seleccionada
   <string name="pref_camera_histogram_entry_enable">Activar</string>
   <string name="pref_camera_histogram_entry_disable">Desactivar</string>
   <!-- Histogram entry values. Do not translate. -->
+  <string name="pref_camera_picturesize_entry_1920x1080">HD1080</string>
+  <string name="pref_camera_picturesize_entry_1280x768">WXGA</string>
+  <string name="pref_camera_picturesize_entry_1280x720">HD720</string>
+  <string name="pref_camera_picturesize_entry_800x600">SVGA</string>
+  <string name="pref_camera_picturesize_entry_800x480">WVGA</string>
+  <string name="pref_camera_picturesize_entry_960x720">960 x 720</string>
+  <string name="pref_camera_picturesize_entry_720x480">720 x 480</string>
+  <string name="pref_camera_picturesize_entry_352x288">CIF</string>
+  <string name="pref_camera_picturesize_entry_176x144">QCIF</string>
   <!-- Default auto scene detection setting. -->
   <!-- Settings screen, Select Auto Scene Detection -->
   <string name="pref_camera_scenedetect_title">Detección de escena inteligente</string>
@@ -427,6 +472,7 @@ HSR no admite la resolución seleccionada
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">Flash no es compatible con el modo de bracketing AE</string>
   <!-- Settings screen, setting title text for Auto HDR-->
+  <string name="pref_camera_auto_hdr_title">AUTO HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Activar</string>
   <string name="pref_camera_auto_hdr_entry_disable">Desactivar</string>
@@ -444,7 +490,10 @@ HSR no admite la resolución seleccionada
   <!--Menu, video rotation label-->
   <string name="pref_camera_video_rotation_label">ROTACIÓN DE VIDEO</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
+  <string name="pref_camera_video_rotation_entry_0">0</string>
   <string name="pref_camera_video_rotation_entry_90">90</string>
+  <string name="pref_camera_video_rotation_entry_180">180</string>
+  <string name="pref_camera_video_rotation_entry_270">270</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <string name="map_activity_not_found_err">No hay ninguna aplicación de mapa para ver ubicación.</string>
   <!-- Continous shot enable message -->
@@ -498,7 +547,13 @@ El disparo continuo no es compatible cuando se activan las características avan
   <string name="pref_camera2_videosnap_entry_enable" translatable="true">Activar</string>
   <string name="pref_camera2_videosnap_entry_disable" translatable="true">Desactivar</string>
   <string name="pref_camera2_trackingfocus_title" translatable="true">Seguimiento del enfoque</string>
+  <string name="pref_camera_scenemode_entry_bestpicture" translatable="true">BestPicture</string>
+  <string name="pref_camera_scenemode_entry_chromaflash" translatable="true">ChromaFlash</string>
+  <string name="pref_camera_scenemode_entry_blurbuster" translatable="true">BlurBuster</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter" translatable="true">SharpPhoto</string>
+  <string name="pref_camera_scenemode_entry_trackingfocus" translatable="true">TrackingFocus</string>
   <string name="pref_camera_scenemode_entry_panorama" translatable="true">Panorámico</string>
+  <string name="pref_camera_scenemode_entry_promode" translatable="true">ProMode</string>
   <string name="bestpicture_done" translatable="true">GUARDAR</string>
   <string name="bestpicture_at_least_one_picture" translatable="true">Se debe marcar al menos una imagen.</string>
   <string name="pref_camera2_timer_entry_off" translatable="true">Desactivado</string>
@@ -553,6 +608,8 @@ El disparo continuo no es compatible cuando se activan las características avan
   <string name="pref_camera2_saturation_level_entry_10" translatable="true">Nivel 10</string>
   <string name="pref_camera2_anti_banding_level_title" translatable="true">Nivel de antiadherencia</string>
   <string name="pref_camera2_anti_banding_level_entry_off" translatable="true">Desactivado</string>
+  <string name="pref_camera2_anti_banding_level_entry_50hz" translatable="true">50HZ</string>
+  <string name="pref_camera2_anti_banding_level_entry_60hz" translatable="true">60HZ</string>
   <string name="pref_camera2_anti_banding_level_entry_auto" translatable="true">Automático</string>
   <string name="pref_camera2_histogram_title" translatable="true">Histograma</string>
   <string name="pref_camera2_histogram_entry_enable" translatable="true">Activar</string>
@@ -560,6 +617,7 @@ El disparo continuo no es compatible cuando se activan las características avan
   <string name="pref_camera2_hdr_title" translatable="true">HDR &amp; No-HDR</string>
   <string name="pref_camera2_hdr_entry_enable" translatable="true">Activar</string>
   <string name="pref_camera2_hdr_entry_disable" translatable="true">Desactivar</string>
+  <string name="pref_camera2_auto_hdr_title" translatable="true">AUTO HDR</string>
   <string name="pref_camera2_auto_hdr_entry_enable" translatable="true">Activar</string>
   <string name="pref_camera2_auto_hdr_entry_disable" translatable="true">Desactivar</string>
   <string name="pref_camera_bokeh_mode_title" translatable="true">Modo de bokeh</string>
@@ -573,10 +631,24 @@ El disparo continuo no es compatible cuando se activan las características avan
   <string name="pref_camera_zoom_title">Zoom</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Desactivado</string>
+  <string name="pref_camera_zoom_entry_1x">1x</string>
+  <string name="pref_camera_zoom_entry_2x">2x</string>
+  <string name="pref_camera_zoom_entry_3x">3x</string>
+  <string name="pref_camera_zoom_entry_4x">4x</string>
+  <string name="pref_camera_zoom_entry_5x">5x</string>
+  <string name="pref_camera_zoom_entry_6x">6x</string>
+  <string name="pref_camera_zoom_entry_7x">7x</string>
+  <string name="pref_camera_zoom_entry_8x">8x</string>
+  <string name="pref_camera_zoom_entry_9x">9x</string>
+  <string name="pref_camera_zoom_entry_10x">10x</string>
   <string name="pref_camera2_bsgc_title" translatable="true">Detección de sonrisa/parpadeo/mirada</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">Activar</string>
   <string name="pref_camera2_bsgc_entry_disable" translatable="true">Desactivar</string>
+  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">Desactivado</string>
+  <string name="pref_camera2_zsl_entry_app_zsl" translatable="true">APP-ZSL</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl" translatable="true">HAL-ZSL</string>
   <!-- QCFA Title -->
+  <string name="pref_camera2_qcfa_title" translatable="true">QCFA</string>
   <!-- QCFA choices -->
 </resources>
