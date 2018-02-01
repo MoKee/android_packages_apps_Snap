@@ -139,6 +139,7 @@
   <!-- Settings screen, white balance title -->
   <!-- Menu, white balance label -->
   <!-- Settings screen, White balance dialog radio button choices -->
+  <string name="pref_camera_whitebalance_entry_cloudy">ಮೋಡ ಕವಿದಿರುವ</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
@@ -286,6 +287,7 @@ CHAR LIMIT = NONE] -->
   <!-- Minutes: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_interval_set">ಮುಗಿಯಿತು</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
