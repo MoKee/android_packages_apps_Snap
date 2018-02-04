@@ -28,6 +28,7 @@
   <string name="pref_camera_powermode_title">电源模式</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_entry_lp">低电量</string>
+  <string name="pref_camera_powermode_entry_np">正常功耗</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
@@ -60,6 +61,7 @@
   <string name="pref_camera_skinToneEnhancement_entry_disable">停用</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
+  <string name="pref_camera_zsl_title">ZSL</string>
   <!-- Default selectable zone af setting. Do not translate. -->
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title"> 可选区域自动对焦</string>
@@ -73,6 +75,9 @@
   <string name="pref_camera_advanced_features_title">高级功能</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">无</string>
+  <string name="pref_camera_advanced_feature_entry_ubifocus">Ubi 焦点</string>
+  <string name="pref_camera_advanced_feature_entry_refocus">重新对焦</string>
+  <string name="pref_camera_advanced_feature_entry_chromaflash">色度闪光</string>
   <string name="pref_camera_advanced_feature_entry_optizoom">光学变焦</string>
   <string name="pref_camera_advanced_feature_entry_trueportrait">真实肖像</string>
   <string name="pref_camera_advanced_feature_entry_multi_touch_focus">多点触摸对焦</string>
@@ -94,6 +99,7 @@
   <string name="pref_camera_manual_focus_entry_diopter_mode">屈光模式</string>
   <string name="pref_camera_manual_focus_entry_off">关闭</string>
   <!-- Instant Capture entry -->
+  <string name="pref_camera_instant_capture_title" translatable="true">即时捕获</string>
   <string name="pref_camera_instant_capture_entry_aggressive_aec" translatable="true">AEC 主动调整</string>
   <string name="pref_camera_instant_capture_entry_fast_aec" translatable="true">AEC 快速调整</string>
   <string name="pref_camera_instant_capture_entry_disable" translatable="true">停用</string>
@@ -145,6 +151,7 @@
   <string name="pref_camera_facedetection_entry_on">开启</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
+  <string name="pref_selfie_flash_title">自拍闪光灯</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">关闭</string>
   <string name="pref_selfie_flash_entry_on">开启</string>
@@ -445,6 +452,7 @@
   <string name="pref_camera_zoom_entry_off">关闭</string>
   <string name="pref_camera2_bsgc_entry_enable" translatable="true">开启</string>
   <string name="pref_camera2_bsgc_entry_disable" translatable="true">停用</string>
+  <string name="pref_camera2_zsl_title" translatable="true">ZSL</string>
   <string name="pref_camera2_zsl_entry_disable" translatable="true">关闭</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
