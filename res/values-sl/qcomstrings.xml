@@ -160,7 +160,6 @@
   <string name="pref_camera_shuttersound_title" translatable="true">Zvok sprožilca</string>
   <string name="pref_camera_shuttersound_entry_enable">Omogočen</string>
   <string name="pref_camera_shuttersound_entry_disable">Onemogočen</string>
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Počasni posnetek ni podprt ob uporabi ustalitve/časovnega zamika/HDR-a.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -423,6 +422,8 @@
   <string name="pref_camera2_camera2_entry_enable">Omogoči</string>
   <string name="pref_camera2_camera2_entry_disable">Onemogoči</string>
   <string name="pref_camera2_mono_only_title">Samo mono</string>
+  <string name="pref_camera2_mono_only_entry_on">Vklopljeno</string>
+  <string name="pref_camera2_mono_only_entry_off">Izklopljen</string>
   <string name="pref_camera2_mono_preview_title">Predogled mono</string>
   <string name="pref_camera2_mono_preview_entry_on">Vkl.</string>
   <string name="pref_camera2_mono_preview_entry_off">Izklopljeno</string>
@@ -434,6 +435,8 @@
   <string name="pref_camera2_mpo_entry_on">Vkl.</string>
   <string name="pref_camera2_mpo_entry_off">Izklopljeno</string>
   <string name="pref_camera2_makeup_title">Ličilo</string>
+  <string name="pref_camera2_makeup_entry_on">Vklopljeno</string>
+  <string name="pref_camera2_makeup_entry_off">Izklopljen</string>
   <string name="pref_camera2_noise_reduction_title">Zmanjševanje šuma</string>
   <string name="pref_camera2_noise_reduction_entry_off">Izklopljeno</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Hitro</string>
@@ -442,10 +445,14 @@
   <string name="pref_camera2_videosnap_entry_enable">Omogoči</string>
   <string name="pref_camera2_videosnap_entry_disable">Onemogoči</string>
   <string name="pref_camera2_trackingfocus_title">Ostrenje s sledenjem</string>
+  <string name="pref_camera2_trackingfocus_entry_on">Vklopljeno</string>
+  <string name="pref_camera2_trackingfocus_entry_off">Izklopljen</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Najboljša slika</string>
   <string name="bestpicture_done">OPRAVLJENO</string>
   <string name="bestpicture_at_least_one_picture">Izbrana mora biti vsaj ena slika.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Vklopljeno</string>
   <string name="pref_camera2_shutter_sound_entry_off">Izklopljeno</string>
   <string name="pref_camera2_shutter_sound_title">Zvok sprožilca</string>
+  <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
+  <string name="pref_camera2_initial_camera_entry_front">Pred</string>
 </resources>

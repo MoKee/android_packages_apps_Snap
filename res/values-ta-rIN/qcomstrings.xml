@@ -131,7 +131,6 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">சிவப்பு கண் குறைப்பு</string>
   <!-- Settings menu, redeye reduction choices -->
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">நிலைப்படுத்தல்/நேர தாமதம்/HDR பயன்படுத்தும்போது உயர்-சட்டவிகித பதிவுசெய்தல் ஆதரிக்கப்படுவதில்லை.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -327,9 +326,13 @@
   <string name="refocus_toast">கடந்தை புகைப்படத்தை மறு-குவியம் செய்ய, இங்கே தட்டு</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">சரி</string>
+  <string name="pref_camera2_mono_only_entry_off">அணை</string>
   <string name="pref_camera2_mono_preview_entry_off">முடக்கத்தில்</string>
   <string name="pref_camera2_clearsight_entry_off">முடக்கத்தில்</string>
   <string name="pref_camera2_mpo_entry_off">முடக்கத்தில்</string>
+  <string name="pref_camera2_makeup_entry_off">அணை</string>
   <string name="pref_camera2_noise_reduction_entry_off">முடக்கத்தில்</string>
+  <string name="pref_camera2_trackingfocus_entry_off">அணை</string>
   <string name="pref_camera2_shutter_sound_entry_off">முடக்கத்தில்</string>
+  <string name="pref_camera2_initial_camera_entry_mono">மோனோ</string>
 </resources>

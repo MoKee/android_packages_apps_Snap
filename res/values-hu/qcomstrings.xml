@@ -160,7 +160,6 @@
   <string name="pref_camera_shuttersound_title" translatable="true">Zárhang</string>
   <string name="pref_camera_shuttersound_entry_enable">Engedélyezve</string>
   <string name="pref_camera_shuttersound_entry_disable">Kikapcsolva</string>
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Lassított felvétel mód nem támogatott Stabilizáció/Gyorsított felvétel/HDR használatakor.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -415,6 +414,8 @@
   <string name="pref_camera2_camera2_entry_enable">Engedélyezés</string>
   <string name="pref_camera2_camera2_entry_disable">Letiltás</string>
   <string name="pref_camera2_mono_only_title">Csak monokróm</string>
+  <string name="pref_camera2_mono_only_entry_on">Be</string>
+  <string name="pref_camera2_mono_only_entry_off">Ki</string>
   <string name="pref_camera2_mono_preview_title">Monokróm előnézet</string>
   <string name="pref_camera2_mono_preview_entry_on">Be</string>
   <string name="pref_camera2_mono_preview_entry_off">Ki</string>
@@ -426,6 +427,8 @@
   <string name="pref_camera2_mpo_entry_on">Be</string>
   <string name="pref_camera2_mpo_entry_off">Ki</string>
   <string name="pref_camera2_makeup_title">Smink</string>
+  <string name="pref_camera2_makeup_entry_on">Be</string>
+  <string name="pref_camera2_makeup_entry_off">Ki</string>
   <string name="pref_camera2_noise_reduction_title">Zajcsökkentés</string>
   <string name="pref_camera2_noise_reduction_entry_off">Ki</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Gyors</string>
@@ -434,10 +437,14 @@
   <string name="pref_camera2_videosnap_entry_enable">Engedélyezés</string>
   <string name="pref_camera2_videosnap_entry_disable">Letiltás</string>
   <string name="pref_camera2_trackingfocus_title">Fókuszkövetés</string>
+  <string name="pref_camera2_trackingfocus_entry_on">Be</string>
+  <string name="pref_camera2_trackingfocus_entry_off">Ki</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Legjobb kép</string>
   <string name="bestpicture_done">KÉSZ</string>
   <string name="bestpicture_at_least_one_picture">Legalább egy képet ki kell választani.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Be</string>
   <string name="pref_camera2_shutter_sound_entry_off">Ki</string>
   <string name="pref_camera2_shutter_sound_title">Zárhang</string>
+  <string name="pref_camera2_initial_camera_entry_mono">Fekete-fehér</string>
+  <string name="pref_camera2_initial_camera_entry_front">Előre néző</string>
 </resources>

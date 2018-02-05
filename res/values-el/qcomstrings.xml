@@ -160,7 +160,6 @@
   <string name="pref_camera_shuttersound_title" translatable="true">Ήχος κλείστρου</string>
   <string name="pref_camera_shuttersound_entry_enable">Ενεργοποιημένος</string>
   <string name="pref_camera_shuttersound_entry_disable">Απενεργοποιημένο</string>
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Η υψηλή ταχύτητα/αργή κίνηση δεν υποστηρίζεται με Σταθεροποίηση/Time lapse/HDR.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -423,6 +422,8 @@
   <string name="pref_camera2_camera2_entry_enable">Ενεργοποίηση</string>
   <string name="pref_camera2_camera2_entry_disable">Απενεργοποιημένο</string>
   <string name="pref_camera2_mono_only_title">Μόνο mono</string>
+  <string name="pref_camera2_mono_only_entry_on">Ενεργοποιημ.</string>
+  <string name="pref_camera2_mono_only_entry_off">ανενεργό</string>
   <string name="pref_camera2_mono_preview_title">Προεπισκόπηση mono</string>
   <string name="pref_camera2_mono_preview_entry_on">Ενεργοποιημ.</string>
   <string name="pref_camera2_mono_preview_entry_off">Ανενεργή</string>
@@ -434,6 +435,8 @@
   <string name="pref_camera2_mpo_entry_on">Ενεργοποιημ.</string>
   <string name="pref_camera2_mpo_entry_off">Ανενεργή</string>
   <string name="pref_camera2_makeup_title">Μακιγιάζ</string>
+  <string name="pref_camera2_makeup_entry_on">Ενεργοποιημ.</string>
+  <string name="pref_camera2_makeup_entry_off">ανενεργό</string>
   <string name="pref_camera2_noise_reduction_title">Μείωση θορύβου</string>
   <string name="pref_camera2_noise_reduction_entry_off">Ανενεργή</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Γρήγορα</string>
@@ -442,10 +445,14 @@
   <string name="pref_camera2_videosnap_entry_enable">Ενεργοποίηση</string>
   <string name="pref_camera2_videosnap_entry_disable">Απενεργοποιημένο</string>
   <string name="pref_camera2_trackingfocus_title">Παρακολούθηση εστίασης</string>
+  <string name="pref_camera2_trackingfocus_entry_on">Ενεργοποιημ.</string>
+  <string name="pref_camera2_trackingfocus_entry_off">ανενεργό</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Βέλτιστη εικόνα</string>
   <string name="bestpicture_done">ΤΕΛΟΣ</string>
   <string name="bestpicture_at_least_one_picture">Τουλάχιστον μία εικόνα πρέπει να επιλεγεί.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Ενεργοποιημ.</string>
   <string name="pref_camera2_shutter_sound_entry_off">Ανενεργή</string>
   <string name="pref_camera2_shutter_sound_title">Ήχος κλείστρου</string>
+  <string name="pref_camera2_initial_camera_entry_mono">Μονόχρωμο</string>
+  <string name="pref_camera2_initial_camera_entry_front">Μπροστά</string>
 </resources>

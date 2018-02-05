@@ -160,7 +160,6 @@
   <string name="pref_camera_shuttersound_title" translatable="true">快门声音</string>
   <string name="pref_camera_shuttersound_entry_enable">开启</string>
   <string name="pref_camera_shuttersound_entry_disable">关闭</string>
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">稳定化/延时/ HDR 模式不支持高帧率拍摄。</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -423,6 +422,8 @@
   <string name="pref_camera2_camera2_entry_enable">开启</string>
   <string name="pref_camera2_camera2_entry_disable">关闭</string>
   <string name="pref_camera2_mono_only_title">仅单色</string>
+  <string name="pref_camera2_mono_only_entry_on">开启</string>
+  <string name="pref_camera2_mono_only_entry_off">关闭</string>
   <string name="pref_camera2_mono_preview_title">单色预览</string>
   <string name="pref_camera2_mono_preview_entry_on">开启</string>
   <string name="pref_camera2_mono_preview_entry_off">关闭</string>
@@ -434,6 +435,8 @@
   <string name="pref_camera2_mpo_entry_on">开启</string>
   <string name="pref_camera2_mpo_entry_off">关闭</string>
   <string name="pref_camera2_makeup_title">化妆</string>
+  <string name="pref_camera2_makeup_entry_on">开启</string>
+  <string name="pref_camera2_makeup_entry_off">关闭</string>
   <string name="pref_camera2_noise_reduction_title">降噪</string>
   <string name="pref_camera2_noise_reduction_entry_off">关闭</string>
   <string name="pref_camera2_noise_reduction_entry_fast">快速</string>
@@ -442,10 +445,14 @@
   <string name="pref_camera2_videosnap_entry_enable">开启</string>
   <string name="pref_camera2_videosnap_entry_disable">关闭</string>
   <string name="pref_camera2_trackingfocus_title">焦点跟踪</string>
+  <string name="pref_camera2_trackingfocus_entry_on">开启</string>
+  <string name="pref_camera2_trackingfocus_entry_off">关闭</string>
   <string name="pref_camera_scenemode_entry_bestpicture">最佳画面</string>
   <string name="bestpicture_done">完成</string>
   <string name="bestpicture_at_least_one_picture">至少选择一张图片。</string>
   <string name="pref_camera2_shutter_sound_entry_on">开启</string>
   <string name="pref_camera2_shutter_sound_entry_off">关闭</string>
   <string name="pref_camera2_shutter_sound_title">快门声音</string>
+  <string name="pref_camera2_initial_camera_entry_mono">黑白</string>
+  <string name="pref_camera2_initial_camera_entry_front">正面相机</string>
 </resources>

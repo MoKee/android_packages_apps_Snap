@@ -114,7 +114,6 @@
   <string name="pref_camera_redeyereduction_entry_disable">নিক্রিয় করুন</string>
   <string name="pref_camera_selfiemirror_entry_enable">সক্রিয় করুন</string>
   <string name="pref_camera_selfiemirror_entry_disable">নিক্রিয় করুন</string>
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -257,6 +256,7 @@
   <string name="pref_camera2_camera2_entry_enable">সক্রিয়</string>
   <string name="pref_camera2_camera2_entry_disable">নিক্রিয়</string>
   <string name="pref_camera2_mono_only_title">একাই</string>
+  <string name="pref_camera2_mono_only_entry_off">Off</string>
   <string name="pref_camera2_mono_preview_title">একক প্রদর্শন</string>
   <string name="pref_camera2_mono_preview_entry_on">অন</string>
   <string name="pref_camera2_mono_preview_entry_off">Off</string>
@@ -268,6 +268,7 @@
   <string name="pref_camera2_mpo_entry_on">অন</string>
   <string name="pref_camera2_mpo_entry_off">Off</string>
   <string name="pref_camera2_makeup_title">মেকাপ</string>
+  <string name="pref_camera2_makeup_entry_off">Off</string>
   <string name="pref_camera2_noise_reduction_title">নয়েজ কমান</string>
   <string name="pref_camera2_noise_reduction_entry_off">Off</string>
   <string name="pref_camera2_noise_reduction_entry_fast">দ্রুত</string>
@@ -276,6 +277,7 @@
   <string name="pref_camera2_videosnap_entry_enable">সক্রিয়</string>
   <string name="pref_camera2_videosnap_entry_disable">নিক্রিয়</string>
   <string name="pref_camera2_trackingfocus_title">ফোকাস ট্র্যাকিং</string>
+  <string name="pref_camera2_trackingfocus_entry_off">Off</string>
   <string name="pref_camera_scenemode_entry_bestpicture">সবচেয়ে ভালো ছবি</string>
   <string name="bestpicture_done">হয়ে গেছে</string>
   <string name="bestpicture_at_least_one_picture">অন্ততপক্ষে একটি ছবি পছন্দ করা হয়েছে।</string>

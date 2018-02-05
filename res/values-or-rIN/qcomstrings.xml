@@ -131,7 +131,6 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">ନାଲି ଆଖି ହ୍ରାସ</string>
   <!-- Settings menu, redeye reduction choices -->
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">ଷ୍ଟାବିଲାଇଜେସନ୍‍/ଟାଇମ୍‍ ଲାପ୍ସ/HDR ବ୍ୟବହାର ସମୟରେ ଅଧିକ ଫ୍ରେମ୍‍ହାର ଥିବା ରେକର୍ଡିଂ ସମଥନ କରେ ନାହିଁ।</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -330,4 +329,5 @@
   <string name="pref_camera2_mpo_entry_off">ଅଫ୍</string>
   <string name="pref_camera2_noise_reduction_entry_off">ଅଫ୍</string>
   <string name="pref_camera2_shutter_sound_entry_off">ଅଫ୍</string>
+  <string name="pref_camera2_initial_camera_entry_mono">ମୋନୋ</string>
 </resources>

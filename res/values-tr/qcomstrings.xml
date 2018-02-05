@@ -160,7 +160,6 @@
   <string name="pref_camera_shuttersound_title" translatable="true">Deklanşör sesi</string>
   <string name="pref_camera_shuttersound_entry_enable">Etkinleştirildi</string>
   <string name="pref_camera_shuttersound_entry_disable">Devre Dışı</string>
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Stabilizasyon / Zaman Aşımı / HDR kullanırken yüksek framerli kayıt desteklenmez.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -423,6 +422,8 @@
   <string name="pref_camera2_camera2_entry_enable">Etkinleştir</string>
   <string name="pref_camera2_camera2_entry_disable">Devredışı</string>
   <string name="pref_camera2_mono_only_title">Sadece mono</string>
+  <string name="pref_camera2_mono_only_entry_on">Açık</string>
+  <string name="pref_camera2_mono_only_entry_off">Kapat</string>
   <string name="pref_camera2_mono_preview_title">Mono önizleme</string>
   <string name="pref_camera2_mono_preview_entry_on">Açık</string>
   <string name="pref_camera2_mono_preview_entry_off">Kapat</string>
@@ -434,6 +435,8 @@
   <string name="pref_camera2_mpo_entry_on">Açık</string>
   <string name="pref_camera2_mpo_entry_off">Kapat</string>
   <string name="pref_camera2_makeup_title">Makyaj</string>
+  <string name="pref_camera2_makeup_entry_on">Açık</string>
+  <string name="pref_camera2_makeup_entry_off">Kapat</string>
   <string name="pref_camera2_noise_reduction_title">Parazit Azaltma</string>
   <string name="pref_camera2_noise_reduction_entry_off">Kapat</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Hızlı</string>
@@ -442,10 +445,14 @@
   <string name="pref_camera2_videosnap_entry_enable">Etkinleştir</string>
   <string name="pref_camera2_videosnap_entry_disable">Devredışı</string>
   <string name="pref_camera2_trackingfocus_title">Odak izleme</string>
+  <string name="pref_camera2_trackingfocus_entry_on">Açık</string>
+  <string name="pref_camera2_trackingfocus_entry_off">Kapat</string>
   <string name="pref_camera_scenemode_entry_bestpicture">En iyi görüntü</string>
   <string name="bestpicture_done">BİTTİ</string>
   <string name="bestpicture_at_least_one_picture">En az bir resim seçilmeli.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Açık</string>
   <string name="pref_camera2_shutter_sound_entry_off">Kapat</string>
   <string name="pref_camera2_shutter_sound_title">Deklanşör sesi</string>
+  <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
+  <string name="pref_camera2_initial_camera_entry_front">Ön</string>
 </resources>

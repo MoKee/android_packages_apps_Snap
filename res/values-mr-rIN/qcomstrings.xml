@@ -129,7 +129,6 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">लाल बुबुळ घट</string>
   <!-- Settings menu, redeye reduction choices -->
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">स्टॅबिलायझेशन/टाईम लॅप्स/HDR वापरताना उच्च-चौकटदर रेकॉर्डिंग समर्थित नाही</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -328,4 +327,5 @@
   <string name="pref_camera2_mpo_entry_off">बंद</string>
   <string name="pref_camera2_noise_reduction_entry_off">बंद</string>
   <string name="pref_camera2_shutter_sound_entry_off">बंद</string>
+  <string name="pref_camera2_initial_camera_entry_mono">मोनो</string>
 </resources>

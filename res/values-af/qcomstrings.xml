@@ -160,7 +160,6 @@
   <string name="pref_camera_shuttersound_title" translatable="true">Sluitergeluid</string>
   <string name="pref_camera_shuttersound_entry_enable">Geaktiveer</string>
   <string name="pref_camera_shuttersound_entry_disable">Gedeaktiveer</string>
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Hoë spoed/stadige aksie word nie ondersteun vir Stabilisering/Tydsduur/HDR.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -409,6 +408,7 @@
   <string name="pref_camera2_camera2_entry_enable">Aktiveer</string>
   <string name="pref_camera2_camera2_entry_disable">Deaktiveer</string>
   <string name="pref_camera2_mono_only_title">Slegs Mono</string>
+  <string name="pref_camera2_mono_only_entry_on">Aan</string>
   <string name="pref_camera2_mono_preview_title">Mono-voorskou</string>
   <string name="pref_camera2_mono_preview_entry_on">Aan</string>
   <string name="pref_camera2_mono_preview_entry_off">Af</string>
@@ -420,6 +420,7 @@
   <string name="pref_camera2_mpo_entry_on">Aan</string>
   <string name="pref_camera2_mpo_entry_off">Af</string>
   <string name="pref_camera2_makeup_title">Make-up</string>
+  <string name="pref_camera2_makeup_entry_on">Aan</string>
   <string name="pref_camera2_noise_reduction_title">Geraas vermindering</string>
   <string name="pref_camera2_noise_reduction_entry_off">Af</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Vinnig</string>
@@ -428,10 +429,12 @@
   <string name="pref_camera2_videosnap_entry_enable">Aktiveer</string>
   <string name="pref_camera2_videosnap_entry_disable">Deaktiveer</string>
   <string name="pref_camera2_trackingfocus_title">Fokus volg objek</string>
+  <string name="pref_camera2_trackingfocus_entry_on">Aan</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Beste prent</string>
   <string name="bestpicture_done">GEDOEN</string>
   <string name="bestpicture_at_least_one_picture">Ten minste een prent moet gekies word.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Aan</string>
   <string name="pref_camera2_shutter_sound_entry_off">Af</string>
   <string name="pref_camera2_shutter_sound_title">Sluiter geluid</string>
+  <string name="pref_camera2_initial_camera_entry_front">Voorkant</string>
 </resources>

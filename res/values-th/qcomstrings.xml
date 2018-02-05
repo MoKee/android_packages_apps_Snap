@@ -137,7 +137,6 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">ลดตาแดง</string>
   <!-- Settings menu, redeye reduction choices -->
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">ไม่สามารถใช้งานการเคลื่อนไหวแบบความเร็วสูง/การเคลื่อนไหวแบบช้า สำหรับ DIS และ TimeLapse</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -341,14 +340,19 @@
   <string name="refocus_toast">ในการโฟกัสภาพล่าสุดใหม่ แตะที่นี่</string>
   <!-- Help menu strings -->
   <string name="help_menu_scene_mode_2">โหมดสำเร็จรูป</string>
+  <string name="pref_camera2_mono_only_entry_on">เปิด</string>
   <string name="pref_camera2_mono_preview_entry_on">เปิด</string>
   <string name="pref_camera2_mono_preview_entry_off">ปิด</string>
   <string name="pref_camera2_clearsight_entry_on">เปิด</string>
   <string name="pref_camera2_clearsight_entry_off">ปิด</string>
   <string name="pref_camera2_mpo_entry_on">เปิด</string>
   <string name="pref_camera2_mpo_entry_off">ปิด</string>
+  <string name="pref_camera2_makeup_entry_on">เปิด</string>
   <string name="pref_camera2_noise_reduction_entry_off">ปิด</string>
+  <string name="pref_camera2_trackingfocus_entry_on">เปิด</string>
   <string name="bestpicture_done">เสร็จสิ้น</string>
   <string name="pref_camera2_shutter_sound_entry_on">เปิด</string>
   <string name="pref_camera2_shutter_sound_entry_off">ปิด</string>
+  <string name="pref_camera2_initial_camera_entry_mono">โมโน</string>
+  <string name="pref_camera2_initial_camera_entry_front">ด้านหน้า</string>
 </resources>

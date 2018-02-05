@@ -159,7 +159,6 @@
   <string name="pref_camera_shuttersound_title" translatable="true">Lukkerlyd</string>
   <string name="pref_camera_shuttersound_entry_enable">Aktiveret</string>
   <string name="pref_camera_shuttersound_entry_disable">Deaktiveret</string>
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Optagelse med høj billedfrekvens er ikke understøttet under Stabilisering/Tidsforløb/HDR.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -403,6 +402,8 @@
   <string name="pref_camera2_camera2_entry_enable">Aktivér</string>
   <string name="pref_camera2_camera2_entry_disable">Deaktivér</string>
   <string name="pref_camera2_mono_only_title">Kun mono</string>
+  <string name="pref_camera2_mono_only_entry_on">Til</string>
+  <string name="pref_camera2_mono_only_entry_off">Fra</string>
   <string name="pref_camera2_mono_preview_title">Eksempel på Mono</string>
   <string name="pref_camera2_mono_preview_entry_on">Til</string>
   <string name="pref_camera2_mono_preview_entry_off">Fra</string>
@@ -413,6 +414,8 @@
   <string name="pref_camera2_mpo_title">MPO-format</string>
   <string name="pref_camera2_mpo_entry_on">Til</string>
   <string name="pref_camera2_mpo_entry_off">Fra</string>
+  <string name="pref_camera2_makeup_entry_on">Til</string>
+  <string name="pref_camera2_makeup_entry_off">Fra</string>
   <string name="pref_camera2_noise_reduction_title">Støjreduktion</string>
   <string name="pref_camera2_noise_reduction_entry_off">Fra</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Hurtig</string>
@@ -421,10 +424,13 @@
   <string name="pref_camera2_videosnap_entry_enable">Aktivér</string>
   <string name="pref_camera2_videosnap_entry_disable">Deaktivér</string>
   <string name="pref_camera2_trackingfocus_title">Sporingsfokus</string>
+  <string name="pref_camera2_trackingfocus_entry_on">Til</string>
+  <string name="pref_camera2_trackingfocus_entry_off">Fra</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Bedste billede</string>
   <string name="bestpicture_done">UDFØRT</string>
   <string name="bestpicture_at_least_one_picture">Mindst ét billede skal vælges.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Til</string>
   <string name="pref_camera2_shutter_sound_entry_off">Fra</string>
   <string name="pref_camera2_shutter_sound_title">Lukkerlyd</string>
+  <string name="pref_camera2_initial_camera_entry_front">Forrest</string>
 </resources>

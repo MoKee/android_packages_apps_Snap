@@ -146,7 +146,6 @@
   <string name="pref_camera_redeyereduction_entry_enable">تمكين</string>
   <string name="pref_camera_selfiemirror_entry_enable">تمكين</string>
   <string name="pref_camera_shuttersound_entry_disable">معطل</string>
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">تسجيل معدل الإطارات العليا غير معتمد عند استخدام التثبيت/الوقت الفاصل/HDR.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -363,15 +362,23 @@
   <string name="help_menu_ok">تم</string>
   <string name="help_menu_scene_mode_2">وضع المشهد</string>
   <string name="pref_camera2_camera2_entry_enable">تمكين</string>
+  <string name="pref_camera2_mono_only_entry_on">تشغيل</string>
+  <string name="pref_camera2_mono_only_entry_off">إيقاف</string>
   <string name="pref_camera2_mono_preview_entry_on">تشغيل</string>
   <string name="pref_camera2_mono_preview_entry_off">إيقاف تشغيل</string>
   <string name="pref_camera2_clearsight_entry_on">تشغيل</string>
   <string name="pref_camera2_clearsight_entry_off">إيقاف تشغيل</string>
   <string name="pref_camera2_mpo_entry_on">تشغيل</string>
   <string name="pref_camera2_mpo_entry_off">إيقاف تشغيل</string>
+  <string name="pref_camera2_makeup_entry_on">تشغيل</string>
+  <string name="pref_camera2_makeup_entry_off">إيقاف</string>
   <string name="pref_camera2_noise_reduction_entry_off">إيقاف تشغيل</string>
   <string name="pref_camera2_videosnap_entry_enable">تمكين</string>
+  <string name="pref_camera2_trackingfocus_entry_on">تشغيل</string>
+  <string name="pref_camera2_trackingfocus_entry_off">إيقاف</string>
   <string name="bestpicture_done">تم</string>
   <string name="pref_camera2_shutter_sound_entry_on">تشغيل</string>
   <string name="pref_camera2_shutter_sound_entry_off">إيقاف تشغيل</string>
+  <string name="pref_camera2_initial_camera_entry_mono">أُحادي</string>
+  <string name="pref_camera2_initial_camera_entry_front">الأمام</string>
 </resources>

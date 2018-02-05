@@ -160,7 +160,6 @@
   <string name="pref_camera_shuttersound_title" translatable="true">Obturadorearen soinua</string>
   <string name="pref_camera_shuttersound_entry_enable">Gaituta</string>
   <string name="pref_camera_shuttersound_entry_disable">Desgaituta</string>
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Abiadura handia/Kamera geldoa ez dago jasanda Irudi egonkortze digitala eta TimeLapse moduetan</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->

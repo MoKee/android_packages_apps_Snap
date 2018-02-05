@@ -131,7 +131,6 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">ఎరుపు నేత్ర తగ్గింపు</string>
   <!-- Settings menu, redeye reduction choices -->
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">స్థిరీకరణ/టైం లాప్స్/HDR ఉపయోగిస్తున్నప్పుడు హై-ఫ్రేంరేట్ రికార్డింగ్ కు మద్దతు లేదు</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -331,4 +330,5 @@
   <string name="pref_camera2_mpo_entry_off">ఆఫ్‌లో ఉంది</string>
   <string name="pref_camera2_noise_reduction_entry_off">ఆఫ్‌లో ఉంది</string>
   <string name="pref_camera2_shutter_sound_entry_off">ఆఫ్‌లో ఉంది</string>
+  <string name="pref_camera2_initial_camera_entry_mono">మోనో</string>
 </resources>

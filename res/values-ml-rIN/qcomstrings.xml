@@ -131,7 +131,6 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">റെഡ് ഐ റിഡക്ഷന്‍</string>
   <!-- Settings menu, redeye reduction choices -->
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">സ്റ്റെബിലൈസേഷന്‍/ ടൈം ലാപ്സ് / HDR എന്നിവ ഉപയോഗിക്കുമ്പോൾ ഹൈ-ഫ്രെയിംറേറ്റ് റെക്കോർഡിംഗ് പിന്തുണയ്ക്കില്ല.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -336,4 +335,5 @@
   <string name="pref_camera2_mpo_entry_off">ഓഫാണ്</string>
   <string name="pref_camera2_noise_reduction_entry_off">ഓഫാണ്</string>
   <string name="pref_camera2_shutter_sound_entry_off">ഓഫാണ്</string>
+  <string name="pref_camera2_initial_camera_entry_mono">മോണോ</string>
 </resources>

@@ -95,7 +95,6 @@
   <!-- Default redeye reduction setting. -->
   <!-- Settings screen, Select Redeye Reduction -->
   <!-- Settings menu, redeye reduction choices -->
-  <!-- Default mce setting. Do not translate. -->
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -201,9 +200,13 @@
   <string name="pref_camera_tsmakeup_custom">Ngokwezifiso</string>
   <!-- Help menu strings -->
   <string name="help_menu_scene_mode_2">Imodi yesigcawu</string>
+  <string name="pref_camera2_mono_only_entry_on">Vuliwe</string>
   <string name="pref_camera2_mono_preview_entry_on">Vuliwe</string>
   <string name="pref_camera2_clearsight_entry_on">Vuliwe</string>
   <string name="pref_camera2_mpo_entry_on">Vuliwe</string>
+  <string name="pref_camera2_makeup_entry_on">Vuliwe</string>
+  <string name="pref_camera2_trackingfocus_entry_on">Vuliwe</string>
   <string name="bestpicture_done">KUQEDIWE</string>
   <string name="pref_camera2_shutter_sound_entry_on">Vuliwe</string>
+  <string name="pref_camera2_initial_camera_entry_front">Phambili</string>
 </resources>
