@@ -451,8 +451,10 @@
   <string name="pref_camera2_trackingfocus_entry_on">Zapnuto</string>
   <string name="pref_camera2_trackingfocus_entry_off">Vypnuto</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Nejlepší obraz</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter">Ostrá fotografie</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">Sledování zaostření</string>
   <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
+  <string name="pref_camera_scenemode_entry_promode">Režim Pro</string>
   <string name="bestpicture_done">HOTOVO</string>
   <string name="bestpicture_at_least_one_picture">Musí být vybrán alespoň jeden obrázek.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Zapnuto</string>
@@ -462,7 +464,11 @@
   <string name="pref_camera2_timer_entry_2sec">2 sekundy</string>
   <string name="pref_camera2_timer_entry_5sec">5 sekund</string>
   <string name="pref_camera2_timer_entry_10sec">10 sekund</string>
+  <string name="pref_camera2_saveraw_title">Uložit ve formátu RAW</string>
+  <string name="panocapture_direction_is_not_determined">Neustále se pohybujte jedním směrem.</string>
   <string name="panocapture_intro">Stiskněte tlačítko fotoaparátu pro spuštění.</string>
+  <string name="panocapture_direction_is_changed">Směr byl změněn, zastavování panoramatického snímání\u2026</string>
+  <string name="makeup_ui_title">Vyberte úrověň zkrášlování.</string>
   <string name="makeup_ui_ok_button">OK</string>
   <string name="perf_camera2_version_info">Informace o verzi</string>
   <string name="perf_camera2_preferences_category_general">Obecné</string>
@@ -470,9 +476,18 @@
   <string name="perf_camera2_preferences_category_video">Videokamera</string>
   <string name="perf_camera2_preferences_category_system">Systém</string>
   <string name="pref_camera2_scene_mode_dual_camera_instructional_content">V režimu duální kamery budou vaše obrázky jasnější. Můžete také použít efekty pozadí úpravou snímků s duálními kamerami v galerii.</string>
+  <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">S UbiFocus bude fotoaparát pořizovat pět fotografií a kombinovat je do jednoho snímku, kde je vše zaostřené. Po zachycení obrázku můžete vybrat nové zaostření.</string>
+  <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Použijte OptiZoom pro přiblížení jasného snímku. Přiblížit můžete před nebo po zhotovení snímku.</string>
+  <string name="pref_camera2_scene_mode_sports_instructional_content">Režim Sport vám pomáhá lépe dělat sportovní nebo akční snímky.\n\nVylepšuje vaše fotografie, ale nemá vliv na nahrávání videa.</string>
   <string name="pref_camera2_scene_mode_hdr_instructional_content">Pokud jste ve smíšených světelných podmínkách, např. slabé světlo a scény v protisvětle, vyberte \"HDR\" pro nejlepší možné fotografie.</string>
+  <string name="pref_camera2_scene_mode_best_photo_instructional_content">Umožňuje vám provést 10 snímků, vy můžete vybrat ten nejlepší.</string>
+  <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">S funkcí ChromaFlash bude osvětlení ve fotografiích s bleskem optimalizováno pro všechny osoby a objekty ve vašich obrázcích. Tato funkce se týká pouze zadní kamery.</string>
+  <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">Sharp Photo snižuje rozmazání, které je způsobeno pohybem ve scéně nebo pohybem rukou.</string>
   <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Umožňuje sledovat a zaostřit vybranou osobu nebo objekt při fotografování nebo videu. Chcete-li začít, umístěte obdélník ohniska na osobu nebo objekt, který chcete zychytit.</string>
+  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">S časosběrným nahráváním můžete přeměnit dlouhé nahrávání videa na několikasekundové. Tento efekt platí pro videa, nikoliv pro fotografie.</string>
   <string name="pref_camera2_scene_mode_panorama_instructional_content">Umožňuje posunout doleva nebo doprava, abyste získali širokou krajinnou fotografii. Můžete také posunout nahoru nebo dolů pro zachycení vysokých snímků.</string>
+  <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster snižuje rozmazání z třesoucích se rukou. Může být užitečné při fotografování v obtížných místech.</string>
+  <string name="pref_camera2_scene_mode_pro_instructional_content">V režimu Pro můžete ručně ovládat nastavení pro ISO, expozici, vyvážení bílé a zaostření. Budete mít snadný přístup ke všem těmto pokročilým nastavením</string>
   <string name="pref_camera2_not_show_again">Znovu nezobrazovat</string>
   <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
   <string name="pref_camera2_instant_aec_title">Okamžité AEC</string>
@@ -505,10 +520,13 @@
   <string name="pref_camera2_auto_hdr_title">Auotmatické HDR</string>
   <string name="pref_camera2_auto_hdr_entry_enable">Povolit</string>
   <string name="pref_camera2_auto_hdr_entry_disable">Zakázat</string>
+  <string name="pref_camera_bokeh_mode_title">Režim Bokeh</string>
   <string name="pref_camera_bokeh_mode_entry_enable">Povolit</string>
   <string name="pref_camera_bokeh_mode_entry_disable">Zakázat</string>
+  <string name="pref_camera_bokeh_mpo_title">Režim Bokeh MPO</string>
   <string name="pref_camera_bokeh_mpo_entry_enable">Povolit</string>
   <string name="pref_camera_bokeh_mpo_entry_disable">Zakázat</string>
+  <string name="pref_camera_bokeh_blur_degree_title">Hodnota rozostření Bokeh</string>
   <!-- Default Zoom setting. -->
   <string name="pref_camera_zoom_title">Lupa</string>
   <!-- Settings menu, Zoom choices -->
@@ -523,12 +541,17 @@
   <string name="pref_camera_zoom_entry_8x">8x</string>
   <string name="pref_camera_zoom_entry_9x">9x</string>
   <string name="pref_camera_zoom_entry_10x">10x</string>
+  <string name="pref_camera2_bsgc_title">Úsměv/blikání/detekce pohledu</string>
   <string name="pref_camera2_bsgc_entry_enable">Povolit</string>
   <string name="pref_camera2_bsgc_entry_disable">Zakázat</string>
   <string name="pref_camera2_zsl_title">Bez zpoždění závěrky</string>
   <string name="pref_camera2_zsl_entry_disable">Vypnuto</string>
+  <string name="pref_camera2_zsl_entry_app_zsl">Softwarové ZLS</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl">Hardwarové ZLS</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
+  <string name="pref_camera2_switch_camera_title">Přepnutí fotoaparátu pomocí ID</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
   <string name="pref_camera2_initial_camera_entry_mono">Černobílý</string>
   <string name="pref_camera2_initial_camera_entry_front">Přední</string>
 </resources>

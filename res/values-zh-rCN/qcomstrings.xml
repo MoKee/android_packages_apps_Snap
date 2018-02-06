@@ -447,6 +447,11 @@
   <string name="perf_camera2_preferences_category_video">摄像机</string>
   <string name="perf_camera2_preferences_category_system">系统</string>
   <string name="pref_camera2_scene_mode_dual_camera_instructional_content">在双摄模式下, 您的照片将更加清晰。还可以通过在相册中编辑双摄相片来应用背景效果。</string>
+  <string name="pref_camera2_scene_mode_sports_instructional_content">运动模式将帮助您在运动或动作中更好的拍摄照片。\n\n该功能仅限照片，不会影响视频录制。</string>
+  <string name="pref_camera2_scene_mode_best_photo_instructional_content">允许连续拍摄 10 张照片，并让您选择最好的一张或多张。</string>
+  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">在延时摄影模式下，您可以将一段长时间的视频转换为只有几秒钟的视频。此效果仅限视频，对于照片无效。</string>
+  <string name="pref_camera2_scene_mode_panorama_instructional_content">允许您从左到右拍摄一幅风景照片。您也可以从上到下拍摄一幅长条形状的照片。</string>
+  <string name="pref_camera2_scene_mode_pro_instructional_content">在专业模式下，您可以手动控制ISO，曝光，白平衡和对焦。 您将可以轻松访问这些高级设置</string>
   <string name="pref_camera2_not_show_again">不再显示</string>
   <string name="pref_camera2_scene_mode_instructional_ok">确定</string>
   <string name="pref_camera2_instant_aec_entry_disable">停用</string>
@@ -478,10 +483,12 @@
   <string name="pref_camera2_auto_hdr_title">自动 HDR</string>
   <string name="pref_camera2_auto_hdr_entry_enable">开启</string>
   <string name="pref_camera2_auto_hdr_entry_disable">停用</string>
+  <string name="pref_camera_bokeh_mode_title">虚化模式</string>
   <string name="pref_camera_bokeh_mode_entry_enable">开启</string>
   <string name="pref_camera_bokeh_mode_entry_disable">停用</string>
   <string name="pref_camera_bokeh_mpo_entry_enable">开启</string>
   <string name="pref_camera_bokeh_mpo_entry_disable">停用</string>
+  <string name="pref_camera_bokeh_blur_degree_title">虚化模糊值</string>
   <!-- Default Zoom setting. -->
   <string name="pref_camera_zoom_title">缩放</string>
   <!-- Settings menu, Zoom choices -->

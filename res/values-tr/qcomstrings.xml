@@ -451,8 +451,10 @@
   <string name="pref_camera2_trackingfocus_entry_on">Açık</string>
   <string name="pref_camera2_trackingfocus_entry_off">Kapat</string>
   <string name="pref_camera_scenemode_entry_bestpicture">En iyi görüntü</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter">Keskin fotoğraf</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">Odak izleme</string>
   <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
+  <string name="pref_camera_scenemode_entry_promode">Profesyonel fotoğraf</string>
   <string name="bestpicture_done">BİTTİ</string>
   <string name="bestpicture_at_least_one_picture">En az bir resim seçilmeli.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Açık</string>
@@ -462,7 +464,11 @@
   <string name="pref_camera2_timer_entry_2sec">2 saniye</string>
   <string name="pref_camera2_timer_entry_5sec">5 saniye</string>
   <string name="pref_camera2_timer_entry_10sec">10 saniye</string>
+  <string name="pref_camera2_saveraw_title">Raw formatında kaydet</string>
+  <string name="panocapture_direction_is_not_determined">Sabit biçimde tek bir yöne ilerleyin.</string>
   <string name="panocapture_intro">Başlamak için kamera düğmesine basın.</string>
+  <string name="panocapture_direction_is_changed">Yön değişti, panorama çekimi durduruluyor\u2026</string>
+  <string name="makeup_ui_title">Güzelleştirme seviyesini seçin.</string>
   <string name="makeup_ui_ok_button">Tamam</string>
   <string name="perf_camera2_version_info">Versiyon Bilgisi</string>
   <string name="perf_camera2_preferences_category_general">Genel</string>
@@ -470,9 +476,18 @@
   <string name="perf_camera2_preferences_category_video">Video kamera</string>
   <string name="perf_camera2_preferences_category_system">Sistem</string>
   <string name="pref_camera2_scene_mode_dual_camera_instructional_content">Çift kamera modunda resimler daha net görünecektir. Aynı zamanda galerideki çift kamera resimlerini düzenleyerek arka plan efekti uygulayabilirsiniz.</string>
+  <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">UbiFocus ile kameranız beş resim çekecek ve bunları bir araya getirecek ve her şeyin odaklandığı bir resim olacak. Resmi çektiğinizde tekrar odaklanmayı seçebilirsiniz.</string>
+  <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Net bir resim elde etmek için yakınlaştırmak istediğinizde OptiZoom kullanın. Fotoğrafı çekmeden önce veya çektikten sonra yakınaştırabilirsiniz.</string>
+  <string name="pref_camera2_scene_mode_sports_instructional_content">Spor modu, daha iyi spor ve aksiyon çekimleri yapmanıza yardımcı olur.\n\n Fotoğraflarınızı geliştirir, ancak video kayıtları üzerinde herhangi bir etkisi yoktur.</string>
   <string name="pref_camera2_scene_mode_hdr_instructional_content">Işıklandırma koşullarını karıştırdığın zaman, düşük ışık ve arkadan aydınlık gibi en iyi fotoğrafları çekmek için \"HDR\" modunu seçiniz.</string>
+  <string name="pref_camera2_scene_mode_best_photo_instructional_content">10 fotoğraf çekmenizi sağlar ve aralarından en iyilerini seçebilirsiniz(s).</string>
+  <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">ChromaFlash ile flaş fotoğraflarınızda ki ışıklandırma, resimlerinizde ki tüm insanlar ve nesneler için optimize edilecektir. Bu özellik yalnızca arka kamera için geçerlidir.</string>
+  <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">Keskin fotoğraf modu sahnedeki hareketten kaynaklanan bulanıklığı veya el hareketi nedeniyle olan bulanıklığı azaltır.</string>
   <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Fotoğraf veya video çekerken seçilen kişiye veya nesneye izleyip odaklanmasına izin verir. Başlamak için takip edilmesini istediğiniz kişi veya objeyi odak dikdörtgeni içine alınız.</string>
+  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Zaman atlamayla, uzun bir video kaydını birkaç saniyelik videolara dönüştürebilirsiniz. Bu etki videolara uygulanır, ancak fotoğraflar geçerli değildir.</string>
   <string name="pref_camera2_scene_mode_panorama_instructional_content">Geniş bir manzara fotoğrafı çekmek için sola veya sağa doğru kaydırmanızı sağlar, Aynı zaman uzun fotoğraflar için yukarı veya alt tarafa doğru kaydırmanızı sağlar.</string>
+  <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster titreyen eller yüzünden oluşan bulanıklığı düşürür. Bu zor yerlerde fotoğraf çekerken yardımcı olabilir.</string>
+  <string name="pref_camera2_scene_mode_pro_instructional_content">Pro moduyla, manuel olarak ISO, pozlama, beyaz dengesi ve odak ayarlarınızı kontrol edebilirsiniz. Bu gelişmiş ayarların tümüne kolaylıkla erişebilirsiniz</string>
   <string name="pref_camera2_not_show_again">Tekrar gösterme</string>
   <string name="pref_camera2_scene_mode_instructional_ok">Tamam</string>
   <string name="pref_camera2_instant_aec_title">Anlık AEC</string>
@@ -505,10 +520,13 @@
   <string name="pref_camera2_auto_hdr_title">Otomatik HDR</string>
   <string name="pref_camera2_auto_hdr_entry_enable">Etkinleştir</string>
   <string name="pref_camera2_auto_hdr_entry_disable">Devredışı</string>
+  <string name="pref_camera_bokeh_mode_title">Bokeh modu</string>
   <string name="pref_camera_bokeh_mode_entry_enable">Etkinleştir</string>
   <string name="pref_camera_bokeh_mode_entry_disable">Devredışı</string>
+  <string name="pref_camera_bokeh_mpo_title">Bokeh modu MPO</string>
   <string name="pref_camera_bokeh_mpo_entry_enable">Etkinleştir</string>
   <string name="pref_camera_bokeh_mpo_entry_disable">Devredışı</string>
+  <string name="pref_camera_bokeh_blur_degree_title">Bokeh bulanıklık değeri</string>
   <!-- Default Zoom setting. -->
   <string name="pref_camera_zoom_title">Yakınlaştırma</string>
   <!-- Settings menu, Zoom choices -->
@@ -523,12 +541,17 @@
   <string name="pref_camera_zoom_entry_8x">8x</string>
   <string name="pref_camera_zoom_entry_9x">9x</string>
   <string name="pref_camera_zoom_entry_10x">10x</string>
+  <string name="pref_camera2_bsgc_title">Gülümseme/göz kırpma/ bakış algılama</string>
   <string name="pref_camera2_bsgc_entry_enable">Etkinleştir</string>
   <string name="pref_camera2_bsgc_entry_disable">Devredışı</string>
   <string name="pref_camera2_zsl_title">Sıfır deklanşör gecikmesi</string>
   <string name="pref_camera2_zsl_entry_disable">Kapat</string>
+  <string name="pref_camera2_zsl_entry_app_zsl">Yazılımsal ZSL</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl">Donanımsal ZSL</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
+  <string name="pref_camera2_switch_camera_title">ID ile kamera değiştir</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
   <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
   <string name="pref_camera2_initial_camera_entry_front">Ön</string>
 </resources>

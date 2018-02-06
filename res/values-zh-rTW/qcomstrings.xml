@@ -451,8 +451,10 @@
   <string name="pref_camera2_trackingfocus_entry_on">開啟</string>
   <string name="pref_camera2_trackingfocus_entry_off">關閉</string>
   <string name="pref_camera_scenemode_entry_bestpicture">最佳相片</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter">照片銳化</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">追蹤對焦</string>
   <string name="pref_camera_scenemode_entry_panorama">全景</string>
+  <string name="pref_camera_scenemode_entry_promode">專家模式</string>
   <string name="bestpicture_done">完成</string>
   <string name="bestpicture_at_least_one_picture">至少需要一張圖片可供選擇。</string>
   <string name="pref_camera2_shutter_sound_entry_on">開啟</string>
@@ -462,7 +464,11 @@
   <string name="pref_camera2_timer_entry_2sec">2 秒</string>
   <string name="pref_camera2_timer_entry_5sec">5 秒</string>
   <string name="pref_camera2_timer_entry_10sec">10 秒</string>
+  <string name="pref_camera2_saveraw_title">使用 Raw 格式儲存</string>
+  <string name="panocapture_direction_is_not_determined">朝同一方向不斷移動。</string>
   <string name="panocapture_intro">按下相機鍵開始。</string>
+  <string name="panocapture_direction_is_changed">移動方向已改變，將停止全景拍攝\u2026</string>
+  <string name="makeup_ui_title">請選擇美化的力道。</string>
   <string name="makeup_ui_ok_button">確定</string>
   <string name="perf_camera2_version_info">版本資訊</string>
   <string name="perf_camera2_preferences_category_general">一般</string>
@@ -470,9 +476,18 @@
   <string name="perf_camera2_preferences_category_video">攝影機</string>
   <string name="perf_camera2_preferences_category_system">系統</string>
   <string name="pref_camera2_scene_mode_dual_camera_instructional_content">在雙鏡頭模式下，您的照片會更清晰。 您也可以應用背景效果，通過編輯相簿中的雙相機圖片。</string>
+  <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">使用隨心對焦，您的相機將拍攝五張照片，並將它們合併成一張照片，其中所有地方都是焦點。 可在拍照後，重新選擇對焦。</string>
+  <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">當您要放大清晰的圖片時，請使用光學變焦。您可以在拍攝前或拍攝照片之後進行縮放。</string>
+  <string name="pref_camera2_scene_mode_sports_instructional_content">運動模式可以幫助您更好地進行運動或動作。\n\n 改善照片，但不影響錄影。</string>
   <string name="pref_camera2_scene_mode_hdr_instructional_content">當處於混合光線條件下，如低光照和背光場景時，請選擇「HDR」以獲得最佳照片。</string>
+  <string name="pref_camera2_scene_mode_best_photo_instructional_content">允許您拍攝 10 張照片，您可以選擇最好的照片。</string>
+  <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">使用色度閃光，閃光燈照片中的照明將針對您照片中的所有人物和對象進行最佳化。此功能僅適用於後置相機。</string>
+  <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">使用銳化照片可減少由於場景中的運動或由於手動造成的模糊。</string>
   <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">允許您在拍攝照片或錄影時追蹤和對焦選定的人物或物體。 要開始，將焦點矩形放置在要追蹤的人物或物體上。</string>
+  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">使用縮時，您可以將長時間的影片錄製轉換為幾秒鐘的影片。此效果適用於影片，但不適用於照片。</string>
   <string name="pref_camera2_scene_mode_panorama_instructional_content">允許您向左或向右平移拍攝寬闊的風景照片。 您可以向上或向下平移拍攝高的照片。</string>
+  <string name="pref_camera2_scene_mode_blur_buster_instructional_content">使用模糊剋星可減輕抖動的模糊。在困難的地方拍照時可能會有所幫助。</string>
+  <string name="pref_camera2_scene_mode_pro_instructional_content">使用專業模式，您可以手動控制 ISO、曝光、白平衡和對焦的設定。 您可以輕鬆存取所有這些進階設定</string>
   <string name="pref_camera2_not_show_again">不再顯示</string>
   <string name="pref_camera2_scene_mode_instructional_ok">確定</string>
   <string name="pref_camera2_instant_aec_title">即時 AEC</string>
@@ -505,10 +520,13 @@
   <string name="pref_camera2_auto_hdr_title">自動 HDR</string>
   <string name="pref_camera2_auto_hdr_entry_enable">啓用</string>
   <string name="pref_camera2_auto_hdr_entry_disable">關閉</string>
+  <string name="pref_camera_bokeh_mode_title">淺景深模式</string>
   <string name="pref_camera_bokeh_mode_entry_enable">啓用</string>
   <string name="pref_camera_bokeh_mode_entry_disable">關閉</string>
+  <string name="pref_camera_bokeh_mpo_title">淺景深模式 MPO</string>
   <string name="pref_camera_bokeh_mpo_entry_enable">啓用</string>
   <string name="pref_camera_bokeh_mpo_entry_disable">關閉</string>
+  <string name="pref_camera_bokeh_blur_degree_title">淺景深模糊值</string>
   <!-- Default Zoom setting. -->
   <string name="pref_camera_zoom_title">縮放</string>
   <!-- Settings menu, Zoom choices -->
@@ -523,12 +541,16 @@
   <string name="pref_camera_zoom_entry_8x">8 倍</string>
   <string name="pref_camera_zoom_entry_9x">9 倍</string>
   <string name="pref_camera_zoom_entry_10x">10 倍</string>
+  <string name="pref_camera2_bsgc_title">微笑/眨眼/凝視檢測</string>
   <string name="pref_camera2_bsgc_entry_enable">啟用</string>
   <string name="pref_camera2_bsgc_entry_disable">關閉</string>
   <string name="pref_camera2_zsl_title">零快門延遲</string>
   <string name="pref_camera2_zsl_entry_disable">關閉</string>
+  <string name="pref_camera2_zsl_entry_app_zsl">軟體零延遲拍照</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl">硬體零延遲拍照</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
+  <string name="pref_camera2_switch_camera_title">通過 ID 切換相機</string>
   <string name="pref_camera2_initial_camera_entry_bayer">拜爾</string>
   <string name="pref_camera2_initial_camera_entry_mono">單色</string>
   <string name="pref_camera2_initial_camera_entry_front">前置鏡頭</string>

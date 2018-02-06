@@ -451,8 +451,10 @@
   <string name="pref_camera2_trackingfocus_entry_on">Вкл.</string>
   <string name="pref_camera2_trackingfocus_entry_off">Отключить</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Лучший снимок</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter">SharpPhoto</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">Следящий автофокус</string>
   <string name="pref_camera_scenemode_entry_panorama">Панорама</string>
+  <string name="pref_camera_scenemode_entry_promode">Ручной режим</string>
   <string name="bestpicture_done">ГОТОВО</string>
   <string name="bestpicture_at_least_one_picture">Нужно выбрать хотя бы один снимок.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Вкл.</string>
@@ -462,7 +464,11 @@
   <string name="pref_camera2_timer_entry_2sec">2 сек.</string>
   <string name="pref_camera2_timer_entry_5sec">5 сек.</string>
   <string name="pref_camera2_timer_entry_10sec">10 сек.</string>
+  <string name="pref_camera2_saveraw_title">Сохранить в формате RAW</string>
+  <string name="panocapture_direction_is_not_determined">Постоянно двигайтесь в одном направлении.</string>
   <string name="panocapture_intro">Нажмите кнопку камеры, чтобы начать.</string>
+  <string name="panocapture_direction_is_changed">Направление изменилось, остановка захвата панорамы\u2026</string>
+  <string name="makeup_ui_title">Пожалуйста, выберите уровень улучшения.</string>
   <string name="makeup_ui_ok_button">ОК</string>
   <string name="perf_camera2_version_info">Информация о версии</string>
   <string name="perf_camera2_preferences_category_general">Общие</string>
@@ -470,9 +476,18 @@
   <string name="perf_camera2_preferences_category_video">Видеокамера</string>
   <string name="perf_camera2_preferences_category_system">Система</string>
   <string name="pref_camera2_scene_mode_dual_camera_instructional_content">В режиме двойной камеры ваши фотографии будут чётче. Также Вы можете применить фоновые эффекты, отредактировав ваши снятые двойной камерой фотографии в галерее.</string>
+  <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">С UbiFocus ваша камера снимет пять фотографий и объединит их в одну, где все объекты находятся в фокусе. Вы можете изменить фокус после съёмки изображения.</string>
+  <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Используйте Optizoom, когда требуется увеличить масштаб для получения чёткой картинки. Вы можете использовать приближение до или после съёмки.</string>
+  <string name="pref_camera2_scene_mode_sports_instructional_content">Режим «Спорт» помогает вам снимать более качественные снимки в условиях съёмки спортивных состязаний или активных действий.\n\nУлучшает ваши фотографии, но не влияет на качество снимаемого видео.</string>
   <string name="pref_camera2_scene_mode_hdr_instructional_content">Когда вы находитесь в условиях смешанного освещения, например, при низкой освещенности или при наличии задней подсветки, выберите \"HDR\" для получения наилучшего результата.</string>
+  <string name="pref_camera2_scene_mode_best_photo_instructional_content">Позволяет снять серию из 10 фотографий, после чего вы можете выбрать лучшие снимки.</string>
+  <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">С помощью Chroma-вспышки освещение на фотографиях, снятых со вспышкой, будет оптимизировано для всех людей и объектов в фотографии. Эта функция применима только к основной камере.</string>
+  <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">SharpPhoto уменьшает размытие, возникшее вследствие движения объекта или руки.</string>
   <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Позволяет вам отслеживать и фокусироваться на выбранном человеке или объекте во время фото- или видеосъёмки. Чтобы начать, расположите прямоугольник фокуса на человеке или объекте, который вы хотите отслеживать.</string>
+  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">В режиме интервальной съёмки вы можете преобразовать длинную видеозапись в видео малого размера. Эффект применим только к видео.</string>
   <string name="pref_camera2_scene_mode_panorama_instructional_content">Позволяет сдвигать окно съёмки влево или вправо для съёмки ландшафтного фото. Вы можете также сдвигать его вверх или вниз, чтобы снимать высокие фотографии.</string>
+  <string name="pref_camera2_scene_mode_blur_buster_instructional_content">Режим размытия уменьшает размытие при съёмке с трясущимися руками. Может быть полезно при съёмке в тяжёлых условиях.</string>
+  <string name="pref_camera2_scene_mode_pro_instructional_content">В ручном режиме можно управлять настройками ISO, экспозиции, баланса белого и фокусировки. Вы получите лёгкий доступ ко всем этим дополнительным параметрам.</string>
   <string name="pref_camera2_not_show_again">Не показывать снова</string>
   <string name="pref_camera2_scene_mode_instructional_ok">ОК</string>
   <string name="pref_camera2_instant_aec_title">Мгновенный AEC</string>
@@ -505,10 +520,13 @@
   <string name="pref_camera2_auto_hdr_title">Авто HDR</string>
   <string name="pref_camera2_auto_hdr_entry_enable">Вкл.</string>
   <string name="pref_camera2_auto_hdr_entry_disable">Выключить</string>
+  <string name="pref_camera_bokeh_mode_title">Режим боке</string>
   <string name="pref_camera_bokeh_mode_entry_enable">Вкл.</string>
   <string name="pref_camera_bokeh_mode_entry_disable">Выключить</string>
+  <string name="pref_camera_bokeh_mpo_title">Режим боке MPO</string>
   <string name="pref_camera_bokeh_mpo_entry_enable">Вкл.</string>
   <string name="pref_camera_bokeh_mpo_entry_disable">Выключить</string>
+  <string name="pref_camera_bokeh_blur_degree_title">Уровень размытия боке</string>
   <!-- Default Zoom setting. -->
   <string name="pref_camera_zoom_title">Масштаб</string>
   <!-- Settings menu, Zoom choices -->
@@ -523,12 +541,16 @@
   <string name="pref_camera_zoom_entry_8x">8x</string>
   <string name="pref_camera_zoom_entry_9x">9x</string>
   <string name="pref_camera_zoom_entry_10x">10x</string>
+  <string name="pref_camera2_bsgc_title">Обнаружение улыбки/подмигивания/взгляда</string>
   <string name="pref_camera2_bsgc_entry_enable">Вкл.</string>
   <string name="pref_camera2_bsgc_entry_disable">Выключить</string>
   <string name="pref_camera2_zsl_title">Нулевая задержка затвора</string>
   <string name="pref_camera2_zsl_entry_disable">Отключить</string>
+  <string name="pref_camera2_zsl_entry_app_zsl">Программный ZSL</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl">Аппаратный ZSL</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
+  <string name="pref_camera2_switch_camera_title">Переключить камеру по ID</string>
   <string name="pref_camera2_initial_camera_entry_bayer">Байер</string>
   <string name="pref_camera2_initial_camera_entry_mono">Ч/Б</string>
   <string name="pref_camera2_initial_camera_entry_front">Фронтальная</string>
