@@ -529,6 +529,7 @@
   <string name="pref_camera2_zsl_entry_disable">Spenta</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
+  <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
   <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
   <string name="pref_camera2_initial_camera_entry_front">Frontale</string>
 </resources>

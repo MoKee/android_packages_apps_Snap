@@ -63,6 +63,7 @@
   <!-- Settings screen, Selectable zone af title -->
   <string name="pref_camera_selectablezoneaf_title">Zona de autofocus</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
+  <string name="pref_camera_selectablezoneaf_entry_auto">Auto</string>
   <string name="pref_camera_selectablezoneaf_entry_spotmetering">Măsurare punctuală</string>
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Balansare centrată</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Media cadrului</string>
@@ -82,6 +83,7 @@
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_title">Balans de alb manual</string>
   <string name="pref_camera_manual_wb_entry_color_temperature">Temperatura culorii</string>
+  <string name="pref_camera_manual_wb_entry_rbgb_gains">Creșteri RBGB</string>
   <string name="pref_camera_manual_wb_entry_off">Oprit</string>
   <!-- Manual Focus entry values -->
   <string name="pref_camera_manual_focus_title">Focalizare manuală</string>
@@ -106,9 +108,11 @@
   <!-- Settings screen, CDS location dialog choices -->
   <string name="pref_camera_cds_entry_off">Oprit</string>
   <string name="pref_camera_cds_entry_on">Activată</string>
+  <string name="pref_camera_cds_entry_auto">Auto</string>
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">Oprit</string>
   <string name="pref_camera_video_cds_entry_on">Activată</string>
+  <string name="pref_camera_video_cds_entry_auto">Auto</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">Dezactivați</string>
   <string name="pref_camera_tnr_entry_enable">Activați</string>
@@ -118,6 +122,7 @@
   <string name="pref_camera_video_tnr_entry_enable">Activați</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
+  <string name="pref_camera_video_hdr_title">Video HDR</string>
   <!-- Settings menu, setting title text for cds mode-->
   <string name="pref_camera_cds_title">Mod CDS</string>
   <!-- Settings menu, setting title text for video cds mode-->
@@ -171,6 +176,8 @@
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">Formatul de imagine brut nu este suportat în modul Zero shutter lag. Selectaţi JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE bracketing</string>
+  <string name="pref_camera_ae_bracket_hdr_title">AE bracketing</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Activată</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Oprit</string>
   <string name="err_app_unsupport_ae_bracket_code">AE bracketing nu este acceptat momentan</string>
@@ -215,11 +222,43 @@
   <string name="pref_camera_denoise_entry_on">Activată</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
+  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
+  <string name="pref_camera_iso_entry_auto">Auto</string>
+  <string name="pref_camera_iso_entry_isodeblur">Auto (HJR)</string>
+  <string name="pref_camera_iso_entry_iso50">ISO50</string>
+  <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso125">ISO125</string>
+  <string name="pref_camera_iso_entry_iso150">ISO150</string>
+  <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso250">ISO250</string>
+  <string name="pref_camera_iso_entry_iso300">ISO300</string>
+  <string name="pref_camera_iso_entry_iso320">ISO320</string>
+  <string name="pref_camera_iso_entry_iso350">ISO350</string>
+  <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso450">ISO450</string>
+  <string name="pref_camera_iso_entry_iso500">ISO500</string>
+  <string name="pref_camera_iso_entry_iso600">ISO600</string>
+  <string name="pref_camera_iso_entry_iso640">ISO640</string>
+  <string name="pref_camera_iso_entry_iso700">ISO700</string>
+  <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
+  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
+  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
+  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
+  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
+  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
+  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
+  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
+  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
+  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
+  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
+  <string name="pref_camera_antibanding_title">Antibanding</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
+  <string name="pref_camera_antibanding_entry_0">Auto</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
   <string name="pref_camera_antibanding_entry_2">60 Hz (SUA)</string>
   <!-- Default color effect setting. -->
@@ -230,12 +269,17 @@
   <string name="pref_camera_filter_mode_title">Efect de culoare</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Niciunul</string>
+  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Solarizare</string>
   <string name="pref_camera_coloreffect_entry_posterize">Posterizare</string>
+  <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
   <string name="pref_camera_coloreffect_entry_emboss">Gravare</string>
   <string name="pref_camera_coloreffect_entry_sketch">Schițare</string>
+  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
+  <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mozaic</string>
   <string name="pref_camera_coloreffect_entry_redtint">Tentă roșie</string>
   <string name="pref_camera_coloreffect_entry_bluetint">Tentă albastră</string>
@@ -287,6 +331,7 @@
   <string name="pref_camera_sharpness_title">Claritate</string>
   <!-- Default contrast setting. Do not translate. -->
   <!-- Settings screen, Select contrast title -->
+  <string name="pref_camera_contrast_title">Contrast</string>
   <!-- Default saturation setting. Do not translate. -->
   <!-- Settings screen, Select saturation title -->
   <string name="pref_camera_saturation_title">Saturație</string>
@@ -325,6 +370,7 @@
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">Blițul nu este suportat în modul AE bracketing</string>
   <!-- Settings screen, setting title text for Auto HDR-->
+  <string name="pref_camera_auto_hdr_title">Auto HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Activați</string>
   <string name="pref_camera_auto_hdr_entry_disable">Dezactivați</string>
@@ -405,8 +451,10 @@
   <string name="pref_camera2_trackingfocus_entry_on">Activată</string>
   <string name="pref_camera2_trackingfocus_entry_off">Oprit</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Cea mai bună fotografie</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter">Fotografie clară</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">Urmărire focalizare</string>
   <string name="pref_camera_scenemode_entry_panorama">Panoramă</string>
+  <string name="pref_camera_scenemode_entry_promode">Mod Pro</string>
   <string name="bestpicture_done">TERMINAT</string>
   <string name="bestpicture_at_least_one_picture">Trebuie aleasă măcar o fotografie.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Activată</string>
@@ -416,11 +464,33 @@
   <string name="pref_camera2_timer_entry_2sec">2 secunde</string>
   <string name="pref_camera2_timer_entry_5sec">5 secunde</string>
   <string name="pref_camera2_timer_entry_10sec">10 secunde</string>
+  <string name="pref_camera2_saveraw_title">Salvați în format RAW</string>
+  <string name="panocapture_direction_is_not_determined">Mutați constant spre o singură direcţie.</string>
+  <string name="panocapture_intro">Apăsați butonul de cameră pentru a începe.</string>
+  <string name="panocapture_direction_is_changed">Direcția s-a schimbat, se oprește panoramarea\u2026</string>
+  <string name="makeup_ui_title">Alegeți tăria înfrumusețării.</string>
   <string name="makeup_ui_ok_button">OK</string>
   <string name="perf_camera2_version_info">Informații despre versiune</string>
   <string name="perf_camera2_preferences_category_general">General</string>
+  <string name="perf_camera2_preferences_category_photo">Cameră nemișcată</string>
+  <string name="perf_camera2_preferences_category_video">Cameră video</string>
   <string name="perf_camera2_preferences_category_system">Sistem</string>
+  <string name="pref_camera2_scene_mode_dual_camera_instructional_content">În modul cameră duală, pozele dvs. vor fi mai clare. De asemenea, puteţi aplica efecte de fundal prin editarea imaginilor cameră duală în Galerie.</string>
+  <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">Cu UbiFocus, camera foto va face cinci fotografii şi le va combina într-o singură imagine, unde totul este focalizat. Puteţi alege să re-focalizați după ce ați făcut poza.</string>
+  <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Utilizați OptiZoom atunci când doriţi să faceți zoom pentru o imagine mai clară. Puteți mări înainte sau după ce ați făcut poza.</string>
+  <string name="pref_camera2_scene_mode_sports_instructional_content">Modul sport vă ajută să realizați cele mai bune poze sport sau acțiune.\n\nÎmbunătățește fotografiile, dar nu are efect pe înregistrările video.</string>
+  <string name="pref_camera2_scene_mode_hdr_instructional_content">Când sunteţi în condiţii de iluminare mixtă, cum ar fi lumină scăzută şi lumină din fundal selectați \"HDR\" pentru cele mai bune imagini posibile.</string>
+  <string name="pref_camera2_scene_mode_best_photo_instructional_content">Vă permite să faceți 10 fotografii în rafală, apoi o puteți alege cea mai bună (sau pe cele mai bune).</string>
+  <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">Cu ChromaFlash, iluminarea de la bliț va fi optimizată pentru toate persoanele şi obiectele din imagini. Această caracteristică se aplică doar la camera din spate.</string>
+  <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">Fotografia clară reduce ceața cauzată de mișcarea din scenă ori cea a mâinii.</string>
+  <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Vă permite să urmăriți şi să focalizați o persoană sau un obiect selectat în timp ce realizați fotografii sau clipuri video. Pentru a începe, poziţionați dreptunghiul de focalizare pe o persoană sau pe obiectul pe care doriţi să le urmăriţi.</string>
+  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Cu Time lapse, puteţi transforma o înregistrare video lungă într-un video de doar câteva secunde. Acest efect se aplică videoclipurilor, dar nu și fotografiilor.</string>
+  <string name="pref_camera2_scene_mode_panorama_instructional_content">Vă permite să panoramați în stânga sau în dreapta pentru a face o fotografie peisaj largă. Aveţi posibilitatea să panoramați în sus sau în jos pentru a face fotografii înalte.</string>
+  <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster reduce încețoșarea cauzată de mișcarea mâinilor. Poate fi util când realizați fotografii în locuri dificile.</string>
+  <string name="pref_camera2_scene_mode_pro_instructional_content">Cu modul Pro, puteţi controla manual setările pentru ISO, expunere, balans de alb şi focalizare. Veţi avea acces uşor la toate aceste setări avansate</string>
+  <string name="pref_camera2_not_show_again">Nu mai afișa</string>
   <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
+  <string name="pref_camera2_instant_aec_title">AEC instant</string>
   <string name="pref_camera2_instant_aec_entry_disable">Dezactivați</string>
   <string name="pref_camera2_instant_aec_entry_aggressive">AEC agresiv</string>
   <string name="pref_camera2_instant_aec_entry_fast">AEC rapid</string>
@@ -436,28 +506,52 @@
   <string name="pref_camera2_saturation_level_entry_8">Nivel 8</string>
   <string name="pref_camera2_saturation_level_entry_9">Nivel 9</string>
   <string name="pref_camera2_saturation_level_entry_10">Nivel 10</string>
+  <string name="pref_camera2_anti_banding_level_title">Antibanding</string>
   <string name="pref_camera2_anti_banding_level_entry_off">Oprit</string>
   <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Europa)</string>
   <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (SUA)</string>
+  <string name="pref_camera2_anti_banding_level_entry_auto">Auto</string>
   <string name="pref_camera2_histogram_title">Histogramă</string>
   <string name="pref_camera2_histogram_entry_enable">Activați</string>
   <string name="pref_camera2_histogram_entry_disable">Dezactivați</string>
+  <string name="pref_camera2_hdr_title">HDR</string>
   <string name="pref_camera2_hdr_entry_enable">Activați</string>
   <string name="pref_camera2_hdr_entry_disable">Dezactivați</string>
+  <string name="pref_camera2_auto_hdr_title">Auto HDR</string>
   <string name="pref_camera2_auto_hdr_entry_enable">Activați</string>
   <string name="pref_camera2_auto_hdr_entry_disable">Dezactivați</string>
+  <string name="pref_camera_bokeh_mode_title">Mod Bokeh</string>
   <string name="pref_camera_bokeh_mode_entry_enable">Activați</string>
   <string name="pref_camera_bokeh_mode_entry_disable">Dezactivați</string>
+  <string name="pref_camera_bokeh_mpo_title">MPO mod Bokeh</string>
   <string name="pref_camera_bokeh_mpo_entry_enable">Activați</string>
   <string name="pref_camera_bokeh_mpo_entry_disable">Dezactivați</string>
+  <string name="pref_camera_bokeh_blur_degree_title">Valoare încețoșare Bokeh</string>
   <!-- Default Zoom setting. -->
+  <string name="pref_camera_zoom_title">Zoom</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Oprit</string>
+  <string name="pref_camera_zoom_entry_1x">1x</string>
+  <string name="pref_camera_zoom_entry_2x">2x</string>
+  <string name="pref_camera_zoom_entry_3x">3x</string>
+  <string name="pref_camera_zoom_entry_4x">4x</string>
+  <string name="pref_camera_zoom_entry_5x">5x</string>
+  <string name="pref_camera_zoom_entry_6x">6x</string>
+  <string name="pref_camera_zoom_entry_7x">7x</string>
+  <string name="pref_camera_zoom_entry_8x">8x</string>
+  <string name="pref_camera_zoom_entry_9x">9x</string>
+  <string name="pref_camera_zoom_entry_10x">10x</string>
+  <string name="pref_camera2_bsgc_title">Detectare zâmbet/clipire/privire</string>
   <string name="pref_camera2_bsgc_entry_enable">Activați</string>
   <string name="pref_camera2_bsgc_entry_disable">Dezactivați</string>
   <string name="pref_camera2_zsl_title">Întârziere declanșator zero</string>
   <string name="pref_camera2_zsl_entry_disable">Oprit</string>
+  <string name="pref_camera2_zsl_entry_app_zsl">ZSL software</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl">ZSL hardware</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
+  <string name="pref_camera2_switch_camera_title">Comutatare cameră prin ID</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
+  <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
   <string name="pref_camera2_initial_camera_entry_front">Frontal</string>
 </resources>

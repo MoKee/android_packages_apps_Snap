@@ -103,7 +103,7 @@
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">Modelo</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
-  <string name="flash">Flash</string>
+  <string name="flash">Destello</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
   <string name="aperture">Apertura</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
@@ -219,7 +219,7 @@
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
-  <string name="pref_camera_flashmode_title">Flash</string>
+  <string name="pref_camera_flashmode_title">Destello</string>
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <string name="pref_camera_flashmode_entry_auto">Automático</string>
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
@@ -391,6 +391,7 @@
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_shutter_button">Obturador</string>
   <!-- The exit best photo mode button. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_exit_best_mode_button">Salir del mejor modo de foto</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_menu_button">Botón de menú</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
@@ -546,16 +547,31 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Estableciendo fondo de pantalla...</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_video_rotation_label_0">0</string>
+  <string name="pref_camera_video_rotation_label_90">90</string>
+  <string name="pref_camera_video_rotation_label_180">180</string>
+  <string name="pref_camera_video_rotation_label_270">270</string>
   <string name="remaining_photos_format">%d restantes</string>
+  <string name="initial_recording_seconds">00:00</string>
   <string name="makeup_video_size_limit">Makeup solo funciona bajo la resolución VGA cuando se graba un vídeo.</string>
   <string name="pref_camera2_category_system">Sistema</string>
+  <string name="pref_camera2_restore_default">Restaurar los valores predeterminados</string>
+  <string name="pref_camera2_restore_default_hint">Ajustes de la camara serán restaurados a los ajustes predeterminados</string>
+  <string name="save_best_dialog_content">%1$d de 10 imagenes serán guardadas y el resto será borrado.</string>
+  <string name="save_best_dialog_title">¿Guardar las imágenes seleccionadas?</string>
   <string name="save_best_dialog_positive_bt">Aceptar</string>
   <string name="save_best_dialog_native_bt">Cancelar</string>
+  <string name="save_best_image_toast">%1$d de 10 imágenes guardadas.</string>
   <string name="dialog_do_not_show">No mostrar de nuevo</string>
+  <string name="delete_best_dialog_title">¿Eliminar todo?</string>
+  <string name="delete_best_dialog_content">¿Está seguro que desea eliminar todas las 10 fotografías?</string>
   <string name="delete_best_dialog_native_bt">Cancelar</string>
   <string name="delete_best_dialog_positive_bt">Borrar</string>
+  <string name="delete_all_best_dialog_title">¿Eliminar todo?</string>
+  <string name="delete_all_best_dialog_content">¿Está seguro que desea eliminar todas las imágenes?</string>
   <string name="delete_all_best_dialog_native_bt">Cancelar</string>
   <string name="delete_all_best_dialog_positive_bt">Eliminar todo</string>
+  <string name="overflow_best_item1">Guardar todo</string>
   <string name="overflow_best_item2">Eliminar todo</string>
   <string name="settings_title">Ajustes</string>
 </resources>

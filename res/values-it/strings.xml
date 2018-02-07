@@ -562,10 +562,14 @@ CHAR LIMIT = NONE] -->
   <string name="save_best_dialog_native_bt">Annulla</string>
   <string name="save_best_image_toast">%1$d di 10 immagini salvate.</string>
   <string name="dialog_do_not_show">Non mostrare di nuovo</string>
+  <string name="delete_best_dialog_title">Elimina tutto?</string>
+  <string name="delete_best_dialog_content">Sei sicuro di che voler eliminare tutte le 10 foto scattate?</string>
   <string name="delete_best_dialog_native_bt">Annulla</string>
   <string name="delete_best_dialog_positive_bt">Elimina</string>
+  <string name="delete_all_best_dialog_title">Elimina tutto?</string>
   <string name="delete_all_best_dialog_native_bt">Annulla</string>
   <string name="delete_all_best_dialog_positive_bt">Elimina tutto</string>
+  <string name="overflow_best_item1">Salva tutto</string>
   <string name="overflow_best_item2">Elimina tutto</string>
   <string name="settings_title">Impostazioni</string>
 </resources>
