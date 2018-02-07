@@ -453,6 +453,7 @@
   <string name="pref_camera2_shutter_sound_entry_on">Укл.</string>
   <string name="pref_camera2_shutter_sound_entry_off">Адключана</string>
   <string name="pref_camera2_shutter_sound_title">Гук засаўкі</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">Байер</string>
   <string name="pref_camera2_initial_camera_entry_mono">Ч/Б</string>
   <string name="pref_camera2_initial_camera_entry_front">Пярэдняя</string>
 </resources>
