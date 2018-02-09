@@ -578,8 +578,8 @@ CHAR LIMIT = NONE] -->
   <string name="delete_all_best_dialog_title">Vymazať všetko?</string>
   <string name="delete_all_best_dialog_content">Naozaj chcete vymazať všetky obrázky?</string>
   <string name="delete_all_best_dialog_native_bt">Zrušiť</string>
-  <string name="delete_all_best_dialog_positive_bt">Odstrániť všetky</string>
+  <string name="delete_all_best_dialog_positive_bt">Vymazať všetky</string>
   <string name="overflow_best_item1">Uložiť všetko</string>
-  <string name="overflow_best_item2">Odstrániť všetky</string>
+  <string name="overflow_best_item2">Vymazať všetky</string>
   <string name="settings_title">Nastavenia</string>
 </resources>

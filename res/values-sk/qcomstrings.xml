@@ -158,7 +158,7 @@
   <string name="pref_camera_selfiemirror_entry_disable">Vypnúť</string>
   <string name="pref_camera_shuttersound_title">Zvuk uzávierky</string>
   <string name="pref_camera_shuttersound_entry_enable">Zapnuté</string>
-  <string name="pref_camera_shuttersound_entry_disable">Nezobrazovať</string>
+  <string name="pref_camera_shuttersound_entry_disable">Vypnuté</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">Vysoká rýchlosť/pomalý pohyb nie je podporované pre DIS (optická stabilizácia obrazu) a TimeLapse (časozber)</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -176,8 +176,8 @@
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
   <string name="error_app_unsupported_raw">Obrázky formátu RAW nie sú podporované v režime nulového oneskorenia uzávierky. Zvoľte JPEG</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
-  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Automatický expozičný bracketing</string>
-  <string name="pref_camera_ae_bracket_hdr_title">Automatický expozičný bracketing</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Automatické posúvanie expozície</string>
+  <string name="pref_camera_ae_bracket_hdr_title">Automatické posúvanie expozície</string>
   <string name="pref_camera_ae_bracket_hdr_entry_on">Zapnuté</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">Vypnuté</string>
   <string name="err_app_unsupport_ae_bracket_code">Automatické posúvanie expozície nie je zatiaľ podporované</string>
@@ -297,7 +297,7 @@
   <!-- Settings screen, Multiple levels entries -->
   <string name="pref_camera_sharpness_entry_level0">Úroveň 0</string>
   <string name="pref_camera_sharpness_entry_level1">Úroveň 1</string>
-  <string name="pref_camera_sharpness_entry_level2">Úroveň 2 (Predvolené)</string>
+  <string name="pref_camera_sharpness_entry_level2">Úroveň 2 (predvolené)</string>
   <string name="pref_camera_sharpness_entry_level3">Úroveň 3</string>
   <string name="pref_camera_sharpness_entry_level4">Úroveň 4</string>
   <string name="pref_camera_sharpness_entry_level5">Úroveň 5</string>
@@ -308,7 +308,7 @@
   <string name="pref_camera_contrast_entry_level2">Úroveň 2</string>
   <string name="pref_camera_contrast_entry_level3">Úroveň 3</string>
   <string name="pref_camera_contrast_entry_level4">Úroveň 4</string>
-  <string name="pref_camera_contrast_entry_level5">Úroveň 5 (Predvolené)</string>
+  <string name="pref_camera_contrast_entry_level5">Úroveň 5 (predvolené)</string>
   <string name="pref_camera_contrast_entry_level6">Úroveň 6</string>
   <string name="pref_camera_contrast_entry_level7">Úroveň 7</string>
   <string name="pref_camera_contrast_entry_level8">Úroveň 8</string>
@@ -320,7 +320,7 @@
   <string name="pref_camera_saturation_entry_level2">Úroveň 2</string>
   <string name="pref_camera_saturation_entry_level3">Úroveň 3</string>
   <string name="pref_camera_saturation_entry_level4">Úroveň 4</string>
-  <string name="pref_camera_saturation_entry_level5">Úroveň 5 (Predvolené)</string>
+  <string name="pref_camera_saturation_entry_level5">Úroveň 5 (predvolené)</string>
   <string name="pref_camera_saturation_entry_level6">Úroveň 6</string>
   <string name="pref_camera_saturation_entry_level7">Úroveň 7</string>
   <string name="pref_camera_saturation_entry_level8">Úroveň 8</string>

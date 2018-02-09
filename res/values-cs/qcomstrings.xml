@@ -26,7 +26,7 @@
   <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
   <!-- Settings screen, Power Mode title -->
-  <string name="pref_camera_powermode_title">Režim napájení</string>
+  <string name="pref_camera_powermode_title">Režim výkonu</string>
   <!-- Settings screen, Power mode dialog radio button choices -->
   <string name="pref_camera_powermode_entry_lp">Nízký výkon</string>
   <string name="pref_camera_powermode_entry_np">Normální výkon</string>
@@ -64,7 +64,7 @@
   <string name="pref_camera_selectablezoneaf_title">Zóna automatického ostření</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_selectablezoneaf_entry_auto">Autom.</string>
-  <string name="pref_camera_selectablezoneaf_entry_spotmetering">Bodový</string>
+  <string name="pref_camera_selectablezoneaf_entry_spotmetering">Bodové měření</string>
   <string name="pref_camera_selectablezoneaf_entry_centerweighted">Se zvýrazněným středem</string>
   <string name="pref_camera_selectablezoneaf_entry_frameaverage">Průměrový</string>
   <!-- Auto exposure entry values. Do not translate. -->
@@ -160,7 +160,7 @@
   <string name="pref_camera_shuttersound_entry_enable">Povoleno</string>
   <string name="pref_camera_shuttersound_entry_disable">Nezobrazovat</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
-  <string name="error_app_unsupported_hfr_selection">Vysoká rychlost snímání (zpomalený pohyb) nelze použít pro stabilizátor / časosběr / HDR.</string>
+  <string name="error_app_unsupported_hfr_selection">Vysokou rychlost snímání nelze použít pro stabilizátor/časosběr/HDR.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
   <string name="error_app_unsupported_hfr">Zpomalené video není pro velikost vybraného videa podporováno. Zvolte menší velikost</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -384,7 +384,7 @@
   <!-- HDR mode entry values. Do not translate. -->
   <!--Default video rotation setting-->
   <!--Settings screen, video rotation title-->
-  <string name="pref_camera_video_rotation_title">Rotace video</string>
+  <string name="pref_camera_video_rotation_title">Otáčení videa</string>
   <!--Menu, video rotation label-->
   <string name="pref_camera_video_rotation_label">OTÁČENÍ VIDEA</string>
   <!-- Settings screen, Video rotation dialog radio button choices -->
@@ -393,7 +393,7 @@
   <string name="pref_camera_video_rotation_entry_180">180°</string>
   <string name="pref_camera_video_rotation_entry_270">270°</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
-  <string name="map_activity_not_found_err">Pro zobrazení polohy je nutné mít nainstalovánu mapovou aplikaci</string>
+  <string name="map_activity_not_found_err">Není nainstalována žádná mapová aplikace pro zobrazení polohy</string>
   <!-- Continuous shot enable message -->
   <string name="longshot_enable_message">V sekvenčním snímání nejsou podporovány rozšířené funkce</string>
   <!-- Advanced features enable message -->
