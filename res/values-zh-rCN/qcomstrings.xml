@@ -472,16 +472,21 @@
   <string name="makeup_ui_ok_button">确定</string>
   <string name="perf_camera2_version_info">版本信息</string>
   <string name="perf_camera2_preferences_category_general">常规</string>
+  <string name="perf_camera2_preferences_category_photo">静置相机</string>
   <string name="perf_camera2_preferences_category_video">摄像机</string>
   <string name="perf_camera2_preferences_category_system">系统</string>
   <string name="pref_camera2_scene_mode_dual_camera_instructional_content">在双摄模式下, 您的照片将更加清晰。还可以通过在相册中编辑双摄相片来应用背景效果。</string>
   <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">使用 UbiFocus ，您的相机将会拍摄5张位于不同焦点的照片，并合成一张照片，您可以稍后重新选择焦点。</string>
+  <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">若放大后仍要获得清晰的照片，请使用 Optizoom ，您可以在拍照前或拍照后缩放。</string>
   <string name="pref_camera2_scene_mode_sports_instructional_content">运动模式将帮助您在运动或动作中更好的拍摄照片。\n\n该功能仅限照片，不会影响视频录制。</string>
+  <string name="pref_camera2_scene_mode_hdr_instructional_content">当您在混合光照情况下，如低光和背光的场景下，选择“HDR“以获得尽可能好的照片。</string>
   <string name="pref_camera2_scene_mode_best_photo_instructional_content">允许连续拍摄 10 张照片，并让您选择最好的一张或多张。</string>
+  <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">使用 ChromaFlash ，您在闪光灯下拍摄的照片将同时为人物和背景进行优化。此功能仅限后置摄像头。</string>
   <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">锐化照片将会减少由于高速运动或者相机抖动引起的模糊。</string>
   <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">允许您在拍摄图片或视频时将焦点集中于选定的人或物件上。请将焦点矩形放在要跟踪的人或物件上即可开始。</string>
   <string name="pref_camera2_scene_mode_time_lapse_instructional_content">在延时摄影模式下，您可以将一段长时间的视频转换为只有几秒钟的视频。此效果仅限视频，对于照片无效。</string>
   <string name="pref_camera2_scene_mode_panorama_instructional_content">允许您从左到右拍摄一幅风景照片。您也可以从上到下拍摄一幅长条形状的照片。</string>
+  <string name="pref_camera2_scene_mode_blur_buster_instructional_content">模糊抵消器将会抵消由于拍摄时手部抖动造成的模糊，这会协助您在困难环境的拍摄。</string>
   <string name="pref_camera2_scene_mode_pro_instructional_content">在专业模式下，您可以手动控制ISO，曝光，白平衡和对焦。 您将可以轻松访问这些高级设置</string>
   <string name="pref_camera2_not_show_again">不再显示</string>
   <string name="pref_camera2_scene_mode_instructional_ok">确定</string>
@@ -518,6 +523,7 @@
   <string name="pref_camera_bokeh_mode_title">虚化模式</string>
   <string name="pref_camera_bokeh_mode_entry_enable">开启</string>
   <string name="pref_camera_bokeh_mode_entry_disable">停用</string>
+  <string name="pref_camera_bokeh_mpo_title">MPO 虚化模式</string>
   <string name="pref_camera_bokeh_mpo_entry_enable">开启</string>
   <string name="pref_camera_bokeh_mpo_entry_disable">停用</string>
   <string name="pref_camera_bokeh_blur_degree_title">虚化模糊值</string>
@@ -535,12 +541,17 @@
   <string name="pref_camera_zoom_entry_8x">8 倍</string>
   <string name="pref_camera_zoom_entry_9x">9 倍</string>
   <string name="pref_camera_zoom_entry_10x">10 倍</string>
+  <string name="pref_camera2_bsgc_title">微笑／眨眼／注视检测</string>
   <string name="pref_camera2_bsgc_entry_enable">开启</string>
   <string name="pref_camera2_bsgc_entry_disable">停用</string>
   <string name="pref_camera2_zsl_title">零快门延迟</string>
   <string name="pref_camera2_zsl_entry_disable">关闭</string>
+  <string name="pref_camera2_zsl_entry_app_zsl">软件零延迟快门</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl">硬件零延迟快门</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
+  <string name="pref_camera2_switch_camera_title">按 ID 切换照相机</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">拜耳</string>
   <string name="pref_camera2_initial_camera_entry_mono">黑白</string>
   <string name="pref_camera2_initial_camera_entry_front">正面相机</string>
 </resources>

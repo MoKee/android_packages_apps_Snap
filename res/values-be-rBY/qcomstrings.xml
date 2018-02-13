@@ -444,6 +444,12 @@
   <string name="perf_camera2_version_info">Iнфармацыя аб версіі</string>
   <string name="perf_camera2_preferences_category_general">Агульнае</string>
   <string name="perf_camera2_preferences_category_system">Сістэма</string>
+  <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">З дапамогай Chroma-ўспышкі асвятленне на фотаздымках, знятых з успышкай, будзе аптымізавана для ўсіх людзей і аб\'ектаў у фатаграфіі. Гэта функцыя дастасоўная толькі да асноўнай камеры.</string>
+  <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">SharpPhoto памяншае размыццё, якое ўзнікла з прычыны руху аб\'екта або рукі.</string>
+  <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Дазваляе вам адсочваць і факусавацца на абраным чалавеку або аб\'екце падчас фота- або відэаздымкі. Каб пачаць, размесціце прастакутнік фокусу на чалавеку або аб\'екце, які вы хочаце адсочваць.</string>
+  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">У рэжыме інтэрвальнай здымкі вы можаце пераўтварыць доўгі відэазапіс ў відэа малога памеру. Эфект выкарыстоўваецца толькі ў відэа.</string>
+  <string name="pref_camera2_scene_mode_panorama_instructional_content">Дазваляе зрушваць акно здымкі налева або направа для здымкі ландшафтнага фота. Вы можаце таксама зрушваць яго ўверх ці ўніз, каб здымаць высокія фатаграфіі.</string>
+  <string name="pref_camera2_scene_mode_blur_buster_instructional_content">Рэжым размыцця памяншае размыццё пры здымцы з дрыготкімі рукамі. Можа быць карысна пры здымцы ў цяжкіх умовах.</string>
   <string name="pref_camera2_not_show_again">Не паказваць зноў</string>
   <string name="pref_camera2_scene_mode_instructional_ok">ОК</string>
   <string name="pref_camera2_instant_aec_entry_disable">Адключыць</string>
