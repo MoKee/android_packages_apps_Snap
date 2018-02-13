@@ -453,7 +453,7 @@
   <string name="pref_camera2_shutter_sound_entry_on">開啟</string>
   <string name="pref_camera2_shutter_sound_entry_off">關閉</string>
   <string name="pref_camera2_shutter_sound_title">快門音效</string>
-  <string name="pref_camera2_initial_camera_entry_bayer">拜爾</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
   <string name="pref_camera2_initial_camera_entry_mono">單色</string>
   <string name="pref_camera2_initial_camera_entry_front">前置鏡頭</string>
 </resources>
