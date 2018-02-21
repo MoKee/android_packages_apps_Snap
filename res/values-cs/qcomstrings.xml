@@ -546,8 +546,8 @@
   <string name="pref_camera2_bsgc_entry_disable">Zakázat</string>
   <string name="pref_camera2_zsl_title">Bez zpoždění závěrky</string>
   <string name="pref_camera2_zsl_entry_disable">Vypnuto</string>
-  <string name="pref_camera2_zsl_entry_app_zsl">Softwarové ZLS</string>
-  <string name="pref_camera2_zsl_entry_hal_zsl">Hardwarové ZLS</string>
+  <string name="pref_camera2_zsl_entry_app_zsl">Softwarové ZSL</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl">Hardwarové ZSL</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
   <string name="pref_camera2_switch_camera_title">Přepnutí fotoaparátu pomocí ID</string>

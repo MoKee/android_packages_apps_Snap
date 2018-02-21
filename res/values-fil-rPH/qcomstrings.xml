@@ -226,11 +226,33 @@
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Ang Auto</string>
   <string name="pref_camera_iso_entry_isodeblur">Naka auto (HJR)</string>
+  <string name="pref_camera_iso_entry_iso50">ISO50</string>
   <string name="pref_camera_iso_entry_iso100">Ang ISO100</string>
+  <string name="pref_camera_iso_entry_iso125">ISO125</string>
+  <string name="pref_camera_iso_entry_iso150">ISO150</string>
   <string name="pref_camera_iso_entry_iso200">Ang ISO200</string>
+  <string name="pref_camera_iso_entry_iso250">ISO250</string>
+  <string name="pref_camera_iso_entry_iso300">ISO300</string>
+  <string name="pref_camera_iso_entry_iso320">ISO320</string>
+  <string name="pref_camera_iso_entry_iso350">ISO350</string>
   <string name="pref_camera_iso_entry_iso400">Ang ISO400</string>
+  <string name="pref_camera_iso_entry_iso450">ISO450</string>
+  <string name="pref_camera_iso_entry_iso500">ISO500</string>
+  <string name="pref_camera_iso_entry_iso600">ISO600</string>
+  <string name="pref_camera_iso_entry_iso640">ISO640</string>
+  <string name="pref_camera_iso_entry_iso700">ISO700</string>
   <string name="pref_camera_iso_entry_iso800">Ang ISO800</string>
+  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
+  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
+  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
+  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
   <string name="pref_camera_iso_entry_iso1600">Ang ISO 1600</string>
+  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
+  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
+  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
+  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
+  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
+  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Ang hindi banding</string>
@@ -429,8 +451,10 @@
   <string name="pref_camera2_trackingfocus_entry_on">Ang device ay nakabukas</string>
   <string name="pref_camera2_trackingfocus_entry_off">Patay</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Ang pinakamahusay na larawan</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter">Ang matulis na larawan</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">Ang pokus sa pagsubaybay</string>
   <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
+  <string name="pref_camera_scenemode_entry_promode">Pro mode</string>
   <string name="bestpicture_done">TAPOS NA</string>
   <string name="bestpicture_at_least_one_picture">Ang hindi bababa ng isang larawan na dapat piliin.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Ang device ay nakabukas</string>
@@ -440,10 +464,21 @@
   <string name="pref_camera2_timer_entry_2sec">2 na segundo</string>
   <string name="pref_camera2_timer_entry_5sec">5 na segundo</string>
   <string name="pref_camera2_timer_entry_10sec">10 segundo</string>
+  <string name="pref_camera2_saveraw_title">Maliban sa ayos ng hilaw</string>
+  <string name="panocapture_direction_is_not_determined">Ilipat palage patungo sa isang direksyon.</string>
+  <string name="panocapture_intro">Pindutin ang kamera upang magsimula.</string>
+  <string name="panocapture_direction_is_changed">Ang pamamahala ay nagbago, hantong sa panurama pagkabihag\u2026</string>
+  <string name="makeup_ui_title">Mamili ng puwersa sa kagandahan.</string>
   <string name="makeup_ui_ok_button">OK</string>
   <string name="perf_camera2_version_info">Impormasyon sa Bersyon</string>
   <string name="perf_camera2_preferences_category_general">Pangkalahatan</string>
+  <string name="perf_camera2_preferences_category_photo">Ihinto ang kamera</string>
+  <string name="perf_camera2_preferences_category_video">Video kamera</string>
   <string name="perf_camera2_preferences_category_system">Sistema</string>
+  <string name="pref_camera2_scene_mode_dual_camera_instructional_content">Sa dalawang kamera pamamaraan, mo mas malinaw ang mga larawan. kaya mo marunong gamitin ng imaheng epekto, sa pag edit mosa dalawang litrato sa 
+tanghalan.</string>
+  <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">Sa UbiPocus, iyong kamera ay kukuha ng limang mga larawan at pagsamahin ang mga ito sa isang larawan, kung saan ang lahat ay pokus. 
+Maaari kang pumili upang muling tumuon, pagkatapos mong kunan ng larawan.</string>
   <string name="pref_camera2_not_show_again">Huwag ipakita pang muli</string>
   <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
   <string name="pref_camera2_instant_aec_entry_disable">Hindi pinagana</string>
