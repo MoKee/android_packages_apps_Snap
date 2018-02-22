@@ -35,6 +35,7 @@
   <!-- String indicating timestamp of photo or video -->
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
+  <string name="edit">Editatu</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
   <string name="crop_action">Ebaki</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
