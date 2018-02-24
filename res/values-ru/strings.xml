@@ -32,6 +32,7 @@
   <plurals name="delete_selection">
     <item quantity="one">Удалить выбранный файл?</item>
     <item quantity="few">Удалить выбранные файлы?</item>
+    <item quantity="many">Удалить выбранные файлы?</item>
     <item quantity="other">Удалить выбранные файлы?</item>
   </plurals>
   <string name="share">Отправить</string>
@@ -48,6 +49,7 @@
   <plurals name="number_of_items_selected">
     <item quantity="one">%1$d выбрано</item>
     <item quantity="few">%1$d выбрано</item>
+    <item quantity="many">%1$d выбрано</item>
     <item quantity="other">%1$d выбрано</item>
   </plurals>
   <!-- String indicating how many media album(s) is(are) selected
@@ -55,6 +57,7 @@
   <plurals name="number_of_albums_selected">
     <item quantity="one">%1$d выбрано</item>
     <item quantity="few">%1$d выбрано</item>
+    <item quantity="many">%1$d выбрано</item>
     <item quantity="other">%1$d выбрано</item>
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
@@ -62,6 +65,7 @@
   <plurals name="number_of_groups_selected">
     <item quantity="one">%1$d выбрано</item>
     <item quantity="few">%1$d выбрано</item>
+    <item quantity="many">%1$d выбрано</item>
     <item quantity="other">%1$d выбрано</item>
   </plurals>
   <!-- String indicating timestamp of photo or video -->
@@ -178,6 +182,7 @@
   <plurals name="pref_camera_timer_entry">
     <item quantity="one">1 сек.</item>
     <item quantity="few">%d сек.</item>
+    <item quantity="many">%d сек.</item>
     <item quantity="other">%d сек.</item>
   </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
@@ -565,11 +570,21 @@ CHAR LIMIT = NONE] -->
   <string name="pref_camera2_category_system">Система</string>
   <string name="pref_camera2_restore_default">Восстановить по умолчанию</string>
   <string name="pref_camera2_restore_default_hint">Настройки камеры будут восстановлены по умолчанию!</string>
-  <string name="save_best_dialog_content">%1$d из 10 изображений будут сохранены, а остальные будут удалены.</string>
+  <plurals name="save_best_dialog_content">
+    <item quantity="one">%1$d из 10 изображений будут сохранены, а остальные будут удалены.</item>
+    <item quantity="few">%1$d из 10 изображений будут сохранены, а остальные будут удалены.</item>
+    <item quantity="many">%1$d из 10 изображений будут сохранены, а остальные будут удалены.</item>
+    <item quantity="other">%1$d из 10 изображений будут сохранены, а остальные будут удалены.</item>
+  </plurals>
   <string name="save_best_dialog_title">Сохранить выбранные изображения?</string>
   <string name="save_best_dialog_positive_bt">ОК</string>
   <string name="save_best_dialog_native_bt">Отмена</string>
-  <string name="save_best_image_toast">%1$d из 10 изображений сохранено.</string>
+  <plurals name="save_best_image_toast">
+    <item quantity="one">%1$d из 10 изображений сохранено.</item>
+    <item quantity="few">%1$d из 10 изображений сохранено.</item>
+    <item quantity="many">%1$d из 10 изображений сохранено.</item>
+    <item quantity="other">%1$d из 10 изображений сохранено.</item>
+  </plurals>
   <string name="dialog_do_not_show">Не показывать снова</string>
   <string name="delete_best_dialog_title">Удалить все?</string>
   <string name="delete_best_dialog_content">Вы действительно хотите удалить все 10 изображений?</string>

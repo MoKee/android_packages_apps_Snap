@@ -551,7 +551,6 @@ CHAR LIMIT = NONE] -->
   <string name="pref_camera2_category_system">Systeem</string>
   <string name="save_best_dialog_positive_bt">Oké</string>
   <string name="save_best_dialog_native_bt">Annuleren</string>
-  <string name="save_best_image_toast">%1$d van 10 afbeeldingen opgeslagen.</string>
   <string name="dialog_do_not_show">Niet meer weergeven</string>
   <string name="delete_best_dialog_native_bt">Annuleren</string>
   <string name="delete_best_dialog_positive_bt">Verwijderen</string>

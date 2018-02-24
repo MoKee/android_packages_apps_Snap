@@ -32,6 +32,7 @@
   <plurals name="delete_selection">
     <item quantity="one">Smazat vybranou položku?</item>
     <item quantity="few">Smazat vybrané položky?</item>
+    <item quantity="many">Smazat vybraných položek?</item>
     <item quantity="other">Smazat vybrané položky?</item>
   </plurals>
   <string name="share">Sdílet</string>
@@ -48,13 +49,15 @@
   <plurals name="number_of_items_selected">
     <item quantity="one">Vybráno: %1$d</item>
     <item quantity="few">Vybráno: %1$d</item>
-    <item quantity="other">%1$d vybrány</item>
+    <item quantity="many">Vybráno: %1$d</item>
+    <item quantity="other">Vybráno: %1$d</item>
   </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_albums_selected">
     <item quantity="one">Vybráno: %1$d</item>
     <item quantity="few">Vybráno: %1$d</item>
+    <item quantity="many">Vybráno: %1$d</item>
     <item quantity="other">%1$d vybrány</item>
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
@@ -62,6 +65,7 @@
   <plurals name="number_of_groups_selected">
     <item quantity="one">Vybráno: %1$d</item>
     <item quantity="few">Vybráno: %1$d</item>
+    <item quantity="many">Vybráno: %1$d</item>
     <item quantity="other">%1$d vybrány</item>
   </plurals>
   <!-- String indicating timestamp of photo or video -->
@@ -178,6 +182,7 @@
   <plurals name="pref_camera_timer_entry">
     <item quantity="one">1 s</item>
     <item quantity="few">%d s</item>
+    <item quantity="many">%d s</item>
     <item quantity="other">%d s</item>
   </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
@@ -565,11 +570,21 @@ CHAR LIMIT = NONE] -->
   <string name="pref_camera2_category_system">Systém</string>
   <string name="pref_camera2_restore_default">Obnovit původní</string>
   <string name="pref_camera2_restore_default_hint">Nastavení fotoaparátu bude obnoveno na výchozí nastavení</string>
-  <string name="save_best_dialog_content">%1$d z 10 bude uloženo a zbytek odstraněn.</string>
+  <plurals name="save_best_dialog_content">
+    <item quantity="one">%1$d z 10 obrázků bude uloženo a zbytek odstraněn</item>
+    <item quantity="few">%1$d z 10 obrázků bude uloženo a zbytek odstraněn</item>
+    <item quantity="many">%1$d z 10 obrázků bude uloženo a zbytek odstraněn</item>
+    <item quantity="other">%1$d z 10 obrázků bude uloženo a zbytek odstraněn</item>
+  </plurals>
   <string name="save_best_dialog_title">Uložit vybrané obrázky?</string>
   <string name="save_best_dialog_positive_bt">OK</string>
   <string name="save_best_dialog_native_bt">Zrušit</string>
-  <string name="save_best_image_toast">%1$d z 10 obrázků uloženo.</string>
+  <plurals name="save_best_image_toast">
+    <item quantity="one">%1$d z 10 obrázků uložen.</item>
+    <item quantity="few">%1$d z 10 obrázků uloženo.</item>
+    <item quantity="many">%1$d z 10 obrázků uloženo.</item>
+    <item quantity="other">%1$d z 10 obrázků uloženo.</item>
+  </plurals>
   <string name="dialog_do_not_show">Znovu nezobrazovat</string>
   <string name="delete_best_dialog_title">Odstranit vše?</string>
   <string name="delete_best_dialog_content">Opravdu chcete odstranit všech 10 pořízených snímků?</string>

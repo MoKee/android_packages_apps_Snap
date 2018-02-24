@@ -524,7 +524,6 @@ CHAR LIMIT = NONE] -->
   <string name="pref_camera2_restore_default">Ibalik ang mga default</string>
   <string name="save_best_dialog_positive_bt">OK</string>
   <string name="save_best_dialog_native_bt">Kanselahin</string>
-  <string name="save_best_image_toast">%1$d sa 10 mga litrato ay nai-save.</string>
   <string name="dialog_do_not_show">Huwag ipakitang muli</string>
   <string name="delete_best_dialog_native_bt">Kanselahin</string>
   <string name="delete_best_dialog_positive_bt">Tanggalin</string>
