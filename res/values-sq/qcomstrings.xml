@@ -56,6 +56,7 @@
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Selectable advanced features title -->
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
+  <string name="pref_camera_advanced_feature_entry_none">Asnjë</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_entry_off">Inaktiv</string>
@@ -93,7 +94,6 @@
   <string name="pref_camera_video_tnr_entry_enable">Aktivizo</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
-  <string name="pref_camera_video_hdr_title">Video HDR</string>
   <!-- Settings menu, setting title text for cds mode-->
   <!-- Settings menu, setting title text for video cds mode-->
   <!-- Default cds mode setting-->
@@ -173,30 +173,9 @@
   <string name="pref_camera_denoise_entry_on">Aktiv</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
-  <string name="pref_camera_iso_entry_auto">Auto</string>
-  <string name="pref_camera_iso_entry_isodeblur">Auto (HJR)</string>
-  <string name="pref_camera_iso_entry_iso50">ISO50</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso125">ISO125</string>
-  <string name="pref_camera_iso_entry_iso150">ISO150</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso250">ISO250</string>
-  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
-  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
-  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
-  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
-  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
-  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
-  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
-  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
-  <string name="pref_camera_antibanding_title">Antibanding</string>
   <!-- Default Anti Banding setting. -->
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Automatikisht</string>
@@ -210,10 +189,9 @@
   <string name="pref_camera_filter_mode_title">Efekti i ngjyrave</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Asnjë</string>
-  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
-  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
+  <string name="pref_camera_coloreffect_entry_posterize">Bëje afishe</string>
   <!-- Select IS title -->
   <!-- DIS choices -->
   <string name="pref_camera_dis_entry_off">Inaktiv</string>
@@ -227,6 +205,7 @@
   <!-- Settings screen, Multiple levels entries -->
   <!-- Default sharpness setting. Do not translate. -->
   <!-- Settings screen, Select sharpness title -->
+  <string name="pref_camera_sharpness_title">Qartësia</string>
   <!-- Default contrast setting. Do not translate. -->
   <!-- Settings screen, Select contrast title -->
   <string name="pref_camera_contrast_title">Kontrasti</string>
@@ -248,7 +227,7 @@
   <string name="pref_camera_jpegquality_entry_2">E lartë</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
-  <string name="pref_camera_histogram_title">Histogram</string>
+  <string name="pref_camera_histogram_title">Histogrami</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">Aktivizo</string>
   <string name="pref_camera_histogram_entry_disable">Çaktivizo</string>
@@ -344,19 +323,17 @@
   <string name="pref_camera2_timer_entry_off">Inaktiv</string>
   <string name="pref_camera2_timer_entry_2sec">2 sekonda</string>
   <string name="pref_camera2_timer_entry_5sec">5 sekonda</string>
-  <string name="makeup_ui_ok_button">OK</string>
   <string name="perf_camera2_version_info">Të dhëna mbi versionin</string>
   <string name="perf_camera2_preferences_category_general">Të përgjithshme</string>
-  <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
+  <string name="perf_camera2_preferences_category_system">Sistemi</string>
   <string name="pref_camera2_instant_aec_entry_disable">Çaktivizo</string>
   <string name="pref_camera2_instant_aec_entry_aggressive">AEC agresiv</string>
   <string name="pref_camera2_instant_aec_entry_fast">AEC e shpejtë</string>
   <string name="pref_camera2_saturation_level_title">Saturimi</string>
-  <string name="pref_camera2_anti_banding_level_title">Antibanding</string>
   <string name="pref_camera2_anti_banding_level_entry_off">Inaktiv</string>
   <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Evropë)</string>
   <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (SHBA)</string>
-  <string name="pref_camera2_histogram_title">Histogram</string>
+  <string name="pref_camera2_histogram_title">Histogrami</string>
   <string name="pref_camera2_histogram_entry_enable">Aktivizo</string>
   <string name="pref_camera2_histogram_entry_disable">Çaktivizo</string>
   <string name="pref_camera2_hdr_entry_enable">Aktivizo</string>
@@ -370,20 +347,9 @@
   <!-- Default Zoom setting. -->
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Inaktiv</string>
-  <string name="pref_camera_zoom_entry_1x">1x</string>
-  <string name="pref_camera_zoom_entry_2x">2x</string>
-  <string name="pref_camera_zoom_entry_3x">3x</string>
-  <string name="pref_camera_zoom_entry_4x">4x</string>
-  <string name="pref_camera_zoom_entry_5x">5x</string>
-  <string name="pref_camera_zoom_entry_6x">6x</string>
-  <string name="pref_camera_zoom_entry_7x">7x</string>
-  <string name="pref_camera_zoom_entry_8x">8x</string>
-  <string name="pref_camera_zoom_entry_9x">9x</string>
-  <string name="pref_camera_zoom_entry_10x">10x</string>
   <string name="pref_camera2_bsgc_entry_enable">Aktivizo</string>
   <string name="pref_camera2_bsgc_entry_disable">Çaktivizo</string>
   <string name="pref_camera2_zsl_entry_disable">Inaktiv</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
-  <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
 </resources>

@@ -221,37 +221,9 @@
   <string name="pref_camera_denoise_entry_on">Bai</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
-  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automatikoa</string>
   <string name="pref_camera_iso_entry_isodeblur">Automatikoa (HJR)</string>
-  <string name="pref_camera_iso_entry_iso50">ISO50</string>
-  <string name="pref_camera_iso_entry_iso100">ISO100</string>
-  <string name="pref_camera_iso_entry_iso125">ISO125</string>
-  <string name="pref_camera_iso_entry_iso150">ISO150</string>
-  <string name="pref_camera_iso_entry_iso200">ISO200</string>
-  <string name="pref_camera_iso_entry_iso250">ISO250</string>
-  <string name="pref_camera_iso_entry_iso300">ISO300</string>
-  <string name="pref_camera_iso_entry_iso320">ISO320</string>
-  <string name="pref_camera_iso_entry_iso350">ISO350</string>
-  <string name="pref_camera_iso_entry_iso400">ISO400</string>
-  <string name="pref_camera_iso_entry_iso450">ISO450</string>
-  <string name="pref_camera_iso_entry_iso500">ISO500</string>
-  <string name="pref_camera_iso_entry_iso600">ISO600</string>
-  <string name="pref_camera_iso_entry_iso640">ISO640</string>
-  <string name="pref_camera_iso_entry_iso700">ISO700</string>
-  <string name="pref_camera_iso_entry_iso800">ISO800</string>
-  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
-  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
-  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
-  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
-  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
-  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
-  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
-  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
-  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Marratzea ekiditea</string>
@@ -259,7 +231,6 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Automatikoa</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
-  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Bai</string>
   <string name="pref_camera_filter_mode_entry_off">Ez</string>
@@ -268,8 +239,6 @@
   <string name="pref_camera_filter_mode_title">Kolore efektua</string>
   <!-- Settings screen, Color effect dialog radio button choices -->
   <string name="pref_camera_coloreffect_entry_none">Bat ere ez</string>
-  <string name="pref_camera_coloreffect_entry_mono">Mono</string>
-  <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
   <string name="pref_camera_coloreffect_entry_negative">Negatiboa</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Solarizatu</string>
@@ -458,6 +427,8 @@
   <string name="pref_camera2_shutter_sound_title">Obturadorearen soinua</string>
   <string name="pref_camera2_timer_entry_off">Ez</string>
   <string name="makeup_ui_ok_button">ADOS</string>
+  <string name="perf_camera2_preferences_category_general">Orokorra</string>
+  <string name="perf_camera2_preferences_category_system">Sistema</string>
   <string name="pref_camera2_scene_mode_instructional_ok">ADOS</string>
   <string name="pref_camera2_instant_aec_entry_disable">Desgaitu</string>
   <string name="pref_camera2_instant_aec_entry_aggressive">AEC erasokorra</string>
@@ -477,7 +448,6 @@
   <string name="pref_camera2_anti_banding_level_title">Marratzea ekiditea</string>
   <string name="pref_camera2_anti_banding_level_entry_off">Ez</string>
   <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Europa)</string>
-  <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (USA)</string>
   <string name="pref_camera2_anti_banding_level_entry_auto">Automatikoa</string>
   <string name="pref_camera2_histogram_title">Histograma</string>
   <string name="pref_camera2_histogram_entry_enable">Gaitu</string>
@@ -500,7 +470,5 @@
   <string name="pref_camera2_zsl_entry_disable">Ez</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
-  <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
-  <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
   <string name="pref_camera2_initial_camera_entry_front">Aurrekoa</string>
 </resources>

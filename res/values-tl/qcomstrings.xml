@@ -222,6 +222,7 @@
   <string name="pref_camera_denoise_entry_on">Naka-on</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
+  <string name="pref_camera_iso_title">ISO</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Awtomatiko</string>
   <string name="pref_camera_iso_entry_isodeblur">Kotse (HJR)</string>
@@ -248,6 +249,7 @@
   <string name="pref_camera_coloreffect_entry_none">Wala</string>
   <string name="pref_camera_coloreffect_entry_mono">Mono</string>
   <string name="pref_camera_coloreffect_entry_sepia">Sepya</string>
+  <string name="pref_camera_coloreffect_entry_negative">Ayawan</string>
   <!-- Color effect that overexposes and reverses some of the tones. -->
   <string name="pref_camera_coloreffect_entry_solarize">Solarisahin</string>
   <string name="pref_camera_coloreffect_entry_posterize">I-posterize</string>
@@ -304,10 +306,13 @@
   <string name="pref_camera_saturation_entry_level10">Antas 10</string>
   <!-- Default sharpness setting. Do not translate. -->
   <!-- Settings screen, Select sharpness title -->
+  <string name="pref_camera_sharpness_title">Katulisan</string>
   <!-- Default contrast setting. Do not translate. -->
   <!-- Settings screen, Select contrast title -->
+  <string name="pref_camera_contrast_title">Ang pagkakaiba</string>
   <!-- Default saturation setting. Do not translate. -->
   <!-- Settings screen, Select saturation title -->
+  <string name="pref_camera_saturation_title">Lunod</string>
   <!-- Default picture quality setting. See
          pref_camera_jpegquality_entryvalues for possible values -->
   <!-- Default Picture format setting. Do not translate. -->
@@ -323,6 +328,7 @@
   <string name="pref_camera_jpegquality_entry_2">Mataas</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
+  <string name="pref_camera_histogram_title">Ang histogram</string>
   <!-- Settings screen, Histogram radio button choices -->
   <string name="pref_camera_histogram_entry_enable">I-enable</string>
   <string name="pref_camera_histogram_entry_disable">I-disable</string>
@@ -424,6 +430,7 @@
   <string name="pref_camera2_trackingfocus_entry_off">I-off</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Ang pinakamahusay na larawan</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">Pokus ng pagsubaybay</string>
+  <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
   <string name="bestpicture_done">TAPOS NA</string>
   <string name="bestpicture_at_least_one_picture">Hindi bababa sa isa na larawan ang dapat piliin.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Naka-on</string>
@@ -447,6 +454,7 @@
   <string name="pref_camera2_instant_aec_entry_disable">I-disable</string>
   <string name="pref_camera2_instant_aec_entry_aggressive">Agresibo AEC</string>
   <string name="pref_camera2_instant_aec_entry_fast">Mabilis AEC</string>
+  <string name="pref_camera2_saturation_level_title">Lunod</string>
   <string name="pref_camera2_saturation_level_entry_0">Antas 0</string>
   <string name="pref_camera2_saturation_level_entry_1">Antas 1</string>
   <string name="pref_camera2_saturation_level_entry_2">Antas 2</string>
@@ -463,8 +471,10 @@
   <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Europe)</string>
   <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (USA)</string>
   <string name="pref_camera2_anti_banding_level_entry_auto">Awtomatiko</string>
+  <string name="pref_camera2_histogram_title">Ang histogram</string>
   <string name="pref_camera2_histogram_entry_enable">I-enable</string>
   <string name="pref_camera2_histogram_entry_disable">I-disable</string>
+  <string name="pref_camera2_hdr_title">HDR</string>
   <string name="pref_camera2_hdr_entry_enable">I-enable</string>
   <string name="pref_camera2_hdr_entry_disable">I-disable</string>
   <string name="pref_camera2_auto_hdr_title">Auto HDR</string>
