@@ -402,7 +402,7 @@
   <string name="camera_thermal_shutdown">Điện thoại quá nóng, đang tắt máy ảnh.</string>
   <string name="camera_server_died">Máy chủ phương tiện đã đóng, đang tắt máy ảnh.</string>
   <string name="camera_unknown_error">Lỗi không xác định, đang tắt máy ảnh.</string>
-  <string name="mute_button_desc">Nút tắt âm</string>
+  <string name="mute_button_desc">Phím tắt âm</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">OK</string>
   <string name="help_menu_scene_mode_1">Chọn một</string>

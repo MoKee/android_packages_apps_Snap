@@ -389,7 +389,7 @@
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_shutter_button">Màn trập</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_menu_button">Nút menu</string>
+  <string name="accessibility_menu_button">Phím menu</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
   <string name="accessibility_mode_picker">Bộ chọn chế độ máy ảnh, video hoặc toàn cảnh</string>
   <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->

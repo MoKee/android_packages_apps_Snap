@@ -30,6 +30,7 @@
   <plurals name="delete_selection">
     <item quantity="one">Удалить выбранный файл?</item>
     <item quantity="few">Удалить выбранные файлы?</item>
+    <item quantity="many">Удалить выбранные файлы?</item>
     <item quantity="other">Удалить выбранные файлы?</item>
   </plurals>
   <string name="share">Отправить</string>
@@ -46,6 +47,7 @@
   <plurals name="number_of_items_selected">
     <item quantity="one">Выбрано: %1$d</item>
     <item quantity="few">Выбрано: %1$d</item>
+    <item quantity="many">%1$d выбрано</item>
     <item quantity="other">Выбрано: %1$d</item>
   </plurals>
   <!-- String indicating how many media album(s) is(are) selected
@@ -53,6 +55,7 @@
   <plurals name="number_of_albums_selected">
     <item quantity="one">Выбрано: %1$d</item>
     <item quantity="few">Выбрано: %1$d</item>
+    <item quantity="many">%1$d выбрано</item>
     <item quantity="other">Выбрано: %1$d</item>
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
@@ -60,6 +63,7 @@
   <plurals name="number_of_groups_selected">
     <item quantity="one">Выбрано: %1$d</item>
     <item quantity="few">Выбрано: %1$d</item>
+    <item quantity="many">%1$d выбрано</item>
     <item quantity="other">Выбрано: %1$d</item>
   </plurals>
   <!-- String indicating timestamp of photo or video -->
@@ -178,6 +182,7 @@
   <plurals name="pref_camera_timer_entry">
     <item quantity="one">1 секунда</item>
     <item quantity="few">%d секунды</item>
+    <item quantity="many">%d сек.</item>
     <item quantity="other">%d секунд</item>
   </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->

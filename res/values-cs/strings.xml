@@ -30,7 +30,8 @@
   <plurals name="delete_selection">
     <item quantity="one">Smazat vybranou položku?</item>
     <item quantity="few">Smazat vybrané položky?</item>
-    <item quantity="other">Smazat vybrané položky?</item>
+    <item quantity="many">Smazat vybraných položek?</item>
+    <item quantity="other">Smazat vybraných položek?</item>
   </plurals>
   <string name="share">Sdílet</string>
   <string name="share_panorama">Sdílet panorama</string>
@@ -44,23 +45,26 @@
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_items_selected">
-    <item quantity="one">%1$d vybrán</item>
-    <item quantity="few">%1$d vybrány</item>
-    <item quantity="other">%1$d vybraných</item>
+    <item quantity="one">Vybráno: %1$d</item>
+    <item quantity="few">Vybráno: %1$d</item>
+    <item quantity="many">Vybráno: %1$d</item>
+    <item quantity="other">Vybráno: %1$d</item>
   </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_albums_selected">
-    <item quantity="one">%1$d vybráno</item>
-    <item quantity="few">%1$d vybrány</item>
-    <item quantity="other">%1$d vybraných</item>
+    <item quantity="one">Vybráno: %1$d</item>
+    <item quantity="few">Vybráno: %1$d</item>
+    <item quantity="many">Vybráno: %1$d</item>
+    <item quantity="other">Vybráno: %1$d</item>
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_groups_selected">
-    <item quantity="one">%1$d vybrána</item>
-    <item quantity="few">%1$d vybrány</item>
-    <item quantity="other">%1$d vybraných</item>
+    <item quantity="one">Vybráno: %1$d</item>
+    <item quantity="few">Vybráno: %1$d</item>
+    <item quantity="many">Vybráno: %1$d</item>
+    <item quantity="other">Vybráno: %1$d</item>
   </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Zobrazit na mapě</string>
@@ -176,6 +180,7 @@
   <plurals name="pref_camera_timer_entry">
     <item quantity="one">1 s</item>
     <item quantity="few">%d s</item>
+    <item quantity="many">%d s</item>
     <item quantity="other">%d s</item>
   </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
