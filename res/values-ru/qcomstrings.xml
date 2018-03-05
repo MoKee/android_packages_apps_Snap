@@ -162,7 +162,7 @@
   <string name="pref_camera_shuttersound_entry_enable">Вкл.</string>
   <string name="pref_camera_shuttersound_entry_disable">Откл.</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
-  <string name="error_app_unsupported_hfr_selection">Ускоренная съёмка не поддерживается при включённой стабилизации изображения, включённом HDR или в режиме интервальной съёмки.</string>
+  <string name="error_app_unsupported_hfr_selection">Ускоренная съёмка не поддерживается при включённой стабилизации изображения, включённом HDR или в режиме покадровой съёмки.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
   <string name="error_app_unsupported_hfr">Режим замедленной съёмки не поддерживается для текущего разрешения видео. Установите более низкое разрешение.</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -346,7 +346,7 @@
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
   <string name="pref_camera_scenedetect_entry_on">Вкл.</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
-  <string name="time_lapse_error">Неверное разрешение для записи интервального видео.</string>
+  <string name="time_lapse_error">Неверное разрешение для записи покадрового видео.</string>
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Непрерывная съёмка</string>
   <string name="msg_cancel_longshot_for_limited_memory">Недостаточно памяти, непрерывная съёмка отменена</string>

@@ -453,6 +453,7 @@
   <string name="pref_camera2_shutter_sound_entry_on">开启</string>
   <string name="pref_camera2_shutter_sound_entry_off">关闭</string>
   <string name="pref_camera2_shutter_sound_title">快门声音</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
   <string name="pref_camera2_initial_camera_entry_mono">黑白</string>
   <string name="pref_camera2_initial_camera_entry_front">正面相机</string>
 </resources>

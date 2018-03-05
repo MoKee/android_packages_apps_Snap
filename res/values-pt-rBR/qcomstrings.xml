@@ -423,7 +423,7 @@
   <string name="pref_camera2_camera2_entry_enable">Habilitar</string>
   <string name="pref_camera2_camera2_entry_disable">Desativar</string>
   <string name="pref_camera2_mono_only_title">Só mono</string>
-  <string name="pref_camera2_mono_only_entry_on">Ativo</string>
+  <string name="pref_camera2_mono_only_entry_on">Ativado</string>
   <string name="pref_camera2_mono_only_entry_off">Desligado</string>
   <string name="pref_camera2_mono_preview_title">Visualização de mono</string>
   <string name="pref_camera2_mono_preview_entry_on">Ativo</string>
@@ -436,7 +436,7 @@
   <string name="pref_camera2_mpo_entry_on">Ativo</string>
   <string name="pref_camera2_mpo_entry_off">Desligado</string>
   <string name="pref_camera2_makeup_title">Maquiagem</string>
-  <string name="pref_camera2_makeup_entry_on">Ativo</string>
+  <string name="pref_camera2_makeup_entry_on">Ativado</string>
   <string name="pref_camera2_makeup_entry_off">Desligado</string>
   <string name="pref_camera2_noise_reduction_title">Redução de ruído</string>
   <string name="pref_camera2_noise_reduction_entry_off">Desligado</string>
@@ -446,7 +446,7 @@
   <string name="pref_camera2_videosnap_entry_enable">Habilitar</string>
   <string name="pref_camera2_videosnap_entry_disable">Desativar</string>
   <string name="pref_camera2_trackingfocus_title">Rastreamento de foco</string>
-  <string name="pref_camera2_trackingfocus_entry_on">Ativo</string>
+  <string name="pref_camera2_trackingfocus_entry_on">Ativado</string>
   <string name="pref_camera2_trackingfocus_entry_off">Desligado</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Melhor imagem</string>
   <string name="bestpicture_done">CONCLUÍDO</string>
@@ -454,6 +454,7 @@
   <string name="pref_camera2_shutter_sound_entry_on">Ativo</string>
   <string name="pref_camera2_shutter_sound_entry_off">Desligado</string>
   <string name="pref_camera2_shutter_sound_title">Som do obturador</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
   <string name="pref_camera2_initial_camera_entry_mono">Monocromático</string>
   <string name="pref_camera2_initial_camera_entry_front">Frontal</string>
 </resources>
