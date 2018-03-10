@@ -33,7 +33,7 @@
     <item quantity="one">Smazat vybranou položku?</item>
     <item quantity="few">Smazat vybrané položky?</item>
     <item quantity="many">Smazat vybraných položek?</item>
-    <item quantity="other">Smazat vybrané položky?</item>
+    <item quantity="other">Smazat vybraných položek?</item>
   </plurals>
   <string name="share">Sdílet</string>
   <string name="share_panorama">Sdílet panorama</string>

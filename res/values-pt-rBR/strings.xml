@@ -18,7 +18,7 @@
   <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
   <string name="app_name">Câmera</string>
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
-  <string name="video_camera_label">Filmadora</string>
+  <string name="video_camera_label">Câmera de vídeo</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
   <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
@@ -562,13 +562,27 @@ CHAR LIMIT = NONE] -->
   <string name="pref_camera2_category_system">Sistema</string>
   <string name="pref_camera2_restore_default">Restaurar padrões</string>
   <string name="pref_camera2_restore_default_hint">As configurações da câmera serão restauradas para as configurações padrão</string>
+  <plurals name="save_best_dialog_content">
+    <item quantity="one">%1$d de 10 imagens serão salvas e as restantes serão excluídas</item>
+    <item quantity="other">%1$d de 10 imagens serão salvas e as restantes serão excluídas</item>
+  </plurals>
+  <string name="save_best_dialog_title">Salvar imagens selecionadas?</string>
   <string name="save_best_dialog_positive_bt">OK</string>
   <string name="save_best_dialog_native_bt">Cancelar</string>
+  <plurals name="save_best_image_toast">
+    <item quantity="one">%1$d de 10 imagens salvas.</item>
+    <item quantity="other">%1$d de 10 imagens salvas.</item>
+  </plurals>
   <string name="dialog_do_not_show">Não exibir novamente</string>
+  <string name="delete_best_dialog_title">Apagar tudo?</string>
+  <string name="delete_best_dialog_content">Tem certeza de que quer apagar todas as 10 fotos tiradas?</string>
   <string name="delete_best_dialog_native_bt">Cancelar</string>
   <string name="delete_best_dialog_positive_bt">Excluir</string>
+  <string name="delete_all_best_dialog_title">Apagar tudo?</string>
+  <string name="delete_all_best_dialog_content">Você tem certeza de que deseja excluir todas as imagens?</string>
   <string name="delete_all_best_dialog_native_bt">Cancelar</string>
   <string name="delete_all_best_dialog_positive_bt">Excluir todos</string>
+  <string name="overflow_best_item1">Salvar tudo</string>
   <string name="overflow_best_item2">Excluir todos</string>
   <string name="settings_title">Configurações</string>
 </resources>

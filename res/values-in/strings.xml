@@ -386,6 +386,7 @@
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_shutter_button">Rana</string>
   <!-- The exit best photo mode button. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_exit_best_mode_button">Keluar dari mode foto terbaik</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_menu_button">Tombol menu</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
@@ -541,16 +542,35 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Menyetel wallpaper</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_video_rotation_label_0">0</string>
+  <string name="pref_camera_video_rotation_label_90">90</string>
+  <string name="pref_camera_video_rotation_label_180">180</string>
+  <string name="pref_camera_video_rotation_label_270">270</string>
   <string name="remaining_photos_format">%d tersisa</string>
+  <string name="initial_recording_seconds">00:00</string>
   <string name="makeup_video_size_limit">Susunan pekerjaan hanya di bawah ukuran VGA dalam rekaman video.</string>
   <string name="pref_camera2_category_system">Sistem</string>
+  <string name="pref_camera2_restore_default">Kembalikan setelan</string>
+  <string name="pref_camera2_restore_default_hint">Setelan kamera akan dikembalikan ke setelan awal</string>
+  <plurals name="save_best_dialog_content">
+    <item quantity="other">%1$d dari 10 gambar akan disimpan dan sisanya akan dihapus</item>
+  </plurals>
+  <string name="save_best_dialog_title">Simpan gambar yang dipilih?</string>
   <string name="save_best_dialog_positive_bt">Oke</string>
   <string name="save_best_dialog_native_bt">Batal</string>
+  <plurals name="save_best_image_toast">
+    <item quantity="other">%1$d dari 10 gambar telah disimpan.</item>
+  </plurals>
   <string name="dialog_do_not_show">Jangan tampilkan lagi</string>
+  <string name="delete_best_dialog_title">Hapus semua?</string>
+  <string name="delete_best_dialog_content">Yakin ingin menghapus semua 10 foto yang diambil?</string>
   <string name="delete_best_dialog_native_bt">Batal</string>
   <string name="delete_best_dialog_positive_bt">Hapus</string>
+  <string name="delete_all_best_dialog_title">Hapus semua?</string>
+  <string name="delete_all_best_dialog_content">Yakin ingin menghapus semua gambar?</string>
   <string name="delete_all_best_dialog_native_bt">Batal</string>
   <string name="delete_all_best_dialog_positive_bt">Hapus semua</string>
+  <string name="overflow_best_item1">Simpan semua</string>
   <string name="overflow_best_item2">Hapus semua</string>
   <string name="settings_title">Setelan</string>
 </resources>

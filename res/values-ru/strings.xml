@@ -163,7 +163,7 @@
   <!-- alert to the user that the camera fails to read or write the SD card. -->
   <string name="access_sd_fail" product="default">Нет доступа к SD-карте.</string>
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
-  <string name="time_lapse_title">Режим интервальной съёмки</string>
+  <string name="time_lapse_title">Режим покадровой съёмки</string>
   <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
   <string name="capturing">Подождите…</string>
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
@@ -210,7 +210,7 @@
   <!-- Video quality setting entry. Videos will be recorded in 2K quality. [CHAR LIMIT=24] -->
   <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
-  <string name="pref_video_time_lapse_frame_interval_title">Интервальная съёмка</string>
+  <string name="pref_video_time_lapse_frame_interval_title">Покадровая съёмка</string>
   <!-- Settings screen, Camera setting category title -->
   <string name="pref_camera_settings_category">Настройки камеры</string>
   <!-- Settings screen, Camcorder setting category title -->
@@ -523,7 +523,7 @@ CHAR LIMIT = NONE] -->
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
   <string name="set_time_interval">Задайте интервал</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
-  <string name="set_time_interval_help">Сначала включите режим интервальной съёмки. После этого задайте интервал.</string>
+  <string name="set_time_interval_help">Сначала включите режим покадровой съёмки. После этого задайте интервал.</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
   <string name="set_duration">Время отсчёта в секундах</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->

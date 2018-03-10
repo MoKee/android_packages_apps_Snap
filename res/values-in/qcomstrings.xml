@@ -226,11 +226,33 @@
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Otomatis</string>
   <string name="pref_camera_iso_entry_isodeblur">Otomatis (HJR)</string>
+  <string name="pref_camera_iso_entry_iso50">ISO50</string>
   <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso125">ISO125</string>
+  <string name="pref_camera_iso_entry_iso150">ISO150</string>
   <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso250">ISO250</string>
+  <string name="pref_camera_iso_entry_iso300">ISO300</string>
+  <string name="pref_camera_iso_entry_iso320">ISO320</string>
+  <string name="pref_camera_iso_entry_iso350">ISO350</string>
   <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso450">ISO450</string>
+  <string name="pref_camera_iso_entry_iso500">ISO500</string>
+  <string name="pref_camera_iso_entry_iso600">ISO600</string>
+  <string name="pref_camera_iso_entry_iso640">ISO640</string>
+  <string name="pref_camera_iso_entry_iso700">ISO700</string>
   <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
+  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
+  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
+  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
   <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
+  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
+  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
+  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
+  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
+  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
+  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Tidak memberi tanda</string>
@@ -429,8 +451,10 @@
   <string name="pref_camera2_trackingfocus_entry_on">Aktif</string>
   <string name="pref_camera2_trackingfocus_entry_off">Mati</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Gambar terbaik</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter">Foto tajam</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">Melacak fokus</string>
   <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
+  <string name="pref_camera_scenemode_entry_promode">Mode Pro</string>
   <string name="bestpicture_done">SELESAI</string>
   <string name="bestpicture_at_least_one_picture">Setidaknya satu gambar harus dipilih.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Aktif</string>
@@ -440,16 +464,30 @@
   <string name="pref_camera2_timer_entry_2sec">2 detik</string>
   <string name="pref_camera2_timer_entry_5sec">5 detik</string>
   <string name="pref_camera2_timer_entry_10sec">10 detik</string>
+  <string name="pref_camera2_saveraw_title">Simpan dalam format Raw</string>
+  <string name="panocapture_direction_is_not_determined">Bergerak terus-menerus dalam satu arah.</string>
   <string name="panocapture_intro">Tekan tombol kamera untuk memulai.</string>
+  <string name="panocapture_direction_is_changed">Arah telah berubah, berhenti memotret panorama\u2026</string>
+  <string name="makeup_ui_title">Silahkan pilih tingkat kecantikannya.</string>
   <string name="makeup_ui_ok_button">Oke</string>
   <string name="perf_camera2_version_info">Info versi</string>
   <string name="perf_camera2_preferences_category_general">Umum</string>
+  <string name="perf_camera2_preferences_category_photo">Kamera biasa</string>
   <string name="perf_camera2_preferences_category_video">Kamera video</string>
   <string name="perf_camera2_preferences_category_system">Sistem</string>
   <string name="pref_camera2_scene_mode_dual_camera_instructional_content">Dalam mode dual camera, gambar Anda akan lebih jelas. Anda juga dapat menerapkan efek latar belakang, dengan mengedit gambar kamera ganda Anda di Galeri.</string>
+  <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">Dengan UbiFocus, kamera Anda akan mengambil lima gambar dan menggabungkannya menjadi satu gambar, di mana semuanya fokus. Anda bisa memilih untuk fokus ulang, setelah Anda memotretnya.</string>
+  <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Gunakan OptiZoom saat Anda ingin memperbesar gambar yang jelas. Anda bisa zoom sebelumnya, atau setelah memotret.</string>
+  <string name="pref_camera2_scene_mode_sports_instructional_content">Mode olah raga membantu Anda melakukan olah raga atau tindakan yang lebih baik.\n\nMeningkatkan foto Anda, namun tidak berpengaruh pada perekaman video.</string>
   <string name="pref_camera2_scene_mode_hdr_instructional_content">Bila Anda berada dalam kondisi pencahayaan campuran seperti lampu rendah dan lampu latar pilih \"HDR\" untuk gambar terbaik.</string>
+  <string name="pref_camera2_scene_mode_best_photo_instructional_content">Memungkinkan Anda untuk mengambil semburan 10 foto, maka Anda bisa memilih yang terbaik(s).</string>
+  <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">Dengan ChromaFlash, pencahayaan di foto flash Anda akan dioptimalkan untuk semua orang dan objek dalam gambar Anda. Fitur ini hanya berlaku untuk kamera belakang.</string>
+  <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">Foto tajam mengurangi kabur yang disebabkan gerakan di tempat kejadian, atau karena gerak tangan.</string>
   <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Memungkinkan Anda untuk melacak dan memfokuskan orang atau objek yang dipilih saat mengambil gambar atau video. Untuk memulai, posisi fokus persegi panjang pada orang atau objek yang ingin Anda lacak.</string>
+  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Dengan selang waktu, Anda bisa mengubah rekaman video lama menjadi beberapa detik video. Efek ini berlaku untuk video, namun bukan foto.</string>
   <string name="pref_camera2_scene_mode_panorama_instructional_content">Memungkinkan Anda untuk menggerakkan ke kiri atau ke kanan untuk mengambil foto lanskap yang luas. Anda dapat alse menggerakkan ke atas atau ke bawah untuk mengambil foto tinggi.</string>
+  <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster mengurangi kabur dari tangan yang gemetar. Ini bisa sangat membantu saat memotret di tempat yang sulit.</string>
+  <string name="pref_camera2_scene_mode_pro_instructional_content">Dengan mode Pro, Anda dapat mengatur pengaturan ISO, exposure, white balance, dan fokus secara manual. Anda akan memiliki akses mudah ke semua pengaturan lanjutan ini</string>
   <string name="pref_camera2_not_show_again">Jangan tampilkan lagi</string>
   <string name="pref_camera2_scene_mode_instructional_ok">Oke</string>
   <string name="pref_camera2_instant_aec_title">Instan AEC</string>
@@ -482,20 +520,38 @@
   <string name="pref_camera2_auto_hdr_title">HDR Otomatis</string>
   <string name="pref_camera2_auto_hdr_entry_enable">Hidup</string>
   <string name="pref_camera2_auto_hdr_entry_disable">Mati</string>
+  <string name="pref_camera_bokeh_mode_title">Mode Bokeh</string>
   <string name="pref_camera_bokeh_mode_entry_enable">Hidup</string>
   <string name="pref_camera_bokeh_mode_entry_disable">Mati</string>
+  <string name="pref_camera_bokeh_mpo_title">Bokeh mode MPO</string>
   <string name="pref_camera_bokeh_mpo_entry_enable">Hidup</string>
   <string name="pref_camera_bokeh_mpo_entry_disable">Mati</string>
+  <string name="pref_camera_bokeh_blur_degree_title">Nilai bokeh blur</string>
   <!-- Default Zoom setting. -->
   <string name="pref_camera_zoom_title">Perbesar</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Mati</string>
+  <string name="pref_camera_zoom_entry_1x">1x</string>
+  <string name="pref_camera_zoom_entry_2x">2x</string>
+  <string name="pref_camera_zoom_entry_3x">3x</string>
+  <string name="pref_camera_zoom_entry_4x">4x</string>
+  <string name="pref_camera_zoom_entry_5x">5x</string>
+  <string name="pref_camera_zoom_entry_6x">6x</string>
+  <string name="pref_camera_zoom_entry_7x">7x</string>
+  <string name="pref_camera_zoom_entry_8x">8x</string>
+  <string name="pref_camera_zoom_entry_9x">9x</string>
+  <string name="pref_camera_zoom_entry_10x">10x</string>
+  <string name="pref_camera2_bsgc_title">Tersenyum/blink/tatapan deteksi</string>
   <string name="pref_camera2_bsgc_entry_enable">Hidup</string>
   <string name="pref_camera2_bsgc_entry_disable">Mati</string>
   <string name="pref_camera2_zsl_title">Rana tanpa jeda</string>
   <string name="pref_camera2_zsl_entry_disable">Mati</string>
+  <string name="pref_camera2_zsl_entry_app_zsl">Perangkat Lunak ZSL</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl">Hardware ZSL</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
+  <string name="pref_camera2_switch_camera_title">Beralih kamera dengan ID</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
   <string name="pref_camera2_initial_camera_entry_mono">Satu</string>
   <string name="pref_camera2_initial_camera_entry_front">Depan</string>
 </resources>

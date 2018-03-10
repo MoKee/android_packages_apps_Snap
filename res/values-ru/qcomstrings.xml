@@ -160,7 +160,7 @@
   <string name="pref_camera_shuttersound_entry_enable">Вкл.</string>
   <string name="pref_camera_shuttersound_entry_disable">Отключено</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
-  <string name="error_app_unsupported_hfr_selection">Ускоренная съёмка не поддерживается при включённой стабилизации изображения, включённом HDR или в режиме интервальной съёмки.</string>
+  <string name="error_app_unsupported_hfr_selection">Ускоренная съёмка не поддерживается при включённой стабилизации изображения, включённом HDR или в режиме покадровой съёмки.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
   <string name="error_app_unsupported_hfr">Режим замедленной съёмки не поддерживается для текущего разрешения видео. Установите более низкое разрешение.</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -363,7 +363,7 @@
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
   <string name="pref_camera_scenedetect_entry_on">Вкл.</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
-  <string name="time_lapse_error">Неверное разрешение видео для записи интервальной съёмки.</string>
+  <string name="time_lapse_error">Неверное разрешение видео для записи покадровой съёмки.</string>
   <!-- longshot value -->
   <string name="pref_camera_longshot_title">Непрерывная съёмка</string>
   <string name="msg_cancel_longshot_for_limited_memory">Недостаточно памяти, непрерывная съёмка отменена</string>
@@ -484,7 +484,7 @@
   <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">С помощью Chroma-вспышки освещение на фотографиях, снятых со вспышкой, будет оптимизировано для всех людей и объектов в фотографии. Эта функция применима только к основной камере.</string>
   <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">SharpPhoto уменьшает размытие, возникшее вследствие движения объекта или руки.</string>
   <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Позволяет вам отслеживать и фокусироваться на выбранном человеке или объекте во время фото- или видеосъёмки. Чтобы начать, расположите прямоугольник фокуса на человеке или объекте, который вы хотите отслеживать.</string>
-  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">В режиме интервальной съёмки вы можете преобразовать длинную видеозапись в видео малого размера. Эффект применим только к видео.</string>
+  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">В режиме покадровой съёмки вы можете преобразовать длинную видеозапись в видео малого размера. Эффект применим только к видео.</string>
   <string name="pref_camera2_scene_mode_panorama_instructional_content">Позволяет сдвигать окно съёмки влево или вправо для съёмки ландшафтного фото. Вы можете также сдвигать его вверх или вниз, чтобы снимать высокие фотографии.</string>
   <string name="pref_camera2_scene_mode_blur_buster_instructional_content">Режим размытия уменьшает размытие при съёмке с трясущимися руками. Может быть полезно при съёмке в тяжёлых условиях.</string>
   <string name="pref_camera2_scene_mode_pro_instructional_content">В ручном режиме можно управлять настройками ISO, экспозиции, баланса белого и фокусировки. Вы получите лёгкий доступ ко всем этим дополнительным параметрам.</string>

@@ -226,11 +226,33 @@
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Аўтаматычна</string>
   <string name="pref_camera_iso_entry_isodeblur">Аўта (HJR)</string>
+  <string name="pref_camera_iso_entry_iso50">ISO50</string>
   <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso125">ISO125</string>
+  <string name="pref_camera_iso_entry_iso150">ISO150</string>
   <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso250">ISO250</string>
+  <string name="pref_camera_iso_entry_iso300">ISO300</string>
+  <string name="pref_camera_iso_entry_iso320">ISO320</string>
+  <string name="pref_camera_iso_entry_iso350">ISO350</string>
   <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso450">ISO450</string>
+  <string name="pref_camera_iso_entry_iso500">ISO500</string>
+  <string name="pref_camera_iso_entry_iso600">ISO600</string>
+  <string name="pref_camera_iso_entry_iso640">ISO640</string>
+  <string name="pref_camera_iso_entry_iso700">ISO700</string>
   <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
+  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
+  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
+  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
   <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
+  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
+  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
+  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
+  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
+  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
+  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Вылучэння мігання</string>
@@ -429,8 +451,10 @@
   <string name="pref_camera2_trackingfocus_entry_on">Укл.</string>
   <string name="pref_camera2_trackingfocus_entry_off">Адключана</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Лепшая выява</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter">SharpPhoto</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">Адсочванне фокусу</string>
   <string name="pref_camera_scenemode_entry_panorama">Панарама</string>
+  <string name="pref_camera_scenemode_entry_promode">Ручны рэжым</string>
   <string name="bestpicture_done">ЗРОБЛЕНА</string>
   <string name="bestpicture_at_least_one_picture">Неабходна выбраць хаця б адну выяву.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Укл.</string>
@@ -440,10 +464,22 @@
   <string name="pref_camera2_timer_entry_2sec">2 секунды</string>
   <string name="pref_camera2_timer_entry_5sec">5 секунд</string>
   <string name="pref_camera2_timer_entry_10sec">10 секунд</string>
+  <string name="pref_camera2_saveraw_title">Захаваць у фармаце RAW</string>
+  <string name="panocapture_direction_is_not_determined">Увесь час рухайцеся ў адным кірунку.</string>
+  <string name="panocapture_intro">Націсніце кнопку камеры, каб пачаць.</string>
+  <string name="panocapture_direction_is_changed">Кірунак змяніўся, прыпынак захопу панарамы\u2026</string>
+  <string name="makeup_ui_title">Выберыце ўзровень паляпшэння.</string>
   <string name="makeup_ui_ok_button">ОК</string>
   <string name="perf_camera2_version_info">Iнфармацыя аб версіі</string>
   <string name="perf_camera2_preferences_category_general">Агульнае</string>
+  <string name="perf_camera2_preferences_category_photo">Фотакамера</string>
+  <string name="perf_camera2_preferences_category_video">Відэакамера</string>
   <string name="perf_camera2_preferences_category_system">Сістэма</string>
+  <string name="pref_camera2_scene_mode_dual_camera_instructional_content">У рэжыме падвойнай камеры вашы фатаграфіі будуць выразней. Таксама можна ўжыць фонавыя эфекты, адрэдагаваўшы знятыя падвойнай камерай фатаграфіі ў галерэі.</string>
+  <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">З UbiFocus ваша камера здыме пяць фатаграфій і з\'яднае іх у адну, дзе ўсе аб\'екты знаходзяцца ў фокусе. Вы можаце змяніць фокус пасля здымкі выявы.</string>
+  <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Скарыстайце OptiZoom, калі патрабуецца павялічыць маштаб для атрымання выразнага малюнка. Вы можаце скарыстаць набліжэнне да ці пасля здымкі.</string>
+  <string name="pref_camera2_scene_mode_sports_instructional_content">Рэжым «Спорт» дапамагае вам здымаць якаснейшыя здымкі ва ўмовах здымкі спартовых спаборніцтваў ці актыўных дзеянняў.\n\nПаляпшае вашы фатаграфіі, але не ўплывае на якасць відэа, якое здымаецца.</string>
+  <string name="pref_camera2_scene_mode_hdr_instructional_content">Калі Вы знаходзьцеся ва ўмовах змяшанага асвятлення, прыкладам, пры нізкай асветленасці ці пры наяўнасці задняга падсвятлення, выберыце \"HDR\" для атрымання найлепшага выніку.</string>
   <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">З дапамогай Chroma-ўспышкі асвятленне на фотаздымках, знятых з успышкай, будзе аптымізавана для ўсіх людзей і аб\'ектаў у фатаграфіі. Гэта функцыя дастасоўная толькі да асноўнай камеры.</string>
   <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">SharpPhoto памяншае размыццё, якое ўзнікла з прычыны руху аб\'екта або рукі.</string>
   <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Дазваляе вам адсочваць і факусавацца на абраным чалавеку або аб\'екце падчас фота- або відэаздымкі. Каб пачаць, размесціце прастакутнік фокусу на чалавеку або аб\'екце, які вы хочаце адсочваць.</string>
@@ -489,12 +525,26 @@
   <string name="pref_camera_zoom_title">Маштаб</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Адключана</string>
+  <string name="pref_camera_zoom_entry_1x">1x</string>
+  <string name="pref_camera_zoom_entry_2x">2x</string>
+  <string name="pref_camera_zoom_entry_3x">3x</string>
+  <string name="pref_camera_zoom_entry_4x">4х</string>
+  <string name="pref_camera_zoom_entry_5x">5x</string>
+  <string name="pref_camera_zoom_entry_6x">6x</string>
+  <string name="pref_camera_zoom_entry_7x">7x</string>
+  <string name="pref_camera_zoom_entry_8x">8x</string>
+  <string name="pref_camera_zoom_entry_9x">9x</string>
+  <string name="pref_camera_zoom_entry_10x">10x</string>
+  <string name="pref_camera2_bsgc_title">Выяўленне ўсмешкі/падміргванні/пагляду</string>
   <string name="pref_camera2_bsgc_entry_enable">Уключыць</string>
   <string name="pref_camera2_bsgc_entry_disable">Адключыць</string>
   <string name="pref_camera2_zsl_title">Нулявая затрымка засаўкі</string>
   <string name="pref_camera2_zsl_entry_disable">Адключана</string>
+  <string name="pref_camera2_zsl_entry_app_zsl">Праграмны ZSL</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl">Апаратны ZSL</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
+  <string name="pref_camera2_switch_camera_title">Пераключыць камеру па ID</string>
   <string name="pref_camera2_initial_camera_entry_bayer">Байер</string>
   <string name="pref_camera2_initial_camera_entry_mono">Ч/Б</string>
   <string name="pref_camera2_initial_camera_entry_front">Пярэдняя</string>
