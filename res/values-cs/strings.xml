@@ -58,7 +58,7 @@
     <item quantity="one">Vybráno: %1$d</item>
     <item quantity="few">Vybráno: %1$d</item>
     <item quantity="many">Vybráno: %1$d</item>
-    <item quantity="other">%1$d vybrány</item>
+    <item quantity="other">Vybráno: %1$d</item>
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
@@ -66,7 +66,7 @@
     <item quantity="one">Vybráno: %1$d</item>
     <item quantity="few">Vybráno: %1$d</item>
     <item quantity="many">Vybráno: %1$d</item>
-    <item quantity="other">%1$d vybrány</item>
+    <item quantity="other">Vybráno: %1$d</item>
   </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Zobrazit na mapě</string>
