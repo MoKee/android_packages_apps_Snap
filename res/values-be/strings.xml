@@ -569,13 +569,31 @@ CHAR LIMIT = NONE] -->
   <string name="pref_camera2_category_system">Сістэма</string>
   <string name="pref_camera2_restore_default">Аднавіць па змаўчанні</string>
   <string name="pref_camera2_restore_default_hint">Налады камеры будуць адноўлены па змаўчанні</string>
+  <plurals name="save_best_dialog_content">
+    <item quantity="one">%1$d з 10 выяў будзе захавана, а астатнія будуць выдалены</item>
+    <item quantity="few">%1$d з 10 выяў будуць захаваны, а астатнія будуць выдалены</item>
+    <item quantity="many">%1$d з 10 выяў будуць захаваны, а астатнія будуць выдалены</item>
+    <item quantity="other">%1$d з 10 выяў будуць захаваны, а астатнія будуць выдалены</item>
+  </plurals>
+  <string name="save_best_dialog_title">Захаваць абраныя выявы?</string>
   <string name="save_best_dialog_positive_bt">Добра</string>
   <string name="save_best_dialog_native_bt">Скасаваць</string>
+  <plurals name="save_best_image_toast">
+    <item quantity="one">Захавана %1$d з 10 выяў.</item>
+    <item quantity="few">Захавана %1$d з 10 выяў.</item>
+    <item quantity="many">Захавана %1$d з 10 выяў.</item>
+    <item quantity="other">Захавана %1$d з 10 выяў.</item>
+  </plurals>
   <string name="dialog_do_not_show">Не паказваць зноў</string>
+  <string name="delete_best_dialog_title">Выдаліць усё?</string>
+  <string name="delete_best_dialog_content">Вы сапраўды хочаце выдаліць усе 10 выяў?</string>
   <string name="delete_best_dialog_native_bt">Скасаваць</string>
   <string name="delete_best_dialog_positive_bt">Выдалiць</string>
+  <string name="delete_all_best_dialog_title">Выдаліць усё?</string>
+  <string name="delete_all_best_dialog_content">Вы ўпэўнены, што хочаце выдаліць усе выявы?</string>
   <string name="delete_all_best_dialog_native_bt">Скасаваць</string>
   <string name="delete_all_best_dialog_positive_bt">Выдаліць усё</string>
+  <string name="overflow_best_item1">Захаваць усё</string>
   <string name="overflow_best_item2">Выдаліць усё</string>
   <string name="settings_title">Налады</string>
 </resources>
