@@ -453,6 +453,7 @@
   <string name="pref_camera2_shutter_sound_entry_on">An</string>
   <string name="pref_camera2_shutter_sound_entry_off">Aus</string>
   <string name="pref_camera2_shutter_sound_title">Auslöser-Ton</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
   <string name="pref_camera2_initial_camera_entry_mono">Schwarzweiß</string>
   <string name="pref_camera2_initial_camera_entry_front">Vorderseite</string>
 </resources>
