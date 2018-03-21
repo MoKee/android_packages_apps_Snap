@@ -29,6 +29,12 @@
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Usuń</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+  <plurals name="delete_selection">
+    <item quantity="one">Usunąć wybrany element?</item>
+    <item quantity="few">Usunąć wybrane elementy?</item>
+    <item quantity="many">Usunąć wybrane elementy?</item>
+    <item quantity="other">Czy usunąć wybrane elementy?</item>
+  </plurals>
   <string name="share">Udostępnij</string>
   <string name="share_panorama">Udostępnij panoramę</string>
   <string name="share_as_photo">Udostępnij jako zdjęcie</string>
@@ -40,10 +46,28 @@
   <string name="close">Zamknij</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_items_selected">
+    <item quantity="one">Wybrany %1$d</item>
+    <item quantity="few">Wybrane: %1$d</item>
+    <item quantity="many">Wybranych: %1$d</item>
+    <item quantity="other">Wybranych: %1$d</item>
+  </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_albums_selected">
+    <item quantity="one">Wybrany %1$d</item>
+    <item quantity="few">Wybrane: %1$d</item>
+    <item quantity="many">Wybranych: %1$d</item>
+    <item quantity="other">Wybranych: %1$d</item>
+  </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_groups_selected">
+    <item quantity="one">Wybrana %1$d</item>
+    <item quantity="few">Wybrane: %1$d</item>
+    <item quantity="many">Wybranych: %1$d</item>
+    <item quantity="other">Wybranych: %1$d</item>
+  </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Pokaż na mapie</string>
   <string name="rotate_left">Obróć w lewo</string>
@@ -155,6 +179,12 @@
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
   <string name="pref_camera_timer_title">Samowyzwalacz</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
+  <plurals name="pref_camera_timer_entry">
+    <item quantity="one">1 s</item>
+    <item quantity="few">%d s</item>
+    <item quantity="many">%d sekund</item>
+    <item quantity="other">%d sekund</item>
+  </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">Sygnał odliczania</string>
   <!-- Entry of camera save path -->
@@ -540,9 +570,21 @@ CHAR LIMIT = NONE] -->
   <string name="pref_camera2_category_system">System</string>
   <string name="pref_camera2_restore_default">Przywróć domyślne</string>
   <string name="pref_camera2_restore_default_hint">Ustawienia aparatu powrócą do ustawień domyślnych</string>
+  <plurals name="save_best_dialog_content">
+    <item quantity="one">%1$d z 10 zdjęć zostanie zapisane, a reszta zostanie usunięta</item>
+    <item quantity="few">%1$d z 10 zdjęć zostanie zapisane, a reszta zostanie usunięta</item>
+    <item quantity="many">%1$d z 10 zdjęć zostanie zapisane, a reszta zostanie usunięta</item>
+    <item quantity="other">%1$d z 10 zdjęć zostanie zapisane, a reszta zostanie usunięta</item>
+  </plurals>
   <string name="save_best_dialog_title">Zapisać wybrane zdjęcia?</string>
   <string name="save_best_dialog_positive_bt">OK</string>
   <string name="save_best_dialog_native_bt">Anuluj</string>
+  <plurals name="save_best_image_toast">
+    <item quantity="one">%1$d z 10 zdjęć, zapisane.</item>
+    <item quantity="few">%1$d z 10 zdjęć, zapisane.</item>
+    <item quantity="many">%1$d z 10 zdjęć, zapisane.</item>
+    <item quantity="other">%1$d z 10 zdjęć, zapisane.</item>
+  </plurals>
   <string name="dialog_do_not_show">Nie pokazuj ponownie</string>
   <string name="delete_best_dialog_title">Usunąć wszystkie?</string>
   <string name="delete_best_dialog_content">Na pewno chcesz usunąć wszystkie 10 zdjęć?</string>

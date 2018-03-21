@@ -391,6 +391,7 @@
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_shutter_button">Blende</string>
   <!-- The exit best photo mode button. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_exit_best_mode_button">\"Bestes Foto\" Modus verlassen</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_menu_button">Menüschaltfläche</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
@@ -546,16 +547,37 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Hintergrund wird festgelegt</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_video_rotation_label_0">0</string>
+  <string name="pref_camera_video_rotation_label_90">90</string>
+  <string name="pref_camera_video_rotation_label_180">180</string>
+  <string name="pref_camera_video_rotation_label_270">270</string>
   <string name="remaining_photos_format">%d verbleibend</string>
+  <string name="initial_recording_seconds">00:00</string>
   <string name="makeup_video_size_limit">Verschönern funktioniert bei Videos nur in VGA-Auflösung.</string>
   <string name="pref_camera2_category_system">System</string>
+  <string name="pref_camera2_restore_default">Standardeinstellungen wiederherstellen</string>
+  <string name="pref_camera2_restore_default_hint">Kamera-Einstellungen werden auf die Standardeinstellungen zurückgesetzt</string>
+  <plurals name="save_best_dialog_content">
+    <item quantity="one">%1$d von 10 Bildern werden gespeichert und der Rest wird gelöscht</item>
+    <item quantity="other">%1$d von 10 Bildern werden gespeichert und der Rest wird gelöscht</item>
+  </plurals>
+  <string name="save_best_dialog_title">Ausgewählte Bilder speichern?</string>
   <string name="save_best_dialog_positive_bt">Ok</string>
   <string name="save_best_dialog_native_bt">Abbrechen</string>
+  <plurals name="save_best_image_toast">
+    <item quantity="one">%1$d von 10 Bildern gespeichert.</item>
+    <item quantity="other">%1$d von 10 Bildern gespeichert.</item>
+  </plurals>
   <string name="dialog_do_not_show">Nicht wieder anzeigen</string>
+  <string name="delete_best_dialog_title">Alle löschen?</string>
+  <string name="delete_best_dialog_content">Sind Sie sicher, dass Sie alle 10 aufgenommenen Bilder löschen möchten?</string>
   <string name="delete_best_dialog_native_bt">Abbrechen</string>
   <string name="delete_best_dialog_positive_bt">Löschen</string>
+  <string name="delete_all_best_dialog_title">Alle löschen?</string>
+  <string name="delete_all_best_dialog_content">Möchten Sie wirklich alle Bilder löschen?</string>
   <string name="delete_all_best_dialog_native_bt">Abbrechen</string>
   <string name="delete_all_best_dialog_positive_bt">Alle löschen</string>
+  <string name="overflow_best_item1">Alle speichern</string>
   <string name="overflow_best_item2">Alle löschen</string>
   <string name="settings_title">Einstellungen</string>
 </resources>
