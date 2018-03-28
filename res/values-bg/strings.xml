@@ -85,7 +85,7 @@
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
   <string name="location">Местоположение</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
-  <string name="path">Местоположение</string>
+  <string name="path">Път</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
   <string name="width">Ширина</string>
   <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
@@ -97,7 +97,7 @@
   <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
   <string name="mimetype">Тип MIME</string>
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
-  <string name="file_size">Размер на файла</string>
+  <string name="file_size">Големина на файла</string>
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <string name="maker">Автор</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
@@ -145,7 +145,7 @@
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
   <string name="dialog_dismiss">Отхвърли</string>
   <!-- alert to the user to wait for some operation to complete -->
-  <string name="wait">Моля, изчакайте…</string>
+  <string name="wait">Почакайте\u2026</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
   <string name="no_storage" product="default">Поставете карта памет, преди да използвате камерата.</string>
   <!-- alert to the user that the SD card is being disk-checked -->
@@ -178,7 +178,7 @@
   <!-- Entry of camera save path -->
   <string name="pref_camera_savepath_title">Хранилище</string>
   <string name="pref_camera_savepath_entry_0">Телефон</string>
-  <string name="pref_camera_savepath_entry_1">Карта памет</string>
+  <string name="pref_camera_savepath_entry_1">SD карта</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">Изкл.</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
@@ -205,7 +205,7 @@
   <!-- Settings screen, Camcorder setting category title -->
   <string name="pref_camcorder_settings_category">Настройки на видеокамерата</string>
   <!-- Settings screen, Picture size title -->
-  <string name="pref_camera_picturesize_title">Резолюция на снимката</string>
+  <string name="pref_camera_picturesize_title">Големина на картината</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Фокусен режим</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
@@ -270,7 +270,7 @@
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Действие</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_night">През нощта</string>
+  <string name="pref_camera_scenemode_entry_night">Нощем</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_sunset">Залез</string>
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
@@ -281,7 +281,7 @@
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_action">ДЕЙСТВИЕ</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
-  <string name="pref_camera_scenemode_label_night">ПРЕЗ НОЩТА</string>
+  <string name="pref_camera_scenemode_label_night">НОЩЕМ</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_sunset">ЗАЛЕЗ</string>
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=50] -->
@@ -377,7 +377,7 @@
   <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
   <string name="effect_backdropper_sunset">Залез</string>
   <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
-  <string name="effect_backdropper_gallery">Ваш видеоклип</string>
+  <string name="effect_backdropper_gallery">Вашето видео</string>
   <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
   <string name="video_snapshot_hint">Докоснете, за да направите снимка, докато записвате.</string>
   <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
@@ -393,7 +393,7 @@
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_shutter_button">Затвор</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_menu_button">Меню бутон</string>
+  <string name="accessibility_menu_button">Бутон меню</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
   <string name="accessibility_mode_picker">Инструмент за избор между фотоапарат, видеокамера или панорама</string>
   <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->

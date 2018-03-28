@@ -227,6 +227,11 @@
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automatikus</string>
   <string name="pref_camera_iso_entry_isodeblur">ISO Automatikus (HJR)</string>
+  <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Csikozódáscsökkentés</string>
@@ -234,6 +239,7 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Ki</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Európa)</string>
+  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
   <string name="pref_camera_antibanding_entry_3">Automatikus</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Be</string>
@@ -252,6 +258,7 @@
   <string name="pref_camera_coloreffect_entry_aqua">Víz</string>
   <string name="pref_camera_coloreffect_entry_emboss">Dombormű</string>
   <string name="pref_camera_coloreffect_entry_sketch">Vázlat</string>
+  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
   <string name="pref_camera_coloreffect_entry_pastel">Pasztell</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mozaik</string>
   <string name="pref_camera_coloreffect_entry_redtint">Vörös árnyalat</string>
@@ -345,6 +352,7 @@
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">A vaku nem támogatott az automatikus expozíció sorozat módban</string>
   <!-- Settings screen, setting title text for Auto HDR-->
+  <string name="pref_camera_auto_hdr_title">Automata HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Engedélyezés</string>
   <string name="pref_camera_auto_hdr_entry_disable">Letiltás</string>
@@ -445,6 +453,7 @@
   <string name="pref_camera2_shutter_sound_entry_on">Be</string>
   <string name="pref_camera2_shutter_sound_entry_off">Ki</string>
   <string name="pref_camera2_shutter_sound_title">Zárhang</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
   <string name="pref_camera2_initial_camera_entry_mono">Fekete-fehér</string>
   <string name="pref_camera2_initial_camera_entry_front">Előre néző</string>
 </resources>
