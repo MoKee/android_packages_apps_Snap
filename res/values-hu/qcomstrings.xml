@@ -226,6 +226,33 @@
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automata</string>
   <string name="pref_camera_iso_entry_isodeblur">ISO Automatikus (HJR)</string>
+  <string name="pref_camera_iso_entry_iso50">ISO50</string>
+  <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso125">ISO125</string>
+  <string name="pref_camera_iso_entry_iso150">ISO150</string>
+  <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso250">ISO250</string>
+  <string name="pref_camera_iso_entry_iso300">ISO300</string>
+  <string name="pref_camera_iso_entry_iso320">ISO320</string>
+  <string name="pref_camera_iso_entry_iso350">ISO350</string>
+  <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso450">ISO450</string>
+  <string name="pref_camera_iso_entry_iso500">ISO500</string>
+  <string name="pref_camera_iso_entry_iso600">ISO600</string>
+  <string name="pref_camera_iso_entry_iso640">ISO640</string>
+  <string name="pref_camera_iso_entry_iso700">ISO700</string>
+  <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
+  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
+  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
+  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
+  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
+  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
+  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
+  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
+  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
+  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
+  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Csikozódáscsökkentés</string>
@@ -233,6 +260,7 @@
   <!-- Settings screen, Anti Banding entries -->
   <string name="pref_camera_antibanding_entry_0">Automata</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz (Európa)</string>
+  <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
   <!-- Default color effect setting. -->
   <string name="pref_camera_filter_mode_entry_on">Be</string>
   <string name="pref_camera_filter_mode_entry_off">Ki</string>
@@ -250,6 +278,7 @@
   <string name="pref_camera_coloreffect_entry_aqua">Víz</string>
   <string name="pref_camera_coloreffect_entry_emboss">Dombormű</string>
   <string name="pref_camera_coloreffect_entry_sketch">Vázlat</string>
+  <string name="pref_camera_coloreffect_entry_neon">Neon</string>
   <string name="pref_camera_coloreffect_entry_pastel">Pasztell</string>
   <string name="pref_camera_coloreffect_entry_mosaic">Mozaik</string>
   <string name="pref_camera_coloreffect_entry_redtint">Vörös árnyalat</string>
@@ -341,6 +370,7 @@
   <!-- Toast showing non-supported functionality for flash in AE bracket -->
   <string name="flash_aebracket_message">A vaku nem támogatott az automatikus expozíció sorozat módban</string>
   <!-- Settings screen, setting title text for Auto HDR-->
+  <string name="pref_camera_auto_hdr_title">Automata HDR</string>
   <!-- Settings screen, Auto HDR location dialog choices -->
   <string name="pref_camera_auto_hdr_entry_enable">Engedélyezés</string>
   <string name="pref_camera_auto_hdr_entry_disable">Letiltás</string>
@@ -421,8 +451,10 @@
   <string name="pref_camera2_trackingfocus_entry_on">Be</string>
   <string name="pref_camera2_trackingfocus_entry_off">Ki</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Legjobb kép</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter">Éles kép</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">Fókuszkövetés</string>
   <string name="pref_camera_scenemode_entry_panorama">Panoráma</string>
+  <string name="pref_camera_scenemode_entry_promode">Professzionális mód</string>
   <string name="bestpicture_done">KÉSZ</string>
   <string name="bestpicture_at_least_one_picture">Legalább egy képet ki kell választani.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Be</string>
@@ -432,12 +464,29 @@
   <string name="pref_camera2_timer_entry_2sec">2 másodperc</string>
   <string name="pref_camera2_timer_entry_5sec">5 másodperc</string>
   <string name="pref_camera2_timer_entry_10sec">10 másodperc</string>
+  <string name="pref_camera2_saveraw_title">Mentés Raw formátumban</string>
+  <string name="panocapture_direction_is_not_determined">Mozogjon folyamatosan egy irányba.</string>
+  <string name="panocapture_intro">Érintse meg a kameragombot a kezdéshez.</string>
+  <string name="panocapture_direction_is_changed">Az irány megváltozott, a panorámafelvétel megállításra kerül\u2026</string>
+  <string name="makeup_ui_title">Válassza ki a szépítés intenzitását.</string>
   <string name="makeup_ui_ok_button">Rendben</string>
   <string name="perf_camera2_version_info">Verzió információ</string>
   <string name="perf_camera2_preferences_category_general">Általános</string>
+  <string name="perf_camera2_preferences_category_photo">Rögzített kamera</string>
+  <string name="perf_camera2_preferences_category_video">Videókamera</string>
   <string name="perf_camera2_preferences_category_system">Rendszer</string>
+  <string name="pref_camera2_scene_mode_dual_camera_instructional_content">Kettős kamera módban a képei tisztábbak lesznek. A dupla kamerával készült képeihez a Galériában szerkesztéskor hozzáadhat háttéreffekteket.</string>
+  <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">Az UbiFocus segítségével a kamera öt képet fog készíteni és összekombinálja őket egy képpé ahol minden a fókuszban van. Képkészítés után is újrafókuszálhat.</string>
+  <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Használja az OptiZoomot amikor rá szeretne közelíteni egy éles képre. Rá tud közelíteni képkészítés előtt és után is.</string>
+  <string name="pref_camera2_scene_mode_sports_instructional_content">A sportmód segít jobb sport vagy mozgást megörökítő képeket készíteni.\n\nA fotókat javítani tudja, de nem alkalmazható videórögzítésnél.</string>
+  <string name="pref_camera2_scene_mode_best_photo_instructional_content">Lehetővé teszi, hogy sorozatfelvételben 10 fotót készítsen, amelyekből később kiválaszthatja a legjobba(ka)t.</string>
+  <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Lehetővé teszi egy kiválasztott személy vagy tárgy fókuszálását és követését fényképezés és videózás közben. Kezdéshez állítsa a fókusz-négyszöget a követni kívánt tárgyra vagy személyre.</string>
+  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">A Time lapse használatával átalakíthat hosszú videókat pár másodperces videókká. Ez az effekt csak videókon alkalmazható.</string>
+  <string name="pref_camera2_scene_mode_blur_buster_instructional_content">A BlurBuster csökkenti a remegő kezek okozta elmosódást. Hasznos lehet kényelmetlen testhelyzetben készített fotóknál.</string>
+  <string name="pref_camera2_scene_mode_pro_instructional_content">Pró módban manuálisan állíthatja be az ISO, az exponálás, a fehéregyensúly és a fókusz beállításait. Könnyű hozzáférést biztosít az összes haladó beállításhoz</string>
   <string name="pref_camera2_not_show_again">Ne mutassa újra</string>
   <string name="pref_camera2_scene_mode_instructional_ok">Rendben</string>
+  <string name="pref_camera2_instant_aec_title">Azonnali AEC</string>
   <string name="pref_camera2_instant_aec_entry_disable">Letiltás</string>
   <string name="pref_camera2_instant_aec_entry_aggressive">Agresszív automatikus expozíció</string>
   <string name="pref_camera2_instant_aec_entry_fast">Gyors automatikus expozíció</string>
@@ -456,6 +505,7 @@
   <string name="pref_camera2_anti_banding_level_title">Csikozódáscsökkentés</string>
   <string name="pref_camera2_anti_banding_level_entry_off">Ki</string>
   <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Európa)</string>
+  <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (USA)</string>
   <string name="pref_camera2_anti_banding_level_entry_auto">Automata</string>
   <string name="pref_camera2_histogram_title">Hisztogram</string>
   <string name="pref_camera2_histogram_entry_enable">Engedélyezés</string>
@@ -463,22 +513,41 @@
   <string name="pref_camera2_hdr_title">HDR</string>
   <string name="pref_camera2_hdr_entry_enable">Engedélyezés</string>
   <string name="pref_camera2_hdr_entry_disable">Letiltás</string>
+  <string name="pref_camera2_auto_hdr_title">Automata HDR</string>
   <string name="pref_camera2_auto_hdr_entry_enable">Engedélyezés</string>
   <string name="pref_camera2_auto_hdr_entry_disable">Letiltás</string>
+  <string name="pref_camera_bokeh_mode_title">Bokeh mód</string>
   <string name="pref_camera_bokeh_mode_entry_enable">Engedélyezés</string>
   <string name="pref_camera_bokeh_mode_entry_disable">Letiltás</string>
+  <string name="pref_camera_bokeh_mpo_title">A Bokeh MPO módja</string>
   <string name="pref_camera_bokeh_mpo_entry_enable">Engedélyezés</string>
   <string name="pref_camera_bokeh_mpo_entry_disable">Letiltás</string>
+  <string name="pref_camera_bokeh_blur_degree_title">A Bokeh elmosási értéke</string>
   <!-- Default Zoom setting. -->
   <string name="pref_camera_zoom_title">Nagyítás</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Ki</string>
+  <string name="pref_camera_zoom_entry_1x">1x</string>
+  <string name="pref_camera_zoom_entry_2x">2x</string>
+  <string name="pref_camera_zoom_entry_3x">3x</string>
+  <string name="pref_camera_zoom_entry_4x">4x</string>
+  <string name="pref_camera_zoom_entry_5x">5x</string>
+  <string name="pref_camera_zoom_entry_6x">6x</string>
+  <string name="pref_camera_zoom_entry_7x">7x</string>
+  <string name="pref_camera_zoom_entry_8x">8x</string>
+  <string name="pref_camera_zoom_entry_9x">9x</string>
+  <string name="pref_camera_zoom_entry_10x">10x</string>
+  <string name="pref_camera2_bsgc_title">Mosoly/pislogás/merev nézés érzékelése</string>
   <string name="pref_camera2_bsgc_entry_enable">Engedélyezés</string>
   <string name="pref_camera2_bsgc_entry_disable">Letiltás</string>
   <string name="pref_camera2_zsl_title">Zéró zárkésés</string>
   <string name="pref_camera2_zsl_entry_disable">Ki</string>
+  <string name="pref_camera2_zsl_entry_app_zsl">Szoftveres ZSL</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl">Hardveres ZSL</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
+  <string name="pref_camera2_switch_camera_title">Kamera átkapcsolása azonosítóval</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
   <string name="pref_camera2_initial_camera_entry_mono">Fekete-fehér</string>
   <string name="pref_camera2_initial_camera_entry_front">Előre néző</string>
 </resources>

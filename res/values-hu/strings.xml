@@ -254,6 +254,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automatikus</string>
   <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -390,6 +391,7 @@
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_shutter_button">Exponálógomb</string>
   <!-- The exit best photo mode button. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_exit_best_mode_button">Kilépés a legjobb fotó módból</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_menu_button">Menügomb</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
@@ -545,16 +547,37 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Háttérkép beállítása</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_video_rotation_label_0">0</string>
+  <string name="pref_camera_video_rotation_label_90">90</string>
+  <string name="pref_camera_video_rotation_label_180">180</string>
+  <string name="pref_camera_video_rotation_label_270">270</string>
   <string name="remaining_photos_format">%d maradt</string>
+  <string name="initial_recording_seconds">00:00</string>
   <string name="makeup_video_size_limit">Smink csak a VGA méretű videók rögzítésekor működik.</string>
   <string name="pref_camera2_category_system">Rendszer</string>
+  <string name="pref_camera2_restore_default">Alapértelmezett beállítások visszaállítása</string>
+  <string name="pref_camera2_restore_default_hint">A kamera beállításai alaphelyzetbe kerülnek vissza</string>
+  <plurals name="save_best_dialog_content">
+    <item quantity="one">10-ből %1$d kép mentésre kerül és a többi törlődni fog</item>
+    <item quantity="other">10-ből %1$d kép mentésre kerül és a többi törlődni fog</item>
+  </plurals>
+  <string name="save_best_dialog_title">Menti a kijelölt képeket?</string>
   <string name="save_best_dialog_positive_bt">Rendben</string>
   <string name="save_best_dialog_native_bt">Mégse</string>
+  <plurals name="save_best_image_toast">
+    <item quantity="one">10-ből %1$d kép elmentve.</item>
+    <item quantity="other">10-ből %1$d kép elmentve.</item>
+  </plurals>
   <string name="dialog_do_not_show">Ne mutassa újra</string>
+  <string name="delete_best_dialog_title">Törli az összeset?</string>
+  <string name="delete_best_dialog_content">Biztos benne, hogy törölni akarja mind a 10 képet?</string>
   <string name="delete_best_dialog_native_bt">Mégse</string>
   <string name="delete_best_dialog_positive_bt">Törlés</string>
+  <string name="delete_all_best_dialog_title">Törli az összeset?</string>
+  <string name="delete_all_best_dialog_content">Biztos benne, hogy törölni akarja az összes képet?</string>
   <string name="delete_all_best_dialog_native_bt">Mégse</string>
   <string name="delete_all_best_dialog_positive_bt">Összes törlése</string>
+  <string name="overflow_best_item1">Az összes mentése</string>
   <string name="overflow_best_item2">Összes törlése</string>
   <string name="settings_title">Beállítások</string>
 </resources>

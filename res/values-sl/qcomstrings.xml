@@ -226,11 +226,33 @@
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Samodejno</string>
   <string name="pref_camera_iso_entry_isodeblur">Samodejno (HJR)</string>
+  <string name="pref_camera_iso_entry_iso50">ISO50</string>
   <string name="pref_camera_iso_entry_iso100">ISO 100</string>
+  <string name="pref_camera_iso_entry_iso125">ISO125</string>
+  <string name="pref_camera_iso_entry_iso150">ISO150</string>
   <string name="pref_camera_iso_entry_iso200">ISO 200</string>
+  <string name="pref_camera_iso_entry_iso250">ISO250</string>
+  <string name="pref_camera_iso_entry_iso300">ISO300</string>
+  <string name="pref_camera_iso_entry_iso320">ISO320</string>
+  <string name="pref_camera_iso_entry_iso350">ISO350</string>
   <string name="pref_camera_iso_entry_iso400">ISO 400</string>
+  <string name="pref_camera_iso_entry_iso450">ISO450</string>
+  <string name="pref_camera_iso_entry_iso500">ISO500</string>
+  <string name="pref_camera_iso_entry_iso600">ISO600</string>
+  <string name="pref_camera_iso_entry_iso640">ISO640</string>
+  <string name="pref_camera_iso_entry_iso700">ISO700</string>
   <string name="pref_camera_iso_entry_iso800">ISO 800</string>
+  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
+  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
+  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
+  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
   <string name="pref_camera_iso_entry_iso1600">ISO 1600</string>
+  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
+  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
+  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
+  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
+  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
+  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Odstranjevanje pasov</string>
@@ -429,8 +451,10 @@
   <string name="pref_camera2_trackingfocus_entry_on">Vklopljeno</string>
   <string name="pref_camera2_trackingfocus_entry_off">Izklopljen</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Najboljša slika</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter">Ostra fotografija</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">Ostrenje s sledenjem</string>
   <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
+  <string name="pref_camera_scenemode_entry_promode">Način Pro</string>
   <string name="bestpicture_done">KONČANO</string>
   <string name="bestpicture_at_least_one_picture">Izbrana mora biti vsaj ena slika.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Vklopljeno</string>
@@ -440,12 +464,33 @@
   <string name="pref_camera2_timer_entry_2sec">2 sekundi</string>
   <string name="pref_camera2_timer_entry_5sec">5 sekund</string>
   <string name="pref_camera2_timer_entry_10sec">10 sekund</string>
+  <string name="pref_camera2_saveraw_title">Shrani z obliko Raw</string>
+  <string name="panocapture_direction_is_not_determined">Nenehno premikajte v eno smer.</string>
+  <string name="panocapture_intro">Za začetek pritisnite gumb fotoaparata.</string>
+  <string name="panocapture_direction_is_changed">Smer se je spremenila, ustavljanje zajema panorame \u2026</string>
+  <string name="makeup_ui_title">Izberite moč polepšave.</string>
   <string name="makeup_ui_ok_button">V redu</string>
   <string name="perf_camera2_version_info">Informacije o različici</string>
   <string name="perf_camera2_preferences_category_general">Splošno</string>
+  <string name="perf_camera2_preferences_category_photo">Miren fotoaparat</string>
+  <string name="perf_camera2_preferences_category_video">Video kamera</string>
   <string name="perf_camera2_preferences_category_system">Sistem</string>
+  <string name="pref_camera2_scene_mode_dual_camera_instructional_content">V načinu dvojnega fotoaparata bodo vaše fotografije jasnejše. Uveljavite lahko tudi učinke ozadja z urejanjem vaših fotografij dvojnega fotoaparata v Galeriji.</string>
+  <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">Z UbiFocus bo vaš fotoaparat posnel pet fotografij in jih združil v eno izostreno fotografijo. Posneto fotografijo lahko ponovno izostrite.</string>
+  <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Uporabite OptiZoom, ko želite povečavo za jasnejšo fotografijo. Povečate lahko pred ali po posnetku fotografije.</string>
+  <string name="pref_camera2_scene_mode_sports_instructional_content">Športni način vam pomaga posneti boljše športne ali akcijske posnetke.\n\nIzboljša vaše fotografije, vendar nima učinka na videoposnetkih.</string>
+  <string name="pref_camera2_scene_mode_hdr_instructional_content">Ko ste v pogojijh mešane svetlobe, kot je nizka osvetlitev in prizori z osvetljenim ozadjem, izberite »HDR« za najboljše možne fotografije.</string>
+  <string name="pref_camera2_scene_mode_best_photo_instructional_content">Vam dovoli hitro posneti 10 fotografij, nato lahko izberete najboljšo(-e).</string>
+  <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">S ChromaFlash bo svetloba vaših fotografij z bliskavico optimizirana za vse osebe in predmete na vaših fotografijah. Ta značilnost velja samo za zadnjo kamero.</string>
+  <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">Ostra fotografija zmanjša zamegljenost, ki je posledica gibanja v prizoru ali gibanja rok.</string>
+  <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Dovoli sledenje in izostritev izbrane osebe ali predmeta medtem ko snemate fotografije ali videoposnetke. Za začetek postavite izostritveni pravokotnik na osebo ali predmet, ki mu želite slediti.</string>
+  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">S časovnim zamikom lahko dolg videoposnetek preoblikujete v nekaj sekund videa. Velja za videoposnetke, vendar nima učinka na fotografijah.</string>
+  <string name="pref_camera2_scene_mode_panorama_instructional_content">Dovoli premik levo ali desno za zajem široke fotografije pokrajine. Premaknete lahko tudi gor ali dol za zajem visokih fotografij.</string>
+  <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster zmanjša zamegljenost zaradi tresočih rok. Lahko je v pomoč med fotografiranjem v težavnih mestih.</string>
+  <string name="pref_camera2_scene_mode_pro_instructional_content">Z načinom Pro lahko nadzorujete nastavitve za ISO, osvetlitev, ravnovesje beline in ostrenja. Imeli boste enostaven dostop do vseh teh naprednih nastavitev</string>
   <string name="pref_camera2_not_show_again">Ne prikaži ponovno</string>
   <string name="pref_camera2_scene_mode_instructional_ok">V redu</string>
+  <string name="pref_camera2_instant_aec_title">Takojšen AEC</string>
   <string name="pref_camera2_instant_aec_entry_disable">Onemogoči</string>
   <string name="pref_camera2_instant_aec_entry_aggressive">Agresiven AEC</string>
   <string name="pref_camera2_instant_aec_entry_fast">Hitri AEC</string>
@@ -475,20 +520,37 @@
   <string name="pref_camera2_auto_hdr_title">Samodejni HDR</string>
   <string name="pref_camera2_auto_hdr_entry_enable">Omogoči</string>
   <string name="pref_camera2_auto_hdr_entry_disable">Onemogoči</string>
+  <string name="pref_camera_bokeh_mode_title">Način Bokeh</string>
   <string name="pref_camera_bokeh_mode_entry_enable">Omogoči</string>
   <string name="pref_camera_bokeh_mode_entry_disable">Onemogoči</string>
+  <string name="pref_camera_bokeh_mpo_title">Način Bokeh MPO</string>
   <string name="pref_camera_bokeh_mpo_entry_enable">Omogoči</string>
   <string name="pref_camera_bokeh_mpo_entry_disable">Onemogoči</string>
+  <string name="pref_camera_bokeh_blur_degree_title">Vrednost zamegljenosti Bokeh</string>
   <!-- Default Zoom setting. -->
   <string name="pref_camera_zoom_title">Povečaj/pomanj.</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Izklopljen</string>
+  <string name="pref_camera_zoom_entry_1x">1x</string>
+  <string name="pref_camera_zoom_entry_2x">2x</string>
+  <string name="pref_camera_zoom_entry_3x">3x</string>
+  <string name="pref_camera_zoom_entry_4x">4x</string>
+  <string name="pref_camera_zoom_entry_5x">5x</string>
+  <string name="pref_camera_zoom_entry_6x">6x</string>
+  <string name="pref_camera_zoom_entry_7x">7x</string>
+  <string name="pref_camera_zoom_entry_8x">8x</string>
+  <string name="pref_camera_zoom_entry_9x">9x</string>
+  <string name="pref_camera_zoom_entry_10x">10x</string>
+  <string name="pref_camera2_bsgc_title">Zaznavanje nasmeha/mežika/strmenja</string>
   <string name="pref_camera2_bsgc_entry_enable">Omogoči</string>
   <string name="pref_camera2_bsgc_entry_disable">Onemogoči</string>
   <string name="pref_camera2_zsl_title">Brez zakasnitve sprožilca</string>
   <string name="pref_camera2_zsl_entry_disable">Izklopljen</string>
+  <string name="pref_camera2_zsl_entry_app_zsl">Programski ZSL</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl">Strojni ZSL</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
+  <string name="pref_camera2_switch_camera_title">Preklop fotoaparata z ID-jem</string>
   <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
   <string name="pref_camera2_initial_camera_entry_front">Pred</string>
 </resources>
