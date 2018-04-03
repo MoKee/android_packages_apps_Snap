@@ -526,6 +526,7 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">ವಾಲ್‌ಪೇಪರ್‌ ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="pref_camera2_category_system">ವ್ಯವಸ್ಥೆ</string>
   <string name="save_best_dialog_positive_bt">ಸರಿ</string>
   <string name="save_best_dialog_native_bt">ರದ್ದು</string>
   <string name="delete_best_dialog_native_bt">ರದ್ದು</string>

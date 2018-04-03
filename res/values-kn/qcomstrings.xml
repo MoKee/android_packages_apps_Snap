@@ -332,6 +332,7 @@
   <string name="pref_camera2_shutter_sound_entry_off">ಆಫ್ ಆಗಿದೆ</string>
   <string name="pref_camera2_timer_entry_off">ಆಫ್ ಆಗಿದೆ</string>
   <string name="makeup_ui_ok_button">ಸರಿ</string>
+  <string name="perf_camera2_preferences_category_system">ವ್ಯವಸ್ಥೆ</string>
   <string name="pref_camera2_scene_mode_instructional_ok">ಸರಿ</string>
   <string name="pref_camera2_saturation_level_title">ಆರ್ದ್ರೀಕರಣ</string>
   <string name="pref_camera2_saturation_level_entry_0">ಹಂತ 0</string>
