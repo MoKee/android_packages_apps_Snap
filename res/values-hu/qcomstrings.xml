@@ -479,9 +479,13 @@
   <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">Az UbiFocus segítségével a kamera öt képet fog készíteni és összekombinálja őket egy képpé ahol minden a fókuszban van. Képkészítés után is újrafókuszálhat.</string>
   <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Használja az OptiZoomot amikor rá szeretne közelíteni egy éles képre. Rá tud közelíteni képkészítés előtt és után is.</string>
   <string name="pref_camera2_scene_mode_sports_instructional_content">A sportmód segít jobb sport vagy mozgást megörökítő képeket készíteni.\n\nA fotókat javítani tudja, de nem alkalmazható videórögzítésnél.</string>
+  <string name="pref_camera2_scene_mode_hdr_instructional_content">Amikor Ön vegyes fényviszonyok közé kerül, például rossz fényviszonyú és háttérvilágítású jelenetek, válassza a \"HDR\" lehetőséget a lehető legjobb képek készítéséhez.</string>
   <string name="pref_camera2_scene_mode_best_photo_instructional_content">Lehetővé teszi, hogy sorozatfelvételben 10 fotót készítsen, amelyekből később kiválaszthatja a legjobba(ka)t.</string>
+  <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">A ChromaFlash használatával optimalizálva lesznek vakuval készült fotói a képen látható személyekhez és tárgyakhoz. Ez a szolgáltatás csak a hátsó kamerán alkalmazható.</string>
+  <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">Az Élesítés csökkenti a kézremegés vagy a fényképezendő jelenet elmozdulásából adódó elmosódásokat.</string>
   <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Lehetővé teszi egy kiválasztott személy vagy tárgy fókuszálását és követését fényképezés és videózás közben. Kezdéshez állítsa a fókusz-négyszöget a követni kívánt tárgyra vagy személyre.</string>
   <string name="pref_camera2_scene_mode_time_lapse_instructional_content">A Time lapse használatával átalakíthat hosszú videókat pár másodperces videókká. Ez az effekt csak videókon alkalmazható.</string>
+  <string name="pref_camera2_scene_mode_panorama_instructional_content">Lehetővé teszi a bal vagy jobb oldali mozgással, hogy széles panoráma tájképet készítsen. Ugyanígy alkalmazhatja a szolgáltatást fel és le mozgással is.</string>
   <string name="pref_camera2_scene_mode_blur_buster_instructional_content">A BlurBuster csökkenti a remegő kezek okozta elmosódást. Hasznos lehet kényelmetlen testhelyzetben készített fotóknál.</string>
   <string name="pref_camera2_scene_mode_pro_instructional_content">Pró módban manuálisan állíthatja be az ISO, az exponálás, a fehéregyensúly és a fókusz beállításait. Könnyű hozzáférést biztosít az összes haladó beállításhoz</string>
   <string name="pref_camera2_not_show_again">Ne mutassa újra</string>
