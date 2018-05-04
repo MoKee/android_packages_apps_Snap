@@ -526,6 +526,8 @@
   <string name="pref_camera_zoom_title">Aumentar/Disminuir</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Desactivado</string>
+  <string name="pref_camera_zoom_entry_1x">1x</string>
+  <string name="pref_camera_zoom_entry_2x">2x</string>
   <string name="pref_camera2_bsgc_entry_enable">Activado</string>
   <string name="pref_camera2_bsgc_entry_disable">Desactivar</string>
   <string name="pref_camera2_zsl_title">Eliminar retraso del disparador</string>

@@ -226,11 +226,33 @@
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">Automático</string>
   <string name="pref_camera_iso_entry_isodeblur">Auto (HJR)</string>
+  <string name="pref_camera_iso_entry_iso50">ISO50</string>
   <string name="pref_camera_iso_entry_iso100">ISO 100</string>
+  <string name="pref_camera_iso_entry_iso125">ISO125</string>
+  <string name="pref_camera_iso_entry_iso150">ISO150</string>
   <string name="pref_camera_iso_entry_iso200">ISO 200</string>
+  <string name="pref_camera_iso_entry_iso250">ISO250</string>
+  <string name="pref_camera_iso_entry_iso300">ISO300</string>
+  <string name="pref_camera_iso_entry_iso320">ISO320</string>
+  <string name="pref_camera_iso_entry_iso350">ISO350</string>
   <string name="pref_camera_iso_entry_iso400">ISO 400</string>
+  <string name="pref_camera_iso_entry_iso450">ISO450</string>
+  <string name="pref_camera_iso_entry_iso500">ISO500</string>
+  <string name="pref_camera_iso_entry_iso600">ISO600</string>
+  <string name="pref_camera_iso_entry_iso640">ISO640</string>
+  <string name="pref_camera_iso_entry_iso700">ISO700</string>
   <string name="pref_camera_iso_entry_iso800">ISO 800</string>
+  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
+  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
+  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
+  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
   <string name="pref_camera_iso_entry_iso1600">ISO 1600</string>
+  <string name="pref_camera_iso_entry_iso2000">ISO 2000</string>
+  <string name="pref_camera_iso_entry_iso2500">ISO 2500</string>
+  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
+  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
+  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
+  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">Reductor de parpadeo</string>
@@ -429,8 +451,10 @@
   <string name="pref_camera2_trackingfocus_entry_on">Sí</string>
   <string name="pref_camera2_trackingfocus_entry_off">Desactivado</string>
   <string name="pref_camera_scenemode_entry_bestpicture">Mejor imagen</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter">Nitidez de foto</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">Seguimiento del enfoque</string>
   <string name="pref_camera_scenemode_entry_panorama">Panorámico</string>
+  <string name="pref_camera_scenemode_entry_promode">Modo Pro</string>
   <string name="bestpicture_done">LISTO</string>
   <string name="bestpicture_at_least_one_picture">Al menos una imagen tiene que ser seleccionada.</string>
   <string name="pref_camera2_shutter_sound_entry_on">Sí</string>
@@ -440,6 +464,9 @@
   <string name="pref_camera2_timer_entry_2sec">2 segundos</string>
   <string name="pref_camera2_timer_entry_5sec">5 segundos</string>
   <string name="pref_camera2_timer_entry_10sec">10 segundos</string>
+  <string name="pref_camera2_saveraw_title">Guardar con formato Raw</string>
+  <string name="panocapture_direction_is_not_determined">Mover constantemente en una dirección.</string>
+  <string name="panocapture_intro">Pulse el botón cámara para iniciar.</string>
   <string name="makeup_ui_ok_button">Aceptar</string>
   <string name="perf_camera2_version_info">Información de la versión</string>
   <string name="perf_camera2_preferences_category_general">General</string>
@@ -483,6 +510,8 @@
   <string name="pref_camera_zoom_title">Aumentar/Disminuir</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">Desactivado</string>
+  <string name="pref_camera_zoom_entry_1x">1x</string>
+  <string name="pref_camera_zoom_entry_2x">2x</string>
   <string name="pref_camera2_bsgc_entry_enable">Activar</string>
   <string name="pref_camera2_bsgc_entry_disable">Desactivar</string>
   <string name="pref_camera2_zsl_title">Eliminar retraso del disparador</string>
