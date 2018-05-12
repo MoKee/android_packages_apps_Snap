@@ -31,7 +31,7 @@
   <string name="pref_camera_scenemode_entry_asd">En iyi poz</string>
   <string name="pref_camera_scenemode_entry_baby">Bebek</string>
   <string name="pref_camera_scenemode_entry_backgroundblur">Arkaplan bulanıklığı</string>
-  <string name="pref_camera_scenemode_entry_backlight">Arka Aydınlatma</string>
+  <string name="pref_camera_scenemode_entry_backlight">Arka ışık</string>
   <string name="pref_camera_scenemode_entry_backlightportrait">Arkadan ışıklı portre</string>
   <string name="pref_camera_scenemode_entry_barcode">Barkod</string>
   <string name="pref_camera_scenemode_entry_beach">Plaj</string>
@@ -39,9 +39,9 @@
   <string name="pref_camera_scenemode_entry_candlelight">Mum ışığı</string>
   <string name="pref_camera_scenemode_entry_cine">Sine</string>
   <string name="pref_camera_scenemode_entry_closeup">Yakın çekim</string>
-  <string name="pref_camera_scenemode_entry_dark">Koyu</string>
+  <string name="pref_camera_scenemode_entry_dark">Karanlık</string>
   <string name="pref_camera_scenemode_entry_dish">Yemek</string>
-  <string name="pref_camera_scenemode_entry_duskdawn">Şafak vakti</string>
+  <string name="pref_camera_scenemode_entry_duskdawn">Gün batımı</string>
   <string name="pref_camera_scenemode_entry_document">Belge</string>
   <string name="pref_camera_scenemode_entry_fallcolor">Sonbahar renkleri</string>
   <string name="pref_camera_scenemode_entry_fireworks">Havai fişek</string>
@@ -68,8 +68,8 @@
   <string name="pref_camera_scenemode_entry_theatre">Sahne</string>
   <string name="pref_camera_scenemode_entry_whiteboard">Beyaz tahta</string>
   <!-- Settings screen, focus mode -->
-  <string name="pref_camera_focusmode_entry_continuous">Devamlı</string>
-  <string name="pref_camera_focusmode_entry_mw_continuous">Devamlı (MW)</string>
+  <string name="pref_camera_focusmode_entry_continuous">Sürekli</string>
+  <string name="pref_camera_focusmode_entry_mw_continuous">Sürekli (MW)</string>
   <string name="pref_camera_focusmode_entry_extended">Genişletilmiş</string>
   <string name="pref_camera_focusmode_entry_facedetect">Yüz algılama</string>
   <string name="pref_camera_focusmode_entry_facepriority">Yüz öncelikli</string>
@@ -89,7 +89,7 @@
   <string name="pref_camera_flashmode_entry_redeye">Kırmızı göz</string>
   <string name="pref_camera_flashmode_label_redeye">KIRMIZI GÖZ</string>
   <!-- Power shutter -->
-  <string name="pref_camera_power_shutter_title">Güç tuşu ile çekim</string>
+  <string name="pref_camera_power_shutter_title">Güç tuşuyla çek</string>
   <!-- Max brightness -->
   <string name="pref_camera_max_brightness_title">Parlak ekran</string>
   <!-- Touch focus duration -->
@@ -100,9 +100,9 @@
   <string name="pref_camera_focustime_entry_10">10 sn</string>
   <string name="pref_camera_focustime_entry_infinite">Sonsuz</string>
   <!-- Shutter speed -->
-  <string name="pref_camera_shutter_speed_title">Deklanşör Hızı</string>
+  <string name="pref_camera_shutter_speed_title">Çekim hızı</string>
   <string name="auto_hdr_enabled">Otomatik HDR etkin</string>
   <!-- Advanced options -->
   <string name="developer_menu_enabled">Gelişmiş kamera seçeneklerini etkinleştirdiniz</string>
-  <string name="developer_menu_disabled">Gelişmiş kamera seçeneklerini devredışı bıraktınız</string>
+  <string name="developer_menu_disabled">Gelişmiş kamera seçeneklerini devre dışı bıraktınız</string>
 </resources>

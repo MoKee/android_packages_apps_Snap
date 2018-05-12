@@ -34,21 +34,21 @@
   <!-- Default Power mode.. -->
   <!-- Default auto exposure setting. Do not translate. -->
   <!-- Settings screen, Select auto exposure title -->
-  <string name="pref_camera_autoexposure_title">Otomatik Pozlama</string>
+  <string name="pref_camera_autoexposure_title">Otomatik pozlama</string>
   <!-- Settings screen, auto exposure dialog radio button choices -->
-  <string name="pref_camera_autoexposure_entry_frameaverage">Film karesi ortalaması</string>
+  <string name="pref_camera_autoexposure_entry_frameaverage">Çerçeve ortalaması</string>
   <string name="pref_camera_autoexposure_entry_centerweighted">Merkez ağırlıklı</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">Nokta ölçümlü</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Settings screen, Video encoder title -->
-  <string name="pref_camera_videoencoder_title">Video Kodlayıcı</string>
+  <string name="pref_camera_videoencoder_title">Video kodlayıcı</string>
   <!-- Settings screen, Video encoder dialog radio button choices -->
   <!-- Default video encoder setting. A numerical value. -->
   <!-- Settings screen, Video encoder dialog title -->
-  <string name="pref_camera_videoencoder_dialogtitle">Video Kodlayıcı</string>
+  <string name="pref_camera_videoencoder_dialogtitle">Video kodlayıcı</string>
   <!-- Default audio encoder setting. A numerical value. -->
   <!-- Settings screen, Audio encoder title -->
-  <string name="pref_camera_audioencoder_title">Ses Kodlayıcı</string>
+  <string name="pref_camera_audioencoder_title">Ses kodlayıcı</string>
   <!-- Settings screen, Audio encoder dialog radio button choices -->
   <!-- Default video duration setting. A numerical value.-->
   <!-- Default Skin Tone Enhancement setting. Do not translate. -->
@@ -56,7 +56,7 @@
   <string name="pref_camera_skinToneEnhancement_title">Cilt rengi geliştirmesi</string>
   <!-- Settings screen, Skin Tone Enhancement radio button choices -->
   <string name="pref_camera_skinToneEnhancement_entry_enable">Etkinleştir</string>
-  <string name="pref_camera_skinToneEnhancement_entry_disable">Devredışı</string>
+  <string name="pref_camera_skinToneEnhancement_entry_disable">Devre dışı bırak</string>
   <!-- Skin Tone Enhancement entry values. Do not translate. -->
   <!-- Settings screen, setting title text for ZSL-->
   <string name="pref_camera_zsl_title">Sıfır deklanşör gecikmesi</string>
@@ -73,14 +73,14 @@
   <string name="pref_camera_advanced_features_title">Gelişmiş özellikler</string>
   <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
   <string name="pref_camera_advanced_feature_entry_none">Hiçbiri</string>
-  <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Çoklu-dokunmalı Odaklama</string>
+  <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Çoklu dokunmayla odaklama</string>
   <!-- Auto exposure entry values. Do not translate. -->
   <!-- Manual exposure control entry values -->
   <string name="pref_camera_manual_exp_title">Manuel pozlama</string>
   <string name="pref_camera_manual_exp_entry_ISO_priority">ISO öncelikli</string>
-  <string name="pref_camera_manual_exp_entry_exptime_priority">Pozlama zamanı öncelikli</string>
+  <string name="pref_camera_manual_exp_entry_exptime_priority">Pozlama süresi önceliği</string>
   <string name="pref_camera_manual_exp_entry_user_setting">Kullanıcı ayarları</string>
-  <string name="pref_camera_manual_exp_entry_off">Kapat</string>
+  <string name="pref_camera_manual_exp_entry_off">Kapalı</string>
   <!-- Manual white balance entry values -->
   <string name="pref_camera_manual_wb_title">Manuel beyaz dengesi</string>
   <string name="pref_camera_manual_wb_entry_color_temperature">Renk sıcaklığı</string>
@@ -423,7 +423,7 @@
   <string name="pref_camera2_camera2_entry_disable">Devredışı</string>
   <string name="pref_camera2_mono_only_title">Sadece mono</string>
   <string name="pref_camera2_mono_only_entry_on">Açık</string>
-  <string name="pref_camera2_mono_only_entry_off">Kapat</string>
+  <string name="pref_camera2_mono_only_entry_off">Kapalı</string>
   <string name="pref_camera2_mono_preview_title">Mono önizleme</string>
   <string name="pref_camera2_mono_preview_entry_on">Açık</string>
   <string name="pref_camera2_mono_preview_entry_off">Kapat</string>
@@ -436,7 +436,7 @@
   <string name="pref_camera2_mpo_entry_off">Kapat</string>
   <string name="pref_camera2_makeup_title">Makyaj</string>
   <string name="pref_camera2_makeup_entry_on">Açık</string>
-  <string name="pref_camera2_makeup_entry_off">Kapat</string>
+  <string name="pref_camera2_makeup_entry_off">Kapalı</string>
   <string name="pref_camera2_noise_reduction_title">Parazit Azaltma</string>
   <string name="pref_camera2_noise_reduction_entry_off">Kapat</string>
   <string name="pref_camera2_noise_reduction_entry_fast">Hızlı</string>
@@ -446,7 +446,7 @@
   <string name="pref_camera2_videosnap_entry_disable">Devredışı</string>
   <string name="pref_camera2_trackingfocus_title">Odak izleme</string>
   <string name="pref_camera2_trackingfocus_entry_on">Açık</string>
-  <string name="pref_camera2_trackingfocus_entry_off">Kapat</string>
+  <string name="pref_camera2_trackingfocus_entry_off">Kapalı</string>
   <string name="pref_camera_scenemode_entry_bestpicture">En iyi görüntü</string>
   <string name="bestpicture_done">BİTTİ</string>
   <string name="bestpicture_at_least_one_picture">En az bir resim seçilmeli.</string>
