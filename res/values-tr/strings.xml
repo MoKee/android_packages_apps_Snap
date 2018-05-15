@@ -18,14 +18,14 @@
   <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
   <string name="app_name">Kamera</string>
   <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
-  <string name="video_camera_label">Video Kamera</string>
+  <string name="video_camera_label">Video kamera</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
   <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
   <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
-  <string name="set_image">Resmi ayarlayın</string>
+  <string name="set_image">Resmi şu şekilde ayarla</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Sil</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
@@ -45,20 +45,20 @@
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_items_selected">
-    <item quantity="one">%1$d tane seçildi</item>
-    <item quantity="other">%1$d tane seçildi</item>
+    <item quantity="one">%1$d seçildi</item>
+    <item quantity="other">%1$d seçildi</item>
   </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_albums_selected">
-    <item quantity="one">%1$d tane seçildi</item>
-    <item quantity="other">%1$d tane seçildi</item>
+    <item quantity="one">%1$d seçildi</item>
+    <item quantity="other">%1$d seçildi</item>
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_groups_selected">
-    <item quantity="one">%1$d tane seçildi</item>
-    <item quantity="other">%1$d tane seçildi</item>
+    <item quantity="one">%1$d seçildi</item>
+    <item quantity="other">%1$d seçildi</item>
   </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Haritada göster</string>
@@ -77,7 +77,8 @@
   <string name="video_err">Video oynatılamıyor.</string>
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
-  <string name="crop_saved">Kırpılan resim <xliff:g id="FOLDER_NAME">%s</xliff:g> klasörüne kaydedildi.</string>
+  <string name="crop_saved">
+        Kırpılan resim <xliff:g id="folder_name">%s</xliff:g> klasörüne kaydedildi.</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
   <string name="title">Başlık</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
@@ -131,11 +132,12 @@
   <string name="unknown">Bilinmiyor</string>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
-  <string name="try_to_set_local_album_available_offline">Bu öğe yerel olarak depolandı ve çevrimdışı kullanılabilir.</string>
+  <string name="try_to_set_local_album_available_offline">
+        Bu öğe yerel olarak depolandı ve çevrimdışı kullanılabilir.</string>
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
   <string name="please_wait">Lütfen bekleyin</string>
   <!-- Text to show with progress bar while stitching a photo sphere. 'Photo sphere' is a product name. [CHAR LIMIT=35]-->
-  <string name="rendering_photo_sphere">Fotoğraf küresi oluşturuluyor</string>
+  <string name="rendering_photo_sphere">Fotoğraf küresi oluşturma</string>
   <!-- title for the dialog showing the error of camera hardware -->
   <string name="camera_error_title">Kamera hatası</string>
   <!-- message for the dialog showing the error of camera hardware -->
@@ -147,11 +149,11 @@
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
   <string name="dialog_dismiss">Yoksay</string>
   <!-- alert to the user to wait for some operation to complete -->
-  <string name="wait">Lütfen bekleyin…</string>
+  <string name="wait">Lütfen bekleyin\2026</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
   <string name="no_storage" product="default">Kamerayı kullanmadan önce bir SD kart takın.</string>
   <!-- alert to the user that the SD card is being disk-checked -->
-  <string name="preparing_sd" product="default">SD kart hazırlanıyor...</string>
+  <string name="preparing_sd" product="default">SD kart hazırlanıyor\u2026</string>
   <!-- alert to the user that the camera fails to read or write the SD card. -->
   <string name="access_sd_fail" product="default">SD karta erişilemedi.</string>
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
@@ -178,7 +180,7 @@
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">Geri sayımda bip sesi çıkar</string>
   <!-- Entry of camera save path -->
-  <string name="pref_camera_savepath_title">Saklama</string>
+  <string name="pref_camera_savepath_title">Depolama</string>
   <string name="pref_camera_savepath_default">0</string>
   <string name="pref_camera_savepath_entry_0">Telefon</string>
   <string name="pref_camera_savepath_entry_1">SD Kart</string>
@@ -242,7 +244,7 @@
   <!-- Settings screen, White balance dialog radio button choices -->
   <string name="pref_camera_whitebalance_entry_auto">Otomatik</string>
   <string name="pref_camera_whitebalance_entry_incandescent">Ampul</string>
-  <string name="pref_camera_whitebalance_entry_daylight">Gün Işığı</string>
+  <string name="pref_camera_whitebalance_entry_daylight">Gün ışığı</string>
   <string name="pref_camera_whitebalance_entry_fluorescent">Floresan</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Bulutlu</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
@@ -308,15 +310,15 @@
   <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
   <string name="video_quality_4k_disable_SeeMore">SeeMore 4K video sırasında etkinleştirilemez.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
-  <string name="disable_CDS_during_HighQualityNoiseReduction">Yüksek kalitede parazit azaltma CDS\'yi devre dışı bırakır.</string>
+  <string name="disable_CDS_during_HighQualityNoiseReduction">Yüksek kalitede gürültü azaltma CDS de devre dışı bırakır.</string>
   <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
-  <string name="disable_TNR_during_HighQualityNoiseReduction">Yüksek kalitede parazit azaltma TNR\'yi devre dışı bırakır.</string>
+  <string name="disable_TNR_during_HighQualityNoiseReduction">Yüksek kalitede gürültü azaltma TNR de devre dışı bırakır.</string>
   <!-- Toast after SeeMore has been enabled to show CDS is disabled -->
   <string name="disable_CDS_during_SeeMore">SeeMore CDS\'yi devre dışı bırakır.</string>
   <!-- Toast after SeeMore has been enabled to show TNR is disabled -->
   <string name="disable_TNR_during_SeeMore">SeeMore TNR\'yi devre dışı bırakır.</string>
   <!-- Toast after SeeMore has been enabled to show NR is disabled -->
-  <string name="disable_NR_during_SeeMore">SeeMore parazit azaltmayı devre dışı bırakır.</string>
+  <string name="disable_NR_during_SeeMore">SeeMore gürültü azaltmayı devre dışı bırakır.</string>
   <!-- Exposure settings in preference -->
   <string name="pref_exposure_title">Pozlama</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
@@ -351,7 +353,7 @@
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
   <string name="pano_dialog_waiting_previous">Önceki panorama bekleniyor</string>
   <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
-  <string name="pano_review_saving_indication_str">Kaydediliyor…</string>
+  <string name="pano_review_saving_indication_str">Kaydediliyor\u2026</string>
   <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
   <string name="pano_review_rendering">Panorama oluşturuluyor</string>
   <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
@@ -396,7 +398,7 @@
   <!-- The exit best photo mode button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_exit_best_mode_button">En iyi fotoğraf modundan çık</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_menu_button">Menü düğmesi</string>
+  <string name="accessibility_menu_button">Menü tuşu</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
   <string name="accessibility_mode_picker">Kamera, video veya panorama seçici</string>
   <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->
@@ -419,9 +421,9 @@
 CHAR LIMIT = NONE] -->
   <string name="accessibility_review_retake">İnceleme modu tekrar çek</string>
   <!-- Default text for a button that can be toggled on and off. -->
-  <string name="capital_on">AÇ</string>
+  <string name="capital_on">AÇIK</string>
   <!-- Default text for a button that can be toggled on and off. -->
-  <string name="capital_off">KAPAT</string>
+  <string name="capital_off">KAPALI</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_off">Kapalı</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -519,11 +521,11 @@ CHAR LIMIT = NONE] -->
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
   <string name="count_down_title_text">Fotoğraf çekmek için geri sayılıyor</string>
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
-  <string name="remember_location_title">Fotoğrafların çekildiği konumlar hatırlansın mı?</string>
+  <string name="remember_location_title">Fotoğraf konumlarını hatırla?</string>
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
   <string name="remember_location_prompt">Fotoğraflarınızı ve videolarınızı çekildikleri konumlarla etiketleyin.\n\nDiğer uygulamalar, kaydedilen görüntülerle birlikte bu bilgilere erişebilir.</string>
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
-  <string name="remember_location_no">Hayır, teşekkürler</string>
+  <string name="remember_location_no">Hayır teşekkürler</string>
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Evet</string>
   <!-- Camera menu labels -->
@@ -533,11 +535,11 @@ CHAR LIMIT = NONE] -->
   <string name="camera_menu_settings_label">AYARLAR</string>
   <!--  Tiny Planet -->
   <!-- Button to press for creating a tiny planet image. [CHAR LIMIT = 30] -->
-  <string name="create_tiny_planet">Minik Gezegen Oluştur</string>
+  <string name="create_tiny_planet">Küçük gezegen oluştur</string>
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
-  <string name="saving_tiny_planet">Minik Gezegen kaydediliyor…</string>
+  <string name="saving_tiny_planet">Küçük gezegen kaydediliyor…</string>
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
-  <string name="tiny_planet_zoom">Zum</string>
+  <string name="tiny_planet_zoom">Yakınlaştırma</string>
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
   <string name="tiny_planet_rotate">Döndürme</string>
   <!-- Crop -->
@@ -548,7 +550,7 @@ CHAR LIMIT = NONE] -->
   <!-- Label for album filmstrip button -->
   <string name="switch_photo_filmstrip">Film şeridi görünümü</string>
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
-  <string name="setting_wallpaper">Duvar kağıdı ayarlanıyor</string>
+  <string name="setting_wallpaper">Duvar kağıdı ayarlama</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
   <string name="pref_camera_video_rotation_label_0">0</string>
   <string name="pref_camera_video_rotation_label_90">90</string>
@@ -564,9 +566,9 @@ CHAR LIMIT = NONE] -->
     <item quantity="one">10 resimden %1$d tanesi kaydedilecek ve geri kalan kısım silinecek</item>
     <item quantity="other">10 resimden %1$d tanesi kaydedilecek ve geri kalan kısım silinecek</item>
   </plurals>
-  <string name="save_best_dialog_title">Seçilmiş resimler kaydedilsin mi?</string>
+  <string name="save_best_dialog_title">Seçilen resimler kaydedilsin mi?</string>
   <string name="save_best_dialog_positive_bt">Tamam</string>
-  <string name="save_best_dialog_native_bt">iptal</string>
+  <string name="save_best_dialog_native_bt">İptal</string>
   <plurals name="save_best_image_toast">
     <item quantity="one">10 resimden %1$d tanesi kayıt edildi.</item>
     <item quantity="other">10 resimden %1$d tanesi kayıt edildi.</item>
@@ -574,11 +576,11 @@ CHAR LIMIT = NONE] -->
   <string name="dialog_do_not_show">Tekrar gösterme</string>
   <string name="delete_best_dialog_title">Tümü silinsin mi?</string>
   <string name="delete_best_dialog_content">Çekilen 10 resmin tümünü silmek istediğinizden emin misiniz?</string>
-  <string name="delete_best_dialog_native_bt">iptal</string>
+  <string name="delete_best_dialog_native_bt">İptal</string>
   <string name="delete_best_dialog_positive_bt">Sil</string>
   <string name="delete_all_best_dialog_title">Tümü silinsin mi?</string>
   <string name="delete_all_best_dialog_content">Tüm resimleri silmek istediğinize emin misiniz?</string>
-  <string name="delete_all_best_dialog_native_bt">iptal</string>
+  <string name="delete_all_best_dialog_native_bt">İptal</string>
   <string name="delete_all_best_dialog_positive_bt">Tümünü sil</string>
   <string name="overflow_best_item1">Tümünü kaydet</string>
   <string name="overflow_best_item2">Tümünü sil</string>
