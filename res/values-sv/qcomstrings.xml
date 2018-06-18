@@ -374,6 +374,7 @@
   <string name="advance_feature_enable_msg">Kontinuerlig bildtagning stöds inte när avancerade funktioner är aktiverade</string>
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">Starta kamera</string>
+  <string name="pref_camera_tsmakeup_title">Försköning</string>
   <string name="pref_camera_tsmakeup_entry_on">På</string>
   <string name="pref_camera_tsmakeup_entry_off">Av</string>
   <string name="pref_camera_tsmakeup_entry_low">Låg</string>
@@ -382,6 +383,7 @@
   <string name="text_tsmakeup_alert_title">Varning</string>
   <string name="text_tsmakeup_alert_continue">Fortsätt</string>
   <string name="text_tsmakeup_alert_quit">Avbryt</string>
+  <string name="text_tsmakeup_beautify_toast">Försköna</string>
   <string name="all_in_focus">Allt i fokus</string>
   <string name="refocus_toast">För att återfokusera senaste bilden, klicka här</string>
   <string name="camera_unknown_error">Okänt fel, stänger kamera.</string>
