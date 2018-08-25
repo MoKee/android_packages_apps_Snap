@@ -35,6 +35,7 @@ LOCAL_JAVA_LIBRARIES := org.mokee.platform.internal
 
 LOCAL_PACKAGE_NAME := Snap
 LOCAL_PRIVILEGED_MODULE := true
+LOCAL_CERTIFICATE := platform
 
 LOCAL_AAPT_FLAGS += --rename-manifest-package org.mokee.snap
 
