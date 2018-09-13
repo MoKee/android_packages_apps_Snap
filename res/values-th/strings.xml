@@ -168,6 +168,7 @@
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">บี๊ปนับถอยหลัง</string>
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_entry_0">โทรศัพท์</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">ปิด</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
@@ -523,7 +524,12 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">กำลังตั้งค่าวอลเปเปอร์</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="pref_camera2_category_system">ระบบ</string>
+  <string name="save_best_dialog_positive_bt">ตกลง</string>
+  <string name="save_best_dialog_native_bt">ยกเลิก</string>
+  <string name="delete_best_dialog_native_bt">ยกเลิก</string>
   <string name="delete_best_dialog_positive_bt">ลบ</string>
+  <string name="delete_all_best_dialog_native_bt">ยกเลิก</string>
   <string name="delete_all_best_dialog_positive_bt">ลบทั้งหมด</string>
   <string name="overflow_best_item2">ลบทั้งหมด</string>
 </resources>

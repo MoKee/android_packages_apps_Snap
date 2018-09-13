@@ -130,6 +130,7 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">ಕೆಂಪು ಕಣ್ಣು ಕಡಿತ</string>
   <!-- Settings menu, redeye reduction choices -->
+  <string name="pref_camera_shuttersound_entry_disable">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">ಸ್ಥಿರೀಕರಣ/ಮೀರಿದ ಸಮಯ/HDR ಬಳಸುವಾಗ ಅಧಿಕ-ಫ್ರೇಮ್‌ರೇಟ್‌ ರೆಕಾರ್ಡಿಂಗ್‌ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ.</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->

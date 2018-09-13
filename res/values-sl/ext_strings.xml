@@ -105,4 +105,5 @@
   <!-- Advanced options -->
   <string name="developer_menu_enabled">Omogočili ste napredne možnosti fotoaparata</string>
   <string name="developer_menu_disabled">Onemogočili ste napredne možnosti fotoaparata</string>
+  <string name="pref_camera2_preferences_category_developer">Napredne nastavitve</string>
 </resources>
