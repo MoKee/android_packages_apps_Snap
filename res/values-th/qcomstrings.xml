@@ -104,8 +104,12 @@
   <string name="pref_camera_video_cds_entry_on">เปิด</string>
   <string name="pref_camera_video_cds_entry_auto">ออโต้</string>
   <!-- Settings screen, TNR location dialog choices -->
+  <string name="pref_camera_tnr_entry_disable">ปิด​ใช้​งาน</string>
+  <string name="pref_camera_tnr_entry_enable">เปิดใช้งาน</string>
   <!-- Settings screen, TNR location dialog choices -->
   <!-- Settings screen, video TNR location dialog choices -->
+  <string name="pref_camera_video_tnr_entry_disable">ปิด​ใช้​งาน</string>
+  <string name="pref_camera_video_tnr_entry_enable">เปิดใช้งาน</string>
   <!-- Settings screen, video TNR location dialog choices -->
   <!-- Settings screen, setting title text for Video HDR-->
   <string name="pref_camera_video_hdr_title">HDR วิดีโอ</string>
@@ -137,6 +141,11 @@
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">ลดตาแดง</string>
   <!-- Settings menu, redeye reduction choices -->
+  <string name="pref_camera_redeyereduction_entry_enable">เปิดใช้งาน</string>
+  <string name="pref_camera_redeyereduction_entry_disable">ปิด​ใช้​งาน</string>
+  <string name="pref_camera_selfiemirror_entry_enable">เปิดใช้งาน</string>
+  <string name="pref_camera_selfiemirror_entry_disable">ปิด​ใช้​งาน</string>
+  <string name="pref_camera_shuttersound_title" translatable="true">เสียงชัตเตอร์</string>
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">ไม่สามารถใช้งานการเคลื่อนไหวแบบความเร็วสูง/การเคลื่อนไหวแบบช้า สำหรับ DIS และ TimeLapse</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
@@ -336,9 +345,11 @@
   <string name="pref_camera_tsmakeup_entry_on">เปิด</string>
   <string name="pref_camera_tsmakeup_entry_off">ปิด</string>
   <string name="pref_camera_tsmakeup_custom">กำหนดเอง</string>
+  <string name="text_tsmakeup_alert_quit">ยกเลิก</string>
   <string name="all_in_focus">โฟกัสทุกตำแหน่ง</string>
   <string name="refocus_toast">ในการโฟกัสภาพล่าสุดใหม่ แตะที่นี่</string>
   <!-- Help menu strings -->
+  <string name="help_menu_ok">ตกลง</string>
   <string name="help_menu_scene_mode_2">โหมดสำเร็จรูป</string>
   <string name="pref_camera2_mono_only_entry_on">เปิด</string>
   <string name="pref_camera2_mono_preview_entry_on">เปิด</string>
@@ -353,6 +364,7 @@
   <string name="bestpicture_done">เสร็จสิ้น</string>
   <string name="pref_camera2_shutter_sound_entry_on">เปิด</string>
   <string name="pref_camera2_shutter_sound_entry_off">ปิด</string>
+  <string name="pref_camera2_shutter_sound_title">เสียงชัตเตอร์</string>
   <string name="pref_camera2_initial_camera_entry_mono">โมโน</string>
   <string name="pref_camera2_initial_camera_entry_front">ด้านหน้า</string>
 </resources>

@@ -157,6 +157,7 @@
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">ด้านหน้า</string>
   <!-- Settings screen, setting title text -->
+  <string name="pref_camera_recordlocation_title">ตำแหน่ง GPS</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">ตำแหน่ง</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -168,6 +169,7 @@
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
   <string name="pref_camera_timer_sound_title">บี๊ประหว่างนับถอยหลัง</string>
   <!-- Entry of camera save path -->
+  <string name="pref_camera_savepath_entry_0">โทรศัพท์</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">ปิด</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
