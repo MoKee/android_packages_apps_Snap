@@ -150,6 +150,7 @@
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE ಬ್ರಾಕೆಟಿಂಗ್‌</string>
   <string name="pref_camera_ae_bracket_hdr_title">AE ಬ್ರಾಕೆಟಿಂಗ್‌</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_off">ಆರಿಸು</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
@@ -276,6 +277,8 @@
   <!-- Settings screen, Picture quality title -->
   <string name="pref_camera_jpegquality_title">ಚಿತ್ರ ಗುಣಮಟ್ಟ</string>
   <!-- Settings screen, Picture quality dialog radio button choices -->
+  <string name="pref_camera_jpegquality_entry_0">ಕಡಿಮೆ</string>
+  <string name="pref_camera_jpegquality_entry_2">ಹೆಚ್ಚು</string>
   <!-- Default auto histogram setting. Do not translate. -->
   <!-- Settings screen, Select Histogram title -->
   <string name="pref_camera_histogram_title">ಹಿಸ್ಟೋಗ್ರಾಮ್</string>
@@ -322,16 +325,23 @@
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">ಕ್ಯಾಮೆರಾ ಆರಂಭಿಸಿ</string>
   <string name="pref_camera_tsmakeup_entry_off">ಆಫ್ ಆಗಿದೆ</string>
+  <string name="pref_camera_tsmakeup_entry_low">ಕಡಿಮೆ</string>
+  <string name="pref_camera_tsmakeup_entry_high">ಹೆಚ್ಚು</string>
   <string name="pref_camera_tsmakeup_custom">ಕಸ್ಟಮ್</string>
   <string name="text_tsmakeup_alert_quit">ರದ್ದು</string>
   <string name="all_in_focus">ಎಲ್ಲವೂ ಫೋಕಸ್‌ನಲ್ಲಿ</string>
   <string name="refocus_toast">ಕೊನೆಯ ಫೊಟೋ ರಿ-ಫೋಕಸ್‌ ಮಾಡಲು, ಇಲ್ಲಿ ತಟ್ಟಿ</string>
   <!-- Help menu strings -->
   <string name="help_menu_ok">ಸರಿ</string>
+  <string name="help_menu_scene_mode_2">ದೃಶ್ಯ ಮೋಡ್</string>
+  <string name="pref_camera2_mono_only_entry_off">ಆರಿಸು</string>
   <string name="pref_camera2_mono_preview_entry_off">ಆಫ್ ಆಗಿದೆ</string>
   <string name="pref_camera2_clearsight_entry_off">ಆಫ್ ಆಗಿದೆ</string>
   <string name="pref_camera2_mpo_entry_off">ಆಫ್ ಆಗಿದೆ</string>
+  <string name="pref_camera2_makeup_entry_off">ಆರಿಸು</string>
   <string name="pref_camera2_noise_reduction_entry_off">ಆಫ್ ಆಗಿದೆ</string>
+  <string name="pref_camera2_trackingfocus_entry_off">ಆರಿಸು</string>
+  <string name="bestpicture_done">ಮುಗಿಯಿತು</string>
   <string name="pref_camera2_shutter_sound_entry_off">ಆಫ್ ಆಗಿದೆ</string>
   <string name="pref_camera2_initial_camera_entry_mono">ಮೊನೊ</string>
 </resources>
