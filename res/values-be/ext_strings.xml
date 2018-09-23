@@ -106,4 +106,5 @@
   <!-- Advanced options -->
   <string name="developer_menu_enabled">Вы ўключылі дадатковыя параметры камеры</string>
   <string name="developer_menu_disabled">Вы выключылі дадатковыя параметры камеры</string>
+  <string name="pref_camera2_preferences_category_developer">Паказаць дадатковыя параметры</string>
 </resources>

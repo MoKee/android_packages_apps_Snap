@@ -98,20 +98,20 @@
   <!-- Instant Capture entry values -->
   <!-- Settings screen, ZSL location dialog choices -->
   <string name="pref_camera_zsl_entry_off">オフ</string>
-  <string name="pref_camera_zsl_entry_on">ON</string>
+  <string name="pref_camera_zsl_entry_on">オン</string>
   <!-- The message is shown in toast when HDR or scene mode is enabled -->
   <string name="hdr_enable_message">HDRが有効です。オートシーンモードのみサポートされています</string>
   <string name="scene_enable_message">オート以外のシーンモードではHDRはサポートされていません</string>
   <!-- Settings screen, Video HDR location dialog choices -->
   <string name="pref_camera_video_hdr_entry_off">オフ</string>
-  <string name="pref_camera_video_hdr_entry_on">ON</string>
+  <string name="pref_camera_video_hdr_entry_on">オン</string>
   <!-- Settings screen, CDS location dialog choices -->
   <string name="pref_camera_cds_entry_off">オフ</string>
-  <string name="pref_camera_cds_entry_on">ON</string>
+  <string name="pref_camera_cds_entry_on">オン</string>
   <string name="pref_camera_cds_entry_auto">オート</string>
   <!-- Settings screen, video CDS location dialog choices -->
   <string name="pref_camera_video_cds_entry_off">オフ</string>
-  <string name="pref_camera_video_cds_entry_on">ON</string>
+  <string name="pref_camera_video_cds_entry_on">オン</string>
   <string name="pref_camera_video_cds_entry_auto">オート</string>
   <!-- Settings screen, TNR location dialog choices -->
   <string name="pref_camera_tnr_entry_disable">無効</string>
@@ -140,13 +140,13 @@
   <string name="pref_camera_facedetection_title">顔認識</string>
   <!-- Settings menu, Face Detection choices -->
   <string name="pref_camera_facedetection_entry_off">オフ</string>
-  <string name="pref_camera_facedetection_entry_on">ON</string>
+  <string name="pref_camera_facedetection_entry_on">オン</string>
   <!-- Default Selfie Flash setting. -->
   <!-- Settings screen, Selfie Flash Detection -->
   <string name="pref_selfie_flash_title">自撮りフラッシュ</string>
   <!-- Settings menu, Selfie Flash choices -->
   <string name="pref_selfie_flash_entry_off">オフ</string>
-  <string name="pref_selfie_flash_entry_on">ON</string>
+  <string name="pref_selfie_flash_entry_on">オン</string>
   <!-- Default redeye reduction setting. -->
   <!-- Settings screen, Select Redeye Reduction -->
   <string name="pref_camera_redeyereduction_title">赤目軽減</string>
@@ -162,29 +162,29 @@
   <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
   <string name="error_app_unsupported_hfr_selection">高フレームレート録画は手ぶれ補正/低速度撮影/HDR使用時は使用できません</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
-  <string name="error_app_unsupported_hfr">選択した動画サイズではスローモーションモードは使用できません。小さい動画サイズを選択してください。</string>
+  <string name="error_app_unsupported_hfr">選択した動画サイズではスローモーションモードは使用できません。小さい動画サイズを選択して下さい。</string>
   <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
-  <string name="error_app_unsupported_dis">手ぶれ補正は選択した動画サイズでは使用できません。小さい動画サイズを選択してください。</string>
+  <string name="error_app_unsupported_dis">手ぶれ補正は選択した動画サイズでは使用できません。小さい動画サイズを選択して下さい。</string>
   <!-- The message is shown in dialog when the app encounters an unsupported resolution for HSR mode -->
-  <string name="error_app_unsupported_hsr">ハイスピードモードは選択した解像度では使用できません。小さい動画サイズを選択してください。</string>
+  <string name="error_app_unsupported_hsr">ハイスピードモードは選択した解像度では使用できません。小さい動画サイズを選択して下さい。</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video codec for HFR mode -->
-  <string name="error_app_unsupported_hfr_codec">HFRがONになっている場合はH.264ビデオエンコーディングのみ使用できます</string>
+  <string name="error_app_unsupported_hfr_codec">HFRがオンになっている場合はH.264ビデオエンコーディングのみ使用できます</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
   <string name="error_app_unsupported">このエンコーダの種類では使用できない動画の解像度です</string>
   <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
   <string name="error_app_unsupported_profile">非対応の動画プロファイル</string>
   <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
-  <string name="error_app_unsupported_raw">RAW画像形式はゼロシャッターラグモードでは使用できません。JPEGを選択してください。</string>
+  <string name="error_app_unsupported_raw">RAW画像形式はゼロシャッターラグモードでは使用できません。JPEGを選択して下さい。</string>
   <!-- Settings screen, AE bracketing and HDR location dialog choices -->
   <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">自動段階露出</string>
   <string name="pref_camera_ae_bracket_hdr_title">自動段階露出</string>
-  <string name="pref_camera_ae_bracket_hdr_entry_on">ON</string>
+  <string name="pref_camera_ae_bracket_hdr_entry_on">オン</string>
   <string name="pref_camera_ae_bracket_hdr_entry_off">オフ</string>
   <string name="err_app_unsupport_ae_bracket_code">自動露出ブラケットはサポートされていません</string>
   <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
-  <string name="snapshot_lower_than_video">動画スナップショットのサイズが動画のサイズよりも低く設定されています。今の動画のサイズと同等以上の解像度を選択してください。</string>
+  <string name="snapshot_lower_than_video">動画スナップショットのサイズが動画のサイズよりも低く設定されています。今の動画のサイズと同等以上の解像度を選択して下さい。</string>
   <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
-  <string name="snapshotsize_low_powermode">低電力モードでは写真のサイズの変更はサポートされていません。動画のサイズのスナップショットが撮影されます。写真のサイズの変更を許可するには通常電力モードを選択してください。</string>
+  <string name="snapshotsize_low_powermode">低電力モードでは写真のサイズの変更はサポートされていません。動画のサイズのスナップショットが撮影されます。写真のサイズの変更を許可するには通常電力モードを選択して下さい。</string>
   <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
   <string name="snapshot_qcif_and_d1">この解像度では動画サイズのスナップショットのみサポートされています</string>
   <!-- Default hfr setting. Do not translate. -->
@@ -213,18 +213,46 @@
   <!-- Settings screen, Select See More title -->
   <!-- Settings screen, see more radio button choices -->
   <string name="pref_camera_see_more_entry_off">オフ</string>
-  <string name="pref_camera_see_more_entry_on">ON</string>
+  <string name="pref_camera_see_more_entry_on">オン</string>
   <!-- see more entry values. Do not translate. -->
   <!-- Denoise Settings screen, setting title text -->
   <string name="pref_camera_denoise_title">ノイズ除去</string>
   <!-- Denoise Settings screen, Record location dialog choices -->
   <string name="pref_camera_denoise_entry_off">オフ</string>
-  <string name="pref_camera_denoise_entry_on">ON</string>
+  <string name="pref_camera_denoise_entry_on">オン</string>
   <!-- Default iso setting. Do not translate. -->
   <!-- Settings screen, Select Iso title -->
+  <string name="pref_camera_iso_title">ISO感度</string>
   <!-- Settings screen, ISO dialog radio button choices -->
   <string name="pref_camera_iso_entry_auto">オート</string>
   <string name="pref_camera_iso_entry_isodeblur">オート（HJR）</string>
+  <string name="pref_camera_iso_entry_iso50">ISO50</string>
+  <string name="pref_camera_iso_entry_iso100">ISO100</string>
+  <string name="pref_camera_iso_entry_iso125">ISO125</string>
+  <string name="pref_camera_iso_entry_iso150">ISO150</string>
+  <string name="pref_camera_iso_entry_iso200">ISO200</string>
+  <string name="pref_camera_iso_entry_iso250">ISO250</string>
+  <string name="pref_camera_iso_entry_iso300">ISO300</string>
+  <string name="pref_camera_iso_entry_iso320">ISO320</string>
+  <string name="pref_camera_iso_entry_iso350">ISO350</string>
+  <string name="pref_camera_iso_entry_iso400">ISO400</string>
+  <string name="pref_camera_iso_entry_iso450">ISO450</string>
+  <string name="pref_camera_iso_entry_iso500">ISO500</string>
+  <string name="pref_camera_iso_entry_iso600">ISO600</string>
+  <string name="pref_camera_iso_entry_iso640">ISO640</string>
+  <string name="pref_camera_iso_entry_iso700">ISO700</string>
+  <string name="pref_camera_iso_entry_iso800">ISO800</string>
+  <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
+  <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
+  <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
+  <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
+  <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
+  <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
+  <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
+  <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
+  <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
+  <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
+  <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
   <!-- ISO entry values. Do not translate. -->
   <!-- Settings screen, Anti Banding title -->
   <string name="pref_camera_antibanding_title">アンチバンディング</string>
@@ -234,7 +262,7 @@
   <string name="pref_camera_antibanding_entry_1">50 Hz（ヨーロッパ）</string>
   <string name="pref_camera_antibanding_entry_2">60 Hz（アメリカ）</string>
   <!-- Default color effect setting. -->
-  <string name="pref_camera_filter_mode_entry_on">ON</string>
+  <string name="pref_camera_filter_mode_entry_on">オン</string>
   <string name="pref_camera_filter_mode_entry_off">オフ</string>
   <!-- Settings screen, Select Color effect title -->
   <string name="pref_camera_coloreffect_title">色彩エフェクト</string>
@@ -260,12 +288,12 @@
   <string name="pref_camera_dis_title">手ぶれ補正</string>
   <!-- DIS choices -->
   <string name="pref_camera_dis_entry_off">オフ</string>
-  <string name="pref_camera_dis_entry_on">ON</string>
+  <string name="pref_camera_dis_entry_on">オン</string>
   <!-- Select Face Recognition title -->
   <string name="pref_camera_facerc_title">顔認識</string>
   <!-- Face Recognition choices -->
   <string name="pref_camera_facerc_entry_off">オフ</string>
-  <string name="pref_camera_facerc_entry_on">ON</string>
+  <string name="pref_camera_facerc_entry_on">オン</string>
   <!-- Settings screen, Multiple levels entries -->
   <string name="pref_camera_sharpness_entry_level0">レベル0</string>
   <string name="pref_camera_sharpness_entry_level1">レベル1</string>
@@ -333,7 +361,7 @@
   <!-- Settings menu, auto scene detection choices -->
   <string name="pref_camera_scenedetect_entry_off">オフ</string>
   <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
-  <string name="pref_camera_scenedetect_entry_on">ON</string>
+  <string name="pref_camera_scenedetect_entry_on">オン</string>
   <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
   <string name="time_lapse_error">タイムラプス撮影には無効な動画サイズです</string>
   <!-- longshot value -->
@@ -373,7 +401,7 @@
   <!-- The alas of CameraActivity for gesture operation -->
   <string name="camera_gesture_title">カメラを起動</string>
   <string name="pref_camera_tsmakeup_title">ビューティーモード</string>
-  <string name="pref_camera_tsmakeup_entry_on">ON</string>
+  <string name="pref_camera_tsmakeup_entry_on">オン</string>
   <string name="pref_camera_tsmakeup_entry_off">オフ</string>
   <string name="pref_camera_tsmakeup_entry_low">低め</string>
   <string name="pref_camera_tsmakeup_entry_mid">標準</string>
@@ -387,8 +415,8 @@
   <string name="text_tsmakeup_alert_quit">キャンセル</string>
   <string name="text_tsmakeup_beautify_toast">ビューティーモード</string>
   <string name="all_in_focus">全焦点</string>
-  <string name="refocus_toast">前の写真をリフォーカスするには、ここをタップしてください</string>
-  <string name="refocus_prompt_message">UbiFocus を使用すると、シャッターボタンを押す度に5枚写真を撮影します。5枚の写真を1枚に結合してすべてにフォーカスされているようにします。写真を撮影した後でも再フォーカスできます。</string>
+  <string name="refocus_toast">前の写真をリフォーカスするにはここをタップして下さい</string>
+  <string name="refocus_prompt_message">UbiFocus を使用すると、シャッターボタンを押す度に5枚写真を撮影します。5枚の写真を1枚に結合して全てにフォーカスされているようにします。写真を撮影した後でも再フォーカスできます。</string>
   <string name="camera_thermal_shutdown">端末の温度が上昇したためカメラを終了します</string>
   <string name="camera_server_died">メディアサーバーが停止したためカメラを終了します</string>
   <string name="camera_unknown_error">不明なエラーが発生したためカメラを終了します</string>
@@ -397,20 +425,20 @@
   <string name="pref_camera2_camera2_entry_enable">有効</string>
   <string name="pref_camera2_camera2_entry_disable">無効</string>
   <string name="pref_camera2_mono_only_title">モノクロのみ</string>
-  <string name="pref_camera2_mono_only_entry_on">ON</string>
+  <string name="pref_camera2_mono_only_entry_on">オン</string>
   <string name="pref_camera2_mono_only_entry_off">オフ</string>
   <string name="pref_camera2_mono_preview_title">モノクロプレビュー</string>
-  <string name="pref_camera2_mono_preview_entry_on">ON</string>
+  <string name="pref_camera2_mono_preview_entry_on">オン</string>
   <string name="pref_camera2_mono_preview_entry_off">オフ</string>
-  <string name="pref_camera2_clearsight_entry_on">ON</string>
+  <string name="pref_camera2_clearsight_entry_on">オン</string>
   <string name="pref_camera2_clearsight_entry_off">オフ</string>
   <string name="clearsight_capture_success">ClearSightキャプチャが完了しました</string>
   <string name="clearsight_capture_fail">ClearSightキャプチャができませんでした</string>
   <string name="pref_camera2_mpo_title">MPO形式</string>
-  <string name="pref_camera2_mpo_entry_on">ON</string>
+  <string name="pref_camera2_mpo_entry_on">オン</string>
   <string name="pref_camera2_mpo_entry_off">オフ</string>
   <string name="pref_camera2_makeup_title">メイクアップ</string>
-  <string name="pref_camera2_makeup_entry_on">ON</string>
+  <string name="pref_camera2_makeup_entry_on">オン</string>
   <string name="pref_camera2_makeup_entry_off">オフ</string>
   <string name="pref_camera2_noise_reduction_title">ノイズリダクション</string>
   <string name="pref_camera2_noise_reduction_entry_off">オフ</string>
@@ -420,25 +448,50 @@
   <string name="pref_camera2_videosnap_entry_enable">有効</string>
   <string name="pref_camera2_videosnap_entry_disable">無効</string>
   <string name="pref_camera2_trackingfocus_title">追尾フォーカス</string>
-  <string name="pref_camera2_trackingfocus_entry_on">ON</string>
+  <string name="pref_camera2_trackingfocus_entry_on">オン</string>
   <string name="pref_camera2_trackingfocus_entry_off">オフ</string>
   <string name="pref_camera_scenemode_entry_bestpicture">最高の写真</string>
+  <string name="pref_camera_scenemode_entry_sharpshooter">シャープネス</string>
   <string name="pref_camera_scenemode_entry_trackingfocus">追尾フォーカス</string>
   <string name="pref_camera_scenemode_entry_panorama">パノラマ</string>
+  <string name="pref_camera_scenemode_entry_promode">プロモード</string>
   <string name="bestpicture_done">完了</string>
   <string name="bestpicture_at_least_one_picture">少なくとも1枚の写真を選んでください</string>
-  <string name="pref_camera2_shutter_sound_entry_on">ON</string>
+  <string name="pref_camera2_shutter_sound_entry_on">オン</string>
   <string name="pref_camera2_shutter_sound_entry_off">オフ</string>
   <string name="pref_camera2_shutter_sound_title">シャッター音</string>
   <string name="pref_camera2_timer_entry_off">オフ</string>
   <string name="pref_camera2_timer_entry_2sec">2秒</string>
   <string name="pref_camera2_timer_entry_5sec">5秒</string>
   <string name="pref_camera2_timer_entry_10sec">10秒</string>
+  <string name="pref_camera2_saveraw_title">RAW 形式で保存する</string>
+  <string name="panocapture_direction_is_not_determined">常に一方向へ移動してください</string>
+  <string name="panocapture_intro">開始するにはカメラボタンを押してください</string>
+  <string name="panocapture_direction_is_changed">方向が変わったため、パノラマ撮影を中止します\u2026</string>
+  <string name="makeup_ui_title">美肌効果の強さを選択</string>
   <string name="makeup_ui_ok_button">はい</string>
   <string name="perf_camera2_version_info">バージョン情報</string>
   <string name="perf_camera2_preferences_category_general">全般</string>
+  <string name="perf_camera2_preferences_category_photo">スチールカメラ</string>
+  <string name="perf_camera2_preferences_category_video">ビデオカメラ</string>
   <string name="perf_camera2_preferences_category_system">システム</string>
+  <string name="pref_camera2_scene_mode_dual_camera_instructional_content">デュアルカメラモードでは撮影した写真がよりクリアに撮影できます。
+また、その写真をギャラリーで編集し背景にボケ味を与えることもできます。</string>
+  <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">UbiFocus は撮影時に同時にフォーカス位置が異なる写真を最大5枚撮影し、それらを合成して保存することであとからフォーカス位置を変更できます。</string>
+  <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">OptiZoom を使用すると拡大しても鮮明な画像になります。撮影前でも撮影後でもズームできます。</string>
+  <string name="pref_camera2_scene_mode_sports_instructional_content">スポーツモードはより良いスポーツやアクション写真を撮ることができます。\n\n写真には効果がありますがビデオ撮影には効果はありません。</string>
+  <string name="pref_camera2_scene_mode_hdr_instructional_content">暗いシーンや逆行のようなシーンが混在している時は、最高の画質を得るために「HDR」を選択します。</string>
+  <string name="pref_camera2_scene_mode_best_photo_instructional_content">10枚の写真を連写し、ベストな1枚を選べます。</string>
+  <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">ChromaFlash を使用すると、カメラのフラッシュが写真の全ての人物やオブジェクトに合わせて最適化されます。 この機能はバックカメラにのみ適用されます。</string>
+  <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">シャープネスはシーン内の動きや手の震えによるブレを軽減します</string>
+  <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">写真やビデオの撮影中に、選択した人や物体を追跡したりピントを合わせたりすることができます。開始するには追跡する人物または物体に四角を合わせます。</string>
+  <string name="pref_camera2_scene_mode_time_lapse_instructional_content">低速度撮影（コマ送り）モードでは、録画中の長時間のビデオを短時間のビデオに変換できます。この効果は動画には適用されますが、写真には適用されません。</string>
+  <string name="pref_camera2_scene_mode_panorama_instructional_content">左右にパンするとパノラマ写真を撮ることができます。 上下にパンして縦長の写真を撮ることもできます。</string>
+  <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster は手振れによるぼやけを低減します。安定した撮影が困難な場所で写真を撮る際に便利です。</string>
+  <string name="pref_camera2_scene_mode_pro_instructional_content">プロモードでは、ISO・露出・ホワイトバランス・フォーカスの設定を手動制御できます。 これらの全ての詳細設定に簡単にアクセスできます。</string>
+  <string name="pref_camera2_not_show_again">再び表示しない</string>
   <string name="pref_camera2_scene_mode_instructional_ok">はい</string>
+  <string name="pref_camera2_instant_aec_title">インスタント AEC</string>
   <string name="pref_camera2_instant_aec_entry_disable">無効</string>
   <string name="pref_camera2_instant_aec_entry_aggressive">アグレッシブ AEC</string>
   <string name="pref_camera2_instant_aec_entry_fast">高速 AEC</string>
@@ -462,25 +515,44 @@
   <string name="pref_camera2_histogram_title">ヒストグラム</string>
   <string name="pref_camera2_histogram_entry_enable">有効</string>
   <string name="pref_camera2_histogram_entry_disable">無効</string>
+  <string name="pref_camera2_hdr_title">HDR</string>
   <string name="pref_camera2_hdr_entry_enable">有効</string>
   <string name="pref_camera2_hdr_entry_disable">無効</string>
   <string name="pref_camera2_auto_hdr_title">オートHDR</string>
   <string name="pref_camera2_auto_hdr_entry_enable">有効</string>
   <string name="pref_camera2_auto_hdr_entry_disable">無効</string>
+  <string name="pref_camera_bokeh_mode_title">ボケモード</string>
   <string name="pref_camera_bokeh_mode_entry_enable">有効</string>
   <string name="pref_camera_bokeh_mode_entry_disable">無効</string>
+  <string name="pref_camera_bokeh_mpo_title">ボケモード MPO</string>
   <string name="pref_camera_bokeh_mpo_entry_enable">有効</string>
   <string name="pref_camera_bokeh_mpo_entry_disable">無効</string>
+  <string name="pref_camera_bokeh_blur_degree_title">ぼかし具合</string>
   <!-- Default Zoom setting. -->
   <string name="pref_camera_zoom_title">ズーム</string>
   <!-- Settings menu, Zoom choices -->
   <string name="pref_camera_zoom_entry_off">オフ</string>
+  <string name="pref_camera_zoom_entry_1x">等倍</string>
+  <string name="pref_camera_zoom_entry_2x">2倍</string>
+  <string name="pref_camera_zoom_entry_3x">3倍</string>
+  <string name="pref_camera_zoom_entry_4x">4倍</string>
+  <string name="pref_camera_zoom_entry_5x">5倍</string>
+  <string name="pref_camera_zoom_entry_6x">6倍</string>
+  <string name="pref_camera_zoom_entry_7x">7倍</string>
+  <string name="pref_camera_zoom_entry_8x">8倍</string>
+  <string name="pref_camera_zoom_entry_9x">9倍</string>
+  <string name="pref_camera_zoom_entry_10x">10倍</string>
+  <string name="pref_camera2_bsgc_title">笑顔/まばたき/視線検出</string>
   <string name="pref_camera2_bsgc_entry_enable">有効</string>
   <string name="pref_camera2_bsgc_entry_disable">無効</string>
   <string name="pref_camera2_zsl_title">ゼロシャッターラグ</string>
   <string name="pref_camera2_zsl_entry_disable">オフ</string>
+  <string name="pref_camera2_zsl_entry_app_zsl">ソフトウェア ZSL</string>
+  <string name="pref_camera2_zsl_entry_hal_zsl">ハードウェア ZSL</string>
   <!-- QCFA Title -->
   <!-- QCFA choices -->
+  <string name="pref_camera2_switch_camera_title">IDでカメラを切り替える</string>
+  <string name="pref_camera2_initial_camera_entry_bayer">バイエル</string>
   <string name="pref_camera2_initial_camera_entry_mono">モノクロ</string>
   <string name="pref_camera2_initial_camera_entry_front">前面</string>
 </resources>
