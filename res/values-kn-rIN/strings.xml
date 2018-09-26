@@ -113,8 +113,10 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">ಎಕ್ಸ್‌ಪೋಶರ್ ಸಮಯ</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
   <string name="manual">ಹಸ್ತಚಾಲಿತ</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
@@ -140,6 +142,7 @@
   <string name="camera_disabled">ಭದ್ರತಾ ನೀತಿಗಳ ಕಾರಣದಿಂದಾಗಿ ಕ್ಯಾಮರಾ ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ.</string>
   <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+  <string name="dialog_dismiss">ವಜಾ ಮಾಡು</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ…</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -159,6 +162,7 @@
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">ಮುಂದೆ</string>
   <!-- Settings screen, setting title text -->
+  <string name="pref_camera_recordlocation_title">GPS ಸ್ಥಳ</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">ಸ್ಥಾನ</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
