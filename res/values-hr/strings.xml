@@ -510,6 +510,7 @@ CHAR LIMIT = NONE] -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Postavljanje pozadinske slike</string>
   <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+  <string name="pref_camera2_category_system">Sustav</string>
   <string name="delete_best_dialog_positive_bt">Izbriši</string>
   <string name="delete_all_best_dialog_positive_bt">Izbriši sve</string>
   <string name="overflow_best_item2">Izbriši sve</string>

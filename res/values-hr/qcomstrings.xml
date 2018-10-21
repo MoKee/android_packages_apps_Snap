@@ -329,6 +329,7 @@
   <string name="pref_camera2_timer_entry_5sec">5 sekundi</string>
   <string name="pref_camera2_timer_entry_10sec">10 sekundi</string>
   <string name="perf_camera2_preferences_category_general">Općenito</string>
+  <string name="perf_camera2_preferences_category_system">Sustav</string>
   <string name="pref_camera2_saturation_level_title">Zasićenje</string>
   <string name="pref_camera2_saturation_level_entry_0">Razina 0</string>
   <string name="pref_camera2_saturation_level_entry_1">Razina 1</string>
