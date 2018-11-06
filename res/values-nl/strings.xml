@@ -20,9 +20,7 @@
     <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
     <string name="video_camera_label">Camcorder</string>
     <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-    <string name="details_ms">%1$02d:%2$02d</string>
     <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
     <string name="set_image">Foto instellen als</string>
@@ -329,7 +327,7 @@
     <!-- switch camera label front [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_front">CAMERA AAN ACHTERZIJDE</string>
     <!-- Dialog "OK" button. Dismisses dialog. -->
-    <string name="dialog_ok">OK</string>
+    <string name="dialog_ok">Oké</string>
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
     <string name="spaceIsLow_content" product="default">Uw SD-kaart is bijna vol. Verminder de opnamekwaliteit of verwijder bestanden.</string>
     <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
@@ -556,7 +554,7 @@ CHAR LIMIT = NONE] -->
         <item quantity="one">%1$d van de 10 afbeeldingen wordt opgeslagen, de rest wordt verwijderd</item>
         <item quantity="other">%1$d van de 10 afbeeldingen worden opgeslagen, de rest wordt verwijderd</item>
     </plurals>
-    <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="save_best_dialog_positive_bt">Oké</string>
     <string name="save_best_dialog_native_bt">Annuleren</string>
     <plurals name="save_best_image_toast">
         <item quantity="one">%1$d van de 10 afbeeldingen opgeslagen.</item>

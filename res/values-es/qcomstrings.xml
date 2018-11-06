@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Bracketing de exposición automática</string>
     <string name="pref_camera_ae_bracket_hdr_title">Bracketing de exposición automática</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Activado</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Desactivado</string>
     <string name="err_app_unsupport_ae_bracket_code">El horquillado AE no está soportado</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">El tamaño de instantánea es menor que el tamaño de vídeo. Por favor, selecciona una resolución igual o mayor al tamaño actual de vídeo.</string>
@@ -226,28 +227,28 @@
     <string name="pref_camera_iso_entry_auto">Automático</string>
     <string name="pref_camera_iso_entry_isodeblur">Auto (HJR)</string>
     <string name="pref_camera_iso_entry_iso50">ISO50</string>
-    <string name="pref_camera_iso_entry_iso100">ISO100</string>
+    <string name="pref_camera_iso_entry_iso100">ISO 100</string>
     <string name="pref_camera_iso_entry_iso125">ISO125</string>
     <string name="pref_camera_iso_entry_iso150">ISO150</string>
-    <string name="pref_camera_iso_entry_iso200">ISO200</string>
+    <string name="pref_camera_iso_entry_iso200">ISO 200</string>
     <string name="pref_camera_iso_entry_iso250">ISO250</string>
     <string name="pref_camera_iso_entry_iso300">ISO300</string>
     <string name="pref_camera_iso_entry_iso320">ISO320</string>
     <string name="pref_camera_iso_entry_iso350">ISO350</string>
-    <string name="pref_camera_iso_entry_iso400">ISO400</string>
+    <string name="pref_camera_iso_entry_iso400">ISO 400</string>
     <string name="pref_camera_iso_entry_iso450">ISO450</string>
     <string name="pref_camera_iso_entry_iso500">ISO500</string>
     <string name="pref_camera_iso_entry_iso600">ISO600</string>
     <string name="pref_camera_iso_entry_iso640">ISO640</string>
     <string name="pref_camera_iso_entry_iso700">ISO700</string>
-    <string name="pref_camera_iso_entry_iso800">ISO800</string>
+    <string name="pref_camera_iso_entry_iso800">ISO 800</string>
     <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
     <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
     <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
     <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
-    <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
-    <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-    <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
+    <string name="pref_camera_iso_entry_iso1600">ISO 1600</string>
+    <string name="pref_camera_iso_entry_iso2000">ISO 2000</string>
+    <string name="pref_camera_iso_entry_iso2500">ISO 2500</string>
     <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
     <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
     <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
@@ -274,7 +275,7 @@
     <!-- Color effect that overexposes and reverses some of the tones. -->
     <string name="pref_camera_coloreffect_entry_solarize">Solarizar</string>
     <string name="pref_camera_coloreffect_entry_posterize">Posterizar</string>
-    <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Agua</string>
     <string name="pref_camera_coloreffect_entry_emboss">Realzar</string>
     <string name="pref_camera_coloreffect_entry_sketch">Dibujo</string>
     <string name="pref_camera_coloreffect_entry_neon">Neón</string>
@@ -527,26 +528,16 @@
     <string name="pref_camera_bokeh_mpo_entry_disable">Desactivar</string>
     <string name="pref_camera_bokeh_blur_degree_title">Valor de desenfoque Bokeh</string>
     <!-- Default Zoom setting. -->
-    <string name="pref_camera_zoom_title">Zoom</string>
+    <string name="pref_camera_zoom_title">Aumentar/Disminuir</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Apagar</string>
     <string name="pref_camera_zoom_entry_1x">1x</string>
     <string name="pref_camera_zoom_entry_2x">2x</string>
-    <string name="pref_camera_zoom_entry_3x">3x</string>
-    <string name="pref_camera_zoom_entry_4x">4x</string>
-    <string name="pref_camera_zoom_entry_5x">5x</string>
-    <string name="pref_camera_zoom_entry_6x">6x</string>
-    <string name="pref_camera_zoom_entry_7x">7x</string>
-    <string name="pref_camera_zoom_entry_8x">8x</string>
-    <string name="pref_camera_zoom_entry_9x">9x</string>
-    <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Detectar sonrisa/parpadeo/mirada</string>
     <string name="pref_camera2_bsgc_entry_enable">Activar</string>
     <string name="pref_camera2_bsgc_entry_disable">Desactivar</string>
     <string name="pref_camera2_zsl_title">Eliminar retraso del disparador</string>
     <string name="pref_camera2_zsl_entry_disable">Apagar</string>
-    <string name="pref_camera2_zsl_entry_app_zsl">Software ZSL</string>
-    <string name="pref_camera2_zsl_entry_hal_zsl">Hardware ZSL</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Cambiar cámara por ID</string>

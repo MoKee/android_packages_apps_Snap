@@ -225,33 +225,6 @@
     <!-- Settings screen, ISO dialog radio button choices -->
     <string name="pref_camera_iso_entry_auto">Outo</string>
     <string name="pref_camera_iso_entry_isodeblur">ISO Outo(HJR)</string>
-    <string name="pref_camera_iso_entry_iso50">ISO50</string>
-    <string name="pref_camera_iso_entry_iso100">ISO100</string>
-    <string name="pref_camera_iso_entry_iso125">ISO125</string>
-    <string name="pref_camera_iso_entry_iso150">ISO150</string>
-    <string name="pref_camera_iso_entry_iso200">ISO200</string>
-    <string name="pref_camera_iso_entry_iso250">ISO250</string>
-    <string name="pref_camera_iso_entry_iso300">ISO300</string>
-    <string name="pref_camera_iso_entry_iso320">ISO320</string>
-    <string name="pref_camera_iso_entry_iso350">ISO350</string>
-    <string name="pref_camera_iso_entry_iso400">ISO400</string>
-    <string name="pref_camera_iso_entry_iso450">ISO450</string>
-    <string name="pref_camera_iso_entry_iso500">ISO500</string>
-    <string name="pref_camera_iso_entry_iso600">ISO600</string>
-    <string name="pref_camera_iso_entry_iso640">ISO640</string>
-    <string name="pref_camera_iso_entry_iso700">ISO700</string>
-    <string name="pref_camera_iso_entry_iso800">ISO800</string>
-    <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
-    <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
-    <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
-    <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
-    <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
-    <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-    <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
-    <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-    <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
-    <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
-    <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
     <!-- ISO entry values. Do not translate. -->
     <!-- Settings screen, Anti Banding title -->
     <string name="pref_camera_antibanding_title">Teen \'Banding\'</string>
@@ -268,17 +241,12 @@
     <string name="pref_camera_filter_mode_title">Kleur effek</string>
     <!-- Settings screen, Color effect dialog radio button choices -->
     <string name="pref_camera_coloreffect_entry_none">Geen</string>
-    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
-    <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
     <string name="pref_camera_coloreffect_entry_negative">Negatief</string>
     <!-- Color effect that overexposes and reverses some of the tones. -->
     <string name="pref_camera_coloreffect_entry_solarize">Sonsopkoms agtig</string>
     <string name="pref_camera_coloreffect_entry_posterize">Poskaart agtig</string>
-    <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
     <string name="pref_camera_coloreffect_entry_emboss">Reliëf</string>
     <string name="pref_camera_coloreffect_entry_sketch">Skets</string>
-    <string name="pref_camera_coloreffect_entry_neon">Neon</string>
-    <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
     <string name="pref_camera_coloreffect_entry_mosaic">Mosaïek</string>
     <string name="pref_camera_coloreffect_entry_redtint">Rooi tint</string>
     <string name="pref_camera_coloreffect_entry_bluetint">Blou tint</string>
@@ -349,7 +317,6 @@
     <string name="pref_camera_jpegquality_entry_2">Hoog</string>
     <!-- Default auto histogram setting. Do not translate. -->
     <!-- Settings screen, Select Histogram title -->
-    <string name="pref_camera_histogram_title">Histogram</string>
     <!-- Settings screen, Histogram radio button choices -->
     <string name="pref_camera_histogram_entry_enable">Aktiveer</string>
     <string name="pref_camera_histogram_entry_disable">Deaktiveer</string>
@@ -424,6 +391,7 @@
     <string name="pref_camera2_camera2_entry_enable">Aktiveer</string>
     <string name="pref_camera2_camera2_entry_disable">Deaktiveer</string>
     <string name="pref_camera2_mono_only_title">Slegs Mono</string>
+    <string name="pref_camera2_mono_only_entry_on">Aan</string>
     <string name="pref_camera2_mono_only_entry_off">Af</string>
     <string name="pref_camera2_mono_preview_title">Mono-voorskou</string>
     <string name="pref_camera2_mono_preview_entry_on">Aan</string>
@@ -436,6 +404,7 @@
     <string name="pref_camera2_mpo_entry_on">Aan</string>
     <string name="pref_camera2_mpo_entry_off">Af</string>
     <string name="pref_camera2_makeup_title">Make-up</string>
+    <string name="pref_camera2_makeup_entry_on">Aan</string>
     <string name="pref_camera2_makeup_entry_off">Af</string>
     <string name="pref_camera2_noise_reduction_title">Geraas vermindering</string>
     <string name="pref_camera2_noise_reduction_entry_off">Af</string>
@@ -445,6 +414,7 @@
     <string name="pref_camera2_videosnap_entry_enable">Aktiveer</string>
     <string name="pref_camera2_videosnap_entry_disable">Deaktiveer</string>
     <string name="pref_camera2_trackingfocus_title">Fokus volg objek</string>
+    <string name="pref_camera2_trackingfocus_entry_on">Aan</string>
     <string name="pref_camera2_trackingfocus_entry_off">Af</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Beste prent</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Fokus volg objek</string>
@@ -454,8 +424,10 @@
     <string name="pref_camera2_shutter_sound_entry_off">Af</string>
     <string name="pref_camera2_shutter_sound_title">Sluiter geluid</string>
     <string name="pref_camera2_timer_entry_off">Af</string>
-    <string name="makeup_ui_ok_button">OK</string>
-    <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
+    <string name="pref_camera2_timer_entry_2sec">2 sekondes</string>
+    <string name="pref_camera2_timer_entry_5sec">5 sekondes</string>
+    <string name="pref_camera2_timer_entry_10sec">10 sekondes</string>
+    <string name="perf_camera2_preferences_category_system">Stelsel</string>
     <string name="pref_camera2_instant_aec_entry_disable">Deaktiveer</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Aggressiewe AEC</string>
     <string name="pref_camera2_instant_aec_entry_fast">Vinnige AEC</string>
@@ -476,7 +448,6 @@
     <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Europa)</string>
     <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (VSA)</string>
     <string name="pref_camera2_anti_banding_level_entry_auto">Outo</string>
-    <string name="pref_camera2_histogram_title">Histogram</string>
     <string name="pref_camera2_histogram_entry_enable">Aktiveer</string>
     <string name="pref_camera2_histogram_entry_disable">Deaktiveer</string>
     <string name="pref_camera2_hdr_entry_enable">Aktiveer</string>
@@ -489,6 +460,7 @@
     <string name="pref_camera_bokeh_mpo_entry_enable">Aktiveer</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">Deaktiveer</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">Zoem</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Af</string>
     <string name="pref_camera2_bsgc_entry_enable">Aktiveer</string>
@@ -497,5 +469,5 @@
     <string name="pref_camera2_zsl_entry_disable">Af</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
-    <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
+    <string name="pref_camera2_initial_camera_entry_front">Voorkant</string>
 </resources>

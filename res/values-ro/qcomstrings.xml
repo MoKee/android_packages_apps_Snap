@@ -83,7 +83,7 @@
     <!-- Manual white balance entry values -->
     <string name="pref_camera_manual_wb_title">Balans de alb manual</string>
     <string name="pref_camera_manual_wb_entry_color_temperature">Temperatura culorii</string>
-    <string name="pref_camera_manual_wb_entry_rbgb_gains">RBGB gains</string>
+    <string name="pref_camera_manual_wb_entry_rbgb_gains">Creșteri RBGB</string>
     <string name="pref_camera_manual_wb_entry_off">Oprit</string>
     <!-- Manual Focus entry values -->
     <string name="pref_camera_manual_focus_title">Focalizare manuală</string>
@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Activat</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Oprit</string>
     <string name="err_app_unsupport_ae_bracket_code">AE bracketing nu este acceptat momentan</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Dimensiunea instantaneului video este mai mică decât dimensiunea video, plafonând la dimensiunea video-ului. Vă rugăm selectați o rezoluție mai mare sau egală cu dimensiunea video curentă.</string>
@@ -345,7 +346,7 @@
     <string name="pref_camera_jpegquality_title">Calitatea imaginii</string>
     <!-- Settings screen, Picture quality dialog radio button choices -->
     <string name="pref_camera_jpegquality_entry_0">Redusă</string>
-    <string name="pref_camera_jpegquality_entry_1">Standard</string>
+    <string name="pref_camera_jpegquality_entry_1">65% (normal)</string>
     <string name="pref_camera_jpegquality_entry_2">Ridicată</string>
     <!-- Default auto histogram setting. Do not translate. -->
     <!-- Settings screen, Select Histogram title -->

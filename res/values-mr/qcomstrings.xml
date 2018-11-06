@@ -111,7 +111,6 @@
     <!-- Default cds mode setting-->
     <!-- Default video cds mode setting-->
     <!-- Settings menu, setting title text for tnr mode-->
-    <string name="pref_camera_tnr_title">TNR mode</string>
     <!-- Settings menu, setting title text for video tnr mode-->
     <string name="pref_camera_video_tnr_title">व्हिडिओ TNR मोड</string>
     <!-- Default tnr mode setting-->
@@ -123,7 +122,6 @@
     <string name="pref_camera_facedetection_entry_off">बंद</string>
     <!-- Default Selfie Flash setting. -->
     <!-- Settings screen, Selfie Flash Detection -->
-    <string name="pref_selfie_flash_title">Selfie flash</string>
     <!-- Settings menu, Selfie Flash choices -->
     <string name="pref_selfie_flash_entry_off">बंद</string>
     <!-- Default redeye reduction setting. -->
@@ -180,37 +178,9 @@
     <string name="pref_camera_denoise_entry_off">बंद</string>
     <!-- Default iso setting. Do not translate. -->
     <!-- Settings screen, Select Iso title -->
-    <string name="pref_camera_iso_title">ISO</string>
     <!-- Settings screen, ISO dialog radio button choices -->
     <string name="pref_camera_iso_entry_auto">ऑटो</string>
     <string name="pref_camera_iso_entry_isodeblur">ऑटो (HJR)</string>
-    <string name="pref_camera_iso_entry_iso50">ISO50</string>
-    <string name="pref_camera_iso_entry_iso100">ISO100</string>
-    <string name="pref_camera_iso_entry_iso125">ISO125</string>
-    <string name="pref_camera_iso_entry_iso150">ISO150</string>
-    <string name="pref_camera_iso_entry_iso200">ISO200</string>
-    <string name="pref_camera_iso_entry_iso250">ISO250</string>
-    <string name="pref_camera_iso_entry_iso300">ISO300</string>
-    <string name="pref_camera_iso_entry_iso320">ISO320</string>
-    <string name="pref_camera_iso_entry_iso350">ISO350</string>
-    <string name="pref_camera_iso_entry_iso400">ISO400</string>
-    <string name="pref_camera_iso_entry_iso450">ISO450</string>
-    <string name="pref_camera_iso_entry_iso500">ISO500</string>
-    <string name="pref_camera_iso_entry_iso600">ISO600</string>
-    <string name="pref_camera_iso_entry_iso640">ISO640</string>
-    <string name="pref_camera_iso_entry_iso700">ISO700</string>
-    <string name="pref_camera_iso_entry_iso800">ISO800</string>
-    <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
-    <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
-    <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
-    <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
-    <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
-    <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-    <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
-    <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-    <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
-    <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
-    <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
     <!-- ISO entry values. Do not translate. -->
     <!-- Settings screen, Anti Banding title -->
     <string name="pref_camera_antibanding_title">अँटिबँडिंग</string>
@@ -323,7 +293,6 @@
     <!-- toast message for storage location switch -->
     <string name="on_switch_save_path_to_sdcard">अंतर्गत संग्रह स्थान पुरेशी नाही, संग्रह स्थान SD कार्डला स्विच केले</string>
     <!-- Settings screen, Selectable HDR mode title -->
-    <string name="pref_camera_hdr_mode_title">HDR mode</string>
     <!-- Settings screen, Selectable HDR mode radio button choices -->
     <string name="pref_camera_hdr_mode_entry_sensor">सेन्सर HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">बहु-चौकट HDR</string>
@@ -346,6 +315,7 @@
     <!-- The alas of CameraActivity for gesture operation -->
     <string name="camera_gesture_title">कॅमेरा सुरू करा</string>
     <string name="pref_camera_tsmakeup_entry_off">बंद</string>
+    <string name="pref_camera_tsmakeup_custom">सानुकूल</string>
     <string name="all_in_focus">सर्व फोकसमध्ये</string>
     <string name="refocus_toast">शेवटचा फोटो रि-फोकस करण्यासाठी, इथे टॅप करा</string>
     <string name="pref_camera2_mono_only_entry_off">बंद</string>
@@ -377,6 +347,7 @@
     <string name="pref_camera2_histogram_title">हिस्टोग्राम</string>
     <string name="pref_camera2_auto_hdr_title">ऑटो HDR</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">झूम करा</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">बंद</string>
     <string name="pref_camera2_zsl_title">शून्य शटर लॅग</string>

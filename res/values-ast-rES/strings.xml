@@ -20,9 +20,7 @@
     <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
     <string name="video_camera_label">Videocámara</string>
     <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-    <string name="details_ms">%1$02d:%2$02d</string>
     <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
     <string name="set_image">Afitar como</string>
@@ -91,18 +89,16 @@
     <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
     <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
     <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+    <string name="model">Modelu</string>
     <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
     <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
     <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
     <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=18] -->
     <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
     <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
-    <string name="iso">ISO</string>
     <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
     <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
-    <string name="unit_mm">mm</string>
     <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
-    <string name="manual">Manual</string>
     <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
     <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
     <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
@@ -125,19 +121,24 @@
     <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
     <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
     <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
+    <string name="pref_camera_id_title">Escoyer cámara</string>
     <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_back">Trasera</string>
     <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_front">Delantera</string>
     <!-- Settings screen, setting title text -->
     <string name="pref_camera_recordlocation_title">Allugamientu GPS</string>
     <!--  Label for record location preference [CHAR LIMIT=50] -->
     <string name="pref_camera_location_label">ALLUGAMIENTU</string>
     <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
+    <string name="pref_camera_timer_title">Cuenta atrás</string>
     <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
     <plurals name="pref_camera_timer_entry">
         <item quantity="one">1 segundu</item>
         <item quantity="other">%d segundos</item>
     </plurals>
     <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
+    <string name="pref_camera_timer_sound_title">Pitar na cuenta atrás</string>
     <!-- Entry of camera save path -->
     <string name="pref_camera_savepath_title">Almacenamientu</string>
     <string name="pref_camera_savepath_entry_0">Teléfonu</string>
@@ -158,9 +159,12 @@
     <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
     <!-- Settings screen, Camera setting category title -->
+    <string name="pref_camera_settings_category">Axustes de la cámara</string>
     <!-- Settings screen, Camcorder setting category title -->
     <!-- Settings screen, Picture size title -->
+    <string name="pref_camera_picturesize_title">Tamañu d\'imaxe</string>
     <!-- Settings screen, Focus mode title -->
+    <string name="pref_camera_focusmode_title">Mou d\'enfoque</string>
     <!-- Settings screen, Focus mode dialog radio button choices -->
     <!-- A setting that lets the camera focus into infinity. [CHAR LIMIT=20] -->
     <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
@@ -172,14 +176,22 @@
     <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
     <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
     <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
+    <string name="pref_camera_flashmode_label_auto">FLAX AUTOMÁTICU</string>
+    <string name="pref_camera_flashmode_label_on">FLAX ACTIVÁU</string>
+    <string name="pref_camera_flashmode_label_off">FLAX DESACTIVÁU</string>
     <!-- Default videocamera flash mode setting.-->
     <!-- Default white balance setting. -->
     <!-- Settings screen, white balance title -->
     <!-- Menu, white balance label -->
+    <string name="pref_camera_whitebalance_label">BALANCE DE BLANCOS</string>
     <!-- Settings screen, White balance dialog radio button choices -->
+    <string name="pref_camera_whitebalance_entry_incandescent">En caldia</string>
     <!-- Menu, White balance labels [CHAR LIMIT=50] -->
+    <string name="pref_camera_whitebalance_label_incandescent">EN CALDIA</string>
+    <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCENTE</string>
     <!-- Default scene mode setting. -->
     <!-- Settings screen, Select Scene mode -->
+    <string name="pref_camera_scenemode_title">Mou d\'escena</string>
     <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
     <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
     <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
@@ -188,15 +200,22 @@
     <!-- Scene mode to turn on HDR (high dynamic range) [CHAR LIMIT=50] -->
     <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
     <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_action">Aición</string>
     <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
     <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_sunset">Aséu</string>
     <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_party">Folixa</string>
     <!-- Scene mode for refocus feature [CHAR LIMIT=16] -->
     <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
     <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
+    <string name="pref_camera_scenemode_label_action">AICIÓN</string>
     <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
+    <string name="pref_camera_scenemode_label_night">NUECHE</string>
     <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
+    <string name="pref_camera_scenemode_label_sunset">ASÉU</string>
     <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=50] -->
+    <string name="pref_camera_scenemode_label_party">FOLIXA</string>
     <!-- Settings menu countdown timer off [CHAR LIMIT=50] -->
     <!-- Settings menu countdown timer 1 second [CHAR LIMIT=50] -->
     <string name="pref_camera_countdown_label_one">1 SEGUNDU</string>
@@ -231,7 +250,9 @@
     <!-- Default HDR+ entry value -->
     <!-- HDR label ON [CHAR LIMIT=60] -->
     <!-- switch camera label back [CHAR LIMIT=60] -->
+    <string name="pref_camera_id_label_back">CÁMARA FRONTAL</string>
     <!-- switch camera label front [CHAR LIMIT=60] -->
+    <string name="pref_camera_id_label_front">CÁMARA TRASERA</string>
     <!-- Dialog "OK" button. Dismisses dialog. -->
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
     <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
@@ -259,6 +280,7 @@
     <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
     <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
     <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
+    <string name="effect_backdropper_sunset">Aséu</string>
     <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
     <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
     <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
@@ -312,6 +334,7 @@ CHAR LIMIT = NONE] -->
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <string name="pref_video_time_lapse_frame_interval_30000">0,5 minutos</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+    <string name="pref_video_time_lapse_frame_interval_60000">1 minutu</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <string name="pref_video_time_lapse_frame_interval_90000">1,5 minutos</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -373,12 +396,16 @@ CHAR LIMIT = NONE] -->
     <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
     <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
     <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
+    <string name="remember_location_title">¿Recordar allugamientu de semeyes?</string>
     <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
     <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
     <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+    <string name="remember_location_yes">Sí</string>
     <!-- Camera menu labels -->
     <!-- more options label [CHAR LIMIT=50] -->
+    <string name="camera_menu_more_label">MÁS OPCIONES</string>
     <!-- settings label [CHAR LIMIT=50] -->
+    <string name="camera_menu_settings_label">AXUSTES</string>
     <!--  Tiny Planet -->
     <!-- Button to press for creating a tiny planet image. [CHAR LIMIT = 30] -->
     <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
@@ -386,9 +413,12 @@ CHAR LIMIT = NONE] -->
     <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
     <!-- Crop -->
     <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
+    <string name="crop_save">Guardar</string>
     <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
     <!-- Label for album filmstrip button -->
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+    <string name="pref_camera2_category_system">Sistema</string>
+    <string name="dialog_do_not_show">Nun amosar de nueves</string>
     <string name="delete_best_dialog_positive_bt">Desaniciar</string>
 </resources>

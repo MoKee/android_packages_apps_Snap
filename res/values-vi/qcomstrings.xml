@@ -78,7 +78,7 @@
     <string name="pref_camera_manual_exp_title">Phơi sáng thủ công</string>
     <string name="pref_camera_manual_exp_entry_ISO_priority">Ưu tiên ISO</string>
     <string name="pref_camera_manual_exp_entry_exptime_priority">Ưu tiên thời gian phơi sáng</string>
-    <string name="pref_camera_manual_exp_entry_user_setting">Cài đặt của người dùng</string>
+    <string name="pref_camera_manual_exp_entry_user_setting">Cài đặt người dùng</string>
     <string name="pref_camera_manual_exp_entry_off">Tắt</string>
     <!-- Manual white balance entry values -->
     <string name="pref_camera_manual_wb_title">Cân bằng trắng thủ công</string>
@@ -122,7 +122,7 @@
     <string name="pref_camera_video_tnr_entry_enable">Bật</string>
     <!-- Settings screen, video TNR location dialog choices -->
     <!-- Settings screen, setting title text for Video HDR-->
-    <string name="pref_camera_video_hdr_title">Video HDR</string>
+    <string name="pref_camera_video_hdr_title">HDR video</string>
     <!-- Settings menu, setting title text for cds mode-->
     <string name="pref_camera_cds_title">Chế độ CDS</string>
     <!-- Settings menu, setting title text for video cds mode-->
@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Chụp liên tục với độ phơi sáng tự động</string>
     <string name="pref_camera_ae_bracket_hdr_title">Chụp liên tục với độ phơi sáng tự động</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Bật</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Tắt</string>
     <string name="err_app_unsupport_ae_bracket_code">AE bracketing chưa được hỗ trợ</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Kích thước ảnh chụp nhanh video thấp hơn kích thước video xuất ra. Vui lòng chọn độ phân giải cao hơn hoặc bằng kích thước video hiện tại.</string>
@@ -484,7 +485,7 @@
     <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">Ảnh sắc nét làm giảm mờ do chuyển động trong hiện trường hoặc do chuyển động bằng tay.</string>
     <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Cho phép bạn theo dõi và tập trung lựa chọn cá nhân hoặc đối tượng trong khi chụp ảnh hoặc video. Để bắt đầu, vị trí hình chữ nhật tập trung vào một người hoặc đối tượng bạn muốn theo dõi.</string>
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Với Time lapse, bạn có thể chuyển đổi một ghi âm dài video vào một vài giây của video. Này có hiệu lực áp dụng cho video, nhưng không có hình ảnh.</string>
-    <string name="pref_camera2_scene_mode_panorama_instructional_content">Cho phép bạn xoay trái hoặc phải để chụp ảnh phong cảnh rộng. Bạn cũng có thể xoay lên hoặc xuống để chụp ảnh cao.</string>
+    <string name="pref_camera2_scene_mode_panorama_instructional_content">Cho phép bạn để chảo trái hoặc phải để chụp ảnh phong cảnh rộng. Bạn có thể alse pan lên hoặc xuống để đưa hình ảnh cao.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster giảm mờ từ bàn tay run rẩy. Nó có thể hữu ích khi chụp ảnh ở những nơi khó khăn.</string>
     <string name="pref_camera2_scene_mode_pro_instructional_content">Với Chế độ chuyên nghiệp, bạn có thể tự kiểm soát cài đặt cho ISO, phơi ảnh, cân bằng trắng, và lấy nét. Bạn sẽ dễ dàng truy cập vào tất cả các cài đặt nâng cao này</string>
     <string name="pref_camera2_not_show_again">Không hiện lại</string>

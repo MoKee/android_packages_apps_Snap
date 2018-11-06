@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Pendekapan Dedahan Automatik</string>
     <string name="pref_camera_ae_bracket_hdr_title">Pendekapan Dedahan Automatik</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Hidup</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Mati</string>
     <string name="err_app_unsupport_ae_bracket_code">AE Bracketing belum didukung</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Ukuran video snapshot lebih rendah dari ukuran video, membatasi ukuran video. Silakan pilih resolusi yang lebih tinggi atau sama dengan ukuran video saat ini.</string>
@@ -254,7 +255,7 @@
     <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
     <!-- ISO entry values. Do not translate. -->
     <!-- Settings screen, Anti Banding title -->
-    <string name="pref_camera_antibanding_title">Antibanding</string>
+    <string name="pref_camera_antibanding_title">Tidak memberi tanda</string>
     <!-- Default Anti Banding setting. -->
     <!-- Settings screen, Anti Banding entries -->
     <string name="pref_camera_antibanding_entry_0">Secara otomatis</string>
@@ -436,7 +437,7 @@
     <string name="pref_camera2_mpo_title">Format MPO</string>
     <string name="pref_camera2_mpo_entry_on">Hidup</string>
     <string name="pref_camera2_mpo_entry_off">Tidak aktif</string>
-    <string name="pref_camera2_makeup_title">Makeup</string>
+    <string name="pref_camera2_makeup_title">Rias wajah</string>
     <string name="pref_camera2_makeup_entry_on">Hidup</string>
     <string name="pref_camera2_makeup_entry_off">Tidak aktif</string>
     <string name="pref_camera2_noise_reduction_title">Pengurangan kebisingan</string>
@@ -486,6 +487,7 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Dengan Selang waktu, Anda dapat mengubah rekaman video yang panjang menjadi beberapa detik video. Efek ini berlaku untuk video, tapi bukan foto.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Memungkinkan Anda untuk menggerakkan ke kiri atau ke kanan untuk mengambil foto lanskap yang luas. Anda dapat juga menggerakkan ke atas atau ke bawah untuk mengambil foto tinggi.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster mengurangi kabur dari tangan yang gemetar. Ini bisa sangat membantu saat memotret di tempat yang sulit.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">Dengan mode Pro, Anda dapat mengatur pengaturan ISO, exposure, white balance, dan fokus secara manual. Anda akan memiliki akses mudah ke semua pengaturan lanjutan ini</string>
     <string name="pref_camera2_not_show_again">Jangan tampilkan lagi</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OKE</string>
     <string name="pref_camera2_instant_aec_title">Instan AEC</string>
@@ -504,7 +506,7 @@
     <string name="pref_camera2_saturation_level_entry_8">Tingkat 8</string>
     <string name="pref_camera2_saturation_level_entry_9">Tingkat 9</string>
     <string name="pref_camera2_saturation_level_entry_10">Tingkat 10</string>
-    <string name="pref_camera2_anti_banding_level_title">Antibanding</string>
+    <string name="pref_camera2_anti_banding_level_title">Tidak memberi tanda</string>
     <string name="pref_camera2_anti_banding_level_entry_off">Tidak aktif</string>
     <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Eropa)</string>
     <string name="pref_camera2_anti_banding_level_entry_60hz">60 HZ (Amerika Serikat)</string>
@@ -521,8 +523,10 @@
     <string name="pref_camera_bokeh_mode_title">Modus Bokeh</string>
     <string name="pref_camera_bokeh_mode_entry_enable">Hidup</string>
     <string name="pref_camera_bokeh_mode_entry_disable">Mati</string>
+    <string name="pref_camera_bokeh_mpo_title">Bokeh mode MPO</string>
     <string name="pref_camera_bokeh_mpo_entry_enable">Hidup</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">Mati</string>
+    <string name="pref_camera_bokeh_blur_degree_title">Nilai bokeh blur</string>
     <!-- Default Zoom setting. -->
     <string name="pref_camera_zoom_title">Perbesar</string>
     <!-- Settings menu, Zoom choices -->
@@ -546,6 +550,7 @@
     <string name="pref_camera2_zsl_entry_hal_zsl">Perangkat keras ZSL</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
+    <string name="pref_camera2_switch_camera_title">Beralih kamera dengan ID</string>
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Satu</string>
     <string name="pref_camera2_initial_camera_entry_front">Depan</string>

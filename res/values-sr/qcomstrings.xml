@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Држање аутоматске експозиције</string>
     <string name="pref_camera_ae_bracket_hdr_title">Држање аутоматске експозиције</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Укључено</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Искључене</string>
     <string name="err_app_unsupport_ae_bracket_code">Брекетинг није подржан.</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Резолуција снимка је мања од резолуције видеа. Изаберите резолуцију већу или једнаку тренутној резолуцији видеа.</string>
@@ -221,37 +222,14 @@
     <string name="pref_camera_denoise_entry_on">Укључено</string>
     <!-- Default iso setting. Do not translate. -->
     <!-- Settings screen, Select Iso title -->
-    <string name="pref_camera_iso_title">ISO</string>
     <!-- Settings screen, ISO dialog radio button choices -->
     <string name="pref_camera_iso_entry_auto">Аутоматски</string>
     <string name="pref_camera_iso_entry_isodeblur">Аутоматски (HJR)</string>
-    <string name="pref_camera_iso_entry_iso50">ISO50</string>
     <string name="pref_camera_iso_entry_iso100">ISO 100</string>
-    <string name="pref_camera_iso_entry_iso125">ISO125</string>
-    <string name="pref_camera_iso_entry_iso150">ISO150</string>
     <string name="pref_camera_iso_entry_iso200">ISO 200</string>
-    <string name="pref_camera_iso_entry_iso250">ISO250</string>
-    <string name="pref_camera_iso_entry_iso300">ISO300</string>
-    <string name="pref_camera_iso_entry_iso320">ISO320</string>
-    <string name="pref_camera_iso_entry_iso350">ISO350</string>
     <string name="pref_camera_iso_entry_iso400">ISO 400</string>
-    <string name="pref_camera_iso_entry_iso450">ISO450</string>
-    <string name="pref_camera_iso_entry_iso500">ISO500</string>
-    <string name="pref_camera_iso_entry_iso600">ISO600</string>
-    <string name="pref_camera_iso_entry_iso640">ISO640</string>
-    <string name="pref_camera_iso_entry_iso700">ISO700</string>
     <string name="pref_camera_iso_entry_iso800">ISO 800</string>
-    <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
-    <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
-    <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
-    <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
     <string name="pref_camera_iso_entry_iso1600">ISO 1600</string>
-    <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-    <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
-    <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-    <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
-    <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
-    <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
     <!-- ISO entry values. Do not translate. -->
     <!-- Settings screen, Anti Banding title -->
     <string name="pref_camera_antibanding_title">Смањивање треперења</string>
@@ -451,6 +429,7 @@
     <string name="pref_camera2_trackingfocus_entry_off">Искључено</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Најбоља слика</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Пратећи фокус</string>
+    <string name="pref_camera_scenemode_entry_panorama">Панорама</string>
     <string name="bestpicture_done">ГОТОВО</string>
     <string name="bestpicture_at_least_one_picture">Мора бити изабрана бар једна слика.</string>
     <string name="pref_camera2_shutter_sound_entry_on">Укључено</string>
@@ -461,6 +440,7 @@
     <string name="pref_camera2_timer_entry_5sec">5 секунди</string>
     <string name="pref_camera2_timer_entry_10sec">10 секунди</string>
     <string name="makeup_ui_ok_button">У реду</string>
+    <string name="perf_camera2_preferences_category_general">Опште</string>
     <string name="perf_camera2_preferences_category_video">Видео камера</string>
     <string name="perf_camera2_preferences_category_system">Систем</string>
     <string name="pref_camera2_scene_mode_instructional_ok">У реду</string>
@@ -497,25 +477,15 @@
     <string name="pref_camera_bokeh_mpo_entry_enable">Омогући</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">Онемогући</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">Зумирај</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Искључено</string>
-    <string name="pref_camera_zoom_entry_1x">1x</string>
-    <string name="pref_camera_zoom_entry_2x">2x</string>
-    <string name="pref_camera_zoom_entry_3x">3x</string>
-    <string name="pref_camera_zoom_entry_4x">4x</string>
-    <string name="pref_camera_zoom_entry_5x">5x</string>
-    <string name="pref_camera_zoom_entry_6x">6x</string>
-    <string name="pref_camera_zoom_entry_7x">7x</string>
-    <string name="pref_camera_zoom_entry_8x">8x</string>
-    <string name="pref_camera_zoom_entry_9x">9x</string>
-    <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_entry_enable">Омогући</string>
     <string name="pref_camera2_bsgc_entry_disable">Онемогући</string>
     <string name="pref_camera2_zsl_title">Нулто кашњење окидача</string>
     <string name="pref_camera2_zsl_entry_disable">Искључено</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
-    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Моно</string>
     <string name="pref_camera2_initial_camera_entry_front">Предња</string>
 </resources>

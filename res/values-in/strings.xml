@@ -20,9 +20,7 @@
     <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
     <string name="video_camera_label">Perekam video</string>
     <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-    <string name="details_ms">%1$02d:%2$02d</string>
     <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
     <string name="set_image">Setel gambar sebagai</string>
@@ -62,7 +60,7 @@
     <string name="rotate_right">Putar ke kanan</string>
     <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
-    <string name="edit">Edit</string>
+    <string name="edit">Ubah</string>
     <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
     <string name="crop_action">Potong</string>
     <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
@@ -251,7 +249,7 @@
     <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_auto">Otomatis</string>
     <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
-    <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
+    <string name="pref_camera_scenemode_entry_hdr_plus">HDR +</string>
     <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -324,7 +322,7 @@
     <!-- switch camera label front [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_front">KAMERA BELAKANG</string>
     <!-- Dialog "OK" button. Dismisses dialog. -->
-    <string name="dialog_ok">OK</string>
+    <string name="dialog_ok">Oke</string>
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
     <string name="spaceIsLow_content" product="default">Kartu SD Anda kehabisan ruang kosong. Ubah pengaturan kualitas atau hapus beberapa gambar atau berkas lain.</string>
     <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
@@ -388,7 +386,7 @@
     <!-- The shutter button. [CHAR LIMIT = NONE] -->
     <string name="accessibility_shutter_button">Bidik</string>
     <!-- The exit best photo mode button. [CHAR LIMIT = NONE] -->
-    <string name="accessibility_exit_best_mode_button">Keluar dari modus foto terbaik</string>
+    <string name="accessibility_exit_best_mode_button">Keluar dari mode foto terbaik</string>
     <!-- The menu button. [CHAR LIMIT = NONE] -->
     <string name="accessibility_menu_button">Tombol menu</string>
     <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
@@ -531,7 +529,7 @@ CHAR LIMIT = NONE] -->
     <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
     <string name="saving_tiny_planet">Menyimpan Tiny Planet …</string>
     <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
-    <string name="tiny_planet_zoom">Zoom</string>
+    <string name="tiny_planet_zoom">Perbesar</string>
     <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
     <string name="tiny_planet_rotate">Putar</string>
     <!-- Crop -->
@@ -544,27 +542,32 @@ CHAR LIMIT = NONE] -->
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">Setel wallpaper</string>
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d tersisa</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Makeup hanya bekerja dibawah ukuran VGA di perekam video.</string>
     <string name="pref_camera2_category_system">Sistem</string>
-    <string name="pref_camera2_restore_default">Kembalikan ke awal</string>
+    <string name="pref_camera2_restore_default">Kembalikan setelan</string>
     <string name="pref_camera2_restore_default_hint">Setelan kamera akan dikembalikan ke setelan awal</string>
     <plurals name="save_best_dialog_content">
         <item quantity="other">%1$d dari 10 gambar akan disimpan dan sisanya akan dihapus</item>
     </plurals>
     <string name="save_best_dialog_title">Simpan gambar yang dipilih?</string>
-    <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="save_best_dialog_positive_bt">Oke</string>
     <string name="save_best_dialog_native_bt">Batalkan</string>
     <plurals name="save_best_image_toast">
         <item quantity="other">%1$d dari 10 gambar telah disimpan.</item>
     </plurals>
     <string name="dialog_do_not_show">Jangan tampilkan lagi</string>
     <string name="delete_best_dialog_title">Hapus semua?</string>
-    <string name="delete_best_dialog_content">Apakah Anda yakin ingin menghapus 10 foto yang dipotret?</string>
+    <string name="delete_best_dialog_content">Yakin ingin menghapus semua 10 foto yang diambil?</string>
     <string name="delete_best_dialog_native_bt">Batalkan</string>
     <string name="delete_best_dialog_positive_bt">Hapus</string>
     <string name="delete_all_best_dialog_title">Hapus semua?</string>
-    <string name="delete_all_best_dialog_content">Apakah Anda yakin ingin menghapus semua gambar?</string>
+    <string name="delete_all_best_dialog_content">Yakin ingin menghapus semua gambar?</string>
     <string name="delete_all_best_dialog_native_bt">Batal</string>
     <string name="delete_all_best_dialog_positive_bt">Hapus semua</string>
     <string name="overflow_best_item1">Simpan semua</string>

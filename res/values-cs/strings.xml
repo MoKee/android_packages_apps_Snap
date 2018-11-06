@@ -29,6 +29,12 @@
     <!-- Details dialog "OK" button. Dismisses dialog. -->
     <string name="delete">Smazat</string>
     <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+    <plurals name="delete_selection">
+        <item quantity="one">Smazat vybranou položku?</item>
+        <item quantity="few">Smazat vybrané položky?</item>
+        <item quantity="many">Smazat vybraných položek?</item>
+        <item quantity="other">Smazat vybraných položek?</item>
+    </plurals>
     <string name="share">Sdílet</string>
     <string name="share_panorama">Sdílet panorama</string>
     <string name="share_as_photo">Sdílet jako fotku</string>
@@ -40,10 +46,28 @@
     <string name="close">Zavřít</string>
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="one">Vybráno: %1$d</item>
+        <item quantity="few">Vybráno: %1$d</item>
+        <item quantity="many">Vybráno: %1$d</item>
+        <item quantity="other">Vybráno: %1$d</item>
+    </plurals>
     <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_albums_selected">
+        <item quantity="one">Vybráno: %1$d</item>
+        <item quantity="few">Vybráno: %1$d</item>
+        <item quantity="many">Vybráno: %1$d</item>
+        <item quantity="other">Vybráno: %1$d</item>
+    </plurals>
     <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_groups_selected">
+        <item quantity="one">Vybráno: %1$d</item>
+        <item quantity="few">Vybráno: %1$d</item>
+        <item quantity="many">Vybráno: %1$d</item>
+        <item quantity="other">Vybráno: %1$d</item>
+    </plurals>
     <!-- String indicating timestamp of photo or video -->
     <string name="show_on_map">Zobrazit na mapě</string>
     <string name="rotate_left">Otočit doleva</string>
@@ -54,7 +78,7 @@
     <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
     <string name="crop_action">Oříznout</string>
     <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
-    <string name="trim_action">Střihat</string>
+    <string name="trim_action">Oříznout</string>
     <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
     <string name="set_as">Nastavit jako</string>
     <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
@@ -127,9 +151,9 @@
     <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
     <string name="camera_disabled">Fotoaparát byl z důvodu zásad zabezpečení deaktivován.</string>
     <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
-    <string name="error_permissions">Tato aplikace nemá udělené kritické oprávnění vyžadované pro spuštění. Prosím zkontrolujte nastavení oprávnění.</string>
+    <string name="error_permissions">Aplikace nemá žádné kritické oprávnění potřebná ke spuštění. Prosím zkontrolujte nastavení oprávnění.</string>
     <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
-    <string name="dialog_dismiss">Zamítnout</string>
+    <string name="dialog_dismiss">Odmítnout</string>
     <!-- alert to the user to wait for some operation to complete -->
     <string name="wait">Čekejte prosím…</string>
     <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -149,16 +173,23 @@
     <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
     <string name="pref_camera_id_entry_front">Přední</string>
     <!-- Settings screen, setting title text -->
-    <string name="pref_camera_recordlocation_title">Poloha GPS</string>
+    <string name="pref_camera_recordlocation_title">Ukládat polohu</string>
     <!--  Label for record location preference [CHAR LIMIT=50] -->
     <string name="pref_camera_location_label">POLOHA</string>
     <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
     <string name="pref_camera_timer_title">Časovač odpočítávání</string>
     <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="one">1 s</item>
+        <item quantity="few">%d s</item>
+        <item quantity="many">%d s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
     <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
     <string name="pref_camera_timer_sound_title">Zvuk při odpočtu</string>
     <!-- Entry of camera save path -->
     <string name="pref_camera_savepath_title">Úložiště</string>
+    <string name="pref_camera_savepath_default">0</string>
     <string name="pref_camera_savepath_entry_0">Telefon</string>
     <string name="pref_camera_savepath_entry_1">SD karta</string>
     <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
@@ -201,7 +232,7 @@
     <!-- Default flash mode setting.-->
     <!-- Value for flash off setting-->
     <!-- Settings screen, Flash mode title -->
-    <string name="pref_camera_flashmode_title">Blesk</string>
+    <string name="pref_camera_flashmode_title">Režim blesku</string>
     <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
     <string name="pref_camera_flashmode_entry_auto">Automaticky</string>
     <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
@@ -318,23 +349,23 @@
     <!-- The message shown when video record reaches size limit. -->
     <string name="video_reach_size_limit">Bylo dosaženo limitu velikosti.</string>
     <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=16] -->
-    <string name="pano_too_fast_prompt">Příliš rychle</string>
+    <string name="pano_too_fast_prompt">Moc rychle</string>
     <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
-    <string name="pano_dialog_prepare_preview">Vytváření panoramatu</string>
+    <string name="pano_dialog_prepare_preview">Příprava panoramatu</string>
     <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
     <string name="pano_dialog_panorama_failed">Panoramatickou fotku nelze uložit.</string>
     <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
-    <string name="pano_dialog_title">Panorama</string>
+    <string name="pano_dialog_title">Panoráma</string>
     <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
     <string name="pano_capture_indication">Snímání panoramatu</string>
     <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
-    <string name="pano_dialog_waiting_previous">Čeká se na předchozí panorama</string>
+    <string name="pano_dialog_waiting_previous">Čeká se na předchozí panoráma</string>
     <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
     <string name="pano_review_saving_indication_str">Ukládání…</string>
     <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
     <string name="pano_review_rendering">Vykreslování panoramatu</string>
     <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
-    <string name="tap_to_focus">Dotykem zaostřit.</string>
+    <string name="tap_to_focus">Dotykem zaostříte.</string>
     <!-- Default effect setting that clears the effect. -->
     <!-- Title of video effect setting popup window -->
     <string name="pref_video_effect_title">Efekty</string>
@@ -398,7 +429,7 @@
 CHAR LIMIT = NONE] -->
     <string name="accessibility_review_retake">Pořídit další</string>
     <!-- Default text for a button that can be toggled on and off. -->
-    <string name="capital_on">ZAP</string>
+    <string name="capital_on">ZAP.</string>
     <!-- Default text for a button that can be toggled on and off. -->
     <string name="capital_off">VYP</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -529,6 +560,7 @@ CHAR LIMIT = NONE] -->
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">Nastavování tapety</string>
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>
@@ -539,7 +571,7 @@ CHAR LIMIT = NONE] -->
     <string name="pref_camera2_restore_default">Obnovit původní</string>
     <string name="pref_camera2_restore_default_hint">Nastavení fotoaparátu bude obnoveno na výchozí nastavení</string>
     <plurals name="save_best_dialog_content">
-        <item quantity="one">%1$d z 10 obrázků bude uložen a zbytek odstraněn</item>
+        <item quantity="one">%1$d z 10 obrázků bude uloženo a zbytek odstraněn</item>
         <item quantity="few">%1$d z 10 obrázků bude uloženo a zbytek odstraněn</item>
         <item quantity="many">%1$d z 10 obrázků bude uloženo a zbytek odstraněn</item>
         <item quantity="other">%1$d z 10 obrázků bude uloženo a zbytek odstraněn</item>
@@ -549,7 +581,7 @@ CHAR LIMIT = NONE] -->
     <string name="save_best_dialog_native_bt">Zrušit</string>
     <plurals name="save_best_image_toast">
         <item quantity="one">%1$d z 10 obrázků uložen.</item>
-        <item quantity="few">%1$d z 10 obrázků uloženy.</item>
+        <item quantity="few">%1$d z 10 obrázků uloženo.</item>
         <item quantity="many">%1$d z 10 obrázků uloženo.</item>
         <item quantity="other">%1$d z 10 obrázků uloženo.</item>
     </plurals>

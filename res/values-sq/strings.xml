@@ -19,9 +19,7 @@
     <string name="app_name">Kamera</string>
     <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
     <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-    <string name="details_ms">%1$02d:%2$02d</string>
     <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
     <string name="set_image">Cakto foton si</string>
@@ -95,13 +93,15 @@
     <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
     <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
     <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+    <string name="model">Modeli</string>
     <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
     <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
+    <string name="aperture">Hapja e diafragmës</string>
     <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
+    <string name="focal_length">Largësia e fokusimit</string>
     <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=18] -->
     <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
     <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
-    <string name="iso">ISO</string>
     <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
     <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
     <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
@@ -191,9 +191,7 @@
     <!-- Settings screen, Select Scene mode -->
     <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
     <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
-    <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
     <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
-    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ AKTIV</string>
     <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -245,18 +243,17 @@
     <!-- Toast after SeeMore has been enabled to show NR is disabled -->
     <string name="disable_NR_during_SeeMore">SeeMore do të çaktivizojë reduktimin e zhurmave.</string>
     <!-- Exposure settings in preference -->
+    <string name="pref_exposure_title">Ekspozimi</string>
     <!--  menu label exposure compensation [CHAR LIMIT=50] -->
     <string name="pref_exposure_label">EKSPOZIMI</string>
     <!-- Default HDR entry value -->
     <!-- Default HDR+ entry value -->
     <!-- HDR label ON [CHAR LIMIT=60] -->
-    <string name="pref_camera_hdr_label">HDR</string>
     <!-- switch camera label back [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_back">KAMERA PARËSORE</string>
     <!-- switch camera label front [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_front">KAMERA E PASME</string>
     <!-- Dialog "OK" button. Dismisses dialog. -->
-    <string name="dialog_ok">OK</string>
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
     <string name="spaceIsLow_content" product="default">Karta SD është pothuajse e mbushur plot. Ndrysho parametrat e cilësisë ose fshi disa imazhe apo disa skedarë të tjerë.</string>
     <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
@@ -283,6 +280,7 @@
     <!-- Title of video effect setting popup window -->
     <string name="pref_video_effect_title">Efektet</string>
     <!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
+    <string name="effect_none">Asnjë</string>
     <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
     <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
     <!-- Effect setting item that makes mouth big. [CHAR LIMIT=14] -->
@@ -336,9 +334,11 @@ CHAR LIMIT = NONE] -->
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+    <string name="pref_video_time_lapse_frame_interval_3000">3 sekonda</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+    <string name="pref_video_time_lapse_frame_interval_6000">6 sekonda</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <string name="pref_video_time_lapse_frame_interval_10000">10 sekonda</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -442,6 +442,7 @@ CHAR LIMIT = NONE] -->
     <string name="remaining_photos_format">%d të mbetura</string>
     <string name="makeup_video_size_limit">Funksioni Makijazhi punon vetëm kur regjistrimi i videos bëhet me rezolucion VGA.</string>
     <string name="pref_camera2_category_system">Sistemi</string>
-    <string name="save_best_dialog_positive_bt">OK</string>
     <string name="delete_best_dialog_positive_bt">Fshi</string>
+    <string name="delete_all_best_dialog_positive_bt">Fshiji të gjitha</string>
+    <string name="overflow_best_item2">Fshiji të gjitha</string>
 </resources>

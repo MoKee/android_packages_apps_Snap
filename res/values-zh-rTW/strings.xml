@@ -30,11 +30,11 @@
     <string name="delete">刪除</string>
     <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
     <plurals name="delete_selection">
-        <item quantity="other">刪除已選擇的項目？</item>
+        <item quantity="other">刪除選取的項目？</item>
     </plurals>
     <string name="share">分享</string>
     <string name="share_panorama">分享全景</string>
-    <string name="share_as_photo">作為相片分享</string>
+    <string name="share_as_photo">以相片形式分享</string>
     <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
     <string name="deleted">已刪除</string>
     <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
@@ -44,17 +44,17 @@
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
     <plurals name="number_of_items_selected">
-        <item quantity="other">已選擇 %1$d 個</item>
+        <item quantity="other">已選取 %1$d 個</item>
     </plurals>
     <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
     <plurals name="number_of_albums_selected">
-        <item quantity="other">已選擇 %1$d 本</item>
+        <item quantity="other">已選取 %1$d 本</item>
     </plurals>
     <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
     <plurals name="number_of_groups_selected">
-        <item quantity="other">已選擇 %1$d 個</item>
+        <item quantity="other">已選取 %1$d 個</item>
     </plurals>
     <!-- String indicating timestamp of photo or video -->
     <string name="show_on_map">在地圖上顯示</string>
@@ -77,11 +77,11 @@
     <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
     <string name="title">標題</string>
     <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
-    <string name="description">描述</string>
+    <string name="description">說明</string>
     <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
     <string name="time">時間</string>
     <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
-    <string name="location">位置</string>
+    <string name="location">地點</string>
     <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
     <string name="path">路徑</string>
     <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
@@ -114,7 +114,7 @@
     <string name="iso">ISO</string>
     <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
     <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
-    <string name="unit_mm">mm</string>
+    <string name="unit_mm">毫米</string>
     <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
     <string name="manual">手動</string>
     <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
@@ -124,7 +124,7 @@
     <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
     <string name="flash_off">未使用閃光燈</string>
     <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
-    <string name="unknown">未知</string>
+    <string name="unknown">不明</string>
     <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
     <string name="try_to_set_local_album_available_offline">這個項目已儲存在本機上，並且可供離線使用。</string>
@@ -141,7 +141,7 @@
     <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
     <string name="error_permissions">此應用程式沒有取得執行所需的必要權限。請檢查權限設定。</string>
     <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
-    <string name="dialog_dismiss">忽略</string>
+    <string name="dialog_dismiss">略過</string>
     <!-- alert to the user to wait for some operation to complete -->
     <string name="wait">請稍候\u2026</string>
     <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -161,9 +161,9 @@
     <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
     <string name="pref_camera_id_entry_front">前置</string>
     <!-- Settings screen, setting title text -->
-    <string name="pref_camera_recordlocation_title">GPS 定位</string>
+    <string name="pref_camera_recordlocation_title">儲存地理位置</string>
     <!--  Label for record location preference [CHAR LIMIT=50] -->
-    <string name="pref_camera_location_label">位置</string>
+    <string name="pref_camera_location_label">地點</string>
     <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
     <string name="pref_camera_timer_title">倒數計時器</string>
     <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
@@ -173,17 +173,18 @@
     <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
     <string name="pref_camera_timer_sound_title">倒數時發出提示音</string>
     <!-- Entry of camera save path -->
-    <string name="pref_camera_savepath_title">儲存空間</string>
-    <string name="pref_camera_savepath_entry_0">手機</string>
+    <string name="pref_camera_savepath_title">儲存裝置</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">電話</string>
     <string name="pref_camera_savepath_entry_1">SD 卡</string>
     <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
-    <string name="setting_off">關</string>
+    <string name="setting_off">關閉</string>
     <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
-    <string name="setting_on">開</string>
+    <string name="setting_on">開啟</string>
     <!-- The value of a camera preference indicating the setting is off. -->
     <!-- The value of a camera preference indicating the setting is on. -->
     <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
-    <string name="pref_video_quality_title">視訊畫質</string>
+    <string name="pref_video_quality_title">影片畫質</string>
     <!-- The default quality value is NULL -->
     <!-- Video quality setting entry. Videos will be recorded in 4k DCI quality. [CHAR LIMIT=24] -->
     <!-- Video quality setting entry. Videos will be recorded in 4k UHD quality. [CHAR LIMIT=24] -->
@@ -216,13 +217,13 @@
     <!-- Default flash mode setting.-->
     <!-- Value for flash off setting-->
     <!-- Settings screen, Flash mode title -->
-    <string name="pref_camera_flashmode_title">閃光燈</string>
+    <string name="pref_camera_flashmode_title">閃光燈模式</string>
     <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
     <string name="pref_camera_flashmode_entry_auto">自動</string>
     <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
-    <string name="pref_camera_flashmode_entry_on">開</string>
+    <string name="pref_camera_flashmode_entry_on">開啟</string>
     <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
-    <string name="pref_camera_flashmode_entry_off">關</string>
+    <string name="pref_camera_flashmode_entry_off">關閉</string>
     <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
     <string name="pref_camera_flashmode_label_auto">自動閃光燈</string>
     <string name="pref_camera_flashmode_label_on">開啟閃光燈</string>
@@ -255,13 +256,13 @@
     <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
-    <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ 開啟</string>
+    <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">開啟 HDR+</string>
     <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
-    <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">HDR+ 關閉</string>
+    <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">關閉 HDR+</string>
     <!-- Scene mode to turn on HDR (high dynamic range) [CHAR LIMIT=50] -->
-    <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR 開啟</string>
+    <string name="pref_camera_scenemode_entry_turn_hdr_on">開啟 HDR</string>
     <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
-    <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR 關閉</string>
+    <string name="pref_camera_scenemode_entry_turn_hdr_off">關閉 HDR</string>
     <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_action">動作</string>
     <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -376,9 +377,9 @@
     <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
     <string name="video_snapshot_hint">輕觸即可在錄製期間拍照。</string>
     <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
-    <string name="video_recording_started">影片錄製已開始。</string>
+    <string name="video_recording_started">錄影程序已啟動。</string>
     <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
-    <string name="video_recording_stopped">影片錄製已停止。</string>
+    <string name="video_recording_stopped">錄影程序已暫停。</string>
     <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
     <string name="clear_effects">清除效果</string>
     <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
@@ -406,12 +407,12 @@
     <!-- The button to switch to the high quality mode. [CHAR LIMIT = NONE] -->
     <string name="accessibility_switch_to_gcam">切換至高畫質</string>
     <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT = NONE] -->
-    <string name="accessibility_review_cancel">取消</string>
+    <string name="accessibility_review_cancel">檢閱取消</string>
     <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT = NONE] -->
-    <string name="accessibility_review_ok">完成</string>
+    <string name="accessibility_review_ok">檢閱完成</string>
     <!-- button in review mode indicate the user want to retake another photo/video for attachment [
 CHAR LIMIT = NONE] -->
-    <string name="accessibility_review_retake">重拍</string>
+    <string name="accessibility_review_retake">檢閱重拍</string>
     <!-- Default text for a button that can be toggled on and off. -->
     <string name="capital_on">開啟</string>
     <!-- Default text for a button that can be toggled on and off. -->
@@ -513,9 +514,9 @@ CHAR LIMIT = NONE] -->
     <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
     <string name="count_down_title_text">拍照倒數計時中</string>
     <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
-    <string name="remember_location_title">記錄拍攝位置？</string>
+    <string name="remember_location_title">記錄拍攝地點？</string>
     <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
-    <string name="remember_location_prompt">為您的相片和影片標示拍攝位置。\n\n其他應用程式可存取這項資訊及您所儲存的相片。</string>
+    <string name="remember_location_prompt">為您的相片和影片標記拍攝地點。\n\n其他應用程式可存取這項資訊及您所儲存的相片。</string>
     <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
     <string name="remember_location_no">不用了，謝謝</string>
     <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
@@ -544,6 +545,7 @@ CHAR LIMIT = NONE] -->
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">正在設定桌布</string>
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>
@@ -570,8 +572,8 @@ CHAR LIMIT = NONE] -->
     <string name="delete_all_best_dialog_title">刪除全部?</string>
     <string name="delete_all_best_dialog_content">確定要刪除這些照片嗎？</string>
     <string name="delete_all_best_dialog_native_bt">取消</string>
-    <string name="delete_all_best_dialog_positive_bt">刪除全部</string>
+    <string name="delete_all_best_dialog_positive_bt">刪除所有</string>
     <string name="overflow_best_item1">儲存全部</string>
-    <string name="overflow_best_item2">刪除全部</string>
+    <string name="overflow_best_item2">刪除所有</string>
     <string name="settings_title">設定</string>
 </resources>

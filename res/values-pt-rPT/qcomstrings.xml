@@ -221,37 +221,9 @@
     <string name="pref_camera_denoise_entry_on">Ligado</string>
     <!-- Default iso setting. Do not translate. -->
     <!-- Settings screen, Select Iso title -->
-    <string name="pref_camera_iso_title">ISO</string>
     <!-- Settings screen, ISO dialog radio button choices -->
     <string name="pref_camera_iso_entry_auto">Automático</string>
     <string name="pref_camera_iso_entry_isodeblur">Automático (HJR)</string>
-    <string name="pref_camera_iso_entry_iso50">ISO50</string>
-    <string name="pref_camera_iso_entry_iso100">ISO100</string>
-    <string name="pref_camera_iso_entry_iso125">ISO125</string>
-    <string name="pref_camera_iso_entry_iso150">ISO150</string>
-    <string name="pref_camera_iso_entry_iso200">ISO200</string>
-    <string name="pref_camera_iso_entry_iso250">ISO250</string>
-    <string name="pref_camera_iso_entry_iso300">ISO300</string>
-    <string name="pref_camera_iso_entry_iso320">ISO320</string>
-    <string name="pref_camera_iso_entry_iso350">ISO350</string>
-    <string name="pref_camera_iso_entry_iso400">ISO400</string>
-    <string name="pref_camera_iso_entry_iso450">ISO450</string>
-    <string name="pref_camera_iso_entry_iso500">ISO500</string>
-    <string name="pref_camera_iso_entry_iso600">ISO600</string>
-    <string name="pref_camera_iso_entry_iso640">ISO640</string>
-    <string name="pref_camera_iso_entry_iso700">ISO700</string>
-    <string name="pref_camera_iso_entry_iso800">ISO800</string>
-    <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
-    <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
-    <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
-    <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
-    <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
-    <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-    <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
-    <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-    <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
-    <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
-    <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
     <!-- ISO entry values. Do not translate. -->
     <!-- Settings screen, Anti Banding title -->
     <string name="pref_camera_antibanding_title">Evitar bandas</string>
@@ -274,11 +246,8 @@
     <!-- Color effect that overexposes and reverses some of the tones. -->
     <string name="pref_camera_coloreffect_entry_solarize">Solarizar</string>
     <string name="pref_camera_coloreffect_entry_posterize">Posterizar</string>
-    <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
     <string name="pref_camera_coloreffect_entry_emboss">Relevo</string>
     <string name="pref_camera_coloreffect_entry_sketch">Esboço</string>
-    <string name="pref_camera_coloreffect_entry_neon">Neon</string>
-    <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
     <string name="pref_camera_coloreffect_entry_mosaic">Mosaico</string>
     <string name="pref_camera_coloreffect_entry_redtint">Tinta vermelha</string>
     <string name="pref_camera_coloreffect_entry_bluetint">Tinta azul</string>
@@ -378,7 +347,6 @@
     <!-- Settings screen, Selectable HDR mode title -->
     <string name="pref_camera_hdr_mode_title">Modo HDR</string>
     <!-- Settings screen, Selectable HDR mode radio button choices -->
-    <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR multi-frame</string>
     <!-- HDR mode entry values. Do not translate. -->
     <!--Default video rotation setting-->
@@ -452,7 +420,6 @@
     <string name="pref_camera_scenemode_entry_bestpicture">Melhor imagem</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Foto nítida</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Rastreamento de foco</string>
-    <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
     <string name="pref_camera_scenemode_entry_promode">Modo Pro</string>
     <string name="bestpicture_done">CONCLUÍDO</string>
     <string name="bestpicture_at_least_one_picture">Tem de escolher, pelo menos, uma fotografia.</string>
@@ -468,7 +435,6 @@
     <string name="panocapture_intro">Pressione o botão da câmara para começar.</string>
     <string name="panocapture_direction_is_changed">A direção mudou. A parar a captura do panorama\u2026</string>
     <string name="makeup_ui_title">Escolha a intensidade do embelezamento.</string>
-    <string name="makeup_ui_ok_button">OK</string>
     <string name="perf_camera2_version_info">Informação da versão</string>
     <string name="perf_camera2_preferences_category_general">Gerais</string>
     <string name="perf_camera2_preferences_category_photo">Câmara fixa</string>
@@ -488,7 +454,6 @@
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">O BlurBuster reduz a desfocagem derivada do movimento das mãos. Pode ser útil quando tirar fotografias em sítios difíceis.</string>
     <string name="pref_camera2_scene_mode_pro_instructional_content">Com o Modo Pro, pode controlar manualmente parâmetros como o ISO, a exposição, o equilíbrio dos brancos e a focagem. Terá acesso simplificado a todas estas funcionalidades avançadas</string>
     <string name="pref_camera2_not_show_again">Não mostrar novamente</string>
-    <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_title">AEC instantâneo</string>
     <string name="pref_camera2_instant_aec_entry_disable">Desativar</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">AEC agressivo</string>
@@ -513,7 +478,6 @@
     <string name="pref_camera2_histogram_title">Histograma</string>
     <string name="pref_camera2_histogram_entry_enable">Ativar</string>
     <string name="pref_camera2_histogram_entry_disable">Desativar</string>
-    <string name="pref_camera2_hdr_title">HDR</string>
     <string name="pref_camera2_hdr_entry_enable">Ativar</string>
     <string name="pref_camera2_hdr_entry_disable">Desativar</string>
     <string name="pref_camera2_auto_hdr_title">HDR automático</string>
@@ -527,19 +491,8 @@
     <string name="pref_camera_bokeh_mpo_entry_disable">Desativar</string>
     <string name="pref_camera_bokeh_blur_degree_title">Valor de desfocagem do Bokeh</string>
     <!-- Default Zoom setting. -->
-    <string name="pref_camera_zoom_title">Zoom</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Desativada</string>
-    <string name="pref_camera_zoom_entry_1x">1x</string>
-    <string name="pref_camera_zoom_entry_2x">2x</string>
-    <string name="pref_camera_zoom_entry_3x">3x</string>
-    <string name="pref_camera_zoom_entry_4x">4x</string>
-    <string name="pref_camera_zoom_entry_5x">5x</string>
-    <string name="pref_camera_zoom_entry_6x">6x</string>
-    <string name="pref_camera_zoom_entry_7x">7x</string>
-    <string name="pref_camera_zoom_entry_8x">8x</string>
-    <string name="pref_camera_zoom_entry_9x">9x</string>
-    <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Deteção de sorrisos/piscadelas/olhares</string>
     <string name="pref_camera2_bsgc_entry_enable">Ativar</string>
     <string name="pref_camera2_bsgc_entry_disable">Desativar</string>
@@ -550,7 +503,6 @@
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Alterar câmara pelo ID</string>
-    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Monocromático</string>
     <string name="pref_camera2_initial_camera_entry_front">Frontal</string>
 </resources>

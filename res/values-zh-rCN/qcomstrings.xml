@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">自动包围曝光</string>
     <string name="pref_camera_ae_bracket_hdr_title">自动包围曝光</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">开启</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">关闭</string>
     <string name="err_app_unsupport_ae_bracket_code">不支持自动包围曝光</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">视频快照的大小低于视频的大小，以视频大小为上限。请选择高于或等于当前视频大小的分辨率。</string>
@@ -221,31 +222,31 @@
     <string name="pref_camera_denoise_entry_on">开启</string>
     <!-- Default iso setting. Do not translate. -->
     <!-- Settings screen, Select Iso title -->
-    <string name="pref_camera_iso_title">ISO</string>
+    <string name="pref_camera_iso_title">感光度</string>
     <!-- Settings screen, ISO dialog radio button choices -->
     <string name="pref_camera_iso_entry_auto">自动</string>
     <string name="pref_camera_iso_entry_isodeblur">自动 (HJR)</string>
     <string name="pref_camera_iso_entry_iso50">ISO50</string>
-    <string name="pref_camera_iso_entry_iso100">ISO100</string>
+    <string name="pref_camera_iso_entry_iso100">ISO 100</string>
     <string name="pref_camera_iso_entry_iso125">ISO125</string>
     <string name="pref_camera_iso_entry_iso150">ISO150</string>
-    <string name="pref_camera_iso_entry_iso200">ISO200</string>
+    <string name="pref_camera_iso_entry_iso200">ISO 200</string>
     <string name="pref_camera_iso_entry_iso250">ISO250</string>
     <string name="pref_camera_iso_entry_iso300">ISO300</string>
     <string name="pref_camera_iso_entry_iso320">ISO320</string>
     <string name="pref_camera_iso_entry_iso350">ISO350</string>
-    <string name="pref_camera_iso_entry_iso400">ISO400</string>
+    <string name="pref_camera_iso_entry_iso400">ISO 400</string>
     <string name="pref_camera_iso_entry_iso450">ISO450</string>
     <string name="pref_camera_iso_entry_iso500">ISO500</string>
     <string name="pref_camera_iso_entry_iso600">ISO600</string>
     <string name="pref_camera_iso_entry_iso640">ISO640</string>
     <string name="pref_camera_iso_entry_iso700">ISO700</string>
-    <string name="pref_camera_iso_entry_iso800">ISO800</string>
+    <string name="pref_camera_iso_entry_iso800">ISO 800</string>
     <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
     <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
     <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
     <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
-    <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
+    <string name="pref_camera_iso_entry_iso1600">ISO 1600</string>
     <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
     <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
     <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
@@ -530,16 +531,16 @@
     <string name="pref_camera_zoom_title">缩放</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">关闭</string>
-    <string name="pref_camera_zoom_entry_1x">1x</string>
-    <string name="pref_camera_zoom_entry_2x">2x</string>
-    <string name="pref_camera_zoom_entry_3x">3x</string>
-    <string name="pref_camera_zoom_entry_4x">4x</string>
-    <string name="pref_camera_zoom_entry_5x">5x</string>
-    <string name="pref_camera_zoom_entry_6x">6x</string>
-    <string name="pref_camera_zoom_entry_7x">7x</string>
-    <string name="pref_camera_zoom_entry_8x">8x</string>
-    <string name="pref_camera_zoom_entry_9x">9x</string>
-    <string name="pref_camera_zoom_entry_10x">10x</string>
+    <string name="pref_camera_zoom_entry_1x">1 倍</string>
+    <string name="pref_camera_zoom_entry_2x">2 倍</string>
+    <string name="pref_camera_zoom_entry_3x">3 倍</string>
+    <string name="pref_camera_zoom_entry_4x">4 倍</string>
+    <string name="pref_camera_zoom_entry_5x">5 倍</string>
+    <string name="pref_camera_zoom_entry_6x">6 倍</string>
+    <string name="pref_camera_zoom_entry_7x">7 倍</string>
+    <string name="pref_camera_zoom_entry_8x">8 倍</string>
+    <string name="pref_camera_zoom_entry_9x">9 倍</string>
+    <string name="pref_camera_zoom_entry_10x">10 倍</string>
     <string name="pref_camera2_bsgc_title">微笑／眨眼／注视检测</string>
     <string name="pref_camera2_bsgc_entry_enable">启用</string>
     <string name="pref_camera2_bsgc_entry_disable">禁用</string>
@@ -550,7 +551,7 @@
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">通过 ID 切换相机</string>
-    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
+    <string name="pref_camera2_initial_camera_entry_bayer">拜耳</string>
     <string name="pref_camera2_initial_camera_entry_mono">黑白</string>
     <string name="pref_camera2_initial_camera_entry_front">前</string>
 </resources>

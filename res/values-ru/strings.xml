@@ -42,31 +42,31 @@
     <string name="deleted">Удалено</string>
     <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
     <string name="undo">ОТМЕНИТЬ</string>
-    <string name="details">Подробности</string>
+    <string name="details">Детали</string>
     <string name="close">Закрыть</string>
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
     <plurals name="number_of_items_selected">
-        <item quantity="one">Выбрано: %1$d</item>
-        <item quantity="few">Выбрано: %1$d</item>
-        <item quantity="many">Выбрано: %1$d</item>
-        <item quantity="other">Выбрано: %1$d</item>
+        <item quantity="one">%1$d выбрано</item>
+        <item quantity="few">%1$d выбрано</item>
+        <item quantity="many">%1$d выбрано</item>
+        <item quantity="other">%1$d выбрано</item>
     </plurals>
     <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
     <plurals name="number_of_albums_selected">
-        <item quantity="one">Выбрано: %1$d</item>
-        <item quantity="few">Выбрано: %1$d</item>
-        <item quantity="many">Выбрано: %1$d</item>
-        <item quantity="other">Выбрано: %1$d</item>
+        <item quantity="one">%1$d выбрано</item>
+        <item quantity="few">%1$d выбрано</item>
+        <item quantity="many">%1$d выбрано</item>
+        <item quantity="other">%1$d выбрано</item>
     </plurals>
     <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
     <plurals name="number_of_groups_selected">
-        <item quantity="one">Выбрано: %1$d</item>
-        <item quantity="few">Выбрано: %1$d</item>
-        <item quantity="many">Выбрано: %1$d</item>
-        <item quantity="other">Выбрано: %1$d</item>
+        <item quantity="one">%1$d выбрано</item>
+        <item quantity="few">%1$d выбрано</item>
+        <item quantity="many">%1$d выбрано</item>
+        <item quantity="other">%1$d выбрано</item>
     </plurals>
     <!-- String indicating timestamp of photo or video -->
     <string name="show_on_map">Показать на карте</string>
@@ -85,7 +85,7 @@
     <string name="video_err">Не удалось воспроизвести видео</string>
     <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
-    <string name="crop_saved">Обрезанное изображение сохранено в папке «<xliff:g id="folder_name">%s</xliff:g>».</string>
+    <string name="crop_saved">Кадрированное изображение сохранено в папке \"<xliff:g id="FOLDER_NAME">%s</xliff:g>\"</string>
     <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
     <string name="title">Название</string>
     <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
@@ -109,7 +109,7 @@
     <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
     <string name="file_size">Размер файла</string>
     <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
-    <string name="maker">Производитель</string>
+    <string name="maker">Автор</string>
     <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
     <string name="model">Модель</string>
     <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
@@ -117,13 +117,13 @@
     <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
     <string name="aperture">Диафрагма</string>
     <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
-    <string name="focal_length">Фокус. расст.</string>
+    <string name="focal_length">Фокусное расстояние</string>
     <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=18] -->
     <string name="white_balance">Баланс белого</string>
     <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
     <string name="exposure_time">Выдержка</string>
     <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
-    <string name="iso">ISO</string>
+    <string name="iso">Значение ISO</string>
     <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
     <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
     <string name="unit_mm">мм</string>
@@ -139,7 +139,7 @@
     <string name="unknown">Неизвестно</string>
     <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
-    <string name="try_to_set_local_album_available_offline">Этот альбом хранится на устройстве и доступен в офлайн-режиме.</string>
+    <string name="try_to_set_local_album_available_offline">Этот альбом хранится на устройстве, его можно посмотреть в офлайн-режиме</string>
     <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
     <string name="please_wait">Подождите…</string>
     <!-- Text to show with progress bar while stitching a photo sphere. 'Photo sphere' is a product name. [CHAR LIMIT=35]-->
@@ -151,9 +151,9 @@
     <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
     <string name="camera_disabled">Камера отключена в соответствии с политикой безопасности.</string>
     <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
-    <string name="error_permissions">У приложения нет разрешений, необходимых для запуска. Проверьте настройки разрешений.</string>
+    <string name="error_permissions">Для запуска приложения требуются определенные разрешения. Предоставьте их в настройках.</string>
     <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
-    <string name="dialog_dismiss">Закрыть</string>
+    <string name="dialog_dismiss">Отклонить</string>
     <!-- alert to the user to wait for some operation to complete -->
     <string name="wait">Подождите…</string>
     <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -161,9 +161,9 @@
     <!-- alert to the user that the SD card is being disk-checked -->
     <string name="preparing_sd" product="default">Подготовка SD-карты…</string>
     <!-- alert to the user that the camera fails to read or write the SD card. -->
-    <string name="access_sd_fail" product="default">Нет доступа к SD-карте</string>
+    <string name="access_sd_fail" product="default">Нет доступа к SD-карте.</string>
     <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
-    <string name="time_lapse_title">Режим замедленной съемки</string>
+    <string name="time_lapse_title">Режим покадровой съёмки</string>
     <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
     <string name="capturing">Подождите…</string>
     <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
@@ -171,24 +171,25 @@
     <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
     <string name="pref_camera_id_entry_back">Задняя</string>
     <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
-    <string name="pref_camera_id_entry_front">Передняя</string>
+    <string name="pref_camera_id_entry_front">Фронтальная</string>
     <!-- Settings screen, setting title text -->
-    <string name="pref_camera_recordlocation_title">Местоположение</string>
+    <string name="pref_camera_recordlocation_title">Сохранять геоданные</string>
     <!--  Label for record location preference [CHAR LIMIT=50] -->
     <string name="pref_camera_location_label">МЕСТОПОЛОЖЕНИЕ</string>
     <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
     <string name="pref_camera_timer_title">Автоспуск</string>
     <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
     <plurals name="pref_camera_timer_entry">
-        <item quantity="one">1 секунда</item>
-        <item quantity="few">%d секунды</item>
-        <item quantity="many">%d секунд</item>
-        <item quantity="other">%d секунд</item>
+        <item quantity="one">1 сек.</item>
+        <item quantity="few">%d сек.</item>
+        <item quantity="many">%d сек.</item>
+        <item quantity="other">%d сек.</item>
     </plurals>
     <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
-    <string name="pref_camera_timer_sound_title">Сигнал</string>
+    <string name="pref_camera_timer_sound_title">Звук таймера</string>
     <!-- Entry of camera save path -->
     <string name="pref_camera_savepath_title">Память</string>
+    <string name="pref_camera_savepath_default">0</string>
     <string name="pref_camera_savepath_entry_0">Телефон</string>
     <string name="pref_camera_savepath_entry_1">SD-карта</string>
     <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
@@ -209,7 +210,7 @@
     <!-- Video quality setting entry. Videos will be recorded in 2K quality. [CHAR LIMIT=24] -->
     <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
-    <string name="pref_video_time_lapse_frame_interval_title">Замедленная съемка</string>
+    <string name="pref_video_time_lapse_frame_interval_title">Покадровая съёмка</string>
     <!-- Settings screen, Camera setting category title -->
     <string name="pref_camera_settings_category">Настройки камеры</string>
     <!-- Settings screen, Camcorder setting category title -->
@@ -221,13 +222,13 @@
     <!-- Settings screen, Focus mode dialog radio button choices -->
     <string name="pref_camera_focusmode_entry_auto">Авто</string>
     <!-- A setting that lets the camera focus into infinity. [CHAR LIMIT=20] -->
-    <string name="pref_camera_focusmode_entry_infinity">Бесконечность</string>
+    <string name="pref_camera_focusmode_entry_infinity">Непрерывный</string>
     <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
-    <string name="pref_camera_focusmode_entry_macro">Макросъемка</string>
+    <string name="pref_camera_focusmode_entry_macro">Макросъёмка</string>
     <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
     <string name="pref_camera_focusmode_label_auto">АВТО</string>
-    <string name="pref_camera_focusmode_label_infinity">БЕСКОНЕЧНОСТЬ</string>
-    <string name="pref_camera_focusmode_label_macro">МАКРОСЪЕМКА</string>
+    <string name="pref_camera_focusmode_label_infinity">НЕПРЕРЫВНЫЙ</string>
+    <string name="pref_camera_focusmode_label_macro">МАКРОСЪЁМКА</string>
     <!-- Default flash mode setting.-->
     <!-- Value for flash off setting-->
     <!-- Settings screen, Flash mode title -->
@@ -240,8 +241,8 @@
     <string name="pref_camera_flashmode_entry_off">Выкл.</string>
     <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
     <string name="pref_camera_flashmode_label_auto">АВТО</string>
-    <string name="pref_camera_flashmode_label_on">ВКЛ. ВСПЫШКУ</string>
-    <string name="pref_camera_flashmode_label_off">ВЫКЛ. ВСПЫШКУ</string>
+    <string name="pref_camera_flashmode_label_on">ВКЛ</string>
+    <string name="pref_camera_flashmode_label_off">ВЫКЛ</string>
     <!-- Default videocamera flash mode setting.-->
     <!-- Default white balance setting. -->
     <!-- Settings screen, white balance title -->
@@ -262,13 +263,13 @@
     <string name="pref_camera_whitebalance_label_cloudy">ПАСМУРНЫЙ ДЕНЬ</string>
     <!-- Default scene mode setting. -->
     <!-- Settings screen, Select Scene mode -->
-    <string name="pref_camera_scenemode_title">Режим съемки</string>
+    <string name="pref_camera_scenemode_title">Режим съёмки</string>
     <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_auto">Авто</string>
     <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
     <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
-    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
+    <string name="pref_camera_scenemode_entry_hdr">Эффект HDR</string>
     <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">ВКЛЮЧИТЬ HDR+</string>
     <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -280,7 +281,7 @@
     <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_action">В движении</string>
     <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
-    <string name="pref_camera_scenemode_entry_night">Ночная съемка</string>
+    <string name="pref_camera_scenemode_entry_night">Ночная съёмка</string>
     <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_sunset">Закат</string>
     <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
@@ -291,7 +292,7 @@
     <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_label_action">В ДВИЖЕНИИ</string>
     <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
-    <string name="pref_camera_scenemode_label_night">НОЧНАЯ СЪЕМКА</string>
+    <string name="pref_camera_scenemode_label_night">НОЧНАЯ СЪЁМКА</string>
     <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_label_sunset">ЗАКАТ</string>
     <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=50] -->
@@ -307,15 +308,15 @@
     <!-- Settings menu countdown timer 15 seconds [CHAR LIMIT=50] -->
     <string name="pref_camera_countdown_label_fifteen">15 СЕКУНД</string>
     <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
-    <string name="not_selectable_in_scene_mode">Недоступно в режиме съемки</string>
+    <string name="not_selectable_in_scene_mode">Недоступно в режиме съёмки</string>
     <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
-    <string name="HDR_disable_continuous_shot">Включение HDR отключит непрерывную съемку.</string>
+    <string name="HDR_disable_continuous_shot">Включение HDR отключит непрерывную съёмку.</string>
     <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
-    <string name="advanced_capture_disable_continuous_shot">Включение расширенных функций отключит непрерывную съемку.</string>
+    <string name="advanced_capture_disable_continuous_shot">Включение расширенных функций отключит непрерывную съёмку.</string>
     <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
-    <string name="video_quality_4k_disable_IS">Включение видеосъемки с разрешением 4K отключит стабилизацию.</string>
+    <string name="video_quality_4k_disable_IS">Включение видеосъёмки с разрешением 4K отключит стабилизацию.</string>
     <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
-    <string name="video_quality_4k_disable_SeeMore">Режим SeeMore не может быть включен во время записи 4К видео.</string>
+    <string name="video_quality_4k_disable_SeeMore">Режим SeeMore не может быть включён во время записи 4К-видео.</string>
     <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
     <string name="disable_CDS_during_HighQualityNoiseReduction">Включение высококачественного шумоподавления отключит функцию CDS.</string>
     <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
@@ -327,15 +328,15 @@
     <!-- Toast after SeeMore has been enabled to show NR is disabled -->
     <string name="disable_NR_during_SeeMore">Режим SeeMore отключит шумоподавление.</string>
     <!-- Exposure settings in preference -->
-    <string name="pref_exposure_title">Экспокоррекция</string>
+    <string name="pref_exposure_title">Выдержка</string>
     <!--  menu label exposure compensation [CHAR LIMIT=50] -->
-    <string name="pref_exposure_label">ЭКСПОКОРРЕКЦИЯ</string>
+    <string name="pref_exposure_label">ВЫДЕРЖКА</string>
     <!-- Default HDR entry value -->
     <!-- Default HDR+ entry value -->
     <!-- HDR label ON [CHAR LIMIT=60] -->
-    <string name="pref_camera_hdr_label">HDR</string>
+    <string name="pref_camera_hdr_label">Эффект HDR</string>
     <!-- switch camera label back [CHAR LIMIT=60] -->
-    <string name="pref_camera_id_label_back">ПЕРЕДНЯЯ КАМЕРА</string>
+    <string name="pref_camera_id_label_back">ФРОНТАЛЬНАЯ КАМЕРА</string>
     <!-- switch camera label front [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_front">ЗАДНЯЯ КАМЕРА</string>
     <!-- Dialog "OK" button. Dismisses dialog. -->
@@ -350,13 +351,13 @@
     <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=16] -->
     <string name="pano_too_fast_prompt">Слишком быстро</string>
     <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
-    <string name="pano_dialog_prepare_preview">Подготовка панорамы</string>
+    <string name="pano_dialog_prepare_preview">Обработка…</string>
     <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
-    <string name="pano_dialog_panorama_failed">Не удалось сохранить панораму.</string>
+    <string name="pano_dialog_panorama_failed">Не удалось сохранить файл.</string>
     <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
     <string name="pano_dialog_title">Панорама</string>
     <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
-    <string name="pano_capture_indication">Съемка панорамы</string>
+    <string name="pano_capture_indication">Создание панорамы…</string>
     <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
     <string name="pano_dialog_waiting_previous">Обработка предыдущего файла…</string>
     <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
@@ -381,15 +382,15 @@
     <!-- Effect setting item that makes nose big. [CHAR LIMIT=14] -->
     <string name="effect_goofy_face_big_nose">Большой нос</string>
     <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
-    <string name="effect_goofy_face_small_eyes">Глаза в точку</string>
+    <string name="effect_goofy_face_small_eyes">Маленькие глаза</string>
     <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
     <string name="effect_backdropper_space">Космос</string>
     <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
     <string name="effect_backdropper_sunset">Закат</string>
     <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
-    <string name="effect_backdropper_gallery">Ваши видео</string>
+    <string name="effect_backdropper_gallery">Мои видео</string>
     <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
-    <string name="video_snapshot_hint">Нажмите, чтобы сделать фотографию во время записи.</string>
+    <string name="video_snapshot_hint">Нажмите, чтобы сделать фотографию во время записи</string>
     <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
     <string name="video_recording_started">Запись начата</string>
     <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
@@ -405,11 +406,11 @@
     <!-- The exit best photo mode button. [CHAR LIMIT = NONE] -->
     <string name="accessibility_exit_best_mode_button">Выход из режима наилучшего снимка</string>
     <!-- The menu button. [CHAR LIMIT = NONE] -->
-    <string name="accessibility_menu_button">Кнопка «Меню»</string>
+    <string name="accessibility_menu_button">Кнопка \"Меню\"</string>
     <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
-    <string name="accessibility_mode_picker">Переключатель между режимами «Фото», «Видео» и «Панорама»</string>
+    <string name="accessibility_mode_picker">Переключатель между режимами \"Фото\", \"Видео\" и \"Панорама\"</string>
     <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->
-    <string name="accessibility_check_box">Флажок «%1$s»</string>
+    <string name="accessibility_check_box">Флажок \"%1$s\"</string>
     <!-- The button to switch to Camera mode. [CHAR LIMIT = NONE] -->
     <string name="accessibility_switch_to_camera">Фото</string>
     <!-- The button to switch to Video mode. [CHAR LIMIT = NONE] -->
@@ -426,11 +427,11 @@
     <string name="accessibility_review_ok">Готово</string>
     <!-- button in review mode indicate the user want to retake another photo/video for attachment [
 CHAR LIMIT = NONE] -->
-    <string name="accessibility_review_retake">Еще раз</string>
+    <string name="accessibility_review_retake">Ещё раз</string>
     <!-- Default text for a button that can be toggled on and off. -->
-    <string name="capital_on">ВКЛ.</string>
+    <string name="capital_on">ВКЛ</string>
     <!-- Default text for a button that can be toggled on and off. -->
-    <string name="capital_off">ВЫКЛ.</string>
+    <string name="capital_off">ВЫКЛ</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <string name="pref_video_time_lapse_frame_interval_off">Выкл.</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -522,22 +523,22 @@ CHAR LIMIT = NONE] -->
     <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
     <string name="set_time_interval">Задайте интервал</string>
     <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
-    <string name="set_time_interval_help">Сначала включите режим замедленной съемки.</string>
+    <string name="set_time_interval_help">Сначала включите режим покадровой съёмки. После этого задайте интервал.</string>
     <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
-    <string name="set_duration">Время отсчета в секундах</string>
+    <string name="set_duration">Время отсчёта в секундах</string>
     <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
-    <string name="count_down_title_text">Обратный отсчет перед съемкой</string>
+    <string name="count_down_title_text">Обратный отсчёта перед съемкой</string>
     <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
-    <string name="remember_location_title">Сохранять место съемки?</string>
+    <string name="remember_location_title">Сохранять место съёмки?</string>
     <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
-    <string name="remember_location_prompt">Информация о месте съемки будет автоматически добавлена в описание ваших фотографий и видео.\n\nДоступ к этим данным, а также к самим фотографиям и видео смогут получить и другие приложения.</string>
+    <string name="remember_location_prompt">Информация о месте съёмки будет автоматически добавлена в описание ваших фотографий и видеозаписей.\n\nДоступ к этим данным, а также к самим фотографиям и видео смогут получить и другие приложения.</string>
     <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
     <string name="remember_location_no">Нет</string>
     <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
     <string name="remember_location_yes">Да</string>
     <!-- Camera menu labels -->
     <!-- more options label [CHAR LIMIT=50] -->
-    <string name="camera_menu_more_label">ДРУГИЕ ОПЦИИ</string>
+    <string name="camera_menu_more_label">ЕЩЁ</string>
     <!-- settings label [CHAR LIMIT=50] -->
     <string name="camera_menu_settings_label">НАСТРОЙКИ</string>
     <!--  Tiny Planet -->
@@ -559,31 +560,32 @@ CHAR LIMIT = NONE] -->
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">Установка обоев…</string>
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">Осталось: %d</string>
     <string name="initial_recording_seconds">00:00</string>
-    <string name="makeup_video_size_limit">Функция Makeup работает только при записи видео в VGA.</string>
+    <string name="makeup_video_size_limit">Функция макияжа работает только при записи видео в разрешении VGA.</string>
     <string name="pref_camera2_category_system">Система</string>
-    <string name="pref_camera2_restore_default">Восстановить настройки по умолчанию</string>
+    <string name="pref_camera2_restore_default">Восстановить по умолчанию</string>
     <string name="pref_camera2_restore_default_hint">Настройки камеры будут восстановлены по умолчанию!</string>
     <plurals name="save_best_dialog_content">
-        <item quantity="one">%1$d из 10 изображений будет сохранено, а остальные будут удалены</item>
-        <item quantity="few">%1$d из 10 изображений будут сохранены, а остальные будут удалены</item>
-        <item quantity="many">%1$d из 10 изображений будут сохранены, а остальные будут удалены</item>
-        <item quantity="other">%1$d из 10 изображений будут сохранены, а остальные будут удалены</item>
+        <item quantity="one">%1$d из 10 изображений будут сохранены, а остальные будут удалены.</item>
+        <item quantity="few">%1$d из 10 изображений будут сохранены, а остальные будут удалены.</item>
+        <item quantity="many">%1$d из 10 изображений будут сохранены, а остальные будут удалены.</item>
+        <item quantity="other">%1$d из 10 изображений будут сохранены, а остальные будут удалены.</item>
     </plurals>
     <string name="save_best_dialog_title">Сохранить выбранные изображения?</string>
     <string name="save_best_dialog_positive_bt">ОК</string>
     <string name="save_best_dialog_native_bt">Отмена</string>
     <plurals name="save_best_image_toast">
-        <item quantity="one">Сохранено %1$d из 10 изображений.</item>
-        <item quantity="few">Сохранено %1$d из 10 изображений.</item>
-        <item quantity="many">Сохранено %1$d из 10 изображений.</item>
-        <item quantity="other">Сохранено %1$d из 10 изображений.</item>
+        <item quantity="one">%1$d из 10 изображений сохранено.</item>
+        <item quantity="few">%1$d из 10 изображений сохранено.</item>
+        <item quantity="many">%1$d из 10 изображений сохранено.</item>
+        <item quantity="other">%1$d из 10 изображений сохранено.</item>
     </plurals>
-    <string name="dialog_do_not_show">Больше не показывать</string>
+    <string name="dialog_do_not_show">Не показывать снова</string>
     <string name="delete_best_dialog_title">Удалить все?</string>
     <string name="delete_best_dialog_content">Вы действительно хотите удалить все 10 изображений?</string>
     <string name="delete_best_dialog_native_bt">Отмена</string>

@@ -63,7 +63,7 @@
     <!-- Settings screen, Selectable zone af title -->
     <string name="pref_camera_selectablezoneaf_title">Zone de mise au point automatique</string>
     <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
-    <string name="pref_camera_selectablezoneaf_entry_auto">Auto</string>
+    <string name="pref_camera_selectablezoneaf_entry_auto">Automatique</string>
     <string name="pref_camera_selectablezoneaf_entry_spotmetering">Mesure de spot</string>
     <string name="pref_camera_selectablezoneaf_entry_centerweighted">Pondérée centrale</string>
     <string name="pref_camera_selectablezoneaf_entry_frameaverage">Trame moyenne</string>
@@ -107,12 +107,12 @@
     <string name="pref_camera_video_hdr_entry_on">Activé</string>
     <!-- Settings screen, CDS location dialog choices -->
     <string name="pref_camera_cds_entry_off">Désactivé</string>
-    <string name="pref_camera_cds_entry_on">On</string>
-    <string name="pref_camera_cds_entry_auto">Auto</string>
+    <string name="pref_camera_cds_entry_on">Activé</string>
+    <string name="pref_camera_cds_entry_auto">Automatique</string>
     <!-- Settings screen, video CDS location dialog choices -->
     <string name="pref_camera_video_cds_entry_off">Désactivé</string>
-    <string name="pref_camera_video_cds_entry_on">On</string>
-    <string name="pref_camera_video_cds_entry_auto">Auto</string>
+    <string name="pref_camera_video_cds_entry_on">Activé</string>
+    <string name="pref_camera_video_cds_entry_auto">Automatique</string>
     <!-- Settings screen, TNR location dialog choices -->
     <string name="pref_camera_tnr_entry_disable">Désactiver</string>
     <string name="pref_camera_tnr_entry_enable">Activer</string>
@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Bracketing d\'exposition automatique</string>
     <string name="pref_camera_ae_bracket_hdr_title">Bracketing d\'exposition automatique</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Activé</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Désactivé</string>
     <string name="err_app_unsupport_ae_bracket_code">Le bracketing AE n\'est pas encore supporté</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">La taille de capture vidéo est inférieure à la taille de la vidéo. Veuillez sélectionner une résolution supérieure ou égale à la taille actuelle de la vidéo.</string>
@@ -223,7 +224,7 @@
     <!-- Settings screen, Select Iso title -->
     <string name="pref_camera_iso_title">ISO</string>
     <!-- Settings screen, ISO dialog radio button choices -->
-    <string name="pref_camera_iso_entry_auto">Auto</string>
+    <string name="pref_camera_iso_entry_auto">Automatique</string>
     <string name="pref_camera_iso_entry_isodeblur">Auto (HJR)</string>
     <string name="pref_camera_iso_entry_iso50">ISO50</string>
     <string name="pref_camera_iso_entry_iso100">ISO100</string>
@@ -259,7 +260,7 @@
     <!-- Settings screen, Anti Banding entries -->
     <string name="pref_camera_antibanding_entry_0">Automatique</string>
     <string name="pref_camera_antibanding_entry_1">50 Hz (Europe)</string>
-    <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
+    <string name="pref_camera_antibanding_entry_2">60 Hz (États-Unis)</string>
     <!-- Default color effect setting. -->
     <string name="pref_camera_filter_mode_entry_on">Activé</string>
     <string name="pref_camera_filter_mode_entry_off">Désactivé</string>
@@ -268,7 +269,7 @@
     <string name="pref_camera_filter_mode_title">Effet de couleur</string>
     <!-- Settings screen, Color effect dialog radio button choices -->
     <string name="pref_camera_coloreffect_entry_none">Aucun</string>
-    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_mono">Monochrome</string>
     <string name="pref_camera_coloreffect_entry_sepia">Sépia</string>
     <string name="pref_camera_coloreffect_entry_negative">Négatif</string>
     <!-- Color effect that overexposes and reverses some of the tones. -->
@@ -345,7 +346,7 @@
     <string name="pref_camera_jpegquality_title">Qualité d\'image</string>
     <!-- Settings screen, Picture quality dialog radio button choices -->
     <string name="pref_camera_jpegquality_entry_0">Faible</string>
-    <string name="pref_camera_jpegquality_entry_1">Standard</string>
+    <string name="pref_camera_jpegquality_entry_1">65% (normal)</string>
     <string name="pref_camera_jpegquality_entry_2">Élevée</string>
     <!-- Default auto histogram setting. Do not translate. -->
     <!-- Settings screen, Select Histogram title -->
@@ -452,7 +453,7 @@
     <string name="pref_camera_scenemode_entry_bestpicture">Image optimale</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Photo nette</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Mise au point automatique par suivi du sujet</string>
-    <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
+    <string name="pref_camera_scenemode_entry_panorama">Panoramique</string>
     <string name="pref_camera_scenemode_entry_promode">Mode Pro</string>
     <string name="bestpicture_done">TERMINÉ</string>
     <string name="bestpicture_at_least_one_picture">Vous devez choisir au moins une photo.</string>
@@ -508,8 +509,8 @@
     <string name="pref_camera2_anti_banding_level_title">Anti-scintillement</string>
     <string name="pref_camera2_anti_banding_level_entry_off">Désactivé</string>
     <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Europe)</string>
-    <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (USA)</string>
-    <string name="pref_camera2_anti_banding_level_entry_auto">Auto</string>
+    <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (États-Unis)</string>
+    <string name="pref_camera2_anti_banding_level_entry_auto">Automatique</string>
     <string name="pref_camera2_histogram_title">Histogramme</string>
     <string name="pref_camera2_histogram_entry_enable">Activer</string>
     <string name="pref_camera2_histogram_entry_disable">Désactiver</string>
@@ -551,6 +552,6 @@
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Changer d\'appareil photo par ID</string>
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
-    <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
+    <string name="pref_camera2_initial_camera_entry_mono">Monochrome</string>
     <string name="pref_camera2_initial_camera_entry_front">Avant</string>
 </resources>

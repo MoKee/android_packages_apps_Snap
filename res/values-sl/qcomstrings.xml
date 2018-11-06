@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Korektura sam. osvetlitve</string>
     <string name="pref_camera_ae_bracket_hdr_title">Korektura sam. osvetlitve</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Vklopljeno</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Izklopljen</string>
     <string name="err_app_unsupport_ae_bracket_code">Korektura samodejne osvetlitve še ni podprta</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Velikost samodejnega posnetka je nižja od velikosti videoposnetka, omejevanje na velikost videoposnetka. Izberite ločljivost višjo ali enako velikosti trenutnega videoposnetka.</string>
@@ -550,7 +551,6 @@
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Preklop fotoaparata z ID-jem</string>
-    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Sprednja</string>
 </resources>

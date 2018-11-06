@@ -108,7 +108,6 @@
     <!-- Settings screen, CDS location dialog choices -->
     <string name="pref_camera_cds_entry_off">Av</string>
     <string name="pref_camera_cds_entry_on">På</string>
-    <string name="pref_camera_cds_entry_auto">Auto</string>
     <!-- Settings screen, video CDS location dialog choices -->
     <string name="pref_camera_video_cds_entry_off">Av</string>
     <string name="pref_camera_video_cds_entry_on">På</string>
@@ -122,7 +121,6 @@
     <string name="pref_camera_video_tnr_entry_enable">Aktiver</string>
     <!-- Settings screen, video TNR location dialog choices -->
     <!-- Settings screen, setting title text for Video HDR-->
-    <string name="pref_camera_video_hdr_title">Video HDR</string>
     <!-- Settings menu, setting title text for cds mode-->
     <string name="pref_camera_cds_title">CDS-modus</string>
     <!-- Settings menu, setting title text for video cds mode-->
@@ -179,6 +177,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Auto Exposure Bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_title">Auto Exposure Bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">På</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Av</string>
     <string name="err_app_unsupport_ae_bracket_code">AE bracketing støttes ikke ennå</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Stillbildestørrelsen er lavere enn bildestørrelsen, begrenser til bildestørrelsen. Velg en oppløsning høyere eller lik gjeldende bildestørrelse.</string>
@@ -221,45 +220,14 @@
     <string name="pref_camera_denoise_entry_on">På</string>
     <!-- Default iso setting. Do not translate. -->
     <!-- Settings screen, Select Iso title -->
-    <string name="pref_camera_iso_title">ISO</string>
     <!-- Settings screen, ISO dialog radio button choices -->
     <string name="pref_camera_iso_entry_auto">Automatisk</string>
-    <string name="pref_camera_iso_entry_isodeblur">Auto (HJR)</string>
-    <string name="pref_camera_iso_entry_iso50">ISO50</string>
-    <string name="pref_camera_iso_entry_iso100">ISO100</string>
-    <string name="pref_camera_iso_entry_iso125">ISO125</string>
-    <string name="pref_camera_iso_entry_iso150">ISO150</string>
-    <string name="pref_camera_iso_entry_iso200">ISO200</string>
-    <string name="pref_camera_iso_entry_iso250">ISO250</string>
-    <string name="pref_camera_iso_entry_iso300">ISO300</string>
-    <string name="pref_camera_iso_entry_iso320">ISO320</string>
-    <string name="pref_camera_iso_entry_iso350">ISO350</string>
-    <string name="pref_camera_iso_entry_iso400">ISO400</string>
-    <string name="pref_camera_iso_entry_iso450">ISO450</string>
-    <string name="pref_camera_iso_entry_iso500">ISO500</string>
-    <string name="pref_camera_iso_entry_iso600">ISO600</string>
-    <string name="pref_camera_iso_entry_iso640">ISO640</string>
-    <string name="pref_camera_iso_entry_iso700">ISO700</string>
-    <string name="pref_camera_iso_entry_iso800">ISO800</string>
-    <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
-    <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
-    <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
-    <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
-    <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
-    <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-    <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
-    <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-    <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
-    <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
-    <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
     <!-- ISO entry values. Do not translate. -->
     <!-- Settings screen, Anti Banding title -->
-    <string name="pref_camera_antibanding_title">Antibanding</string>
     <!-- Default Anti Banding setting. -->
     <!-- Settings screen, Anti Banding entries -->
     <string name="pref_camera_antibanding_entry_0">Automatisk</string>
     <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
-    <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
     <!-- Default color effect setting. -->
     <string name="pref_camera_filter_mode_entry_on">På</string>
     <string name="pref_camera_filter_mode_entry_off">Av</string>
@@ -268,16 +236,11 @@
     <string name="pref_camera_filter_mode_title">Fargeeffekt</string>
     <!-- Settings screen, Color effect dialog radio button choices -->
     <string name="pref_camera_coloreffect_entry_none">Ingen</string>
-    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
-    <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
     <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
     <!-- Color effect that overexposes and reverses some of the tones. -->
-    <string name="pref_camera_coloreffect_entry_solarize">Solarize</string>
     <string name="pref_camera_coloreffect_entry_posterize">Juster fargetoner</string>
-    <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
     <string name="pref_camera_coloreffect_entry_emboss">Relieff</string>
     <string name="pref_camera_coloreffect_entry_sketch">Skisse</string>
-    <string name="pref_camera_coloreffect_entry_neon">Neon</string>
     <string name="pref_camera_coloreffect_entry_pastel">Pastell</string>
     <string name="pref_camera_coloreffect_entry_mosaic">Mosaikk</string>
     <string name="pref_camera_coloreffect_entry_redtint">Rød fargetone</string>
@@ -310,7 +273,6 @@
     <string name="pref_camera_contrast_entry_level5">Nivå 5 (standard)</string>
     <string name="pref_camera_contrast_entry_level6">Nivå 6</string>
     <string name="pref_camera_contrast_entry_level7">Nivå 7</string>
-    <string name="pref_camera_contrast_entry_level8">Level 8</string>
     <string name="pref_camera_contrast_entry_level9">Nivå 9</string>
     <string name="pref_camera_contrast_entry_level10">Nivå 10</string>
     <!-- Settings screen, Multiple levels entries -->
@@ -322,7 +284,6 @@
     <string name="pref_camera_saturation_entry_level5">Nivå 5 (standard)</string>
     <string name="pref_camera_saturation_entry_level6">Nivå 6</string>
     <string name="pref_camera_saturation_entry_level7">Nivå 7</string>
-    <string name="pref_camera_saturation_entry_level8">Level 8</string>
     <string name="pref_camera_saturation_entry_level9">Nivå 9</string>
     <string name="pref_camera_saturation_entry_level10">Nivå 10</string>
     <!-- Default sharpness setting. Do not translate. -->
@@ -345,11 +306,10 @@
     <string name="pref_camera_jpegquality_title">Bildekvalitet</string>
     <!-- Settings screen, Picture quality dialog radio button choices -->
     <string name="pref_camera_jpegquality_entry_0">Lav</string>
-    <string name="pref_camera_jpegquality_entry_1">Standard</string>
+    <string name="pref_camera_jpegquality_entry_1">65% (normal)</string>
     <string name="pref_camera_jpegquality_entry_2">Høy</string>
     <!-- Default auto histogram setting. Do not translate. -->
     <!-- Settings screen, Select Histogram title -->
-    <string name="pref_camera_histogram_title">Histogram</string>
     <!-- Settings screen, Histogram radio button choices -->
     <string name="pref_camera_histogram_entry_enable">Aktiver</string>
     <string name="pref_camera_histogram_entry_disable">Deaktiver</string>
@@ -378,7 +338,6 @@
     <!-- Settings screen, Selectable HDR mode title -->
     <string name="pref_camera_hdr_mode_title">HDR modus</string>
     <!-- Settings screen, Selectable HDR mode radio button choices -->
-    <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Multi-bilde HDR</string>
     <!-- HDR mode entry values. Do not translate. -->
     <!--Default video rotation setting-->
@@ -433,7 +392,6 @@
     <string name="pref_camera2_clearsight_entry_off">Av</string>
     <string name="clearsight_capture_success">ClearSight-bilde ble vellykket tatt</string>
     <string name="clearsight_capture_fail">ClearSight-bildet mislyktes</string>
-    <string name="pref_camera2_mpo_title">MPO format</string>
     <string name="pref_camera2_mpo_entry_on">På</string>
     <string name="pref_camera2_mpo_entry_off">Av</string>
     <string name="pref_camera2_makeup_title">Sminke</string>
@@ -457,7 +415,11 @@
     <string name="pref_camera2_shutter_sound_entry_off">Av</string>
     <string name="pref_camera2_shutter_sound_title">Lukkerlyd</string>
     <string name="pref_camera2_timer_entry_off">Av</string>
+    <string name="pref_camera2_timer_entry_2sec">2 sekunder</string>
+    <string name="pref_camera2_timer_entry_5sec">5 sekunder</string>
+    <string name="pref_camera2_timer_entry_10sec">10 sekunder</string>
     <string name="makeup_ui_ok_button">OK</string>
+    <string name="perf_camera2_preferences_category_general">Generelt</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_entry_disable">Deaktiver</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Aggressiv AEC</string>
@@ -471,15 +433,11 @@
     <string name="pref_camera2_saturation_level_entry_5">Nivå 5 (standard)</string>
     <string name="pref_camera2_saturation_level_entry_6">Nivå 6</string>
     <string name="pref_camera2_saturation_level_entry_7">Nivå 7</string>
-    <string name="pref_camera2_saturation_level_entry_8">Level 8</string>
     <string name="pref_camera2_saturation_level_entry_9">Nivå 9</string>
     <string name="pref_camera2_saturation_level_entry_10">Nivå 10</string>
-    <string name="pref_camera2_anti_banding_level_title">Antibanding</string>
     <string name="pref_camera2_anti_banding_level_entry_off">Av</string>
     <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Europa)</string>
-    <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (USA)</string>
     <string name="pref_camera2_anti_banding_level_entry_auto">Automatisk</string>
-    <string name="pref_camera2_histogram_title">Histogram</string>
     <string name="pref_camera2_histogram_entry_enable">Aktiver</string>
     <string name="pref_camera2_histogram_entry_disable">Deaktiver</string>
     <string name="pref_camera2_hdr_entry_enable">Aktiver</string>
@@ -500,5 +458,5 @@
     <string name="pref_camera2_zsl_entry_disable">Av</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
-    <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
+    <string name="pref_camera2_initial_camera_entry_front">Forside</string>
 </resources>

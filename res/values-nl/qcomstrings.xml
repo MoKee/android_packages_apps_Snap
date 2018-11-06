@@ -72,7 +72,7 @@
     <string name="pref_camera_advanced_features_title">Geavanceerde functies</string>
     <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
     <string name="pref_camera_advanced_feature_entry_none">Geen</string>
-    <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Multi-touch Focus</string>
+    <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Multi-touch focus</string>
     <!-- Auto exposure entry values. Do not translate. -->
     <!-- Manual exposure control entry values -->
     <string name="pref_camera_manual_exp_title">Handmatige belichting</string>
@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Reeksopname met automatische belichtingscompensatie (AEB)</string>
     <string name="pref_camera_ae_bracket_hdr_title">Reeksopname met automatische belichtingscompensatie (AEB)</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Aan</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Uit</string>
     <string name="err_app_unsupport_ae_bracket_code">Bracketing (AEB) wordt nog niet ondersteund</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Resolutie momentopname is kleiner dan die van de video. Momentopname wordt gemaakt ter grootte van de video. Kies een hogere of gelijke resolutie als de huidige videoresolutie.</string>
@@ -259,7 +260,7 @@
     <!-- Settings screen, Anti Banding entries -->
     <string name="pref_camera_antibanding_entry_0">Automatisch</string>
     <string name="pref_camera_antibanding_entry_1">50 Hz (Europa)</string>
-    <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
+    <string name="pref_camera_antibanding_entry_2">60 Hz (VS)</string>
     <!-- Default color effect setting. -->
     <string name="pref_camera_filter_mode_entry_on">Aan</string>
     <string name="pref_camera_filter_mode_entry_off">Uit</string>
@@ -461,13 +462,13 @@
     <string name="pref_camera2_timer_entry_2sec">2 seconden</string>
     <string name="pref_camera2_timer_entry_5sec">5 seconden</string>
     <string name="pref_camera2_timer_entry_10sec">10 seconden</string>
-    <string name="makeup_ui_ok_button">OK</string>
+    <string name="makeup_ui_ok_button">Oké</string>
     <string name="perf_camera2_version_info">Versie-info</string>
     <string name="perf_camera2_preferences_category_general">Algemeen</string>
     <string name="perf_camera2_preferences_category_video">Videocamera</string>
     <string name="perf_camera2_preferences_category_system">Systeem</string>
     <string name="pref_camera2_not_show_again">Niet opnieuw tonen</string>
-    <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
+    <string name="pref_camera2_scene_mode_instructional_ok">Oké</string>
     <string name="pref_camera2_instant_aec_entry_disable">Uitschakelen</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Agressieve AEC</string>
     <string name="pref_camera2_instant_aec_entry_fast">Snelle AEC</string>
@@ -486,7 +487,7 @@
     <string name="pref_camera2_anti_banding_level_title">Anti-banding</string>
     <string name="pref_camera2_anti_banding_level_entry_off">Uit</string>
     <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Europa)</string>
-    <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (USA)</string>
+    <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (VS)</string>
     <string name="pref_camera2_anti_banding_level_entry_auto">Automatisch</string>
     <string name="pref_camera2_histogram_title">Histogram</string>
     <string name="pref_camera2_histogram_entry_enable">Inschakelen</string>
@@ -502,18 +503,10 @@
     <string name="pref_camera_bokeh_mpo_entry_enable">Inschakelen</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">Uitschakelen</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">Zoomen</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Uit</string>
-    <string name="pref_camera_zoom_entry_1x">1x</string>
-    <string name="pref_camera_zoom_entry_2x">2x</string>
-    <string name="pref_camera_zoom_entry_3x">3x</string>
-    <string name="pref_camera_zoom_entry_4x">4x</string>
-    <string name="pref_camera_zoom_entry_5x">5x</string>
-    <string name="pref_camera_zoom_entry_6x">6x</string>
     <string name="pref_camera_zoom_entry_7x">7 x</string>
-    <string name="pref_camera_zoom_entry_8x">8x</string>
-    <string name="pref_camera_zoom_entry_9x">9x</string>
-    <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_entry_enable">Inschakelen</string>
     <string name="pref_camera2_bsgc_entry_disable">Uitschakelen</string>
     <string name="pref_camera2_zsl_title">Geen ontspanvertraging (ZSL)</string>

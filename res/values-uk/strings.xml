@@ -20,9 +20,7 @@
     <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
     <string name="video_camera_label">Відеокамера</string>
     <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-    <string name="details_ms">%1$02d:%2$02d</string>
     <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
     <string name="set_image">Встан. зображення як</string>
@@ -225,7 +223,7 @@
     <string name="pref_camera_whitebalance_entry_fluorescent">Лампа денного світла</string>
     <string name="pref_camera_whitebalance_entry_cloudy">Хмарно</string>
     <!-- Menu, White balance labels [CHAR LIMIT=50] -->
-    <string name="pref_camera_whitebalance_label_auto">AUTO</string>
+    <string name="pref_camera_whitebalance_label_auto">АВТО</string>
     <string name="pref_camera_whitebalance_label_incandescent">ЛАМПА РОЗЖАРЮВАННЯ</string>
     <string name="pref_camera_whitebalance_label_daylight">ДЕННЕ СВІТЛО</string>
     <string name="pref_camera_whitebalance_label_fluorescent">ЛАМПА ДЕННОГО СВІТЛА</string>
@@ -236,7 +234,7 @@
     <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_auto">Авто</string>
     <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
-    <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
+    <string name="pref_camera_scenemode_entry_hdr_plus">HDR +</string>
     <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -309,7 +307,7 @@
     <!-- switch camera label front [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_front">ЗАДНЯ КАМЕРИ</string>
     <!-- Dialog "OK" button. Dismisses dialog. -->
-    <string name="dialog_ok">OK</string>
+    <string name="dialog_ok">OК</string>
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
     <string name="spaceIsLow_content" product="default">На карті SD недостатньо місця. Змініть налаштування якості чи видаліть зображення або інші файли.</string>
     <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
@@ -530,6 +528,14 @@ CHAR LIMIT = NONE] -->
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
     <string name="remaining_photos_format">Залишилось: %d</string>
     <string name="makeup_video_size_limit">Функція Makeup працює тільки під час запису відео в VGA.</string>
-    <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="pref_camera2_category_system">Система</string>
+    <string name="save_best_dialog_positive_bt">ОК</string>
+    <string name="save_best_dialog_native_bt">Скасувати</string>
+    <string name="dialog_do_not_show">Не показувати знову</string>
+    <string name="delete_best_dialog_native_bt">Скасувати</string>
     <string name="delete_best_dialog_positive_bt">Видалити</string>
+    <string name="delete_all_best_dialog_native_bt">Скасувати</string>
+    <string name="delete_all_best_dialog_positive_bt">Видалити всі</string>
+    <string name="overflow_best_item2">Видалити всі</string>
+    <string name="settings_title">Налаштування</string>
 </resources>

@@ -20,9 +20,7 @@
     <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
     <string name="video_camera_label">Videocámara</string>
     <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-    <string name="details_ms">%1$02d:%2$02d</string>
     <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
     <string name="set_image">Establecer imagen como</string>
@@ -221,7 +219,7 @@
     <!-- Default flash mode setting.-->
     <!-- Value for flash off setting-->
     <!-- Settings screen, Flash mode title -->
-    <string name="pref_camera_flashmode_title">Flash</string>
+    <string name="pref_camera_flashmode_title">Modo de flash</string>
     <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
     <string name="pref_camera_flashmode_entry_auto">Automático</string>
     <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
@@ -256,9 +254,9 @@
     <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_auto">Automático</string>
     <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
-    <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
+    <string name="pref_camera_scenemode_entry_hdr_plus">HDR +</string>
     <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
-    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
+    <string name="pref_camera_scenemode_entry_hdr">ARD</string>
     <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ ACTIVADO</string>
     <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -536,7 +534,7 @@ CHAR LIMIT = NONE] -->
     <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT = 30] -->
     <string name="saving_tiny_planet">Guardando planeta diminuto…</string>
     <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT = 15] -->
-    <string name="tiny_planet_zoom">Zoom</string>
+    <string name="tiny_planet_zoom">Aumentar/Disminuir</string>
     <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT = 15] -->
     <string name="tiny_planet_rotate">Girar</string>
     <!-- Crop -->
@@ -549,7 +547,12 @@ CHAR LIMIT = NONE] -->
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">Estableciendo fondo de pantalla...</string>
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d restantes</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Makeup solo funciona bajo la resolución VGA cuando se graba un vídeo.</string>
     <string name="pref_camera2_category_system">Sistema</string>
     <string name="pref_camera2_restore_default">Restablecer a valores predefinidos</string>

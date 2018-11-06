@@ -24,7 +24,9 @@
     <!-- Details dialog "OK" button. Dismisses dialog. -->
     <string name="delete">Forigi</string>
     <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+    <string name="share">Konigi</string>
     <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
+    <string name="deleted">Forigita</string>
     <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
@@ -44,6 +46,7 @@
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
     <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
     <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
+    <string name="description">Priskribo</string>
     <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
     <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
     <string name="location">Loko</string>
@@ -152,6 +155,7 @@
     <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
     <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
     <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
+    <string name="pref_camera_scenemode_label_night">NOKTO</string>
     <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
     <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=50] -->
     <!-- Settings menu countdown timer off [CHAR LIMIT=50] -->

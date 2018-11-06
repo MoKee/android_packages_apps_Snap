@@ -108,11 +108,11 @@
     <!-- Settings screen, CDS location dialog choices -->
     <string name="pref_camera_cds_entry_off">Pois käyt.</string>
     <string name="pref_camera_cds_entry_on">Käytössä</string>
-    <string name="pref_camera_cds_entry_auto">Auto</string>
+    <string name="pref_camera_cds_entry_auto">Autom.</string>
     <!-- Settings screen, video CDS location dialog choices -->
     <string name="pref_camera_video_cds_entry_off">Pois käyt.</string>
     <string name="pref_camera_video_cds_entry_on">Käytössä</string>
-    <string name="pref_camera_video_cds_entry_auto">Auto</string>
+    <string name="pref_camera_video_cds_entry_auto">Autom.</string>
     <!-- Settings screen, TNR location dialog choices -->
     <string name="pref_camera_tnr_entry_disable">Poista käytöstä</string>
     <string name="pref_camera_tnr_entry_enable">Ota käyttöön</string>
@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Automaattisen valotuksen kiinnitys</string>
     <string name="pref_camera_ae_bracket_hdr_title">Automaattisen valotuksen kiinnitys</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Käytössä</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Pois</string>
     <string name="err_app_unsupport_ae_bracket_code">AE-kiinnitystä ei tueta vielä</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Videon pikakuvan koko on pienempi kuin videon koko, Valitse suurempi tai yhtä suuri resloluutio kuin videossa.</string>
@@ -225,39 +226,17 @@
     <!-- Settings screen, ISO dialog radio button choices -->
     <string name="pref_camera_iso_entry_auto">Automaattinen</string>
     <string name="pref_camera_iso_entry_isodeblur">Automaattinen (HJR)</string>
-    <string name="pref_camera_iso_entry_iso50">ISO50</string>
     <string name="pref_camera_iso_entry_iso100">ISO100</string>
-    <string name="pref_camera_iso_entry_iso125">ISO125</string>
-    <string name="pref_camera_iso_entry_iso150">ISO150</string>
     <string name="pref_camera_iso_entry_iso200">ISO200</string>
-    <string name="pref_camera_iso_entry_iso250">ISO250</string>
-    <string name="pref_camera_iso_entry_iso300">ISO300</string>
-    <string name="pref_camera_iso_entry_iso320">ISO320</string>
-    <string name="pref_camera_iso_entry_iso350">ISO350</string>
     <string name="pref_camera_iso_entry_iso400">ISO400</string>
-    <string name="pref_camera_iso_entry_iso450">ISO450</string>
-    <string name="pref_camera_iso_entry_iso500">ISO500</string>
-    <string name="pref_camera_iso_entry_iso600">ISO600</string>
-    <string name="pref_camera_iso_entry_iso640">ISO640</string>
-    <string name="pref_camera_iso_entry_iso700">ISO700</string>
     <string name="pref_camera_iso_entry_iso800">ISO800</string>
-    <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
-    <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
-    <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
-    <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
     <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
-    <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-    <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
-    <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-    <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
-    <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
-    <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
     <!-- ISO entry values. Do not translate. -->
     <!-- Settings screen, Anti Banding title -->
     <string name="pref_camera_antibanding_title">Antibanding</string>
     <!-- Default Anti Banding setting. -->
     <!-- Settings screen, Anti Banding entries -->
-    <string name="pref_camera_antibanding_entry_0">Auto</string>
+    <string name="pref_camera_antibanding_entry_0">Autom.</string>
     <string name="pref_camera_antibanding_entry_1">50 Hz (Eurooppa)</string>
     <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
     <!-- Default color effect setting. -->
@@ -369,7 +348,7 @@
     <!-- Toast showing non-supported functionality for flash in AE bracket -->
     <string name="flash_aebracket_message">Salamaa ei tueta AE bracketing-tilassa</string>
     <!-- Settings screen, setting title text for Auto HDR-->
-    <string name="pref_camera_auto_hdr_title">Auto HDR</string>
+    <string name="pref_camera_auto_hdr_title">Automaattinen HDR</string>
     <!-- Settings screen, Auto HDR location dialog choices -->
     <string name="pref_camera_auto_hdr_entry_enable">Ota käyttöön</string>
     <string name="pref_camera_auto_hdr_entry_disable">Poista käytöstä</string>
@@ -379,7 +358,7 @@
     <string name="pref_camera_hdr_mode_title">HDR-tila</string>
     <!-- Settings screen, Selectable HDR mode radio button choices -->
     <string name="pref_camera_hdr_mode_entry_sensor">Sensori-HDR</string>
-    <string name="pref_camera_hdr_mode_entry_multi_frame">Multi-frame HDR</string>
+    <string name="pref_camera_hdr_mode_entry_multi_frame">Monikehys HDR</string>
     <!-- HDR mode entry values. Do not translate. -->
     <!--Default video rotation setting-->
     <!--Settings screen, video rotation title-->
@@ -489,7 +468,6 @@
     <string name="pref_camera2_scene_mode_pro_instructional_content">Pro-tilassa voit manuaalisesti määrittää ISO-, valotus-, valkotasapaino- ja tarkennusasetukset. Sinulla on kaikki nämä asetukset käytössäsi</string>
     <string name="pref_camera2_not_show_again">Älä näytä uudelleen</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
-    <string name="pref_camera2_instant_aec_title">Instant AEC</string>
     <string name="pref_camera2_instant_aec_entry_disable">Poista käytöstä</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Aggressiivinen AEC</string>
     <string name="pref_camera2_instant_aec_entry_fast">Nopea AEC</string>
@@ -516,7 +494,7 @@
     <string name="pref_camera2_hdr_title">HDR</string>
     <string name="pref_camera2_hdr_entry_enable">Ota käyttöön</string>
     <string name="pref_camera2_hdr_entry_disable">Poista käytöstä</string>
-    <string name="pref_camera2_auto_hdr_title">Auto HDR</string>
+    <string name="pref_camera2_auto_hdr_title">Automaattinen HDR</string>
     <string name="pref_camera2_auto_hdr_entry_enable">Ota käyttöön</string>
     <string name="pref_camera2_auto_hdr_entry_disable">Poista käytöstä</string>
     <string name="pref_camera_bokeh_mode_title">Bokeh-tila</string>
@@ -530,16 +508,6 @@
     <string name="pref_camera_zoom_title">Zoomaus</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Pois käyt.</string>
-    <string name="pref_camera_zoom_entry_1x">1x</string>
-    <string name="pref_camera_zoom_entry_2x">2x</string>
-    <string name="pref_camera_zoom_entry_3x">3x</string>
-    <string name="pref_camera_zoom_entry_4x">4x</string>
-    <string name="pref_camera_zoom_entry_5x">5x</string>
-    <string name="pref_camera_zoom_entry_6x">6x</string>
-    <string name="pref_camera_zoom_entry_7x">7x</string>
-    <string name="pref_camera_zoom_entry_8x">8x</string>
-    <string name="pref_camera_zoom_entry_9x">9x</string>
-    <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Hymyn/räpäytyksen/katseen havaitseminen</string>
     <string name="pref_camera2_bsgc_entry_enable">Ota käyttöön</string>
     <string name="pref_camera2_bsgc_entry_disable">Poista käytöstä</string>
@@ -550,7 +518,6 @@
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Vaihda kameraa ID:llä</string>
-    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Etupuoli</string>
 </resources>

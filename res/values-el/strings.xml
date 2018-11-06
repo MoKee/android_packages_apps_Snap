@@ -20,9 +20,7 @@
     <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
     <string name="video_camera_label">Βιντεοκάμερα</string>
     <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-    <string name="details_ms">%1$02d:%2$02d</string>
     <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
     <string name="set_image">Ορισμός εικόνας ως</string>
@@ -115,7 +113,6 @@
     <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
     <string name="exposure_time">Χρόνος έκθεσης</string>
     <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
-    <string name="iso">ISO</string>
     <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
     <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
     <string name="unit_mm">μμ</string>
@@ -258,7 +255,6 @@
     <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
     <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
-    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">ΕΝΕΡΓΟΠΟΙΗΣΗ HDR+</string>
     <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
@@ -323,13 +319,12 @@
     <!-- Default HDR entry value -->
     <!-- Default HDR+ entry value -->
     <!-- HDR label ON [CHAR LIMIT=60] -->
-    <string name="pref_camera_hdr_label">HDR</string>
     <!-- switch camera label back [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_back">ΜΠΡΟΣΤΑ</string>
     <!-- switch camera label front [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_front">ΠΙΣΩ ΚΑΜΕΡΑ</string>
     <!-- Dialog "OK" button. Dismisses dialog. -->
-    <string name="dialog_ok">OK</string>
+    <string name="dialog_ok">ΟΚ</string>
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
     <string name="spaceIsLow_content" product="default">Ο διαθέσιμος χώρος στην κάρτα SD είναι ελάχιστος. Αλλάξτε τη ρύθμιση ποιότητας ή διαγράψτε κάποιες εικόνες ή άλλα αρχεία.</string>
     <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
@@ -559,7 +554,7 @@ CHAR LIMIT = NONE] -->
         <item quantity="other">Θα αποθηκευτούν %1$d από τις 10 εικόνες και οι υπόλοιπες θα διαγραφούν</item>
     </plurals>
     <string name="save_best_dialog_title">Αποθήκευση επιλεγμένων εικόνων;</string>
-    <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="save_best_dialog_positive_bt">ΟΚ</string>
     <string name="save_best_dialog_native_bt">Ακύρωση</string>
     <plurals name="save_best_image_toast">
         <item quantity="one">Αποθηκεύτηκε %1$d από τις 10 εικόνες.</item>

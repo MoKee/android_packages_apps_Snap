@@ -122,7 +122,7 @@
     <string name="pref_camera_video_tnr_entry_enable">Ενεργό</string>
     <!-- Settings screen, video TNR location dialog choices -->
     <!-- Settings screen, setting title text for Video HDR-->
-    <string name="pref_camera_video_hdr_title">Video HDR</string>
+    <string name="pref_camera_video_hdr_title">Βίντεο HDR</string>
     <!-- Settings menu, setting title text for cds mode-->
     <string name="pref_camera_cds_title">Λειτουργία CDS</string>
     <!-- Settings menu, setting title text for video cds mode-->
@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Bracketing αυτόματης έκθεσης</string>
     <string name="pref_camera_ae_bracket_hdr_title">Bracketing αυτόματης έκθεσης</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Ενεργό</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">ανενεργό</string>
     <string name="err_app_unsupport_ae_bracket_code">Το Bracketing ΑΕ δεν υποστηρίζεται ακόμη</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Το μέγεθος στιγμιότυπου βίντεο είναι μικρότερο από το μέγεθος βίντεο, κλείδωμα στο μέγεθος βίντεο. Παρακαλώ επιλέξτε ένα μέγεθος μεγαλύτερο ή ίσο με το τρέχον μέγεθος βίντεο.</string>
@@ -221,37 +222,14 @@
     <string name="pref_camera_denoise_entry_on">Ενεργό</string>
     <!-- Default iso setting. Do not translate. -->
     <!-- Settings screen, Select Iso title -->
-    <string name="pref_camera_iso_title">ISO</string>
     <!-- Settings screen, ISO dialog radio button choices -->
     <string name="pref_camera_iso_entry_auto">Αυτόματο</string>
     <string name="pref_camera_iso_entry_isodeblur">Αυτόματο (HJR)</string>
-    <string name="pref_camera_iso_entry_iso50">ISO50</string>
     <string name="pref_camera_iso_entry_iso100">ISO100</string>
-    <string name="pref_camera_iso_entry_iso125">ISO125</string>
-    <string name="pref_camera_iso_entry_iso150">ISO150</string>
     <string name="pref_camera_iso_entry_iso200">ISO200</string>
-    <string name="pref_camera_iso_entry_iso250">ISO250</string>
-    <string name="pref_camera_iso_entry_iso300">ISO300</string>
-    <string name="pref_camera_iso_entry_iso320">ISO320</string>
-    <string name="pref_camera_iso_entry_iso350">ISO350</string>
     <string name="pref_camera_iso_entry_iso400">ISO400</string>
-    <string name="pref_camera_iso_entry_iso450">ISO450</string>
-    <string name="pref_camera_iso_entry_iso500">ISO500</string>
-    <string name="pref_camera_iso_entry_iso600">ISO600</string>
-    <string name="pref_camera_iso_entry_iso640">ISO640</string>
-    <string name="pref_camera_iso_entry_iso700">ISO700</string>
     <string name="pref_camera_iso_entry_iso800">ISO800</string>
-    <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
-    <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
-    <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
-    <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
     <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
-    <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-    <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
-    <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-    <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
-    <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
-    <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
     <!-- ISO entry values. Do not translate. -->
     <!-- Settings screen, Anti Banding title -->
     <string name="pref_camera_antibanding_title">Antibanding</string>
@@ -277,7 +255,7 @@
     <string name="pref_camera_coloreffect_entry_aqua">Νερό</string>
     <string name="pref_camera_coloreffect_entry_emboss">Ξεθώριασμα</string>
     <string name="pref_camera_coloreffect_entry_sketch">Σκίτσο</string>
-    <string name="pref_camera_coloreffect_entry_neon">Neon</string>
+    <string name="pref_camera_coloreffect_entry_neon">Νέον</string>
     <string name="pref_camera_coloreffect_entry_pastel">Παστέλ</string>
     <string name="pref_camera_coloreffect_entry_mosaic">Μωσαϊκό</string>
     <string name="pref_camera_coloreffect_entry_redtint">Κόκκινη απόχρωση</string>
@@ -468,7 +446,7 @@
     <string name="panocapture_intro">Πατήστε το κουμπί κάμερας για να ξεκινήσετε.</string>
     <string name="panocapture_direction_is_changed">Η κατεύθυνση άλλαξε, διακοπή λήψης πανοράματος\u2026</string>
     <string name="makeup_ui_title">Επιλέξτε την ποσότητα της ωραιοποίησης.</string>
-    <string name="makeup_ui_ok_button">OK</string>
+    <string name="makeup_ui_ok_button">ΟΚ</string>
     <string name="perf_camera2_version_info">Πληροφορίες έκδοσης</string>
     <string name="perf_camera2_preferences_category_general">Γενικά</string>
     <string name="perf_camera2_preferences_category_photo">Φωτογραφίες</string>
@@ -488,7 +466,7 @@
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">Το BlurBuster μειώνει το θόλωμα από τρεμάμενα χέρια. Μπορεί να είναι χρήσιμο κατά τη λήψη φωτογραφιών σε δύσκολα σημεία.</string>
     <string name="pref_camera2_scene_mode_pro_instructional_content">Με τη λειτουργία Pro, μπορείτε να ρυθμίσετε χειροκίνητα τις ρυθμίσεις για ISO, έκθεση, ισορροπία λευκού και εστίαση. Θα έχετε εύκολη πρόσβαση σε όλες αυτές τις σύνθετες ρυθμίσεις</string>
     <string name="pref_camera2_not_show_again">Να μην εμφανιστεί ξανά</string>
-    <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
+    <string name="pref_camera2_scene_mode_instructional_ok">ΟΚ</string>
     <string name="pref_camera2_instant_aec_title">Άμεσο AEC</string>
     <string name="pref_camera2_instant_aec_entry_disable">Ανενεργό</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Επιθετική AEC</string>
@@ -513,7 +491,6 @@
     <string name="pref_camera2_histogram_title">Ιστόγραμμα</string>
     <string name="pref_camera2_histogram_entry_enable">Ενεργό</string>
     <string name="pref_camera2_histogram_entry_disable">Ανενεργό</string>
-    <string name="pref_camera2_hdr_title">HDR</string>
     <string name="pref_camera2_hdr_entry_enable">Ενεργό</string>
     <string name="pref_camera2_hdr_entry_disable">Ανενεργό</string>
     <string name="pref_camera2_auto_hdr_title">Αυτόματο HDR</string>
@@ -530,16 +507,6 @@
     <string name="pref_camera_zoom_title">Μεγέθυνση</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Ανενεργή</string>
-    <string name="pref_camera_zoom_entry_1x">1x</string>
-    <string name="pref_camera_zoom_entry_2x">2x</string>
-    <string name="pref_camera_zoom_entry_3x">3x</string>
-    <string name="pref_camera_zoom_entry_4x">4x</string>
-    <string name="pref_camera_zoom_entry_5x">5x</string>
-    <string name="pref_camera_zoom_entry_6x">6x</string>
-    <string name="pref_camera_zoom_entry_7x">7x</string>
-    <string name="pref_camera_zoom_entry_8x">8x</string>
-    <string name="pref_camera_zoom_entry_9x">9x</string>
-    <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Ανίχνευση χαμόγελου/κλεισίματος ματιού/βλέμματος</string>
     <string name="pref_camera2_bsgc_entry_enable">Ενεργό</string>
     <string name="pref_camera2_bsgc_entry_disable">Ανενεργό</string>
@@ -550,7 +517,6 @@
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Εναλλαγή κάμερας με βάση το ID</string>
-    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Μονόχρωμο</string>
     <string name="pref_camera2_initial_camera_entry_front">Μπροστινή</string>
 </resources>

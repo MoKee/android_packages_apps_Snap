@@ -122,7 +122,6 @@
     <string name="pref_camera_video_tnr_entry_enable">Omogući</string>
     <!-- Settings screen, video TNR location dialog choices -->
     <!-- Settings screen, setting title text for Video HDR-->
-    <string name="pref_camera_video_hdr_title">Video HDR</string>
     <!-- Settings menu, setting title text for cds mode-->
     <string name="pref_camera_cds_title">CDS način</string>
     <!-- Settings menu, setting title text for video cds mode-->
@@ -143,7 +142,6 @@
     <string name="pref_camera_facedetection_entry_on">Uklj.</string>
     <!-- Default Selfie Flash setting. -->
     <!-- Settings screen, Selfie Flash Detection -->
-    <string name="pref_selfie_flash_title">Selfie flash</string>
     <!-- Settings menu, Selfie Flash choices -->
     <string name="pref_selfie_flash_entry_off">Isključen</string>
     <string name="pref_selfie_flash_entry_on">Uklj.</string>
@@ -221,37 +219,9 @@
     <string name="pref_camera_denoise_entry_on">Uklj.</string>
     <!-- Default iso setting. Do not translate. -->
     <!-- Settings screen, Select Iso title -->
-    <string name="pref_camera_iso_title">ISO</string>
     <!-- Settings screen, ISO dialog radio button choices -->
     <string name="pref_camera_iso_entry_auto">Autom.</string>
     <string name="pref_camera_iso_entry_isodeblur">Automatski (HJR)</string>
-    <string name="pref_camera_iso_entry_iso50">ISO50</string>
-    <string name="pref_camera_iso_entry_iso100">ISO100</string>
-    <string name="pref_camera_iso_entry_iso125">ISO125</string>
-    <string name="pref_camera_iso_entry_iso150">ISO150</string>
-    <string name="pref_camera_iso_entry_iso200">ISO200</string>
-    <string name="pref_camera_iso_entry_iso250">ISO250</string>
-    <string name="pref_camera_iso_entry_iso300">ISO300</string>
-    <string name="pref_camera_iso_entry_iso320">ISO320</string>
-    <string name="pref_camera_iso_entry_iso350">ISO350</string>
-    <string name="pref_camera_iso_entry_iso400">ISO400</string>
-    <string name="pref_camera_iso_entry_iso450">ISO450</string>
-    <string name="pref_camera_iso_entry_iso500">ISO500</string>
-    <string name="pref_camera_iso_entry_iso600">ISO600</string>
-    <string name="pref_camera_iso_entry_iso640">ISO640</string>
-    <string name="pref_camera_iso_entry_iso700">ISO700</string>
-    <string name="pref_camera_iso_entry_iso800">ISO800</string>
-    <string name="pref_camera_iso_entry_iso1000">ISO1000</string>
-    <string name="pref_camera_iso_entry_iso1200">ISO1200</string>
-    <string name="pref_camera_iso_entry_iso1250">ISO1250</string>
-    <string name="pref_camera_iso_entry_iso1500">ISO1500</string>
-    <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
-    <string name="pref_camera_iso_entry_iso2000">ISO2000</string>
-    <string name="pref_camera_iso_entry_iso2500">ISO2500</string>
-    <string name="pref_camera_iso_entry_iso2700">ISO2700</string>
-    <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
-    <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
-    <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
     <!-- ISO entry values. Do not translate. -->
     <!-- Settings screen, Anti Banding title -->
     <string name="pref_camera_antibanding_title">Sprječavanje spajanja u trake</string>
@@ -268,13 +238,11 @@
     <string name="pref_camera_filter_mode_title">Efekt boje</string>
     <!-- Settings screen, Color effect dialog radio button choices -->
     <string name="pref_camera_coloreffect_entry_none">Nijedan</string>
-    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
     <string name="pref_camera_coloreffect_entry_sepia">Sepija</string>
     <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
     <!-- Color effect that overexposes and reverses some of the tones. -->
     <string name="pref_camera_coloreffect_entry_solarize">Osunčano</string>
     <string name="pref_camera_coloreffect_entry_posterize">Posterizirano</string>
-    <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
     <string name="pref_camera_coloreffect_entry_emboss">Reljefno</string>
     <string name="pref_camera_coloreffect_entry_sketch">Skica</string>
     <string name="pref_camera_coloreffect_entry_neon">Neonsko</string>
@@ -349,7 +317,6 @@
     <string name="pref_camera_jpegquality_entry_2">Visoka</string>
     <!-- Default auto histogram setting. Do not translate. -->
     <!-- Settings screen, Select Histogram title -->
-    <string name="pref_camera_histogram_title">Histogram</string>
     <!-- Settings screen, Histogram radio button choices -->
     <string name="pref_camera_histogram_entry_enable">Omogući</string>
     <string name="pref_camera_histogram_entry_disable">Onemogući</string>
@@ -369,7 +336,6 @@
     <!-- Toast showing non-supported functionality for flash in AE bracket -->
     <string name="flash_aebracket_message">Blic nije podržan u AE načinu izdvajanja</string>
     <!-- Settings screen, setting title text for Auto HDR-->
-    <string name="pref_camera_auto_hdr_title">Auto HDR</string>
     <!-- Settings screen, Auto HDR location dialog choices -->
     <string name="pref_camera_auto_hdr_entry_enable">Omogući</string>
     <string name="pref_camera_auto_hdr_entry_disable">Onemogući</string>
@@ -433,7 +399,6 @@
     <string name="pref_camera2_clearsight_entry_off">Isključen</string>
     <string name="clearsight_capture_success">ClearSight snimanje upješno</string>
     <string name="clearsight_capture_fail">ClearSight snimanje nije uspjelo</string>
-    <string name="pref_camera2_mpo_title">MPO format</string>
     <string name="pref_camera2_mpo_entry_on">Uključen</string>
     <string name="pref_camera2_mpo_entry_off">Isključen</string>
     <string name="pref_camera2_makeup_title">Šminka</string>
@@ -452,7 +417,6 @@
     <string name="pref_camera_scenemode_entry_bestpicture">Najbolja slika</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Oštra fotografija</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Praćenje fokusa</string>
-    <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
     <string name="pref_camera_scenemode_entry_promode">Za profiće</string>
     <string name="bestpicture_done">GOTOVO</string>
     <string name="bestpicture_at_least_one_picture">Najmanje jedna slika mora biti odabrana.</string>
@@ -510,13 +474,10 @@
     <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Europa)</string>
     <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (SAD)</string>
     <string name="pref_camera2_anti_banding_level_entry_auto">Automatski</string>
-    <string name="pref_camera2_histogram_title">Histogram</string>
     <string name="pref_camera2_histogram_entry_enable">Uključi</string>
     <string name="pref_camera2_histogram_entry_disable">Isključi</string>
-    <string name="pref_camera2_hdr_title">HDR</string>
     <string name="pref_camera2_hdr_entry_enable">Uključi</string>
     <string name="pref_camera2_hdr_entry_disable">Isključi</string>
-    <string name="pref_camera2_auto_hdr_title">Auto HDR</string>
     <string name="pref_camera2_auto_hdr_entry_enable">Uključi</string>
     <string name="pref_camera2_auto_hdr_entry_disable">Isključi</string>
     <string name="pref_camera_bokeh_mode_title">Bokeh način</string>
@@ -530,16 +491,6 @@
     <string name="pref_camera_zoom_title">Zumiranje</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Isključen</string>
-    <string name="pref_camera_zoom_entry_1x">1x</string>
-    <string name="pref_camera_zoom_entry_2x">2x</string>
-    <string name="pref_camera_zoom_entry_3x">3x</string>
-    <string name="pref_camera_zoom_entry_4x">4x</string>
-    <string name="pref_camera_zoom_entry_5x">5x</string>
-    <string name="pref_camera_zoom_entry_6x">6x</string>
-    <string name="pref_camera_zoom_entry_7x">7x</string>
-    <string name="pref_camera_zoom_entry_8x">8x</string>
-    <string name="pref_camera_zoom_entry_9x">9x</string>
-    <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Otkrivanje smiješka/treptanja/pogleda</string>
     <string name="pref_camera2_bsgc_entry_enable">Uključi</string>
     <string name="pref_camera2_bsgc_entry_disable">Isključi</string>
@@ -550,7 +501,5 @@
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Promjena kamere ID-om</string>
-    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
-    <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Prednja</string>
 </resources>
