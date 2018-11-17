@@ -198,23 +198,12 @@
     <string name="pref_camera2_scene_mode_pro_instructional_content">Sa mhodh phroifeiseanta, ’s urrainn dhut roghainnean ISO, deisearais, cothromachadh nan dath, agus fòcais a stiùireadh a làimh. Gheibh thu inntrigeadh furasta dha na roghainnean adhartach seo uile</string>
     <string name="pref_camera2_not_show_again">Na seall seo a-rithist</string>
     <string name="pref_camera2_instant_aec_title">AEC sa bhad</string>
-    <string name="pref_camera2_hdr_title">HDR</string>
     <string name="pref_camera_bokeh_mode_title">Modh Bokeh</string>
     <string name="pref_camera_bokeh_mpo_title">Modh Bokeh MPO</string>
     <string name="pref_camera_bokeh_blur_degree_title">Luach sgleò Bokeh</string>
     <!-- Default Zoom setting. -->
     <string name="pref_camera_zoom_title">Sùm</string>
     <!-- Settings menu, Zoom choices -->
-    <string name="pref_camera_zoom_entry_1x">1x</string>
-    <string name="pref_camera_zoom_entry_2x">2x</string>
-    <string name="pref_camera_zoom_entry_3x">3x</string>
-    <string name="pref_camera_zoom_entry_4x">4x</string>
-    <string name="pref_camera_zoom_entry_5x">5x</string>
-    <string name="pref_camera_zoom_entry_6x">6x</string>
-    <string name="pref_camera_zoom_entry_7x">7x</string>
-    <string name="pref_camera_zoom_entry_8x">8x</string>
-    <string name="pref_camera_zoom_entry_9x">9x</string>
-    <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Mothachadh air fiamh-gàire/priobadh/amharc</string>
     <string name="pref_camera2_zsl_entry_app_zsl">ZSL bathair-bhog</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">ZSL bathair-chruaidh</string>
