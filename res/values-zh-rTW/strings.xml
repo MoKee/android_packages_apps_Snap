@@ -517,7 +517,7 @@ CHAR LIMIT = NONE] -->
     <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
     <string name="remember_location_no">不用了，謝謝</string>
     <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
-    <string name="remember_location_yes">是</string>
+    <string name="remember_location_yes">是 </string>
     <!-- Camera menu labels -->
     <!-- more options label [CHAR LIMIT=50] -->
     <string name="camera_menu_more_label">更多選項</string>
