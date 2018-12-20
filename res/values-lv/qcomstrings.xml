@@ -210,6 +210,7 @@
     <string name="pref_camera2_saturation_level_title">Piesātinājums</string>
     <string name="pref_camera2_anti_banding_level_entry_auto">Automātiski</string>
     <string name="pref_camera2_histogram_title">Histogramma</string>
+    <string name="pref_camera2_hdr_title">Augsts din.diap.</string>
     <!-- Default Zoom setting. -->
     <string name="pref_camera_zoom_title">Tālummainīt</string>
     <!-- Settings menu, Zoom choices -->

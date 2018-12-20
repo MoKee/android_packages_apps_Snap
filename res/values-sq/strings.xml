@@ -305,6 +305,7 @@
     <!-- The shutter button. [CHAR LIMIT = NONE] -->
     <!-- The exit best photo mode button. [CHAR LIMIT = NONE] -->
     <!-- The menu button. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_menu_button">Butoni i Menusë</string>
     <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
     <string name="accessibility_mode_picker">Zgjedhësi i kamerës, videos, ose panoramës</string>
     <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->
@@ -442,7 +443,11 @@ CHAR LIMIT = NONE] -->
     <string name="remaining_photos_format">%d të mbetura</string>
     <string name="makeup_video_size_limit">Funksioni Makijazhi punon vetëm kur regjistrimi i videos bëhet me rezolucion VGA.</string>
     <string name="pref_camera2_category_system">Sistemi</string>
+    <string name="save_best_dialog_native_bt">Anullo</string>
+    <string name="delete_best_dialog_native_bt">Anullo</string>
     <string name="delete_best_dialog_positive_bt">Fshi</string>
+    <string name="delete_all_best_dialog_native_bt">Anullo</string>
     <string name="delete_all_best_dialog_positive_bt">Fshiji të gjitha</string>
     <string name="overflow_best_item2">Fshiji të gjitha</string>
+    <string name="settings_title">Parametrat</string>
 </resources>

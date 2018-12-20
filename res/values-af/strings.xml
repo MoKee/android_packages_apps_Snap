@@ -540,7 +540,11 @@ CHAR LIMIT = NONE] -->
     <string name="remaining_photos_format">%d oor</string>
     <string name="makeup_video_size_limit">Make-up werk net onder VGA grootte in video-opname.</string>
     <string name="pref_camera2_category_system">Stelsel</string>
+    <string name="save_best_dialog_native_bt">Kanselleer</string>
+    <string name="delete_best_dialog_native_bt">Kanselleer</string>
     <string name="delete_best_dialog_positive_bt">Vee uit</string>
+    <string name="delete_all_best_dialog_native_bt">Kanselleer</string>
     <string name="delete_all_best_dialog_positive_bt">Verwyder alles</string>
     <string name="overflow_best_item2">Verwyder alles</string>
+    <string name="settings_title">Instellings</string>
 </resources>

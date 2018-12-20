@@ -61,6 +61,7 @@
     <!-- Manual exposure control entry values -->
     <string name="pref_camera_manual_exp_entry_off">Inaktiv</string>
     <!-- Manual white balance entry values -->
+    <string name="pref_camera_manual_wb_entry_color_temperature">Temperatura e ngjyrave</string>
     <string name="pref_camera_manual_wb_entry_off">Inaktiv</string>
     <!-- Manual Focus entry values -->
     <string name="pref_camera_manual_focus_entry_off">Inaktiv</string>
@@ -323,6 +324,7 @@
     <string name="pref_camera2_timer_entry_off">Inaktiv</string>
     <string name="pref_camera2_timer_entry_2sec">2 sekonda</string>
     <string name="pref_camera2_timer_entry_5sec">5 sekonda</string>
+    <string name="pref_camera2_timer_entry_10sec">10 sekonda</string>
     <string name="perf_camera2_version_info">Të dhëna mbi versionin</string>
     <string name="perf_camera2_preferences_category_general">Të përgjithshme</string>
     <string name="perf_camera2_preferences_category_system">Sistemi</string>
@@ -345,6 +347,7 @@
     <string name="pref_camera_bokeh_mpo_entry_enable">Aktivizo</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">Çaktivizo</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">Zmadho</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Inaktiv</string>
     <string name="pref_camera2_bsgc_entry_enable">Aktivizo</string>

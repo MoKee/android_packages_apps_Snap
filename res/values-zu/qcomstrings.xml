@@ -213,6 +213,7 @@
     <string name="pref_camera2_histogram_title">I-Histogram</string>
     <string name="pref_camera2_hdr_title">i-HDR</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">Sondeza</string>
     <!-- Settings menu, Zoom choices -->
     <!-- QCFA Title -->
     <!-- QCFA choices -->

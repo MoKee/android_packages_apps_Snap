@@ -327,8 +327,12 @@
     <string name="pref_camera2_makeup_entry_off">অফ</string>
     <string name="pref_camera2_noise_reduction_entry_off">অফ</string>
     <string name="pref_camera2_trackingfocus_entry_off">অফ</string>
+    <string name="pref_camera_scenemode_entry_panorama">পেন’ৰামা</string>
     <string name="pref_camera2_shutter_sound_entry_off">অফ</string>
     <string name="pref_camera2_timer_entry_off">অফ</string>
+    <string name="pref_camera2_timer_entry_2sec">2 চেকেণ্ড</string>
+    <string name="pref_camera2_timer_entry_5sec">5 চেকেণ্ড</string>
+    <string name="pref_camera2_timer_entry_10sec">10 চেকেণ্ড</string>
     <string name="pref_camera2_saturation_level_title">পৰিপূৰ্ণ কৰা</string>
     <string name="pref_camera2_saturation_level_entry_0">স্তৰ 0</string>
     <string name="pref_camera2_saturation_level_entry_1">স্তৰ 1</string>
@@ -357,4 +361,5 @@
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">ম’ন’</string>
+    <string name="pref_camera2_initial_camera_entry_front">সন্মুখ</string>
 </resources>

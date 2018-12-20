@@ -211,6 +211,7 @@
     <string name="pref_camera2_anti_banding_level_entry_auto">ავტომატურად</string>
     <string name="pref_camera2_histogram_title">ისტოგრამა</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">მასშტაბი</string>
     <!-- Settings menu, Zoom choices -->
     <!-- QCFA Title -->
     <!-- QCFA choices -->

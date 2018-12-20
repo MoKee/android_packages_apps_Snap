@@ -318,6 +318,7 @@
     <!-- switch camera label front [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_front">CÂMARA POSTERIOR</string>
     <!-- Dialog "OK" button. Dismisses dialog. -->
+    <string name="dialog_ok">OK</string>
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
     <string name="spaceIsLow_content" product="default">Está a ficar sem espaço no cartão SD. Altere as definições de qualidade ou apague algumas imagens ou outros ficheiros.</string>
     <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
@@ -545,6 +546,7 @@ CHAR LIMIT = NONE] -->
         <item quantity="other">%1$d de 10 imagens serão guardadas e as restantes serão apagadas</item>
     </plurals>
     <string name="save_best_dialog_title">Guardar as imagens selecionadas?</string>
+    <string name="save_best_dialog_positive_bt">OK</string>
     <string name="save_best_dialog_native_bt">Cancelar</string>
     <plurals name="save_best_image_toast">
         <item quantity="one">%1$d de 10 imagens guardada.</item>

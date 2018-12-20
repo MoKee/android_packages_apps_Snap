@@ -43,6 +43,7 @@
     <!-- Default Skin Tone Enhancement setting. Do not translate. -->
     <!-- Settings screen, Select Skin Tone Enhancement title -->
     <!-- Settings screen, Skin Tone Enhancement radio button choices -->
+    <string name="pref_camera_skinToneEnhancement_entry_enable">Овозможи</string>
     <!-- Skin Tone Enhancement entry values. Do not translate. -->
     <!-- Settings screen, setting title text for ZSL-->
     <!-- Default selectable zone af setting. Do not translate. -->
@@ -55,6 +56,7 @@
     <!-- Auto exposure entry values. Do not translate. -->
     <!-- Manual exposure control entry values -->
     <!-- Manual white balance entry values -->
+    <string name="pref_camera_manual_wb_entry_color_temperature">Температура на бојата</string>
     <!-- Manual Focus entry values -->
     <!-- Instant Capture entry -->
     <!-- Instant Capture entry values -->
@@ -64,8 +66,10 @@
     <!-- Settings screen, CDS location dialog choices -->
     <!-- Settings screen, video CDS location dialog choices -->
     <!-- Settings screen, TNR location dialog choices -->
+    <string name="pref_camera_tnr_entry_enable">Овозможи</string>
     <!-- Settings screen, TNR location dialog choices -->
     <!-- Settings screen, video TNR location dialog choices -->
+    <string name="pref_camera_video_tnr_entry_enable">Овозможи</string>
     <!-- Settings screen, video TNR location dialog choices -->
     <!-- Settings screen, setting title text for Video HDR-->
     <!-- Settings menu, setting title text for cds mode-->
@@ -85,6 +89,10 @@
     <!-- Default redeye reduction setting. -->
     <!-- Settings screen, Select Redeye Reduction -->
     <!-- Settings menu, redeye reduction choices -->
+    <string name="pref_camera_redeyereduction_entry_enable">Овозможи</string>
+    <string name="pref_camera_selfiemirror_entry_enable">Овозможи</string>
+    <string name="pref_camera_shuttersound_entry_enable">Овозможено</string>
+    <string name="pref_camera_shuttersound_entry_disable">Оневозможено</string>
     <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
     <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
     <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -104,6 +112,7 @@
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
     <!-- Settings screen, see more radio button choices -->
+    <string name="pref_camera_noise_reduction_entry_fast">Брзо</string>
     <!-- see more entry values. Do not translate. -->
     <!-- Default see more setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -149,10 +158,12 @@
     <!-- Picture format entry values. Do not translate. -->
     <!-- Settings screen, Picture quality title -->
     <!-- Settings screen, Picture quality dialog radio button choices -->
+    <string name="pref_camera_jpegquality_entry_1">Стандардно</string>
     <!-- Default auto histogram setting. Do not translate. -->
     <!-- Settings screen, Select Histogram title -->
     <string name="pref_camera_histogram_title">Хистограм</string>
     <!-- Settings screen, Histogram radio button choices -->
+    <string name="pref_camera_histogram_entry_enable">Овозможи</string>
     <!-- Histogram entry values. Do not translate. -->
     <!-- Default auto scene detection setting. -->
     <!-- Settings screen, Select Auto Scene Detection -->
@@ -163,6 +174,7 @@
     <!-- Toast showing non-supported functionality for flash in AE bracket -->
     <!-- Settings screen, setting title text for Auto HDR-->
     <!-- Settings screen, Auto HDR location dialog choices -->
+    <string name="pref_camera_auto_hdr_entry_enable">Овозможи</string>
     <!-- toast message for storage location switch -->
     <!-- Settings screen, Selectable HDR mode title -->
     <!-- Settings screen, Selectable HDR mode radio button choices -->
@@ -171,16 +183,34 @@
     <!--Settings screen, video rotation title-->
     <!--Menu, video rotation label-->
     <!-- Settings screen, Video rotation dialog radio button choices -->
+    <string name="pref_camera_video_rotation_entry_0">0 степени</string>
+    <string name="pref_camera_video_rotation_entry_90">90 степени</string>
+    <string name="pref_camera_video_rotation_entry_180">180 степени</string>
+    <string name="pref_camera_video_rotation_entry_270">270 степени</string>
     <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
     <!-- Continuous shot enable message -->
     <!-- Advanced features enable message -->
     <!-- The alas of CameraActivity for gesture operation -->
+    <string name="camera_gesture_title">Стартувај камера</string>
     <string name="pref_camera_tsmakeup_custom">Прилагодено</string>
+    <string name="text_tsmakeup_alert_quit">Откажи</string>
+    <string name="pref_camera2_camera2_entry_enable">Овозможи</string>
+    <string name="pref_camera2_noise_reduction_entry_fast">Брзо</string>
+    <string name="pref_camera2_videosnap_entry_enable">Овозможи</string>
+    <string name="makeup_ui_ok_button">ОК</string>
+    <string name="perf_camera2_preferences_category_general">Општо</string>
     <string name="perf_camera2_preferences_category_system">Систем</string>
+    <string name="pref_camera2_scene_mode_instructional_ok">ОК</string>
     <string name="pref_camera2_saturation_level_title">Заситеност</string>
     <string name="pref_camera2_histogram_title">Хистограм</string>
+    <string name="pref_camera2_histogram_entry_enable">Овозможи</string>
+    <string name="pref_camera2_hdr_entry_enable">Овозможи</string>
+    <string name="pref_camera2_auto_hdr_entry_enable">Овозможи</string>
+    <string name="pref_camera_bokeh_mode_entry_enable">Овозможи</string>
+    <string name="pref_camera_bokeh_mpo_entry_enable">Овозможи</string>
     <!-- Default Zoom setting. -->
     <!-- Settings menu, Zoom choices -->
+    <string name="pref_camera2_bsgc_entry_enable">Овозможи</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
 </resources>

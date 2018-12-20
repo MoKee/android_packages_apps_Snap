@@ -72,6 +72,7 @@
     <!-- Manual Focus entry values -->
     <string name="pref_camera_manual_focus_entry_off">Matikan</string>
     <!-- Instant Capture entry -->
+    <string name="pref_camera_instant_capture_entry_disable">Lumpuh</string>
     <!-- Instant Capture entry values -->
     <!-- Settings screen, ZSL location dialog choices -->
     <string name="pref_camera_zsl_entry_off">Matikan</string>
@@ -210,6 +211,7 @@
     <!-- Settings screen, Select Histogram title -->
     <!-- Settings screen, Histogram radio button choices -->
     <string name="pref_camera_histogram_entry_enable">Mendayakan</string>
+    <string name="pref_camera_histogram_entry_disable">Lumpuh</string>
     <!-- Histogram entry values. Do not translate. -->
     <!-- Default auto scene detection setting. -->
     <!-- Settings screen, Select Auto Scene Detection -->
@@ -223,6 +225,7 @@
     <!-- Settings screen, setting title text for Auto HDR-->
     <!-- Settings screen, Auto HDR location dialog choices -->
     <string name="pref_camera_auto_hdr_entry_enable">Mendayakan</string>
+    <string name="pref_camera_auto_hdr_entry_disable">Lumpuh</string>
     <!-- toast message for storage location switch -->
     <!-- Settings screen, Selectable HDR mode title -->
     <!-- Settings screen, Selectable HDR mode radio button choices -->
@@ -242,6 +245,7 @@
     <string name="pref_camera_tsmakeup_custom">Peribadi</string>
     <string name="text_tsmakeup_alert_quit">Batal</string>
     <string name="pref_camera2_camera2_entry_enable">Mendayakan</string>
+    <string name="pref_camera2_camera2_entry_disable">Lumpuh</string>
     <string name="pref_camera2_mono_only_entry_on">Hidupkan</string>
     <string name="pref_camera2_mono_only_entry_off">Matikan</string>
     <string name="pref_camera2_mono_preview_entry_on">Hidupkan</string>
@@ -254,6 +258,7 @@
     <string name="pref_camera2_makeup_entry_off">Matikan</string>
     <string name="pref_camera2_noise_reduction_entry_off">Matikan</string>
     <string name="pref_camera2_videosnap_entry_enable">Mendayakan</string>
+    <string name="pref_camera2_videosnap_entry_disable">Lumpuh</string>
     <string name="pref_camera2_trackingfocus_entry_on">Hidupkan</string>
     <string name="pref_camera2_trackingfocus_entry_off">Matikan</string>
     <string name="bestpicture_done">SELESAI</string>
@@ -266,17 +271,25 @@
     <string name="makeup_ui_ok_button">OK</string>
     <string name="perf_camera2_version_info">Maklumat versi</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
+    <string name="pref_camera2_instant_aec_entry_disable">Lumpuh</string>
     <string name="pref_camera2_saturation_level_title">Ketepuan</string>
     <string name="pref_camera2_anti_banding_level_entry_off">Matikan</string>
     <string name="pref_camera2_histogram_entry_enable">Mendayakan</string>
+    <string name="pref_camera2_histogram_entry_disable">Lumpuh</string>
     <string name="pref_camera2_hdr_entry_enable">Mendayakan</string>
+    <string name="pref_camera2_hdr_entry_disable">Lumpuh</string>
     <string name="pref_camera2_auto_hdr_entry_enable">Mendayakan</string>
+    <string name="pref_camera2_auto_hdr_entry_disable">Lumpuh</string>
     <string name="pref_camera_bokeh_mode_entry_enable">Mendayakan</string>
+    <string name="pref_camera_bokeh_mode_entry_disable">Lumpuh</string>
     <string name="pref_camera_bokeh_mpo_entry_enable">Mendayakan</string>
+    <string name="pref_camera_bokeh_mpo_entry_disable">Lumpuh</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">Zum</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Matikan</string>
     <string name="pref_camera2_bsgc_entry_enable">Mendayakan</string>
+    <string name="pref_camera2_bsgc_entry_disable">Lumpuh</string>
     <string name="pref_camera2_zsl_entry_disable">Matikan</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->

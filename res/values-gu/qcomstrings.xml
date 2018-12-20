@@ -328,8 +328,12 @@
     <string name="pref_camera2_makeup_entry_off">બંધ</string>
     <string name="pref_camera2_noise_reduction_entry_off">બંધ</string>
     <string name="pref_camera2_trackingfocus_entry_off">બંધ</string>
+    <string name="pref_camera_scenemode_entry_panorama">પેનોરમા</string>
     <string name="pref_camera2_shutter_sound_entry_off">બંધ</string>
     <string name="pref_camera2_timer_entry_off">બંધ</string>
+    <string name="pref_camera2_timer_entry_2sec">2 સેકન્ડ્સ</string>
+    <string name="pref_camera2_timer_entry_5sec">5 સેકન્ડ્સ</string>
+    <string name="pref_camera2_timer_entry_10sec">10 સેકન્ડ્સ</string>
     <string name="pref_camera2_saturation_level_title">સંતૃપ્તિ</string>
     <string name="pref_camera2_saturation_level_entry_0">સ્તર 0</string>
     <string name="pref_camera2_saturation_level_entry_1">સ્તર 1</string>
@@ -358,4 +362,5 @@
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">મોનો</string>
+    <string name="pref_camera2_initial_camera_entry_front">આગળ</string>
 </resources>

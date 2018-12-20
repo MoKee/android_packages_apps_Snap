@@ -247,6 +247,7 @@
     <string name="pref_camera2_histogram_title">ຮິສໂຕແກຣມ</string>
     <string name="pref_camera2_hdr_title">HDR</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">ຊູມ</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">ປິດ</string>
     <string name="pref_camera2_zsl_entry_disable">ປິດ</string>

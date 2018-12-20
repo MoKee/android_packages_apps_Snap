@@ -412,6 +412,9 @@
     <string name="pref_camera2_shutter_sound_entry_on">ಆರಂಭಿಸು</string>
     <string name="pref_camera2_shutter_sound_entry_off">ಆಫ್ ಆಗಿದೆ</string>
     <string name="pref_camera2_timer_entry_off">ಆಫ್ ಆಗಿದೆ</string>
+    <string name="pref_camera2_timer_entry_2sec">2 ಸೆಕೆಂಡುಗಳು</string>
+    <string name="pref_camera2_timer_entry_5sec">5 ಸೆಕೆಂಡುಗಳು</string>
+    <string name="pref_camera2_timer_entry_10sec">10 ಸೆಕೆಂಡುಗಳು</string>
     <string name="makeup_ui_ok_button">ಸರಿ</string>
     <string name="perf_camera2_version_info">ಆವೃತ್ತಿಯ ಮಾಹಿತಿ</string>
     <string name="perf_camera2_preferences_category_general">ಸಾಮಾನ್ಯ</string>
@@ -461,4 +464,5 @@
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">ಮೊನೊ</string>
+    <string name="pref_camera2_initial_camera_entry_front">ಮುಂದೆ</string>
 </resources>

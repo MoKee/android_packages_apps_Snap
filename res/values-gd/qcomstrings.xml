@@ -51,6 +51,7 @@
     <!-- Auto exposure entry values. Do not translate. -->
     <!-- Settings screen, Selectable advanced features title -->
     <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
+    <string name="pref_camera_advanced_feature_entry_none">Chan eil gin</string>
     <!-- Auto exposure entry values. Do not translate. -->
     <!-- Manual exposure control entry values -->
     <!-- Manual white balance entry values -->
@@ -120,6 +121,7 @@
     <!-- Default color effect setting. -->
     <!-- Settings screen, Select Color effect title -->
     <!-- Settings screen, Color effect dialog radio button choices -->
+    <string name="pref_camera_coloreffect_entry_none">Chan eil gin</string>
     <!-- Color effect that overexposes and reverses some of the tones. -->
     <!-- Select IS title -->
     <!-- DIS choices -->

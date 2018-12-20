@@ -114,6 +114,7 @@
     <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
     <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
     <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+    <string name="dialog_dismiss">Escartar</string>
     <!-- alert to the user to wait for some operation to complete -->
     <!-- alert to the user that an SD card must be installed before using the camera -->
     <!-- alert to the user that the SD card is being disk-checked -->
@@ -202,6 +203,7 @@
     <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_action">Aición</string>
     <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_night">Nueche</string>
     <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_sunset">Aséu</string>
     <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
@@ -254,6 +256,7 @@
     <!-- switch camera label front [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_front">CÁMARA TRASERA</string>
     <!-- Dialog "OK" button. Dismisses dialog. -->
+    <string name="dialog_ok">Aceutar</string>
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
     <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
     <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
@@ -291,6 +294,7 @@
     <!-- The shutter button. [CHAR LIMIT = NONE] -->
     <!-- The exit best photo mode button. [CHAR LIMIT = NONE] -->
     <!-- The menu button. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_menu_button">Botón Menú</string>
     <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
     <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->
     <!-- The button to switch to Camera mode. [CHAR LIMIT = NONE] -->
@@ -419,6 +423,11 @@ CHAR LIMIT = NONE] -->
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
     <string name="pref_camera2_category_system">Sistema</string>
+    <string name="save_best_dialog_positive_bt">Aceutar</string>
+    <string name="save_best_dialog_native_bt">Encaboxar</string>
     <string name="dialog_do_not_show">Nun amosar de nueves</string>
+    <string name="delete_best_dialog_native_bt">Encaboxar</string>
     <string name="delete_best_dialog_positive_bt">Desaniciar</string>
+    <string name="delete_all_best_dialog_native_bt">Encaboxar</string>
+    <string name="settings_title">Axustes</string>
 </resources>

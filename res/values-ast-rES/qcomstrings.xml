@@ -62,6 +62,9 @@
     <!-- Settings screen, Selectable zone af title -->
     <string name="pref_camera_selectablezoneaf_title">Zona d\'auto-enfoque</string>
     <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
+    <string name="pref_camera_selectablezoneaf_entry_spotmetering">Midición puntual</string>
+    <string name="pref_camera_selectablezoneaf_entry_centerweighted">Ponderada al centru</string>
+    <string name="pref_camera_selectablezoneaf_entry_frameaverage">Media de marcos</string>
     <!-- Auto exposure entry values. Do not translate. -->
     <!-- Settings screen, Selectable advanced features title -->
     <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
@@ -141,6 +144,7 @@
     <string name="pref_camera_selfiemirror_title">Espeyu d\'autoretratu</string>
     <string name="pref_camera_selfiemirror_entry_enable">Habilitar</string>
     <string name="pref_camera_selfiemirror_entry_disable">Deshabilitar</string>
+    <string name="pref_camera_shuttersound_entry_disable">Deshabilitóse</string>
     <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
     <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
     <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -334,6 +338,9 @@
     <string name="pref_camera2_shutter_sound_entry_on">Sí</string>
     <string name="pref_camera2_shutter_sound_entry_off">Non</string>
     <string name="pref_camera2_timer_entry_off">Non</string>
+    <string name="pref_camera2_timer_entry_2sec">2 segundos</string>
+    <string name="pref_camera2_timer_entry_5sec">5 segundos</string>
+    <string name="pref_camera2_timer_entry_10sec">10 segundos</string>
     <string name="makeup_ui_ok_button">ACEUTAR</string>
     <string name="perf_camera2_preferences_category_general">Xeneral</string>
     <string name="perf_camera2_preferences_category_system">Sistema</string>

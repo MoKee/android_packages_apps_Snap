@@ -328,8 +328,12 @@
     <string name="pref_camera2_makeup_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera2_noise_reduction_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera2_trackingfocus_entry_off">முடக்கத்தில்</string>
+    <string name="pref_camera_scenemode_entry_panorama">பனோரமா</string>
     <string name="pref_camera2_shutter_sound_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera2_timer_entry_off">முடக்கத்தில்</string>
+    <string name="pref_camera2_timer_entry_2sec">2 நொடிகள்</string>
+    <string name="pref_camera2_timer_entry_5sec">5 நொடிகள்</string>
+    <string name="pref_camera2_timer_entry_10sec">10 நொடிகள்</string>
     <string name="makeup_ui_ok_button">சரி</string>
     <string name="pref_camera2_scene_mode_instructional_ok">சரி</string>
     <string name="pref_camera2_saturation_level_title">சாச்சுரேசன்</string>
@@ -359,4 +363,5 @@
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">மோனோ</string>
+    <string name="pref_camera2_initial_camera_entry_front">முன்</string>
 </resources>

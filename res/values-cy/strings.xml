@@ -22,6 +22,7 @@
     <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
     <!-- Details dialog "OK" button. Dismisses dialog. -->
+    <string name="delete">Dileu</string>
     <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
     <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
     <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
@@ -211,6 +212,7 @@
     <!-- The shutter button. [CHAR LIMIT = NONE] -->
     <!-- The exit best photo mode button. [CHAR LIMIT = NONE] -->
     <!-- The menu button. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_menu_button">Botwm dewislen</string>
     <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
     <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->
     <!-- The button to switch to Camera mode. [CHAR LIMIT = NONE] -->
@@ -249,6 +251,7 @@ CHAR LIMIT = NONE] -->
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <string name="pref_video_time_lapse_frame_interval_90000">1.5 munud</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+    <string name="pref_video_time_lapse_frame_interval_120000">2 funud</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -290,6 +293,7 @@ CHAR LIMIT = NONE] -->
     <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
     <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
     <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+    <string name="remember_location_yes">Iawn</string>
     <!-- Camera menu labels -->
     <!-- more options label [CHAR LIMIT=50] -->
     <!-- settings label [CHAR LIMIT=50] -->
@@ -307,5 +311,7 @@ CHAR LIMIT = NONE] -->
     <string name="save_best_dialog_positive_bt">Iawn</string>
     <string name="save_best_dialog_native_bt">Diddymu</string>
     <string name="delete_best_dialog_native_bt">Diddymu</string>
+    <string name="delete_best_dialog_positive_bt">Dileu</string>
     <string name="delete_all_best_dialog_native_bt">Diddymu</string>
+    <string name="settings_title">Gosodiadau</string>
 </resources>

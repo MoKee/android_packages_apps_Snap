@@ -327,8 +327,12 @@
     <string name="pref_camera2_makeup_entry_off">ଅଫ୍</string>
     <string name="pref_camera2_noise_reduction_entry_off">ଅଫ୍</string>
     <string name="pref_camera2_trackingfocus_entry_off">ଅଫ୍</string>
+    <string name="pref_camera_scenemode_entry_panorama">ପାନୋରମା</string>
     <string name="pref_camera2_shutter_sound_entry_off">ଅଫ୍</string>
     <string name="pref_camera2_timer_entry_off">ଅଫ୍</string>
+    <string name="pref_camera2_timer_entry_2sec">2 ସେକେଣ୍ଡ</string>
+    <string name="pref_camera2_timer_entry_5sec">5 ସେକେଣ୍ଡ</string>
+    <string name="pref_camera2_timer_entry_10sec">10 ସେକେଣ୍ଡ</string>
     <string name="pref_camera2_saturation_level_title">ସମ୍ପୃକ୍ତି</string>
     <string name="pref_camera2_saturation_level_entry_0">ସ୍ତର 0</string>
     <string name="pref_camera2_saturation_level_entry_1">ସ୍ତର 1</string>
@@ -357,4 +361,5 @@
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">ମୋନୋ</string>
+    <string name="pref_camera2_initial_camera_entry_front">ସମ୍ମୁଖ</string>
 </resources>

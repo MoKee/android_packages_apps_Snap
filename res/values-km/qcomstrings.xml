@@ -211,6 +211,7 @@
     <string name="pref_camera2_anti_banding_level_entry_auto">ស្វ័យប្រវត្តិ</string>
     <string name="pref_camera2_histogram_title">គំនូស​តាង​​​របារ</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">ពង្រីក/បង្រួម</string>
     <!-- Settings menu, Zoom choices -->
     <!-- QCFA Title -->
     <!-- QCFA choices -->
