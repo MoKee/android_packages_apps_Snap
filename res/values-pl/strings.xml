@@ -29,6 +29,12 @@
     <!-- Details dialog "OK" button. Dismisses dialog. -->
     <string name="delete">Usuń</string>
     <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+    <plurals name="delete_selection">
+        <item quantity="one">Usunąć wybrany element?</item>
+        <item quantity="few">Usunąć wybrane elementy?</item>
+        <item quantity="many">Usunąć wybrane elementy?</item>
+        <item quantity="other">Czy usunąć wybrane elementy?</item>
+    </plurals>
     <string name="share">Udostępnij</string>
     <string name="share_panorama">Udostępnij panoramę</string>
     <string name="share_as_photo">Udostępnij jako zdjęcie</string>
@@ -40,10 +46,28 @@
     <string name="close">Zamknij</string>
     <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="one">Wybrany %1$d</item>
+        <item quantity="few">Wybrane: %1$d</item>
+        <item quantity="many">Wybranych: %1$d</item>
+        <item quantity="other">Wybranych: %1$d</item>
+    </plurals>
     <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_albums_selected">
+        <item quantity="one">Wybrany %1$d</item>
+        <item quantity="few">Wybrane: %1$d</item>
+        <item quantity="many">Wybranych: %1$d</item>
+        <item quantity="other">Wybranych: %1$d</item>
+    </plurals>
     <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_groups_selected">
+        <item quantity="one">Wybrany %1$d</item>
+        <item quantity="few">Wybrane: %1$d</item>
+        <item quantity="many">Wybranych: %1$d</item>
+        <item quantity="other">Wybranych: %1$d</item>
+    </plurals>
     <!-- String indicating timestamp of photo or video -->
     <string name="show_on_map">Pokaż na mapie</string>
     <string name="rotate_left">Obróć w lewo</string>
@@ -155,6 +179,12 @@
     <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
     <string name="pref_camera_timer_title">Samowyzwalacz</string>
     <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="one">1 s</item>
+        <item quantity="few">%d s</item>
+        <item quantity="many">%d sekund</item>
+        <item quantity="other">%d sekund</item>
+    </plurals>
     <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
     <string name="pref_camera_timer_sound_title">Sygnał odliczania</string>
     <!-- Entry of camera save path -->
@@ -529,7 +559,11 @@ CHAR LIMIT = NONE] -->
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">Ustawiam tapetę</string>
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">Pozostało %d</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">\"Makijaż\" działa tylko w rozmiarze wideo VGA.</string>
     <string name="pref_camera2_category_system">System</string>
     <string name="pref_camera2_restore_default">Przywróć domyślne ustawienia</string>

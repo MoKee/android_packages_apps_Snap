@@ -180,6 +180,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE braketleme</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE braketleme</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Açık</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Kapalı</string>
     <string name="err_app_unsupport_ae_bracket_code">AE tarama henüz desteklenmiyor</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Video resim boyutu video boyutundan küçük ve video boyutuyla sınırlı olmalıdır. Lütfen şu anki video boyutunu eşit ya da daha küçük bir çözünürlük seçin.</string>
@@ -553,10 +554,10 @@
     <string name="pref_camera2_zsl_entry_app_zsl">Yazılımsal ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Donanımsal ZSL</string>
     <string name="pref_camera2_videoencoderprofile_title">Kodlayıcı profili</string>
-    <string name="pref_camera2_sharpness_control_entry_level1">Seviye 1 (varsayılan)</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Seviye 2</string>
     <string name="pref_camera2_afmode_entry_disable">Devre dışı</string>
     <string name="pref_camera2_afmode_entry_off">Kapalı</string>
+    <string name="pref_camera2_afmode_entry_auto">Otomatik</string>
+    <string name="pref_camera2_afmode_entry_macro">Makro</string>
     <string name="pref_camera2_afmode_entry_continuous_video">Sürekli video</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Sürekli çekim</string>
     <string name="pref_camera2_switch_camera_title">Kamerayı kullanıcıya göre değiştir</string>
@@ -567,13 +568,10 @@
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Ön</string>
     <string name="pref_camera2_eis_title">Video EIS</string>
-    <string name="pref_camera2_eis_entry_disable">Devre dışı</string>
     <string name="pref_camera2_fovc_title">Video FOVC</string>
-    <string name="pref_camera2_fovc_entry_enable">Etkinleştirildi</string>
-    <string name="pref_camera2_fovc_entry_disable">Devre dışı</string>
+    <string name="pref_camera2_video_hdr_title">Video HDR</string>
     <string name="pref_camera2_video_hdr_entry_enable">Etkinleştirildi</string>
     <string name="pref_camera2_video_hdr_entry_disable">Devre dışı</string>
-    <string name="pref_camera2_stats_visualizer_entry_disable">Tümünü devre dışı bırak</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Etkinleştirildi</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Devre dışı</string>
     <string name="pref_camera2_capture_mfsr_entry_enable">Etkinleştirildi</string>

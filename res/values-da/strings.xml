@@ -551,5 +551,11 @@ CHAR LIMIT = NONE] -->
     <string name="remaining_photos_format">%d tilbage</string>
     <string name="makeup_video_size_limit">Makeup virker kun i VGA-størrelse under videooptagelse.</string>
     <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="save_best_dialog_native_bt">Annuller</string>
+    <string name="delete_best_dialog_native_bt">Annuller</string>
     <string name="delete_best_dialog_positive_bt">Slet</string>
+    <string name="delete_all_best_dialog_native_bt">Annuller</string>
+    <string name="delete_all_best_dialog_positive_bt">Slet alt</string>
+    <string name="overflow_best_item2">Slet alt</string>
+    <string name="settings_title">Indstillinger</string>
 </resources>

@@ -346,6 +346,8 @@
     <!-- The alas of CameraActivity for gesture operation -->
     <string name="camera_gesture_title">ക്യാമറ സമാരംഭിക്കുക</string>
     <string name="pref_camera_tsmakeup_entry_off">ഓഫാണ്</string>
+    <string name="pref_camera_tsmakeup_custom">ഇഷ്‌ടാനുസൃതം</string>
+    <string name="text_tsmakeup_alert_quit">റദ്ദാക്കുക</string>
     <string name="all_in_focus">എല്ലാ ഫോക്കസിൽ</string>
     <string name="refocus_toast">അവസാന ഫോട്ടോ വീണ്ടും ഫോക്കസ് ചെയ്യുന്നതിന്, ഇവിടെ അമര്‍ത്തുക</string>
     <string name="pref_camera2_mono_only_entry_off">ഓഫാണ്</string>
@@ -355,8 +357,14 @@
     <string name="pref_camera2_makeup_entry_off">ഓഫാണ്</string>
     <string name="pref_camera2_noise_reduction_entry_off">ഓഫാണ്</string>
     <string name="pref_camera2_trackingfocus_entry_off">ഓഫാണ്</string>
+    <string name="pref_camera_scenemode_entry_panorama">പനോരമ</string>
     <string name="pref_camera2_shutter_sound_entry_off">ഓഫാണ്</string>
     <string name="pref_camera2_timer_entry_off">ഓഫാണ്</string>
+    <string name="pref_camera2_timer_entry_2sec">2 സെക്കൻഡ്</string>
+    <string name="pref_camera2_timer_entry_5sec">5 സെക്കൻഡ്</string>
+    <string name="pref_camera2_timer_entry_10sec">10 സെക്കൻഡ്</string>
+    <string name="makeup_ui_ok_button">ശരി</string>
+    <string name="pref_camera2_scene_mode_instructional_ok">ശരി</string>
     <string name="pref_camera2_saturation_level_title">സാച്ചുറേഷൻ</string>
     <string name="pref_camera2_saturation_level_entry_0">ലെവല്‍ 0</string>
     <string name="pref_camera2_saturation_level_entry_1">ലെവല്‍ 1</string>
@@ -377,13 +385,16 @@
     <string name="pref_camera2_histogram_title">ഹിസ്റ്റോഗ്രാം</string>
     <string name="pref_camera2_auto_hdr_title">ഓട്ടോ HDR</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">സൂം</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">ഓഫാണ്</string>
     <string name="pref_camera2_zsl_title">സീറോ ഷട്ടർ ലാഗ്</string>
     <string name="pref_camera2_zsl_entry_disable">ഓഫാണ്</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">ലെവല്‍ 2</string>
     <string name="pref_camera2_afmode_entry_off">ഓഫാണ്</string>
+    <string name="pref_camera2_afmode_entry_macro">മാക്രോ</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">മോണോ</string>
+    <string name="pref_camera2_initial_camera_entry_front">മുന്നില്‍</string>
+    <string name="pref_camera2_video_hdr_title">വീഡിയോ HDR</string>
 </resources>

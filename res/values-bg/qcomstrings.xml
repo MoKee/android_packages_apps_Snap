@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE кадриране</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE кадриране</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Вкл.</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Изкл</string>
     <string name="err_app_unsupport_ae_bracket_code">Това действие все още не се поддържа</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Размера на видео снимката е по-нисък от размера на видеото. Все още има ограничение на размера на изображението. Моля изберете резолюция по-висока или равна на текущия размер на видео.</string>
@@ -486,6 +487,7 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">С Time lapse можете да превърнете дълъг видеозапис в няколко секунди от видеоклипа. Този ефект се отнася за видеоклипове, но не за снимки.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Позволява ви да превъртите наляво или надясно, за да направите широка пейзажна снимка. Можете да използвате панорамиране нагоре или надолу, за да заснемате по-високи изображения.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster намалява размазването от нестабилни ръце. Тя може да бъде полезна, когато правите снимки при тежки условия.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">При Професионален режим можете ръчно да управлявате настройките за ISO, експонация, баланс на бялото и фокус. Ще имате лесен достъп до всички тези разширени настройки</string>
     <string name="pref_camera2_not_show_again">Не показвай отново</string>
     <string name="pref_camera2_scene_mode_instructional_ok">ОK</string>
     <string name="pref_camera2_instant_aec_title">Незабавни AEC</string>
@@ -546,9 +548,10 @@
     <string name="pref_camera2_zsl_entry_disable">Изкл.</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Софтуер ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Хардуер ZSL</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Ниво 2</string>
     <string name="pref_camera2_afmode_entry_disable">Изкл.</string>
     <string name="pref_camera2_afmode_entry_off">Изкл.</string>
+    <string name="pref_camera2_afmode_entry_auto">Авт.</string>
+    <string name="pref_camera2_afmode_entry_macro">Макро</string>
     <string name="pref_camera2_switch_camera_title">Превключване на камера чрез ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -556,9 +559,7 @@
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Моно</string>
     <string name="pref_camera2_initial_camera_entry_front">Предна</string>
-    <string name="pref_camera2_eis_entry_disable">Изкл.</string>
-    <string name="pref_camera2_fovc_entry_enable">Вкл.</string>
-    <string name="pref_camera2_fovc_entry_disable">Изкл.</string>
+    <string name="pref_camera2_video_hdr_title">Видео HDR</string>
     <string name="pref_camera2_video_hdr_entry_enable">Вкл.</string>
     <string name="pref_camera2_video_hdr_entry_disable">Изкл.</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Вкл.</string>

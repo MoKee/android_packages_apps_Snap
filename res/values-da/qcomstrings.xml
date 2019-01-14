@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Autoeksponeringsrammer</string>
     <string name="pref_camera_ae_bracket_hdr_title">Autoeksponeringsrammer</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Til</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Fra</string>
     <string name="err_app_unsupport_ae_bracket_code">AE-bracketing understøttes ikke endnu</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Størrelse på videosnapshot er mindre end videoens størrelse, loftet er videostørrelsen. Vælg en opløsning højere eller magen til den aktuelle videostørrelse.</string>
@@ -424,6 +425,7 @@
     <string name="pref_camera2_camera2_entry_enable">Aktivér</string>
     <string name="pref_camera2_camera2_entry_disable">Deaktivér</string>
     <string name="pref_camera2_mono_only_title">Kun mono</string>
+    <string name="pref_camera2_mono_only_entry_on">Til</string>
     <string name="pref_camera2_mono_only_entry_off">Fra</string>
     <string name="pref_camera2_mono_preview_title">Eksempel på Mono</string>
     <string name="pref_camera2_mono_preview_entry_on">Til</string>
@@ -436,6 +438,7 @@
     <string name="pref_camera2_mpo_entry_on">Til</string>
     <string name="pref_camera2_mpo_entry_off">Fra</string>
     <string name="pref_camera2_makeup_title">Makeup</string>
+    <string name="pref_camera2_makeup_entry_on">Til</string>
     <string name="pref_camera2_makeup_entry_off">Fra</string>
     <string name="pref_camera2_noise_reduction_title">Støjreduktion</string>
     <string name="pref_camera2_noise_reduction_entry_off">Fra</string>
@@ -445,6 +448,7 @@
     <string name="pref_camera2_videosnap_entry_enable">Aktivér</string>
     <string name="pref_camera2_videosnap_entry_disable">Deaktivér</string>
     <string name="pref_camera2_trackingfocus_title">Sporingsfokus</string>
+    <string name="pref_camera2_trackingfocus_entry_on">Til</string>
     <string name="pref_camera2_trackingfocus_entry_off">Fra</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Bedste billede</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Sporingsfokus</string>
@@ -454,7 +458,12 @@
     <string name="pref_camera2_shutter_sound_entry_off">Fra</string>
     <string name="pref_camera2_shutter_sound_title">Lukkerlyd</string>
     <string name="pref_camera2_timer_entry_off">Fra</string>
+    <string name="pref_camera2_timer_entry_2sec">2 sekunder</string>
+    <string name="pref_camera2_timer_entry_5sec">5 sekunder</string>
+    <string name="pref_camera2_timer_entry_10sec">10 sekunder</string>
     <string name="makeup_ui_ok_button">OK</string>
+    <string name="perf_camera2_version_info">Versionsoplysninger</string>
+    <string name="perf_camera2_preferences_category_general">Generelt</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_entry_disable">Deaktivér</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Aggressiv AEC</string>
@@ -495,15 +504,14 @@
     <string name="pref_camera2_bsgc_entry_disable">Deaktivér</string>
     <string name="pref_camera2_zsl_title">Ingen udløserforsinkelse</string>
     <string name="pref_camera2_zsl_entry_disable">Fra</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Niveau 2</string>
     <string name="pref_camera2_afmode_entry_disable">Deaktiveret</string>
     <string name="pref_camera2_afmode_entry_off">Fra</string>
+    <string name="pref_camera2_afmode_entry_macro">Makro</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
-    <string name="pref_camera2_eis_entry_disable">Deaktiveret</string>
-    <string name="pref_camera2_fovc_entry_enable">Aktiveret</string>
-    <string name="pref_camera2_fovc_entry_disable">Deaktiveret</string>
+    <string name="pref_camera2_initial_camera_entry_front">Forrest</string>
+    <string name="pref_camera2_video_hdr_title">Video-HDR</string>
     <string name="pref_camera2_video_hdr_entry_enable">Aktiveret</string>
     <string name="pref_camera2_video_hdr_entry_disable">Deaktiveret</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Aktiveret</string>

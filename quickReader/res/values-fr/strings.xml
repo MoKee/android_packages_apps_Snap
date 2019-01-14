@@ -30,7 +30,7 @@
     <!-- QuickReader: permission error dialog message when permission can't be asked again -->
     <string name="quick_reader_permission_fatal_message">L\'accès à l\'appareil photo a été refusé. Autorisez-le depuis les paramètres de l\'application</string>
     <!-- QuickReader: permission error dialog positive action when permission can't be asked again -->
-    <string name="quick_reader_permission_fatal_positive">Ouvrir les paramètres</string>
+    <string name="quick_reader_permission_fatal_positive">Aller aux paramètres</string>
     <!-- QuickReader: scanned text dialog title -->
     <string name="quick_reader_scanned_text_title">Texte numérisé</string>
     <!-- QuickReader: scanned text dialog positive button (copy to clipboard) -->

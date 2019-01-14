@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Auto Exposure Bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_title">Auto Exposure Bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">På</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Av</string>
     <string name="err_app_unsupport_ae_bracket_code">AE bracketing støttes ikke ennå</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Stillbildestørrelsen er lavere enn bildestørrelsen, begrenser til bildestørrelsen. Velg en oppløsning høyere eller lik gjeldende bildestørrelse.</string>
@@ -457,7 +458,11 @@
     <string name="pref_camera2_shutter_sound_entry_off">Av</string>
     <string name="pref_camera2_shutter_sound_title">Lukkerlyd</string>
     <string name="pref_camera2_timer_entry_off">Av</string>
+    <string name="pref_camera2_timer_entry_2sec">2 sekunder</string>
+    <string name="pref_camera2_timer_entry_5sec">5 sekunder</string>
+    <string name="pref_camera2_timer_entry_10sec">10 sekunder</string>
     <string name="makeup_ui_ok_button">OK</string>
+    <string name="perf_camera2_preferences_category_general">Generelt</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_entry_disable">Deaktiver</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Aggressiv AEC</string>
@@ -498,15 +503,13 @@
     <string name="pref_camera2_bsgc_entry_disable">Deaktiver</string>
     <string name="pref_camera2_zsl_title">Ingen lukkerforsinkelse</string>
     <string name="pref_camera2_zsl_entry_disable">Av</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Nivå 2</string>
     <string name="pref_camera2_afmode_entry_disable">Deaktivert</string>
     <string name="pref_camera2_afmode_entry_off">Av</string>
+    <string name="pref_camera2_afmode_entry_macro">Makro</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
-    <string name="pref_camera2_eis_entry_disable">Deaktivert</string>
-    <string name="pref_camera2_fovc_entry_enable">Aktivert</string>
-    <string name="pref_camera2_fovc_entry_disable">Deaktivert</string>
+    <string name="pref_camera2_initial_camera_entry_front">Frontkamera</string>
     <string name="pref_camera2_video_hdr_entry_enable">Aktivert</string>
     <string name="pref_camera2_video_hdr_entry_disable">Deaktivert</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Aktivert</string>

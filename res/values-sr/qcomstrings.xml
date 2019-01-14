@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Држање аутоматске експозиције</string>
     <string name="pref_camera_ae_bracket_hdr_title">Држање аутоматске експозиције</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Укључено</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Искључене</string>
     <string name="err_app_unsupport_ae_bracket_code">Брекетинг није подржан.</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Резолуција снимка је мања од резолуције видеа. Изаберите резолуцију већу или једнаку тренутној резолуцији видеа.</string>
@@ -451,6 +452,7 @@
     <string name="pref_camera2_trackingfocus_entry_off">Искључено</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Најбоља слика</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Пратећи фокус</string>
+    <string name="pref_camera_scenemode_entry_panorama">Панорама</string>
     <string name="bestpicture_done">ГОТОВО</string>
     <string name="bestpicture_at_least_one_picture">Мора бити изабрана бар једна слика.</string>
     <string name="pref_camera2_shutter_sound_entry_on">Укључено</string>
@@ -461,6 +463,7 @@
     <string name="pref_camera2_timer_entry_5sec">5 секунди</string>
     <string name="pref_camera2_timer_entry_10sec">10 секунди</string>
     <string name="makeup_ui_ok_button">У реду</string>
+    <string name="perf_camera2_preferences_category_general">Опште</string>
     <string name="perf_camera2_preferences_category_video">Видео камера</string>
     <string name="perf_camera2_preferences_category_system">Систем</string>
     <string name="pref_camera2_scene_mode_instructional_ok">У реду</string>
@@ -497,6 +500,7 @@
     <string name="pref_camera_bokeh_mpo_entry_enable">Омогући</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">Онемогући</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">Зумирај</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Искључено</string>
     <string name="pref_camera_zoom_entry_1x">1x</string>
@@ -513,17 +517,16 @@
     <string name="pref_camera2_bsgc_entry_disable">Онемогући</string>
     <string name="pref_camera2_zsl_title">Нулто кашњење окидача</string>
     <string name="pref_camera2_zsl_entry_disable">Искључено</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Ниво 2</string>
     <string name="pref_camera2_afmode_entry_disable">Онемогућено</string>
     <string name="pref_camera2_afmode_entry_off">Искључено</string>
+    <string name="pref_camera2_afmode_entry_auto">Аутом.</string>
+    <string name="pref_camera2_afmode_entry_macro">Макро</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Моно</string>
     <string name="pref_camera2_initial_camera_entry_front">Предња</string>
-    <string name="pref_camera2_eis_entry_disable">Онемогућено</string>
-    <string name="pref_camera2_fovc_entry_enable">Омогућено</string>
-    <string name="pref_camera2_fovc_entry_disable">Онемогућено</string>
+    <string name="pref_camera2_video_hdr_title">HDR видео</string>
     <string name="pref_camera2_video_hdr_entry_enable">Омогућено</string>
     <string name="pref_camera2_video_hdr_entry_disable">Онемогућено</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Омогућено</string>

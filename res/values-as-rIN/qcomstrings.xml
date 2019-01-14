@@ -355,8 +355,12 @@
     <string name="pref_camera2_makeup_entry_off">অফ</string>
     <string name="pref_camera2_noise_reduction_entry_off">অফ</string>
     <string name="pref_camera2_trackingfocus_entry_off">অফ</string>
+    <string name="pref_camera_scenemode_entry_panorama">পেন’ৰামা</string>
     <string name="pref_camera2_shutter_sound_entry_off">অফ</string>
     <string name="pref_camera2_timer_entry_off">অফ</string>
+    <string name="pref_camera2_timer_entry_2sec">2 চেকেণ্ড</string>
+    <string name="pref_camera2_timer_entry_5sec">5 চেকেণ্ড</string>
+    <string name="pref_camera2_timer_entry_10sec">10 চেকেণ্ড</string>
     <string name="pref_camera2_saturation_level_title">পৰিপূৰ্ণ কৰা</string>
     <string name="pref_camera2_saturation_level_entry_0">স্তৰ 0</string>
     <string name="pref_camera2_saturation_level_entry_1">স্তৰ 1</string>
@@ -377,13 +381,16 @@
     <string name="pref_camera2_histogram_title">হিষ্টোগ্ৰাম</string>
     <string name="pref_camera2_auto_hdr_title">স্বয়ং HDR</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">জুম</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">অফ</string>
     <string name="pref_camera2_zsl_title">জিৰো শ্বাটাৰ টেগ</string>
     <string name="pref_camera2_zsl_entry_disable">অফ</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">স্তৰ 2</string>
     <string name="pref_camera2_afmode_entry_off">অফ</string>
+    <string name="pref_camera2_afmode_entry_macro">মেক্ৰ’</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">ম’ন’</string>
+    <string name="pref_camera2_initial_camera_entry_front">সন্মুখ</string>
+    <string name="pref_camera2_video_hdr_title">ভিডিঅ\' HDR</string>
 </resources>

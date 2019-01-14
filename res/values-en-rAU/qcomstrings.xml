@@ -548,10 +548,8 @@
     <string name="pref_camera2_zsl_entry_disable">Off</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Software ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Hardware ZSL</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Level 2</string>
     <string name="pref_camera2_afmode_entry_disable">Disabled</string>
     <string name="pref_camera2_afmode_entry_off">Off</string>
-    <string name="pref_camera2_exposure_metering_default">0</string>
     <string name="pref_camera2_switch_camera_title">Switch camera by ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -560,10 +558,7 @@
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Front</string>
     <string name="pref_camera2_eis_title">Video EIS</string>
-    <string name="pref_camera2_eis_entry_disable">Disabled</string>
     <string name="pref_camera2_fovc_title">Video FOVC</string>
-    <string name="pref_camera2_fovc_entry_enable">Enabled</string>
-    <string name="pref_camera2_fovc_entry_disable">Disabled</string>
     <string name="pref_camera2_video_hdr_entry_enable">Enabled</string>
     <string name="pref_camera2_video_hdr_entry_disable">Disabled</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Enabled</string>

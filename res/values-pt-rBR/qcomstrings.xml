@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Assistente de auto-exposição</string>
     <string name="pref_camera_ae_bracket_hdr_title">Assistente de auto-exposição</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Ativado</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Desligado</string>
     <string name="err_app_unsupport_ae_bracket_code">Escalonamento AE ainda não é suportado</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">O tamanho da foto instantânea é menor que o tamanho do vídeo. O tamanho da foto instantânea é limitada ao tamanho do vídeo. Escolha uma resolução maior ou igual ao tamanho de vídeo atual.</string>
@@ -486,6 +487,7 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Com o modo Time Lapse, é possível converter uma longa gravação de vídeo em uma gravação curta. Este efeito aplica-se somente a vídeos.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Permite que você vire para a esquerda ou para a direita para tirar uma foto de paisagem larga. Você também pode virar para cima ou para baixo para tirar fotos mais altas.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">O BlurBuster reduz a desfocagem derivada do movimento das mãos. Pode ser útil ao tirar fotos em posições difíceis.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">Com o modo profissional, é possível controlar manualmente parâmetros como o ISO, a exposição, o equilíbrio de brancos e o foco. Você terá acesso rápido a todas estas configurações avançadas</string>
     <string name="pref_camera2_not_show_again">Não mostrar novamente</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_title">AEC instantâneo</string>
@@ -546,9 +548,10 @@
     <string name="pref_camera2_zsl_entry_disable">Desl.</string>
     <string name="pref_camera2_zsl_entry_app_zsl">ZSL via software</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">ZSL via hardware</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Nível 2</string>
     <string name="pref_camera2_afmode_entry_disable">Desligado</string>
     <string name="pref_camera2_afmode_entry_off">Desl.</string>
+    <string name="pref_camera2_afmode_entry_auto">Automático</string>
+    <string name="pref_camera2_afmode_entry_macro">Macro</string>
     <string name="pref_camera2_switch_camera_title">Trocar de câmera usando o ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -556,9 +559,7 @@
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Monocromático</string>
     <string name="pref_camera2_initial_camera_entry_front">Frontal</string>
-    <string name="pref_camera2_eis_entry_disable">Desligado</string>
-    <string name="pref_camera2_fovc_entry_enable">Ligado</string>
-    <string name="pref_camera2_fovc_entry_disable">Desligado</string>
+    <string name="pref_camera2_video_hdr_title">Vídeo HDR</string>
     <string name="pref_camera2_video_hdr_entry_enable">Ligado</string>
     <string name="pref_camera2_video_hdr_entry_disable">Desligado</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Ligado</string>

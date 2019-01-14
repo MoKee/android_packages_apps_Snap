@@ -105,6 +105,8 @@
     <!-- Default redeye reduction setting. -->
     <!-- Settings screen, Select Redeye Reduction -->
     <!-- Settings menu, redeye reduction choices -->
+    <string name="pref_camera_shuttersound_entry_enable">Wedi\'i galluogi</string>
+    <string name="pref_camera_shuttersound_entry_disable">Wedi\'i analluogi</string>
     <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
     <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
     <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
@@ -127,6 +129,7 @@
     <!-- Settings screen, Select See More title -->
     <!-- Settings screen, see more radio button choices -->
     <string name="pref_camera_noise_reduction_entry_off">I ffwrdd</string>
+    <string name="pref_camera_noise_reduction_entry_fast">Cyflym</string>
     <!-- see more entry values. Do not translate. -->
     <!-- Default see more setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -284,6 +287,7 @@
     <!-- The alas of CameraActivity for gesture operation -->
     <string name="camera_gesture_title">Agor camera</string>
     <string name="pref_camera_tsmakeup_entry_off">I ffwrdd</string>
+    <string name="pref_camera_tsmakeup_custom">Addasedig</string>
     <string name="pref_camera_tsmakeup_level_whiten">Gwynnu</string>
     <string name="text_tsmakeup_alert_title">Rhybudd</string>
     <string name="text_tsmakeup_alert_quit">Diddymu</string>
@@ -295,6 +299,7 @@
     <string name="pref_camera2_mpo_entry_off">I ffwrdd</string>
     <string name="pref_camera2_makeup_entry_off">I ffwrdd</string>
     <string name="pref_camera2_noise_reduction_entry_off">I ffwrdd</string>
+    <string name="pref_camera2_noise_reduction_entry_fast">Cyflym</string>
     <string name="pref_camera2_trackingfocus_entry_off">I ffwrdd</string>
     <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
     <string name="pref_camera_scenemode_entry_promode">Modd proffesiynol</string>
@@ -357,7 +362,6 @@
     <string name="pref_camera2_zsl_entry_disable">I ffwrdd</string>
     <string name="pref_camera2_zsl_entry_app_zsl">ZSL meddalwedd</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">ZSL caledwedd</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Lefel 2</string>
     <string name="pref_camera2_afmode_entry_off">I ffwrdd</string>
     <string name="pref_camera2_switch_camera_title">Newid camera gydag ID</string>
     <!-- QCFA Title -->

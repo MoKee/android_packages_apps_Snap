@@ -26,6 +26,7 @@
     <!-- QuickReader: scanned text dialog title -->
     <!-- QuickReader: scanned text dialog positive button (copy to clipboard) -->
     <!-- QuickReader: scanned text dialog negative button (share) -->
+    <string name="quick_reader_scanned_text_negative">แบ่งปัน</string>
     <!-- QuickReader: scanned text shared activity selector title -->
     <!-- QuickReader: toast shown when the scanned text has been copied to the clipboard -->
 </resources>

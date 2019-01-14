@@ -561,6 +561,10 @@ CHAR LIMIT = NONE] -->
     <string name="delete_best_dialog_title">Обриши све?</string>
     <string name="delete_best_dialog_native_bt">Откажи</string>
     <string name="delete_best_dialog_positive_bt">Обриши</string>
+    <string name="delete_all_best_dialog_title">Обриши све?</string>
     <string name="delete_all_best_dialog_native_bt">Откажи</string>
+    <string name="delete_all_best_dialog_positive_bt">Избриши све</string>
     <string name="overflow_best_item1">Сачувај све</string>
+    <string name="overflow_best_item2">Избриши све</string>
+    <string name="settings_title">Подешавања</string>
 </resources>

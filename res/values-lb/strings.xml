@@ -175,6 +175,7 @@
     <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
     <string name="pref_camera_timer_sound_title">Piipse während dem Countdown</string>
     <!-- Entry of camera save path -->
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
     <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
     <string name="setting_off">Aus</string>
     <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
@@ -535,4 +536,6 @@ CHAR LIMIT = NONE] -->
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
     <string name="save_best_dialog_positive_bt">OK</string>
     <string name="delete_best_dialog_positive_bt">Läschen</string>
+    <string name="delete_all_best_dialog_positive_bt">All läschen</string>
+    <string name="overflow_best_item2">All läschen</string>
 </resources>

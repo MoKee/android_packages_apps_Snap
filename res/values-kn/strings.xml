@@ -144,6 +144,7 @@
     <string name="camera_disabled">ಭದ್ರತಾ ನೀತಿಗಳ ಕಾರಣದಿಂದಾಗಿ ಕ್ಯಾಮರಾ ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ.</string>
     <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
     <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+    <string name="dialog_dismiss">ವಜಾ ಮಾಡು</string>
     <!-- alert to the user to wait for some operation to complete -->
     <string name="wait">ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ…</string>
     <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -163,6 +164,7 @@
     <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
     <string name="pref_camera_id_entry_front">ಮುಂದೆ</string>
     <!-- Settings screen, setting title text -->
+    <string name="pref_camera_recordlocation_title">GPS ಸ್ಥಳ</string>
     <!--  Label for record location preference [CHAR LIMIT=50] -->
     <string name="pref_camera_location_label">ಸ್ಥಾನ</string>
     <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -175,6 +177,7 @@
     <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
     <string name="pref_camera_timer_sound_title">ಕೌಂಟ್‌ಡೌನ್ ವೇಳೆ ಬೀಪ್</string>
     <!-- Entry of camera save path -->
+    <string name="pref_camera_savepath_entry_0">ಫೋನ್</string>
     <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
     <string name="setting_off">ಆಫ್ ಆಗಿದೆ</string>
     <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
@@ -533,6 +536,13 @@ CHAR LIMIT = NONE] -->
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">ವಾಲ್‌ಪೇಪರ್‌ ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ</string>
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+    <string name="pref_camera2_category_system">ವ್ಯವಸ್ಥೆ</string>
     <string name="save_best_dialog_positive_bt">ಸರಿ</string>
+    <string name="save_best_dialog_native_bt">ರದ್ದು</string>
+    <string name="delete_best_dialog_native_bt">ರದ್ದು</string>
     <string name="delete_best_dialog_positive_bt">ಅಳಿಸು</string>
+    <string name="delete_all_best_dialog_native_bt">ರದ್ದು</string>
+    <string name="delete_all_best_dialog_positive_bt">ಎಲ್ಲವನ್ನೂ ಅಳಿಸು</string>
+    <string name="overflow_best_item2">ಎಲ್ಲವನ್ನೂ ಅಳಿಸು</string>
+    <string name="settings_title">ಸಂಯೋಜನೆಗಳು</string>
 </resources>

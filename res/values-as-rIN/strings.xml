@@ -535,4 +535,6 @@ CHAR LIMIT = NONE] -->
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
     <string name="save_best_dialog_positive_bt">ঠিক</string>
     <string name="delete_best_dialog_positive_bt">মচি দিয়া</string>
+    <string name="delete_all_best_dialog_positive_bt">&quot;সকলোবোৰ মচি পেলাওঁক&quot;</string>
+    <string name="overflow_best_item2">&quot;সকলোবোৰ মচি পেলাওঁক&quot;</string>
 </resources>

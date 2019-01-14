@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Outo beligting afbakening</string>
     <string name="pref_camera_ae_bracket_hdr_title">Outo beligting afbakening</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Aan</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Af</string>
     <string name="err_app_unsupport_ae_bracket_code">Bracketing (AEB) word nog nie ondersteun nie</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Video moment opname grootte is laer as video grootte. Beperking tot video grootte. Kies \'n oplossing hoër of gelyk aan die huidige video grootte.</string>
@@ -424,6 +425,7 @@
     <string name="pref_camera2_camera2_entry_enable">Aktiveer</string>
     <string name="pref_camera2_camera2_entry_disable">Deaktiveer</string>
     <string name="pref_camera2_mono_only_title">Slegs Mono</string>
+    <string name="pref_camera2_mono_only_entry_on">Aan</string>
     <string name="pref_camera2_mono_only_entry_off">Af</string>
     <string name="pref_camera2_mono_preview_title">Mono-voorskou</string>
     <string name="pref_camera2_mono_preview_entry_on">Aan</string>
@@ -436,6 +438,7 @@
     <string name="pref_camera2_mpo_entry_on">Aan</string>
     <string name="pref_camera2_mpo_entry_off">Af</string>
     <string name="pref_camera2_makeup_title">Make-up</string>
+    <string name="pref_camera2_makeup_entry_on">Aan</string>
     <string name="pref_camera2_makeup_entry_off">Af</string>
     <string name="pref_camera2_noise_reduction_title">Geraas vermindering</string>
     <string name="pref_camera2_noise_reduction_entry_off">Af</string>
@@ -445,6 +448,7 @@
     <string name="pref_camera2_videosnap_entry_enable">Aktiveer</string>
     <string name="pref_camera2_videosnap_entry_disable">Deaktiveer</string>
     <string name="pref_camera2_trackingfocus_title">Fokus volg objek</string>
+    <string name="pref_camera2_trackingfocus_entry_on">Aan</string>
     <string name="pref_camera2_trackingfocus_entry_off">Af</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Beste prent</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Fokus volg objek</string>
@@ -454,7 +458,12 @@
     <string name="pref_camera2_shutter_sound_entry_off">Af</string>
     <string name="pref_camera2_shutter_sound_title">Sluiter geluid</string>
     <string name="pref_camera2_timer_entry_off">Af</string>
+    <string name="pref_camera2_timer_entry_2sec">2 sekondes</string>
+    <string name="pref_camera2_timer_entry_5sec">5 sekondes</string>
+    <string name="pref_camera2_timer_entry_10sec">10 sekondes</string>
     <string name="makeup_ui_ok_button">OK</string>
+    <string name="perf_camera2_preferences_category_general">Algemeen</string>
+    <string name="perf_camera2_preferences_category_system">Stelsel</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_entry_disable">Deaktiveer</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Aggressiewe AEC</string>
@@ -489,21 +498,22 @@
     <string name="pref_camera_bokeh_mpo_entry_enable">Aktiveer</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">Deaktiveer</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">Zoem</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Af</string>
     <string name="pref_camera2_bsgc_entry_enable">Aktiveer</string>
     <string name="pref_camera2_bsgc_entry_disable">Deaktiveer</string>
     <string name="pref_camera2_zsl_title">Nul sluiter vertraging</string>
     <string name="pref_camera2_zsl_entry_disable">Af</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Vlak 2</string>
     <string name="pref_camera2_afmode_entry_disable">Gedeaktiveer</string>
     <string name="pref_camera2_afmode_entry_off">Af</string>
+    <string name="pref_camera2_afmode_entry_auto">Outo</string>
+    <string name="pref_camera2_afmode_entry_macro">Makro</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
-    <string name="pref_camera2_eis_entry_disable">Gedeaktiveer</string>
-    <string name="pref_camera2_fovc_entry_enable">Geaktiveer</string>
-    <string name="pref_camera2_fovc_entry_disable">Gedeaktiveer</string>
+    <string name="pref_camera2_initial_camera_entry_front">Voorkant</string>
+    <string name="pref_camera2_video_hdr_title">HDR Video</string>
     <string name="pref_camera2_video_hdr_entry_enable">Geaktiveer</string>
     <string name="pref_camera2_video_hdr_entry_disable">Gedeaktiveer</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Geaktiveer</string>

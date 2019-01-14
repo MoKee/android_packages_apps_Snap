@@ -355,8 +355,12 @@
     <string name="pref_camera2_makeup_entry_off">ଅଫ୍</string>
     <string name="pref_camera2_noise_reduction_entry_off">ଅଫ୍</string>
     <string name="pref_camera2_trackingfocus_entry_off">ଅଫ୍</string>
+    <string name="pref_camera_scenemode_entry_panorama">ପାନୋରମା</string>
     <string name="pref_camera2_shutter_sound_entry_off">ଅଫ୍</string>
     <string name="pref_camera2_timer_entry_off">ଅଫ୍</string>
+    <string name="pref_camera2_timer_entry_2sec">2 ସେକେଣ୍ଡ</string>
+    <string name="pref_camera2_timer_entry_5sec">5 ସେକେଣ୍ଡ</string>
+    <string name="pref_camera2_timer_entry_10sec">10 ସେକେଣ୍ଡ</string>
     <string name="pref_camera2_saturation_level_title">ସମ୍ପୃକ୍ତି</string>
     <string name="pref_camera2_saturation_level_entry_0">ସ୍ତର 0</string>
     <string name="pref_camera2_saturation_level_entry_1">ସ୍ତର 1</string>
@@ -377,13 +381,16 @@
     <string name="pref_camera2_histogram_title">ହିଷ୍ଟୋଗ୍ରାମ୍</string>
     <string name="pref_camera2_auto_hdr_title">ସ୍ୱତଃ HDR</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">ଜୁମ୍</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">ଅଫ୍</string>
     <string name="pref_camera2_zsl_title">ଶୂନ୍ୟ ସଟର୍‍ ଲ୍ୟାଗ୍‍</string>
     <string name="pref_camera2_zsl_entry_disable">ଅଫ୍</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">ସ୍ତର 2</string>
     <string name="pref_camera2_afmode_entry_off">ଅଫ୍</string>
+    <string name="pref_camera2_afmode_entry_macro">ମାକ୍ରୋ</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">ମୋନୋ</string>
+    <string name="pref_camera2_initial_camera_entry_front">ସମ୍ମୁଖ</string>
+    <string name="pref_camera2_video_hdr_title">ଭିଡିଓ HDR</string>
 </resources>

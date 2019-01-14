@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">תיחום חשיפה אוטומטי</string>
     <string name="pref_camera_ae_bracket_hdr_title">תיחום חשיפה אוטומטי</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">מופעל</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">ללא</string>
     <string name="err_app_unsupport_ae_bracket_code">תיחום חשיפה אוטומטית (AEB) אינו נתמך עדיין</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">גודל הוידאו נמוך יותר מאשר גודל הוידאו האפשרי. נא בחר ברזולוציה גבוהה או שווה לגודל הווידאו הנוכחי.</string>
@@ -486,6 +487,7 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">עם כיווץ זמן, אפשר לכווץ סרטון ארוך לכמה שניות. האפקט חל על סרטונים בלבד כמובן.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">מאפשר להזיז ימינה או שמאלה לצילום תמונה ארוכה יותר. אפשר גם להזיז למעלה או למטה.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster מפחית את הטשטוש הנגרם מידיים רועדות. זה יכול להיות שימושי כשמצלמים תמונות במקומות קשים.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">עם מצב מתקדם, תוכל להתאים אישית את זמן החשיפה, ISO, איזון לבן והמיקוד. תהיה לך גישה קלה לכל ההגדרות המתקדמות הללו</string>
     <string name="pref_camera2_not_show_again">אל תציג שוב</string>
     <string name="pref_camera2_scene_mode_instructional_ok">אישור</string>
     <string name="pref_camera2_instant_aec_title">AEC מהיר</string>
@@ -546,9 +548,10 @@
     <string name="pref_camera2_zsl_entry_disable">כבוי</string>
     <string name="pref_camera2_zsl_entry_app_zsl">ZSL (צילום ללא שהייה) תוכנתי</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">ZSL (צילום ללא שהייה) חומרתי</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">רמה 2</string>
     <string name="pref_camera2_afmode_entry_disable">מושבת</string>
     <string name="pref_camera2_afmode_entry_off">כבוי</string>
+    <string name="pref_camera2_afmode_entry_auto">אוטומטי</string>
+    <string name="pref_camera2_afmode_entry_macro">מאקרו</string>
     <string name="pref_camera2_switch_camera_title">החלף למצלמה על ידי מזהה</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -556,9 +559,7 @@
     <string name="pref_camera2_initial_camera_entry_bayer">באייר</string>
     <string name="pref_camera2_initial_camera_entry_mono">מונוכרום</string>
     <string name="pref_camera2_initial_camera_entry_front">קדמית</string>
-    <string name="pref_camera2_eis_entry_disable">מושבת</string>
-    <string name="pref_camera2_fovc_entry_enable">מופעל</string>
-    <string name="pref_camera2_fovc_entry_disable">מושבת</string>
+    <string name="pref_camera2_video_hdr_title">וידאו HDR</string>
     <string name="pref_camera2_video_hdr_entry_enable">מופעל</string>
     <string name="pref_camera2_video_hdr_entry_disable">מושבת</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">מופעל</string>

@@ -18,17 +18,89 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- common aspect ratios -->
     <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
+    <string name="pref_camera_aspectratio_wide">Malawak</string>
     <!-- Format for entries in the picture size menu. Parameter one is aspect ratio,
          parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
          NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
          will be multiplied by 100 as those languages want to count by ten thousands -->
     <!-- Settings screen, scene mode -->
+    <string name="pref_camera_scenemode_entry_antimotionblur">Ang galaw na malabo ang pagbabawas</string>
+    <string name="pref_camera_scenemode_entry_aqua">Ang Aqua</string>
+    <string name="pref_camera_scenemode_entry_ar">Lumawak na katotohanan</string>
+    <string name="pref_camera_scenemode_entry_asd">Pinakamahusay na pagbaril</string>
+    <string name="pref_camera_scenemode_entry_baby">Ang Sanggol</string>
+    <string name="pref_camera_scenemode_entry_backgroundblur">Malabo ang background</string>
+    <string name="pref_camera_scenemode_entry_backlight">Backlight</string>
+    <string name="pref_camera_scenemode_entry_backlightportrait">Larawan ng backlight</string>
+    <string name="pref_camera_scenemode_entry_barcode">Barcode</string>
+    <string name="pref_camera_scenemode_entry_beach">Beach</string>
+    <string name="pref_camera_scenemode_entry_beauty">Ang kagandahan</string>
+    <string name="pref_camera_scenemode_entry_candlelight">Ang Candlelight</string>
+    <string name="pref_camera_scenemode_entry_cine">Ang Cine</string>
+    <string name="pref_camera_scenemode_entry_closeup">Closeup</string>
+    <string name="pref_camera_scenemode_entry_dark">Madalim</string>
+    <string name="pref_camera_scenemode_entry_dish">Ang ulam</string>
+    <string name="pref_camera_scenemode_entry_duskdawn">Duskdawn</string>
+    <string name="pref_camera_scenemode_entry_document">Ang Dokumento</string>
+    <string name="pref_camera_scenemode_entry_fallcolor">Ang Fallcolor</string>
+    <string name="pref_camera_scenemode_entry_fireworks">Mga paputok</string>
+    <string name="pref_camera_scenemode_entry_flowers">Mga Bulaklak</string>
+    <string name="pref_camera_scenemode_entry_handheldtwilight">Hinahawakan na takipsilim</string>
+    <string name="pref_camera_scenemode_entry_highsensitivity">Mataas ng sensitibo</string>
+    <string name="pref_camera_scenemode_entry_indoor">Panloob</string>
+    <string name="pref_camera_scenemode_entry_landscape">Pahaba</string>
+    <string name="pref_camera_scenemode_entry_mix_illuminant">Ang halo-halong pag-iilaw</string>
+    <string name="pref_camera_scenemode_entry_mood">Panagano</string>
+    <string name="pref_camera_scenemode_entry_nightportrait">Ang gabing larawan</string>
+    <string name="pref_camera_scenemode_entry_nightindoor">Ang gabing panloob</string>
+    <string name="pref_camera_scenemode_entry_oldfilm">Lumang pelikula</string>
+    <string name="pref_camera_scenemode_entry_pet">Alaga</string>
+    <string name="pref_camera_scenemode_entry_portrait">Ang larawan</string>
+    <string name="pref_camera_scenemode_entry_snow">Ang snow</string>
+    <string name="pref_camera_scenemode_entry_softskin">Malambot na balat</string>
+    <string name="pref_camera_scenemode_entry_sports">Mga laro</string>
+    <string name="pref_camera_scenemode_entry_spotlight">Ang Spotlight</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">Ang panay na larawan</string>
+    <string name="pref_camera_scenemode_entry_supernight">Madilim na gabi</string>
+    <string name="pref_camera_scenemode_entry_sweepstitch">Walisan ang tusok</string>
+    <string name="pref_camera_scenemode_entry_text">Ang teksto</string>
+    <string name="pref_camera_scenemode_entry_theatre">Ang Teatro</string>
+    <string name="pref_camera_scenemode_entry_whiteboard">Ang whiteboard</string>
     <!-- Settings screen, focus mode -->
+    <string name="pref_camera_focusmode_entry_continuous">Tuloy-tuloy</string>
+    <string name="pref_camera_focusmode_entry_mw_continuous">Tuloy-tuloy (MW)</string>
+    <string name="pref_camera_focusmode_entry_extended">Palawigin</string>
+    <string name="pref_camera_focusmode_entry_facedetect">Ang mukha ay natuklasan</string>
+    <string name="pref_camera_focusmode_entry_facepriority">Ang prayoridad ng mukha</string>
+    <string name="pref_camera_focusmode_entry_fixed">Naayos</string>
+    <string name="pref_camera_focusmode_entry_normal">Normal</string>
+    <string name="pref_camera_focusmode_entry_portrait">Ang larawan</string>
+    <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfocal</string>
     <!-- Color effects -->
+    <string name="pref_camera_coloreffect_entry_washed">Hinugasan</string>
+    <string name="pref_camera_coloreffect_entry_vintage_warm">Vintage na mainit</string>
+    <string name="pref_camera_coloreffect_entry_vintage_cold">Vintage na malamig</string>
+    <string name="pref_camera_coloreffect_entry_point_blue">Ang punto na asul</string>
+    <string name="pref_camera_coloreffect_entry_point_green">Ang punto na berde</string>
+    <string name="pref_camera_coloreffect_entry_point_red_yellow">Ang puntong pula-dilaw</string>
+    <string name="pref_camera_coloreffect_entry_cartoonize">Naka-cartoonize</string>
     <!-- Red eye flash mode title -->
+    <string name="pref_camera_flashmode_entry_redeye">Pula na mata</string>
+    <string name="pref_camera_flashmode_label_redeye">PULANG MATA</string>
     <!-- Power shutter -->
+    <string name="pref_camera_power_shutter_title">Ang Power ay na shutter</string>
     <!-- Max brightness -->
+    <string name="pref_camera_max_brightness_title">Maliwanag na screen</string>
     <!-- Touch focus duration -->
+    <string name="pref_camera_focustime_title">Ang hawakan ng pokus nang matagal</string>
+    <string name="pref_camera_focustime_entry_0">0s</string>
+    <string name="pref_camera_focustime_entry_3">3s</string>
+    <string name="pref_camera_focustime_entry_5">5s</string>
+    <string name="pref_camera_focustime_entry_10">10s</string>
+    <string name="pref_camera_focustime_entry_infinite">Walang katapusan</string>
     <!-- Shutter speed -->
+    <string name="pref_camera_shutter_speed_title">Bilis ng shutter</string>
     <!-- Advanced options -->
+    <string name="developer_menu_enabled">Ikaw ay nagpapagana ng naunang kamera ng mga opsyon</string>
+    <string name="developer_menu_disabled">Ikaw ay hindi nagpagana ng naunang kamera ng mga opsyon</string>
 </resources>

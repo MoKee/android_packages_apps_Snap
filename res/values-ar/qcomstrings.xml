@@ -180,6 +180,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">أقواس AE</string>
     <string name="pref_camera_ae_bracket_hdr_title">أقواس AE</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">مفعل</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">إيقاف</string>
     <string name="err_app_unsupport_ae_bracket_code">أقواس AE غير معتمدة حتى الآن</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">حجم لقطة الفيديو أقل من حجم الفيديو، وتخطى حجم الفيديو. الرجاء تحديد دقة أعلى أو مساوية لحجم الفيديو الحالي.</string>
@@ -487,6 +488,7 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">مع مرور الوقت، يمكنك تحويل تسجيل الفيديو الطويل في بضع ثوان من الفيديو. ينطبق هذا التأثير على مقاطع الفيديو، وليس على الصور.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">يسمح لك بتحريك الهاتف الى اليسار أو اليمين لالتقاط صورة افقية عريضة. يمكنك أيضا التحريك لأعلى أو لأسفل لالتقاط صور طويلة القامة.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">بلوربوستر يقلل الضبابية من الأيدي المهتزه. يمكن أن يكون مفيدا عند التقاط الصور في الأماكن الصعبة.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">مع الوضع المتقدم، يمكنك التحكم يدويا في إعدادات iso، والتعرض، وتوازن اللون الأبيض، والتركيز. سيكون لديك سهولة الوصول إلى كل هذه الإعدادات المتقدمة</string>
     <string name="pref_camera2_not_show_again">عدم العرض مجدداً</string>
     <string name="pref_camera2_scene_mode_instructional_ok">موافق</string>
     <string name="pref_camera2_instant_aec_title">AEC الفورية</string>
@@ -547,9 +549,10 @@
     <string name="pref_camera2_zsl_entry_disable">إيقاف تشغيل</string>
     <string name="pref_camera2_zsl_entry_app_zsl">برنامج ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">عتاد ZSL</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">المستوى 2</string>
     <string name="pref_camera2_afmode_entry_disable">معطّل</string>
     <string name="pref_camera2_afmode_entry_off">إيقاف تشغيل</string>
+    <string name="pref_camera2_afmode_entry_auto">تلقائية</string>
+    <string name="pref_camera2_afmode_entry_macro">مصغّر</string>
     <string name="pref_camera2_switch_camera_title">تبديل الكاميرا بمعرف</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -558,10 +561,8 @@
     <string name="pref_camera2_initial_camera_entry_mono">أُحادي</string>
     <string name="pref_camera2_initial_camera_entry_front">الأمامية</string>
     <string name="pref_camera2_eis_title">فيديو EIS</string>
-    <string name="pref_camera2_eis_entry_disable">معطّل</string>
     <string name="pref_camera2_fovc_title">فيديو FOVC</string>
-    <string name="pref_camera2_fovc_entry_enable">مفعل</string>
-    <string name="pref_camera2_fovc_entry_disable">معطّل</string>
+    <string name="pref_camera2_video_hdr_title">فيديو HDR</string>
     <string name="pref_camera2_video_hdr_entry_enable">مفعل</string>
     <string name="pref_camera2_video_hdr_entry_disable">معطّل</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">مفعل</string>

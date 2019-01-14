@@ -26,6 +26,7 @@
     <string name="pref_camera_megapixel_format">(<xliff:g id="ratio" example="16:9">%1$s</xliff:g>) <xliff:g id="pixels">%2$1.1f</xliff:g> megapiksel</string>
     <!-- Settings screen, scene mode -->
     <string name="pref_camera_scenemode_entry_baby">Bebe</string>
+    <string name="pref_camera_scenemode_entry_backlight">Ndriçimi në sfond</string>
     <string name="pref_camera_scenemode_entry_beach">Plazh</string>
     <string name="pref_camera_scenemode_entry_highsensitivity">Ndjesi e lartë</string>
     <string name="pref_camera_scenemode_entry_landscape">Peizazh</string>
@@ -33,6 +34,7 @@
     <string name="pref_camera_scenemode_entry_snow">Borë</string>
     <string name="pref_camera_scenemode_entry_sports">Sporte</string>
     <string name="pref_camera_scenemode_entry_steadyphoto">Foto stabël</string>
+    <string name="pref_camera_scenemode_entry_text">Tekst</string>
     <!-- Settings screen, focus mode -->
     <string name="pref_camera_focusmode_entry_continuous">E vazhdueshme</string>
     <string name="pref_camera_focusmode_entry_mw_continuous">E vazhdueshme (MW)</string>
@@ -40,6 +42,7 @@
     <string name="pref_camera_focusmode_entry_facepriority">Fytyra prioritet</string>
     <string name="pref_camera_focusmode_entry_fixed">E fiksuar</string>
     <string name="pref_camera_focusmode_entry_normal">Normale</string>
+    <string name="pref_camera_focusmode_entry_portrait">Portret</string>
     <!-- Color effects -->
     <!-- Red eye flash mode title -->
     <!-- Power shutter -->

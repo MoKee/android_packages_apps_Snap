@@ -79,6 +79,7 @@
     <string name="pref_camera_manual_exp_entry_ISO_priority">Priorité ISO</string>
     <string name="pref_camera_manual_exp_entry_exptime_priority">Priorité temps d\'exposition</string>
     <string name="pref_camera_manual_exp_entry_user_setting">Paramètre utilisateur</string>
+    <string name="pref_camera_manual_exp_entry_gains_priority">Priorité aux gains</string>
     <string name="pref_camera_manual_exp_entry_off">Désactivé</string>
     <!-- Manual white balance entry values -->
     <string name="pref_camera_manual_wb_title">Balance des blancs manuelle</string>
@@ -179,6 +180,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Bracketing d\'exposition automatique</string>
     <string name="pref_camera_ae_bracket_hdr_title">Bracketing d\'exposition automatique</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Activé</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Désactivé</string>
     <string name="err_app_unsupport_ae_bracket_code">Le bracketing AE n\'est pas encore supporté</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">La taille de capture vidéo est inférieure à la taille de la vidéo. Veuillez sélectionner une résolution supérieure ou égale à la taille actuelle de la vidéo.</string>
@@ -195,10 +197,12 @@
     <string name="pref_camera_hfr_entry_3x">Ralenti 90 IPS</string>
     <string name="pref_camera_hfr_entry_4x">Ralenti 120 IPS</string>
     <string name="pref_camera_hfr_entry_8x">Ralenti 240 IPS</string>
+    <string name="pref_camera_hfr_entry_16x">HFR 90</string>
     <string name="pref_camera_hfr_entry_hsr_60">Haute vitesse 60 IPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Haute vitesse 90 IPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Haute vitesse 120 IPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Haute vitesse 240 IPS (FPS)</string>
+    <string name="pref_camera_hfr_entry_hsr_480">HSR 480</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -454,6 +458,7 @@
     <string name="pref_camera_scenemode_entry_trackingfocus">Mise au point automatique par suivi du sujet</string>
     <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
     <string name="pref_camera_scenemode_entry_promode">Mode Pro</string>
+    <string name="pref_camera_scenemode_entry_deepzoom">Zoom profond</string>
     <string name="bestpicture_done">TERMINÉ</string>
     <string name="bestpicture_at_least_one_picture">Vous devez choisir au moins une photo.</string>
     <string name="pref_camera2_shutter_sound_entry_on">Activé</string>
@@ -486,6 +491,9 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">TimeLapse vous permet de transformer un long enregistrement vidéo en une séquence de quelques secondes. Cet effet s\'applique aux vidéos, mais pas aux photos.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Ce mode vous permet de faire un panoramique vers la gauche ou la droite pour prendre une photo grand angle. Vous pouvez également effectuer un panoramique vers le haut ou le bas pour obtenir un rendu vertical.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster permet de réduire le flou dû aux tremblements des mains. Ce mode peut être très utile lorsque vous devez prendre des photos dans des conditions difficiles.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">Le mode Pro vous permet de régler manuellement l\'ISO, l\'exposition, la balance des blancs et la mise au point. Vous pourrez accéder facilement à tous ces paramètres avancés.</string>
+    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">Avec le mode DeepZoom, vous pouvez utiliser le 2X ou le 4X pour prendre des photos, puis vous pouvez obtenir l\'image du zoom profond </string>
+    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">Avec DeepPortrait, vous pouvez prendre des autoportraits, avec un fond flou. Vous pouvez utiliser le curseur pour régler la quantité de flou</string>
     <string name="pref_camera2_not_show_again">Ne plus afficher</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_title">Contrôle d\'exposition automatique instantané</string>
@@ -546,9 +554,17 @@
     <string name="pref_camera2_zsl_entry_disable">Désactivé</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Zéro délai d\'obturation logiciel</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Zéro délai d\'obturation matériel</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Niveau 2</string>
+    <string name="pref_camera2_videoencoderprofile_title">Profil de l\'encodeur</string>
+    <string name="pref_camera2_sharpness_control_title">Contrôle de la netteté</string>
+    <string name="pref_camera2_afmode_title">Mode Mise au point automatique</string>
     <string name="pref_camera2_afmode_entry_disable">Désactivé</string>
     <string name="pref_camera2_afmode_entry_off">Désactivé</string>
+    <string name="pref_camera2_afmode_entry_auto">Automatique</string>
+    <string name="pref_camera2_afmode_entry_macro">Macro</string>
+    <string name="pref_camera2_afmode_entry_continuous_video">Vidéo continue</string>
+    <string name="pref_camera2_afmode_entry_continuous_picture">Image continue</string>
+    <string name="pref_camera2_afmode_entry_edof">EDOF</string>
+    <string name="pref_camera2_exposure_metering_title">Mesure de l\'exposition</string>
     <string name="pref_camera2_switch_camera_title">Changer d\'appareil photo par ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -556,13 +572,16 @@
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Avant</string>
-    <string name="pref_camera2_eis_entry_disable">Désactivé</string>
-    <string name="pref_camera2_fovc_entry_enable">Activé</string>
-    <string name="pref_camera2_fovc_entry_disable">Désactivé</string>
+    <string name="pref_camera2_eis_title">Vidéo EIS</string>
+    <string name="pref_camera2_fovc_title">Vidéo FOVC</string>
+    <string name="pref_camera2_video_hdr_title">Vidéo HDR</string>
     <string name="pref_camera2_video_hdr_entry_enable">Activé</string>
     <string name="pref_camera2_video_hdr_entry_disable">Désactivé</string>
+    <string name="pref_camera2_stats_visualizer_title">Afficheur de statistiques</string>
+    <string name="pref_camera2_capture_mfnr_title">Capture MFNR</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Activé</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Désactivé</string>
+    <string name="pref_camera2_capture_mfsr_title">Capture MFSR</string>
     <string name="pref_camera2_capture_mfsr_entry_enable">Activé</string>
     <string name="pref_camera2_capture_mfsr_entry_disable">Désactivé</string>
 </resources>

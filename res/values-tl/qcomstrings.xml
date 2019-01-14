@@ -26,149 +26,480 @@
     <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
     <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
     <!-- Settings screen, Power Mode title -->
+    <string name="pref_camera_powermode_title">Ang pamamaraan ay kapannyarihan</string>
     <!-- Settings screen, Power mode dialog radio button choices -->
+    <string name="pref_camera_powermode_entry_lp">Mababang power</string>
+    <string name="pref_camera_powermode_entry_np">Karaniwang power</string>
     <!-- Settings screen, Power mode dialog radio button choices -->
     <!-- Default Power mode.. -->
     <!-- Default auto exposure setting. Do not translate. -->
     <!-- Settings screen, Select auto exposure title -->
+    <string name="pref_camera_autoexposure_title">Awtomatikong exposure</string>
     <!-- Settings screen, auto exposure dialog radio button choices -->
+    <string name="pref_camera_autoexposure_entry_frameaverage">Ang pangkaraniwan ko katawan</string>
+    <string name="pref_camera_autoexposure_entry_centerweighted">Ang kalagitnaan tinimbang</string>
+    <string name="pref_camera_autoexposure_entry_spotmetering">Nakahanda ang pagsukat</string>
     <!-- Auto exposure entry values. Do not translate. -->
     <!-- Settings screen, Video encoder title -->
+    <string name="pref_camera_videoencoder_title">Video codec</string>
     <!-- Settings screen, Video encoder dialog radio button choices -->
     <!-- Default video encoder setting. A numerical value. -->
     <!-- Settings screen, Video encoder dialog title -->
+    <string name="pref_camera_videoencoder_dialogtitle">Video codec</string>
     <!-- Default audio encoder setting. A numerical value. -->
     <!-- Settings screen, Audio encoder title -->
+    <string name="pref_camera_audioencoder_title">Audio codec</string>
     <!-- Settings screen, Audio encoder dialog radio button choices -->
     <!-- Default Skin Tone Enhancement setting. Do not translate. -->
     <!-- Settings screen, Select Skin Tone Enhancement title -->
+    <string name="pref_camera_skinToneEnhancement_title">Pagpapabuti ng tono ng balat</string>
     <!-- Settings screen, Skin Tone Enhancement radio button choices -->
+    <string name="pref_camera_skinToneEnhancement_entry_enable">I-enable</string>
+    <string name="pref_camera_skinToneEnhancement_entry_disable">I-disable</string>
     <!-- Skin Tone Enhancement entry values. Do not translate. -->
     <!-- Settings screen, setting title text for ZSL-->
+    <string name="pref_camera_zsl_title">Zalang panara maiwan</string>
     <!-- Default selectable zone af setting. Do not translate. -->
     <!-- Settings screen, Selectable zone af title -->
+    <string name="pref_camera_selectablezoneaf_title">Autofocus sona</string>
     <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
+    <string name="pref_camera_selectablezoneaf_entry_auto">Awtomatiko</string>
+    <string name="pref_camera_selectablezoneaf_entry_spotmetering">Nakahanda ang pagsukat</string>
+    <string name="pref_camera_selectablezoneaf_entry_centerweighted">Ang kalagitnaan tinimbang</string>
+    <string name="pref_camera_selectablezoneaf_entry_frameaverage">Ang pangkaraniwan ko katawan</string>
     <!-- Auto exposure entry values. Do not translate. -->
     <!-- Settings screen, Selectable advanced features title -->
+    <string name="pref_camera_advanced_features_title">I-advance ang mga katangian</string>
     <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
+    <string name="pref_camera_advanced_feature_entry_none">Wala</string>
+    <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Marami-tumuon na Huminto</string>
     <!-- Auto exposure entry values. Do not translate. -->
     <!-- Manual exposure control entry values -->
+    <string name="pref_camera_manual_exp_title">Manual na exposure</string>
+    <string name="pref_camera_manual_exp_entry_ISO_priority">Prayoridad ng ISO</string>
+    <string name="pref_camera_manual_exp_entry_exptime_priority">Prayoridad ng oras ng paglantad</string>
+    <string name="pref_camera_manual_exp_entry_user_setting">Gumagamit sa paligid</string>
+    <string name="pref_camera_manual_exp_entry_off">I-off</string>
     <!-- Manual white balance entry values -->
+    <string name="pref_camera_manual_wb_title">Manwal na puti timbangan</string>
+    <string name="pref_camera_manual_wb_entry_color_temperature">Ang temperatura ng kulay</string>
+    <string name="pref_camera_manual_wb_entry_rbgb_gains">RBGB mga natamo</string>
+    <string name="pref_camera_manual_wb_entry_off">I-off</string>
     <!-- Manual Focus entry values -->
+    <string name="pref_camera_manual_focus_title">Manual na focus</string>
+    <string name="pref_camera_manual_focus_entry_scale_mode">Antas na pamamaraan</string>
+    <string name="pref_camera_manual_focus_entry_diopter_mode">Diopter kalakaran</string>
+    <string name="pref_camera_manual_focus_entry_off">I-off</string>
     <!-- Instant Capture entry -->
+    <string name="pref_camera_instant_capture_title">Sandali paghuli</string>
+    <string name="pref_camera_instant_capture_entry_aggressive_aec">Agresibong AEC</string>
+    <string name="pref_camera_instant_capture_entry_fast_aec">Mabilis na AEC</string>
+    <string name="pref_camera_instant_capture_entry_disable">I-disable</string>
     <!-- Instant Capture entry values -->
     <!-- Settings screen, ZSL location dialog choices -->
+    <string name="pref_camera_zsl_entry_off">I-off</string>
+    <string name="pref_camera_zsl_entry_on">Naka-on</string>
     <!-- The message is shown in toast when HDR or scene mode is enabled -->
+    <string name="hdr_enable_message">HDR ay pinagana, Auto scene na mode ang suportado lamang</string>
+    <string name="scene_enable_message">HDR ay hindi suportado sa scene na mode maliban sa Auto</string>
     <!-- Settings screen, Video HDR location dialog choices -->
+    <string name="pref_camera_video_hdr_entry_off">I-off</string>
+    <string name="pref_camera_video_hdr_entry_on">Naka-on</string>
     <!-- Settings screen, CDS location dialog choices -->
+    <string name="pref_camera_cds_entry_off">I-off</string>
+    <string name="pref_camera_cds_entry_on">Naka-on</string>
+    <string name="pref_camera_cds_entry_auto">Awtomatiko</string>
     <!-- Settings screen, video CDS location dialog choices -->
+    <string name="pref_camera_video_cds_entry_off">I-off</string>
+    <string name="pref_camera_video_cds_entry_on">Naka-on</string>
+    <string name="pref_camera_video_cds_entry_auto">Awtomatiko</string>
     <!-- Settings screen, TNR location dialog choices -->
+    <string name="pref_camera_tnr_entry_disable">I-disable</string>
+    <string name="pref_camera_tnr_entry_enable">I-enable</string>
     <!-- Settings screen, TNR location dialog choices -->
     <!-- Settings screen, video TNR location dialog choices -->
+    <string name="pref_camera_video_tnr_entry_disable">I-disable</string>
+    <string name="pref_camera_video_tnr_entry_enable">I-enable</string>
     <!-- Settings screen, video TNR location dialog choices -->
     <!-- Settings screen, setting title text for Video HDR-->
+    <string name="pref_camera_video_hdr_title">Video HDR</string>
     <!-- Settings menu, setting title text for cds mode-->
+    <string name="pref_camera_cds_title">CDS pamamaraan</string>
     <!-- Settings menu, setting title text for video cds mode-->
+    <string name="pref_camera_video_cds_title">Video CDS paraan</string>
     <!-- Default cds mode setting-->
     <!-- Default video cds mode setting-->
     <!-- Settings menu, setting title text for tnr mode-->
+    <string name="pref_camera_tnr_title">TNR paraan</string>
     <!-- Settings menu, setting title text for video tnr mode-->
+    <string name="pref_camera_video_tnr_title">Video TNR na mode</string>
     <!-- Default tnr mode setting-->
     <!-- Default video tnr mode setting-->
     <!-- Default face  detection setting. -->
     <!-- Settings screen, Select Face Detection -->
+    <string name="pref_camera_facedetection_title">Pagtuklas ng mukha</string>
     <!-- Settings menu, Face Detection choices -->
+    <string name="pref_camera_facedetection_entry_off">I-off</string>
+    <string name="pref_camera_facedetection_entry_on">Naka-on</string>
     <!-- Default Selfie Flash setting. -->
     <!-- Settings screen, Selfie Flash Detection -->
+    <string name="pref_selfie_flash_title">Kislap ng selfie</string>
     <!-- Settings menu, Selfie Flash choices -->
+    <string name="pref_selfie_flash_entry_off">I-off</string>
+    <string name="pref_selfie_flash_entry_on">Naka-on</string>
     <!-- Default redeye reduction setting. -->
     <!-- Settings screen, Select Redeye Reduction -->
+    <string name="pref_camera_redeyereduction_title">Pagbawas ng red eye</string>
     <!-- Settings menu, redeye reduction choices -->
+    <string name="pref_camera_redeyereduction_entry_enable">I-enable</string>
+    <string name="pref_camera_redeyereduction_entry_disable">I-disable</string>
+    <string name="pref_camera_selfiemirror_title">Salamin ng selfie</string>
+    <string name="pref_camera_selfiemirror_entry_enable">I-enable</string>
+    <string name="pref_camera_selfiemirror_entry_disable">I-disable</string>
+    <string name="pref_camera_shuttersound_title">Tunog ng shutter</string>
+    <string name="pref_camera_shuttersound_entry_enable">Pinagana</string>
+    <string name="pref_camera_shuttersound_entry_disable">Hindi pinagana</string>
     <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
+    <string name="error_app_unsupported_hfr_selection">Ang high-framerate na recording ay hindi suportado habang ginagamit ang Stabilization/Time lapse/HDR.</string>
     <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
+    <string name="error_app_unsupported_hfr">Ang slow motion na mode ay hindi suportado sa napiling sukat ng video. Pumili ng mas mababang sukat ng video</string>
     <!-- The message is shown in toast when the app encounters an unsupported resolution for DIS mode -->
+    <string name="error_app_unsupported_dis">Ang stabilization ay hindi suportado sa napiling sukat ng video. Pumili ng mas mababang sukat ng video</string>
     <!-- The message is shown in dialog when the app encounters an unsupported resolution for HSR mode -->
+    <string name="error_app_unsupported_hsr">Ang high speed na mode ay hindi suportado sa napiling sukat ng video. Pumili ng mas mababang sukat ng video</string>
     <!-- The message is shown in dialog when the app encounters an unsupported video codec for HFR mode -->
+    <string name="error_app_unsupported_hfr_codec">Ang H264 na video encoding ay suportado lamang kung ang HFR ay naka-on</string>
     <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
+    <string name="error_app_unsupported">Hindi suportadong video resolusyon para sa encoder type</string>
     <!-- The message is shown in dialog when the app encounters an unsupported video profile-->
+    <string name="error_app_unsupported_profile">Hindi suportadong video profile</string>
     <!--The message is shown in dialog when the raw snapshot is selected in zsl mode-->
+    <string name="error_app_unsupported_raw">Ang raw picture na format ay hindi suportado sa Zero shutter lag na mode. Pumili ng JPEG</string>
     <!-- Settings screen, AE bracketing and HDR location dialog choices -->
+    <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE saklungan</string>
+    <string name="pref_camera_ae_bracket_hdr_title">AE saklungan</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_on">Naka-on</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">I-off</string>
+    <string name="err_app_unsupport_ae_bracket_code">Ang AE bracketing ay hindi pa suportado</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
+    <string name="snapshot_lower_than_video">Ang video snapshot na sukat ay mas mababa kaysa sa sukat ng video, kina-cap sa sukat ng video. Mangyaring pumili ng isang resolution na mas mataas o katulad sa kasalukuyang sukat ng video.</string>
     <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
+    <string name="snapshotsize_low_powermode">Ang pagpalit ng sukat ng larawan ay hindi suportado sa Low Power na mode, video size na snapshot ang kukunin. Mangyaring piliin ang Normal Power na mode upang pahintulutan ang pagpalit ng sukat ng larawan.</string>
     <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
+    <string name="snapshot_qcif_and_d1">Video size na snapshot lamang suportado sa resolution na ito.</string>
     <!-- Default hfr setting. Do not translate. -->
     <!-- Settings screen, Select hfr title -->
+    <string name="pref_camera_hfr_title">Mataas na framerate na recording</string>
     <!-- Settings screen, hfr radio button choices -->
+    <string name="pref_camera_hfr_entry_off">I-off</string>
+    <string name="pref_camera_hfr_entry_2x">Mabagal na galaw 60 FPS</string>
+    <string name="pref_camera_hfr_entry_3x">Mabagal na galaw 90 FPS</string>
+    <string name="pref_camera_hfr_entry_4x">Mabagal na galaw 120 FPS</string>
+    <string name="pref_camera_hfr_entry_8x">Mabagal na galaw 240 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_60">Mataas na bilis 60 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_90">Mataas na bilis 90 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_120">Mataas na bilis 120 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_240">Mataas na bilis 240 FPS</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
+    <string name="pref_camera_noise_reduction_title">Pagbabawas ng ingay</string>
     <!-- Settings screen, see more radio button choices -->
+    <string name="pref_camera_noise_reduction_entry_off">I-off</string>
+    <string name="pref_camera_noise_reduction_entry_fast">Mabilis</string>
+    <string name="pref_camera_noise_reduction_entry_high_quality">Mataas na kalidad</string>
     <!-- see more entry values. Do not translate. -->
     <!-- Default see more setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
     <!-- Settings screen, see more radio button choices -->
+    <string name="pref_camera_see_more_entry_off">I-off</string>
+    <string name="pref_camera_see_more_entry_on">Naka-on</string>
     <!-- see more entry values. Do not translate. -->
     <!-- Denoise Settings screen, setting title text -->
+    <string name="pref_camera_denoise_title">Denoise</string>
     <!-- Denoise Settings screen, Record location dialog choices -->
+    <string name="pref_camera_denoise_entry_off">I-off</string>
+    <string name="pref_camera_denoise_entry_on">Naka-on</string>
     <!-- Default iso setting. Do not translate. -->
     <!-- Settings screen, Select Iso title -->
+    <string name="pref_camera_iso_title">ISO</string>
     <!-- Settings screen, ISO dialog radio button choices -->
+    <string name="pref_camera_iso_entry_auto">Awtomatiko</string>
+    <string name="pref_camera_iso_entry_isodeblur">Kotse (HJR)</string>
+    <string name="pref_camera_iso_entry_iso100">ISO100</string>
+    <string name="pref_camera_iso_entry_iso200">ISO200</string>
+    <string name="pref_camera_iso_entry_iso400">ISO400</string>
+    <string name="pref_camera_iso_entry_iso800">ISO800</string>
+    <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
     <!-- ISO entry values. Do not translate. -->
     <!-- Settings screen, Anti Banding title -->
+    <string name="pref_camera_antibanding_title">Antibanding</string>
     <!-- Default Anti Banding setting. -->
     <!-- Settings screen, Anti Banding entries -->
+    <string name="pref_camera_antibanding_entry_0">Awtomatiko</string>
+    <string name="pref_camera_antibanding_entry_1">50 Hz (Europe)</string>
+    <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
     <!-- Default color effect setting. -->
+    <string name="pref_camera_filter_mode_entry_on">Naka-on</string>
+    <string name="pref_camera_filter_mode_entry_off">I-off</string>
     <!-- Settings screen, Select Color effect title -->
+    <string name="pref_camera_coloreffect_title">Epekto ng kulay</string>
+    <string name="pref_camera_filter_mode_title">Epekto ng kulay</string>
     <!-- Settings screen, Color effect dialog radio button choices -->
+    <string name="pref_camera_coloreffect_entry_none">Wala</string>
+    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia">Sepya</string>
+    <string name="pref_camera_coloreffect_entry_negative">Ayawan</string>
     <!-- Color effect that overexposes and reverses some of the tones. -->
+    <string name="pref_camera_coloreffect_entry_solarize">Solarisahin</string>
+    <string name="pref_camera_coloreffect_entry_posterize">I-posterize</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
+    <string name="pref_camera_coloreffect_entry_emboss">Magpalamuti</string>
+    <string name="pref_camera_coloreffect_entry_sketch">Dibuho</string>
+    <string name="pref_camera_coloreffect_entry_neon">Neon</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mosaiko</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Pula na tint</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Asul na tint</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Berde na tint</string>
     <!-- Select IS title -->
+    <string name="pref_camera_dis_title">Pagpapanatili</string>
     <!-- DIS choices -->
+    <string name="pref_camera_dis_entry_off">I-off</string>
+    <string name="pref_camera_dis_entry_on">Naka-on</string>
     <!-- Select Face Recognition title -->
+    <string name="pref_camera_facerc_title">Pagkilala sa mukha</string>
     <!-- Face Recognition choices -->
+    <string name="pref_camera_facerc_entry_off">I-off</string>
+    <string name="pref_camera_facerc_entry_on">Naka-on</string>
     <!-- Settings screen, Multiple levels entries -->
+    <string name="pref_camera_sharpness_entry_level0">Antas 0</string>
+    <string name="pref_camera_sharpness_entry_level1">Antas 1</string>
+    <string name="pref_camera_sharpness_entry_level2">Antas 2 (default)</string>
+    <string name="pref_camera_sharpness_entry_level3">Antas 3</string>
+    <string name="pref_camera_sharpness_entry_level4">Antas 4</string>
+    <string name="pref_camera_sharpness_entry_level5">Antas 5</string>
+    <string name="pref_camera_sharpness_entry_level6">Antas 6</string>
     <!-- Settings screen, Multiple levels entries -->
+    <string name="pref_camera_contrast_entry_level0">Antas 0</string>
+    <string name="pref_camera_contrast_entry_level1">Antas 1</string>
+    <string name="pref_camera_contrast_entry_level2">Antas 2</string>
+    <string name="pref_camera_contrast_entry_level3">Antas 3</string>
+    <string name="pref_camera_contrast_entry_level4">Antas 4</string>
+    <string name="pref_camera_contrast_entry_level5">Antas 5 (default)</string>
+    <string name="pref_camera_contrast_entry_level6">Antas 6</string>
+    <string name="pref_camera_contrast_entry_level7">Antas 7</string>
+    <string name="pref_camera_contrast_entry_level8">Antas 8</string>
+    <string name="pref_camera_contrast_entry_level9">Antas 9</string>
+    <string name="pref_camera_contrast_entry_level10">Antas 10</string>
     <!-- Settings screen, Multiple levels entries -->
+    <string name="pref_camera_saturation_entry_level0">Antas 0</string>
+    <string name="pref_camera_saturation_entry_level1">Antas 1</string>
+    <string name="pref_camera_saturation_entry_level2">Antas 2</string>
+    <string name="pref_camera_saturation_entry_level3">Antas 3</string>
+    <string name="pref_camera_saturation_entry_level4">Antas 4</string>
+    <string name="pref_camera_saturation_entry_level5">Antas 5 (default)</string>
+    <string name="pref_camera_saturation_entry_level6">Antas 6</string>
+    <string name="pref_camera_saturation_entry_level7">Antas 7</string>
+    <string name="pref_camera_saturation_entry_level8">Antas 8</string>
+    <string name="pref_camera_saturation_entry_level9">Antas 9</string>
+    <string name="pref_camera_saturation_entry_level10">Antas 10</string>
     <!-- Default sharpness setting. Do not translate. -->
     <!-- Settings screen, Select sharpness title -->
+    <string name="pref_camera_sharpness_title">Katulisan</string>
     <!-- Default contrast setting. Do not translate. -->
     <!-- Settings screen, Select contrast title -->
+    <string name="pref_camera_contrast_title">Ang pagkakaiba</string>
     <!-- Default saturation setting. Do not translate. -->
     <!-- Settings screen, Select saturation title -->
+    <string name="pref_camera_saturation_title">Lunod</string>
     <!-- Default picture quality setting. See
          pref_camera_jpegquality_entryvalues for possible values -->
     <!-- Default Picture format setting. Do not translate. -->
     <!-- Settings screen, Select Picture format title -->
+    <string name="pref_camera_picture_format_title">Format ng larawan</string>
     <!-- Settings screen, picture format dialog radio button choices -->
     <!-- Picture format entry values. Do not translate. -->
     <!-- Settings screen, Picture quality title -->
+    <string name="pref_camera_jpegquality_title">Kalidad ng larawan</string>
     <!-- Settings screen, Picture quality dialog radio button choices -->
+    <string name="pref_camera_jpegquality_entry_0">Mababa</string>
+    <string name="pref_camera_jpegquality_entry_1">Standard</string>
+    <string name="pref_camera_jpegquality_entry_2">Mataas</string>
     <!-- Default auto histogram setting. Do not translate. -->
     <!-- Settings screen, Select Histogram title -->
+    <string name="pref_camera_histogram_title">Ang histogram</string>
     <!-- Settings screen, Histogram radio button choices -->
+    <string name="pref_camera_histogram_entry_enable">I-enable</string>
+    <string name="pref_camera_histogram_entry_disable">I-disable</string>
     <!-- Histogram entry values. Do not translate. -->
     <!-- Default auto scene detection setting. -->
     <!-- Settings screen, Select Auto Scene Detection -->
+    <string name="pref_camera_scenedetect_title">Pag-detect auto scene</string>
     <!-- Settings menu, auto scene detection choices -->
+    <string name="pref_camera_scenedetect_entry_off">I-off</string>
     <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
+    <string name="pref_camera_scenedetect_entry_on">Naka-on</string>
     <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
+    <string name="time_lapse_error">Ang video ang imbalido para sa time-lapse na pag-record.</string>
     <!-- longshot value -->
+    <string name="pref_camera_longshot_title">Tuloy-tuloy na kuha</string>
+    <string name="msg_cancel_longshot_for_limited_memory">Paubos na ang memory, kinakansela ang tuloy-tuloy na kuha</string>
     <!-- Toast showing non-supported functionality for flash in AE bracket -->
+    <string name="flash_aebracket_message">Ang flash ay hindi suportado sa AE bracketing na mode</string>
     <!-- Settings screen, setting title text for Auto HDR-->
+    <string name="pref_camera_auto_hdr_title">Auto HDR</string>
     <!-- Settings screen, Auto HDR location dialog choices -->
+    <string name="pref_camera_auto_hdr_entry_enable">I-enable</string>
+    <string name="pref_camera_auto_hdr_entry_disable">I-disable</string>
     <!-- toast message for storage location switch -->
+    <string name="on_switch_save_path_to_sdcard">Ang internal storage space ay hindi sapat - ipinalit ang SD card bilang storage location</string>
     <!-- Settings screen, Selectable HDR mode title -->
+    <string name="pref_camera_hdr_mode_title">Mode na HDR</string>
     <!-- Settings screen, Selectable HDR mode radio button choices -->
+    <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
+    <string name="pref_camera_hdr_mode_entry_multi_frame">Marami-lumikha HDR</string>
     <!-- HDR mode entry values. Do not translate. -->
     <!--Default video rotation setting-->
     <!--Settings screen, video rotation title-->
+    <string name="pref_camera_video_rotation_title">Pag ikot ng video</string>
     <!--Menu, video rotation label-->
+    <string name="pref_camera_video_rotation_label">Pag-ikot ng video</string>
     <!-- Settings screen, Video rotation dialog radio button choices -->
+    <string name="pref_camera_video_rotation_entry_0">0 degrees</string>
+    <string name="pref_camera_video_rotation_entry_90">90 degrees</string>
+    <string name="pref_camera_video_rotation_entry_180">180 degrees</string>
+    <string name="pref_camera_video_rotation_entry_270">270 degrees</string>
     <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+    <string name="map_activity_not_found_err">Walang map na app na naka-install upang ipakita ang lokasyon</string>
     <!-- Continuous shot enable message -->
+    <string name="longshot_enable_message">Ang mga advanced na feature ay hindi suportado sa tuloy-tuloy na kuha na mode</string>
     <!-- Advanced features enable message -->
+    <string name="advance_feature_enable_msg">Tuloy-tuloy na kuha ay hindi suportado kapag ang mga advanced feature ay ginagamit</string>
     <!-- The alas of CameraActivity for gesture operation -->
+    <string name="camera_gesture_title">Ilunsad ang Kamera</string>
+    <string name="pref_camera_tsmakeup_title">Pagpapaganda</string>
+    <string name="pref_camera_tsmakeup_entry_on">Naka-on</string>
+    <string name="pref_camera_tsmakeup_entry_off">I-off</string>
+    <string name="pref_camera_tsmakeup_entry_low">Mababa</string>
+    <string name="pref_camera_tsmakeup_entry_mid">Ang kaayusan</string>
+    <string name="pref_camera_tsmakeup_entry_high">Mataas</string>
+    <string name="pref_camera_tsmakeup_custom">Custom</string>
+    <string name="pref_camera_tsmakeup_level_whiten">Paputiin</string>
+    <string name="pref_camera_tsmakeup_level_clean">Eksena pamamaraan</string>
+    <string name="text_tsmakeup_alert_title">Babala</string>
+    <string name="text_tsmakeup_alert_msg">Ang face detection ay dapat i-enable upang magamit ang beautification na feature. Gusto mo bang magpatuloy?</string>
+    <string name="text_tsmakeup_alert_continue">Magpatuloy</string>
+    <string name="text_tsmakeup_alert_quit">Kanselahin</string>
+    <string name="text_tsmakeup_beautify_toast">Pagandahin</string>
+    <string name="all_in_focus">Lahat ay naka-pokus</string>
+    <string name="refocus_toast">Upang ma re-focus ang huling litrato, tumapik dito</string>
+    <string name="refocus_prompt_message">Sa UbiFocus, ang iyong kamera ay kukuha ng 5 mga larawan, sa bawat oras na pinindot mo ang pindutan ng shutter. Ang 5 mga larawan ay pinagsama-sama sa 1 larawan, kung saan ang lahat ay nakatuon. Maaari kang pumili upang muling tumuon, pagkatapos mong kunin ang larawan.</string>
+    <string name="camera_thermal_shutdown">Uminit ang telepono, pagsasara ng camera.</string>
+    <string name="camera_server_died">Ang media server ay namatay, sinasara ang kamera.</string>
+    <string name="camera_unknown_error">Hindi kilalang mali, pagsasara ng kamera.</string>
+    <string name="mute_button_desc">Pindutan ng mute</string>
+    <string name="pref_camera2_camera2_title">Mode na kamera2</string>
+    <string name="pref_camera2_camera2_entry_enable">I-enable</string>
+    <string name="pref_camera2_camera2_entry_disable">I-disable</string>
+    <string name="pref_camera2_mono_only_title">Mono lamang</string>
+    <string name="pref_camera2_mono_only_entry_on">Naka-on</string>
+    <string name="pref_camera2_mono_only_entry_off">I-off</string>
+    <string name="pref_camera2_mono_preview_title">Mono prebista</string>
+    <string name="pref_camera2_mono_preview_entry_on">Naka-on</string>
+    <string name="pref_camera2_mono_preview_entry_off">I-off</string>
+    <string name="pref_camera2_clearsight_entry_on">Naka-on</string>
+    <string name="pref_camera2_clearsight_entry_off">I-off</string>
+    <string name="clearsight_capture_success">Matagumpay na kinuha ng ClearSight</string>
+    <string name="clearsight_capture_fail">Nabigo na kinuha ng ClearSight</string>
+    <string name="pref_camera2_mpo_title">Pormat ng MPO</string>
+    <string name="pref_camera2_mpo_entry_on">Naka-on</string>
+    <string name="pref_camera2_mpo_entry_off">I-off</string>
+    <string name="pref_camera2_makeup_title">Ang pampaganda</string>
+    <string name="pref_camera2_makeup_entry_on">Naka-on</string>
+    <string name="pref_camera2_makeup_entry_off">I-off</string>
+    <string name="pref_camera2_noise_reduction_title">Pagbabawas ng ingay</string>
+    <string name="pref_camera2_noise_reduction_entry_off">I-off</string>
+    <string name="pref_camera2_noise_reduction_entry_fast">Mabilis</string>
+    <string name="pref_camera2_noise_reduction_entry_high_quality">Mataas na kalidad</string>
+    <string name="pref_camera2_videosnap_title">Awtomatikong sukat ng snapshot</string>
+    <string name="pref_camera2_videosnap_entry_enable">I-enable</string>
+    <string name="pref_camera2_videosnap_entry_disable">I-disable</string>
+    <string name="pref_camera2_trackingfocus_title">Pokus ng pagsubaybay</string>
+    <string name="pref_camera2_trackingfocus_entry_on">Naka-on</string>
+    <string name="pref_camera2_trackingfocus_entry_off">I-off</string>
+    <string name="pref_camera_scenemode_entry_bestpicture">Ang pinakamahusay na larawan</string>
+    <string name="pref_camera_scenemode_entry_trackingfocus">Pokus ng pagsubaybay</string>
+    <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
+    <string name="bestpicture_done">TAPOS NA</string>
+    <string name="bestpicture_at_least_one_picture">Hindi bababa sa isa na larawan ang dapat piliin.</string>
+    <string name="pref_camera2_shutter_sound_entry_on">Naka-on</string>
+    <string name="pref_camera2_shutter_sound_entry_off">I-off</string>
+    <string name="pref_camera2_shutter_sound_title">Tunog ng shutter</string>
+    <string name="pref_camera2_timer_entry_off">I-off</string>
+    <string name="pref_camera2_timer_entry_2sec">2 segundo</string>
+    <string name="pref_camera2_timer_entry_5sec">5 segundo</string>
+    <string name="pref_camera2_timer_entry_10sec">10 segundo</string>
+    <string name="panocapture_intro">Pindutin ang pindutan ng kamera upang magsimula.</string>
+    <string name="makeup_ui_ok_button">OK</string>
+    <string name="perf_camera2_version_info">Impormasyon sa Bersyon</string>
+    <string name="perf_camera2_preferences_category_general">Pangkalahatan</string>
+    <string name="perf_camera2_preferences_category_system">Sistema</string>
+    <string name="pref_camera2_scene_mode_dual_camera_instructional_content">Sa mode na pandalawahang kamera, ang iyong mga larawan ay magiging mas malinaw. Maaari ka rin mag-apply ng mga epekto sa background, sa pamamagitan ng pag-edit ng iyong mga larawan sa pandalawahang kamera sa gallery.</string>
+    <string name="pref_camera2_scene_mode_hdr_instructional_content">Kapag ikaw ay nasa magkahalong mga kondisyon sa pag-iilaw gaya ng maliliwanag na ilaw at mga backlit na eksena piliin ang \"HDR\" para sa mga posibleng pinakamahusay na mga larawan.</string>
+    <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Pinapayagan kang subaybayan at itutok ang isang napiling tao o bagay habang kumukuha ng mga larawan o mga video. Upang magsimula, ilagay ang focus na rectangle sa isang tao o bagay na nais mong subaybayan.</string>
+    <string name="pref_camera2_scene_mode_panorama_instructional_content">Pinapayagan kang mag-pan sa kaliwa o kanan upang makuha ng malawak na landscape na larawan. Maaari mong alse pan pataas o pababa upang makuha ang lahat ng mga larawan.</string>
+    <string name="pref_camera2_not_show_again">Huwag ipakitang muli</string>
+    <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
+    <string name="pref_camera2_instant_aec_entry_disable">I-disable</string>
+    <string name="pref_camera2_instant_aec_entry_aggressive">Agresibong AEC</string>
+    <string name="pref_camera2_instant_aec_entry_fast">Mabilis na AEC</string>
+    <string name="pref_camera2_saturation_level_title">Lunod</string>
+    <string name="pref_camera2_saturation_level_entry_0">Antas 0</string>
+    <string name="pref_camera2_saturation_level_entry_1">Antas 1</string>
+    <string name="pref_camera2_saturation_level_entry_2">Antas 2</string>
+    <string name="pref_camera2_saturation_level_entry_3">Antas 3</string>
+    <string name="pref_camera2_saturation_level_entry_4">Antas 4</string>
+    <string name="pref_camera2_saturation_level_entry_5">Antas 5 (default)</string>
+    <string name="pref_camera2_saturation_level_entry_6">Antas 6</string>
+    <string name="pref_camera2_saturation_level_entry_7">Antas 7</string>
+    <string name="pref_camera2_saturation_level_entry_8">Antas 8</string>
+    <string name="pref_camera2_saturation_level_entry_9">Antas 9</string>
+    <string name="pref_camera2_saturation_level_entry_10">Antas 10</string>
+    <string name="pref_camera2_anti_banding_level_title">Antibanding</string>
+    <string name="pref_camera2_anti_banding_level_entry_off">I-off</string>
+    <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Europe)</string>
+    <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (USA)</string>
+    <string name="pref_camera2_anti_banding_level_entry_auto">Awtomatiko</string>
+    <string name="pref_camera2_histogram_title">Ang histogram</string>
+    <string name="pref_camera2_histogram_entry_enable">I-enable</string>
+    <string name="pref_camera2_histogram_entry_disable">I-disable</string>
+    <string name="pref_camera2_hdr_title">HDR</string>
+    <string name="pref_camera2_hdr_entry_enable">I-enable</string>
+    <string name="pref_camera2_hdr_entry_disable">I-disable</string>
+    <string name="pref_camera2_auto_hdr_title">Auto HDR</string>
+    <string name="pref_camera2_auto_hdr_entry_enable">I-enable</string>
+    <string name="pref_camera2_auto_hdr_entry_disable">I-disable</string>
+    <string name="pref_camera_bokeh_mode_entry_enable">I-enable</string>
+    <string name="pref_camera_bokeh_mode_entry_disable">I-disable</string>
+    <string name="pref_camera_bokeh_mpo_entry_enable">I-enable</string>
+    <string name="pref_camera_bokeh_mpo_entry_disable">I-disable</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">I-zoom</string>
     <!-- Settings menu, Zoom choices -->
+    <string name="pref_camera_zoom_entry_off">I-off</string>
+    <string name="pref_camera2_bsgc_entry_enable">I-enable</string>
+    <string name="pref_camera2_bsgc_entry_disable">I-disable</string>
+    <string name="pref_camera2_zsl_title">Zalang panara maiwan</string>
+    <string name="pref_camera2_zsl_entry_disable">I-off</string>
+    <string name="pref_camera2_afmode_entry_disable">I-disable</string>
+    <string name="pref_camera2_afmode_entry_off">I-off</string>
+    <string name="pref_camera2_afmode_entry_auto">Awtomatiko</string>
+    <string name="pref_camera2_afmode_entry_macro">Macro</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
+    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
+    <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
+    <string name="pref_camera2_initial_camera_entry_front">Harap</string>
+    <string name="pref_camera2_video_hdr_title">Video HDR</string>
 </resources>

@@ -555,5 +555,11 @@ CHAR LIMIT = NONE] -->
     <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Makeup fungerer bare under VGA størrelse i videoopptak.</string>
     <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="save_best_dialog_native_bt">Avbryt</string>
+    <string name="delete_best_dialog_native_bt">Avbryt</string>
     <string name="delete_best_dialog_positive_bt">Slett</string>
+    <string name="delete_all_best_dialog_native_bt">Avbryt</string>
+    <string name="delete_all_best_dialog_positive_bt">Slett alle</string>
+    <string name="overflow_best_item2">Slett alle</string>
+    <string name="settings_title">Innstillinger</string>
 </resources>

@@ -162,6 +162,7 @@
     <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
     <string name="pref_camera_id_entry_front">Priekšējā</string>
     <!-- Settings screen, setting title text -->
+    <string name="pref_camera_recordlocation_title">Atrašanās vietas saglabāšana</string>
     <!--  Label for record location preference [CHAR LIMIT=50] -->
     <string name="pref_camera_location_label">ATRAŠANĀS VIETA</string>
     <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -530,4 +531,6 @@ CHAR LIMIT = NONE] -->
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
     <string name="save_best_dialog_positive_bt">Labi</string>
     <string name="delete_best_dialog_positive_bt">Dzēst</string>
+    <string name="delete_all_best_dialog_positive_bt">Dzēst visu</string>
+    <string name="overflow_best_item2">Dzēst visu</string>
 </resources>

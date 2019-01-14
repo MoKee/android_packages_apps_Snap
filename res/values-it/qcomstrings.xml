@@ -180,6 +180,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Auto Exposure Bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_title">Auto Exposure Bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">On</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Spenta</string>
     <string name="err_app_unsupport_ae_bracket_code">AE bracketing non è ancora supportato</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Le dimensioni dello snapshot sono inferiori a quelle del video, e sono state adattate. Si prega di selezionare una risoluzione maggiore o uguale a quella del video.</string>
@@ -487,6 +488,7 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Con Time lapse, puoi trasformare una lunga registrazione video in un video di pochi secondi. Questo effetto si applica ai video, ma non alle foto.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Consente di ruotare a sinistra o a destra per scattare una foto panoramica. È possibile ruotare su o giù per scattare foto verticali.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster riduce la sfocatura dovuta al tremolio delle mani. Può essere utile quando si scattano foto in condizioni difficili.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">Con la modalità Pro, puoi controllare manualmente le impostazioni per ISO, esposizione, bilanciamento del bianco e messa a fuoco. Avrai facile accesso a tutte queste impostazioni avanzate</string>
     <string name="pref_camera2_not_show_again">Non mostrare di nuovo</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_title">AEC istantanea</string>
@@ -547,9 +549,10 @@
     <string name="pref_camera2_zsl_entry_disable">Off</string>
     <string name="pref_camera2_zsl_entry_app_zsl">ZSL software</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">ZSL hardware</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Livello 2</string>
     <string name="pref_camera2_afmode_entry_disable">Disattivato</string>
     <string name="pref_camera2_afmode_entry_off">Off</string>
+    <string name="pref_camera2_afmode_entry_auto">Autom.</string>
+    <string name="pref_camera2_afmode_entry_macro">Macro</string>
     <string name="pref_camera2_switch_camera_title">Cambia fotocamera per ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -558,10 +561,8 @@
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Davanti</string>
     <string name="pref_camera2_eis_title">Video EIS</string>
-    <string name="pref_camera2_eis_entry_disable">Disattivato</string>
     <string name="pref_camera2_fovc_title">Video FOVC</string>
-    <string name="pref_camera2_fovc_entry_enable">Attivato</string>
-    <string name="pref_camera2_fovc_entry_disable">Disattivato</string>
+    <string name="pref_camera2_video_hdr_title">Video HDR</string>
     <string name="pref_camera2_video_hdr_entry_enable">Attivato</string>
     <string name="pref_camera2_video_hdr_entry_disable">Disattivato</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Attivato</string>

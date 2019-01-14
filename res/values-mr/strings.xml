@@ -535,4 +535,6 @@ CHAR LIMIT = NONE] -->
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
     <string name="save_best_dialog_positive_bt">ठीक आहे</string>
     <string name="delete_best_dialog_positive_bt">हटवायचे?</string>
+    <string name="delete_all_best_dialog_positive_bt">&quot;सर्व हटवा&quot;</string>
+    <string name="overflow_best_item2">&quot;सर्व हटवा&quot;</string>
 </resources>

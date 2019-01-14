@@ -180,6 +180,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">自动包围曝光</string>
     <string name="pref_camera_ae_bracket_hdr_title">自动包围曝光</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">开启</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">关闭</string>
     <string name="err_app_unsupport_ae_bracket_code">不支持自动包围曝光</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">视频快照的大小低于视频的大小，以视频大小为上限。请选择高于或等于当前视频大小的分辨率。</string>
@@ -553,10 +554,10 @@
     <string name="pref_camera2_zsl_entry_app_zsl">软件零延迟快门</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">硬件零延迟快门</string>
     <string name="pref_camera2_videoencoderprofile_title">编码器配置文件</string>
-    <string name="pref_camera2_sharpness_control_entry_level1">1级 (默认)</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">2 级</string>
     <string name="pref_camera2_afmode_entry_disable">已禁用</string>
     <string name="pref_camera2_afmode_entry_off">关闭</string>
+    <string name="pref_camera2_afmode_entry_auto">自动</string>
+    <string name="pref_camera2_afmode_entry_macro">微距</string>
     <string name="pref_camera2_switch_camera_title">通过 ID 切换相机</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -565,13 +566,10 @@
     <string name="pref_camera2_initial_camera_entry_mono">黑白</string>
     <string name="pref_camera2_initial_camera_entry_front">前</string>
     <string name="pref_camera2_eis_title">视频电子防抖（EIS）</string>
-    <string name="pref_camera2_eis_entry_disable">已禁用</string>
     <string name="pref_camera2_fovc_title">视频场变化（FOVC）</string>
-    <string name="pref_camera2_fovc_entry_enable">已启用</string>
-    <string name="pref_camera2_fovc_entry_disable">已禁用</string>
+    <string name="pref_camera2_video_hdr_title">视频 HDR</string>
     <string name="pref_camera2_video_hdr_entry_enable">已启用</string>
     <string name="pref_camera2_video_hdr_entry_disable">已禁用</string>
-    <string name="pref_camera2_stats_visualizer_entry_disable">全部禁用</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">已启用</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">已禁用</string>
     <string name="pref_camera2_capture_mfsr_entry_enable">已启用</string>

@@ -179,6 +179,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Reeksopname met automatische belichtingscompensatie (AEB)</string>
     <string name="pref_camera_ae_bracket_hdr_title">Reeksopname met automatische belichtingscompensatie (AEB)</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Aan</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Uit</string>
     <string name="err_app_unsupport_ae_bracket_code">Bracketing (AEB) wordt nog niet ondersteund</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Resolutie momentopname is kleiner dan die van de video. Momentopname wordt gemaakt ter grootte van de video. Kies een hogere of gelijke resolutie als de huidige videoresolutie.</string>
@@ -502,6 +503,7 @@
     <string name="pref_camera_bokeh_mpo_entry_enable">Inschakelen</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">Uitschakelen</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">Zoomen</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Uit</string>
     <string name="pref_camera_zoom_entry_1x">1x</string>
@@ -518,17 +520,16 @@
     <string name="pref_camera2_bsgc_entry_disable">Uitschakelen</string>
     <string name="pref_camera2_zsl_title">Geen ontspanvertraging (ZSL)</string>
     <string name="pref_camera2_zsl_entry_disable">Uit</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Niveau 2</string>
     <string name="pref_camera2_afmode_entry_disable">Uitgeschakeld</string>
     <string name="pref_camera2_afmode_entry_off">Uit</string>
+    <string name="pref_camera2_afmode_entry_auto">Autom.</string>
+    <string name="pref_camera2_afmode_entry_macro">Macro</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Monochroom</string>
     <string name="pref_camera2_initial_camera_entry_front">Voorzijde</string>
-    <string name="pref_camera2_eis_entry_disable">Uitgeschakeld</string>
-    <string name="pref_camera2_fovc_entry_enable">Ingeschakeld</string>
-    <string name="pref_camera2_fovc_entry_disable">Uitgeschakeld</string>
+    <string name="pref_camera2_video_hdr_title">Video (HDR)</string>
     <string name="pref_camera2_video_hdr_entry_enable">Ingeschakeld</string>
     <string name="pref_camera2_video_hdr_entry_disable">Uitgeschakeld</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Ingeschakeld</string>

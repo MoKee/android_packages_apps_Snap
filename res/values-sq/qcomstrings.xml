@@ -56,10 +56,12 @@
     <!-- Auto exposure entry values. Do not translate. -->
     <!-- Settings screen, Selectable advanced features title -->
     <!-- Settings screen, Selectable Zone Af dialog radio button choices -->
+    <string name="pref_camera_advanced_feature_entry_none">Asnjë</string>
     <!-- Auto exposure entry values. Do not translate. -->
     <!-- Manual exposure control entry values -->
     <string name="pref_camera_manual_exp_entry_off">Inaktiv</string>
     <!-- Manual white balance entry values -->
+    <string name="pref_camera_manual_wb_entry_color_temperature">Temperatura e ngjyrave</string>
     <string name="pref_camera_manual_wb_entry_off">Inaktiv</string>
     <!-- Manual Focus entry values -->
     <string name="pref_camera_manual_focus_entry_off">Inaktiv</string>
@@ -214,6 +216,7 @@
     <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
     <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
     <!-- Color effect that overexposes and reverses some of the tones. -->
+    <string name="pref_camera_coloreffect_entry_posterize">Bëje afishe</string>
     <!-- Select IS title -->
     <!-- DIS choices -->
     <string name="pref_camera_dis_entry_off">Inaktiv</string>
@@ -227,6 +230,7 @@
     <!-- Settings screen, Multiple levels entries -->
     <!-- Default sharpness setting. Do not translate. -->
     <!-- Settings screen, Select sharpness title -->
+    <string name="pref_camera_sharpness_title">Qartësia</string>
     <!-- Default contrast setting. Do not translate. -->
     <!-- Settings screen, Select contrast title -->
     <string name="pref_camera_contrast_title">Kontrasti</string>
@@ -344,9 +348,11 @@
     <string name="pref_camera2_timer_entry_off">Inaktiv</string>
     <string name="pref_camera2_timer_entry_2sec">2 sekonda</string>
     <string name="pref_camera2_timer_entry_5sec">5 sekonda</string>
+    <string name="pref_camera2_timer_entry_10sec">10 sekonda</string>
     <string name="makeup_ui_ok_button">OK</string>
     <string name="perf_camera2_version_info">Të dhëna mbi versionin</string>
     <string name="perf_camera2_preferences_category_general">Të përgjithshme</string>
+    <string name="perf_camera2_preferences_category_system">Sistemi</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_entry_disable">Çaktivizo</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">AEC agresiv</string>
@@ -368,6 +374,7 @@
     <string name="pref_camera_bokeh_mpo_entry_enable">Aktivizo</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">Çaktivizo</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">Zmadho</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Inaktiv</string>
     <string name="pref_camera_zoom_entry_1x">1x</string>
@@ -388,9 +395,6 @@
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
-    <string name="pref_camera2_eis_entry_disable">E çaktivizuar</string>
-    <string name="pref_camera2_fovc_entry_enable">E aktivizuar</string>
-    <string name="pref_camera2_fovc_entry_disable">E çaktivizuar</string>
     <string name="pref_camera2_video_hdr_entry_enable">E aktivizuar</string>
     <string name="pref_camera2_video_hdr_entry_disable">E çaktivizuar</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">E aktivizuar</string>
