@@ -196,10 +196,12 @@
     <string name="pref_camera_hfr_entry_3x">Gerakan lambat 90 FPS</string>
     <string name="pref_camera_hfr_entry_4x">Gerakan lambat 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Gerakan lambat 240 FPS</string>
+    <string name="pref_camera_hfr_entry_16x">HFR 480</string>
     <string name="pref_camera_hfr_entry_hsr_60">Kecepatan tinggi 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Kecepatan tinggi 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Kecepatan tinggi 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Kecepatan tinggi 240 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_480">HSR 480</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -490,6 +492,7 @@
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster mengurangi kabur dari tangan yang gemetar. Ini bisa sangat membantu saat memotret di tempat yang sulit.</string>
     <string name="pref_camera2_scene_mode_pro_instructional_content">Dengan mode Pro, Anda dapat mengatur pengaturan ISO, exposure, white balance, dan fokus secara manual. Anda akan memiliki akses mudah ke semua pengaturan lanjutan ini</string>
     <string name="pref_camera2_scene_mode_deepzoom_instructional_content">Dengan Mode Zoom Jauh, Anda dapat menggunakan 2X atau 4X untuk mengambil gambar, lalu Anda bisa mendapatkan gambar lebih besar </string>
+    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">Dengan Deep Portrait, Anda dapat mengambil foto selfi, dengan latar belakang buram. Anda dapat menggunakan penggeser untuk menyesuaikan jumlah blur</string>
     <string name="pref_camera2_not_show_again">Jangan tampilkan lagi</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OKE</string>
     <string name="pref_camera2_instant_aec_title">Instan AEC</string>
@@ -557,6 +560,7 @@
     <string name="pref_camera2_afmode_entry_off">Tidak aktif</string>
     <string name="pref_camera2_afmode_entry_auto">Otomatis</string>
     <string name="pref_camera2_afmode_entry_macro">Makro</string>
+    <string name="pref_camera2_afmode_entry_edof">EDOF</string>
     <string name="pref_camera2_exposure_metering_title">Pengukuran Eksposur</string>
     <string name="pref_camera2_switch_camera_title">Beralih kamera dengan ID</string>
     <!-- QCFA Title -->

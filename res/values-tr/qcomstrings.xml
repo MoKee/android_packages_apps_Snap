@@ -458,6 +458,7 @@
     <string name="pref_camera_scenemode_entry_trackingfocus">Odak izleme</string>
     <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
     <string name="pref_camera_scenemode_entry_promode">Pro mod</string>
+    <string name="pref_camera_scenemode_entry_deepzoom">Derin yakınlaştırma</string>
     <string name="bestpicture_done">BİTTİ</string>
     <string name="bestpicture_at_least_one_picture">En az bir resim seçilmeli.</string>
     <string name="pref_camera2_shutter_sound_entry_on">Açık</string>
@@ -554,12 +555,16 @@
     <string name="pref_camera2_zsl_entry_app_zsl">Yazılımsal ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Donanımsal ZSL</string>
     <string name="pref_camera2_videoencoderprofile_title">Kodlayıcı profili</string>
+    <string name="pref_camera2_sharpness_control_title">Netlik kontrolü</string>
+    <string name="pref_camera2_afmode_title">Otomatik odak modu</string>
     <string name="pref_camera2_afmode_entry_disable">Devre dışı</string>
     <string name="pref_camera2_afmode_entry_off">Kapalı</string>
     <string name="pref_camera2_afmode_entry_auto">Otomatik</string>
     <string name="pref_camera2_afmode_entry_macro">Makro</string>
     <string name="pref_camera2_afmode_entry_continuous_video">Sürekli video</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Sürekli çekim</string>
+    <string name="pref_camera2_afmode_entry_edof">EDOF</string>
+    <string name="pref_camera2_exposure_metering_title">Pozlama ölçümü</string>
     <string name="pref_camera2_switch_camera_title">Kamerayı kullanıcıya göre değiştir</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -572,8 +577,11 @@
     <string name="pref_camera2_video_hdr_title">Video HDR</string>
     <string name="pref_camera2_video_hdr_entry_enable">Etkinleştirildi</string>
     <string name="pref_camera2_video_hdr_entry_disable">Devre dışı</string>
+    <string name="pref_camera2_stats_visualizer_title">İstatistik görüntüleyici</string>
+    <string name="pref_camera2_capture_mfnr_title">MFNR\'yi yakala</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Etkinleştirildi</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Devre dışı</string>
+    <string name="pref_camera2_capture_mfsr_title">MFSR\'yi yakala</string>
     <string name="pref_camera2_capture_mfsr_entry_enable">Etkinleştirildi</string>
     <string name="pref_camera2_capture_mfsr_entry_disable">Devre dışı</string>
 </resources>

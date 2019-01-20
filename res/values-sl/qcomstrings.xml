@@ -197,10 +197,12 @@
     <string name="pref_camera_hfr_entry_3x">Počasni posnetek 90 sl./s</string>
     <string name="pref_camera_hfr_entry_4x">Počasni posnetek 120 sl./s</string>
     <string name="pref_camera_hfr_entry_8x">Počasni posnetek 240 sl./s</string>
+    <string name="pref_camera_hfr_entry_16x">HFR 480</string>
     <string name="pref_camera_hfr_entry_hsr_60">Visoka hitrost 60 sl./s</string>
     <string name="pref_camera_hfr_entry_hsr_90">Visoka hitrost 90 sl./s</string>
     <string name="pref_camera_hfr_entry_hsr_120">Visoka hitrost 120 sl./s</string>
     <string name="pref_camera_hfr_entry_hsr_240">Visoka hitrost 240 sl./s</string>
+    <string name="pref_camera_hfr_entry_hsr_480">HSR 480</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -553,6 +555,7 @@
     <string name="pref_camera2_afmode_entry_off">Izklopljeno</string>
     <string name="pref_camera2_afmode_entry_auto">Samodejno</string>
     <string name="pref_camera2_afmode_entry_macro">Makro</string>
+    <string name="pref_camera2_afmode_entry_edof">EDOF</string>
     <string name="pref_camera2_switch_camera_title">Preklop fotoaparata z ID-jem</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->

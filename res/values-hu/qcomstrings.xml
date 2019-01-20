@@ -79,6 +79,7 @@
     <string name="pref_camera_manual_exp_entry_ISO_priority">ISO prioritás</string>
     <string name="pref_camera_manual_exp_entry_exptime_priority">Expozíciós idő prioritás</string>
     <string name="pref_camera_manual_exp_entry_user_setting">Felhasználói beállítás</string>
+    <string name="pref_camera_manual_exp_entry_gains_priority">Elsőbbségszerzés</string>
     <string name="pref_camera_manual_exp_entry_off">Ki</string>
     <!-- Manual white balance entry values -->
     <string name="pref_camera_manual_wb_title">Manuális fehéregyensúly</string>
@@ -196,10 +197,12 @@
     <string name="pref_camera_hfr_entry_3x">Lassított felvétel 90 FPS</string>
     <string name="pref_camera_hfr_entry_4x">Lassított felvétel 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Lassított felvétel 240 FPS</string>
+    <string name="pref_camera_hfr_entry_16x">HFR 480</string>
     <string name="pref_camera_hfr_entry_hsr_60">Gyorsított felvétel 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Gyorsított felvétel 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Gyorsított felvétel 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Gyorsított felvétel 240 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_480">HSR 480</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -455,6 +458,7 @@
     <string name="pref_camera_scenemode_entry_trackingfocus">Fókuszkövetés</string>
     <string name="pref_camera_scenemode_entry_panorama">Panorámakép</string>
     <string name="pref_camera_scenemode_entry_promode">Professzionális mód</string>
+    <string name="pref_camera_scenemode_entry_deepzoom">DeepZoom (Mélynagyítás)</string>
     <string name="bestpicture_done">KÉSZ</string>
     <string name="bestpicture_at_least_one_picture">Legalább egy képet ki kell választani.</string>
     <string name="pref_camera2_shutter_sound_entry_on">Be</string>
@@ -488,6 +492,8 @@
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Lehetővé teszi a bal vagy jobb oldali mozgással, hogy széles panoráma tájképet készítsen. Ugyanígy alkalmazhatja a szolgáltatást fel és le mozgással is.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">A BlurBuster csökkenti a remegő kezek okozta elmosódást. Hasznos lehet kényelmetlen testhelyzetben készített fotóknál.</string>
     <string name="pref_camera2_scene_mode_pro_instructional_content">Pró módban manuálisan állíthatja be az ISO, az exponálás, a fehéregyensúly és a fókusz beállításait. Könnyű hozzáférést biztosít az összes haladó beállításhoz</string>
+    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">A DeepZoom (Mélynagyítás) mód használatával a 2x-es vagy 4x-es képeket készíthet, így végeredményként mélynagyítású képet kap </string>
+    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">A DeepPortrait (Mélyportré) használatával elmosódott hátterű szelfit készíthet. A csúszkával beállíthatja az elmosódás mértékét</string>
     <string name="pref_camera2_not_show_again">Ne mutassa újra</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_title">Azonnali AEC</string>
@@ -548,20 +554,34 @@
     <string name="pref_camera2_zsl_entry_disable">Ki</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Szoftveres ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Hardveres ZSL</string>
+    <string name="pref_camera2_videoencoderprofile_title">Kódolóprofil</string>
+    <string name="pref_camera2_sharpness_control_title">Élességszabályzás</string>
+    <string name="pref_camera2_afmode_title">Automata Fókusz mód</string>
     <string name="pref_camera2_afmode_entry_disable">Kikapcsolva</string>
     <string name="pref_camera2_afmode_entry_off">Ki</string>
     <string name="pref_camera2_afmode_entry_auto">Automata</string>
     <string name="pref_camera2_afmode_entry_macro">Makró</string>
+    <string name="pref_camera2_afmode_entry_continuous_video">Folyamatos videó</string>
+    <string name="pref_camera2_afmode_entry_continuous_picture">Folyamatos képsorozat</string>
+    <string name="pref_camera2_afmode_entry_edof">EDOF</string>
+    <string name="pref_camera2_exposure_metering_title">Expozíciómérés</string>
+    <string name="pref_camera2_switch_camera_title">Kamera-átkapcsolás azonosítóval</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
+    <string name="pref_camera2_switch_camera_title">Kamera-átkapcsolás azonosítóval</string>
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Fekete-fehér</string>
     <string name="pref_camera2_initial_camera_entry_front">Elülső</string>
+    <string name="pref_camera2_eis_title">EIS Videó</string>
+    <string name="pref_camera2_fovc_title">FOVC Videó</string>
     <string name="pref_camera2_video_hdr_title">Videó HDR</string>
     <string name="pref_camera2_video_hdr_entry_enable">Engedélyezve</string>
     <string name="pref_camera2_video_hdr_entry_disable">Kikapcsolva</string>
+    <string name="pref_camera2_stats_visualizer_title">Statisztika-megjelenítő</string>
+    <string name="pref_camera2_capture_mfnr_title">MFNR-rögzítés</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Engedélyezve</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Kikapcsolva</string>
+    <string name="pref_camera2_capture_mfsr_title">MFSR-rögzítés</string>
     <string name="pref_camera2_capture_mfsr_entry_enable">Engedélyezve</string>
     <string name="pref_camera2_capture_mfsr_entry_disable">Kikapcsolva</string>
 </resources>
