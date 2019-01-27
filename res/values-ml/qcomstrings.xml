@@ -390,11 +390,10 @@
     <string name="pref_camera_zoom_entry_off">ഓഫാണ്</string>
     <string name="pref_camera2_zsl_title">സീറോ ഷട്ടർ ലാഗ്</string>
     <string name="pref_camera2_zsl_entry_disable">ഓഫാണ്</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">ലെവല്‍ 2</string>
     <string name="pref_camera2_afmode_entry_off">ഓഫാണ്</string>
-    <string name="pref_camera2_afmode_entry_macro">മാക്രോ</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">മോണോ</string>
     <string name="pref_camera2_initial_camera_entry_front">മുന്നില്‍</string>
-    <string name="pref_camera2_video_hdr_title">വീഡിയോ HDR</string>
 </resources>

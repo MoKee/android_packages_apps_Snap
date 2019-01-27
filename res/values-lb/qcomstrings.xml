@@ -396,12 +396,10 @@
     <string name="pref_camera_zoom_entry_off">Aus</string>
     <string name="pref_camera2_zsl_title">Ouni Verzögerung ausléisen</string>
     <string name="pref_camera2_zsl_entry_disable">Aus</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">Niveau 2</string>
     <string name="pref_camera2_afmode_entry_off">Aus</string>
-    <string name="pref_camera2_afmode_entry_auto">Automatesch</string>
-    <string name="pref_camera2_afmode_entry_macro">Makro</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Vir</string>
-    <string name="pref_camera2_video_hdr_title">HDR-Video</string>
 </resources>

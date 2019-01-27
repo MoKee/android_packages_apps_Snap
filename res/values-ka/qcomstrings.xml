@@ -213,8 +213,6 @@
     <!-- Default Zoom setting. -->
     <string name="pref_camera_zoom_title">მასშტაბი</string>
     <!-- Settings menu, Zoom choices -->
-    <string name="pref_camera2_afmode_entry_auto">ავტომატურად</string>
-    <string name="pref_camera2_afmode_entry_macro">მაკრო</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_front">წინ</string>

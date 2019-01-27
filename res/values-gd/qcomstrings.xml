@@ -197,7 +197,6 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Le film luathaichte, ’s urrainn dhut beagan dhiogan a dhèanamh dhe chlàradh video fada. Tha an èifeachd seo ri faighinn airson videothan a-mhàin is chan ann airson dealbhan.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Leigidh seo leat panachadh a dhèanamh gu clì no deas airson dealbh crutha-tìre leathann a thogail. ’S urrainn dhut panachadh suas no sìos cuideachd airson dealbhan àrda.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">Ìslichidh BlurBuster an sgleò o chrathadh do làimh. Bidh e cuideachail nuair a thogas tu dealbhan ann an àiteachan doirbhe.</string>
-    <string name="pref_camera2_scene_mode_pro_instructional_content">Sa mhodh phroifeiseanta, ’s urrainn dhut roghainnean ISO, deisearais, cothromachadh nan dath, agus fòcais a stiùireadh a làimh. Gheibh thu inntrigeadh furasta dha na roghainnean adhartach seo uile</string>
     <string name="pref_camera2_not_show_again">Na seall seo a-rithist</string>
     <string name="pref_camera2_instant_aec_title">AEC sa bhad</string>
     <string name="pref_camera2_hdr_title">HDR</string>

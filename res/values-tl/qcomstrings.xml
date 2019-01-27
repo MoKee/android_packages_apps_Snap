@@ -492,14 +492,21 @@
     <string name="pref_camera2_bsgc_entry_disable">I-disable</string>
     <string name="pref_camera2_zsl_title">Zalang panara maiwan</string>
     <string name="pref_camera2_zsl_entry_disable">I-off</string>
-    <string name="pref_camera2_afmode_entry_disable">I-disable</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">Antas 2</string>
+    <string name="pref_camera2_afmode_entry_disable">Hindi pinagana</string>
     <string name="pref_camera2_afmode_entry_off">I-off</string>
-    <string name="pref_camera2_afmode_entry_auto">Awtomatiko</string>
-    <string name="pref_camera2_afmode_entry_macro">Macro</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Harap</string>
-    <string name="pref_camera2_video_hdr_title">Video HDR</string>
+    <string name="pref_camera2_eis_entry_disable">Hindi pinagana</string>
+    <string name="pref_camera2_fovc_entry_enable">Pinagana</string>
+    <string name="pref_camera2_fovc_entry_disable">Hindi pinagana</string>
+    <string name="pref_camera2_video_hdr_entry_enable">Pinagana</string>
+    <string name="pref_camera2_video_hdr_entry_disable">Hindi pinagana</string>
+    <string name="pref_camera2_capture_mfnr_entry_enable">Pinagana</string>
+    <string name="pref_camera2_capture_mfnr_entry_disable">Hindi pinagana</string>
+    <string name="pref_camera2_capture_mfsr_entry_enable">Pinagana</string>
+    <string name="pref_camera2_capture_mfsr_entry_disable">Hindi pinagana</string>
 </resources>

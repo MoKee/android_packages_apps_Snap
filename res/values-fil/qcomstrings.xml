@@ -522,19 +522,20 @@ Maaari kang pumili upang muling tumuon, pagkatapos mong kunan ng larawan.</strin
     <string name="pref_camera2_bsgc_entry_disable">Hindi pinagana</string>
     <string name="pref_camera2_zsl_title">Zero ang lag ng shutter</string>
     <string name="pref_camera2_zsl_entry_disable">Patay</string>
-    <string name="pref_camera2_afmode_entry_disable">Hindi pinagana</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">Antas 2</string>
+    <string name="pref_camera2_afmode_entry_disable">Huwag paganahin</string>
     <string name="pref_camera2_afmode_entry_off">Patay</string>
-    <string name="pref_camera2_afmode_entry_auto">Ang Auto</string>
-    <string name="pref_camera2_afmode_entry_macro">Ang makro</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">Ang mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Harapan</string>
-    <string name="pref_camera2_video_hdr_title">Ang video ng HDR</string>
-    <string name="pref_camera2_video_hdr_entry_enable">paganahin</string>
-    <string name="pref_camera2_video_hdr_entry_disable">huwag paganahin</string>
-    <string name="pref_camera2_capture_mfnr_entry_enable">paganahin</string>
-    <string name="pref_camera2_capture_mfnr_entry_disable">huwag paganahin</string>
-    <string name="pref_camera2_capture_mfsr_entry_enable">paganahin</string>
-    <string name="pref_camera2_capture_mfsr_entry_disable">huwag paganahin</string>
+    <string name="pref_camera2_eis_entry_disable">Huwag paganahin</string>
+    <string name="pref_camera2_fovc_entry_enable">Pinagana</string>
+    <string name="pref_camera2_fovc_entry_disable">Huwag paganahin</string>
+    <string name="pref_camera2_video_hdr_entry_enable">Pinagana</string>
+    <string name="pref_camera2_video_hdr_entry_disable">Huwag paganahin</string>
+    <string name="pref_camera2_capture_mfnr_entry_enable">Pinagana</string>
+    <string name="pref_camera2_capture_mfnr_entry_disable">Huwag paganahin</string>
+    <string name="pref_camera2_capture_mfsr_entry_enable">Pinagana</string>
+    <string name="pref_camera2_capture_mfsr_entry_disable">Huwag paganahin</string>
 </resources>

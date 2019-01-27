@@ -196,12 +196,10 @@
     <string name="pref_camera_hfr_entry_3x">Αργή κίνηση 90 FPS</string>
     <string name="pref_camera_hfr_entry_4x">Αργή κίνηση 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Αργή κίνηση 240 FPS</string>
-    <string name="pref_camera_hfr_entry_16x">Αργή κίνηση 480 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Υψηλή ταχύτητα 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Υψηλή ταχύτητα 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Υψηλή ταχύτητα 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Υψηλή ταχύτητα 240 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_480">Υψηλή ταχύτητα 480 FPS</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -489,9 +487,6 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Με το Time lapse, μπορείτε να μετατρέψετε μια μεγάλη εγγραφή σε ένα βίντεο λίγων δευτερολέπτων. Αυτό το εφέ ισχύει για βίντεο, αλλά όχι για φωτογραφίες.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Σας επιτρέπει να μετακινήσετε αριστερά ή δεξιά για να τραβήξετε μια ευρεία φωτογραφία τοπίου. Μπορείτε επίσης να μετακινήσετε προς τα επάνω ή προς τα κάτω για να τραβήξετε ψηλές φωτογραφίες.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">Το BlurBuster μειώνει το θόλωμα από τρεμάμενα χέρια. Μπορεί να είναι χρήσιμο κατά τη λήψη φωτογραφιών σε δύσκολα σημεία.</string>
-    <string name="pref_camera2_scene_mode_pro_instructional_content">Με τη λειτουργία Pro, μπορείτε να ρυθμίσετε χειροκίνητα τις ρυθμίσεις για ISO, έκθεση, ισορροπία λευκού και εστίαση. Θα έχετε εύκολη πρόσβαση σε όλες αυτές τις σύνθετες ρυθμίσεις.</string>
-    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">Με τη λειτουργία DeepZoom, μπορείτε να βγάλετε μια φωτογραφία με 2x ή 4x βελτιωμένο ζουμ.</string>
-    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">Με τη λειτουργία DeepPortrait, μπορείτε να βγάζετε selfie με θολό φόντο. Μπορείτε να χρησιμοποιήσετε το ρυθμιστικό για να προσαρμόσετε την ποσότητα της θαμπάδας.</string>
     <string name="pref_camera2_not_show_again">Να μην εμφανιστεί ξανά</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_title">Άμεσο AEC</string>
@@ -552,13 +547,9 @@
     <string name="pref_camera2_zsl_entry_disable">Ανενεργή</string>
     <string name="pref_camera2_zsl_entry_app_zsl">ZSL λογισμικού</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">ZSL υλικού</string>
-    <string name="pref_camera2_videoencoderprofile_title">Προφίλ κωδικοποιητή</string>
-    <string name="pref_camera2_afmode_entry_disable">Ανενεργός</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">Επίπεδο 2</string>
+    <string name="pref_camera2_afmode_entry_disable">Απενεργοποιημένο</string>
     <string name="pref_camera2_afmode_entry_off">Ανενεργή</string>
-    <string name="pref_camera2_afmode_entry_auto">Αυτόματο</string>
-    <string name="pref_camera2_afmode_entry_macro">Μακροφωτογραφία</string>
-    <string name="pref_camera2_afmode_entry_continuous_video">Συνεχής (βίντεο)</string>
-    <string name="pref_camera2_afmode_entry_continuous_picture">Συνεχής (εικόνα)</string>
     <string name="pref_camera2_switch_camera_title">Εναλλαγή κάμερας με βάση το ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -566,11 +557,13 @@
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Μονόχρωμο</string>
     <string name="pref_camera2_initial_camera_entry_front">Μπροστινή</string>
-    <string name="pref_camera2_video_hdr_title">Βίντεο HDR</string>
-    <string name="pref_camera2_video_hdr_entry_enable">Ενεργός</string>
-    <string name="pref_camera2_video_hdr_entry_disable">Ανενεργός</string>
-    <string name="pref_camera2_capture_mfnr_entry_enable">Ενεργός</string>
-    <string name="pref_camera2_capture_mfnr_entry_disable">Ανενεργός</string>
-    <string name="pref_camera2_capture_mfsr_entry_enable">Ενεργός</string>
-    <string name="pref_camera2_capture_mfsr_entry_disable">Ανενεργός</string>
+    <string name="pref_camera2_eis_entry_disable">Απενεργοποιημένο</string>
+    <string name="pref_camera2_fovc_entry_enable">Ενεργοποιημένο</string>
+    <string name="pref_camera2_fovc_entry_disable">Απενεργοποιημένο</string>
+    <string name="pref_camera2_video_hdr_entry_enable">Ενεργοποιημένο</string>
+    <string name="pref_camera2_video_hdr_entry_disable">Απενεργοποιημένο</string>
+    <string name="pref_camera2_capture_mfnr_entry_enable">Ενεργοποιημένο</string>
+    <string name="pref_camera2_capture_mfnr_entry_disable">Απενεργοποιημένο</string>
+    <string name="pref_camera2_capture_mfsr_entry_enable">Ενεργοποιημένο</string>
+    <string name="pref_camera2_capture_mfsr_entry_disable">Απενεργοποιημένο</string>
 </resources>

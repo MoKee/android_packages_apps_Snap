@@ -386,11 +386,10 @@
     <string name="pref_camera_zoom_entry_off">ଅଫ୍</string>
     <string name="pref_camera2_zsl_title">ଶୂନ୍ୟ ସଟର୍‍ ଲ୍ୟାଗ୍‍</string>
     <string name="pref_camera2_zsl_entry_disable">ଅଫ୍</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">ସ୍ତର 2</string>
     <string name="pref_camera2_afmode_entry_off">ଅଫ୍</string>
-    <string name="pref_camera2_afmode_entry_macro">ମାକ୍ରୋ</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">ମୋନୋ</string>
     <string name="pref_camera2_initial_camera_entry_front">ସମ୍ମୁଖ</string>
-    <string name="pref_camera2_video_hdr_title">ଭିଡିଓ HDR</string>
 </resources>

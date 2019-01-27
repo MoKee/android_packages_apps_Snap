@@ -197,12 +197,10 @@
     <string name="pref_camera_hfr_entry_3x">90 FPS 慢动作</string>
     <string name="pref_camera_hfr_entry_4x">120 FPS 慢动作</string>
     <string name="pref_camera_hfr_entry_8x">240 FPS 慢动作</string>
-    <string name="pref_camera_hfr_entry_16x">慢动作 480 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">60 FPS 高速</string>
     <string name="pref_camera_hfr_entry_hsr_90">90 FPS 高速</string>
     <string name="pref_camera_hfr_entry_hsr_120">120 FPS 高速</string>
     <string name="pref_camera_hfr_entry_hsr_240">高速 240 帧/秒</string>
-    <string name="pref_camera_hfr_entry_hsr_480">高速 480 FPS</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -490,9 +488,6 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">在延时摄影模式下，您可以将一段长时间的视频转换为只有几秒钟的视频。此效果仅限视频，对于照片无效。</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">允许您从左到右拍摄一幅风景照片。您也可以从上到下拍摄一幅长条形的照片。</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">模糊抵消器将会抵消由于拍摄时手部抖动造成的模糊，这会协助您在困难环境的拍摄。</string>
-    <string name="pref_camera2_scene_mode_pro_instructional_content">在专业模式下，您可以手动控制ISO，曝光，白平衡和对焦。 您可以轻松使用这些高级设置。</string>
-    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">使用 DeepZoom 模式, 您可以在2倍或4倍增强变焦的情况下拍摄照片。</string>
-    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">使用 DeepPortrait 模式，当您拍摄一张自拍时，背景将会虚化。您可以使用滑块调节虚化程度。</string>
     <string name="pref_camera2_not_show_again">不再显示</string>
     <string name="pref_camera2_scene_mode_instructional_ok">确定</string>
     <string name="pref_camera2_instant_aec_title">即时自动曝光控制 (AEC)</string>
@@ -553,11 +548,9 @@
     <string name="pref_camera2_zsl_entry_disable">关闭</string>
     <string name="pref_camera2_zsl_entry_app_zsl">软件零延迟快门</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">硬件零延迟快门</string>
-    <string name="pref_camera2_videoencoderprofile_title">编码器配置文件</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">2 级</string>
     <string name="pref_camera2_afmode_entry_disable">已禁用</string>
     <string name="pref_camera2_afmode_entry_off">关闭</string>
-    <string name="pref_camera2_afmode_entry_auto">自动</string>
-    <string name="pref_camera2_afmode_entry_macro">微距</string>
     <string name="pref_camera2_switch_camera_title">通过 ID 切换相机</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -566,8 +559,10 @@
     <string name="pref_camera2_initial_camera_entry_mono">黑白</string>
     <string name="pref_camera2_initial_camera_entry_front">前</string>
     <string name="pref_camera2_eis_title">视频电子防抖（EIS）</string>
+    <string name="pref_camera2_eis_entry_disable">已禁用</string>
     <string name="pref_camera2_fovc_title">视频场变化（FOVC）</string>
-    <string name="pref_camera2_video_hdr_title">视频 HDR</string>
+    <string name="pref_camera2_fovc_entry_enable">已启用</string>
+    <string name="pref_camera2_fovc_entry_disable">已禁用</string>
     <string name="pref_camera2_video_hdr_entry_enable">已启用</string>
     <string name="pref_camera2_video_hdr_entry_disable">已禁用</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">已启用</string>

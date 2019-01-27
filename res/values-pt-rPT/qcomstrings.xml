@@ -487,7 +487,6 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Com o intervalo de tempo, pode converter uma gravação de vídeo longa em poucos segundos de vídeo. Este efeito aplica-se a vídeos mas não a fotos.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Permite que vire para a esquerda ou direita para tirar uma fotografia panorâmica. Também pode virar para cima ou para baixo para tirar fotos em altura.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">O BlurBuster reduz a desfocagem derivada do movimento das mãos. Pode ser útil quando tirar fotografias em sítios difíceis.</string>
-    <string name="pref_camera2_scene_mode_pro_instructional_content">Com o Modo Pro, pode controlar manualmente parâmetros como o ISO, a exposição, o equilíbrio dos brancos e a focagem. Terá acesso simplificado a todas estas funcionalidades avançadas</string>
     <string name="pref_camera2_not_show_again">Não mostrar novamente</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_title">AEC instantâneo</string>
@@ -548,9 +547,9 @@
     <string name="pref_camera2_zsl_entry_disable">Desativada</string>
     <string name="pref_camera2_zsl_entry_app_zsl">ZSL por software</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">ZSL por hardware</string>
-    <string name="pref_camera2_afmode_entry_disable">Desativado</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">Nível 2</string>
+    <string name="pref_camera2_afmode_entry_disable">Desativada</string>
     <string name="pref_camera2_afmode_entry_off">Desativada</string>
-    <string name="pref_camera2_afmode_entry_auto">Automático</string>
     <string name="pref_camera2_switch_camera_title">Alterar câmara pelo ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -558,11 +557,13 @@
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Monocromático</string>
     <string name="pref_camera2_initial_camera_entry_front">Frontal</string>
-    <string name="pref_camera2_video_hdr_title">Vídeo HDR</string>
-    <string name="pref_camera2_video_hdr_entry_enable">Ativado</string>
-    <string name="pref_camera2_video_hdr_entry_disable">Desativado</string>
-    <string name="pref_camera2_capture_mfnr_entry_enable">Ativado</string>
-    <string name="pref_camera2_capture_mfnr_entry_disable">Desativado</string>
-    <string name="pref_camera2_capture_mfsr_entry_enable">Ativado</string>
-    <string name="pref_camera2_capture_mfsr_entry_disable">Desativado</string>
+    <string name="pref_camera2_eis_entry_disable">Desativada</string>
+    <string name="pref_camera2_fovc_entry_enable">Ativada</string>
+    <string name="pref_camera2_fovc_entry_disable">Desativada</string>
+    <string name="pref_camera2_video_hdr_entry_enable">Ativada</string>
+    <string name="pref_camera2_video_hdr_entry_disable">Desativada</string>
+    <string name="pref_camera2_capture_mfnr_entry_enable">Ativada</string>
+    <string name="pref_camera2_capture_mfnr_entry_disable">Desativada</string>
+    <string name="pref_camera2_capture_mfsr_entry_enable">Ativada</string>
+    <string name="pref_camera2_capture_mfsr_entry_disable">Desativada</string>
 </resources>

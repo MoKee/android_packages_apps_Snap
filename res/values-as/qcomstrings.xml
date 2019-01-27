@@ -386,11 +386,10 @@
     <string name="pref_camera_zoom_entry_off">অফ</string>
     <string name="pref_camera2_zsl_title">জিৰো শ্বাটাৰ টেগ</string>
     <string name="pref_camera2_zsl_entry_disable">অফ</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">স্তৰ 2</string>
     <string name="pref_camera2_afmode_entry_off">অফ</string>
-    <string name="pref_camera2_afmode_entry_macro">মেক্ৰ’</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">ম’ন’</string>
     <string name="pref_camera2_initial_camera_entry_front">সন্মুখ</string>
-    <string name="pref_camera2_video_hdr_title">ভিডিঅ\' HDR</string>
 </resources>

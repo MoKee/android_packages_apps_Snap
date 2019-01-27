@@ -212,7 +212,6 @@
     <string name="pref_camera2_histogram_title">مێژوویی</string>
     <!-- Default Zoom setting. -->
     <!-- Settings menu, Zoom choices -->
-    <string name="pref_camera2_afmode_entry_auto">خۆکارانه</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_front">پێشەوە</string>

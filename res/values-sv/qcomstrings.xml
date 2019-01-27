@@ -509,10 +509,9 @@
     <string name="pref_camera2_zsl_entry_disable">Av</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Mjukvaru-ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Hårdvaru-ZSL</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">Nivå 2</string>
     <string name="pref_camera2_afmode_entry_disable">Avaktiverad</string>
     <string name="pref_camera2_afmode_entry_off">Av</string>
-    <string name="pref_camera2_afmode_entry_auto">Auto</string>
-    <string name="pref_camera2_afmode_entry_macro">Makro</string>
     <string name="pref_camera2_switch_camera_title">Byt kamera beroende på ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -520,7 +519,9 @@
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Främre</string>
-    <string name="pref_camera2_video_hdr_title">Video HDR</string>
+    <string name="pref_camera2_eis_entry_disable">Avaktiverad</string>
+    <string name="pref_camera2_fovc_entry_enable">Aktiverad</string>
+    <string name="pref_camera2_fovc_entry_disable">Avaktiverad</string>
     <string name="pref_camera2_video_hdr_entry_enable">Aktiverad</string>
     <string name="pref_camera2_video_hdr_entry_disable">Avaktiverad</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Aktiverad</string>

@@ -485,13 +485,20 @@
     <string name="pref_camera2_bsgc_entry_disable">ನಿಷ್ಕ್ರಿಯ</string>
     <string name="pref_camera2_zsl_title">ಶೂನ್ಯ ಶಟರ್ ಲ್ಯಾಗ್</string>
     <string name="pref_camera2_zsl_entry_disable">ಆಫ್ ಆಗಿದೆ</string>
-    <string name="pref_camera2_afmode_entry_disable">ನಿಷ್ಕ್ರಿಯ</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">ಹಂತ 2</string>
+    <string name="pref_camera2_afmode_entry_disable">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
     <string name="pref_camera2_afmode_entry_off">ಆಫ್ ಆಗಿದೆ</string>
-    <string name="pref_camera2_afmode_entry_auto">ಸ್ವಯಂ</string>
-    <string name="pref_camera2_afmode_entry_macro">ಮ್ಯಾಕ್ರೋ</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">ಮೊನೊ</string>
     <string name="pref_camera2_initial_camera_entry_front">ಮುಂದೆ</string>
-    <string name="pref_camera2_video_hdr_title">ವೀಡಿಯೋ HDR</string>
+    <string name="pref_camera2_eis_entry_disable">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
+    <string name="pref_camera2_fovc_entry_enable">ಸಕ್ರಿಯ</string>
+    <string name="pref_camera2_fovc_entry_disable">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
+    <string name="pref_camera2_video_hdr_entry_enable">ಸಕ್ರಿಯ</string>
+    <string name="pref_camera2_video_hdr_entry_disable">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
+    <string name="pref_camera2_capture_mfnr_entry_enable">ಸಕ್ರಿಯ</string>
+    <string name="pref_camera2_capture_mfnr_entry_disable">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
+    <string name="pref_camera2_capture_mfsr_entry_enable">ಸಕ್ರಿಯ</string>
+    <string name="pref_camera2_capture_mfsr_entry_disable">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
 </resources>

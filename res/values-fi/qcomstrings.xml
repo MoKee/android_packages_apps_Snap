@@ -487,7 +487,6 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Timelapse-toiminto muuttaa pitkän videotallenteen muutaman sekunnin videoksi. Tämä toiminto koskee videoita, mutta ei valokuvia.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Voit kääntää vasemmalle tai oikealle ottaaksesi laajan maisemakuvan. Voit myös ottaa korkeita kuvia kääntämällä kameraa ylös tai alas.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster vähentää sumeutta jos kädet tärisevät. Se voi olla hyödyllinen, kun otat valokuvia vaikeissa paikoissa.</string>
-    <string name="pref_camera2_scene_mode_pro_instructional_content">Pro-tilassa voit manuaalisesti määrittää ISO-, valotus-, valkotasapaino- ja tarkennusasetukset. Sinulla on kaikki nämä asetukset käytössäsi</string>
     <string name="pref_camera2_not_show_again">Älä näytä uudelleen</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_title">Instant AEC</string>
@@ -548,10 +547,9 @@
     <string name="pref_camera2_zsl_entry_disable">Pois käyt.</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Ohjelmisto ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Laitteisto ZSL</string>
-    <string name="pref_camera2_afmode_entry_disable">Poistettu käytöstä</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">Taso 2</string>
+    <string name="pref_camera2_afmode_entry_disable">Pois käytöstä</string>
     <string name="pref_camera2_afmode_entry_off">Pois käyt.</string>
-    <string name="pref_camera2_afmode_entry_auto">Autom.</string>
-    <string name="pref_camera2_afmode_entry_macro">Makro</string>
     <string name="pref_camera2_switch_camera_title">Vaihda kameraa ID:llä</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -559,11 +557,13 @@
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Etupuoli</string>
-    <string name="pref_camera2_video_hdr_title">Video HDR</string>
-    <string name="pref_camera2_video_hdr_entry_enable">Ota käyttöön</string>
-    <string name="pref_camera2_video_hdr_entry_disable">Poistettu käytöstä</string>
-    <string name="pref_camera2_capture_mfnr_entry_enable">Ota käyttöön</string>
-    <string name="pref_camera2_capture_mfnr_entry_disable">Poistettu käytöstä</string>
-    <string name="pref_camera2_capture_mfsr_entry_enable">Ota käyttöön</string>
-    <string name="pref_camera2_capture_mfsr_entry_disable">Poistettu käytöstä</string>
+    <string name="pref_camera2_eis_entry_disable">Pois käytöstä</string>
+    <string name="pref_camera2_fovc_entry_enable">Käytössä</string>
+    <string name="pref_camera2_fovc_entry_disable">Pois käytöstä</string>
+    <string name="pref_camera2_video_hdr_entry_enable">Käytössä</string>
+    <string name="pref_camera2_video_hdr_entry_disable">Pois käytöstä</string>
+    <string name="pref_camera2_capture_mfnr_entry_enable">Käytössä</string>
+    <string name="pref_camera2_capture_mfnr_entry_disable">Pois käytöstä</string>
+    <string name="pref_camera2_capture_mfsr_entry_enable">Käytössä</string>
+    <string name="pref_camera2_capture_mfsr_entry_disable">Pois käytöstä</string>
 </resources>

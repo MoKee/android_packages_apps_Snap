@@ -196,12 +196,10 @@
     <string name="pref_camera_hfr_entry_3x">Gerakan lambat 90 FPS</string>
     <string name="pref_camera_hfr_entry_4x">Gerakan lambat 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Gerakan lambat 240 FPS</string>
-    <string name="pref_camera_hfr_entry_16x">HFR 480</string>
     <string name="pref_camera_hfr_entry_hsr_60">Kecepatan tinggi 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Kecepatan tinggi 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Kecepatan tinggi 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Kecepatan tinggi 240 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_480">HSR 480</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -457,7 +455,6 @@
     <string name="pref_camera_scenemode_entry_trackingfocus">Fokus pelacakan</string>
     <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
     <string name="pref_camera_scenemode_entry_promode">Modus Pro</string>
-    <string name="pref_camera_scenemode_entry_deepzoom">Zoom Jauh</string>
     <string name="bestpicture_done">SELESAI</string>
     <string name="bestpicture_at_least_one_picture">Setidaknya satu gambar harus dipilih.</string>
     <string name="pref_camera2_shutter_sound_entry_on">Hidup</string>
@@ -490,9 +487,6 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Dengan Selang waktu, Anda dapat mengubah rekaman video yang panjang menjadi beberapa detik video. Efek ini berlaku untuk video, tapi bukan foto.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Memungkinkan Anda untuk menggerakkan ke kiri atau ke kanan untuk mengambil foto lanskap yang luas. Anda dapat juga menggerakkan ke atas atau ke bawah untuk mengambil foto tinggi.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster mengurangi kabur dari tangan yang gemetar. Ini bisa sangat membantu saat memotret di tempat yang sulit.</string>
-    <string name="pref_camera2_scene_mode_pro_instructional_content">Dengan mode Pro, Anda dapat mengatur pengaturan ISO, exposure, white balance, dan fokus secara manual. Anda akan memiliki akses mudah ke semua pengaturan lanjutan ini</string>
-    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">Dengan Mode Zoom Jauh, Anda dapat menggunakan 2X atau 4X untuk mengambil gambar, lalu Anda bisa mendapatkan gambar lebih besar </string>
-    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">Dengan Deep Portrait, Anda dapat mengambil foto selfi, dengan latar belakang buram. Anda dapat menggunakan penggeser untuk menyesuaikan jumlah blur</string>
     <string name="pref_camera2_not_show_again">Jangan tampilkan lagi</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OKE</string>
     <string name="pref_camera2_instant_aec_title">Instan AEC</string>
@@ -553,15 +547,9 @@
     <string name="pref_camera2_zsl_entry_disable">Tidak aktif</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Perangkat lunak ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Perangkat keras ZSL</string>
-    <string name="pref_camera2_videoencoderprofile_title">Profil Pengkode</string>
-    <string name="pref_camera2_sharpness_control_title">Kontrol Ketajaman</string>
-    <string name="pref_camera2_afmode_title">Mode Fokus Otomatis</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">Tingkat 2</string>
     <string name="pref_camera2_afmode_entry_disable">Dimatikan</string>
     <string name="pref_camera2_afmode_entry_off">Tidak aktif</string>
-    <string name="pref_camera2_afmode_entry_auto">Otomatis</string>
-    <string name="pref_camera2_afmode_entry_macro">Makro</string>
-    <string name="pref_camera2_afmode_entry_edof">EDOF</string>
-    <string name="pref_camera2_exposure_metering_title">Pengukuran Eksposur</string>
     <string name="pref_camera2_switch_camera_title">Beralih kamera dengan ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -570,15 +558,14 @@
     <string name="pref_camera2_initial_camera_entry_mono">Satu</string>
     <string name="pref_camera2_initial_camera_entry_front">Depan</string>
     <string name="pref_camera2_eis_title">Video EIS</string>
+    <string name="pref_camera2_eis_entry_disable">Dimatikan</string>
     <string name="pref_camera2_fovc_title">Video FOVC</string>
-    <string name="pref_camera2_video_hdr_title">Video HDR</string>
+    <string name="pref_camera2_fovc_entry_enable">Dihidupkan</string>
+    <string name="pref_camera2_fovc_entry_disable">Dimatikan</string>
     <string name="pref_camera2_video_hdr_entry_enable">Dihidupkan</string>
     <string name="pref_camera2_video_hdr_entry_disable">Dimatikan</string>
-    <string name="pref_camera2_stats_visualizer_title">Visualizer Statistik</string>
-    <string name="pref_camera2_capture_mfnr_title">Tangkap MFNR</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Dihidupkan</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Dimatikan</string>
-    <string name="pref_camera2_capture_mfsr_title">Tangkap MFSR</string>
     <string name="pref_camera2_capture_mfsr_entry_enable">Dihidupkan</string>
     <string name="pref_camera2_capture_mfsr_entry_disable">Dimatikan</string>
 </resources>

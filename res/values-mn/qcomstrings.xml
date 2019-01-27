@@ -213,8 +213,6 @@
     <!-- Default Zoom setting. -->
     <string name="pref_camera_zoom_title">Томруулах</string>
     <!-- Settings menu, Zoom choices -->
-    <string name="pref_camera2_afmode_entry_auto">Автомат</string>
-    <string name="pref_camera2_afmode_entry_macro">Макро</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_front">Өмнөх</string>

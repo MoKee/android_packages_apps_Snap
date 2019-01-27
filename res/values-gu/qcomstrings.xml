@@ -387,11 +387,10 @@
     <string name="pref_camera_zoom_entry_off">બંધ</string>
     <string name="pref_camera2_zsl_title">શૂન્ય શટર લૅગ</string>
     <string name="pref_camera2_zsl_entry_disable">બંધ</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">સ્તર 2</string>
     <string name="pref_camera2_afmode_entry_off">બંધ</string>
-    <string name="pref_camera2_afmode_entry_macro">મેક્રો</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_mono">મોનો</string>
     <string name="pref_camera2_initial_camera_entry_front">આગળ</string>
-    <string name="pref_camera2_video_hdr_title">વિડિયો HDR</string>
 </resources>

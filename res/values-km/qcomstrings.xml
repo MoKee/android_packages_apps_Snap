@@ -213,8 +213,6 @@
     <!-- Default Zoom setting. -->
     <string name="pref_camera_zoom_title">ពង្រីក/បង្រួម</string>
     <!-- Settings menu, Zoom choices -->
-    <string name="pref_camera2_afmode_entry_auto">ស្វ័យប្រវត្តិ</string>
-    <string name="pref_camera2_afmode_entry_macro">ម៉ាក្រូ</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_front">ខាង​មុខ</string>

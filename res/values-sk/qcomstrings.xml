@@ -487,7 +487,6 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">S časozberným nahrávaním môžete premeniť dlhé video na niekoľko-sekundové. Tento efekt platí pre videá, nie pre fotografie.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Umožňuje posunúť doľava alebo doprava, aby ste získali širokú krajinnú fotografiu. Môžete tiež posunúť nahor alebo nadol pre zachytenie vysokých snímok.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster znižuje rozmazanie z trasúcich sa rúk. Môže byť užitočné pri fotografovaní v ťažkých podmienkach.</string>
-    <string name="pref_camera2_scene_mode_pro_instructional_content">V režime Pro môžete ručne ovládať nastavenia pre ISO, expozíciu, vyváženie bielej a zaostrenie. Budete mať ľahký prístup ku všetkým týmto pokročilým nastaveniam</string>
     <string name="pref_camera2_not_show_again">Nabudúce nezobrazovať</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_title">Okamžité AEC</string>
@@ -548,10 +547,9 @@
     <string name="pref_camera2_zsl_entry_disable">Vypnutá</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Softwérové ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Harvérové ZSL</string>
-    <string name="pref_camera2_afmode_entry_disable">Vypnúť</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">Úroveň 2</string>
+    <string name="pref_camera2_afmode_entry_disable">Vypnuté</string>
     <string name="pref_camera2_afmode_entry_off">Vypnutá</string>
-    <string name="pref_camera2_afmode_entry_auto">Auto</string>
-    <string name="pref_camera2_afmode_entry_macro">Makro</string>
     <string name="pref_camera2_switch_camera_title">Prepínanie fotoaparátu pomocou ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -559,11 +557,13 @@
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Čiernobiely</string>
     <string name="pref_camera2_initial_camera_entry_front">Predná</string>
-    <string name="pref_camera2_video_hdr_title">HDR video</string>
-    <string name="pref_camera2_video_hdr_entry_enable">Zapnúť</string>
-    <string name="pref_camera2_video_hdr_entry_disable">Vypnúť</string>
-    <string name="pref_camera2_capture_mfnr_entry_enable">Zapnúť</string>
-    <string name="pref_camera2_capture_mfnr_entry_disable">Vypnúť</string>
-    <string name="pref_camera2_capture_mfsr_entry_enable">Zapnúť</string>
-    <string name="pref_camera2_capture_mfsr_entry_disable">Vypnúť</string>
+    <string name="pref_camera2_eis_entry_disable">Vypnuté</string>
+    <string name="pref_camera2_fovc_entry_enable">Povolené</string>
+    <string name="pref_camera2_fovc_entry_disable">Vypnuté</string>
+    <string name="pref_camera2_video_hdr_entry_enable">Povolené</string>
+    <string name="pref_camera2_video_hdr_entry_disable">Vypnuté</string>
+    <string name="pref_camera2_capture_mfnr_entry_enable">Povolené</string>
+    <string name="pref_camera2_capture_mfnr_entry_disable">Vypnuté</string>
+    <string name="pref_camera2_capture_mfsr_entry_enable">Povolené</string>
+    <string name="pref_camera2_capture_mfsr_entry_disable">Vypnuté</string>
 </resources>

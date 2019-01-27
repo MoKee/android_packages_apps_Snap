@@ -517,16 +517,17 @@
     <string name="pref_camera2_bsgc_entry_disable">Онемогући</string>
     <string name="pref_camera2_zsl_title">Нулто кашњење окидача</string>
     <string name="pref_camera2_zsl_entry_disable">Искључено</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">Ниво 2</string>
     <string name="pref_camera2_afmode_entry_disable">Онемогућено</string>
     <string name="pref_camera2_afmode_entry_off">Искључено</string>
-    <string name="pref_camera2_afmode_entry_auto">Аутом.</string>
-    <string name="pref_camera2_afmode_entry_macro">Макро</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Моно</string>
     <string name="pref_camera2_initial_camera_entry_front">Предња</string>
-    <string name="pref_camera2_video_hdr_title">HDR видео</string>
+    <string name="pref_camera2_eis_entry_disable">Онемогућено</string>
+    <string name="pref_camera2_fovc_entry_enable">Омогућено</string>
+    <string name="pref_camera2_fovc_entry_disable">Онемогућено</string>
     <string name="pref_camera2_video_hdr_entry_enable">Омогућено</string>
     <string name="pref_camera2_video_hdr_entry_disable">Онемогућено</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Омогућено</string>

@@ -213,8 +213,6 @@
     <!-- Default Zoom setting. -->
     <string name="pref_camera_zoom_title">Խոշորացնել</string>
     <!-- Settings menu, Zoom choices -->
-    <string name="pref_camera2_afmode_entry_auto">Ինքնուրույն</string>
-    <string name="pref_camera2_afmode_entry_macro">Մակրո</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_front">Առջևի</string>

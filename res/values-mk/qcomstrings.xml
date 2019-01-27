@@ -211,6 +211,16 @@
     <!-- Default Zoom setting. -->
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera2_bsgc_entry_enable">Овозможи</string>
+    <string name="pref_camera2_afmode_entry_disable">Оневозможено</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
+    <string name="pref_camera2_eis_entry_disable">Оневозможено</string>
+    <string name="pref_camera2_fovc_entry_enable">Овозможено</string>
+    <string name="pref_camera2_fovc_entry_disable">Оневозможено</string>
+    <string name="pref_camera2_video_hdr_entry_enable">Овозможено</string>
+    <string name="pref_camera2_video_hdr_entry_disable">Оневозможено</string>
+    <string name="pref_camera2_capture_mfnr_entry_enable">Овозможено</string>
+    <string name="pref_camera2_capture_mfnr_entry_disable">Оневозможено</string>
+    <string name="pref_camera2_capture_mfsr_entry_enable">Овозможено</string>
+    <string name="pref_camera2_capture_mfsr_entry_disable">Оневозможено</string>
 </resources>

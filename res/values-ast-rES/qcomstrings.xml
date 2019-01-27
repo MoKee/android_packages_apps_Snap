@@ -547,22 +547,19 @@
     <string name="pref_camera2_zsl_entry_disable">Non</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Software ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Hardware ZSL</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">Nivel 2</string>
     <string name="pref_camera2_afmode_entry_disable">Deshabilitóse</string>
     <string name="pref_camera2_afmode_entry_off">Non</string>
-    <string name="pref_camera2_switch_camera_title">Cambiar cámara por ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
-    <string name="pref_camera2_switch_camera_title">Cambiar cámara por ID</string>
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Frontal</string>
     <string name="pref_camera2_eis_title">Videu EIS</string>
+    <string name="pref_camera2_eis_entry_disable">Deshabilitóse</string>
     <string name="pref_camera2_fovc_title">Videu FOVC</string>
-    <string name="pref_camera2_video_hdr_title">Videu HDR</string>
-    <string name="pref_camera2_video_hdr_entry_enable">Habilitóse</string>
+    <string name="pref_camera2_fovc_entry_disable">Deshabilitóse</string>
     <string name="pref_camera2_video_hdr_entry_disable">Deshabilitóse</string>
-    <string name="pref_camera2_capture_mfnr_entry_enable">Habilitóse</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Deshabilitóse</string>
-    <string name="pref_camera2_capture_mfsr_entry_enable">Habilitóse</string>
     <string name="pref_camera2_capture_mfsr_entry_disable">Deshabilitóse</string>
 </resources>
