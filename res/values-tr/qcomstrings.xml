@@ -197,10 +197,12 @@
     <string name="pref_camera_hfr_entry_3x">Ağır çekim 90 FPS</string>
     <string name="pref_camera_hfr_entry_4x">Ağır çekim 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Ağır çekim 240 FPS</string>
+    <string name="pref_camera_hfr_entry_16x">Ağır çekim 480 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Hızlı çekim 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Hızlı çekim 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Hızlı çekim 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Yüksek hız 240 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_480">Hızlı çekim 480 FPS</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -488,6 +490,9 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">Zaman atlama ile uzun bir video kaydını birkaç saniyelik videolara dönüştürebilirsiniz. Bu efekt videolara uygulanır, ancak fotoğraflarda geçerli değildir.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Geniş yatay fotoğraf çekmek için sola veya sağa kaydırmanızı sağlar. Ayrıca, uzun fotoğraf çekmek için yukarı veya aşağı hareket ettirebilirsiniz.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster titreyen eller yüzünden oluşan bulanıklığı düşürür. Bu zor yerlerde fotoğraf çekerken yardımcı olabilir.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">Pro modunda, ISO, pozlama, beyaz dengesi ve odak ayarlarını el ile kontrol edebilirsiniz. Bu gelişmiş ayarların tümüne kolaylıkla erişebilirsiniz.</string>
+    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">Derin yakınlaştırma moduyla, 2x veya 4x gelişmiş yakınlaştırmada fotoğraf çekebilirsiniz.</string>
+    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">Derin portre modu ile bulanık bir arka planla selfiler çekebilirsiniz. Bulanıklaştırma miktarını ayarlamak için kaydırıcıyı kullanabilirsiniz.</string>
     <string name="pref_camera2_not_show_again">Tekrar gösterme</string>
     <string name="pref_camera2_scene_mode_instructional_ok">TAMAM</string>
     <string name="pref_camera2_instant_aec_title">Anlık AEC</string>
@@ -548,9 +553,14 @@
     <string name="pref_camera2_zsl_entry_disable">Kapalı</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Yazılımsal ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Donanımsal ZSL</string>
+    <string name="pref_camera2_videoencoderprofile_title">Kodlayıcı profili</string>
+    <string name="pref_camera2_sharpness_control_entry_level1">Seviye 1 (varsayılan)</string>
     <string name="pref_camera2_sharpness_control_entry_level2">Seviye 2</string>
     <string name="pref_camera2_afmode_entry_disable">Devre dışı</string>
     <string name="pref_camera2_afmode_entry_off">Kapalı</string>
+    <string name="pref_camera2_afmode_entry_continuous_video">Sürekli video</string>
+    <string name="pref_camera2_afmode_entry_continuous_picture">Sürekli çekim</string>
+    <string name="pref_camera2_afmode_entry_edof">Genişletilmiş odak derinliği</string>
     <string name="pref_camera2_switch_camera_title">Kamerayı kullanıcıya göre değiştir</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -565,8 +575,15 @@
     <string name="pref_camera2_fovc_entry_disable">Devre dışı</string>
     <string name="pref_camera2_video_hdr_entry_enable">Etkin</string>
     <string name="pref_camera2_video_hdr_entry_disable">Devre dışı</string>
+    <string name="pref_camera2_stats_visualizer_title">İstatistik görüntüleyici</string>
+    <string name="pref_camera2_stats_visualizer_entry_disable">Tümünü devre dışı bırak</string>
+    <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG istatistikleri</string>
+    <string name="pref_camera2_stats_visualizer_entry_be_stats">BE istatistikleri</string>
+    <string name="pref_camera2_stats_visualizer_entry_hist_stats">Tarih istatistikleri</string>
+    <string name="pref_camera2_capture_mfnr_title">Çoklu kare gürültü azaltma</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Etkin</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Devre dışı</string>
+    <string name="pref_camera2_capture_mfsr_title">Çoklu kare süper çözünürlük</string>
     <string name="pref_camera2_capture_mfsr_entry_enable">Etkin</string>
     <string name="pref_camera2_capture_mfsr_entry_disable">Devre dışı</string>
 </resources>
