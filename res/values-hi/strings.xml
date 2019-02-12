@@ -528,7 +528,13 @@ CHAR LIMIT = NONE] -->
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">वॉलपेपर सेट हो रहा है</string>
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+    <string name="pref_camera2_category_system">प्रणाली</string>
+    <string name="save_best_dialog_positive_bt">ठीक है</string>
+    <string name="save_best_dialog_native_bt">रद्द करें</string>
+    <string name="delete_best_dialog_native_bt">रद्द करें</string>
     <string name="delete_best_dialog_positive_bt">हटाएं</string>
+    <string name="delete_all_best_dialog_native_bt">रद्द करें</string>
     <string name="delete_all_best_dialog_positive_bt">सब हटाएँ</string>
     <string name="overflow_best_item2">सब हटाएँ</string>
+    <string name="settings_title">सेटिंग</string>
 </resources>
