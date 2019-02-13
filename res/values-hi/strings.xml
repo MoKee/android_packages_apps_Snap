@@ -174,6 +174,7 @@
     <string name="pref_camera_timer_sound_title">उल्टी गिनती के दौरान बीप</string>
     <!-- Entry of camera save path -->
     <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
+    <string name="setting_off">बंद</string>
     <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
     <string name="setting_on">चालू</string>
     <!-- The value of a camera preference indicating the setting is off. -->
@@ -218,6 +219,7 @@
     <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
     <string name="pref_camera_flashmode_entry_on">चालू</string>
     <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
+    <string name="pref_camera_flashmode_entry_off">बंद</string>
     <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
     <string name="pref_camera_flashmode_label_auto">फ़्लैश अपनेआप:</string>
     <string name="pref_camera_flashmode_label_on">फ़्लैश चालू</string>
@@ -233,6 +235,7 @@
     <string name="pref_camera_whitebalance_entry_incandescent">अत्यधिक चमकीला</string>
     <string name="pref_camera_whitebalance_entry_daylight">दिन का प्रकाश</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">फ़्लोरेसेंट</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">बादल छाये हैं</string>
     <!-- Menu, White balance labels [CHAR LIMIT=50] -->
     <string name="pref_camera_whitebalance_label_auto">स्वत:</string>
     <string name="pref_camera_whitebalance_label_incandescent">अत्यधिक चमकीला</string>
@@ -257,6 +260,7 @@
     <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_action">कार्यवाही</string>
     <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_night">रात</string>
     <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_sunset">सूर्यास्त</string>
     <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
@@ -305,6 +309,7 @@
     <!-- switch camera label front [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_front">पीछे का कैमरा</string>
     <!-- Dialog "OK" button. Dismisses dialog. -->
+    <string name="dialog_ok">ठीक है</string>
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
     <string name="spaceIsLow_content" product="default">आपके SD कार्ड में स्थान कम है. गुणवत्ता सेटिंग बदलें या कुछ चित्र या अन्य फ़ाइलें हटाएं.</string>
     <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
@@ -396,6 +401,7 @@ CHAR LIMIT = NONE] -->
     <!-- Default text for a button that can be toggled on and off. -->
     <string name="capital_off">बंद</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+    <string name="pref_video_time_lapse_frame_interval_off">बंद</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <string name="pref_video_time_lapse_frame_interval_500">0.5 सेकंड</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -522,7 +528,13 @@ CHAR LIMIT = NONE] -->
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">वॉलपेपर सेट हो रहा है</string>
     <!-- Menu, Video rotation labels [CHAR LIMIT=50] -->
+    <string name="pref_camera2_category_system">प्रणाली</string>
+    <string name="save_best_dialog_positive_bt">ठीक है</string>
+    <string name="save_best_dialog_native_bt">रद्द करें</string>
+    <string name="delete_best_dialog_native_bt">रद्द करें</string>
     <string name="delete_best_dialog_positive_bt">हटाएं</string>
+    <string name="delete_all_best_dialog_native_bt">रद्द करें</string>
     <string name="delete_all_best_dialog_positive_bt">सब हटाएँ</string>
     <string name="overflow_best_item2">सब हटाएँ</string>
+    <string name="settings_title">सेटिंग</string>
 </resources>
