@@ -15,17 +15,17 @@
      limitations under the License.
 -->
 <resources>
-    <!-- QuickReader: switcher item for qr -->
-    <!-- QuickReader: dismiss button for dialogs -->
-    <!-- QuickReader: toast shown when there's no app installed to open the qr code content -->
-    <!-- QuickReader: permission error dialog title -->
-    <!-- QuickReader: permission error dialog message when permission can be asked again -->
-    <!-- QuickReader: permission error dialog positive action when permission can be asked again -->
-    <!-- QuickReader: permission error dialog message when permission can't be asked again -->
-    <!-- QuickReader: permission error dialog positive action when permission can't be asked again -->
-    <!-- QuickReader: scanned text dialog title -->
-    <!-- QuickReader: scanned text dialog positive button (copy to clipboard) -->
-    <!-- QuickReader: scanned text dialog negative button (share) -->
-    <!-- QuickReader: scanned text shared activity selector title -->
-    <!-- QuickReader: toast shown when the scanned text has been copied to the clipboard -->
+    <string name="accessibility_switch_to_qr">QR পাঠক</string>
+    <string name="quick_reader_action_dismiss">বৰ্খাস্ত কৰক</string>
+    <string name="quick_reader_no_activity_found">কোনো ইনষ্টল্ড এপ্পে এই সমলটো খোলিব নোৱাৰে</string>
+    <string name="quick_reader_permission_error_title">অনুমতিৰ ত্ৰুটি</string>
+    <string name="quick_reader_permission_rationale_message">বাৰক\'ডটো স্কেন কৰিবলৈ কেমেৰালৈ প্ৰৱেশৰ প্ৰয়োজন</string>
+    <string name="quick_reader_permission_rationale_positive">পুনৰ সোধক</string>
+    <string name="quick_reader_permission_fatal_message">কেমেৰালৈ প্ৰৱেশ বৰ্খাস্ত কৰা হৈছিল। অনুগ্ৰহ কৰি এপ্পটোৰ ছেটিংছত ইয়াৰ অনুমতি দিয়ক।</string>
+    <string name="quick_reader_permission_fatal_positive">ছেটিংছ খোলক</string>
+    <string name="quick_reader_scanned_text_title">স্কেন কৰা পাঠ</string>
+    <string name="quick_reader_scanned_text_positive">প্ৰতিলিপি</string>
+    <string name="quick_reader_scanned_text_negative">ভাগ-বতৰা</string>
+    <string name="quick_reader_share_title">\u2026ৰ সৈতে ভাগ-বতৰা কৰক</string>
+    <string name="quick_reader_copied_message">ক্লিপব\'ৰ্ডলৈ প্ৰতিলিপি কৰা হ\'ল</string>
 </resources>
