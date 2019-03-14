@@ -58,8 +58,8 @@
     <string name="pref_camera_manual_focus_entry_diopter_mode">Dioptria mód</string>
     <string name="pref_camera_manual_focus_entry_off">Ki</string>
     <string name="pref_camera_instant_capture_title">Azonnali felvétel</string>
-    <string name="pref_camera_instant_capture_entry_aggressive_aec">Agresszív automatikus expozíció</string>
-    <string name="pref_camera_instant_capture_entry_fast_aec">Gyors automatikus expozíció</string>
+    <string name="pref_camera_instant_capture_entry_aggressive_aec">Erőltetett automata expozíció (AEC)</string>
+    <string name="pref_camera_instant_capture_entry_fast_aec">Gyors automata expozíció (AEC)</string>
     <string name="pref_camera_instant_capture_entry_disable">Letiltás</string>
     <string name="pref_camera_zsl_entry_off">Ki</string>
     <string name="pref_camera_zsl_entry_on">Be</string>
@@ -332,7 +332,7 @@
     <string name="perf_camera2_preferences_category_photo">Rögzített kamera</string>
     <string name="perf_camera2_preferences_category_video">Videókamera</string>
     <string name="perf_camera2_preferences_category_system">Rendszer</string>
-    <string name="pref_camera2_scene_mode_dual_camera_instructional_content">Kettős kamera módban a képei tisztábbak lesznek. A dupla kamerával készült képeihez a Galériában szerkesztéskor hozzáadhat háttéreffekteket.</string>
+    <string name="pref_camera2_scene_mode_dual_camera_instructional_content">\'Duplakamera-módban\' a képei tisztábbak lesznek. A dupla kamerával készült képeihez a Galériában szerkesztéskor háttéreffekteket adhat hozzá.</string>
     <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">Az UbiFocus segítségével a kamera öt képet fog készíteni és összekombinálja őket egy képpé ahol minden a fókuszban van. Képkészítés után is újrafókuszálhat.</string>
     <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Használja az OptiZoomot amikor rá szeretne közelíteni egy éles képre. Rá tud közelíteni képkészítés előtt és után is.</string>
     <string name="pref_camera2_scene_mode_sports_instructional_content">A sportmód segít jobb sport vagy mozgást megörökítő képeket készíteni.\n\nA fotókat javítani tudja, de nem alkalmazható videórögzítésnél.</string>
@@ -349,10 +349,10 @@
     <string name="pref_camera2_scene_mode_deepportrait_instructional_content">A DeepPortrait mód használatával elmosódott hátterű szelfit készíthet. A csúszkával állíthatja a homályosítás mértékét.</string>
     <string name="pref_camera2_not_show_again">Ne mutassa újra</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
-    <string name="pref_camera2_instant_aec_title">Azonnali AEC</string>
+    <string name="pref_camera2_instant_aec_title">Azonnali automata expozíció (AEC)</string>
     <string name="pref_camera2_instant_aec_entry_disable">Letiltás</string>
-    <string name="pref_camera2_instant_aec_entry_aggressive">Agresszív automatikus expozíció</string>
-    <string name="pref_camera2_instant_aec_entry_fast">Gyors automatikus expozíció</string>
+    <string name="pref_camera2_instant_aec_entry_aggressive">Erőltetett automata expozíció (AEC)</string>
+    <string name="pref_camera2_instant_aec_entry_fast">Gyors automata expozíció (AEC)</string>
     <string name="pref_camera2_saturation_level_title">Telítettség</string>
     <string name="pref_camera2_saturation_level_entry_0">Szint 0</string>
     <string name="pref_camera2_saturation_level_entry_1">Szint 1</string>
@@ -407,7 +407,7 @@
     <string name="pref_camera2_zsl_entry_hal_zsl">Hardveres ZSL</string>
     <string name="pref_camera2_videoencoderprofile_title">Kódolási profil</string>
     <string name="pref_camera2_sharpness_control_entry_level1">Szint 1 (Alapértelmezés)</string>
-    <string name="pref_camera2_sharpness_control_entry_level2">Szint 2</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">2 szint</string>
     <string name="pref_camera2_afmode_entry_disable">Letiltva</string>
     <string name="pref_camera2_afmode_entry_off">Ki</string>
     <string name="pref_camera2_afmode_entry_continuous_video">Folyamatos videó</string>
