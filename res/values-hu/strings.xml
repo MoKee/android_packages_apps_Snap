@@ -272,8 +272,8 @@
     <string name="remember_location_yes">Igen</string>
     <string name="camera_menu_more_label">TOVÁBBI LEHETŐSÉGEK</string>
     <string name="camera_menu_settings_label">BEÁLLÍTÁSOK</string>
-    <string name="create_tiny_planet">Kisbolygó létrehozása</string>
-    <string name="saving_tiny_planet">Kisbolygó mentése…</string>
+    <string name="create_tiny_planet">Kisbolygó (gömbpanoráma) létrehozása</string>
+    <string name="saving_tiny_planet">Kisbolygó (gömbpanoráma) mentése…</string>
     <string name="tiny_planet_zoom">Zoomolás</string>
     <string name="tiny_planet_rotate">Elforgatás</string>
     <string name="crop_save">Mentés</string>

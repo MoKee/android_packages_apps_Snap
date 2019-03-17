@@ -345,6 +345,7 @@
     <string name="pref_camera2_histogram_title">Хистограма</string>
     <string name="pref_camera2_histogram_entry_enable">Разрешено</string>
     <string name="pref_camera2_histogram_entry_disable">Деактивирай</string>
+    <string name="pref_camera2_hdr_title">HDR</string>
     <string name="pref_camera2_hdr_entry_enable">Разрешено</string>
     <string name="pref_camera2_hdr_entry_disable">Деактивирай</string>
     <string name="pref_camera2_auto_hdr_title">Aвтоматичен HDR</string>
