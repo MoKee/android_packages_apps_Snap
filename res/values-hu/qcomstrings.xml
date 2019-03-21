@@ -344,8 +344,8 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">A Time lapse használatával átalakíthat hosszú videókat pár másodperces videókká. Ez az effekt csak videókon alkalmazható.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Lehetővé teszi a bal vagy jobb oldali mozgással, hogy széles panoráma tájképet készítsen. Ugyanígy alkalmazhatja a szolgáltatást fel és le mozgással is.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">A BlurBuster csökkenti a remegő kezek okozta elmosódást. Hasznos lehet kényelmetlen testhelyzetben készített fotóknál.</string>
-    <string name="pref_camera2_scene_mode_pro_instructional_content">Pró módban manuálisan állíthatja be az ISO, az exponálás, a fehéregyensúly és a fókusz beállításait. Könnyen hozzáférhet az összes haladó beállításhoz.</string>
-    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">DeepZoom módban lehetősége van 2x-es vagy 4x-es fejlesztett nagyításra.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">Professzionális-módban manuálisan adhatja meg az ISO, az exponálás, a fehéregyensúly és a fókusz beállításait. Könnyű hozzáférést biztosít az összes haladó beállításhoz.</string>
+    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">DeepZoom módban lehetősége van 2x-es vagy 4x-es továbbfejlesztett nagyításra.</string>
     <string name="pref_camera2_scene_mode_deepportrait_instructional_content">A DeepPortrait mód használatával elmosódott hátterű szelfit készíthet. A csúszkával állíthatja a homályosítás mértékét.</string>
     <string name="pref_camera2_not_show_again">Ne mutassa újra</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
@@ -406,7 +406,7 @@
     <string name="pref_camera2_zsl_entry_app_zsl">Szoftveres ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Hardveres ZSL</string>
     <string name="pref_camera2_videoencoderprofile_title">Kódolási profil</string>
-    <string name="pref_camera2_sharpness_control_entry_level1">Szint 1 (Alapértelmezés)</string>
+    <string name="pref_camera2_sharpness_control_entry_level1">1 szint (Alapértelmezett)</string>
     <string name="pref_camera2_sharpness_control_entry_level2">2 szint</string>
     <string name="pref_camera2_afmode_entry_disable">Letiltva</string>
     <string name="pref_camera2_afmode_entry_off">Ki</string>
@@ -419,7 +419,7 @@
     <string name="pref_camera2_initial_camera_entry_mono">Fekete-fehér</string>
     <string name="pref_camera2_initial_camera_entry_front">Elülső</string>
     <string name="pref_camera2_eis_title">EIS Videó</string>
-    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 és állítsa be amikor szünetelteti</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 és állítsa be amikor szünetel</string>
     <string name="pref_camera2_eis_entry_disable">Letiltva</string>
     <string name="pref_camera2_fovc_title">FOVC Videó</string>
     <string name="pref_camera2_fovc_entry_enable">Engedélyezve</string>
