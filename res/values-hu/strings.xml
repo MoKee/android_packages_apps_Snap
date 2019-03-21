@@ -213,9 +213,9 @@
     <string name="accessibility_switch_to_panorama">Váltás panorámaképre</string>
     <string name="accessibility_switch_to_photo_sphere">Váltás körpanorámaképre</string>
     <string name="accessibility_switch_to_gcam">Váltás jó minőségre</string>
-    <string name="accessibility_review_cancel">Ellenőrzés megszakítása</string>
-    <string name="accessibility_review_ok">Elkészült az ellenőrzés</string>
-    <string name="accessibility_review_retake">Ellenőrzés – új felvétel</string>
+    <string name="accessibility_review_cancel">Felülvizsgálat megszakítása</string>
+    <string name="accessibility_review_ok">A felülvizsgálat elkészült</string>
+    <string name="accessibility_review_retake">Felülvizsgálat ismétlése</string>
     <string name="capital_on">BE</string>
     <string name="capital_off">KI</string>
     <string name="pref_video_time_lapse_frame_interval_off">Ki</string>
