@@ -84,6 +84,7 @@
     <string name="camera_error_title">ಕ್ಯಾಮರಾ ದೋಷ</string>
     <string name="cannot_connect_camera">ಕ್ಯಾಮರಾಕ್ಕೆ ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.</string>
     <string name="camera_disabled">ಭದ್ರತಾ ನೀತಿಗಳ ಕಾರಣದಿಂದಾಗಿ ಕ್ಯಾಮರಾ ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ.</string>
+    <string name="error_permissions">ಈ ಕಿರುತಂತ್ರಾಂಶವು ಚಲಿಸಲು ನಿರ್ಣಾಯಕ ಪರವಾನಗಿಗಳು ಲಭ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪರವಾನಗಿಗಳ ಸಂಯೋಜನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.</string>
     <string name="dialog_dismiss">ವಜಾ ಮಾಡು</string>
     <string name="wait">ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ…</string>
     <string name="no_storage" product="default">ಕ್ಯಾಮರಾ ಉಪಯೋಗಿಸುವ ಮುನ್ನ ಒಂದು SD ಕಾರ್ಡ್ ಸೇರ್ಪಡೆಗೊಳಿಸಿ.</string>

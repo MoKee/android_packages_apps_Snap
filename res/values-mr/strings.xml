@@ -268,6 +268,6 @@
     <string name="setting_wallpaper">वॉलपेपर सेट करत आहे</string>
     <string name="save_best_dialog_positive_bt">ठीक आहे</string>
     <string name="delete_best_dialog_positive_bt">हटवायचे?</string>
-    <string name="delete_all_best_dialog_positive_bt">"सर्व हटवा"</string>
-    <string name="overflow_best_item2">"सर्व हटवा"</string>
+    <string name="delete_all_best_dialog_positive_bt">सर्व हटवा</string>
+    <string name="overflow_best_item2">सर्व हटवा</string>
 </resources>
