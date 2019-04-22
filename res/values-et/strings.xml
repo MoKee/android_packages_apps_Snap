@@ -260,6 +260,7 @@
     <string name="cannot_load_image">Pilti ei saa laadida!</string>
     <string name="switch_photo_filmstrip">Filmiribakuva</string>
     <string name="setting_wallpaper">Taustapildi määramine</string>
+    <string name="pref_camera2_category_system">Süsteem</string>
     <string name="delete_best_dialog_positive_bt">Kustuta</string>
     <string name="delete_all_best_dialog_positive_bt">Kustuta kõik</string>
     <string name="overflow_best_item2">Kustuta kõik</string>
