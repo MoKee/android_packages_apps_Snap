@@ -15,5 +15,17 @@
      limitations under the License.
 -->
 <resources>
+    <string name="accessibility_switch_to_qr">QR koodi lugeja</string>
+    <string name="quick_reader_action_dismiss">Tühista</string>
+    <string name="quick_reader_no_activity_found">Ükski paigaldatud rakendus ei suuda seda sisu avada</string>
+    <string name="quick_reader_permission_error_title">Lubamise tõrge</string>
+    <string name="quick_reader_permission_rationale_message">Ribakoodi skaneerimiseks on vaja lubada kaamera</string>
+    <string name="quick_reader_permission_rationale_positive">Küsi uuesti</string>
+    <string name="quick_reader_permission_fatal_message">Kaamera juurdepääs keelati. Palun lubage see rakenduse seadetest</string>
+    <string name="quick_reader_permission_fatal_positive">Ava seaded</string>
+    <string name="quick_reader_scanned_text_title">Skaneeritud tekst</string>
+    <string name="quick_reader_scanned_text_positive">Kopeeri</string>
     <string name="quick_reader_scanned_text_negative">Jaga</string>
+    <string name="quick_reader_share_title">Jaga \u2026</string>
+    <string name="quick_reader_copied_message">Kopeeritud lõikelauale</string>
 </resources>
