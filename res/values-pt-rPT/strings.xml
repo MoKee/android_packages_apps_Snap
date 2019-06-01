@@ -50,7 +50,7 @@
     <string name="trim_action">Cortar</string>
     <string name="set_as">Definir como</string>
     <string name="video_err">Impossível reproduzir vídeo.</string>
-    <string name="crop_saved">Imagem recortada guardada em <xliff:g id="FOLDER_NAME">%s</xliff:g>.</string>
+    <string name="crop_saved">        Imagem recortada guardada em <xliff:g id="folder_name">%s</xliff:g>.</string>
     <string name="title">Título</string>
     <string name="description">Descrição</string>
     <string name="time">Hora</string>
@@ -64,10 +64,14 @@
     <string name="file_size">Tamanho do ficheiro</string>
     <string name="maker">Fabricante</string>
     <string name="model">Modelo</string>
+    <string name="flash">Flash</string>
     <string name="aperture">Abertura</string>
     <string name="focal_length">Distância focal</string>
     <string name="white_balance">Equilíbrio dos brancos</string>
     <string name="exposure_time">Tempo de exposição</string>
+    <string name="iso">ISO</string>
+    <string name="unit_mm">mm</string>
+    <string name="manual">Manual</string>
     <string name="auto">Automático</string>
     <string name="flash_on">Flash disparado</string>
     <string name="flash_off">Sem flash</string>
@@ -110,8 +114,10 @@
     <string name="pref_camera_focusmode_title">Modo de focagem</string>
     <string name="pref_camera_focusmode_entry_auto">Automático</string>
     <string name="pref_camera_focusmode_entry_infinity">Infinito</string>
+    <string name="pref_camera_focusmode_entry_macro">Macro</string>
     <string name="pref_camera_focusmode_label_auto">AUTOMÁTICO</string>
     <string name="pref_camera_focusmode_label_infinity">INFINITO</string>
+    <string name="pref_camera_focusmode_label_macro">MACRO</string>
     <string name="pref_camera_flashmode_title">Modo Flash</string>
     <string name="pref_camera_flashmode_entry_auto">Automático</string>
     <string name="pref_camera_flashmode_entry_on">Ativado</string>
@@ -133,6 +139,8 @@
     <string name="pref_camera_whitebalance_label_cloudy">NUBLADO</string>
     <string name="pref_camera_scenemode_title">Modo de cenário</string>
     <string name="pref_camera_scenemode_entry_auto">Automático</string>
+    <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
+    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ ATIVADO</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">HDR+ DESATIVADO</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR ATIVADO</string>
@@ -163,6 +171,7 @@
     <string name="disable_NR_during_SeeMore">O modo SeeMore irá desativar o modo de redução de ruído.</string>
     <string name="pref_exposure_title">Exposição</string>
     <string name="pref_exposure_label">EXPOSIÇÃO</string>
+    <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">CÂMARA FRONTAL</string>
     <string name="pref_camera_id_label_front">CÂMARA POSTERIOR</string>
     <string name="dialog_ok">OK</string>
@@ -171,6 +180,7 @@
     <string name="pano_too_fast_prompt">Muito rápido</string>
     <string name="pano_dialog_prepare_preview">A preparar o panorama</string>
     <string name="pano_dialog_panorama_failed">Não foi possível guardar o panorama.</string>
+    <string name="pano_dialog_title">Panorama</string>
     <string name="pano_capture_indication">A capturar panorama</string>
     <string name="pano_dialog_waiting_previous">A aguardar pelo panorama anterior</string>
     <string name="pano_review_saving_indication_str">A guardar\u2026</string>
@@ -264,12 +274,18 @@
     <string name="camera_menu_settings_label">DEFINIÇÕES</string>
     <string name="create_tiny_planet">Criar planeta pequeno</string>
     <string name="saving_tiny_planet">A guardar planeta pequeno…</string>
+    <string name="tiny_planet_zoom">Zoom</string>
     <string name="tiny_planet_rotate">Rodar</string>
     <string name="crop_save">Guardar</string>
     <string name="cannot_load_image">Não é possível carregar a imagem!</string>
     <string name="switch_photo_filmstrip">Vista de película</string>
     <string name="setting_wallpaper">A definir imagem de fundo</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d restante(s)</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">A Maquiagem funciona apenas em tamanhos inferiores a VGA para a gravação de vídeo.</string>
     <string name="pref_camera2_category_system">Sistema</string>
     <string name="pref_camera2_restore_default">Repor predefinições</string>
