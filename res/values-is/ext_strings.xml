@@ -16,17 +16,5 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="pref_camera_scenemode_entry_asd">Besta taka</string>
-    <string name="pref_camera_scenemode_entry_cine">Bíó</string>
-    <string name="pref_camera_scenemode_entry_nightportrait">Andlit um nótt</string>
-    <string name="pref_camera_scenemode_entry_nightindoor">Innandyra um nótt</string>
-    <string name="pref_camera_scenemode_entry_spotlight">Ljóskastari</string>
-    <string name="pref_camera_scenemode_entry_steadyphoto">Stöðug mynd</string>
-    <string name="pref_camera_coloreffect_entry_vintage_warm">Gamaldags hlýlegt</string>
-    <string name="pref_camera_coloreffect_entry_vintage_cold">Gamaldags kuldalegt</string>
-    <string name="pref_camera_coloreffect_entry_point_blue">Blár punktur</string>
-    <string name="pref_camera_coloreffect_entry_point_green">Grænn punktur</string>
-    <string name="pref_camera_coloreffect_entry_point_red_yellow">Rauð-gulur punktur</string>
-    <string name="developer_menu_enabled">Þú hefur virkjað ítarlega valkosti myndavélar</string>
-    <string name="developer_menu_disabled">Þú hefur gert ítarlega valkosti myndavélar óvirka</string>
+    <string name="pref_camera_focusmode_entry_fixed">Fast</string>
 </resources>
