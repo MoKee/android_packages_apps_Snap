@@ -17,8 +17,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="pref_camera_scenemode_entry_portrait">चित्र</string>
+    <string name="pref_camera_scenemode_entry_portrait">सीधा</string>
     <string name="pref_camera_focusmode_entry_fixed">निर्धारित</string>
     <string name="pref_camera_focusmode_entry_normal">सामान्य</string>
-    <string name="pref_camera_focusmode_entry_portrait">चित्र</string>
+    <string name="pref_camera_focusmode_entry_portrait">सीधा</string>
 </resources>
