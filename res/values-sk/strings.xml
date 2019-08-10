@@ -292,6 +292,7 @@
     <string name="cannot_load_image">Obrázok sa nepodarilo načítať!</string>
     <string name="switch_photo_filmstrip">Zobrazenie filmového pásu</string>
     <string name="setting_wallpaper">Prebieha nastavovanie tapety</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>
