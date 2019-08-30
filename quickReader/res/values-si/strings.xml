@@ -15,5 +15,7 @@
      limitations under the License.
 -->
 <resources>
+    <string name="quick_reader_action_dismiss">ඉවත් කරන්න</string>
+    <string name="quick_reader_permission_rationale_positive">නැවත විමසන්න</string>
     <string name="quick_reader_scanned_text_negative">බෙදාගන්න</string>
 </resources>
