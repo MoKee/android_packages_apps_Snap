@@ -79,6 +79,7 @@
     <string name="camera_error_title">කැමරා දෝෂය</string>
     <string name="cannot_connect_camera">කැමරාව වෙත සම්බන්ධ කළ නොහැක.</string>
     <string name="camera_disabled">ආරක්ෂණ ප්‍රතිපත්ති නිසා කැමරාව අබල කර ඇත.</string>
+    <string name="dialog_dismiss">ඉවත් කරන්න</string>
     <string name="wait">කරුණාකර රැඳී සිටින්න...</string>
     <string name="no_storage" product="default">කැමරාව භාවිතා කිරීමට පෙර SD කාඩ් පතක් ඇතුලු කරන්න.</string>
     <string name="preparing_sd" product="default">SD කාඩ්පත පිළියෙළ කෙරේ…</string>
