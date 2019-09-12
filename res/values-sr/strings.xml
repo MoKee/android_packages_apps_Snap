@@ -73,6 +73,7 @@
     <string name="focal_length">Жижна даљина</string>
     <string name="white_balance">Баланс беле</string>
     <string name="exposure_time">Време експозиције</string>
+    <string name="iso">ISO</string>
     <string name="unit_mm">мм</string>
     <string name="manual">Ручно</string>
     <string name="auto">Аутоматски</string>
@@ -143,6 +144,8 @@
     <string name="pref_camera_whitebalance_label_cloudy">ОБЛАЧНО</string>
     <string name="pref_camera_scenemode_title">Режим сцене</string>
     <string name="pref_camera_scenemode_entry_auto">Аутоматски</string>
+    <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
+    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ УКЉУЧЕН</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">HDR+ ИСКЉУЧЕН</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR УКЉУЧЕН</string>
@@ -173,6 +176,7 @@
     <string name="disable_NR_during_SeeMore">SeeMore ће онемогућити смањивање шума.</string>
     <string name="pref_exposure_title">Експозиција</string>
     <string name="pref_exposure_label">ЕКСПОЗИЦИЈА</string>
+    <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">ПРЕДЊА КАМЕРА</string>
     <string name="pref_camera_id_label_front">ЗАДЊА КАМЕРА</string>
     <string name="dialog_ok">У реду</string>
@@ -205,6 +209,7 @@
     <string name="effect_silly_faces">ГРИМАСЕ</string>
     <string name="effect_background">ПОЗАДИНА</string>
     <string name="accessibility_shutter_button">Окидач</string>
+    <string name="accessibility_exit_best_mode_button">Изађи из режима најбоље фотографије</string>
     <string name="accessibility_menu_button">Дугме „Мени“</string>
     <string name="accessibility_mode_picker">Пребацивање између режима „Фото“, „Видео“ и „Панорама“</string>
     <string name="accessibility_check_box">Поље за потврду %1$s</string>
@@ -280,15 +285,36 @@
     <string name="cannot_load_image">Не могу да учитам слику!</string>
     <string name="switch_photo_filmstrip">Приказ филмске траке</string>
     <string name="setting_wallpaper">Подешавање тапета</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">Преостало: %d</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Функција „Шминка“ ради само при снимању видеа у формату VGA.</string>
     <string name="pref_camera2_category_system">Систем</string>
+    <string name="pref_camera2_restore_default">Врати на подразумевано</string>
+    <string name="pref_camera2_restore_default_hint">Подешавања камере биће враћена на подразумеване вредности</string>
+    <plurals name="save_best_dialog_content">
+        <item quantity="one">%1$d од 10 слика ће бити сачуване, а остале ће бити избрисане</item>
+        <item quantity="few">%1$d од 10 слика ће бити сачуване, а остале ће бити избрисане</item>
+        <item quantity="other">%1$d од 10 слика ће бити сачуване, а остале ће бити избрисане</item>
+    </plurals>
+    <string name="save_best_dialog_title">Сачувај одабране слике?</string>
     <string name="save_best_dialog_positive_bt">У реду</string>
     <string name="save_best_dialog_native_bt">Откажи</string>
+    <plurals name="save_best_image_toast">
+        <item quantity="one">%1$d од 10 слика сачувано.</item>
+        <item quantity="few">%1$d од 10 слика сачувано.</item>
+        <item quantity="other">%1$d од 10 слика сачувано.</item>
+    </plurals>
+    <string name="dialog_do_not_show">Не приказуј поново</string>
     <string name="delete_best_dialog_title">Обриши све?</string>
+    <string name="delete_best_dialog_content">Да ли сте сигурни да желите обришете свих 10 усликаних фотографија?</string>
     <string name="delete_best_dialog_native_bt">Откажи</string>
     <string name="delete_best_dialog_positive_bt">Обриши</string>
     <string name="delete_all_best_dialog_title">Обриши све?</string>
+    <string name="delete_all_best_dialog_content">Да ли сте сигурни да желите да избришете све слике?</string>
     <string name="delete_all_best_dialog_native_bt">Откажи</string>
     <string name="delete_all_best_dialog_positive_bt">Избриши све</string>
     <string name="overflow_best_item1">Сачувај све</string>
