@@ -403,7 +403,6 @@
     <string name="pref_camera2_afmode_entry_disable">Не задзейнічана</string>
     <string name="pref_camera2_afmode_entry_off">Адключана</string>
     <string name="pref_camera2_switch_camera_title">Пераключыць камеру па ID</string>
-    <string name="pref_camera2_switch_camera_title">Пераключыць камеру па ID</string>
     <string name="pref_camera2_initial_camera_entry_bayer">Байер</string>
     <string name="pref_camera2_initial_camera_entry_mono">Ч/Б</string>
     <string name="pref_camera2_initial_camera_entry_front">Франтальная</string>

@@ -334,7 +334,7 @@
     <string name="perf_camera2_preferences_category_system">Систем</string>
     <string name="pref_camera2_scene_mode_dual_camera_instructional_content">У дуалном моду камере слика ће бити чистија. Можете употребити ефекте на позадини директно у Галерији.</string>
     <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">Употребом UbiFocus опције камера прави пет слика и комбиније их у једну где су све слике у фокусу. Такође имате опцију да урадите поновно фокусирање после сликања.</string>
-    <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Користите OptiZoom за зумирање и изоштравање слике. Зумиранје може да се обави и прије и после сликања.</string>
+    <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Користите OptiZoom за зумирање и изоштравање слике. Зумирање може да се обави и прије и после сликања.</string>
     <string name="pref_camera2_scene_mode_sports_instructional_content">Sports mod помаже сликање у покрету или акцији.\n\nМод поправља квалитет слика али нема утицај на видео снимке.</string>
     <string name="pref_camera2_scene_mode_hdr_instructional_content">У неравномерном и слабо осветљеном окружењу препоручена је употреба\"HDR\" мода за квалитетније слике.</string>
     <string name="pref_camera2_scene_mode_best_photo_instructional_content">Опција за прављење групе од 10 слика и одабир најбоље од њих или чак више њих.</string>
@@ -413,7 +413,6 @@
     <string name="pref_camera2_afmode_entry_continuous_video">Непрекидни видео</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Непрекидна слика</string>
     <string name="pref_camera2_afmode_entry_edof">Проширена дубина фокуса</string>
-    <string name="pref_camera2_switch_camera_title">Switch camera by ID</string>
     <string name="pref_camera2_switch_camera_title">Switch camera by ID</string>
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Моно</string>

@@ -403,7 +403,6 @@
     <string name="pref_camera2_afmode_entry_disable">Đã tắt</string>
     <string name="pref_camera2_afmode_entry_off">Tắt</string>
     <string name="pref_camera2_switch_camera_title">Chuyển máy ảnh bằng ID</string>
-    <string name="pref_camera2_switch_camera_title">Chuyển máy ảnh bằng ID</string>
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Đơn sắc</string>
     <string name="pref_camera2_initial_camera_entry_front">Trước</string>
