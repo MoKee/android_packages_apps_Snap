@@ -34,14 +34,14 @@ LOCAL_STATIC_JAVA_AAR_LIBRARIES += \
     qreader-core \
     qreader-zxing
 
-LOCAL_JAVA_LIBRARIES := org.lineageos.platform.internal
+LOCAL_JAVA_LIBRARIES := org.mokee.platform.internal
 
 LOCAL_PACKAGE_NAME := Snap
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRIVATE_PLATFORM_APIS := true
 LOCAL_CERTIFICATE := platform
 
-LOCAL_AAPT_FLAGS += --rename-manifest-package org.lineageos.snap
+LOCAL_AAPT_FLAGS += --rename-manifest-package org.mokee.snap
 
 #LOCAL_SDK_VERSION := current
 LOCAL_RENDERSCRIPT_TARGET_API := 23

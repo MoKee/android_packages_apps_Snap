@@ -7,8 +7,6 @@
         android:minSdkVersion="23"
         android:targetSdkVersion="28" />
 
-    <original-package android:name="org.cyanogenmod.snap" />
-
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -177,7 +175,7 @@
         </activity>
 
         <activity
-            android:name="org.lineageos.quickreader.ScannerActivity"
+            android:name="org.mokee.quickreader.ScannerActivity"
             android:label="@string/quick_reader_name"
             android:theme="@style/AppTheme" />
 
