@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.quickreader;
+package org.mokee.quickreader;
 
 import android.Manifest;
 import android.app.Activity;
