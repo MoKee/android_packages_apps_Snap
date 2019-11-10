@@ -1,0 +1,4 @@
+res/values-*/ext_strings.xml merge=ours
+res/values-*/qcomstrings.xml merge=ours
+res/values-*/strings.xml merge=ours
+quickReader/res/values-*/strings.xml merge=ours
