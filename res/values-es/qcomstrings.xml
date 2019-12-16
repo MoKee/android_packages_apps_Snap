@@ -421,6 +421,8 @@
     <string name="pref_camera2_video_hdr_entry_disable">Deshabilitada</string>
     <string name="pref_camera2_stats_visualizer_title">Visualizador de estadísticas</string>
     <string name="pref_camera2_stats_visualizer_entry_disable">Deshabilitar todo</string>
+    <string name="pref_camera2_stats_visualizer_entry_bg_stats">Estadísticas de BG</string>
+    <string name="pref_camera2_stats_visualizer_entry_be_stats">Estadísticas de BE</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Activo</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Deshabilitada</string>
     <string name="pref_camera2_capture_mfsr_entry_enable">Activo</string>
