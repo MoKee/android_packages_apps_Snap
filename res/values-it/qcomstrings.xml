@@ -416,6 +416,8 @@
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Anteriore</string>
     <string name="pref_camera2_eis_title">Video EIS</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
     <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 e imposta quando in pausa</string>
     <string name="pref_camera2_eis_entry_disable">Disattivato</string>
     <string name="pref_camera2_fovc_title">Video FOVC</string>
@@ -431,6 +433,7 @@
     <string name="pref_camera2_capture_mfnr_title">Riduzione del rumore multi-scatto</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Attivato</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Disattivato</string>
+    <string name="pref_camera2_fs2_title">Scatto rapido</string>
     <string name="pref_camera2_fs2_entry_enable">Attivato</string>
     <string name="pref_camera2_fs2_entry_disable">Disattivato</string>
     <string name="pref_camera2_abort_captures_entry_enable">Attivato</string>
