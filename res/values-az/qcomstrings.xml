@@ -31,7 +31,6 @@
     <string name="pref_camera_videoencoder_title">Video kodlayıcı</string>
     <string name="pref_camera_videoencoder_dialogtitle">Video kodlayıcı</string>
     <string name="pref_camera_audioencoder_title">Səs kodlayıcı</string>
-    <string name="pref_camera_skinToneEnhancement_default">sıradan çıxart</string>
     <string name="pref_camera_skinToneEnhancement_title">Dəri tonu gücləndirilməsi</string>
     <string name="pref_camera_skinToneEnhancement_entry_enable">Fəaldır</string>
     <string name="pref_camera_skinToneEnhancement_entry_disable">Sıradan çıxart</string>

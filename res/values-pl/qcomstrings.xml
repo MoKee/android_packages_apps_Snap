@@ -108,6 +108,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Autobracketing ekspozycji</string>
     <string name="pref_camera_ae_bracket_hdr_title">Autobracketing ekspozycji</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Włączone</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Wyłącz</string>
     <string name="err_app_unsupport_ae_bracket_code">Autobracketing nie jest jeszcze wspierany</string>
     <string name="snapshot_lower_than_video">Rozmiar zrzutu jest mniejszy niż rozmiar wideo. Ustaw rozdzielczość większą lub równą aktualnej wielkości wideo.</string>
     <string name="snapshotsize_low_powermode">Zmiana rozmiaru obrazka w trybie niskiego poboru energii nie jest wspierana. Zostanie wykonany zrzut o rozdzielczości wideo. Wybierz standardowy tryb pracy, aby zmienić rozmiar obrazka.</string>

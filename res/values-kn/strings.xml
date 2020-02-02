@@ -61,6 +61,7 @@
     <string name="width">ಅಗಲ</string>
     <string name="height">ಎತ್ತರ</string>
     <string name="orientation">ಓರಿಯಂಟೇಶನ್ಟ</string>
+    <string name="duration">ಅವಧಿ</string>
     <string name="mimetype">MIME ವಿಧ</string>
     <string name="file_size">ಫೈಲ್ ಗಾತ್ರ</string>
     <string name="maker">ಮೇಕರ್</string>
@@ -83,6 +84,7 @@
     <string name="camera_error_title">ಕ್ಯಾಮರಾ ದೋಷ</string>
     <string name="cannot_connect_camera">ಕ್ಯಾಮರಾಕ್ಕೆ ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.</string>
     <string name="camera_disabled">ಭದ್ರತಾ ನೀತಿಗಳ ಕಾರಣದಿಂದಾಗಿ ಕ್ಯಾಮರಾ ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ.</string>
+    <string name="dialog_dismiss">ವಜಾ ಮಾಡು</string>
     <string name="wait">ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ…</string>
     <string name="no_storage" product="default">ಕ್ಯಾಮರಾ ಉಪಯೋಗಿಸುವ ಮುನ್ನ ಒಂದು SD ಕಾರ್ಡ್ ಸೇರ್ಪಡೆಗೊಳಿಸಿ.</string>
     <string name="preparing_sd" product="default">SD ಕಾರ್ಡ್ ಸಿದ್ದಗೊಳ್ಳುತ್ತಿದೆ\u2026</string>
@@ -92,6 +94,7 @@
     <string name="pref_camera_id_title">ಕ್ಯಾಮರಾ ಆಯ್ಕೆಗೊಳಿಸಿ</string>
     <string name="pref_camera_id_entry_back">ಹಿಂದೆ</string>
     <string name="pref_camera_id_entry_front">ಮುಂದೆ</string>
+    <string name="pref_camera_recordlocation_title">GPS ಸ್ಥಳ</string>
     <string name="pref_camera_location_label">ಸ್ಥಾನ</string>
     <string name="pref_camera_timer_title">ಕೌಂಟ್‌ಡೌನ್ ಟೈಮರ್</string>
     <plurals name="pref_camera_timer_entry">
@@ -99,6 +102,7 @@
         <item quantity="other">%d ಸೆಕೆಂಡುಗಳು</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">ಕೌಂಟ್‌ಡೌನ್ ವೇಳೆ ಬೀಪ್</string>
+    <string name="pref_camera_savepath_entry_0">ಫೋನ್</string>
     <string name="setting_off">ಆಫ್ ಆಗಿದೆ</string>
     <string name="setting_on">ಆನ್ ಆಗಿದೆ</string>
     <string name="pref_video_quality_title">ವೀಡಿಯೋ ಗುಣಮಟ್ಟ</string>
@@ -231,6 +235,7 @@
     <string name="pref_video_time_lapse_frame_interval_720000">12 ನಿಮಿಷಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_900000">15 ನಿಮಿಷಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_1440000">24 ನಿಮಿಷಗಳು</string>
+    <string name="pref_video_time_lapse_frame_interval_1800000">0.5 ಗಂಟೆಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_3600000">1 ಗಂಟೆ</string>
     <string name="pref_video_time_lapse_frame_interval_5400000">1.5 ಗಂಟೆ</string>
     <string name="pref_video_time_lapse_frame_interval_7200000">2 ಗಂಟೆಗಳು</string>
@@ -239,6 +244,7 @@
     <string name="pref_video_time_lapse_frame_interval_14400000">4 ಗಂಟೆಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_18000000">5 ಗಂಟೆಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_21600000">6 ಗಂಟೆಗಳು</string>
+    <string name="pref_video_time_lapse_frame_interval_36000000">10 ಗಂಟೆಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_43200000">12 ಗಂಟೆಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_54000000">15 ಗಂಟೆಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_86400000">24 ಗಂಟೆಗಳು</string>

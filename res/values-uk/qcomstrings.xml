@@ -107,6 +107,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE брекетинг</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE брекетинг</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Увімк</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Вимкнути</string>
     <string name="err_app_unsupport_ae_bracket_code">AE брекетинг не підтримується</string>
     <string name="snapshot_lower_than_video">Роздільна здатність фотознімку менша, ніж роздільна здатність відеозйомки. Виберіть роздільну здатність вищу або рівну роздільній здатності відеозйомки.</string>
     <string name="snapshotsize_low_powermode">Зміна роздільної здатності зображення неможлива в режимі низького енергоспоживання. Перейдіть в режим нормального енергоспоживання для використання цієї функції.</string>
@@ -278,6 +279,7 @@
     <string name="pref_camera2_camera2_entry_enable">Увімкнути</string>
     <string name="pref_camera2_camera2_entry_disable">Вимкнути</string>
     <string name="pref_camera2_mono_only_title">Тільки моно</string>
+    <string name="pref_camera2_mono_only_entry_on">Увімкнено</string>
     <string name="pref_camera2_mono_only_entry_off">Вимкнено</string>
     <string name="pref_camera2_mono_preview_title">Попередній перегляд моно</string>
     <string name="pref_camera2_mono_preview_entry_on">Увімк</string>
@@ -290,6 +292,7 @@
     <string name="pref_camera2_mpo_entry_on">Увімк</string>
     <string name="pref_camera2_mpo_entry_off">Вимкнено</string>
     <string name="pref_camera2_makeup_title">Макіяж</string>
+    <string name="pref_camera2_makeup_entry_on">Увімкнено</string>
     <string name="pref_camera2_makeup_entry_off">Вимкнено</string>
     <string name="pref_camera2_noise_reduction_title">Зниження шумів</string>
     <string name="pref_camera2_noise_reduction_entry_off">Вимкнено</string>
@@ -299,16 +302,25 @@
     <string name="pref_camera2_videosnap_entry_enable">Увімкнути</string>
     <string name="pref_camera2_videosnap_entry_disable">Вимкнути</string>
     <string name="pref_camera2_trackingfocus_title">Фокус відстеження</string>
+    <string name="pref_camera2_trackingfocus_entry_on">Увімкнено</string>
     <string name="pref_camera2_trackingfocus_entry_off">Вимкнено</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Найкращий знімок</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Фокус відстеження</string>
+    <string name="pref_camera_scenemode_entry_panorama">Панорама</string>
     <string name="bestpicture_done">Готово</string>
     <string name="bestpicture_at_least_one_picture">Потрібно вибрати хоча б один знімок.</string>
     <string name="pref_camera2_shutter_sound_entry_on">Увімк</string>
     <string name="pref_camera2_shutter_sound_entry_off">Вимкнено</string>
     <string name="pref_camera2_shutter_sound_title">Звук затвору</string>
     <string name="pref_camera2_timer_entry_off">Вимкнено</string>
+    <string name="pref_camera2_timer_entry_2sec">2 секунди</string>
+    <string name="pref_camera2_timer_entry_5sec">5 секунд</string>
+    <string name="pref_camera2_timer_entry_10sec">10 секунд</string>
     <string name="makeup_ui_ok_button">OK</string>
+    <string name="perf_camera2_version_info">Інформація про версію</string>
+    <string name="perf_camera2_preferences_category_general">Загальні</string>
+    <string name="perf_camera2_preferences_category_system">Система</string>
+    <string name="pref_camera2_not_show_again">Не показувати знову</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_entry_disable">Вимкнути</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Агресивний АЕC</string>
@@ -333,6 +345,7 @@
     <string name="pref_camera2_histogram_title">Гістограма</string>
     <string name="pref_camera2_histogram_entry_enable">Увімкнути</string>
     <string name="pref_camera2_histogram_entry_disable">Вимкнути</string>
+    <string name="pref_camera2_hdr_title">HDR</string>
     <string name="pref_camera2_hdr_entry_enable">Увімкнути</string>
     <string name="pref_camera2_hdr_entry_disable">Вимкнути</string>
     <string name="pref_camera2_auto_hdr_title">Авто HDR</string>
@@ -342,6 +355,7 @@
     <string name="pref_camera_bokeh_mode_entry_disable">Вимкнути</string>
     <string name="pref_camera_bokeh_mpo_entry_enable">Увімкнути</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">Вимкнути</string>
+    <string name="pref_camera_zoom_title">Масштабування</string>
     <string name="pref_camera_zoom_entry_off">Вимкнено</string>
     <string name="pref_camera2_bsgc_entry_enable">Увімкнути</string>
     <string name="pref_camera2_bsgc_entry_disable">Вимкнути</string>
@@ -349,7 +363,9 @@
     <string name="pref_camera2_zsl_entry_disable">Вимкнено</string>
     <string name="pref_camera2_afmode_entry_disable">Вимкнено</string>
     <string name="pref_camera2_afmode_entry_off">Вимкнено</string>
+    <string name="pref_camera2_initial_camera_entry_bayer">Баєр</string>
     <string name="pref_camera2_initial_camera_entry_mono">Монохром</string>
+    <string name="pref_camera2_initial_camera_entry_front">Передня</string>
     <string name="pref_camera2_eis_entry_disable">Вимкнено</string>
     <string name="pref_camera2_fovc_entry_enable">Увімкнено</string>
     <string name="pref_camera2_fovc_entry_disable">Вимкнено</string>

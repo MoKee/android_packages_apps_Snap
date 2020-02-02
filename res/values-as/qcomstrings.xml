@@ -141,6 +141,7 @@
     <string name="pref_camera_sharpness_entry_level6">স্তৰ 6</string>
     <string name="pref_camera_contrast_entry_level0">স্তৰ 0</string>
     <string name="pref_camera_contrast_entry_level1">স্তৰ 1</string>
+    <string name="pref_camera_contrast_entry_level2">স্তৰ 2</string>
     <string name="pref_camera_contrast_entry_level3">স্তৰ 3</string>
     <string name="pref_camera_contrast_entry_level4">স্তৰ 4</string>
     <string name="pref_camera_contrast_entry_level5">মাত্ৰা 5 (ডিফ\'ল্ট)</string>
@@ -186,9 +187,14 @@
     <string name="camera_gesture_title">কেমেৰা লান্চ্চ কৰক</string>
     <string name="all_in_focus">অল ইন ফোকাচ</string>
     <string name="refocus_toast">অন্তিমখন ফটো পুনঃ-ফোকাচ কৰিবলৈ ইয়াত টেপ কৰক</string>
+    <string name="pref_camera_scenemode_entry_panorama">পেন’ৰামা</string>
+    <string name="pref_camera2_timer_entry_2sec">2 চেকেণ্ড</string>
+    <string name="pref_camera2_timer_entry_5sec">5 চেকেণ্ড</string>
+    <string name="pref_camera2_timer_entry_10sec">10 চেকেণ্ড</string>
     <string name="pref_camera2_saturation_level_title">পৰিপূৰ্ণ কৰা</string>
     <string name="pref_camera2_saturation_level_entry_0">স্তৰ 0</string>
     <string name="pref_camera2_saturation_level_entry_1">স্তৰ 1</string>
+    <string name="pref_camera2_saturation_level_entry_2">স্তৰ 2</string>
     <string name="pref_camera2_saturation_level_entry_3">স্তৰ 3</string>
     <string name="pref_camera2_saturation_level_entry_4">স্তৰ 4</string>
     <string name="pref_camera2_saturation_level_entry_5">মাত্ৰা 5 (ডিফ\'ল্ট)</string>
@@ -203,7 +209,9 @@
     <string name="pref_camera2_anti_banding_level_entry_auto">স্বয়ং</string>
     <string name="pref_camera2_histogram_title">হিষ্টোগ্ৰাম</string>
     <string name="pref_camera2_auto_hdr_title">স্বয়ং HDR</string>
+    <string name="pref_camera_zoom_title">জুম</string>
     <string name="pref_camera2_zsl_title">জিৰো শ্বাটাৰ টেগ</string>
     <string name="pref_camera2_initial_camera_entry_mono">ম’ন’</string>
+    <string name="pref_camera2_initial_camera_entry_front">সন্মুখ</string>
     <string name="pref_camera2_picture_format_title">ছবিৰ ফৰ্মেট</string>
 </resources>

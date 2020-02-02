@@ -200,6 +200,7 @@
     <string name="advance_feature_enable_msg">అడ్వాన్స్డ్ ఫీచర్ అమలుపరచునప్పుదు కొనసాగించు షాట్  కు మద్దతు లేదు</string>
     <string name="camera_gesture_title">కెమెరాను ప్రారంభించు</string>
     <string name="pref_camera_tsmakeup_entry_off">ఆఫ్‌లో ఉంది</string>
+    <string name="pref_camera_tsmakeup_custom">అనుకూలం</string>
     <string name="all_in_focus">అన్నీ ఫోకస్ లో ఉన్నాయి</string>
     <string name="refocus_toast">చివరి ఫోటోను రీ-ఫోకస్ చేయడానికి, ఇక్కడ ట్యాప్ చేయండి</string>
     <string name="pref_camera2_mono_only_entry_off">ఆఫ్‌లో ఉంది</string>
@@ -209,8 +210,12 @@
     <string name="pref_camera2_makeup_entry_off">ఆఫ్‌లో ఉంది</string>
     <string name="pref_camera2_noise_reduction_entry_off">ఆఫ్‌లో ఉంది</string>
     <string name="pref_camera2_trackingfocus_entry_off">ఆఫ్‌లో ఉంది</string>
+    <string name="pref_camera_scenemode_entry_panorama">పనోరమా</string>
     <string name="pref_camera2_shutter_sound_entry_off">ఆఫ్‌లో ఉంది</string>
     <string name="pref_camera2_timer_entry_off">ఆఫ్‌లో ఉంది</string>
+    <string name="pref_camera2_timer_entry_2sec">2 సెకనులు</string>
+    <string name="pref_camera2_timer_entry_5sec">5 సెకనులు</string>
+    <string name="pref_camera2_timer_entry_10sec">10 సెకనులు</string>
     <string name="pref_camera2_saturation_level_title">సంతృప్తత</string>
     <string name="pref_camera2_saturation_level_entry_0">స్థాయి 0</string>
     <string name="pref_camera2_saturation_level_entry_1">స్థాయి 1</string>
@@ -230,10 +235,12 @@
     <string name="pref_camera2_anti_banding_level_entry_auto">ఆటో</string>
     <string name="pref_camera2_histogram_title">హిస్టోగ్రామ్</string>
     <string name="pref_camera2_auto_hdr_title">ఆటో HDR</string>
+    <string name="pref_camera_zoom_title">జూమ్</string>
     <string name="pref_camera_zoom_entry_off">ఆఫ్‌లో ఉంది</string>
     <string name="pref_camera2_zsl_title">జీరో షట్టర్ ల్యాగ్</string>
     <string name="pref_camera2_zsl_entry_disable">ఆఫ్‌లో ఉంది</string>
     <string name="pref_camera2_afmode_entry_off">ఆఫ్‌లో ఉంది</string>
     <string name="pref_camera2_initial_camera_entry_mono">మోనో</string>
+    <string name="pref_camera2_initial_camera_entry_front">ముందు</string>
     <string name="pref_camera2_picture_format_title">చిత్ర ఆకృతి</string>
 </resources>

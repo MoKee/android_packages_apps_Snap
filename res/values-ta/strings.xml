@@ -100,6 +100,7 @@
         <item quantity="other">%d நொடிகள்</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">கவுன்ட்டவுனின்போது பீப் செய்யவும்</string>
+    <string name="pref_camera_savepath_entry_0">அலைபேசி</string>
     <string name="setting_off">முடக்கத்தில்</string>
     <string name="setting_on">இயக்கத்தில்</string>
     <string name="pref_video_quality_title">வீடியோ தரம்</string>
@@ -267,5 +268,10 @@
     <string name="switch_photo_filmstrip">படச்சுருள் காட்சி</string>
     <string name="setting_wallpaper">வால்பேப்பர் அமைப்பு</string>
     <string name="save_best_dialog_positive_bt">சரி</string>
+    <string name="save_best_dialog_native_bt">ரத்துசெய்</string>
+    <string name="delete_best_dialog_native_bt">ரத்துசெய்</string>
     <string name="delete_best_dialog_positive_bt">நீக்கு</string>
+    <string name="delete_all_best_dialog_native_bt">ரத்துசெய்</string>
+    <string name="delete_all_best_dialog_positive_bt">"அனைத்தையும் நீக்கு"</string>
+    <string name="overflow_best_item2">"அனைத்தையும் நீக்கு"</string>
 </resources>

@@ -263,6 +263,14 @@
     <string name="setting_wallpaper">Встановити шпалери</string>
     <string name="remaining_photos_format">Залишилось: %d</string>
     <string name="makeup_video_size_limit">Функція Makeup працює тільки під час запису відео в VGA.</string>
+    <string name="pref_camera2_category_system">Система</string>
     <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="save_best_dialog_native_bt">Скаcувати</string>
+    <string name="dialog_do_not_show">Не показувати знову</string>
+    <string name="delete_best_dialog_native_bt">Скаcувати</string>
     <string name="delete_best_dialog_positive_bt">Видалити</string>
+    <string name="delete_all_best_dialog_native_bt">Скаcувати</string>
+    <string name="delete_all_best_dialog_positive_bt">Видалити всі</string>
+    <string name="overflow_best_item2">Видалити всі</string>
+    <string name="settings_title">Налаштування</string>
 </resources>

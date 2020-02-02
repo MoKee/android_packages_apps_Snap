@@ -108,6 +108,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Assistente de auto-exposição</string>
     <string name="pref_camera_ae_bracket_hdr_title">Assistente de auto-exposição</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Ativado</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Desligado</string>
     <string name="err_app_unsupport_ae_bracket_code">Escalonamento AE ainda não é suportado</string>
     <string name="snapshot_lower_than_video">O tamanho da foto instantânea é menor que o tamanho do vídeo. O tamanho da foto instantânea é limitada ao tamanho do vídeo. Escolha uma resolução maior ou igual ao tamanho de vídeo atual.</string>
     <string name="snapshotsize_low_powermode">Não é possível alterar o tamanho da imagem no modo de baixo consumo, portanto será tirada uma foto instantânea com o mesmo tamanho do vídeo. Escolha o modo de energia normal para alterar o tamanho da imagem.</string>
@@ -427,11 +428,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Estatísticas BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Estatísticas BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Estatísticas de histograma</string>
+    <string name="stats_visualizer_bg_label">Visualização gráfica BG</string>
+    <string name="stats_visualizer_be_label">Visualização gráfica BG</string>
     <string name="pref_camera2_capture_mfnr_title">Redução de ruído multiquadros</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Ligado</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Desligado</string>
+    <string name="pref_camera2_fs2_title">Disparo rápido</string>
     <string name="pref_camera2_fs2_entry_enable">Ligado</string>
     <string name="pref_camera2_fs2_entry_disable">Desligado</string>
+    <string name="pref_camera2_abort_captures_title">Cancelar capturas</string>
     <string name="pref_camera2_abort_captures_entry_enable">Ligado</string>
     <string name="pref_camera2_abort_captures_entry_disable">Desligado</string>
 </resources>

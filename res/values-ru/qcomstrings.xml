@@ -108,6 +108,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Автобрекетинг</string>
     <string name="pref_camera_ae_bracket_hdr_title">Автобрекетинг</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Вкл</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Отключить</string>
     <string name="err_app_unsupport_ae_bracket_code">Автобрекетинг не поддерживается</string>
     <string name="snapshot_lower_than_video">Разрешение снимка меньше, чем разрешение видеосъемки. Выберите разрешение выше или равное разрешению видеосъемки.</string>
     <string name="snapshotsize_low_powermode">Изменение разрешения изображения не поддерживается в энергосберегающем режиме. Переключитесь в стандартный режим энергопотребления для использования этой функции.</string>
@@ -415,6 +416,8 @@
     <string name="pref_camera2_initial_camera_entry_mono">Ч/Б</string>
     <string name="pref_camera2_initial_camera_entry_front">Фронтальная</string>
     <string name="pref_camera2_eis_title">Видео EIS</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
     <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 и установить во время паузы</string>
     <string name="pref_camera2_eis_entry_disable">Отключить</string>
     <string name="pref_camera2_fovc_title">Видео FOVC</string>
@@ -427,11 +430,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG статистика</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE статистика</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Статистика гистограммы</string>
+    <string name="stats_visualizer_bg_label">BG graph view</string>
+    <string name="stats_visualizer_be_label">BE graph view</string>
     <string name="pref_camera2_capture_mfnr_title">Многокадровое шумоподавление</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Включить</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Отключить</string>
+    <string name="pref_camera2_fs2_title">Fast shutter</string>
     <string name="pref_camera2_fs2_entry_enable">Включить</string>
     <string name="pref_camera2_fs2_entry_disable">Отключить</string>
+    <string name="pref_camera2_abort_captures_title">Abort captures</string>
     <string name="pref_camera2_abort_captures_entry_enable">Включить</string>
     <string name="pref_camera2_abort_captures_entry_disable">Отключить</string>
 </resources>

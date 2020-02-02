@@ -31,6 +31,7 @@
     <string name="pref_camera_scenemode_entry_cine">ಸಿನಿ</string>
     <string name="pref_camera_scenemode_entry_closeup">ಕ್ಲೋಸ್‌ಅಪ್</string>
     <string name="pref_camera_scenemode_entry_dark">ಗಾಢ ಹಿನ್ನೆಲೆ</string>
+    <string name="pref_camera_scenemode_entry_dish">ಡಿಶ್</string>
     <string name="pref_camera_scenemode_entry_duskdawn">ಮುಸ್ಸಂಜೆ ಮುಂಜಾನೆ</string>
     <string name="pref_camera_scenemode_entry_document">ಡಾಕ್ಯುಮೆಂಟ್</string>
     <string name="pref_camera_scenemode_entry_fallcolor">ಪತನ ಬಣ್ಣ</string>

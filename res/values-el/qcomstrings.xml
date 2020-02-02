@@ -108,6 +108,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Bracketing αυτόματης έκθεσης</string>
     <string name="pref_camera_ae_bracket_hdr_title">Bracketing αυτόματης έκθεσης</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Ενεργό</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">ανενεργό</string>
     <string name="err_app_unsupport_ae_bracket_code">Το Bracketing ΑΕ δεν υποστηρίζεται ακόμη</string>
     <string name="snapshot_lower_than_video">Το μέγεθος στιγμιότυπου βίντεο είναι μικρότερο από το μέγεθος βίντεο, κλείδωμα στο μέγεθος βίντεο. Παρακαλώ επιλέξτε ένα μέγεθος μεγαλύτερο ή ίσο με το τρέχον μέγεθος βίντεο.</string>
     <string name="snapshotsize_low_powermode">Δεν υποστηρίζεται η αλλαγή μεγέθους φωτογραφίας κατά την λειτουργία Χαμηλής ισχύος, θα ληφθεί στιγμιότυπο στο μέγεθος του βίντεο. Παρακαλώ επιλέξτε την λειτουργία Κανονικής ισχύος για να μπορείτε να αλλάξετε το μέγεθος της εικόνας.</string>

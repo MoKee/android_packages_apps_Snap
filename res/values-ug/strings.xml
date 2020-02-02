@@ -248,4 +248,7 @@
     <string name="setting_wallpaper">تام قەغەزنى تەڭشەۋاتىدۇ</string>
     <string name="save_best_dialog_positive_bt">جەزملەش</string>
     <string name="delete_best_dialog_positive_bt">ئۆچۈر</string>
+    <string name="delete_all_best_dialog_positive_bt">ھەممىنى ئۆچۈر</string>
+    <string name="overflow_best_item2">ھەممىنى ئۆچۈر</string>
+    <string name="settings_title">تەڭشەش</string>
 </resources>

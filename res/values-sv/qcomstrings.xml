@@ -21,7 +21,9 @@
     limitations under the License.
 -->
 <resources>
+    <string name="pref_camera_powermode_title">Energiläge</string>
     <string name="pref_camera_powermode_entry_lp">Låg energi</string>
+    <string name="pref_camera_powermode_entry_np">Normal energi</string>
     <string name="pref_camera_autoexposure_title">Automatisk exponering</string>
     <string name="pref_camera_autoexposure_entry_frameaverage">Bildgenomsnitt</string>
     <string name="pref_camera_autoexposure_entry_centerweighted">Mittvägd</string>
@@ -104,6 +106,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Automatisk exponeringsvariation</string>
     <string name="pref_camera_ae_bracket_hdr_title">Automatisk exponeringsvariation</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">På</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Av</string>
     <string name="pref_camera_hfr_title">Inspelning med hög framerate</string>
     <string name="pref_camera_hfr_entry_off">Av</string>
     <string name="pref_camera_hfr_entry_2x">Slow Motion 60 FPS</string>
@@ -245,6 +248,7 @@
     <string name="longshot_enable_message">Avancerade funktioner stöds inte vid kontinuerlig bildtagning</string>
     <string name="advance_feature_enable_msg">Kontinuerlig bildtagning stöds inte när avancerade funktioner är aktiverade</string>
     <string name="camera_gesture_title">Starta kamera</string>
+    <string name="pref_camera_tsmakeup_title">Försköning</string>
     <string name="pref_camera_tsmakeup_entry_on">På</string>
     <string name="pref_camera_tsmakeup_entry_off">Av</string>
     <string name="pref_camera_tsmakeup_entry_low">Låg</string>
@@ -254,8 +258,10 @@
     <string name="text_tsmakeup_alert_title">Varning</string>
     <string name="text_tsmakeup_alert_continue">Fortsätt</string>
     <string name="text_tsmakeup_alert_quit">Avbryt</string>
+    <string name="text_tsmakeup_beautify_toast">Försköna</string>
     <string name="all_in_focus">Allt i fokus</string>
     <string name="refocus_toast">För att återfokusera senaste bilden, klicka här</string>
+    <string name="camera_unknown_error">Okänt fel, stänger kamera.</string>
     <string name="pref_camera2_camera2_title">Camera2-läge</string>
     <string name="pref_camera2_camera2_entry_enable">Aktivera</string>
     <string name="pref_camera2_camera2_entry_disable">Avaktivera</string>
@@ -269,6 +275,7 @@
     <string name="pref_camera2_mpo_title">MPO-format</string>
     <string name="pref_camera2_mpo_entry_on">På</string>
     <string name="pref_camera2_mpo_entry_off">Av</string>
+    <string name="pref_camera2_makeup_title">Makeup</string>
     <string name="pref_camera2_makeup_entry_on">På</string>
     <string name="pref_camera2_makeup_entry_off">Av</string>
     <string name="pref_camera2_noise_reduction_title">Brusreducering</string>
@@ -359,7 +366,9 @@
     <string name="pref_camera2_afmode_entry_continuous_video">Kontinuerlig video</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Kontinuerlig bild</string>
     <string name="pref_camera2_switch_camera_title">Byt kamera beroende på ID</string>
+    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
+    <string name="pref_camera2_initial_camera_entry_front">Främre</string>
     <string name="pref_camera2_eis_title">EIS-video</string>
     <string name="pref_camera2_eis_entry_disable">Avaktiverad</string>
     <string name="pref_camera2_fovc_title">FOVC-video</string>

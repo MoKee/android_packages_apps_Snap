@@ -141,6 +141,7 @@
     <string name="pref_camera_sharpness_entry_level6">ସ୍ତର 6</string>
     <string name="pref_camera_contrast_entry_level0">ସ୍ତର 0</string>
     <string name="pref_camera_contrast_entry_level1">ସ୍ତର 1</string>
+    <string name="pref_camera_contrast_entry_level2">ସ୍ତର 2</string>
     <string name="pref_camera_contrast_entry_level3">ସ୍ତର 3</string>
     <string name="pref_camera_contrast_entry_level4">ସ୍ତର 4</string>
     <string name="pref_camera_contrast_entry_level5">ସ୍ତର 5 (ଡିଫଲ୍ଟ)</string>
@@ -167,7 +168,7 @@
     <string name="pref_camera_jpegquality_title">ଚିତ୍ର ଗୁଣବତ୍ତା</string>
     <string name="pref_camera_histogram_title">ହିଷ୍ଟୋଗ୍ରାମ୍</string>
     <string name="pref_camera_scenedetect_title">ସ୍ୱତଃ ଦୃଶ୍ୟ ସନ୍ଧାନ</string>
-    <string name="pref_camera_longshot_title">"ଲଗାତାର ସଟ୍"</string>
+    <string name="pref_camera_longshot_title">ଲଗାତାର ସଟ୍</string>
     <string name="msg_cancel_longshot_for_limited_memory">ଖାଲି ଥାନ ଶେଷ ହୋଇଯାଉଛି, ଜାରିଥିବା ସଟ୍‍ ବାତିଲ୍‍ କରାଯାଉଛି</string>
     <string name="flash_aebracket_message">AE ବ୍ରାକେଟିଂ ମୋଡ୍‍ରେ ଫ୍ଲାସ୍‍ ସମଥନ କରେନାହିଁ</string>
     <string name="pref_camera_auto_hdr_title">ସ୍ୱତଃ HDR</string>
@@ -186,9 +187,14 @@
     <string name="camera_gesture_title">କ୍ୟାମେରା ଉନ୍ମୋଚନ୍ଚ କରନ୍ତୁ</string>
     <string name="all_in_focus">ଫୋକସ୍‍ରେ ସମସ୍ତ</string>
     <string name="refocus_toast">ଶେଷ ଫଟୋ ରି-ଫୋକସ୍‍ କରିବା ପାଇଁ, ଏଠାରେ ସ୍ପର୍ଶ କରନ୍ତୁ</string>
+    <string name="pref_camera_scenemode_entry_panorama">ପାନୋରମା</string>
+    <string name="pref_camera2_timer_entry_2sec">2 ସେକେଣ୍ଡ</string>
+    <string name="pref_camera2_timer_entry_5sec">5 ସେକେଣ୍ଡ</string>
+    <string name="pref_camera2_timer_entry_10sec">10 ସେକେଣ୍ଡ</string>
     <string name="pref_camera2_saturation_level_title">ସମ୍ପୃକ୍ତି</string>
     <string name="pref_camera2_saturation_level_entry_0">ସ୍ତର 0</string>
     <string name="pref_camera2_saturation_level_entry_1">ସ୍ତର 1</string>
+    <string name="pref_camera2_saturation_level_entry_2">ସ୍ତର 2</string>
     <string name="pref_camera2_saturation_level_entry_3">ସ୍ତର 3</string>
     <string name="pref_camera2_saturation_level_entry_4">ସ୍ତର 4</string>
     <string name="pref_camera2_saturation_level_entry_5">ସ୍ତର 5 (ଡିଫଲ୍ଟ)</string>
@@ -203,7 +209,9 @@
     <string name="pref_camera2_anti_banding_level_entry_auto">ସ୍ଵତଃ</string>
     <string name="pref_camera2_histogram_title">ହିଷ୍ଟୋଗ୍ରାମ୍</string>
     <string name="pref_camera2_auto_hdr_title">ସ୍ୱତଃ HDR</string>
+    <string name="pref_camera_zoom_title">ଜୁମ୍</string>
     <string name="pref_camera2_zsl_title">ଶୂନ୍ୟ ସଟର୍‍ ଲ୍ୟାଗ୍‍</string>
     <string name="pref_camera2_initial_camera_entry_mono">ମୋନୋ</string>
+    <string name="pref_camera2_initial_camera_entry_front">ସମ୍ମୁଖ</string>
     <string name="pref_camera2_picture_format_title">ଚିତ୍ର ଫର୍ମଟ୍‍</string>
 </resources>

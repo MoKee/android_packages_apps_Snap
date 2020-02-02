@@ -107,6 +107,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Pendekapan Dedahan Automatik</string>
     <string name="pref_camera_ae_bracket_hdr_title">Pendekapan Dedahan Automatik</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Hidup</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Nonaktif</string>
     <string name="err_app_unsupport_ae_bracket_code">AE Bracketing belum didukung</string>
     <string name="snapshot_lower_than_video">Ukuran video snapshot lebih rendah dari ukuran video, membatasi ukuran video. Silakan pilih resolusi yang lebih tinggi atau sama dengan ukuran video saat ini.</string>
     <string name="snapshotsize_low_powermode">Pengubahan ukuran gambar tidak didukung dalam mode Daya Rendah, ukuran video snapshot yang akan dipakai. Silakan pilih mode Daya Normal untuk memungkinkan mengubah ukuran gambar.</string>

@@ -57,6 +57,9 @@
     <string name="height">Lartësia</string>
     <string name="orientation">Orientimi</string>
     <string name="duration">Kohëzgjatja</string>
+    <string name="model">Modeli</string>
+    <string name="aperture">Hapja e diafragmës</string>
+    <string name="focal_length">Largësia e fokusimit</string>
     <string name="iso">ISO</string>
     <string name="dialog_dismiss">Largo</string>
     <string name="no_storage" product="default">Fut një kartë SD përpara se të përdorësh kamerën.</string>
@@ -99,6 +102,7 @@
     <string name="disable_CDS_during_SeeMore">SeeMore do të çaktivizojë CDS.</string>
     <string name="disable_TNR_during_SeeMore">SeeMore do të çaktivizojë TNR.</string>
     <string name="disable_NR_during_SeeMore">SeeMore do të çaktivizojë reduktimin e zhurmave.</string>
+    <string name="pref_exposure_title">Ekspozimi</string>
     <string name="pref_exposure_label">EKSPOZIMI</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">KAMERA PARËSORE</string>
@@ -113,6 +117,7 @@
     <string name="pano_review_saving_indication_str">Duke ruajtur\u2026</string>
     <string name="tap_to_focus">Prek për të fokusuar.</string>
     <string name="pref_video_effect_title">Efektet</string>
+    <string name="effect_none">Asnjë</string>
     <string name="effect_backdropper_space">Në kozmos</string>
     <string name="effect_backdropper_sunset">Perëndim dielli</string>
     <string name="effect_backdropper_gallery">Videoja juaj</string>
@@ -120,6 +125,7 @@
     <string name="video_recording_stopped">Regjistrimi i videos është ndaluar.</string>
     <string name="effect_background">SFONDI</string>
     <string name="accessibility_exit_best_mode_button">Dil nga metoda e fotos më të mirë</string>
+    <string name="accessibility_menu_button">Butoni i Menusë</string>
     <string name="accessibility_mode_picker">Zgjedhësi i kamerës, videos, ose panoramës</string>
     <string name="accessibility_switch_to_camera">Kthe në foto</string>
     <string name="accessibility_switch_to_video">Kthe në video</string>
@@ -129,6 +135,8 @@
     <string name="capital_on">AKTIV</string>
     <string name="capital_off">INAKTIV</string>
     <string name="pref_video_time_lapse_frame_interval_off">Inaktiv</string>
+    <string name="pref_video_time_lapse_frame_interval_3000">3 sekonda</string>
+    <string name="pref_video_time_lapse_frame_interval_6000">6 sekonda</string>
     <string name="pref_video_time_lapse_frame_interval_10000">10 sekonda</string>
     <string name="pref_video_time_lapse_frame_interval_12000">12 sekonda</string>
     <string name="pref_video_time_lapse_frame_interval_15000">15 sekonda</string>

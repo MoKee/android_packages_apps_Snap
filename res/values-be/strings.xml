@@ -21,6 +21,12 @@
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Усталяваць малюнак як</string>
     <string name="delete">Выдалiць</string>
+    <plurals name="delete_selection">
+        <item quantity="one">Выдаліць абраны файл?</item>
+        <item quantity="few">Выдаліць абраныя файлы?</item>
+        <item quantity="many">Выдаліць абраныя файлы?</item>
+        <item quantity="other">Выдаліць выбраныя файлы?</item>
+    </plurals>
     <string name="share">Падзяліцца</string>
     <string name="share_panorama">Падзяліцца панарамай</string>
     <string name="share_as_photo">Падзяліцца фотаздымкам</string>
@@ -28,6 +34,24 @@
     <string name="undo">СКАСАВАЦЬ</string>
     <string name="details">Падрабязны спіс</string>
     <string name="close">Зачыніць</string>
+    <plurals name="number_of_items_selected">
+        <item quantity="one">%1$d абраны</item>
+        <item quantity="few">%1$d абраны</item>
+        <item quantity="many">%1$d абраныя</item>
+        <item quantity="other">%1$d выбрана</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="one">%1$d абраны</item>
+        <item quantity="few">%1$d абраны</item>
+        <item quantity="many">%1$d абраныя</item>
+        <item quantity="other">%1$d выбрана</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="one">%1$d абраны</item>
+        <item quantity="few">%1$d абраны</item>
+        <item quantity="many">%1$d абраныя</item>
+        <item quantity="other">%1$d выбрана</item>
+    </plurals>
     <string name="show_on_map">Паказаць на мапе</string>
     <string name="rotate_left">Павярнуць налева</string>
     <string name="rotate_right">Павярнуць направа</string>
@@ -68,6 +92,8 @@
     <string name="camera_error_title">Памылка камеры</string>
     <string name="cannot_connect_camera">Не атрымалася далучыцца да камеры.</string>
     <string name="camera_disabled">Камера адключана ў адпаведнасці з палітыкай бяспекі.</string>
+    <string name="error_permissions">Праграма не мае крытычных дазволаў, неабходных для запуску. Калі ласка, праверце налады дазволаў.</string>
+    <string name="dialog_dismiss">Адхіліць</string>
     <string name="wait">Калі ласка, пачакайце\u2026</string>
     <string name="no_storage" product="default">Каб скарыстаць камеру, устаўце SD-картку.</string>
     <string name="preparing_sd" product="default">Падрыхтоўка SD-карткі\u2026</string>
@@ -77,9 +103,19 @@
     <string name="pref_camera_id_title">Выбар камеры</string>
     <string name="pref_camera_id_entry_back">Назад</string>
     <string name="pref_camera_id_entry_front">Франтальная</string>
+    <string name="pref_camera_recordlocation_title">Месцазнаходжанне</string>
     <string name="pref_camera_location_label">МЕСЦАЗНАХОДЖАННЕ</string>
     <string name="pref_camera_timer_title">Аўтаспуск</string>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="one">1 секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секундаў</item>
+        <item quantity="other">%d сек.</item>
+    </plurals>
     <string name="pref_camera_timer_sound_title">Гукавы сігнал падчас зваротнага адліку</string>
+    <string name="pref_camera_savepath_title">Сховішча</string>
+    <string name="pref_camera_savepath_entry_0">Тэлефон</string>
+    <string name="pref_camera_savepath_entry_1">SD-картка</string>
     <string name="setting_off">Адключана</string>
     <string name="setting_on">Уключана</string>
     <string name="pref_video_quality_title">Якасць відэа</string>
@@ -136,6 +172,15 @@
     <string name="pref_camera_countdown_label_ten">10 СЕКУНДАЎ</string>
     <string name="pref_camera_countdown_label_fifteen">15 СЕКУНДАЎ</string>
     <string name="not_selectable_in_scene_mode">Недаступна ў рэжыме здымкі.</string>
+    <string name="HDR_disable_continuous_shot">HDR адключае бесперапынную здымку.</string>
+    <string name="advanced_capture_disable_continuous_shot">Пашыраны захоп адключае бесперапынную здымку.</string>
+    <string name="video_quality_4k_disable_IS">4к якасць відэа выключыць стабілізацыю выявы.</string>
+    <string name="video_quality_4k_disable_SeeMore">SeeMore нельга ўключыць пры 4к відэа.</string>
+    <string name="disable_CDS_during_HighQualityNoiseReduction">Зніжэнне шуму высокай якасці выключыць CDS.</string>
+    <string name="disable_TNR_during_HighQualityNoiseReduction">Зніжэнне шуму высокай якасці выключыць TNR.</string>
+    <string name="disable_CDS_during_SeeMore">SeeMore выключыць CDS.</string>
+    <string name="disable_TNR_during_SeeMore">SeeMore выключыць TNR.</string>
+    <string name="disable_NR_during_SeeMore">SeeMore выключыць зніжэнне шуму.</string>
     <string name="pref_exposure_title">Экспакарэкцыя</string>
     <string name="pref_exposure_label">ЭКСПАКАРЭКЦЫЯ</string>
     <string name="pref_camera_hdr_label">HDR</string>
@@ -171,6 +216,7 @@
     <string name="effect_silly_faces">СМЕШНЫЯ ТВАРЫКІ</string>
     <string name="effect_background">ФОН</string>
     <string name="accessibility_shutter_button">Засаўка</string>
+    <string name="accessibility_exit_best_mode_button">Выхад з рэжыму найлепшага здымка</string>
     <string name="accessibility_menu_button">Меню</string>
     <string name="accessibility_mode_picker">Пераключальнік паміж рэжымамі \"Фота\", \"Відэа\" і \"Панарама\"</string>
     <string name="accessibility_check_box">Сцяжок %1$s</string>
@@ -246,6 +292,40 @@
     <string name="cannot_load_image">Не атрымалася загрузіць выяву!</string>
     <string name="switch_photo_filmstrip">Стужка</string>
     <string name="setting_wallpaper">Усталёўка шпалер</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
+    <string name="remaining_photos_format">%d злева</string>
+    <string name="initial_recording_seconds">00:00</string>
+    <string name="makeup_video_size_limit">Макіяж працуе толькі пад памер VGA у запісу відэа.</string>
+    <string name="pref_camera2_category_system">Сістэма</string>
+    <string name="pref_camera2_restore_default">Аднавіць па змаўчанні</string>
+    <string name="pref_camera2_restore_default_hint">Налады камеры будуць адноўлены па змаўчанні</string>
+    <plurals name="save_best_dialog_content">
+        <item quantity="one">%1$d з 10 выяў будзе захавана, а астатнія будуць выдалены</item>
+        <item quantity="few">%1$d з 10 выяў будуць захаваны, а астатнія будуць выдалены</item>
+        <item quantity="many">%1$d з 10 выяў будуць захаваны, а астатнія будуць выдалены</item>
+        <item quantity="other">%1$d з 10 выяў будуць захаваны, а астатнія будуць выдалены</item>
+    </plurals>
+    <string name="save_best_dialog_title">Захаваць абраныя выявы?</string>
     <string name="save_best_dialog_positive_bt">Добра</string>
+    <string name="save_best_dialog_native_bt">Скасаваць</string>
+    <plurals name="save_best_image_toast">
+        <item quantity="one">Захавана %1$d з 10 выяў.</item>
+        <item quantity="few">Захавана %1$d з 10 выяў.</item>
+        <item quantity="many">Захавана %1$d з 10 выяў.</item>
+        <item quantity="other">Захавана %1$d з 10 выяў.</item>
+    </plurals>
+    <string name="dialog_do_not_show">Не паказваць зноў</string>
+    <string name="delete_best_dialog_title">Выдаліць усё?</string>
+    <string name="delete_best_dialog_content">Вы сапраўды хочаце выдаліць усе 10 выяў?</string>
+    <string name="delete_best_dialog_native_bt">Скасаваць</string>
     <string name="delete_best_dialog_positive_bt">Выдалiць</string>
+    <string name="delete_all_best_dialog_title">Выдаліць усё?</string>
+    <string name="delete_all_best_dialog_content">Вы ўпэўнены, што хочаце выдаліць усе выявы?</string>
+    <string name="delete_all_best_dialog_native_bt">Скасаваць</string>
+    <string name="delete_all_best_dialog_positive_bt">Выдаліць усё</string>
+    <string name="overflow_best_item1">Захаваць усё</string>
+    <string name="overflow_best_item2">Выдаліць усё</string>
+    <string name="settings_title">Налады</string>
 </resources>

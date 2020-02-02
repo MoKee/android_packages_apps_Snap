@@ -108,6 +108,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Automatický expozičný bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_title">Automatický expozičný bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Zapnúť</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Vypnuté</string>
     <string name="err_app_unsupport_ae_bracket_code">Automatické posúvanie expozície nie je zatiaľ podporované</string>
     <string name="snapshot_lower_than_video">Rozlíšenie video snímky je menšie ako veľkosť videa. Platí tu obmedzenie na veľkosť obrazu. Vyberte rozlíšenie väčšie alebo rovné aktuálnej veľkosti obrazu.</string>
     <string name="snapshotsize_low_powermode">Zmena veľkosti obrázku nie je podporovaná v režime nízkeho výkonu, momentka videa bude zachytená. Prosím, vyberte režim normálneho výkonu pre zmenu veľkosti obrázku.</string>

@@ -107,6 +107,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">תיחום חשיפה אוטומטי</string>
     <string name="pref_camera_ae_bracket_hdr_title">תיחום חשיפה אוטומטי</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">מופעל</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">ללא</string>
     <string name="err_app_unsupport_ae_bracket_code">תיחום חשיפה אוטומטית (AEB) אינו נתמך עדיין</string>
     <string name="snapshot_lower_than_video">גודל הוידאו נמוך יותר מאשר גודל הוידאו האפשרי. נא בחר ברזולוציה גבוהה או שווה לגודל הווידאו הנוכחי.</string>
     <string name="snapshotsize_low_powermode">שינוי גודל התמונה אינו נתמך במצב צריכת חשמל נמוך, בחר מצב צריכת חשמל רגיל כדי לאפשר את שינוי גודל התמונה.</string>

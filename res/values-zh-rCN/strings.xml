@@ -277,6 +277,7 @@
     <string name="cannot_load_image">无法加载该图片！</string>
     <string name="switch_photo_filmstrip">胶卷视图</string>
     <string name="setting_wallpaper">正在设置壁纸</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>

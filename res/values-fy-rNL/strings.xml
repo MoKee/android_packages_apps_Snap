@@ -52,6 +52,7 @@
     <string name="trim_action">Bysnije</string>
     <string name="set_as">Ynstelle as</string>
     <string name="video_err">Kin fideo net ôfspylje.</string>
+    <string name="location">Lokaasje</string>
     <string name="pref_camera_recordlocation_title">GPS-lokaasje</string>
     <string name="pref_camera_savepath_title">Unthâld</string>
     <string name="pref_camera_savepath_entry_0">Telefoan</string>

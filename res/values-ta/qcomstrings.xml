@@ -76,6 +76,7 @@
     <string name="error_app_unsupported_raw">Raw பட வடிவம் பூஜ்ய மூடி தாமத பயன்முறையில் ஆதரிக்கப்படுவதில்லை. JPEG தேர்வுசெய்க</string>
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE பிரேக்கெட்டிங்</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE பிரேக்கெட்டிங்</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">அணை</string>
     <string name="pref_camera_hfr_title">உயர்-சட்டவிகித பதிவு</string>
     <string name="pref_camera_hfr_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera_hfr_entry_2x">மெதுவான செயல் 60 FPS</string>
@@ -200,6 +201,8 @@
     <string name="advance_feature_enable_msg">மேம்பட்ட அம்சங்கள் செயல்படுத்தப்பட்டு இருக்கும்போது தொடர்ச்சியான ஷாட் ஆதரிக்கபப்டுவதில்லை.</string>
     <string name="camera_gesture_title">கேமராவை தொடங்கு</string>
     <string name="pref_camera_tsmakeup_entry_off">முடக்கத்தில்</string>
+    <string name="pref_camera_tsmakeup_custom">தனிப்பயன்</string>
+    <string name="text_tsmakeup_alert_quit">ரத்துசெய்</string>
     <string name="all_in_focus">அனைத்தும் குவியத்தில்</string>
     <string name="refocus_toast">கடந்தை புகைப்படத்தை மறு-குவியம் செய்ய, இங்கே தட்டு</string>
     <string name="pref_camera2_mono_only_entry_off">முடக்கத்தில்</string>
@@ -209,8 +212,14 @@
     <string name="pref_camera2_makeup_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera2_noise_reduction_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera2_trackingfocus_entry_off">முடக்கத்தில்</string>
+    <string name="pref_camera_scenemode_entry_panorama">பனோரமா</string>
     <string name="pref_camera2_shutter_sound_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera2_timer_entry_off">முடக்கத்தில்</string>
+    <string name="pref_camera2_timer_entry_2sec">2 நொடிகள்</string>
+    <string name="pref_camera2_timer_entry_5sec">5 நொடிகள்</string>
+    <string name="pref_camera2_timer_entry_10sec">10 நொடிகள்</string>
+    <string name="makeup_ui_ok_button">சரி</string>
+    <string name="pref_camera2_scene_mode_instructional_ok">சரி</string>
     <string name="pref_camera2_saturation_level_title">சாச்சுரேசன்</string>
     <string name="pref_camera2_saturation_level_entry_0">நிலை 0</string>
     <string name="pref_camera2_saturation_level_entry_1">நிலை 1</string>
@@ -230,10 +239,12 @@
     <string name="pref_camera2_anti_banding_level_entry_auto">தானியங்கு</string>
     <string name="pref_camera2_histogram_title">ஹிஸ்டோகிராம்</string>
     <string name="pref_camera2_auto_hdr_title">தானியக்க HDR</string>
+    <string name="pref_camera_zoom_title">பெரிதாக்குதல்</string>
     <string name="pref_camera_zoom_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera2_zsl_title">பூஜ்யம் மூடி தாமதம்</string>
     <string name="pref_camera2_zsl_entry_disable">முடக்கத்தில்</string>
     <string name="pref_camera2_afmode_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera2_initial_camera_entry_mono">மோனோ</string>
+    <string name="pref_camera2_initial_camera_entry_front">முன்</string>
     <string name="pref_camera2_picture_format_title">பட வடிவம்</string>
 </resources>

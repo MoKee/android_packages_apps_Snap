@@ -26,7 +26,9 @@
     <string name="pref_camera_powermode_entry_np">Energji normale</string>
     <string name="pref_camera_skinToneEnhancement_entry_enable">Aktivizo</string>
     <string name="pref_camera_skinToneEnhancement_entry_disable">Çaktivizo</string>
+    <string name="pref_camera_advanced_feature_entry_none">Asnjë</string>
     <string name="pref_camera_manual_exp_entry_off">Inaktiv</string>
+    <string name="pref_camera_manual_wb_entry_color_temperature">Temperatura e ngjyrave</string>
     <string name="pref_camera_manual_wb_entry_off">Inaktiv</string>
     <string name="pref_camera_manual_focus_entry_off">Inaktiv</string>
     <string name="pref_camera_instant_capture_title">Shkrepje e menjëhershme</string>
@@ -116,10 +118,12 @@
     <string name="pref_camera_coloreffect_entry_mono">Mono</string>
     <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
     <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Bëje afishe</string>
     <string name="pref_camera_dis_entry_off">Inaktiv</string>
     <string name="pref_camera_dis_entry_on">Aktiv</string>
     <string name="pref_camera_facerc_entry_off">Inaktiv</string>
     <string name="pref_camera_facerc_entry_on">Aktiv</string>
+    <string name="pref_camera_sharpness_title">Qartësia</string>
     <string name="pref_camera_contrast_title">Kontrasti</string>
     <string name="pref_camera_saturation_title">Saturimi</string>
     <string name="pref_camera_picture_format_title">Formati i fotos</string>

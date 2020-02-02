@@ -268,4 +268,6 @@
     <string name="setting_wallpaper">વોલપેપર સુયોજીત કરો</string>
     <string name="save_best_dialog_positive_bt">ઑકે</string>
     <string name="delete_best_dialog_positive_bt">હટાવો</string>
+    <string name="delete_all_best_dialog_positive_bt">"તમામ હટાવો"</string>
+    <string name="overflow_best_item2">"તમામ હટાવો"</string>
 </resources>

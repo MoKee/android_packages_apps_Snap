@@ -22,5 +22,9 @@
 -->
 <resources>
     <string name="pref_camera_antibanding_entry_1">50 Hz (Eŭropo)</string>
+    <string name="pref_camera_tsmakeup_custom">Propra</string>
+    <string name="pref_camera2_timer_entry_2sec">2 sekundoj</string>
+    <string name="pref_camera2_timer_entry_5sec">5 sekundoj</string>
+    <string name="pref_camera2_timer_entry_10sec">10 sekundoj</string>
     <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Eŭropo)</string>
 </resources>
