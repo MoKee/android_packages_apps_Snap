@@ -268,6 +268,6 @@
     <string name="setting_wallpaper">ୱାଲପେପର୍ ସେଟିଂ</string>
     <string name="save_best_dialog_positive_bt">ଓକେ</string>
     <string name="delete_best_dialog_positive_bt">ବିଲୋପ କରନ୍ତୁ</string>
-    <string name="delete_all_best_dialog_positive_bt">"ସମସ୍ତ ବିଲୋପ କରନ୍ତୁ"</string>
-    <string name="overflow_best_item2">"ସମସ୍ତ ବିଲୋପ କରନ୍ତୁ"</string>
+    <string name="delete_all_best_dialog_positive_bt">ସମସ୍ତ ବିଲୋପ କରନ୍ତୁ</string>
+    <string name="overflow_best_item2">ସମସ୍ତ ବିଲୋପ କରନ୍ତୁ</string>
 </resources>

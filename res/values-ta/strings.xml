@@ -272,6 +272,6 @@
     <string name="delete_best_dialog_native_bt">ரத்துசெய்</string>
     <string name="delete_best_dialog_positive_bt">நீக்கு</string>
     <string name="delete_all_best_dialog_native_bt">ரத்துசெய்</string>
-    <string name="delete_all_best_dialog_positive_bt">"அனைத்தையும் நீக்கு"</string>
-    <string name="overflow_best_item2">"அனைத்தையும் நீக்கு"</string>
+    <string name="delete_all_best_dialog_positive_bt">அனைத்தையும் நீக்கு</string>
+    <string name="overflow_best_item2">அனைத்தையும் நீக்கு</string>
 </resources>
