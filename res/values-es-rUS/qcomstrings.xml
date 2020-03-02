@@ -415,6 +415,8 @@
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Frontal</string>
     <string name="pref_camera2_eis_title">Video EIS</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
     <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 y establecer al pausar</string>
     <string name="pref_camera2_eis_entry_disable">Desactivado</string>
     <string name="pref_camera2_fovc_title">Video FOVC</string>
@@ -427,11 +429,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Estadísticas de BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Estadísticas de BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Estadísticas Hist</string>
+    <string name="stats_visualizer_bg_label">Vista gráfica de BG</string>
+    <string name="stats_visualizer_be_label">Vista gráfica BE</string>
     <string name="pref_camera2_capture_mfnr_title">Reducción de ruido múltiple</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Activado</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Desactivado</string>
+    <string name="pref_camera2_fs2_title">Obturador rápido</string>
     <string name="pref_camera2_fs2_entry_enable">Activado</string>
     <string name="pref_camera2_fs2_entry_disable">Desactivado</string>
+    <string name="pref_camera2_abort_captures_title">Abortar capturas</string>
     <string name="pref_camera2_abort_captures_entry_enable">Activado</string>
     <string name="pref_camera2_abort_captures_entry_disable">Desactivado</string>
 </resources>
