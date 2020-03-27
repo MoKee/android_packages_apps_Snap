@@ -97,6 +97,7 @@
         <item quantity="other">%d վայրկյան</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Հետհաշվարկի նշան</string>
+    <string name="setting_off">Անջ.</string>
     <string name="setting_on">Միացված է</string>
     <string name="pref_video_quality_title">Տեսանյութի որակը</string>
     <string name="pref_video_time_lapse_frame_interval_title">Ժամանակի սպառում</string>
@@ -113,6 +114,7 @@
     <string name="pref_camera_flashmode_title">Լուսաթարթիչ</string>
     <string name="pref_camera_flashmode_entry_auto">Ինքնուրույն</string>
     <string name="pref_camera_flashmode_entry_on">Միացված է</string>
+    <string name="pref_camera_flashmode_entry_off">Անջ.</string>
     <string name="pref_camera_flashmode_label_auto">ԱՎՏՈՄԱՏ ԼՈՒՍԱԹԱՐԹՈՒՄ</string>
     <string name="pref_camera_flashmode_label_on">ԼՈՒՍԱԹԱՐԹԻՉԸ ՄԻԱՑՎԱԾ Է</string>
     <string name="pref_camera_flashmode_label_off">ԼՈՒՍԱԹԱՐԹԻՉՆ ԱՆՋԱՏՎԱԾ Է</string>
@@ -193,6 +195,7 @@
     <string name="accessibility_review_retake">Վերանայման վերսկսում</string>
     <string name="capital_on">Միացված</string>
     <string name="capital_off">Անջատված</string>
+    <string name="pref_video_time_lapse_frame_interval_off">Անջ.</string>
     <string name="pref_video_time_lapse_frame_interval_500">0.5 վայրկյան</string>
     <string name="pref_video_time_lapse_frame_interval_1000">1 վայրկյան</string>
     <string name="pref_video_time_lapse_frame_interval_1500">1.5 վայրկյան</string>
