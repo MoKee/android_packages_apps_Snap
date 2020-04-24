@@ -83,4 +83,5 @@
     <string name="pref_camera_focustime_entry_10">10வி</string>
     <string name="pref_camera_focustime_entry_infinite">எண்ணிலடங்காத</string>
     <string name="pref_camera_shutter_speed_title">ஷட்டர் வேகம்</string>
+    <string name="pref_camera2_preferences_category_developer">மேம்பட்ட விருப்பங்கள்</string>
 </resources>

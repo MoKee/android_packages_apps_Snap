@@ -83,6 +83,7 @@
     <string name="camera_error_title">கேம்ரா பிழை</string>
     <string name="cannot_connect_camera">கேமராவுடன் இணைக்க முடியவில்லை.</string>
     <string name="camera_disabled">பாதுகாப்பு கொள்கைகள் காரணமாக கேமரா முடக்கப்பட்டுள்ளது.</string>
+    <string name="dialog_dismiss">நிராகரி</string>
     <string name="wait">காத்திருக்கவும்…</string>
     <string name="no_storage" product="default">கேமராவைப் பயன்படுத்துவதற்கு முன்பாக ஒரு SD கார்டை செருகவும்.</string>
     <string name="preparing_sd" product="default">SD கார்டை தயார்செய்கிறது\u2026</string>
@@ -92,6 +93,7 @@
     <string name="pref_camera_id_title">கேமராவை தேர்வுசெய்க</string>
     <string name="pref_camera_id_entry_back">பின் செல்</string>
     <string name="pref_camera_id_entry_front">முன்</string>
+    <string name="pref_camera_recordlocation_title">GPS இருப்பிடம்</string>
     <string name="pref_camera_location_label">இடம்</string>
     <string name="pref_camera_timer_title">கவுன்ட்டவுன் டைமர்</string>
     <plurals name="pref_camera_timer_entry">
@@ -99,7 +101,9 @@
         <item quantity="other">%d நொடிகள்</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">கவுன்ட்டவுனின்போது பீப் செய்யவும்</string>
+    <string name="pref_camera_savepath_title">சேமிப்பகம்</string>
     <string name="pref_camera_savepath_entry_0">அலைபேசி</string>
+    <string name="pref_camera_savepath_entry_1">SD அட்டை</string>
     <string name="setting_off">முடக்கத்தில்</string>
     <string name="setting_on">இயக்கத்தில்</string>
     <string name="pref_video_quality_title">வீடியோ தரம்</string>
@@ -266,11 +270,16 @@
     <string name="cannot_load_image">படத்தை லோட்செய்ய முடியவில்லை!</string>
     <string name="switch_photo_filmstrip">படச்சுருள் காட்சி</string>
     <string name="setting_wallpaper">வால்பேப்பர் அமைப்பு</string>
+    <string name="pref_camera2_category_system">முறைமை</string>
     <string name="save_best_dialog_positive_bt">சரி</string>
     <string name="save_best_dialog_native_bt">ரத்துசெய்</string>
+    <string name="delete_best_dialog_title">அனைத்தையும் நீக்கவா?</string>
     <string name="delete_best_dialog_native_bt">ரத்துசெய்</string>
     <string name="delete_best_dialog_positive_bt">நீக்கு</string>
+    <string name="delete_all_best_dialog_title">அனைத்தையும் நீக்கவா?</string>
     <string name="delete_all_best_dialog_native_bt">ரத்துசெய்</string>
     <string name="delete_all_best_dialog_positive_bt">அனைத்தையும் நீக்கு</string>
+    <string name="overflow_best_item1">அனைத்தையும் சேமி</string>
     <string name="overflow_best_item2">அனைத்தையும் நீக்கு</string>
+    <string name="settings_title">அமைப்புகள்</string>
 </resources>

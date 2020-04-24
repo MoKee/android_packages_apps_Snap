@@ -14,6 +14,8 @@
      limitations under the License.
 -->
 <resources>
-    <string name="quick_reader_permission_rationale_positive">Faighnich dhìom a-rithist</string>
-    <string name="quick_reader_scanned_text_negative">Co-roinn</string>
+    <string name="quick_reader_action_dismiss">நிராகரி</string>
+    <string name="quick_reader_permission_rationale_positive">மீண்டும் கேள்</string>
+    <string name="quick_reader_scanned_text_positive">நகலெடு</string>
+    <string name="quick_reader_scanned_text_negative">பகிர்</string>
 </resources>

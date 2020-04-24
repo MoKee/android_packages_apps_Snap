@@ -286,7 +286,11 @@
     <string name="cannot_load_image">Nije moguće učitati sliku!</string>
     <string name="switch_photo_filmstrip">Prikaz filmske vrpce</string>
     <string name="setting_wallpaper">Postavljanje pozadinske slike</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d preostalo</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Makeup radi samo pod VGA veličinom u snimanju videa.</string>
     <string name="pref_camera2_category_system">Sustav</string>
     <string name="pref_camera2_restore_default">Vrati zadano</string>
