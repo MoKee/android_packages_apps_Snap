@@ -160,6 +160,9 @@
     <string name="pref_camera_countdown_label_ten">10 நொடிகள்</string>
     <string name="pref_camera_countdown_label_fifteen">15 நொடிகள்</string>
     <string name="not_selectable_in_scene_mode">காட்சி பயன்முறையில் தேர்வுசெய்ய முடியாதது</string>
+    <string name="disable_CDS_during_SeeMore">SeeMore CDSஐ முடக்கும்.</string>
+    <string name="disable_TNR_during_SeeMore">SeeMore TNRஐ முடக்கும்.</string>
+    <string name="disable_NR_during_SeeMore">SeeMore இரைச்சல் குறைவை முடக்கும்.</string>
     <string name="pref_exposure_title">வெளிப்பாடு</string>
     <string name="pref_exposure_label">எக்ஸ்போஸர்</string>
     <string name="pref_camera_hdr_label">HDR</string>
@@ -195,6 +198,7 @@
     <string name="effect_silly_faces">SILLY FACES</string>
     <string name="effect_background">பின்னணி</string>
     <string name="accessibility_shutter_button">ஷட்டர்</string>
+    <string name="accessibility_exit_best_mode_button">சிறந்தப் புகைப்பட பயன்முறையிலிருந்து வெளியேறு</string>
     <string name="accessibility_menu_button">மெனு பொத்தான்</string>
     <string name="accessibility_mode_picker">கேமரா, வீடியோ அல்லது பனோரமா தேர்வி</string>
     <string name="accessibility_check_box">%1$s தேர்வுப் பெட்டி</string>
