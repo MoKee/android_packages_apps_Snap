@@ -27,4 +27,5 @@
     <string name="quick_reader_scanned_text_negative">Поділитись</string>
     <string name="quick_reader_share_title">Поділитись через\u2026</string>
     <string name="quick_reader_copied_message">Скопійовано до буфера обміну</string>
+    <string name="quick_reader_only_unlocked">Ця дія може бути виконано тільки якщо розблокувати виндовс</string>
 </resources>
