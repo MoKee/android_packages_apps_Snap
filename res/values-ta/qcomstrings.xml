@@ -95,6 +95,7 @@
     <string name="error_app_unsupported_hsr">தேர்வுசெய்யப்பட்ட வீடியோ அளவுக்கு உயர் வேக பயன்முறை ஆதரிக்கப்படுவதில்லை ஒரு குறைந்த வீடியோ அளவை தேர்வுசெய்</string>
     <string name="error_app_unsupported_hfr_codec">H264 வீடியோ என்கோடிங் மட்டுமே HFR ON ஆக இருக்கும்போது ஆதரிக்கபடும்</string>
     <string name="error_app_unsupported">இந்த என்கோடர் வகைக்கு ஆதரிக்கப்படாத வீடியோ ரெசல்யூசன்</string>
+    <string name="error_app_unsupported_profile">ஆதரிக்கப்படாதக் காணொளிச் சுயவிவரம்</string>
     <string name="error_app_unsupported_raw">Raw பட வடிவம் பூஜ்ய மூடி தாமத பயன்முறையில் ஆதரிக்கப்படுவதில்லை. JPEG தேர்வுசெய்க</string>
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE பிரேக்கெட்டிங்</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE பிரேக்கெட்டிங்</string>
@@ -110,6 +111,7 @@
     <string name="pref_camera_hfr_entry_hsr_90">உயர் வேகம்  90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">உயர் வேகம்  120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">உயர் வேகம் 240 FPS</string>
+    <string name="pref_camera_noise_reduction_title">இரைச்சல் குறைப்பு</string>
     <string name="pref_camera_noise_reduction_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera_noise_reduction_entry_high_quality">உயர்தரம்</string>
     <string name="pref_camera_see_more_entry_off">முடக்கத்தில்</string>
@@ -210,6 +212,8 @@
     <string name="pref_camera_saturation_title">சாச்சுரேசன்</string>
     <string name="pref_camera_picture_format_title">பட வடிவம்</string>
     <string name="pref_camera_jpegquality_title">படத்தின் தரம்</string>
+    <string name="pref_camera_jpegquality_entry_0">குறைவு</string>
+    <string name="pref_camera_jpegquality_entry_2">உயர்தரம்</string>
     <string name="pref_camera_histogram_title">ஹிஸ்டோகிராம்</string>
     <string name="pref_camera_histogram_entry_enable">இயக்கு</string>
     <string name="pref_camera_histogram_entry_disable">முடக்கு</string>
@@ -236,8 +240,11 @@
     <string name="longshot_enable_message">தொடர்ச்சியான ஷாட் பயன்முறையில் மேம்பட்ட அம்சங்கள் ஆதரிக்கப்படவில்லை</string>
     <string name="advance_feature_enable_msg">மேம்பட்ட அம்சங்கள் செயல்படுத்தப்பட்டு இருக்கும்போது தொடர்ச்சியான ஷாட் ஆதரிக்கபப்டுவதில்லை.</string>
     <string name="camera_gesture_title">கேமராவை தொடங்கு</string>
+    <string name="pref_camera_tsmakeup_title">அழகாக்குதல்</string>
     <string name="pref_camera_tsmakeup_entry_on">இயக்கு</string>
     <string name="pref_camera_tsmakeup_entry_off">முடக்கத்தில்</string>
+    <string name="pref_camera_tsmakeup_entry_low">குறைவு</string>
+    <string name="pref_camera_tsmakeup_entry_high">உயர்தரம்</string>
     <string name="pref_camera_tsmakeup_custom">தனிப்பயன்</string>
     <string name="pref_camera_tsmakeup_level_whiten">வெள்ளையாக்கு</string>
     <string name="text_tsmakeup_alert_title">எச்சரிக்கை</string>
@@ -263,6 +270,7 @@
     <string name="pref_camera2_mpo_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera2_makeup_entry_on">இயக்கு</string>
     <string name="pref_camera2_makeup_entry_off">முடக்கத்தில்</string>
+    <string name="pref_camera2_noise_reduction_title">இரைச்சல் குறைப்பு</string>
     <string name="pref_camera2_noise_reduction_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera2_noise_reduction_entry_high_quality">உயர்தரம்</string>
     <string name="pref_camera2_videosnap_entry_enable">இயக்கு</string>
@@ -271,6 +279,7 @@
     <string name="pref_camera2_trackingfocus_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera_scenemode_entry_bestpicture">சிறந்த புகைப்படம்</string>
     <string name="pref_camera_scenemode_entry_panorama">பனோரமா</string>
+    <string name="pref_camera_scenemode_entry_promode">Pro பயன்முறை</string>
     <string name="bestpicture_done">முடிந்தது</string>
     <string name="pref_camera2_shutter_sound_entry_on">இயக்கு</string>
     <string name="pref_camera2_shutter_sound_entry_off">முடக்கத்தில்</string>
@@ -285,6 +294,7 @@
     <string name="perf_camera2_preferences_category_general">பொதுவானவை</string>
     <string name="perf_camera2_preferences_category_video">காணொளிக் கேமரா</string>
     <string name="perf_camera2_preferences_category_system">முறைமை</string>
+    <string name="pref_camera2_not_show_again">மீண்டும் காட்டாதே</string>
     <string name="pref_camera2_scene_mode_instructional_ok">சரி</string>
     <string name="pref_camera2_instant_aec_title">உடனடி AEC</string>
     <string name="pref_camera2_instant_aec_entry_disable">முடக்கு</string>
@@ -337,6 +347,7 @@
     <string name="pref_camera2_zsl_title">பூஜ்யம் மூடி தாமதம்</string>
     <string name="pref_camera2_zsl_entry_disable">முடக்கத்தில்</string>
     <string name="pref_camera2_zsl_entry_app_zsl">மென்பொருள் ZSL</string>
+    <string name="pref_camera2_zsl_entry_hal_zsl">மென்பொருள் ZSL</string>
     <string name="pref_camera2_afmode_entry_disable">முடக்கு</string>
     <string name="pref_camera2_afmode_entry_off">முடக்கத்தில்</string>
     <string name="pref_camera2_initial_camera_entry_mono">மோனோ</string>
