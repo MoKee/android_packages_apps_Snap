@@ -23,8 +23,8 @@
     <plurals name="delete_selection">
         <item quantity="one">Видалити вибраний елемент?</item>
         <item quantity="few">Видалити вибрані елементи?</item>
-        <item quantity="many">змінити вашу сексуальну орієнтацію?</item>
-        <item quantity="other">відправити вас і ваш пристрій в труну?</item>
+        <item quantity="many">Видалити вибрані елементи?</item>
+        <item quantity="other">Видалити вибрані елементи?</item>
     </plurals>
     <string name="share">Поділитися</string>
     <string name="share_panorama">Поділитися панорамою</string>
