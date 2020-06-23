@@ -276,6 +276,7 @@
     <string name="cannot_load_image">Tidak dapat memuat gambar!</string>
     <string name="switch_photo_filmstrip">Tampilan bingkai film</string>
     <string name="setting_wallpaper">Setel wallpaper</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>
