@@ -16,6 +16,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Cámara</string>
     <string name="video_camera_label">Camara</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Establecer como...</string>
     <string name="delete">Borrar</string>
     <plurals name="delete_selection">
@@ -279,6 +281,7 @@
     <string name="cannot_load_image">Error al cargar la imagen</string>
     <string name="switch_photo_filmstrip">Vista de tira de película</string>
     <string name="setting_wallpaper">Estableciendo fondo de pantalla...</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>
