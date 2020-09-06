@@ -18,8 +18,17 @@
     <string name="model">Үлгү</string>
     <string name="aperture">Апертура</string>
     <string name="focal_length">Фокус аралыгы</string>
+    <string name="auto">Авто</string>
+    <string name="setting_off">Өчүрүү</string>
+    <string name="pref_camera_focusmode_entry_auto">Авто</string>
+    <string name="pref_camera_flashmode_entry_auto">Авто</string>
+    <string name="pref_camera_flashmode_entry_off">Өчүрүү</string>
+    <string name="pref_camera_whitebalance_entry_auto">Авто</string>
+    <string name="pref_camera_scenemode_entry_auto">Авто</string>
+    <string name="pref_camera_scenemode_entry_action">Аракет</string>
     <string name="pref_exposure_title">Экспозиция</string>
     <string name="effect_none">Эч нерсе жок</string>
+    <string name="pref_video_time_lapse_frame_interval_off">Өчүрүү</string>
     <string name="tiny_planet_rotate">Буруу</string>
     <string name="cannot_load_image">Сүрөттү жүктөй албайт!</string>
     <string name="setting_wallpaper">Тушкагаз орнотулууда</string>
