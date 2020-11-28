@@ -97,7 +97,6 @@
         <item quantity="other">%d წამი</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">ტაიმერის ხმა</string>
-    <string name="pref_camera_savepath_entry_1">SD-ბარათი</string>
     <string name="setting_on">ჩართული</string>
     <string name="pref_video_quality_title">ვიდეოს ხარისხი</string>
     <string name="pref_video_time_lapse_frame_interval_title">შენელებული გადაღება</string>

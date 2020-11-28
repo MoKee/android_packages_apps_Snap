@@ -217,7 +217,6 @@
     <string name="pref_camera_auto_hdr_title">Auto HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">I-enable</string>
     <string name="pref_camera_auto_hdr_entry_disable">I-disable</string>
-    <string name="on_switch_save_path_to_sdcard">Ang internal storage space ay hindi sapat - ipinalit ang SD card bilang storage location</string>
     <string name="pref_camera_hdr_mode_title">Mode na HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Marami-lumikha HDR</string>

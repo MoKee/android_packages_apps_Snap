@@ -76,7 +76,6 @@
     <string name="pref_camera_location_label">VIETA</string>
     <string name="pref_camera_timer_title">Atvirkštinis laikmatis</string>
     <string name="pref_camera_timer_sound_title">Atv. laikm. pyp.</string>
-    <string name="pref_camera_savepath_entry_0">Telefonas</string>
     <string name="setting_off">Išjungti</string>
     <string name="setting_on">Įjungta</string>
     <string name="pref_video_quality_title">Vaizdo įrašo kokybė</string>

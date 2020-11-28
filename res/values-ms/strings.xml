@@ -89,7 +89,6 @@
         <item quantity="other">%d saat</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Bip hitung detik</string>
-    <string name="pref_camera_savepath_entry_0">Telefon</string>
     <string name="setting_off">Dimatikan</string>
     <string name="setting_on">Hidupkan</string>
     <string name="pref_video_quality_title">Kualiti video</string>

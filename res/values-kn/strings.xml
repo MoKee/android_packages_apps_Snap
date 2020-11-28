@@ -101,7 +101,6 @@
         <item quantity="other">%d ಸೆಕೆಂಡುಗಳು</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">ಕೌಂಟ್‌ಡೌನ್ ವೇಳೆ ಬೀಪ್</string>
-    <string name="pref_camera_savepath_entry_0">ಫೋನ್</string>
     <string name="setting_off">ಆಫ್ ಆಗಿದೆ</string>
     <string name="setting_on">ಆನ್ ಆಗಿದೆ</string>
     <string name="pref_video_quality_title">ವೀಡಿಯೋ ಗುಣಮಟ್ಟ</string>

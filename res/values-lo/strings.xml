@@ -93,7 +93,6 @@
         <item quantity="other">%d ວິນາທີ</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">ສຽງປີີບໃນເວລານັບຖອຍຫຼັງ</string>
-    <string name="pref_camera_savepath_entry_1">SD Card</string>
     <string name="setting_off">ປິດ</string>
     <string name="setting_on">ເປີດ</string>
     <string name="pref_video_quality_title">ຄຸນນະພາບຂອງວິດີໂອ</string>

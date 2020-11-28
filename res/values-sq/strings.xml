@@ -60,6 +60,8 @@
     <string name="aperture">Hapja e diafragmës</string>
     <string name="focal_length">Largësia e fokusimit</string>
     <string name="iso">ISO</string>
+    <string name="auto">Automatik</string>
+    <string name="error_permissions">Aplikacioni nuk ka leje kritike që i nevojiten për t\'u hapur. Kontrollo parametrat e lejeve.</string>
     <string name="dialog_dismiss">Largo</string>
     <string name="no_storage" product="default">Fut një kartë SD përpara se të përdorësh kamerën.</string>
     <string name="preparing_sd" product="default">Duke përgatitur kartën SD\u2026</string>
@@ -68,16 +70,18 @@
     <string name="pref_camera_id_entry_back">E pasme</string>
     <string name="pref_camera_recordlocation_title">Vendndodhja GPS</string>
     <string name="pref_camera_location_label">VENDNDODHJA</string>
-    <string name="pref_camera_savepath_title">Hapësira ruajtëse</string>
-    <string name="pref_camera_savepath_entry_0">Në telefon</string>
-    <string name="pref_camera_savepath_entry_1">Në kartën SD</string>
     <string name="setting_off">Inaktiv</string>
+    <string name="setting_on">Aktivizuar</string>
+    <string name="pref_camera_focusmode_entry_auto">Automatik</string>
     <string name="pref_camera_flashmode_entry_auto">Automatik</string>
     <string name="pref_camera_flashmode_entry_on">Aktiv</string>
     <string name="pref_camera_flashmode_entry_off">Inaktiv</string>
     <string name="pref_camera_flashmode_label_auto">BLICI AUTOMATIK</string>
     <string name="pref_camera_flashmode_label_on">BLICI AKTIV</string>
     <string name="pref_camera_flashmode_label_off">BLICI INAKTIV</string>
+    <string name="pref_camera_whitebalance_entry_auto">Automatik</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">Me re</string>
+    <string name="pref_camera_scenemode_entry_auto">Automatik</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ AKTIV</string>

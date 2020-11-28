@@ -102,9 +102,6 @@
         <item quantity="other">%d sekundit</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Loenduse heli</string>
-    <string name="pref_camera_savepath_title">Salvestuskoht</string>
-    <string name="pref_camera_savepath_entry_0">Telefon</string>
-    <string name="pref_camera_savepath_entry_1">SD kaart</string>
     <string name="setting_off">Väljas</string>
     <string name="setting_on">Sees</string>
     <string name="pref_video_quality_title">Video kvaliteet</string>

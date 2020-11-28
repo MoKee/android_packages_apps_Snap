@@ -112,9 +112,6 @@
         <item quantity="other">%d сек.</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Гукавы сігнал падчас зваротнага адліку</string>
-    <string name="pref_camera_savepath_title">Сховішча</string>
-    <string name="pref_camera_savepath_entry_0">Тэлефон</string>
-    <string name="pref_camera_savepath_entry_1">SD-картка</string>
     <string name="setting_off">Адключана</string>
     <string name="setting_on">Уключана</string>
     <string name="pref_video_quality_title">Якасць відэа</string>
