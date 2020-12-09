@@ -16,5 +16,6 @@
 <resources>
     <string name="quick_reader_action_dismiss">Largo</string>
     <string name="quick_reader_permission_rationale_positive">Pyet përsëri</string>
+    <string name="quick_reader_scanned_text_positive">Kopjo</string>
     <string name="quick_reader_scanned_text_negative">Ndaj</string>
 </resources>
