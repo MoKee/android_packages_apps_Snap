@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Kamera</string>
+    <string name="video_camera_label">Video regjistrues</string>
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Cakto foton si</string>
@@ -48,6 +49,7 @@
     <string name="crop_action">Prite</string>
     <string name="trim_action">Shkurto</string>
     <string name="set_as">Cakto si</string>
+    <string name="video_err">Kjo video nuk mund të luhet.</string>
     <string name="title">Titulli</string>
     <string name="description">Përshkrimi</string>
     <string name="time">Ora</string>
@@ -56,11 +58,18 @@
     <string name="height">Lartësia</string>
     <string name="orientation">Orientimi</string>
     <string name="duration">Kohëzgjatja</string>
+    <string name="file_size">Madhësia e skedarit</string>
     <string name="model">Modeli</string>
     <string name="aperture">Hapja e diafragmës</string>
     <string name="focal_length">Largësia e fokusimit</string>
     <string name="iso">ISO</string>
     <string name="auto">Automatik</string>
+    <string name="flash_off">Pa blic</string>
+    <string name="unknown">I panjohur</string>
+    <string name="try_to_set_local_album_available_offline">Ky artikull ruhet në vend dhe është i disponueshëm jashtë linje.</string>
+    <string name="please_wait">Të lutem prit...</string>
+    <string name="camera_error_title">Gabim në kamera</string>
+    <string name="cannot_connect_camera">S\'mund të lidhet me kamerën</string>
     <string name="error_permissions">Aplikacioni nuk ka leje kritike që i nevojiten për t\'u hapur. Kontrollo parametrat e lejeve.</string>
     <string name="dialog_dismiss">Largo</string>
     <string name="no_storage" product="default">Fut një kartë SD përpara se të përdorësh kamerën.</string>
@@ -68,10 +77,19 @@
     <string name="access_sd_fail" product="default">Karta SD nuk mund të aksesohet.</string>
     <string name="pref_camera_id_title">Zgjidh kamerën</string>
     <string name="pref_camera_id_entry_back">E pasme</string>
+    <string name="pref_camera_id_entry_front">Përpara</string>
     <string name="pref_camera_recordlocation_title">Vendndodhja GPS</string>
     <string name="pref_camera_location_label">VENDNDODHJA</string>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="one">1 sekondë</item>
+        <item quantity="other">%d sekonda</item>
+    </plurals>
     <string name="setting_off">Inaktiv</string>
     <string name="setting_on">Aktivizuar</string>
+    <string name="pref_video_quality_title">Cilësia e videos</string>
+    <string name="pref_video_time_lapse_frame_interval_title">Interval kohor</string>
+    <string name="pref_camera_settings_category">Cilësimet e kamerës</string>
+    <string name="pref_camera_focusmode_title">Modaliteti fokus</string>
     <string name="pref_camera_focusmode_entry_auto">Automatik</string>
     <string name="pref_camera_flashmode_entry_auto">Automatik</string>
     <string name="pref_camera_flashmode_entry_on">Aktiv</string>
