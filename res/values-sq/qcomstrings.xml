@@ -213,6 +213,7 @@
     <string name="perf_camera2_version_info">Të dhëna mbi versionin</string>
     <string name="perf_camera2_preferences_category_general">Të përgjithshme</string>
     <string name="perf_camera2_preferences_category_system">Sistemi</string>
+    <string name="pref_camera2_scene_mode_sports_instructional_content">Metoda Sport ndihmon të kapësh shkrepje më të mira për sport ose lëvizje.\n\nPërmirëson foto por ska efekt tek videot.</string>
     <string name="pref_camera2_not_show_again">Mos e shfaq përsëri</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_entry_disable">Çaktivizo</string>
@@ -253,6 +254,7 @@
     <string name="pref_camera2_afmode_entry_disable">E çaktivizuar</string>
     <string name="pref_camera2_afmode_entry_off">Inaktiv</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
+    <string name="pref_camera2_initial_camera_entry_front">Përpara</string>
     <string name="pref_camera2_eis_entry_disable">E çaktivizuar</string>
     <string name="pref_camera2_fovc_entry_enable">E aktivizuar</string>
     <string name="pref_camera2_fovc_entry_disable">E çaktivizuar</string>
