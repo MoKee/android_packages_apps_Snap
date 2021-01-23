@@ -24,7 +24,7 @@
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
-    <uses-permission android:name="lineage.permission.PREVENT_POWER_KEY" />
+    <uses-permission android:name="mokee.permission.PREVENT_POWER_KEY" />
 
     <supports-screens
         android:anyDensity="true"
@@ -191,7 +191,7 @@
         </activity>
 
         <activity
-            android:name="org.lineageos.quickreader.ScannerActivity"
+            android:name="org.mokee.quickreader.ScannerActivity"
             android:label="@string/quick_reader_name"
             android:theme="@style/AppTheme" />
 

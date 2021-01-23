@@ -18,10 +18,10 @@
     <!-- Compatibility for upgrades from old package name -->
     <privapp-permissions package="org.cyanogenmod.snap">
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
-        <permission name="lineage.permission.PREVENT_POWER_KEY"/>
+        <permission name="mokee.permission.PREVENT_POWER_KEY"/>
     </privapp-permissions>
-    <privapp-permissions package="org.lineageos.snap">
+    <privapp-permissions package="org.mokee.snap">
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
-        <permission name="lineage.permission.PREVENT_POWER_KEY"/>
+        <permission name="mokee.permission.PREVENT_POWER_KEY"/>
     </privapp-permissions>
 </permissions>

@@ -122,7 +122,7 @@ import com.android.camera.util.PhotoSphereHelper.PanoramaViewHelper;
 import com.android.camera.util.UsageStatistics;
 import org.codeaurora.snapcam.R;
 
-import org.lineageos.quickreader.ScannerActivity;
+import org.mokee.quickreader.ScannerActivity;
 
 import java.io.File;
 import java.io.IOException;
