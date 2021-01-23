@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher 2ECD2531 1611426846 +0800\npushee ssh://mokeedev.review:29418/MoKee/android_packages_apps_Snap\nnonce 1611426846-5647195C5F2352A529D901A110EB801883591F75\n\n0000000000000000000000000000000000000000 42a7fc0de78b76ea9c47aac6f9f8609f26307045 refs/for/mkr-mr1%topic\u003d11-bringup\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEE/Y8fKHw84zhHjhP78iL05i7NJTEFAmAMbB4ACgkQ8iL05i7N\nJTHthQf+NqlbFqZa5m/C/nwxUvnqI4/mJhAAZTlgnHOOwnh6x3v7/8RBxBDsARaD\nu98UJRdq4B4jueSoAvKFyZgKCYd962eCjJ1yieRUAi8M0wc1NDPYhWoQKV0d/7V3\na8yu25Ld4TFYt30SaE1auNcvFf9CQlSqEqwOBVNpGylUzAvUkKESybhqWLlETNXw\nHWv0XGsg+Mnz8qxZxidvTMvexIgdqp39vpeLNhhNmzL8+rlhqwiYDGYGKAsPT8vb\nV9bFSiRod3/ut2zkQhUpNyMPFPuyTiz4ynDk7KjRYmQ0oQEEBJXqxQMvhoTGvilX\nkbHNwcB6e3PStiRmYWfFCpUblJgW4w\u003d\u003d\n\u003dPHzh\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
