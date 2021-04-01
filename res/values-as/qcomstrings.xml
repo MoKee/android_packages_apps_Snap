@@ -75,6 +75,7 @@
     <string name="error_app_unsupported_raw">জিৰো শ্বাটাৰ লেগ মোডত Raw ছবি ফৰ্মেট সমৰ্থিত নহয়। JPEG নিৰ্বাচন কৰক</string>
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE ব্ৰেকেটিং</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE ব্ৰেকেটিং</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">অফ</string>
     <string name="pref_camera_hfr_title">উচ্চ-ফ্ৰেমৰেট ৰেকৰ্ডিং</string>
     <string name="pref_camera_hfr_entry_off">অফ</string>
     <string name="pref_camera_hfr_entry_2x">মন্থৰ গতি 60 FPS</string>
@@ -199,6 +200,7 @@
     <string name="advance_feature_enable_msg">উন্নত বৈশিষ্ট্য সক্ষম কৰিলে নিৰবিচ্ছিন্ন শ্বট মোড সমৰ্থিত নহয়</string>
     <string name="camera_gesture_title">কেমেৰা লান্চ্চ কৰক</string>
     <string name="pref_camera_tsmakeup_entry_off">অফ</string>
+    <string name="pref_camera_tsmakeup_custom">কাষ্টম</string>
     <string name="all_in_focus">অল ইন ফোকাচ</string>
     <string name="refocus_toast">অন্তিমখন ফটো পুনঃ-ফোকাচ কৰিবলৈ ইয়াত টেপ কৰক</string>
     <string name="pref_camera2_mono_only_entry_off">অফ</string>

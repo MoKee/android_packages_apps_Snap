@@ -14,6 +14,7 @@
      limitations under the License.
 -->
 <resources>
+    <string name="quick_reader_action_dismiss">Rədd et</string>
     <string name="quick_reader_scanned_text_positive">Kopyala</string>
     <string name="quick_reader_scanned_text_negative">Paylaşın</string>
 </resources>

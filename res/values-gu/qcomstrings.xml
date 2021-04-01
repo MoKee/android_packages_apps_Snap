@@ -75,6 +75,7 @@
     <string name="error_app_unsupported_raw">ઝીરો શટર લૅગ મોડમાં રો ચિત્ર ફૉર્મૅટને સમર્થન નથી. JPEG પસંદ કરો</string>
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE બ્રેકેટિંગ</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE બ્રેકેટિંગ</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">બંધ</string>
     <string name="pref_camera_hfr_title">ઉચ્ચ-ફ્રેમરેટ રેકૉર્ડિંગ</string>
     <string name="pref_camera_hfr_entry_off">બંધ</string>
     <string name="pref_camera_hfr_entry_2x">સ્લો મોશન 60 FPS</string>

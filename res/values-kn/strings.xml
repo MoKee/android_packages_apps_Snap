@@ -103,6 +103,7 @@
     </plurals>
     <string name="pref_camera_timer_sound_title">ಕೌಂಟ್‌ಡೌನ್ ವೇಳೆ ಬೀಪ್</string>
     <string name="pref_camera_savepath_entry_0">ಫೋನ್</string>
+    <string name="pref_camera_savepath_entry_1">SD ಕಾರ್ಡ್</string>
     <string name="setting_off">ಆಫ್ ಆಗಿದೆ</string>
     <string name="setting_on">ಆನ್ ಆಗಿದೆ</string>
     <string name="pref_video_quality_title">ವೀಡಿಯೋ ಗುಣಮಟ್ಟ</string>
@@ -270,6 +271,7 @@
     <string name="switch_photo_filmstrip">ಫಿಲ್ಮ್‌ಸ್ಟ್ರಿಪ್ ವೀಕ್ಷಣೆ</string>
     <string name="setting_wallpaper">ವಾಲ್‌ಪೇಪರ್‌ ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ</string>
     <string name="pref_camera2_category_system">ವ್ಯವಸ್ಥೆ</string>
+    <string name="pref_camera2_restore_default">ಪೂರ್ವನಿರ್ಧರಿತಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ</string>
     <string name="save_best_dialog_positive_bt">ಸರಿ</string>
     <string name="save_best_dialog_native_bt">ರದ್ದು</string>
     <string name="delete_best_dialog_native_bt">ರದ್ದು</string>

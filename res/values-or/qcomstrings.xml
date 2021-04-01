@@ -75,6 +75,7 @@
     <string name="error_app_unsupported_raw">ଶୂନ୍ୟ ସଟର୍‍ ଲ୍ୟାଗା ମୋଡ୍‍ରେ ମୂଳ ଚିତ୍ର ଫର୍ମାଟ୍‍ ସମଥନ କରେ ନାହିଁ JPEG ଚୟନ କରନ୍ତୁ</string>
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE ବ୍ରାକେଟିଂ</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE ବ୍ରାକେଟିଂ</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">ଅଫ୍</string>
     <string name="pref_camera_hfr_title">ଅଧିକ-ଫ୍ରେମ୍‍ହାର ରେକର୍ଡିଂ</string>
     <string name="pref_camera_hfr_entry_off">ଅଫ୍</string>
     <string name="pref_camera_hfr_entry_2x">ଧୀର ଗତି 60 FPS</string>
@@ -199,6 +200,7 @@
     <string name="advance_feature_enable_msg">ଉନ୍ନତ ବୈଶିଷ୍ଟ୍ୟ ସଷମ କରାଯାଇଥିବା ସମୟରେ ଜାରିଥିବା ସଟ୍ ସମଥନ କରେ ନାହିଁ</string>
     <string name="camera_gesture_title">କ୍ୟାମେରା ଉନ୍ମୋଚନ୍ଚ କରନ୍ତୁ</string>
     <string name="pref_camera_tsmakeup_entry_off">ଅଫ୍</string>
+    <string name="pref_camera_tsmakeup_custom">କଷ୍ଟମ୍</string>
     <string name="all_in_focus">ଫୋକସ୍‍ରେ ସମସ୍ତ</string>
     <string name="refocus_toast">ଶେଷ ଫଟୋ ରି-ଫୋକସ୍‍ କରିବା ପାଇଁ, ଏଠାରେ ସ୍ପର୍ଶ କରନ୍ତୁ</string>
     <string name="pref_camera2_mono_only_entry_off">ଅଫ୍</string>

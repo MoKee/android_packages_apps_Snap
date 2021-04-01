@@ -75,6 +75,7 @@
     <string name="error_app_unsupported_raw">സീറോ ഷട്ടർ ലാഗ് മോഡിൽ അസംസ്കൃത ചിത്രം ഫോർമാറ്റ് പിന്തുണയ്ക്കില്ല. JPEG തിരഞ്ഞെടുക്കുക</string>
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE-ബ്രാക്കറ്റിംഗ്</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE-ബ്രാക്കറ്റിംഗ്</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">ഓഫാണ്</string>
     <string name="pref_camera_hfr_title">ഹൈ-ഫ്രെയിംറേറ്റ് റിക്കോര്‍ഡിംഗ്</string>
     <string name="pref_camera_hfr_entry_off">ഓഫാണ്</string>
     <string name="pref_camera_hfr_entry_2x">സ്ലോ മോഷൻ 60 FPS</string>

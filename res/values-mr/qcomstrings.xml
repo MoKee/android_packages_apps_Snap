@@ -75,6 +75,7 @@
     <string name="error_app_unsupported_raw">शून्य शटर लॅग मोडमध्ये रॉ पिक्चर फॉरमॅट समर्थित नाही. JPEG निवडा</string>
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE कंस करणे</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE कंस करणे</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">बंद</string>
     <string name="pref_camera_hfr_title">उच्च-चौकटदर रेकॉर्डिंग</string>
     <string name="pref_camera_hfr_entry_off">बंद</string>
     <string name="pref_camera_hfr_entry_2x">संथ हालचाल 60 FPS</string>

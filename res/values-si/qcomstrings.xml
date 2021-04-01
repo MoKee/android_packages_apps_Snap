@@ -60,6 +60,7 @@
     <string name="pref_camera2_timer_entry_2sec">තත්පර 2</string>
     <string name="pref_camera2_timer_entry_5sec">තත්පර 5</string>
     <string name="pref_camera2_timer_entry_10sec">තත්පර 10</string>
+    <string name="perf_camera2_preferences_category_system">පද්ධතිය</string>
     <string name="pref_camera2_saturation_level_title">සන්තෘප්ත</string>
     <string name="pref_camera2_anti_banding_level_entry_auto">ස්වයංක්‍රීය</string>
     <string name="pref_camera2_histogram_title">ජාලරේඛය</string>

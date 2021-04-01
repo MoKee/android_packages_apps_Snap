@@ -282,6 +282,8 @@
     <string name="setting_wallpaper">Angiver baggrund</string>
     <string name="remaining_photos_format">%d tilbage</string>
     <string name="makeup_video_size_limit">Makeup virker kun i VGA-størrelse under videooptagelse.</string>
+    <string name="pref_camera2_category_system">System</string>
+    <string name="pref_camera2_restore_default">Gendan standarder</string>
     <string name="save_best_dialog_positive_bt">OK</string>
     <string name="save_best_dialog_native_bt">Annuller</string>
     <string name="delete_best_dialog_native_bt">Annuller</string>

@@ -317,6 +317,7 @@
     <string name="makeup_ui_ok_button">OK</string>
     <string name="perf_camera2_version_info">Versionsoplysninger</string>
     <string name="perf_camera2_preferences_category_general">Generelt</string>
+    <string name="perf_camera2_preferences_category_system">System</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_entry_disable">Deaktivér</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Aggressiv AEC</string>

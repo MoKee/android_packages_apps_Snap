@@ -83,6 +83,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">การถ่ายภาพคร่อม AE</string>
     <string name="pref_camera_ae_bracket_hdr_title">การถ่ายภาพคร่อม AE</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">เปิด</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">ปิด</string>
     <string name="pref_camera_hfr_title">การเคลื่อนไหวช้า</string>
     <string name="pref_camera_hfr_entry_off">ปิด</string>
     <string name="pref_camera_hfr_entry_2x">การเคลื่อนไหวช้า 60 FPS</string>

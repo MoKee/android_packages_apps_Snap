@@ -14,6 +14,5 @@
      limitations under the License.
 -->
 <resources>
-    <string name="quick_reader_action_dismiss">Dismiss</string>
-    <string name="quick_reader_scanned_text_negative">გაზიარება</string>
+    <string name="quick_reader_action_dismiss">Leig seachad</string>
 </resources>

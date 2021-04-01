@@ -98,6 +98,8 @@
         <item quantity="other">‏%d ثانیه</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">بیپ شمارش معکوس</string>
+    <string name="pref_camera_savepath_entry_0">گوشی</string>
+    <string name="setting_off">خاموش</string>
     <string name="setting_on">فعال</string>
     <string name="pref_video_quality_title">کیفیت ویدیو</string>
     <string name="pref_video_time_lapse_frame_interval_title">گذر زمان</string>
@@ -114,6 +116,7 @@
     <string name="pref_camera_flashmode_title">فلاش</string>
     <string name="pref_camera_flashmode_entry_auto">خودکار</string>
     <string name="pref_camera_flashmode_entry_on">فعال</string>
+    <string name="pref_camera_flashmode_entry_off">خاموش</string>
     <string name="pref_camera_flashmode_label_auto">فلاش خودکار</string>
     <string name="pref_camera_flashmode_label_on">فلاش روشن</string>
     <string name="pref_camera_flashmode_label_off">فلاش خاموش</string>
@@ -137,6 +140,7 @@
     <string name="pref_camera_scenemode_entry_turn_hdr_on">‏‫HDR روشن</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_off">‏‫HDR خاموش</string>
     <string name="pref_camera_scenemode_entry_action">عملکرد</string>
+    <string name="pref_camera_scenemode_entry_night">شب</string>
     <string name="pref_camera_scenemode_entry_sunset">غروب آفتاب</string>
     <string name="pref_camera_scenemode_entry_party">مهمانی</string>
     <string name="pref_camera_scenemode_label_auto">هیچ‌کدام</string>
@@ -196,6 +200,7 @@
     <string name="accessibility_review_retake">بازبینی عکس/ویدیوی دوباره ضبط شده</string>
     <string name="capital_on">روشن</string>
     <string name="capital_off">خاموش</string>
+    <string name="pref_video_time_lapse_frame_interval_off">خاموش</string>
     <string name="pref_video_time_lapse_frame_interval_500">۰٫۵ ثانیه</string>
     <string name="pref_video_time_lapse_frame_interval_1000">۱ ثانیه</string>
     <string name="pref_video_time_lapse_frame_interval_1500">۱٫۵ ثانیه</string>
@@ -257,6 +262,7 @@
     <string name="cannot_load_image">تصویر بارگیری نمی‌شود!</string>
     <string name="switch_photo_filmstrip">نمای نوار فیلم</string>
     <string name="setting_wallpaper">تنظیم کاغذ دیواری</string>
+    <string name="pref_camera2_category_system">سيستم</string>
     <string name="delete_best_dialog_positive_bt">حذف</string>
     <string name="delete_all_best_dialog_positive_bt">حذف همه</string>
     <string name="overflow_best_item2">حذف همه</string>

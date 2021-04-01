@@ -99,6 +99,7 @@
         <item quantity="other">%d സെക്കൻഡ്</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">കൗണ്ട്ഡൗണില്‍ ബീപ്</string>
+    <string name="pref_camera_savepath_entry_0">ഫോണ്‍</string>
     <string name="setting_off">ഓഫാണ്</string>
     <string name="setting_on">ഓണാക്കുക</string>
     <string name="pref_video_quality_title">വീഡിയോ ഗുണമേന്മ</string>

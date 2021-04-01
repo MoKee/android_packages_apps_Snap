@@ -21,10 +21,39 @@
 -->
 <resources>
     <string name="pref_camera_advanced_feature_entry_none">Chan eil gin</string>
+    <string name="pref_camera_manual_exp_entry_off">Dheth</string>
+    <string name="pref_camera_manual_wb_entry_off">Dheth</string>
+    <string name="pref_camera_manual_focus_entry_off">Dheth</string>
+    <string name="pref_camera_zsl_entry_off">Dheth</string>
+    <string name="pref_camera_video_hdr_entry_off">Dheth</string>
+    <string name="pref_camera_cds_entry_off">Dheth</string>
+    <string name="pref_camera_video_cds_entry_off">Dheth</string>
+    <string name="pref_camera_facedetection_entry_off">Dheth</string>
+    <string name="pref_selfie_flash_entry_off">Dheth</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Dheth</string>
+    <string name="pref_camera_hfr_entry_off">Dheth</string>
+    <string name="pref_camera_noise_reduction_entry_off">Dheth</string>
+    <string name="pref_camera_see_more_entry_off">Dheth</string>
+    <string name="pref_camera_denoise_entry_off">Dheth</string>
+    <string name="pref_camera_filter_mode_entry_off">Dheth</string>
     <string name="pref_camera_coloreffect_entry_none">Chan eil gin</string>
+    <string name="pref_camera_dis_entry_off">Dheth</string>
+    <string name="pref_camera_facerc_entry_off">Dheth</string>
+    <string name="pref_camera_scenedetect_entry_off">Dheth</string>
+    <string name="pref_camera_tsmakeup_entry_off">Dheth</string>
+    <string name="pref_camera_tsmakeup_custom">Gnàthaichte</string>
+    <string name="pref_camera2_mono_only_entry_off">Dheth</string>
+    <string name="pref_camera2_mono_preview_entry_off">Dheth</string>
+    <string name="pref_camera2_clearsight_entry_off">Dheth</string>
+    <string name="pref_camera2_mpo_entry_off">Dheth</string>
+    <string name="pref_camera2_makeup_entry_off">Dheth</string>
+    <string name="pref_camera2_noise_reduction_entry_off">Dheth</string>
+    <string name="pref_camera2_trackingfocus_entry_off">Dheth</string>
     <string name="pref_camera_scenemode_entry_sharpshooter">Dealbh geur</string>
     <string name="pref_camera_scenemode_entry_panorama">Cuairt-shealladh</string>
     <string name="pref_camera_scenemode_entry_promode">Modh proifeiseanta</string>
+    <string name="pref_camera2_shutter_sound_entry_off">Dheth</string>
+    <string name="pref_camera2_timer_entry_off">Dheth</string>
     <string name="pref_camera2_timer_entry_2sec">2 dhiog</string>
     <string name="pref_camera2_timer_entry_5sec">5 diogan</string>
     <string name="pref_camera2_timer_entry_10sec">10 diogan</string>
@@ -52,11 +81,13 @@
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">Ìslichidh BlurBuster an sgleò o chrathadh do làimh. Bidh e cuideachail nuair a thogas tu dealbhan ann an àiteachan doirbhe.</string>
     <string name="pref_camera2_not_show_again">Na seall seo a-rithist</string>
     <string name="pref_camera2_instant_aec_title">AEC sa bhad</string>
+    <string name="pref_camera2_anti_banding_level_entry_off">Dheth</string>
     <string name="pref_camera2_hdr_title">HDR</string>
     <string name="pref_camera_bokeh_mode_title">Modh Bokeh</string>
     <string name="pref_camera_bokeh_mpo_title">Modh Bokeh MPO</string>
     <string name="pref_camera_bokeh_blur_degree_title">Luach sgleò Bokeh</string>
     <string name="pref_camera_zoom_title">Sùm</string>
+    <string name="pref_camera_zoom_entry_off">Dheth</string>
     <string name="pref_camera_zoom_entry_1x">1x</string>
     <string name="pref_camera_zoom_entry_2x">2x</string>
     <string name="pref_camera_zoom_entry_3x">3x</string>
@@ -68,7 +99,9 @@
     <string name="pref_camera_zoom_entry_9x">9x</string>
     <string name="pref_camera_zoom_entry_10x">10x</string>
     <string name="pref_camera2_bsgc_title">Mothachadh air fiamh-gàire/priobadh/amharc</string>
+    <string name="pref_camera2_zsl_entry_disable">Dheth</string>
     <string name="pref_camera2_zsl_entry_app_zsl">ZSL bathair-bhog</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">ZSL bathair-chruaidh</string>
+    <string name="pref_camera2_afmode_entry_off">Dheth</string>
     <string name="pref_camera2_switch_camera_title">Gearr leum gu camara a-rèir ID</string>
 </resources>

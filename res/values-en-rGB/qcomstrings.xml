@@ -398,6 +398,7 @@
     <string name="pref_camera2_zsl_entry_disable">Off</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Software ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Hardware ZSL</string>
+    <string name="pref_camera2_sharpness_control_entry_level2">Level 2</string>
     <string name="pref_camera2_afmode_entry_disable">Disabled</string>
     <string name="pref_camera2_afmode_entry_off">Off</string>
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
