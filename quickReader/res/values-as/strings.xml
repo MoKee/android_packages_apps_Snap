@@ -21,6 +21,7 @@
     <string name="quick_reader_permission_fatal_message">কেমেৰালৈ প্ৰৱেশ বৰ্খাস্ত কৰা হৈছিল। অনুগ্ৰহ কৰি এপ্পটোৰ ছেটিংছত ইয়াৰ অনুমতি দিয়ক।</string>
     <string name="quick_reader_permission_fatal_positive">ছেটিংছ খোলক</string>
     <string name="quick_reader_scanned_text_title">স্কেন কৰা পাঠ</string>
+    <string name="quick_reader_scanned_text_positive">প্ৰতিলিপি</string>
     <string name="quick_reader_share_title">\u2026ৰ সৈতে ভাগ-বতৰা কৰক</string>
     <string name="quick_reader_copied_message">ক্লিপব\'ৰ্ডলৈ প্ৰতিলিপি কৰা হ\'ল</string>
 </resources>

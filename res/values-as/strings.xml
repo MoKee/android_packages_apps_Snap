@@ -99,6 +99,7 @@
         <item quantity="other">%d ছেকেণ্ড</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">কাউণ্টডাউনৰ সময়ত বীপ কৰা</string>
+    <string name="pref_camera_savepath_entry_0">ফোন</string>
     <string name="setting_off">অফ</string>
     <string name="setting_on">অন কৰক</string>
     <string name="pref_video_quality_title">ভিডিঅ’ গুণমান</string>

@@ -80,6 +80,7 @@
     <string name="camera_error_title">კამერის შეცდომა</string>
     <string name="cannot_connect_camera">კამერასთან დაკავშირება შეუძლებელია.</string>
     <string name="camera_disabled">კამერა გათიშულ იქნა უსაფრთხოების წესების გამო.</string>
+    <string name="dialog_dismiss">Dismiss</string>
     <string name="wait">გთხოვთ, დაელოდოთ…</string>
     <string name="no_storage" product="default">კამერის გამოყენებამდე ჩადეთ SD ბარათი.</string>
     <string name="preparing_sd" product="default">SD ბარათის მომზადება…</string>

@@ -80,6 +80,7 @@
     <string name="camera_error_title">Ֆոտոխցիկի սխալ</string>
     <string name="cannot_connect_camera">Հնարավոր չէ միանալ ֆոտոխցիկին:</string>
     <string name="camera_disabled">Ֆոտոխցիկն անջատված է՝ անվտանգության քաղաքականության նկատառումներից ելնելով:</string>
+    <string name="dialog_dismiss">Dismiss</string>
     <string name="wait">Խնդրում ենք սպասել...</string>
     <string name="no_storage" product="default">Տեսախցիկն օգտագործելուց առաջ տեղադրեք SD քարտ:</string>
     <string name="preparing_sd" product="default">Պատրաստվում է SD քարտը...</string>

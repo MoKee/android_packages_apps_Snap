@@ -26,12 +26,14 @@
     <string name="edit">Embann</string>
     <string name="title">Titl</string>
     <string name="description">Deskrivadur</string>
+    <string name="time">Eur</string>
     <string name="location">Lec\'hiadur</string>
     <string name="path">Treug</string>
     <string name="width">Led</string>
     <string name="height">Sav</string>
     <string name="orientation">Reteradur</string>
     <string name="duration">Padelezh</string>
+    <string name="file_size">Ment ar restr</string>
     <string name="iso">ISO</string>
     <string name="auto">Emgefreek</string>
     <string name="unknown">Dianav</string>
@@ -47,6 +49,7 @@
         <item quantity="many">%d eilenn</item>
         <item quantity="other">%d eilenn</item>
     </plurals>
+    <string name="pref_camera_savepath_entry_0">Pellgomzer</string>
     <string name="setting_off">Lazhet</string>
     <string name="setting_on">Enaouet</string>
     <string name="pref_camera_focusmode_entry_auto">Emgefreek</string>

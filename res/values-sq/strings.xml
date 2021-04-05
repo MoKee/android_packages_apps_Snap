@@ -84,8 +84,11 @@
         <item quantity="one">1 sekondë</item>
         <item quantity="other">%d sekonda</item>
     </plurals>
+    <string name="pref_camera_savepath_title">Hapësira ruajtëse</string>
+    <string name="pref_camera_savepath_entry_0">Telefoni</string>
+    <string name="pref_camera_savepath_entry_1">Në kartën SD</string>
     <string name="setting_off">Inaktiv</string>
-    <string name="setting_on">Aktivizuar</string>
+    <string name="setting_on">Aktiv</string>
     <string name="pref_video_quality_title">Cilësia e videos</string>
     <string name="pref_video_time_lapse_frame_interval_title">Interval kohor</string>
     <string name="pref_camera_settings_category">Cilësimet e kamerës</string>
@@ -156,7 +159,9 @@
     <string name="capital_on">AKTIV</string>
     <string name="capital_off">INAKTIV</string>
     <string name="pref_video_time_lapse_frame_interval_off">Inaktiv</string>
+    <string name="pref_video_time_lapse_frame_interval_2000">2 sekonda</string>
     <string name="pref_video_time_lapse_frame_interval_3000">3 sekonda</string>
+    <string name="pref_video_time_lapse_frame_interval_5000">5 sekonda</string>
     <string name="pref_video_time_lapse_frame_interval_6000">6 sekonda</string>
     <string name="pref_video_time_lapse_frame_interval_10000">10 sekonda</string>
     <string name="pref_video_time_lapse_frame_interval_12000">12 sekonda</string>

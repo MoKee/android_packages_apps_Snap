@@ -21,6 +21,8 @@
     <string name="focal_length">ফোকাল দৈর্ঘ্য</string>
     <string name="manual">নির্দেশিকা</string>
     <string name="unknown">Unknown</string>
+    <string name="dialog_dismiss">Dismiss</string>
+    <string name="pref_camera_savepath_entry_0">ফোন</string>
     <string name="setting_off">Off</string>
     <string name="pref_camera_flashmode_entry_off">Off</string>
     <string name="pref_camera_whitebalance_entry_cloudy">Cloudy</string>

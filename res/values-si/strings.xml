@@ -244,6 +244,7 @@
     <string name="cannot_load_image">පින්තුරය පූරණය කිරීමට නොහැක!</string>
     <string name="switch_photo_filmstrip">Filmstrip දසුන</string>
     <string name="setting_wallpaper">වෝල්පේපරය සැකසේ</string>
+    <string name="pref_camera2_category_system">පද්ධතිය</string>
     <string name="delete_best_dialog_positive_bt">මකන්න</string>
     <string name="delete_all_best_dialog_positive_bt">සියල්ල මකන්න</string>
     <string name="overflow_best_item2">සියල්ල මකන්න</string>

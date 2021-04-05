@@ -14,5 +14,6 @@
      limitations under the License.
 -->
 <resources>
+    <string name="quick_reader_action_dismiss">Dismiss</string>
     <string name="quick_reader_scanned_text_negative">साझा करें</string>
 </resources>

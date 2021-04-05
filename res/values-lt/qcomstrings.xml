@@ -66,6 +66,7 @@
     <string name="pref_camera_scenedetect_entry_on">Įjungta</string>
     <string name="pref_camera_tsmakeup_entry_on">Įjungta</string>
     <string name="pref_camera_tsmakeup_entry_off">Išjungti</string>
+    <string name="pref_camera_tsmakeup_entry_mid">Vidutinis</string>
     <string name="pref_camera_tsmakeup_custom">Tinkintas</string>
     <string name="text_tsmakeup_alert_quit">Atšaukti</string>
     <string name="pref_camera2_mono_only_entry_on">Įjungta</string>

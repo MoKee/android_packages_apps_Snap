@@ -76,6 +76,8 @@
     <string name="pref_camera_location_label">VIETA</string>
     <string name="pref_camera_timer_title">Atvirkštinis laikmatis</string>
     <string name="pref_camera_timer_sound_title">Atv. laikm. pyp.</string>
+    <string name="pref_camera_savepath_entry_0">Telefonas</string>
+    <string name="pref_camera_savepath_entry_1">SD kortelė</string>
     <string name="setting_off">Išjungti</string>
     <string name="setting_on">Įjungta</string>
     <string name="pref_video_quality_title">Vaizdo įrašo kokybė</string>
@@ -236,6 +238,7 @@
     <string name="cannot_load_image">Nepavyksta įkelti vaizdo.</string>
     <string name="switch_photo_filmstrip">Diafilmo rodinys</string>
     <string name="setting_wallpaper">Nustatomas ekrano fonas</string>
+    <string name="pref_camera2_restore_default">Atstatyti</string>
     <string name="save_best_dialog_native_bt">Atšaukti</string>
     <string name="delete_best_dialog_native_bt">Atšaukti</string>
     <string name="delete_best_dialog_positive_bt">Ištrinti</string>

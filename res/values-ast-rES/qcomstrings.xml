@@ -107,6 +107,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Esposición HDR automática</string>
     <string name="pref_camera_ae_bracket_hdr_title">Esposición HDR automática</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Sí</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Non</string>
     <string name="err_app_unsupport_ae_bracket_code">Entá nun se sofita l\'horquiláu AE</string>
     <string name="snapshot_lower_than_video">El tamañu de la captura de videu ye más baxa que\'l del videu, redimensionando tamañu de videu. Esbilla una resolución mayor o igual a la del tamañu actual de videu, por favor.</string>
     <string name="snapshotsize_low_powermode">Nun se sofita\'l cambéu de tamañu d\'imaxe nel mou de potencia baxa, tomaráse\'l tamañu d\'instantanea de videu. Esbilla\'l mou de potencia normal pa permitir camudar el tamañu de semeya.</string>
@@ -241,6 +242,7 @@
     <string name="pref_camera_auto_hdr_title">HDR auto</string>
     <string name="pref_camera_auto_hdr_entry_enable">Habilitar</string>
     <string name="pref_camera_auto_hdr_entry_disable">Deshabilitar</string>
+    <string name="on_switch_save_path_to_sdcard">Nun ye abondu l\'espaciu nel almacenamientu internu, cambióse al allugamientu d\'almacenamientu na tarxeta SD</string>
     <string name="pref_camera_hdr_mode_title">Mou HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR de marcos múltiples</string>

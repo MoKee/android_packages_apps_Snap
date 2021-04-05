@@ -75,6 +75,7 @@
     <string name="error_app_unsupported_raw">സീറോ ഷട്ടർ ലാഗ് മോഡിൽ അസംസ്കൃത ചിത്രം ഫോർമാറ്റ് പിന്തുണയ്ക്കില്ല. JPEG തിരഞ്ഞെടുക്കുക</string>
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE-ബ്രാക്കറ്റിംഗ്</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE-ബ്രാക്കറ്റിംഗ്</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">ഓഫാണ്</string>
     <string name="pref_camera_hfr_title">ഹൈ-ഫ്രെയിംറേറ്റ് റിക്കോര്‍ഡിംഗ്</string>
     <string name="pref_camera_hfr_entry_off">ഓഫാണ്</string>
     <string name="pref_camera_hfr_entry_2x">സ്ലോ മോഷൻ 60 FPS</string>
@@ -185,6 +186,7 @@
     <string name="msg_cancel_longshot_for_limited_memory">മെമ്മറി കുറവാണ്, തുടർച്ചയായ ഷോട്ട് റദ്ദാക്കുന്നു</string>
     <string name="flash_aebracket_message">AE ബ്രാക്കറ്റിംഗ് മോഡിൽ ഫ്ലാഷ് പിന്തുണയ്ക്കില്ല</string>
     <string name="pref_camera_auto_hdr_title">ഓട്ടോ HDR</string>
+    <string name="on_switch_save_path_to_sdcard">വേണ്ടത്ര ആന്തരിക സ്റ്റോറേജ് സ്ഥലം ഇല്ല, സ്റ്റോറേജ് സംഭരണം SD കാർഡിലേക്ക് സിച്ച് ചെയ്തു</string>
     <string name="pref_camera_hdr_mode_title">HDR മോഡ്</string>
     <string name="pref_camera_hdr_mode_entry_sensor">സെന്‍സര്‍ HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">മള്‍ട്ടി-ഫ്രെയിം-HDR</string>

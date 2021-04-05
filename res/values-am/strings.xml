@@ -81,6 +81,7 @@
     <string name="camera_error_title">የካሜራ ስህተት</string>
     <string name="cannot_connect_camera">ከካሜራው ጋር መገናኘት አልተቻለም።</string>
     <string name="camera_disabled">በደህንነት መመሪያዎች ምክንያት ካሜራ ተሰናክሏል።</string>
+    <string name="dialog_dismiss">Dismiss</string>
     <string name="wait">እባክዎ ይጠብቁ…</string>
     <string name="no_storage" product="default">ካሜራውን ከመጠቀምዎ በፊት የSD ካርድ ያስገቡ።</string>
     <string name="preparing_sd" product="default">የSD ካርድ በማዘጋጀት ላይ…</string>

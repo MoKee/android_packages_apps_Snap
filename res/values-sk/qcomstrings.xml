@@ -242,6 +242,7 @@
     <string name="pref_camera_auto_hdr_title">Auto HDR</string>
     <string name="pref_camera_auto_hdr_entry_enable">Zapnúť</string>
     <string name="pref_camera_auto_hdr_entry_disable">Vypnúť</string>
+    <string name="on_switch_save_path_to_sdcard">Nedostatok vnútorného ukladacieho priestoru, ukladá sa na kartu SD</string>
     <string name="pref_camera_hdr_mode_title">HDR režim</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Senzor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">Multisnímkový HDR</string>
@@ -414,6 +415,8 @@
     <string name="pref_camera2_initial_camera_entry_mono">Čiernobiely</string>
     <string name="pref_camera2_initial_camera_entry_front">Predná</string>
     <string name="pref_camera2_eis_title">Elektronická stabilizácia obrazu videa</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
     <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 a nastaviť pri pozastavení</string>
     <string name="pref_camera2_eis_entry_disable">Vypnúť</string>
     <string name="pref_camera2_fovc_title">Zorné pole kamery videa</string>
@@ -426,11 +429,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG štatistiky</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE štatistiky</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Hist štatistiky</string>
+    <string name="stats_visualizer_bg_label">Zobrazenie BG grafu</string>
+    <string name="stats_visualizer_be_label">Zobrazenie BE grafu</string>
     <string name="pref_camera2_capture_mfnr_title">Redukcia šumu multirámca</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Zapnúť</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Vypnúť</string>
+    <string name="pref_camera2_fs2_title">Rýchla spúšť</string>
     <string name="pref_camera2_fs2_entry_enable">Zapnúť</string>
     <string name="pref_camera2_fs2_entry_disable">Vypnúť</string>
+    <string name="pref_camera2_abort_captures_title">Zrušiť zachytenie</string>
     <string name="pref_camera2_abort_captures_entry_enable">Zapnúť</string>
     <string name="pref_camera2_abort_captures_entry_disable">Vypnúť</string>
 </resources>

@@ -107,6 +107,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE çənbərləmə</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE çənbərləmə</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Açıq</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Bağlı</string>
     <string name="err_app_unsupport_ae_bracket_code">AE çənbərləmə hələ ki, dəstəklənmir</string>
     <string name="snapshot_lower_than_video">Video şəkil həcmi videonun həcmindən kiçik və video həcmi ilə məhdud olmalıdır. Zəhmət olmasa hazırki video həcminə bərabər və ya daha yüksək bir ölçü seçin.</string>
     <string name="snapshotsize_low_powermode">Aşağı Güc rejimində şəkil ölçüsünü dəyişdirmə dəstəklənmir, şəkil, video ölçülərində çəkiləcək. Zəhmət olmasa şəkil ölçülərini dəyişdirmək üçün Normal Güc rejiminə keçin.</string>

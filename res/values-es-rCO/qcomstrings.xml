@@ -46,6 +46,7 @@
     <string name="pref_camera_manual_exp_entry_ISO_priority">Prioridad ISO</string>
     <string name="pref_camera_manual_exp_entry_exptime_priority">Prioridad de tiempo de exposición</string>
     <string name="pref_camera_manual_exp_entry_user_setting">Configuración de usuario</string>
+    <string name="pref_camera_manual_exp_entry_gains_priority">Obtiene prioridad</string>
     <string name="pref_camera_manual_exp_entry_off">Desactivado</string>
     <string name="pref_camera_manual_wb_title">Balance de blancos manual</string>
     <string name="pref_camera_manual_wb_entry_color_temperature">Temperatura de color</string>
@@ -241,6 +242,7 @@
     <string name="pref_camera_auto_hdr_title">HDR Automático</string>
     <string name="pref_camera_auto_hdr_entry_enable">Activado</string>
     <string name="pref_camera_auto_hdr_entry_disable">Desactivar</string>
+    <string name="on_switch_save_path_to_sdcard">El espacio de almacenamiento interno no es suficiente, se cambió la ubicación de almacenamiento a la tarjeta SD</string>
     <string name="pref_camera_hdr_mode_title">Modo HDR</string>
     <string name="pref_camera_hdr_mode_entry_sensor">Sensor HDR</string>
     <string name="pref_camera_hdr_mode_entry_multi_frame">HDR de marcos múltiples</string>
@@ -410,7 +412,9 @@
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Delantera</string>
     <string name="pref_camera2_eis_title">Vídeo EIS</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 y establecer cuando se pausa</string>
     <string name="pref_camera2_eis_entry_disable">Deshabilitado</string>
+    <string name="pref_camera2_fovc_title">Video FOVC</string>
     <string name="pref_camera2_fovc_entry_enable">Activado</string>
     <string name="pref_camera2_fovc_entry_disable">Deshabilitado</string>
     <string name="pref_camera2_video_hdr_entry_enable">Activado</string>
@@ -419,6 +423,8 @@
     <string name="pref_camera2_stats_visualizer_title">Visualizador de estadísticas</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Estadísticas de BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Estadísticas de BE</string>
+    <string name="pref_camera2_stats_visualizer_entry_hist_stats">Estadísticas</string>
+    <string name="pref_camera2_capture_mfnr_title">Reducción de ruido multi-marco</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Activado</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Deshabilitado</string>
     <string name="pref_camera2_fs2_entry_enable">Activado</string>

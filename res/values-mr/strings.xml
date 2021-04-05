@@ -99,6 +99,7 @@
         <item quantity="other">%d सेकंद</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">काउंटडाउन दरम्यान बीप करा</string>
+    <string name="pref_camera_savepath_entry_0">फोन</string>
     <string name="setting_off">बंद</string>
     <string name="setting_on">चालू</string>
     <string name="pref_video_quality_title">व्हिडिओ गुणवत्ता</string>

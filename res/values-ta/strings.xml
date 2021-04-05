@@ -101,6 +101,9 @@
         <item quantity="other">%d நொடிகள்</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">கவுன்ட்டவுனின்போது பீப் செய்யவும்</string>
+    <string name="pref_camera_savepath_title">சேமிப்பகம்</string>
+    <string name="pref_camera_savepath_entry_0">ஃபோன்</string>
+    <string name="pref_camera_savepath_entry_1">SD அட்டை</string>
     <string name="setting_off">முடக்கத்தில்</string>
     <string name="setting_on">இயக்கத்தில்</string>
     <string name="pref_video_quality_title">வீடியோ தரம்</string>

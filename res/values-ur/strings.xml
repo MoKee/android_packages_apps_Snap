@@ -14,6 +14,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="delete">مٹائیں</string>
+    <string name="edit">ترمیم کریں</string>
     <string name="crop_action">تراشیں</string>
     <string name="model">نمونہ</string>
     <string name="aperture">اپرچر</string>
@@ -30,9 +32,12 @@
     <string name="pref_camera_scenemode_entry_auto">خودکار</string>
     <string name="pref_camera_scenemode_entry_action">عمل</string>
     <string name="pref_exposure_title">ایکسپوژر</string>
+    <string name="dialog_ok">ٹھیک ہے</string>
     <string name="effect_none">کوئی نہیں</string>
     <string name="pref_video_time_lapse_frame_interval_off">بند</string>
     <string name="tiny_planet_rotate">گھمائیں</string>
     <string name="cannot_load_image">تصویر لوڈ نہیں ہو سکتی ہے!</string>
     <string name="setting_wallpaper">وال پیپر سیٹ کر رہا ہے</string>
+    <string name="save_best_dialog_positive_bt">ٹھیک ہے</string>
+    <string name="delete_best_dialog_positive_bt">مٹائیں</string>
 </resources>
