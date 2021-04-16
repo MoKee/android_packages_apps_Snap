@@ -34,14 +34,14 @@
         <item quantity="other">已選擇 %1$d 個</item>
     </plurals>
     <plurals name="number_of_albums_selected">
-        <item quantity="other">已選擇 %1$d 本</item>
+        <item quantity="other">已選擇 %1$d 個</item>
     </plurals>
     <plurals name="number_of_groups_selected">
         <item quantity="other">已選擇 %1$d 個</item>
     </plurals>
     <string name="show_on_map">在地圖上顯示</string>
-    <string name="rotate_left">向左旋轉</string>
-    <string name="rotate_right">向右旋轉</string>
+    <string name="rotate_left">向左轉</string>
+    <string name="rotate_right">向右轉</string>
     <string name="edit">編輯</string>
     <string name="crop_action">裁剪</string>
     <string name="trim_action">修剪</string>
@@ -51,7 +51,7 @@
     <string name="title">標題</string>
     <string name="description">描述</string>
     <string name="time">時間</string>
-    <string name="location">位置</string>
+    <string name="location">地點</string>
     <string name="path">路徑</string>
     <string name="width">寬度</string>
     <string name="height">高度</string>
@@ -88,8 +88,8 @@
     <string name="time_lapse_title">延時攝影錄製</string>
     <string name="capturing">拍攝中</string>
     <string name="pref_camera_id_title">選擇相機</string>
-    <string name="pref_camera_id_entry_back">後置</string>
-    <string name="pref_camera_id_entry_front">前置</string>
+    <string name="pref_camera_id_entry_back">返回</string>
+    <string name="pref_camera_id_entry_front">前面</string>
     <string name="pref_camera_recordlocation_title">GPS 定位</string>
     <string name="pref_camera_location_label">位置</string>
     <string name="pref_camera_timer_title">倒數計時器</string>
@@ -97,7 +97,10 @@
         <item quantity="other">%d 秒</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">倒數時發出提示音</string>
-    <string name="setting_off">關</string>
+    <string name="pref_camera_savepath_title">儲存空間</string>
+    <string name="pref_camera_savepath_entry_0">電話</string>
+    <string name="pref_camera_savepath_entry_1">SD 卡</string>
+    <string name="setting_off">關閉</string>
     <string name="setting_on">開</string>
     <string name="pref_video_quality_title">視訊畫質</string>
     <string name="pref_video_time_lapse_frame_interval_title">延時攝影</string>
@@ -114,7 +117,7 @@
     <string name="pref_camera_flashmode_title">閃光燈</string>
     <string name="pref_camera_flashmode_entry_auto">自動</string>
     <string name="pref_camera_flashmode_entry_on">開</string>
-    <string name="pref_camera_flashmode_entry_off">關</string>
+    <string name="pref_camera_flashmode_entry_off">關閉</string>
     <string name="pref_camera_flashmode_label_auto">自動閃光燈</string>
     <string name="pref_camera_flashmode_label_on">開啟閃光燈</string>
     <string name="pref_camera_flashmode_label_off">關閉閃光燈</string>
@@ -139,7 +142,7 @@
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR 開啟</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR 關閉</string>
     <string name="pref_camera_scenemode_entry_action">動作</string>
-    <string name="pref_camera_scenemode_entry_night">夜景</string>
+    <string name="pref_camera_scenemode_entry_night">夜間</string>
     <string name="pref_camera_scenemode_entry_sunset">黃昏</string>
     <string name="pref_camera_scenemode_entry_party">派對</string>
     <string name="pref_camera_scenemode_label_auto">無</string>
@@ -254,7 +257,7 @@
     <string name="time_lapse_seconds">秒</string>
     <string name="time_lapse_minutes">分鐘</string>
     <string name="time_lapse_hours">小時</string>
-    <string name="time_lapse_interval_set">完成</string>
+    <string name="time_lapse_interval_set">已完成</string>
     <string name="set_time_interval">設定時間間隔</string>
     <string name="set_time_interval_help">延時攝影功能已關閉；請開啟以設定時間間隔。</string>
     <string name="set_duration">設定倒數時間 (以秒為單位)</string>

@@ -14,18 +14,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="accessibility_switch_to_qr">QR oxuyucu</string>
-    <string name="quick_reader_action_dismiss">İmtina et</string>
-    <string name="quick_reader_no_activity_found">Bu məzmunu açacaq heç bir tətbiq quraşdırılmayıb</string>
-    <string name="quick_reader_permission_error_title">İcazə xətası</string>
-    <string name="quick_reader_permission_rationale_message">Barkodu tədqiq etmək üçün kameraya müraciət lazımdır</string>
-    <string name="quick_reader_permission_rationale_positive">Təkrar soruş</string>
-    <string name="quick_reader_permission_fatal_message">Kamera müraciət rədd edildi. Zəhmət olmasa tətbiq tənzimləmələrindən icazə verin</string>
-    <string name="quick_reader_permission_fatal_positive">Tənzimləmələri aç</string>
-    <string name="quick_reader_scanned_text_title">Tədqiq edilən mətn</string>
+    <string name="quick_reader_action_dismiss">Rədd et</string>
     <string name="quick_reader_scanned_text_positive">Kopyala</string>
-    <string name="quick_reader_scanned_text_negative">Paylaş</string>
-    <string name="quick_reader_share_title">\u2026 ilə paylaş</string>
-    <string name="quick_reader_copied_message">Lövhəyə kopyalandı</string>
-    <string name="quick_reader_only_unlocked">Bu hərəkət cihazın kilidi açıq olanda icra edilə bilər</string>
+    <string name="quick_reader_scanned_text_negative">Paylaşın</string>
 </resources>

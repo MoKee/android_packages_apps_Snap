@@ -31,7 +31,7 @@
     <string name="pref_camera_scenemode_entry_candlelight">Светлост свеће</string>
     <string name="pref_camera_scenemode_entry_cine">Биоскопски</string>
     <string name="pref_camera_scenemode_entry_closeup">Крупни план</string>
-    <string name="pref_camera_scenemode_entry_dark">Тамно</string>
+    <string name="pref_camera_scenemode_entry_dark">Мрак</string>
     <string name="pref_camera_scenemode_entry_dish">Јело</string>
     <string name="pref_camera_scenemode_entry_duskdawn">Сумрак</string>
     <string name="pref_camera_scenemode_entry_document">Документ</string>
@@ -65,7 +65,7 @@
     <string name="pref_camera_focusmode_entry_facedetect">Препознавање лица</string>
     <string name="pref_camera_focusmode_entry_facepriority">Фокус на лицу</string>
     <string name="pref_camera_focusmode_entry_fixed">Фиксирани</string>
-    <string name="pref_camera_focusmode_entry_normal">Нормалан</string>
+    <string name="pref_camera_focusmode_entry_normal">Нормално</string>
     <string name="pref_camera_focusmode_entry_portrait">Портрет</string>
     <string name="pref_camera_focusmode_entry_hyperfocal">Удаљено</string>
     <string name="pref_camera_coloreffect_entry_washed">Испрано</string>
@@ -88,5 +88,5 @@
     <string name="pref_camera_shutter_speed_title">Брзина затварача</string>
     <string name="developer_menu_enabled">Омогућили сте напредне опције камере</string>
     <string name="developer_menu_disabled">Онемогућили сте напредне опције камере</string>
-    <string name="pref_camera2_preferences_category_developer">Напредне опције</string>
+    <string name="pref_camera2_preferences_category_developer">Додатне опције</string>
 </resources>

@@ -24,7 +24,7 @@
         <item quantity="one">Usunąć wybrany element?</item>
         <item quantity="few">Usunąć wybrane elementy?</item>
         <item quantity="many">Usunąć wybrane elementy?</item>
-        <item quantity="other">Usunąć wybranych elementów?</item>
+        <item quantity="other">Czy usunąć wybrane elementy?</item>
     </plurals>
     <string name="share">Udostępnij</string>
     <string name="share_panorama">Udostępnij panoramę</string>
@@ -34,22 +34,22 @@
     <string name="details">Szczegóły</string>
     <string name="close">Zamknij</string>
     <plurals name="number_of_items_selected">
-        <item quantity="one">%1$d wybrany</item>
-        <item quantity="few">%1$d wybrane</item>
-        <item quantity="many">%1$d wybranych</item>
-        <item quantity="other">%1$d wybranych</item>
+        <item quantity="one">Wybrany %1$d</item>
+        <item quantity="few">Wybrane: %1$d</item>
+        <item quantity="many">Wybranych: %1$d</item>
+        <item quantity="other">Wybranych: %1$d</item>
     </plurals>
     <plurals name="number_of_albums_selected">
-        <item quantity="one">%1$d wybrany</item>
-        <item quantity="few">%1$d wybrane</item>
-        <item quantity="many">%1$d wybranych</item>
-        <item quantity="other">%1$d wybranych</item>
+        <item quantity="one">Wybrany %1$d</item>
+        <item quantity="few">Wybrane: %1$d</item>
+        <item quantity="many">Wybranych: %1$d</item>
+        <item quantity="other">Wybranych: %1$d</item>
     </plurals>
     <plurals name="number_of_groups_selected">
-        <item quantity="one">%1$d wybrana</item>
-        <item quantity="few">%1$d wybrane</item>
-        <item quantity="many">%1$d wybranych</item>
-        <item quantity="other">%1$d wybranych</item>
+        <item quantity="one">Wybrany %1$d</item>
+        <item quantity="few">Wybrane: %1$d</item>
+        <item quantity="many">Wybranych: %1$d</item>
+        <item quantity="other">Wybranych: %1$d</item>
     </plurals>
     <string name="show_on_map">Pokaż na mapie</string>
     <string name="rotate_left">Obróć w lewo</string>
@@ -81,10 +81,10 @@
     <string name="iso">ISO</string>
     <string name="unit_mm">mm</string>
     <string name="manual">Ręczny</string>
-    <string name="auto">Automatyczny</string>
+    <string name="auto">Automatycznie</string>
     <string name="flash_on">Z lampą</string>
     <string name="flash_off">Bez lampy błyskowej</string>
-    <string name="unknown">Nieznana</string>
+    <string name="unknown">Nieznane</string>
     <string name="try_to_set_local_album_available_offline">Ten element jest przechowywany lokalnie i dostępny offline.</string>
     <string name="please_wait">Proszę czekać</string>
     <string name="rendering_photo_sphere">Renderuję zdjęcie sferyczne</string>
@@ -100,19 +100,22 @@
     <string name="time_lapse_title">Nagrywanie poklatkowe</string>
     <string name="capturing">Przechwytywanie</string>
     <string name="pref_camera_id_title">Wybierz aparat</string>
-    <string name="pref_camera_id_entry_back">Tylny</string>
-    <string name="pref_camera_id_entry_front">Przedni</string>
+    <string name="pref_camera_id_entry_back">Wróć</string>
+    <string name="pref_camera_id_entry_front">Przód</string>
     <string name="pref_camera_recordlocation_title">Lokalizacja GPS</string>
     <string name="pref_camera_location_label">LOKALIZACJA</string>
     <string name="pref_camera_timer_title">Samowyzwalacz</string>
     <plurals name="pref_camera_timer_entry">
-        <item quantity="one">1 sekunda</item>
-        <item quantity="few">%d sekundy</item>
+        <item quantity="one">1 s</item>
+        <item quantity="few">%d s</item>
         <item quantity="many">%d sekund</item>
         <item quantity="other">%d sekund</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Sygnał odliczania</string>
-    <string name="setting_off">Wyłączone</string>
+    <string name="pref_camera_savepath_title">Pamięć</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">Karta SD</string>
+    <string name="setting_off">Wyłączony</string>
     <string name="setting_on">Włączone</string>
     <string name="pref_video_quality_title">Jakość filmu</string>
     <string name="pref_video_time_lapse_frame_interval_title">Odstęp poklatkowy</string>
@@ -129,7 +132,7 @@
     <string name="pref_camera_flashmode_title">Lampa błyskowa</string>
     <string name="pref_camera_flashmode_entry_auto">Automatycznie</string>
     <string name="pref_camera_flashmode_entry_on">Włączone</string>
-    <string name="pref_camera_flashmode_entry_off">Wyłączone</string>
+    <string name="pref_camera_flashmode_entry_off">Wyłączony</string>
     <string name="pref_camera_flashmode_label_auto">LAMPA BŁYSKOWA AUTOMATYCZNIE</string>
     <string name="pref_camera_flashmode_label_on">LAMPA BŁYSKOWA WŁĄCZONA</string>
     <string name="pref_camera_flashmode_label_off">LAMPA BŁYSKOWA WYŁĄCZONA</string>
@@ -154,7 +157,7 @@
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR WŁĄCZONY</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR WYŁĄCZONY</string>
     <string name="pref_camera_scenemode_entry_action">Akcja</string>
-    <string name="pref_camera_scenemode_entry_night">Noc</string>
+    <string name="pref_camera_scenemode_entry_night">Nocny</string>
     <string name="pref_camera_scenemode_entry_sunset">Zachód słońca</string>
     <string name="pref_camera_scenemode_entry_party">Impreza</string>
     <string name="pref_camera_scenemode_label_auto">BRAK</string>
@@ -226,7 +229,7 @@
     <string name="accessibility_review_retake">Przegląd: zrób zdjęcie/nagraj film ponownie</string>
     <string name="capital_on">WŁ.</string>
     <string name="capital_off">WYŁ.</string>
-    <string name="pref_video_time_lapse_frame_interval_off">Wyłączone</string>
+    <string name="pref_video_time_lapse_frame_interval_off">Wyłączony</string>
     <string name="pref_video_time_lapse_frame_interval_500">0,5 sekundy</string>
     <string name="pref_video_time_lapse_frame_interval_1000">1 sekunda</string>
     <string name="pref_video_time_lapse_frame_interval_1500">1,5 sekundy</string>
@@ -282,13 +285,17 @@
     <string name="camera_menu_settings_label">USTAWIENIA</string>
     <string name="create_tiny_planet">Utwórz małą planetkę</string>
     <string name="saving_tiny_planet">Zapisuję małą planetkę…</string>
-    <string name="tiny_planet_zoom">Powiększ</string>
+    <string name="tiny_planet_zoom">Powiększenie</string>
     <string name="tiny_planet_rotate">Obróć</string>
     <string name="crop_save">Zapisz</string>
     <string name="cannot_load_image">Nie można wczytać obrazu!</string>
     <string name="switch_photo_filmstrip">Widok taśmy filmowej</string>
     <string name="setting_wallpaper">Ustawiam tapetę</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">Pozostało %d</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">\"Makijaż\" działa tylko w rozmiarze wideo VGA.</string>
     <string name="pref_camera2_category_system">System</string>
     <string name="pref_camera2_restore_default">Przywróć domyślne ustawienia</string>

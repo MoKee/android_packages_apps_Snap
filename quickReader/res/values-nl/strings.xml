@@ -15,7 +15,7 @@
 -->
 <resources>
     <string name="accessibility_switch_to_qr">QR-lezer</string>
-    <string name="quick_reader_action_dismiss">Sluiten</string>
+    <string name="quick_reader_action_dismiss">Uitschakelen</string>
     <string name="quick_reader_no_activity_found">Geen enkele geïnstalleerde app kan deze inhoud openen</string>
     <string name="quick_reader_permission_error_title">Machtigingsprobleem</string>
     <string name="quick_reader_permission_rationale_message">Voor het scannen van de barcode is toegang tot de camera nodig</string>

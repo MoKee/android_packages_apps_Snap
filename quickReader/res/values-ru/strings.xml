@@ -15,7 +15,7 @@
 -->
 <resources>
     <string name="accessibility_switch_to_qr">QR считыватель</string>
-    <string name="quick_reader_action_dismiss">Отклонить</string>
+    <string name="quick_reader_action_dismiss">Выключить</string>
     <string name="quick_reader_no_activity_found">Ни одно из установленных приложений не может открыть это содержимое</string>
     <string name="quick_reader_permission_error_title">Ошибка доступа</string>
     <string name="quick_reader_permission_rationale_message">Необходим доступ к камере для сканирования штрих-кода</string>

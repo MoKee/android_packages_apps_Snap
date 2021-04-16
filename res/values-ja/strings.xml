@@ -28,7 +28,7 @@
     <string name="share_as_photo">写真として共有</string>
     <string name="deleted">削除しました</string>
     <string name="undo">元に戻す</string>
-    <string name="details">詳細</string>
+    <string name="details">詳細情報</string>
     <string name="close">閉じる</string>
     <plurals name="number_of_items_selected">
         <item quantity="other">%1$d個を選択しました</item>
@@ -39,7 +39,7 @@
     <plurals name="number_of_groups_selected">
         <item quantity="other">%1$d個を選択しました</item>
     </plurals>
-    <string name="show_on_map">地図で表示</string>
+    <string name="show_on_map">地図上で表示</string>
     <string name="rotate_left">左に回転</string>
     <string name="rotate_right">右に回転</string>
     <string name="edit">編集</string>
@@ -88,8 +88,8 @@
     <string name="time_lapse_title">低速度撮影</string>
     <string name="capturing">キャプチャしています</string>
     <string name="pref_camera_id_title">カメラを選択</string>
-    <string name="pref_camera_id_entry_back">背面</string>
-    <string name="pref_camera_id_entry_front">前面</string>
+    <string name="pref_camera_id_entry_back">前へ</string>
+    <string name="pref_camera_id_entry_front">フロント</string>
     <string name="pref_camera_recordlocation_title">撮影場所の記録</string>
     <string name="pref_camera_location_label">場所</string>
     <string name="pref_camera_timer_title">カウントダウンタイマー</string>
@@ -97,6 +97,9 @@
         <item quantity="other">%d秒</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">カウントダウン音を鳴らす</string>
+    <string name="pref_camera_savepath_title">ストレージ</string>
+    <string name="pref_camera_savepath_entry_0">電話</string>
+    <string name="pref_camera_savepath_entry_1">SD カード</string>
     <string name="setting_off">OFF</string>
     <string name="setting_on">ON</string>
     <string name="pref_video_quality_title">画質</string>
@@ -139,7 +142,7 @@
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR ON</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR OFF</string>
     <string name="pref_camera_scenemode_entry_action">スポーツ</string>
-    <string name="pref_camera_scenemode_entry_night">夜景</string>
+    <string name="pref_camera_scenemode_entry_night">夜</string>
     <string name="pref_camera_scenemode_entry_sunset">夕焼け</string>
     <string name="pref_camera_scenemode_entry_party">パーティ</string>
     <string name="pref_camera_scenemode_label_auto">なし</string>
@@ -167,7 +170,7 @@
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">前面カメラ</string>
     <string name="pref_camera_id_label_front">背面カメラ</string>
-    <string name="dialog_ok">OK</string>
+    <string name="dialog_ok">はい</string>
     <string name="spaceIsLow_content" product="default">SDカードの空き領域が少なくなっています。画質の設定を変更するか、画像などのファイルを一部削除してください。</string>
     <string name="video_reach_size_limit">サイズの上限に達しました。</string>
     <string name="pano_too_fast_prompt">速すぎます</string>
@@ -273,7 +276,11 @@
     <string name="cannot_load_image">画像を読み込めません</string>
     <string name="switch_photo_filmstrip">フィルムストリップ表示</string>
     <string name="setting_wallpaper">壁紙を設定しています</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">残り%d</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">化粧モードは VGA サイズの動画撮影中でのみ動作します。</string>
     <string name="pref_camera2_category_system">システム</string>
     <string name="pref_camera2_restore_default">既定に戻す</string>
@@ -282,7 +289,7 @@
         <item quantity="other">10枚中%1$d枚の画像が保存され、残りの画像は削除されます。</item>
     </plurals>
     <string name="save_best_dialog_title">選択した画像を保存しますか？</string>
-    <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="save_best_dialog_positive_bt">はい</string>
     <string name="save_best_dialog_native_bt">キャンセル</string>
     <plurals name="save_best_image_toast">
         <item quantity="other">10枚中%1$d枚の画像を保存しました</item>

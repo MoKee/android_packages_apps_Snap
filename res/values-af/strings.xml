@@ -24,7 +24,7 @@
         <item quantity="one">Vee gekose item uit?</item>
         <item quantity="other">Vee gekose items uit?</item>
     </plurals>
-    <string name="share">Deel</string>
+    <string name="share">Deling</string>
     <string name="share_panorama">Deel panorama</string>
     <string name="share_as_photo">Deel as foto</string>
     <string name="deleted">Uitgevee</string>
@@ -44,8 +44,8 @@
         <item quantity="other">%1$d gekies</item>
     </plurals>
     <string name="show_on_map">Wys op kaart</string>
-    <string name="rotate_left">Draai links</string>
-    <string name="rotate_right">Draai regs</string>
+    <string name="rotate_left">Draai na links</string>
+    <string name="rotate_right">Draai na regs</string>
     <string name="edit">Redigeer</string>
     <string name="crop_action">Snoei</string>
     <string name="trim_action">Snoei</string>
@@ -70,7 +70,7 @@
     <string name="focal_length">Fokuslengte</string>
     <string name="white_balance">Witbalans</string>
     <string name="exposure_time">Beligtingstyd</string>
-    <string name="iso">ISO</string>
+    <string name="iso">Kies ISO</string>
     <string name="unit_mm">mm</string>
     <string name="manual">Handmatig</string>
     <string name="auto">Outo</string>
@@ -84,7 +84,7 @@
     <string name="cannot_connect_camera">Kan nie aan die kamera koppel nie.</string>
     <string name="camera_disabled">Kamera is gedeaktiveer weens sekuriteitbeleid.</string>
     <string name="error_permissions">Die toep het nie die kritieke regte wat benodig word om toep uit te voer nie. Bevestig asseblief jou toegangs regte instellings.</string>
-    <string name="dialog_dismiss">Verwyder</string>
+    <string name="dialog_dismiss">Maak toe</string>
     <string name="wait">Wag asseblief…</string>
     <string name="no_storage" product="default">Sit \'n SD-kaart in voor jy die kamera gebruik.</string>
     <string name="preparing_sd" product="default">Berei tans SD-kaart voor…</string>
@@ -102,6 +102,9 @@
         <item quantity="other">%d sekondes</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Biep tydens aftelling</string>
+    <string name="pref_camera_savepath_title">Berging</string>
+    <string name="pref_camera_savepath_entry_0">Foon</string>
+    <string name="pref_camera_savepath_entry_1">SD-kaart</string>
     <string name="setting_off">Af</string>
     <string name="setting_on">Aan</string>
     <string name="pref_video_quality_title">Videogehalte</string>
@@ -138,7 +141,6 @@
     <string name="pref_camera_scenemode_title">Toneelmodus</string>
     <string name="pref_camera_scenemode_entry_auto">Outo</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
-    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ AAN</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">HDR+ AF</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR AAN</string>
@@ -169,16 +171,13 @@
     <string name="disable_NR_during_SeeMore">SeeMore sal geraasvermindering deaktiveer.</string>
     <string name="pref_exposure_title">Beligting</string>
     <string name="pref_exposure_label">BELIGTING</string>
-    <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">VOORSTE KAMERA</string>
     <string name="pref_camera_id_label_front">AGTERSTE KAMERA</string>
-    <string name="dialog_ok">OK</string>
     <string name="spaceIsLow_content" product="default">Jou SD-kaart raak vol. Verander die gehalte-instelling of vee \'n paar prente of ander lêers uit.</string>
     <string name="video_reach_size_limit">Groottebeperking bereik.</string>
     <string name="pano_too_fast_prompt">Te vinnig</string>
     <string name="pano_dialog_prepare_preview">Berei tans panorama voor</string>
     <string name="pano_dialog_panorama_failed">Kon nie panorama stoor nie.</string>
-    <string name="pano_dialog_title">Panorama</string>
     <string name="pano_capture_indication">Vang tans panorama vas</string>
     <string name="pano_dialog_waiting_previous">Wag tans vir vorige panorama</string>
     <string name="pano_review_saving_indication_str">Stoor tans…</string>
@@ -202,7 +201,7 @@
     <string name="effect_silly_faces">LAWWE GESIGTE</string>
     <string name="effect_background">AGTERGROND</string>
     <string name="accessibility_shutter_button">Sluiter</string>
-    <string name="accessibility_menu_button">Kieslysknoppie</string>
+    <string name="accessibility_menu_button">Kieslys knoppie</string>
     <string name="accessibility_mode_picker">Kamera-, video- of panoramakieser</string>
     <string name="accessibility_check_box">%1$s merkblokkie</string>
     <string name="accessibility_switch_to_camera">Skakel oor na foto</string>
@@ -279,6 +278,12 @@
     <string name="setting_wallpaper">Stel tans muurpapier in</string>
     <string name="remaining_photos_format">%d oor</string>
     <string name="makeup_video_size_limit">Make-up werk net onder VGA grootte in video-opname.</string>
-    <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="pref_camera2_category_system">Stelsel</string>
+    <string name="save_best_dialog_native_bt">Kanselleer</string>
+    <string name="delete_best_dialog_native_bt">Kanselleer</string>
     <string name="delete_best_dialog_positive_bt">Vee uit</string>
+    <string name="delete_all_best_dialog_native_bt">Kanselleer</string>
+    <string name="delete_all_best_dialog_positive_bt">Verwyder alles</string>
+    <string name="overflow_best_item2">Verwyder alles</string>
+    <string name="settings_title">Instellings</string>
 </resources>

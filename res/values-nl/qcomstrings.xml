@@ -106,6 +106,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Reeksopname met automatische belichtingscompensatie (AEB)</string>
     <string name="pref_camera_ae_bracket_hdr_title">Reeksopname met automatische belichtingscompensatie (AEB)</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Aan</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Uit</string>
     <string name="err_app_unsupport_ae_bracket_code">Bracketing (AEB) wordt nog niet ondersteund</string>
     <string name="snapshot_lower_than_video">Resolutie momentopname is kleiner dan die van de video. Momentopname wordt gemaakt ter grootte van de video. Kies een hogere of gelijke resolutie als de huidige videoresolutie.</string>
     <string name="snapshotsize_low_powermode">Resolutie aanpassen wordt niet ondersteund in laag-energieverbruik-stand. Momentopname wordt gemaakt ter grootte van de video. Kies normaal-energieverbruik-stand om de resolutie aan te kunnen passen.</string>
@@ -314,14 +315,13 @@
     <string name="pref_camera2_timer_entry_2sec">2 seconden</string>
     <string name="pref_camera2_timer_entry_5sec">5 seconden</string>
     <string name="pref_camera2_timer_entry_10sec">10 seconden</string>
-    <string name="makeup_ui_ok_button">OK</string>
+    <string name="makeup_ui_ok_button">Oké</string>
     <string name="perf_camera2_version_info">Versie-info</string>
     <string name="perf_camera2_preferences_category_general">Algemeen</string>
     <string name="perf_camera2_preferences_category_video">Videocamera</string>
     <string name="perf_camera2_preferences_category_system">Systeem</string>
-    <string name="pref_camera2_scene_mode_best_photo_instructional_content">Stelt u in staat om een snelle serie van 10 foto\'s te nemen, waarvan u later de beste kunt kiezen.</string>
     <string name="pref_camera2_not_show_again">Niet opnieuw tonen</string>
-    <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
+    <string name="pref_camera2_scene_mode_instructional_ok">Oké</string>
     <string name="pref_camera2_instant_aec_entry_disable">Uitschakelen</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Agressieve AEC</string>
     <string name="pref_camera2_instant_aec_entry_fast">Snelle AEC</string>
@@ -355,6 +355,7 @@
     <string name="pref_camera_bokeh_mode_entry_disable">Uitschakelen</string>
     <string name="pref_camera_bokeh_mpo_entry_enable">Inschakelen</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">Uitschakelen</string>
+    <string name="pref_camera_zoom_title">Zoomen</string>
     <string name="pref_camera_zoom_entry_off">Uit</string>
     <string name="pref_camera_zoom_entry_1x">1x</string>
     <string name="pref_camera_zoom_entry_2x">2x</string>

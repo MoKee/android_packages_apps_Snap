@@ -29,7 +29,7 @@
     <string name="share_as_photo">Fotoğraf olarak paylaş</string>
     <string name="deleted">Silindi</string>
     <string name="undo">GERİ AL</string>
-    <string name="details">Ayrıntılar</string>
+    <string name="details">Detaylar</string>
     <string name="close">Kapat</string>
     <plurals name="number_of_items_selected">
         <item quantity="one">%1$d tane seçildi</item>
@@ -73,7 +73,7 @@
     <string name="iso">ISO</string>
     <string name="unit_mm">mm</string>
     <string name="manual">Manuel</string>
-    <string name="auto">Otomatik</string>
+    <string name="auto">Oto</string>
     <string name="flash_on">Flaş patladı</string>
     <string name="flash_off">Flaş yok</string>
     <string name="unknown">Bilinmiyor</string>
@@ -84,7 +84,7 @@
     <string name="cannot_connect_camera">Kameraya bağlanılamıyor.</string>
     <string name="camera_disabled">Güvenlik politikaları nedeniyle kamera devre dışı bırakıldı.</string>
     <string name="error_permissions">Uygulamanın, çalışması için gerekli olan kritik izinleri yok. Lütfen izin ayarlarınızı kontrol edin.</string>
-    <string name="dialog_dismiss">Vazgeç</string>
+    <string name="dialog_dismiss">Reddet</string>
     <string name="wait">Lütfen bekleyin…\u2026</string>
     <string name="no_storage" product="default">Kamerayı kullanmadan önce bir SD kart takın.</string>
     <string name="preparing_sd" product="default">SD kart hazırlanıyor...\u2026</string>
@@ -92,7 +92,7 @@
     <string name="time_lapse_title">Zaman atlamalı kayıt</string>
     <string name="capturing">Fotoğraf çekiliyor</string>
     <string name="pref_camera_id_title">Kamera seçin</string>
-    <string name="pref_camera_id_entry_back">Arka</string>
+    <string name="pref_camera_id_entry_back">Geri</string>
     <string name="pref_camera_id_entry_front">Ön</string>
     <string name="pref_camera_recordlocation_title">GPS konumu</string>
     <string name="pref_camera_location_label">KONUM</string>
@@ -102,6 +102,10 @@
         <item quantity="other">%d saniye</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Geri sayımda bip sesi çıkar</string>
+    <string name="pref_camera_savepath_title">Depolama</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">SD Kart</string>
     <string name="setting_off">Kapalı</string>
     <string name="setting_on">Açık</string>
     <string name="pref_video_quality_title">Video kalitesi</string>
@@ -110,14 +114,14 @@
     <string name="pref_camcorder_settings_category">Video kamera ayarları</string>
     <string name="pref_camera_picturesize_title">Resim boyutu</string>
     <string name="pref_camera_focusmode_title">Odak modu</string>
-    <string name="pref_camera_focusmode_entry_auto">Otomatik</string>
+    <string name="pref_camera_focusmode_entry_auto">Oto</string>
     <string name="pref_camera_focusmode_entry_infinity">Sonsuz</string>
     <string name="pref_camera_focusmode_entry_macro">Makro</string>
     <string name="pref_camera_focusmode_label_auto">OTOMATİK</string>
     <string name="pref_camera_focusmode_label_infinity">SONSUZ</string>
     <string name="pref_camera_focusmode_label_macro">MAKRO</string>
     <string name="pref_camera_flashmode_title">Flaş</string>
-    <string name="pref_camera_flashmode_entry_auto">Otomatik</string>
+    <string name="pref_camera_flashmode_entry_auto">Oto</string>
     <string name="pref_camera_flashmode_entry_on">Açık</string>
     <string name="pref_camera_flashmode_entry_off">Kapalı</string>
     <string name="pref_camera_flashmode_label_auto">OTOMATİK FLAŞ</string>
@@ -125,7 +129,7 @@
     <string name="pref_camera_flashmode_label_off">FLAŞ KAPALI</string>
     <string name="pref_camera_whitebalance_title">Beyaz dengesi</string>
     <string name="pref_camera_whitebalance_label">BEYAZ DENGESİ</string>
-    <string name="pref_camera_whitebalance_entry_auto">Otomatik</string>
+    <string name="pref_camera_whitebalance_entry_auto">Oto</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Ampul</string>
     <string name="pref_camera_whitebalance_entry_daylight">Gün Işığı</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Floresan</string>
@@ -136,7 +140,7 @@
     <string name="pref_camera_whitebalance_label_fluorescent">FLORESAN</string>
     <string name="pref_camera_whitebalance_label_cloudy">BULUTLU</string>
     <string name="pref_camera_scenemode_title">Sahne modu</string>
-    <string name="pref_camera_scenemode_entry_auto">Otomatik</string>
+    <string name="pref_camera_scenemode_entry_auto">Oto</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ AÇIK</string>
@@ -185,7 +189,7 @@
     <string name="pano_review_rendering">Panorama oluşturuluyor</string>
     <string name="tap_to_focus">Odaklamak için dokunun.</string>
     <string name="pref_video_effect_title">Efektler</string>
-    <string name="effect_none">Yok</string>
+    <string name="effect_none">Hiçbiri</string>
     <string name="effect_goofy_face_squeeze">Sıkıştır</string>
     <string name="effect_goofy_face_big_eyes">Büyük gözler</string>
     <string name="effect_goofy_face_big_mouth">Büyük ağız</string>
@@ -203,7 +207,7 @@
     <string name="effect_background">ARKA PLAN</string>
     <string name="accessibility_shutter_button">Deklanşör</string>
     <string name="accessibility_exit_best_mode_button">En iyi fotoğraf modundan çık</string>
-    <string name="accessibility_menu_button">Menü düğmesi</string>
+    <string name="accessibility_menu_button">Menü tuşu</string>
     <string name="accessibility_mode_picker">Kamera, video veya panorama seçici</string>
     <string name="accessibility_check_box">%1$s onay kutusu</string>
     <string name="accessibility_switch_to_camera">Fotoğraf moduna geç</string>
@@ -272,12 +276,13 @@
     <string name="camera_menu_settings_label">AYARLAR</string>
     <string name="create_tiny_planet">Minik Gezegen Oluştur</string>
     <string name="saving_tiny_planet">Minik Gezegen kaydediliyor…</string>
-    <string name="tiny_planet_zoom">Zum</string>
-    <string name="tiny_planet_rotate">Döndürme</string>
+    <string name="tiny_planet_zoom">Zoom</string>
+    <string name="tiny_planet_rotate">Döndür</string>
     <string name="crop_save">Kaydet</string>
     <string name="cannot_load_image">Resim yüklenemiyor!</string>
     <string name="switch_photo_filmstrip">Film şeridi görünümü</string>
     <string name="setting_wallpaper">Duvar kağıdı ayarlanıyor</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>

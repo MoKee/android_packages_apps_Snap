@@ -31,7 +31,7 @@
     <string name="pref_camera_scenemode_entry_candlelight">Przy świecach</string>
     <string name="pref_camera_scenemode_entry_cine">Kino</string>
     <string name="pref_camera_scenemode_entry_closeup">Zbliżenie</string>
-    <string name="pref_camera_scenemode_entry_dark">Ciemność</string>
+    <string name="pref_camera_scenemode_entry_dark">Ciemny</string>
     <string name="pref_camera_scenemode_entry_dish">Jedzenie</string>
     <string name="pref_camera_scenemode_entry_duskdawn">Wschód-zachód słońca</string>
     <string name="pref_camera_scenemode_entry_document">Dokument</string>
@@ -65,8 +65,8 @@
     <string name="pref_camera_focusmode_entry_facedetect">Wykrywanie twarzy</string>
     <string name="pref_camera_focusmode_entry_facepriority">Priorytet twarzy</string>
     <string name="pref_camera_focusmode_entry_fixed">Stały</string>
-    <string name="pref_camera_focusmode_entry_normal">Normalny</string>
-    <string name="pref_camera_focusmode_entry_portrait">Portret</string>
+    <string name="pref_camera_focusmode_entry_normal">Normalna</string>
+    <string name="pref_camera_focusmode_entry_portrait">Pionowo</string>
     <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfokalnie</string>
     <string name="pref_camera_coloreffect_entry_washed">Zmyty</string>
     <string name="pref_camera_coloreffect_entry_vintage_warm">Klasyczne ciepło</string>

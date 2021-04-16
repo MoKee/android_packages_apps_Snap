@@ -15,7 +15,7 @@
 -->
 <resources>
     <string name="accessibility_switch_to_qr">Čtečka kódů QR</string>
-    <string name="quick_reader_action_dismiss">Zrušit</string>
+    <string name="quick_reader_action_dismiss">Zamítnout</string>
     <string name="quick_reader_no_activity_found">Žádná nainstalovaná aplikace nemůže otevřít tento obsah</string>
     <string name="quick_reader_permission_error_title">Chyba oprávnění</string>
     <string name="quick_reader_permission_rationale_message">Ke skenování čárového kódu je zapotřebí přístup k fotoaparátu</string>
@@ -27,5 +27,5 @@
     <string name="quick_reader_scanned_text_negative">Sdílet</string>
     <string name="quick_reader_share_title">Sdílet s\u2026</string>
     <string name="quick_reader_copied_message">Zkopírováno do schránky</string>
-    <string name="quick_reader_only_unlocked">Tuto akci lze provést pouze s odemknutým zařízením</string>
+    <string name="quick_reader_only_unlocked">Tuto akci lze provést pouze s odemčeným zařízením</string>
 </resources>

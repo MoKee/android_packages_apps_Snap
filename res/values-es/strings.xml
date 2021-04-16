@@ -19,7 +19,7 @@
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Establecer imagen como</string>
-    <string name="delete">Eliminar</string>
+    <string name="delete">Borrar</string>
     <plurals name="delete_selection">
         <item quantity="one">¿Eliminar el elemento seleccionado?</item>
         <item quantity="other">¿Eliminar los elementos seleccionados?</item>
@@ -44,8 +44,8 @@
         <item quantity="other">%1$d seleccionados</item>
     </plurals>
     <string name="show_on_map">Mostrar en el mapa</string>
-    <string name="rotate_left">Girar a la izquierda</string>
-    <string name="rotate_right">Girar a la derecha</string>
+    <string name="rotate_left">Rotar a la izquierda</string>
+    <string name="rotate_right">Rotar a la derecha</string>
     <string name="edit">Editar</string>
     <string name="crop_action">Recortar</string>
     <string name="trim_action">Recortar</string>
@@ -58,7 +58,7 @@
     <string name="location">Ubicación</string>
     <string name="path">Ruta</string>
     <string name="width">Ancho</string>
-    <string name="height">Altura</string>
+    <string name="height">Alto</string>
     <string name="orientation">Orientación</string>
     <string name="duration">Duración</string>
     <string name="mimetype">Tipo de MIME</string>
@@ -102,8 +102,11 @@
         <item quantity="other">%d segundos</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Sonar en cuenta atrás</string>
-    <string name="setting_off">No</string>
-    <string name="setting_on">Sí</string>
+    <string name="pref_camera_savepath_title">Almacenamiento</string>
+    <string name="pref_camera_savepath_entry_0">Teléfono</string>
+    <string name="pref_camera_savepath_entry_1">Tarjeta SD</string>
+    <string name="setting_off">Apagar</string>
+    <string name="setting_on">Encendido</string>
     <string name="pref_video_quality_title">Calidad de vídeo</string>
     <string name="pref_video_time_lapse_frame_interval_title">Intervalo de tiempo</string>
     <string name="pref_camera_settings_category">Ajustes de la cámara</string>
@@ -118,8 +121,8 @@
     <string name="pref_camera_focusmode_label_macro">MACRO</string>
     <string name="pref_camera_flashmode_title">Flash</string>
     <string name="pref_camera_flashmode_entry_auto">Automático</string>
-    <string name="pref_camera_flashmode_entry_on">Sí</string>
-    <string name="pref_camera_flashmode_entry_off">No</string>
+    <string name="pref_camera_flashmode_entry_on">Encendido</string>
+    <string name="pref_camera_flashmode_entry_off">Apagar</string>
     <string name="pref_camera_flashmode_label_auto">FLASH AUTOMÁTICO</string>
     <string name="pref_camera_flashmode_label_on">FLASH ACTIVADO</string>
     <string name="pref_camera_flashmode_label_off">FLASH DESACTIVADO</string>
@@ -169,7 +172,7 @@
     <string name="disable_NR_during_SeeMore">SeeMore desactivará la reducción de ruido.</string>
     <string name="pref_exposure_title">Exposición</string>
     <string name="pref_exposure_label">EXPOSICIÓN</string>
-    <string name="pref_camera_hdr_label">HRD</string>
+    <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">CÁMARA FRONTAL</string>
     <string name="pref_camera_id_label_front">CÁMARA TRASERA</string>
     <string name="dialog_ok">Aceptar</string>
@@ -185,7 +188,7 @@
     <string name="pano_review_rendering">Creando panorámica</string>
     <string name="tap_to_focus">Toca para enfocar.</string>
     <string name="pref_video_effect_title">Efectos</string>
-    <string name="effect_none">Ninguna</string>
+    <string name="effect_none">Ninguno</string>
     <string name="effect_goofy_face_squeeze">Comprimir</string>
     <string name="effect_goofy_face_big_eyes">Ojos grandes</string>
     <string name="effect_goofy_face_big_mouth">Boca grande</string>
@@ -216,7 +219,7 @@
     <string name="accessibility_review_retake">Revisar repetición</string>
     <string name="capital_on">SÍ</string>
     <string name="capital_off">NO</string>
-    <string name="pref_video_time_lapse_frame_interval_off">No</string>
+    <string name="pref_video_time_lapse_frame_interval_off">Apagar</string>
     <string name="pref_video_time_lapse_frame_interval_500">0,5 segundos</string>
     <string name="pref_video_time_lapse_frame_interval_1000">1 segundo</string>
     <string name="pref_video_time_lapse_frame_interval_1500">1,5 segundos</string>
@@ -273,12 +276,16 @@
     <string name="create_tiny_planet">Crear planeta diminuto</string>
     <string name="saving_tiny_planet">Guardando planeta diminuto…</string>
     <string name="tiny_planet_zoom">Zoom</string>
-    <string name="tiny_planet_rotate">Girar</string>
+    <string name="tiny_planet_rotate">Rotar</string>
     <string name="crop_save">Guardar</string>
     <string name="cannot_load_image">Error al cargar la imagen</string>
     <string name="switch_photo_filmstrip">Vista de tira de película</string>
     <string name="setting_wallpaper">Estableciendo fondo de pantalla...</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d restantes</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Makeup solo funciona bajo la resolución VGA cuando se graba un vídeo.</string>
     <string name="pref_camera2_category_system">Sistema</string>
     <string name="pref_camera2_restore_default">Restablecer a valores predefinidos</string>
@@ -298,7 +305,7 @@
     <string name="delete_best_dialog_title">¿Borrar todo?</string>
     <string name="delete_best_dialog_content">¿Desea borrar las 10 fotos tomadas?</string>
     <string name="delete_best_dialog_native_bt">Cancelar</string>
-    <string name="delete_best_dialog_positive_bt">Eliminar</string>
+    <string name="delete_best_dialog_positive_bt">Borrar</string>
     <string name="delete_all_best_dialog_title">¿Borrar todo?</string>
     <string name="delete_all_best_dialog_content">¿Desea borrar todas las imágenes?</string>
     <string name="delete_all_best_dialog_native_bt">Cancelar</string>

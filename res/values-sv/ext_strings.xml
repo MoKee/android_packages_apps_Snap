@@ -23,7 +23,7 @@
     <string name="pref_camera_scenemode_entry_asd">Bästa bild</string>
     <string name="pref_camera_scenemode_entry_baby">Baby</string>
     <string name="pref_camera_scenemode_entry_backgroundblur">Bakgrundsoskärpa</string>
-    <string name="pref_camera_scenemode_entry_backlight">Motljus</string>
+    <string name="pref_camera_scenemode_entry_backlight">Bakgrundsbelysning</string>
     <string name="pref_camera_scenemode_entry_backlightportrait">Motljusporträtt</string>
     <string name="pref_camera_scenemode_entry_barcode">Streckkod</string>
     <string name="pref_camera_scenemode_entry_beach">Strand</string>

@@ -23,7 +23,7 @@
     <string name="pref_camera_scenemode_entry_asd">En iyi poz</string>
     <string name="pref_camera_scenemode_entry_baby">Bebek</string>
     <string name="pref_camera_scenemode_entry_backgroundblur">Arkaplan bulanıklığı</string>
-    <string name="pref_camera_scenemode_entry_backlight">Aydınlatma ışığı</string>
+    <string name="pref_camera_scenemode_entry_backlight">Arka ışık</string>
     <string name="pref_camera_scenemode_entry_backlightportrait">Dikey aydınlatma ışığı</string>
     <string name="pref_camera_scenemode_entry_barcode">Barkod</string>
     <string name="pref_camera_scenemode_entry_beach">Plaj</string>

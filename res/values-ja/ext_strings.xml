@@ -23,7 +23,7 @@
     <string name="pref_camera_scenemode_entry_asd">ベストショット</string>
     <string name="pref_camera_scenemode_entry_baby">赤ちゃん</string>
     <string name="pref_camera_scenemode_entry_backgroundblur">背景ぼかし</string>
-    <string name="pref_camera_scenemode_entry_backlight">逆光</string>
+    <string name="pref_camera_scenemode_entry_backlight">バックライト</string>
     <string name="pref_camera_scenemode_entry_backlightportrait">逆光ポートレート</string>
     <string name="pref_camera_scenemode_entry_barcode">バーコード</string>
     <string name="pref_camera_scenemode_entry_beach">ビーチ</string>
@@ -65,7 +65,7 @@
     <string name="pref_camera_focusmode_entry_facedetect">顔認識</string>
     <string name="pref_camera_focusmode_entry_facepriority">顔優先</string>
     <string name="pref_camera_focusmode_entry_fixed">固定</string>
-    <string name="pref_camera_focusmode_entry_normal">標準</string>
+    <string name="pref_camera_focusmode_entry_normal">Normal</string>
     <string name="pref_camera_focusmode_entry_portrait">ポートレート</string>
     <string name="pref_camera_focusmode_entry_hyperfocal">過焦点</string>
     <string name="pref_camera_coloreffect_entry_washed">ウォッシュ</string>

@@ -19,7 +19,7 @@
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Estableix la foto com a</string>
-    <string name="delete">Esborra</string>
+    <string name="delete">Suprimeix</string>
     <plurals name="delete_selection">
         <item quantity="one">Vols esborrar l\'element seleccionat?</item>
         <item quantity="other">Vols esborrar els elements seleccionats?</item>
@@ -43,9 +43,9 @@
         <item quantity="one">%1$d seleccionat</item>
         <item quantity="other">%1$d seleccionats</item>
     </plurals>
-    <string name="show_on_map">Mostra al mapa</string>
-    <string name="rotate_left">Gira a l\'esquerra</string>
-    <string name="rotate_right">Gira a la dreta</string>
+    <string name="show_on_map">Mostrar al mapa</string>
+    <string name="rotate_left">Rotar a l\'esquerra</string>
+    <string name="rotate_right">Rotar a la dreta</string>
     <string name="edit">Edita</string>
     <string name="crop_action">Retalla</string>
     <string name="trim_action">Retalla</string>
@@ -57,8 +57,8 @@
     <string name="time">Hora</string>
     <string name="location">Ubicació</string>
     <string name="path">Ruta</string>
-    <string name="width">Amplada</string>
-    <string name="height">Alçada</string>
+    <string name="width">Ample</string>
+    <string name="height">Alt</string>
     <string name="orientation">Orientació</string>
     <string name="duration">Durada</string>
     <string name="mimetype">Tipus MIME</string>
@@ -92,7 +92,7 @@
     <string name="time_lapse_title">Enregistrament a intervals</string>
     <string name="capturing">S\'està capturant</string>
     <string name="pref_camera_id_title">Tria la càmera</string>
-    <string name="pref_camera_id_entry_back">Posterior</string>
+    <string name="pref_camera_id_entry_back">Enrera</string>
     <string name="pref_camera_id_entry_front">Frontal</string>
     <string name="pref_camera_recordlocation_title">Ubicació GPS</string>
     <string name="pref_camera_location_label">UBICACIÓ</string>
@@ -102,8 +102,11 @@
         <item quantity="other">%d segons</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">So en compte enrera</string>
+    <string name="pref_camera_savepath_title">Emmagatzematge</string>
+    <string name="pref_camera_savepath_entry_0">Telèfon</string>
+    <string name="pref_camera_savepath_entry_1">Targeta SD</string>
     <string name="setting_off">Desactivat</string>
-    <string name="setting_on">Activat</string>
+    <string name="setting_on">Sí</string>
     <string name="pref_video_quality_title">Qualitat de vídeo</string>
     <string name="pref_video_time_lapse_frame_interval_title">Interval de temps</string>
     <string name="pref_camera_settings_category">Configuració de la càmera</string>
@@ -118,7 +121,7 @@
     <string name="pref_camera_focusmode_label_macro">MACRO</string>
     <string name="pref_camera_flashmode_title">Flaix</string>
     <string name="pref_camera_flashmode_entry_auto">Auto</string>
-    <string name="pref_camera_flashmode_entry_on">Activat</string>
+    <string name="pref_camera_flashmode_entry_on">Sí</string>
     <string name="pref_camera_flashmode_entry_off">Desactivat</string>
     <string name="pref_camera_flashmode_label_auto">FLAIX AUTOMÀTIC</string>
     <string name="pref_camera_flashmode_label_on">FLAIX ACTIVAT</string>
@@ -172,7 +175,7 @@
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">CÀMERA FRONTAL</string>
     <string name="pref_camera_id_label_front">CÀMERA POSTERIOR</string>
-    <string name="dialog_ok">D\'ACORD</string>
+    <string name="dialog_ok">\"D\'acord\"</string>
     <string name="spaceIsLow_content" product="default">La targeta SD s\'està quedant sense espai. Canvia la configuració de qualitat o suprimeix unes quantes imatges o altres fitxers.</string>
     <string name="video_reach_size_limit">S\'ha arribat al límit de mida.</string>
     <string name="pano_too_fast_prompt">Massa ràpid</string>
@@ -203,7 +206,7 @@
     <string name="effect_background">FONS</string>
     <string name="accessibility_shutter_button">Obturador</string>
     <string name="accessibility_exit_best_mode_button">Surt del millor mode de fotografia</string>
-    <string name="accessibility_menu_button">Botó de menú</string>
+    <string name="accessibility_menu_button">Botó Menú</string>
     <string name="accessibility_mode_picker">Càmera, vídeo o selector de panoràmiques</string>
     <string name="accessibility_check_box">Casella de selecció %1$s</string>
     <string name="accessibility_switch_to_camera">Canvia a foto</string>
@@ -273,8 +276,8 @@
     <string name="create_tiny_planet">Crea un planeta petit</string>
     <string name="saving_tiny_planet">S\'està desant el planeta petit\u2026</string>
     <string name="tiny_planet_zoom">Zoom</string>
-    <string name="tiny_planet_rotate">Gira</string>
-    <string name="crop_save">Desa</string>
+    <string name="tiny_planet_rotate">Rotar</string>
+    <string name="crop_save">Guardar</string>
     <string name="cannot_load_image">No es pot carregar la imatge!</string>
     <string name="switch_photo_filmstrip">Visualització de tira de pel·lícula</string>
     <string name="setting_wallpaper">S\'està establint el fons de pantalla</string>
@@ -292,7 +295,7 @@
         <item quantity="other">Es desaran %1$d de 10 imatges i la resta s\'eliminarà</item>
     </plurals>
     <string name="save_best_dialog_title">Vols desar les imatges seleccionades?</string>
-    <string name="save_best_dialog_positive_bt">D\'ACORD</string>
+    <string name="save_best_dialog_positive_bt">\"D\'acord\"</string>
     <string name="save_best_dialog_native_bt">Cancel·la</string>
     <plurals name="save_best_image_toast">
         <item quantity="one">S\'ha desat %1$d de 10 imatges.</item>
@@ -302,7 +305,7 @@
     <string name="delete_best_dialog_title">Esborrar-ho tot?</string>
     <string name="delete_best_dialog_content">Estàs segur que vols suprimir les 10 imatges fetes?</string>
     <string name="delete_best_dialog_native_bt">Cancel·la</string>
-    <string name="delete_best_dialog_positive_bt">Esborra</string>
+    <string name="delete_best_dialog_positive_bt">Suprimeix</string>
     <string name="delete_all_best_dialog_title">Esborrar-ho tot?</string>
     <string name="delete_all_best_dialog_content">Estàs segur que vols eliminar totes les imatges?</string>
     <string name="delete_all_best_dialog_native_bt">Cancel·la</string>

@@ -19,17 +19,14 @@
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Set picture as</string>
-    <string name="delete">Delete</string>
     <plurals name="delete_selection">
         <item quantity="one">Delete selected item?</item>
         <item quantity="other">Delete selected items?</item>
     </plurals>
-    <string name="share">Share</string>
     <string name="share_panorama">Share panorama</string>
     <string name="share_as_photo">Share as photo</string>
     <string name="deleted">Deleted</string>
     <string name="undo">UNDO</string>
-    <string name="details">Details</string>
     <string name="close">Close</string>
     <plurals name="number_of_items_selected">
         <item quantity="one">%1$d selected</item>
@@ -43,22 +40,12 @@
         <item quantity="one">%1$d selected</item>
         <item quantity="other">%1$d selected</item>
     </plurals>
-    <string name="show_on_map">Show on map</string>
-    <string name="rotate_left">Rotate left</string>
-    <string name="rotate_right">Rotate right</string>
-    <string name="edit">Edit</string>
     <string name="crop_action">Crop</string>
     <string name="trim_action">Trim</string>
     <string name="set_as">Set as</string>
     <string name="video_err">Can\'t play video.</string>
     <string name="crop_saved">        Cropped image saved to <xliff:g id="folder_name">%s</xliff:g>.</string>
-    <string name="title">Title</string>
-    <string name="description">Description</string>
     <string name="time">Time</string>
-    <string name="location">Location</string>
-    <string name="path">Path</string>
-    <string name="width">Width</string>
-    <string name="height">Height</string>
     <string name="orientation">Orientation</string>
     <string name="duration">Duration</string>
     <string name="mimetype">MIME type</string>
@@ -92,7 +79,6 @@
     <string name="time_lapse_title">Time lapse recording</string>
     <string name="capturing">Capturing</string>
     <string name="pref_camera_id_title">Choose camera</string>
-    <string name="pref_camera_id_entry_back">Back</string>
     <string name="pref_camera_id_entry_front">Front</string>
     <string name="pref_camera_recordlocation_title">GPS location</string>
     <string name="pref_camera_location_label">LOCATION</string>
@@ -102,8 +88,10 @@
         <item quantity="other">%d seconds</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Beep during countdown</string>
+    <string name="pref_camera_savepath_title">Storage</string>
+    <string name="pref_camera_savepath_entry_0">Phone</string>
+    <string name="pref_camera_savepath_entry_1">SD Card</string>
     <string name="setting_off">Off</string>
-    <string name="setting_on">On</string>
     <string name="pref_video_quality_title">Video quality</string>
     <string name="pref_video_time_lapse_frame_interval_title">Time lapse</string>
     <string name="pref_camera_settings_category">Camera settings</string>
@@ -118,7 +106,6 @@
     <string name="pref_camera_focusmode_label_macro">MACRO</string>
     <string name="pref_camera_flashmode_title">Flash</string>
     <string name="pref_camera_flashmode_entry_auto">Auto</string>
-    <string name="pref_camera_flashmode_entry_on">On</string>
     <string name="pref_camera_flashmode_entry_off">Off</string>
     <string name="pref_camera_flashmode_label_auto">FLASH AUTO</string>
     <string name="pref_camera_flashmode_label_on">FLASH ON</string>
@@ -203,7 +190,6 @@
     <string name="effect_background">BACKGROUND</string>
     <string name="accessibility_shutter_button">Shutter</string>
     <string name="accessibility_exit_best_mode_button">Exit best photo mode</string>
-    <string name="accessibility_menu_button">Menu button</string>
     <string name="accessibility_mode_picker">Camera, video or panorama selector</string>
     <string name="accessibility_check_box">%1$s tick box</string>
     <string name="accessibility_switch_to_camera">Switch to photo</string>
@@ -231,15 +217,11 @@
     <string name="pref_video_time_lapse_frame_interval_15000">15 seconds</string>
     <string name="pref_video_time_lapse_frame_interval_24000">24 seconds</string>
     <string name="pref_video_time_lapse_frame_interval_30000">0.5 minutes</string>
-    <string name="pref_video_time_lapse_frame_interval_60000">1 minute</string>
     <string name="pref_video_time_lapse_frame_interval_90000">1.5 minutes</string>
-    <string name="pref_video_time_lapse_frame_interval_120000">2 minutes</string>
     <string name="pref_video_time_lapse_frame_interval_150000">2.5 minutes</string>
     <string name="pref_video_time_lapse_frame_interval_180000">3 minutes</string>
     <string name="pref_video_time_lapse_frame_interval_240000">4 minutes</string>
-    <string name="pref_video_time_lapse_frame_interval_300000">5 minutes</string>
     <string name="pref_video_time_lapse_frame_interval_360000">6 minutes</string>
-    <string name="pref_video_time_lapse_frame_interval_600000">10 minutes</string>
     <string name="pref_video_time_lapse_frame_interval_720000">12 minutes</string>
     <string name="pref_video_time_lapse_frame_interval_900000">15 minutes</string>
     <string name="pref_video_time_lapse_frame_interval_1440000">24 minutes</string>
@@ -267,14 +249,11 @@
     <string name="remember_location_title">Remember photo locations?</string>
     <string name="remember_location_prompt">Tag your photos and videos with the locations where they are taken.\n\nOther apps can access this information along with your saved images.</string>
     <string name="remember_location_no">No, thanks</string>
-    <string name="remember_location_yes">Yes</string>
     <string name="camera_menu_more_label">MORE OPTIONS</string>
     <string name="camera_menu_settings_label">SETTINGS</string>
     <string name="create_tiny_planet">Create Tiny Planet</string>
     <string name="saving_tiny_planet">Saving Tiny Planet…</string>
     <string name="tiny_planet_zoom">Zoom</string>
-    <string name="tiny_planet_rotate">Rotate</string>
-    <string name="crop_save">Save</string>
     <string name="cannot_load_image">Cannot load the image!</string>
     <string name="switch_photo_filmstrip">Filmstrip view</string>
     <string name="setting_wallpaper">Setting wallpaper</string>
@@ -294,16 +273,13 @@
         <item quantity="one">%1$d of 10 images saved.</item>
         <item quantity="other">%1$d of 10 images saved.</item>
     </plurals>
-    <string name="dialog_do_not_show">Do not show again</string>
     <string name="delete_best_dialog_title">Delete all?</string>
     <string name="delete_best_dialog_content">Are you sure you want to delete all 10 pictures taken?</string>
     <string name="delete_best_dialog_native_bt">Cancel</string>
-    <string name="delete_best_dialog_positive_bt">Delete</string>
     <string name="delete_all_best_dialog_title">Delete all?</string>
     <string name="delete_all_best_dialog_content">Are you sure you want to delete all images?</string>
     <string name="delete_all_best_dialog_native_bt">Cancel</string>
     <string name="delete_all_best_dialog_positive_bt">Delete all</string>
     <string name="overflow_best_item1">Save all</string>
     <string name="overflow_best_item2">Delete all</string>
-    <string name="settings_title">Settings</string>
 </resources>

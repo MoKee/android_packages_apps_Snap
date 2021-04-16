@@ -23,7 +23,7 @@
     <string name="pref_camera_scenemode_entry_asd">Лучший снимок</string>
     <string name="pref_camera_scenemode_entry_baby">Ребенок</string>
     <string name="pref_camera_scenemode_entry_backgroundblur">Размытие фона</string>
-    <string name="pref_camera_scenemode_entry_backlight">Контровой свет</string>
+    <string name="pref_camera_scenemode_entry_backlight">Подсветка</string>
     <string name="pref_camera_scenemode_entry_backlightportrait">Портрет с контр. светом</string>
     <string name="pref_camera_scenemode_entry_barcode">Штрих-код</string>
     <string name="pref_camera_scenemode_entry_beach">Пляж</string>
@@ -31,7 +31,7 @@
     <string name="pref_camera_scenemode_entry_candlelight">Свечи</string>
     <string name="pref_camera_scenemode_entry_cine">Кино</string>
     <string name="pref_camera_scenemode_entry_closeup">Крупный план</string>
-    <string name="pref_camera_scenemode_entry_dark">Темнота</string>
+    <string name="pref_camera_scenemode_entry_dark">Тёмный</string>
     <string name="pref_camera_scenemode_entry_dish">Блюда</string>
     <string name="pref_camera_scenemode_entry_duskdawn">Сумерки</string>
     <string name="pref_camera_scenemode_entry_document">Документ</string>
@@ -65,7 +65,7 @@
     <string name="pref_camera_focusmode_entry_facedetect">Обнаружение лиц</string>
     <string name="pref_camera_focusmode_entry_facepriority">Фокус на лица</string>
     <string name="pref_camera_focusmode_entry_fixed">Фиксированный</string>
-    <string name="pref_camera_focusmode_entry_normal">Обычный</string>
+    <string name="pref_camera_focusmode_entry_normal">Стандартный</string>
     <string name="pref_camera_focusmode_entry_portrait">Портрет</string>
     <string name="pref_camera_focusmode_entry_hyperfocal">Гиперфокальный</string>
     <string name="pref_camera_coloreffect_entry_washed">Размытие</string>

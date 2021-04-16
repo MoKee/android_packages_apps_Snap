@@ -23,7 +23,7 @@
     <string name="pref_camera_scenemode_entry_asd">Mejor disparo</string>
     <string name="pref_camera_scenemode_entry_baby">Bebé</string>
     <string name="pref_camera_scenemode_entry_backgroundblur">Desenfocar fondo</string>
-    <string name="pref_camera_scenemode_entry_backlight">Contraluz</string>
+    <string name="pref_camera_scenemode_entry_backlight">Luz de fondo</string>
     <string name="pref_camera_scenemode_entry_backlightportrait">Retrato a contraluz</string>
     <string name="pref_camera_scenemode_entry_barcode">Código de barras</string>
     <string name="pref_camera_scenemode_entry_beach">Playa</string>

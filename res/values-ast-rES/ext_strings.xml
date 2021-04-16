@@ -31,7 +31,6 @@
     <string name="pref_camera_scenemode_entry_candlelight">Lluz de vela</string>
     <string name="pref_camera_scenemode_entry_cine">Cine</string>
     <string name="pref_camera_scenemode_entry_closeup">Detalle</string>
-    <string name="pref_camera_scenemode_entry_dark">Escuru</string>
     <string name="pref_camera_scenemode_entry_dish">Reflector</string>
     <string name="pref_camera_scenemode_entry_duskdawn">Riscar/Aséu</string>
     <string name="pref_camera_scenemode_entry_document">Documentu</string>

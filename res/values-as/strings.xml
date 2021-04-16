@@ -19,12 +19,10 @@
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">ছবিছন যি হিচাপে ছেট কৰিব</string>
-    <string name="delete">মচি দিয়া</string>
     <plurals name="delete_selection">
         <item quantity="one">বাচনি কৰা আইটেম মচি দিওঁক?</item>
         <item quantity="other">বাচনি কৰা আইটেমসমূহ মচি দিওঁক?</item>
     </plurals>
-    <string name="share">শ্বেয়াৰ</string>
     <string name="share_panorama">পেনোৰামা শ্বেয়াৰ কৰক</string>
     <string name="share_as_photo">ফটো হিচাপে শ্বেয়াৰ কৰক</string>
     <string name="deleted">মচি পেলোৱা হল</string>
@@ -52,10 +50,10 @@
     <string name="set_as">হিচাপে ছেট কৰক</string>
     <string name="video_err">ভিডিঅ চলাব নোৱাৰি।</string>
     <string name="crop_saved">ক্ৰ\'প কৰা প্ৰতিচ্ছবি <xliff:g id="folder_name">%s</xliff:g>-লৈ সংৰক্ষণ কৰা হৈছে৷</string>
-    <string name="title">শিৰোনাম</string>
+    <string name="title">শিৰোনামা</string>
     <string name="description">বৰ্ণনা</string>
     <string name="time">সময়</string>
-    <string name="location">স্থান</string>
+    <string name="location">অৱস্থান</string>
     <string name="path">পাথ</string>
     <string name="width">বহল</string>
     <string name="height">উচ্চতা</string>
@@ -90,7 +88,6 @@
     <string name="time_lapse_title">সময় অতিবাহিত হোৱাটো ৰেকৰ্ডিং</string>
     <string name="capturing">আটক কৰি থকা হৈছে</string>
     <string name="pref_camera_id_title">কেমেৰা বাচনি কৰক</string>
-    <string name="pref_camera_id_entry_back">পিছ</string>
     <string name="pref_camera_id_entry_front">সন্মুখ</string>
     <string name="pref_camera_location_label">স্থান</string>
     <string name="pref_camera_timer_title">কাউণ্টডাউন টাইমাৰ</string>
@@ -99,8 +96,8 @@
         <item quantity="other">%d ছেকেণ্ড</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">কাউণ্টডাউনৰ সময়ত বীপ কৰা</string>
+    <string name="pref_camera_savepath_entry_0">ফোন</string>
     <string name="setting_off">অফ</string>
-    <string name="setting_on">অন কৰক</string>
     <string name="pref_video_quality_title">ভিডিঅ’ গুণমান</string>
     <string name="pref_video_time_lapse_frame_interval_title">সময় অতিবাহিত হৈছে</string>
     <string name="pref_camera_settings_category">কেমেৰা ছেটিংছসমূহ</string>
@@ -115,7 +112,6 @@
     <string name="pref_camera_focusmode_label_macro">মেক্ৰ’</string>
     <string name="pref_camera_flashmode_title">ফ্লাশ্ব</string>
     <string name="pref_camera_flashmode_entry_auto">স্বয়ং</string>
-    <string name="pref_camera_flashmode_entry_on">অন কৰক</string>
     <string name="pref_camera_flashmode_entry_off">অফ</string>
     <string name="pref_camera_flashmode_label_auto">ফ্লেশ অটো</string>
     <string name="pref_camera_flashmode_label_on">ফ্লেশ অন</string>
@@ -135,7 +131,6 @@
     <string name="pref_camera_scenemode_title">ছিন মোড</string>
     <string name="pref_camera_scenemode_entry_auto">স্বয়ং</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
-    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ অন</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">HDR+ বন্ধ</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR অন</string>
@@ -157,10 +152,8 @@
     <string name="not_selectable_in_scene_mode">চিত্ৰায়ন মোডত বাচনি কৰিব নোৱাৰি৷</string>
     <string name="pref_exposure_title">প্ৰকাশ</string>
     <string name="pref_exposure_label">প্ৰকাশ</string>
-    <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">সন্মুখৰ কেমেৰা</string>
     <string name="pref_camera_id_label_front">পিছফালৰ কেমেৰা</string>
-    <string name="dialog_ok">ঠিক</string>
     <string name="spaceIsLow_content" product="default">আপোনাৰ SD কাৰ্ড স্থান ভৰি গৈছে। গুনাগুণ ছেটিংছ পৰিৱৰ্তন কৰক বা কিছুমান প্ৰতিচ্ছবি বা অন্য ফাইল বিলোপ কৰক</string>
     <string name="video_reach_size_limit">আকাৰৰ সীমা চুইছেগৈ৷</string>
     <string name="pano_too_fast_prompt">বৰ বেছি ক্ষীপ্ৰ</string>
@@ -190,7 +183,6 @@
     <string name="effect_silly_faces">ছিল্লী ফেচেছ</string>
     <string name="effect_background">বেকগ্ৰাউণ্ড</string>
     <string name="accessibility_shutter_button">ছাটাৰ</string>
-    <string name="accessibility_menu_button">মেন্যু বুটাম</string>
     <string name="accessibility_mode_picker">কেমেৰা, ভিডিঅ, বা পেনোৰামা নিৰ্বাচক</string>
     <string name="accessibility_check_box">%1$s চেক বাকচ</string>
     <string name="accessibility_switch_to_camera">ফটোলৈ স্থানান্তৰিত কৰক</string>
@@ -218,15 +210,11 @@
     <string name="pref_video_time_lapse_frame_interval_15000">15 চেকেণ্ড</string>
     <string name="pref_video_time_lapse_frame_interval_24000">24 চেকেণ্ড</string>
     <string name="pref_video_time_lapse_frame_interval_30000">0.5 মিনিট</string>
-    <string name="pref_video_time_lapse_frame_interval_60000">1 মিনিট</string>
     <string name="pref_video_time_lapse_frame_interval_90000">1.5 মিনিট</string>
-    <string name="pref_video_time_lapse_frame_interval_120000">2 মিনিট</string>
     <string name="pref_video_time_lapse_frame_interval_150000">2.5 মিনিট</string>
     <string name="pref_video_time_lapse_frame_interval_180000">3 মিনিট</string>
     <string name="pref_video_time_lapse_frame_interval_240000">4 মিনিট</string>
-    <string name="pref_video_time_lapse_frame_interval_300000">5 মিনিট</string>
     <string name="pref_video_time_lapse_frame_interval_360000">6 মিনিট</string>
-    <string name="pref_video_time_lapse_frame_interval_600000">10 মিনিট</string>
     <string name="pref_video_time_lapse_frame_interval_720000">12 মিনিট</string>
     <string name="pref_video_time_lapse_frame_interval_900000">15 মিনিট</string>
     <string name="pref_video_time_lapse_frame_interval_1440000">24 মিনিট</string>
@@ -254,7 +242,6 @@
     <string name="remember_location_title">ফটো লোকেশ্যনসমূহ মনত আছেনে?</string>
     <string name="remember_location_prompt">ফটো আৰু ভিডিঅ’সমূহ যিস্থানত লোৱা হৈছিল সেই স্থানসমূহ টেগ কৰি দিয়ক৷ \n\অইন কোনো এপ্পে এই তথ্যসমূহ আপোনাৰ সংৰক্ষিত ছবিসমূহৰ সৈতে আহৰণ কৰিব নোৱাৰে৷</string>
     <string name="remember_location_no">ন’ থেংকছ</string>
-    <string name="remember_location_yes">হয়</string>
     <string name="camera_menu_more_label">অধিক বিকল্পসমূহ</string>
     <string name="camera_menu_settings_label">ছেটিংছ</string>
     <string name="create_tiny_planet">টিনি প্লানেট সৃষ্টি কৰক</string>
@@ -265,6 +252,6 @@
     <string name="cannot_load_image">ইমেজ লোড কৰিব নোৱাৰি!</string>
     <string name="switch_photo_filmstrip">ফিল্মষ্ট্ৰিপ/ভিউ</string>
     <string name="setting_wallpaper">ৱাল পেপাৰ চেটিং</string>
-    <string name="save_best_dialog_positive_bt">ঠিক</string>
-    <string name="delete_best_dialog_positive_bt">মচি দিয়া</string>
+    <string name="delete_all_best_dialog_positive_bt">সকলোবোৰ মচি পেলাওঁক</string>
+    <string name="overflow_best_item2">সকলোবোৰ মচি পেলাওঁক</string>
 </resources>

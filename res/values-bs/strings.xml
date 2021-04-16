@@ -14,23 +14,26 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dialog_dismiss">Dismiss</string>
+    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
+    <string name="pref_camera_hdr_label">HDR</string>
+    <string name="pano_dialog_title">Panorama</string>
+    <string name="pref_video_time_lapse_frame_interval_2000">2 sekunde</string>
+    <string name="pref_video_time_lapse_frame_interval_5000">5 sekundi</string>
+    <string name="pref_video_time_lapse_frame_interval_10000">10 sekundi</string>
+    <string name="tiny_planet_zoom">Zum</string>
     <string name="pref_camera2_category_system">Sistem</string>
     <string name="save_best_dialog_title">Spremi odabrane slike?</string>
-    <string name="save_best_dialog_native_bt">Otkaži</string>
     <plurals name="save_best_image_toast">
         <item quantity="one">%1$d od 10 slika spremljeno.</item>
         <item quantity="few">%1$d od 10 slika spremljeno.</item>
         <item quantity="other">%1$d od 10 slika spremljeno.</item>
     </plurals>
-    <string name="dialog_do_not_show">Ne prikazuj ponovo</string>
     <string name="delete_best_dialog_title">Obrisati sve?</string>
     <string name="delete_best_dialog_content">Jeste li sigurni da želite obrisati svih 10 slika?</string>
-    <string name="delete_best_dialog_native_bt">Otkaži</string>
     <string name="delete_all_best_dialog_title">Obrisati sve?</string>
     <string name="delete_all_best_dialog_content">Jeste li sigurni da želite obrisati sve slike?</string>
-    <string name="delete_all_best_dialog_native_bt">Otkaži</string>
     <string name="delete_all_best_dialog_positive_bt">Obriši sve</string>
     <string name="overflow_best_item1">Spremi sve</string>
     <string name="overflow_best_item2">Obriši sve</string>
-    <string name="settings_title">Postavke</string>
 </resources>

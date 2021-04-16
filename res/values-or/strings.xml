@@ -19,12 +19,10 @@
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">ଫଟୋ ଭାବେ ସେଟ୍ କରନ୍ତୁ</string>
-    <string name="delete">ବିଲୋପ କରନ୍ତୁ</string>
     <plurals name="delete_selection">
         <item quantity="one">ମନୋନିତ ଆଇଟମ୍‌ ବିଲୋପ କରିବେ?</item>
         <item quantity="other">ମନୋନିତ ଆଇଟମଗୁଡିକ ବିଲୋପ କରିବେ?</item>
     </plurals>
-    <string name="share">ଅଂଶୀଦାର କରନ୍ତୁ</string>
     <string name="share_panorama">ପାନୋରମା ଭାବେ ଅଂଶୀଦାର କରନ୍ତୁ</string>
     <string name="share_as_photo">ଫଟୋ ଭାବେ ଅଂଶୀଦାର କରନ୍ତୁ</string>
     <string name="deleted">ବିଲୋପ ହୋଇଛି</string>
@@ -90,7 +88,6 @@
     <string name="time_lapse_title">ସମୟ ଅତିବାହିତ ରେକର୍ଡିଂ</string>
     <string name="capturing">କ୍ୟାପଚର୍ କରୁଛି</string>
     <string name="pref_camera_id_title">କ୍ୟାମେରା ବାଛନ୍ତୁ</string>
-    <string name="pref_camera_id_entry_back">ବ୍ୟାକ୍</string>
     <string name="pref_camera_id_entry_front">ସମ୍ମୁଖ</string>
     <string name="pref_camera_location_label">ଅବସ୍ଥାନ</string>
     <string name="pref_camera_timer_title">କାଉଣ୍ଟଡାଉନ୍‍ ଟାଇମର୍‍</string>
@@ -99,8 +96,8 @@
         <item quantity="other">%d ସେକେଣ୍ଡ</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">କାଉଣ୍ଟଡାଉନ ସମୟରେ ବିପ୍</string>
+    <string name="pref_camera_savepath_entry_0">ଫୋନ୍</string>
     <string name="setting_off">ଅଫ୍</string>
-    <string name="setting_on">ଅନ</string>
     <string name="pref_video_quality_title">ଭିଡିଓ ଗୁଣବତ୍ତା</string>
     <string name="pref_video_time_lapse_frame_interval_title">ସମୟ ଅତିବାହିତ</string>
     <string name="pref_camera_settings_category">କ୍ୟାମେରା ସେଟିଂସ୍</string>
@@ -115,7 +112,6 @@
     <string name="pref_camera_focusmode_label_macro">ମାକ୍ରୋ</string>
     <string name="pref_camera_flashmode_title">ଫ୍ଲାସ୍</string>
     <string name="pref_camera_flashmode_entry_auto">ସ୍ଵତଃ</string>
-    <string name="pref_camera_flashmode_entry_on">ଅନ</string>
     <string name="pref_camera_flashmode_entry_off">ଅଫ୍</string>
     <string name="pref_camera_flashmode_label_auto">ଫ୍ଲାସ୍ ସ୍ଵତଃ</string>
     <string name="pref_camera_flashmode_label_on">ଫ୍ଲାସ୍ ଅନ୍</string>
@@ -135,7 +131,6 @@
     <string name="pref_camera_scenemode_title">ସ୍କ୍ରିନ୍‌ ମୋଡ୍</string>
     <string name="pref_camera_scenemode_entry_auto">ସ୍ଵତଃ</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
-    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ ଅନ୍‌</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">HDR+ ଅଫ୍‌</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR ଅନ୍‌</string>
@@ -157,10 +152,8 @@
     <string name="not_selectable_in_scene_mode">ସ୍କ୍ରିନ୍ ମୋଡ୍ ଚୟନଯୋଗ୍ୟ ନୁହେଁ।</string>
     <string name="pref_exposure_title">ଏକ୍ସପୋଜର୍</string>
     <string name="pref_exposure_label">ଏକ୍ସପୋଜର୍</string>
-    <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">ସମ୍ମୁଖ କ୍ୟାମେରା</string>
     <string name="pref_camera_id_label_front">ବ୍ୟାକ୍ କ୍ୟାମେରା</string>
-    <string name="dialog_ok">ଓକେ</string>
     <string name="spaceIsLow_content" product="default">ଆପଣଙ୍କ SD କାର୍ଡ୍ ଷ୍ଟୋରେଜରେ ଆଉ ସ୍ପେସ୍ ନାହିଁ। ଗୁଣବତ୍ତା ସେଟିଂ ପରିବର୍ତ୍ତନ କରନ୍ତୁ କିମ୍ବା କିଛି ଫଟୋ ବା ଅନ୍ୟାନ୍ୟ ଫାଇଲଗୁଡିକ ବିଲୋପ କରନ୍ତୁ।</string>
     <string name="video_reach_size_limit">ଆକାର ସୀମାରେ ପହଞ୍ଚିଛି।</string>
     <string name="pano_too_fast_prompt">ଖୁବ୍ ଦ୍ରୁତ</string>
@@ -190,7 +183,6 @@
     <string name="effect_silly_faces">ସିଲି ଫେସସ୍</string>
     <string name="effect_background">ପୃଷ୍ଠପଟ</string>
     <string name="accessibility_shutter_button">ସଟର୍</string>
-    <string name="accessibility_menu_button">ମେନ୍ୟୁ ବଟନ୍</string>
     <string name="accessibility_mode_picker">କ୍ୟାମେରା, ଭିଡିଓ, କିମ୍ଵା ପାନୋରମା ଚୟନକାରୀ</string>
     <string name="accessibility_check_box">%1$s ଚେକ୍‌ ବକ୍ସ</string>
     <string name="accessibility_switch_to_camera">ଫଟୋକୁ ସ୍ଵିଚ୍ କରନ୍ତୁ</string>
@@ -218,15 +210,11 @@
     <string name="pref_video_time_lapse_frame_interval_15000">15 ସେକେଣ୍ଡ</string>
     <string name="pref_video_time_lapse_frame_interval_24000">24 ସେକେଣ୍ଡ</string>
     <string name="pref_video_time_lapse_frame_interval_30000">0.5 ମିନିଟ୍</string>
-    <string name="pref_video_time_lapse_frame_interval_60000">1 ମିନିଟ୍‌</string>
     <string name="pref_video_time_lapse_frame_interval_90000">1.5 ମିନିଟ୍</string>
-    <string name="pref_video_time_lapse_frame_interval_120000">2 ମିନିଟ୍</string>
     <string name="pref_video_time_lapse_frame_interval_150000">2.5 ମିନିଟ୍</string>
     <string name="pref_video_time_lapse_frame_interval_180000">3 ମିନିଟ୍</string>
     <string name="pref_video_time_lapse_frame_interval_240000">4 ମିନିଟ୍</string>
-    <string name="pref_video_time_lapse_frame_interval_300000">5 ମିନିଟ୍</string>
     <string name="pref_video_time_lapse_frame_interval_360000">6 ମିନିଟ୍</string>
-    <string name="pref_video_time_lapse_frame_interval_600000">10 ମିନିଟ୍</string>
     <string name="pref_video_time_lapse_frame_interval_720000">12 ମିନିଟ୍</string>
     <string name="pref_video_time_lapse_frame_interval_900000">15 ମିନିଟ୍</string>
     <string name="pref_video_time_lapse_frame_interval_1440000">24 ମିନିଟ୍</string>
@@ -254,7 +242,6 @@
     <string name="remember_location_title">ଫଟୋ ଅବସ୍ଥାନ ମନେରଖିବେ?</string>
     <string name="remember_location_prompt">ଆପଣଙ୍କ ଫଟୋ ଏବଂ ଭିଡିଓଗୁଡିକ ଉଠାଯାଇଥିବା ସ୍ଥାନ ସହ ଟ୍ୟାପ୍ କରନ୍ତୁ।\n\nଆପଣଙ୍କ ସଞ୍ଚିତ ଫଟୋଗୁଡିକ ସହ ଅନ୍ୟ ଆପ୍ଲିକେସନ୍ ଏହି ସୂଚନା ଆକସେସ୍ କରିପାରିବେ।</string>
     <string name="remember_location_no">ନା ଧନ୍ୟବାଦ</string>
-    <string name="remember_location_yes">ହଁ</string>
     <string name="camera_menu_more_label">ଅଧିକ ବିକଳ୍ପ</string>
     <string name="camera_menu_settings_label">ସେଟିଂସ୍</string>
     <string name="create_tiny_planet">ଛୋଟ ପ୍ଲାନେଟ୍ ସୃଷ୍ଟି କରିବା</string>
@@ -265,6 +252,6 @@
     <string name="cannot_load_image">ଫଟୋ ଲୋଡ୍ କରିପାରିବ ନାହିଁ!</string>
     <string name="switch_photo_filmstrip">ଫ୍ଲିମଷ୍ଟ୍ରିପ୍‌ ଦର୍ଶନ</string>
     <string name="setting_wallpaper">ୱାଲପେପର୍ ସେଟିଂ</string>
-    <string name="save_best_dialog_positive_bt">ଓକେ</string>
-    <string name="delete_best_dialog_positive_bt">ବିଲୋପ କରନ୍ତୁ</string>
+    <string name="delete_all_best_dialog_positive_bt">ସମସ୍ତ ବିଲୋପ କରନ୍ତୁ</string>
+    <string name="overflow_best_item2">ସମସ୍ତ ବିଲୋପ କରନ୍ତୁ</string>
 </resources>

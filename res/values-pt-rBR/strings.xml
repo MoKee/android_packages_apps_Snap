@@ -84,7 +84,7 @@
     <string name="cannot_connect_camera">Não é possível conectar à câmera.</string>
     <string name="camera_disabled">Câmera desativada devido às políticas de segurança.</string>
     <string name="error_permissions">O aplicativo não tem permissões críticas necessárias para executar. Por favor, verifique as configurações de permissões.</string>
-    <string name="dialog_dismiss">Dispensar</string>
+    <string name="dialog_dismiss">Ignorar</string>
     <string name="wait">Aguarde\u2026</string>
     <string name="no_storage" product="default">Insira um cartão SD antes de usar a câmera.</string>
     <string name="preparing_sd" product="default">Preparando cartão SD\u2026</string>
@@ -92,7 +92,7 @@
     <string name="time_lapse_title">Gravação de timelapse</string>
     <string name="capturing">Capturando</string>
     <string name="pref_camera_id_title">Escolher câmera</string>
-    <string name="pref_camera_id_entry_back">Traseira</string>
+    <string name="pref_camera_id_entry_back">Voltar</string>
     <string name="pref_camera_id_entry_front">Frontal</string>
     <string name="pref_camera_recordlocation_title">Localização GPS</string>
     <string name="pref_camera_location_label">LOCAL</string>
@@ -102,8 +102,12 @@
         <item quantity="other">%d segundos</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Aviso sonoro na contagem</string>
-    <string name="setting_off">Desl.</string>
-    <string name="setting_on">Ligado</string>
+    <string name="pref_camera_savepath_title">Armazenamento</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Telefone</string>
+    <string name="pref_camera_savepath_entry_1">Cartão SD</string>
+    <string name="setting_off">Desligado</string>
+    <string name="setting_on">Ativado</string>
     <string name="pref_video_quality_title">Qualidade do vídeo</string>
     <string name="pref_video_time_lapse_frame_interval_title">Passagem de tempo</string>
     <string name="pref_camera_settings_category">Configurações da câmera</string>
@@ -118,7 +122,7 @@
     <string name="pref_camera_focusmode_label_macro">MACRO</string>
     <string name="pref_camera_flashmode_title">Flash</string>
     <string name="pref_camera_flashmode_entry_auto">Automático</string>
-    <string name="pref_camera_flashmode_entry_on">Ligado</string>
+    <string name="pref_camera_flashmode_entry_on">Ativado</string>
     <string name="pref_camera_flashmode_entry_off">Desligado</string>
     <string name="pref_camera_flashmode_label_auto">FLASH AUTOMÁTICO</string>
     <string name="pref_camera_flashmode_label_on">FLASH LIGADO</string>
@@ -185,7 +189,7 @@
     <string name="pano_review_rendering">Renderizando panorama</string>
     <string name="tap_to_focus">Toque para ajustar o foco.</string>
     <string name="pref_video_effect_title">Efeitos</string>
-    <string name="effect_none">Sem efeito</string>
+    <string name="effect_none">Nenhum</string>
     <string name="effect_goofy_face_squeeze">Comprimir</string>
     <string name="effect_goofy_face_big_eyes">Olhos grandes</string>
     <string name="effect_goofy_face_big_mouth">Boca grande</string>
@@ -278,7 +282,12 @@
     <string name="cannot_load_image">Não é possível carregar a imagem.</string>
     <string name="switch_photo_filmstrip">Visualização de película</string>
     <string name="setting_wallpaper">Definindo plano de fundo</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d restante(s)</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">A maquiagem funciona apenas em tamanhos inferiores a VGA para a gravação de vídeo.</string>
     <string name="pref_camera2_category_system">Sistema</string>
     <string name="pref_camera2_restore_default">Restaurar padrões</string>

@@ -24,12 +24,12 @@
         <item quantity="one">Да бъде ли изтрит избраният елемент?</item>
         <item quantity="other">Да бъдат ли изтрити избраните елементи?</item>
     </plurals>
-    <string name="share">Споделяне</string>
+    <string name="share">Сподели</string>
     <string name="share_panorama">Споделяне на панорамата</string>
     <string name="share_as_photo">Споделяне като снимка</string>
     <string name="deleted">Изтрито</string>
     <string name="undo">ОТМЯНА</string>
-    <string name="details">Подробности</string>
+    <string name="details">Детайли</string>
     <string name="close">Затваряне</string>
     <plurals name="number_of_items_selected">
         <item quantity="one">Избрахте %1$d</item>
@@ -43,7 +43,7 @@
         <item quantity="one">Избрахте %1$d</item>
         <item quantity="other">Избрахте %1$d</item>
     </plurals>
-    <string name="show_on_map">Показване на картата</string>
+    <string name="show_on_map">Показване на карта</string>
     <string name="rotate_left">Завъртане наляво</string>
     <string name="rotate_right">Завъртане надясно</string>
     <string name="edit">Редактиране</string>
@@ -56,7 +56,7 @@
     <string name="description">Описание</string>
     <string name="time">Час</string>
     <string name="location">Местоположение</string>
-    <string name="path">Местоположение</string>
+    <string name="path">Път</string>
     <string name="width">Ширина</string>
     <string name="height">Височина</string>
     <string name="orientation">Ориентация</string>
@@ -92,7 +92,7 @@
     <string name="time_lapse_title">Запис на цайтрафера</string>
     <string name="capturing">Заснема се</string>
     <string name="pref_camera_id_title">Избиране на камера</string>
-    <string name="pref_camera_id_entry_back">Задна</string>
+    <string name="pref_camera_id_entry_back">Назад</string>
     <string name="pref_camera_id_entry_front">Предна</string>
     <string name="pref_camera_recordlocation_title">Добавяне на GPS местоположение</string>
     <string name="pref_camera_location_label">МЕСТОПОЛОЖЕНИЕ</string>
@@ -102,35 +102,38 @@
         <item quantity="other">%d секунди</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Обр. отбр.: Звук</string>
-    <string name="setting_off">Изкл.</string>
-    <string name="setting_on">Вкл.</string>
+    <string name="pref_camera_savepath_title">Хранилище</string>
+    <string name="pref_camera_savepath_entry_0">Телефон</string>
+    <string name="pref_camera_savepath_entry_1">Карта памет</string>
+    <string name="setting_off">Изключен</string>
+    <string name="setting_on">Включване</string>
     <string name="pref_video_quality_title">Видеокачество</string>
     <string name="pref_video_time_lapse_frame_interval_title">Цайтрафер</string>
     <string name="pref_camera_settings_category">Настройки на камерата</string>
     <string name="pref_camcorder_settings_category">Настройки на видеокамерата</string>
     <string name="pref_camera_picturesize_title">Резолюция на снимката</string>
     <string name="pref_camera_focusmode_title">Фокусен режим</string>
-    <string name="pref_camera_focusmode_entry_auto">Автоматичен</string>
+    <string name="pref_camera_focusmode_entry_auto">Автоматично</string>
     <string name="pref_camera_focusmode_entry_infinity">Безкрайност</string>
     <string name="pref_camera_focusmode_entry_macro">Макро</string>
     <string name="pref_camera_focusmode_label_auto">АВТОМАТИЧЕН</string>
     <string name="pref_camera_focusmode_label_infinity">БЕЗКРАЙНОСТ</string>
     <string name="pref_camera_focusmode_label_macro">МАКРО</string>
     <string name="pref_camera_flashmode_title">Светкавица</string>
-    <string name="pref_camera_flashmode_entry_auto">Автоматична</string>
-    <string name="pref_camera_flashmode_entry_on">Вкл.</string>
-    <string name="pref_camera_flashmode_entry_off">Изкл.</string>
+    <string name="pref_camera_flashmode_entry_auto">Автоматично</string>
+    <string name="pref_camera_flashmode_entry_on">Включване</string>
+    <string name="pref_camera_flashmode_entry_off">Изключен</string>
     <string name="pref_camera_flashmode_label_auto">АВТОМАТИЧНА СВЕТКАВИЦА</string>
     <string name="pref_camera_flashmode_label_on">СВЕТКАВИЦАТА Е ВКЛЮЧЕНА</string>
     <string name="pref_camera_flashmode_label_off">СВЕТКАВИЦАТА Е ИЗКЛЮЧЕНА</string>
-    <string name="pref_camera_whitebalance_title">Баланс на бялото</string>
+    <string name="pref_camera_whitebalance_title">Бяло: Баланс</string>
     <string name="pref_camera_whitebalance_label">БАЛАНС НА БЯЛОТО</string>
-    <string name="pref_camera_whitebalance_entry_auto">Автоматичен</string>
+    <string name="pref_camera_whitebalance_entry_auto">Автоматично</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Изкуствена светлина</string>
     <string name="pref_camera_whitebalance_entry_daylight">Дневна светлина</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Флуоресцентна светлина</string>
     <string name="pref_camera_whitebalance_entry_cloudy">Облачно</string>
-    <string name="pref_camera_whitebalance_label_auto">АВТОМАТИЧНО</string>
+    <string name="pref_camera_whitebalance_label_auto">АВТОМАТИЧЕН</string>
     <string name="pref_camera_whitebalance_label_incandescent">ИЗКУСТВЕНА СВЕТЛИНА</string>
     <string name="pref_camera_whitebalance_label_daylight">ДНЕВНА СВЕТЛИНА</string>
     <string name="pref_camera_whitebalance_label_fluorescent">ФЛУОРЕСЦЕНТНА СВЕТЛИНА</string>
@@ -144,7 +147,7 @@
     <string name="pref_camera_scenemode_entry_turn_hdr_on">ВКЛЮЧВАНЕ НА HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_off">ИЗКЛЮЧВАНЕ НА HDR</string>
     <string name="pref_camera_scenemode_entry_action">Действие</string>
-    <string name="pref_camera_scenemode_entry_night">През нощта</string>
+    <string name="pref_camera_scenemode_entry_night">Нощен</string>
     <string name="pref_camera_scenemode_entry_sunset">Залез</string>
     <string name="pref_camera_scenemode_entry_party">Празненство</string>
     <string name="pref_camera_scenemode_label_auto">БЕЗ</string>
@@ -172,7 +175,7 @@
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">ПРЕДНА КАМЕРА</string>
     <string name="pref_camera_id_label_front">ЗАДНА КАМЕРА</string>
-    <string name="dialog_ok">Добре</string>
+    <string name="dialog_ok">Окей</string>
     <string name="spaceIsLow_content" product="default">Мястото на картата памет Ви привършва. Променете настройката за качество или изтрийте някои изображения или други файлове.</string>
     <string name="video_reach_size_limit">Достигнат е максималният размер.</string>
     <string name="pano_too_fast_prompt">Твърде бързо</string>
@@ -216,7 +219,7 @@
     <string name="accessibility_review_retake">Презаснемане на преглеждания елемент</string>
     <string name="capital_on">ВКЛ.</string>
     <string name="capital_off">ИЗКЛ.</string>
-    <string name="pref_video_time_lapse_frame_interval_off">Изключено</string>
+    <string name="pref_video_time_lapse_frame_interval_off">Изключен</string>
     <string name="pref_video_time_lapse_frame_interval_500">0,5 секунди</string>
     <string name="pref_video_time_lapse_frame_interval_1000">1 секунда</string>
     <string name="pref_video_time_lapse_frame_interval_1500">1,5 секунди</string>
@@ -292,8 +295,8 @@
         <item quantity="other">%1$d от 10 снимки ще бъдат записани а останалите ще бъдат изтрити</item>
     </plurals>
     <string name="save_best_dialog_title">Да запиша ли избраните изображения?</string>
-    <string name="save_best_dialog_positive_bt">Добре</string>
-    <string name="save_best_dialog_native_bt">Отказ</string>
+    <string name="save_best_dialog_positive_bt">Окей</string>
+    <string name="save_best_dialog_native_bt">Отмени</string>
     <plurals name="save_best_image_toast">
         <item quantity="one">%1$d от 10 снимки записани.</item>
         <item quantity="other">%1$d от 10 снимки записани.</item>
@@ -301,11 +304,11 @@
     <string name="dialog_do_not_show">Не показвай отново</string>
     <string name="delete_best_dialog_title">Да изтрия ли всички?</string>
     <string name="delete_best_dialog_content">Наистина ли искате да изтриете всички 10 снимки?</string>
-    <string name="delete_best_dialog_native_bt">Отказ</string>
+    <string name="delete_best_dialog_native_bt">Отмени</string>
     <string name="delete_best_dialog_positive_bt">Изтриване</string>
     <string name="delete_all_best_dialog_title">Да изтрия ли всички?</string>
     <string name="delete_all_best_dialog_content">Сигурни ли сте, че желаете да изтриете всички съобщения?</string>
-    <string name="delete_all_best_dialog_native_bt">Отказ</string>
+    <string name="delete_all_best_dialog_native_bt">Отмени</string>
     <string name="delete_all_best_dialog_positive_bt">Изтрий всички</string>
     <string name="overflow_best_item1">Запиши всичко</string>
     <string name="overflow_best_item2">Изтрий всички</string>

@@ -43,22 +43,16 @@
         <item quantity="one">%1$d esbilláu</item>
         <item quantity="other">%1$d esbillaos</item>
     </plurals>
-    <string name="show_on_map">Amosar nel mapa</string>
     <string name="rotate_left">Voltiar a esquierda</string>
-    <string name="rotate_right">Xirar a la derecha</string>
     <string name="edit">Editar</string>
     <string name="crop_action">Recortar</string>
     <string name="trim_action">Recortar</string>
     <string name="set_as">Afitar como</string>
     <string name="video_err">Nun pue reproducise\'l videu.</string>
     <string name="crop_saved">        La imaxe recortada guardóse en <xliff:g id="FOLDER_NAME">%s</xliff:g>.</string>
-    <string name="title">Títulu</string>
-    <string name="description">Descripción</string>
     <string name="time">Hora</string>
     <string name="location">Allugamientu</string>
-    <string name="path">Camín</string>
     <string name="width">Anchor</string>
-    <string name="height">Altor</string>
     <string name="orientation">Orientación</string>
     <string name="duration">Duración</string>
     <string name="mimetype">Triba MIME</string>
@@ -76,7 +70,6 @@
     <string name="auto">Auto</string>
     <string name="flash_on">Flax activáu</string>
     <string name="flash_off">Ensin flax</string>
-    <string name="unknown">Desconocíu</string>
     <string name="try_to_set_local_album_available_offline">        Esti elementu atroxóse de mou llocal y ta disponible ensin conexón.</string>
     <string name="please_wait">Espera</string>
     <string name="rendering_photo_sphere">Procesando semeya esférica</string>
@@ -93,7 +86,7 @@
     <string name="capturing">Capturando</string>
     <string name="pref_camera_id_title">Seleicionar cámara</string>
     <string name="pref_camera_id_entry_back">Atrás</string>
-    <string name="pref_camera_id_entry_front">Delantera</string>
+    <string name="pref_camera_id_entry_front">Frontal</string>
     <string name="pref_camera_recordlocation_title">Allugamientu GPS</string>
     <string name="pref_camera_location_label">ALLUGAMIENTU</string>
     <string name="pref_camera_timer_title">Temporizador de cuenta atrás</string>
@@ -102,30 +95,33 @@
         <item quantity="other">%d segundos</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Usar pitíu</string>
+    <string name="pref_camera_savepath_title">Almacenamientu</string>
+    <string name="pref_camera_savepath_entry_0">Teléfonu</string>
+    <string name="pref_camera_savepath_entry_1">Tarxeta SD</string>
     <string name="setting_off">Non</string>
-    <string name="setting_on">Activáu</string>
+    <string name="setting_on">Sí</string>
     <string name="pref_video_quality_title">Calidá de videu</string>
     <string name="pref_video_time_lapse_frame_interval_title">Intervalu de tiempu</string>
     <string name="pref_camera_settings_category">Axustes de la cámara</string>
     <string name="pref_camcorder_settings_category">Configuración de videocámara</string>
     <string name="pref_camera_picturesize_title">Tamañu imaxe</string>
     <string name="pref_camera_focusmode_title">Mou d\'enfoque</string>
-    <string name="pref_camera_focusmode_entry_auto">Automáticu</string>
+    <string name="pref_camera_focusmode_entry_auto">Auto</string>
     <string name="pref_camera_focusmode_entry_infinity">Infinitu</string>
     <string name="pref_camera_focusmode_entry_macro">Macro</string>
     <string name="pref_camera_focusmode_label_auto">AUTOMÁTICU</string>
     <string name="pref_camera_focusmode_label_infinity">INFINITU</string>
     <string name="pref_camera_focusmode_label_macro">MACRO</string>
     <string name="pref_camera_flashmode_title">Flax</string>
-    <string name="pref_camera_flashmode_entry_auto">Automáticu</string>
-    <string name="pref_camera_flashmode_entry_on">Activáu</string>
+    <string name="pref_camera_flashmode_entry_auto">Auto</string>
+    <string name="pref_camera_flashmode_entry_on">Sí</string>
     <string name="pref_camera_flashmode_entry_off">Non</string>
     <string name="pref_camera_flashmode_label_auto">FLASH AUTOMÁTICU</string>
     <string name="pref_camera_flashmode_label_on">FLASH ACTIVÁU</string>
     <string name="pref_camera_flashmode_label_off">FLASH DESACTIVÁU</string>
     <string name="pref_camera_whitebalance_title">Balance de blancos</string>
     <string name="pref_camera_whitebalance_label">BALANCE DE BLANCOS</string>
-    <string name="pref_camera_whitebalance_entry_auto">Automáticu</string>
+    <string name="pref_camera_whitebalance_entry_auto">Auto</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Incandescente</string>
     <string name="pref_camera_whitebalance_entry_daylight">Lluz natural</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescente</string>
@@ -136,7 +132,7 @@
     <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCENTE</string>
     <string name="pref_camera_whitebalance_label_cloudy">ÑUBLE</string>
     <string name="pref_camera_scenemode_title">Mou d\'escena</string>
-    <string name="pref_camera_scenemode_entry_auto">Automáticu</string>
+    <string name="pref_camera_scenemode_entry_auto">Auto</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ ON</string>
@@ -178,7 +174,7 @@
     <string name="pano_too_fast_prompt">Mui rápidu</string>
     <string name="pano_dialog_prepare_preview">Preparando mou panorámicu</string>
     <string name="pano_dialog_panorama_failed">Fallu al guardar imaxe panorámica.</string>
-    <string name="pano_dialog_title">Panorámicu</string>
+    <string name="pano_dialog_title">Panorámica</string>
     <string name="pano_capture_indication">Capturando panorámica</string>
     <string name="pano_dialog_waiting_previous">Esperando semeya panorámica anterior</string>
     <string name="pano_review_saving_indication_str">Guardando\u2026</string>
@@ -273,7 +269,6 @@
     <string name="create_tiny_planet">Crear Planeta nanu</string>
     <string name="saving_tiny_planet">Guardar Planeta nanu …</string>
     <string name="tiny_planet_zoom">Zoom</string>
-    <string name="tiny_planet_rotate">Xirar</string>
     <string name="crop_save">Guardar</string>
     <string name="cannot_load_image">Fallu al cargar la imaxe!</string>
     <string name="switch_photo_filmstrip">Vista de tira de película</string>
@@ -294,7 +289,7 @@
         <item quantity="one">%1$d de 10 imaxes guardaes.</item>
         <item quantity="other">%1$d de 10 imaxes guardaes.</item>
     </plurals>
-    <string name="dialog_do_not_show">Nun amosar más</string>
+    <string name="dialog_do_not_show">Nun amosar de nueves</string>
     <string name="delete_best_dialog_title">¿Desaniciar too?</string>
     <string name="delete_best_dialog_content">¿Quies desaniciar les 10 semeyes feches?</string>
     <string name="delete_best_dialog_native_bt">Encaboxar</string>

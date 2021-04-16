@@ -28,7 +28,7 @@
     <string name="share_as_photo">사진으로 공유</string>
     <string name="deleted">삭제됨</string>
     <string name="undo">실행 취소</string>
-    <string name="details">세부정보</string>
+    <string name="details">세부 정보</string>
     <string name="close">닫기</string>
     <plurals name="number_of_items_selected">
         <item quantity="other">%1$d개 선택됨</item>
@@ -42,7 +42,7 @@
     <string name="show_on_map">지도에 표시</string>
     <string name="rotate_left">왼쪽으로 회전</string>
     <string name="rotate_right">오른쪽으로 회전</string>
-    <string name="edit">수정</string>
+    <string name="edit"> 수정</string>
     <string name="crop_action">자르기</string>
     <string name="trim_action">잘라내기</string>
     <string name="set_as">다음으로 설정</string>
@@ -80,7 +80,7 @@
     <string name="cannot_connect_camera">카메라에 연결할 수 없습니다.</string>
     <string name="camera_disabled">보안 정책으로 인해 카메라 사용이 중지되었습니다.</string>
     <string name="error_permissions">앱을 실행하는 데 필수적인 권한이 부여되지 않았습니다. 권한 설정을 확인해 주세요.</string>
-    <string name="dialog_dismiss">다시 묻지 않기</string>
+    <string name="dialog_dismiss">알람 해제</string>
     <string name="wait">잠시 기다려 주세요\u2026</string>
     <string name="no_storage" product="default">카메라를 사용하기 전에 SD 카드를 삽입하세요.</string>
     <string name="preparing_sd" product="default">SD 카드 준비 중\u2026</string>
@@ -97,8 +97,11 @@
         <item quantity="other">%d초</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">카운트다운 신호음 켜기</string>
-    <string name="setting_off">OFF</string>
-    <string name="setting_on">ON</string>
+    <string name="pref_camera_savepath_title">저장소</string>
+    <string name="pref_camera_savepath_entry_0">통화</string>
+    <string name="pref_camera_savepath_entry_1">SD 카드</string>
+    <string name="setting_off">끔</string>
+    <string name="setting_on">켜짐</string>
     <string name="pref_video_quality_title">동영상 화질</string>
     <string name="pref_video_time_lapse_frame_interval_title">시간 경과</string>
     <string name="pref_camera_settings_category">카메라 설정</string>
@@ -113,8 +116,8 @@
     <string name="pref_camera_focusmode_label_macro">매크로</string>
     <string name="pref_camera_flashmode_title">플래시</string>
     <string name="pref_camera_flashmode_entry_auto">자동</string>
-    <string name="pref_camera_flashmode_entry_on">ON</string>
-    <string name="pref_camera_flashmode_entry_off">OFF</string>
+    <string name="pref_camera_flashmode_entry_on">켜짐</string>
+    <string name="pref_camera_flashmode_entry_off">끔</string>
     <string name="pref_camera_flashmode_label_auto">자동 플래시</string>
     <string name="pref_camera_flashmode_label_on">플래시 사용</string>
     <string name="pref_camera_flashmode_label_off">플래시 사용 안함</string>
@@ -139,7 +142,7 @@
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR 사용</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR 사용 안함</string>
     <string name="pref_camera_scenemode_entry_action">액션</string>
-    <string name="pref_camera_scenemode_entry_night">밤</string>
+    <string name="pref_camera_scenemode_entry_night">야간</string>
     <string name="pref_camera_scenemode_entry_sunset">일몰</string>
     <string name="pref_camera_scenemode_entry_party">파티</string>
     <string name="pref_camera_scenemode_label_auto">없음</string>
@@ -211,7 +214,7 @@
     <string name="accessibility_review_retake">다시 찍기</string>
     <string name="capital_on">ON</string>
     <string name="capital_off">OFF</string>
-    <string name="pref_video_time_lapse_frame_interval_off">OFF</string>
+    <string name="pref_video_time_lapse_frame_interval_off">끔</string>
     <string name="pref_video_time_lapse_frame_interval_500">0.5초</string>
     <string name="pref_video_time_lapse_frame_interval_1000">1초</string>
     <string name="pref_video_time_lapse_frame_interval_1500">1.5초</string>

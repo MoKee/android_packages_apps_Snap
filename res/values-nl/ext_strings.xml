@@ -23,7 +23,7 @@
     <string name="pref_camera_scenemode_entry_asd">Beste opname</string>
     <string name="pref_camera_scenemode_entry_baby">Baby</string>
     <string name="pref_camera_scenemode_entry_backgroundblur">Achtergrond vervagen</string>
-    <string name="pref_camera_scenemode_entry_backlight">Tegenlicht</string>
+    <string name="pref_camera_scenemode_entry_backlight">Verlichting</string>
     <string name="pref_camera_scenemode_entry_backlightportrait">Portret (tegenlicht)</string>
     <string name="pref_camera_scenemode_entry_barcode">Streepjescode</string>
     <string name="pref_camera_scenemode_entry_beach">Strand</string>
@@ -88,5 +88,4 @@
     <string name="pref_camera_shutter_speed_title">Sluitertijd</string>
     <string name="developer_menu_enabled">U hebt de geavanceerde camera-opties ingeschakeld</string>
     <string name="developer_menu_disabled">U hebt de geavanceerde camera-opties uitgeschakeld</string>
-    <string name="pref_camera2_preferences_category_developer">Geavanceerde opties</string>
 </resources>

@@ -19,12 +19,12 @@
     <string name="quick_reader_no_activity_found">Не встановлено додатку, який може відкрити даний вміст</string>
     <string name="quick_reader_permission_error_title">Помилка доступу</string>
     <string name="quick_reader_permission_rationale_message">Для сканування штрихкоду необхідний дозвіл на використання камери</string>
-    <string name="quick_reader_permission_rationale_positive">Запитати знову</string>
+    <string name="quick_reader_permission_rationale_positive">Запитайте ще раз</string>
     <string name="quick_reader_permission_fatal_message">Немає доступу до камери. Будь ласка, надайте дозвіл в налаштуваннях додатку</string>
     <string name="quick_reader_permission_fatal_positive">Відкрити налаштування</string>
     <string name="quick_reader_scanned_text_title">Відсканований текст</string>
     <string name="quick_reader_scanned_text_positive">Копіювати</string>
-    <string name="quick_reader_scanned_text_negative">Поділитись</string>
+    <string name="quick_reader_scanned_text_negative">Поділитися</string>
     <string name="quick_reader_share_title">Поділитись через\u2026</string>
     <string name="quick_reader_copied_message">Скопійовано до буфера обміну</string>
 </resources>

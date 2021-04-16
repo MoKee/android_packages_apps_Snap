@@ -19,12 +19,10 @@
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">చిత్రాన్ని ఇలా సెట్ చెయ్యి</string>
-    <string name="delete">తొలగించు</string>
     <plurals name="delete_selection">
         <item quantity="one">ఎంపిక చేసిన అంశాన్ని తొలగించాలా?</item>
         <item quantity="other">ఎంపిక చేసిన అంశాలను తొలగించాలా?</item>
     </plurals>
-    <string name="share">భాగస్వామ్యం చేయి</string>
     <string name="share_panorama">విశాల దృశ్యాన్ని భాగస్వామ్యం చెయ్యి</string>
     <string name="share_as_photo">ఫోటోలా భాగస్వామ్యం చెయ్యి</string>
     <string name="deleted">తొలగించబడినవి</string>
@@ -90,7 +88,6 @@
     <string name="time_lapse_title">సమయం ముగింపు రికార్డింగ్</string>
     <string name="capturing">సంగ్రహించడం</string>
     <string name="pref_camera_id_title">కెమెరాను ఎంచుకోండి</string>
-    <string name="pref_camera_id_entry_back">వెనుకకు</string>
     <string name="pref_camera_id_entry_front">ముందు</string>
     <string name="pref_camera_location_label">లొకేషన్</string>
     <string name="pref_camera_timer_title">కౌంట్‌డౌన్ టైమర్</string>
@@ -99,6 +96,7 @@
         <item quantity="other">%d సెకనులు</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">కౌంట్‌డౌన్ సమయంలో బీప్</string>
+    <string name="pref_camera_savepath_entry_0">ఫోన్</string>
     <string name="setting_off">ఆఫ్‌లో ఉంది</string>
     <string name="setting_on">ఆన్</string>
     <string name="pref_video_quality_title">వీడియో నాణ్యత</string>
@@ -135,7 +133,6 @@
     <string name="pref_camera_scenemode_title">దృశ్య మోడ్</string>
     <string name="pref_camera_scenemode_entry_auto">ఆటో</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
-    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ ON</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">HDR+ OFF</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR ON</string>
@@ -157,10 +154,8 @@
     <string name="not_selectable_in_scene_mode">దృశ్య మోడులో ఎంచుకోవడం కుదరదు.</string>
     <string name="pref_exposure_title">ఎక్స్‌పోజర్</string>
     <string name="pref_exposure_label">ఎక్స్‌పోజర్</string>
-    <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">ముందు కెమెరా</string>
     <string name="pref_camera_id_label_front">వెనుక కెమెరా</string>
-    <string name="dialog_ok">సరే</string>
     <string name="spaceIsLow_content" product="default">మీ SD కార్డులో ఖాళీ అయిపోతోంది. నాణ్యతా సెట్టింగును మార్చండి లేదా కొన్ని చిత్రాలను లేదా ఇతర ఫైళ్ళను తొలిగించండి.</string>
     <string name="video_reach_size_limit">పరిమాణ పరిమతిని చేరుకున్నారు</string>
     <string name="pano_too_fast_prompt">చాలా వేగం</string>
@@ -190,7 +185,6 @@
     <string name="effect_silly_faces">చిలిపి ముఖాలు</string>
     <string name="effect_background">నేపధ్యం</string>
     <string name="accessibility_shutter_button">షట్టర్</string>
-    <string name="accessibility_menu_button">మెనూ బటన్</string>
     <string name="accessibility_mode_picker">కెమెరా, వీడియో, లేదా పనోరమా సెలెక్టర్</string>
     <string name="accessibility_check_box">%1$s చెక్ బాక్స్</string>
     <string name="accessibility_switch_to_camera">ఫోటోకు మారండి</string>
@@ -218,15 +212,11 @@
     <string name="pref_video_time_lapse_frame_interval_15000">15 సెకనులు</string>
     <string name="pref_video_time_lapse_frame_interval_24000">24 సెకనులు</string>
     <string name="pref_video_time_lapse_frame_interval_30000">0.5 నిమిషాలు</string>
-    <string name="pref_video_time_lapse_frame_interval_60000">1 నిమిషం</string>
     <string name="pref_video_time_lapse_frame_interval_90000">1.5 నిమిషాలు</string>
-    <string name="pref_video_time_lapse_frame_interval_120000">2 నిమిషాలు</string>
     <string name="pref_video_time_lapse_frame_interval_150000">2.5 నిమిషాలు</string>
     <string name="pref_video_time_lapse_frame_interval_180000">3 నిమిషాలు</string>
     <string name="pref_video_time_lapse_frame_interval_240000">4 నిమిషాలు</string>
-    <string name="pref_video_time_lapse_frame_interval_300000">5 నిమిషాలు</string>
     <string name="pref_video_time_lapse_frame_interval_360000">6 నిమిషాలు</string>
-    <string name="pref_video_time_lapse_frame_interval_600000">10 నిమిషాలు</string>
     <string name="pref_video_time_lapse_frame_interval_720000">12 నిమిషాలు</string>
     <string name="pref_video_time_lapse_frame_interval_900000">15 నిమిషాలు</string>
     <string name="pref_video_time_lapse_frame_interval_1440000">24 నిమిషాలు</string>
@@ -254,17 +244,16 @@
     <string name="remember_location_title">ఫోటోస్థానాన్ని గుర్తుంచుకోండి</string>
     <string name="remember_location_prompt">మీ ఫోటోలను, వీడియోలను వాటిని తీసిన స్థానాలతో ట్యాగ్ చేయండి.\n\nమీ భద్రపర్చబడిన చిత్రాలతోపాటు ఈ సమాచారాన్ని ఇతర అప్లికేషన్స్ ప్రాప్తి చేయగలవు.</string>
     <string name="remember_location_no">వద్దు, ధన్యవాదాలు</string>
-    <string name="remember_location_yes">హాజరు అవుతాము అన్నవి</string>
     <string name="camera_menu_more_label">మరిన్ని ఐచ్చికాలు</string>
     <string name="camera_menu_settings_label">సెట్టింగ్‌లు</string>
     <string name="create_tiny_planet">చిన్న గ్రహాన్ని సృష్టించుము</string>
     <string name="saving_tiny_planet">చిన్న గ్రహం సేవ్ చేయబడుతుంది ...</string>
     <string name="tiny_planet_zoom">జూమ్</string>
-    <string name="tiny_planet_rotate">తిప్పుము</string>
+    <string name="tiny_planet_rotate">తిప్పు</string>
     <string name="crop_save">సేవ్ చేయి</string>
     <string name="cannot_load_image">చిత్రాన్ని లోడ్ చేయడం సాధ్యపడలేదు!</string>
     <string name="switch_photo_filmstrip">ఫిల్మ్‌స్ట్రిప్ వీక్షణం</string>
     <string name="setting_wallpaper">వాల్‌పేపర్ సెట్ చేయబడుతుంది</string>
-    <string name="save_best_dialog_positive_bt">సరే</string>
-    <string name="delete_best_dialog_positive_bt">తొలగించు</string>
+    <string name="delete_all_best_dialog_positive_bt">అన్నీ తొలగించు</string>
+    <string name="overflow_best_item2">అన్నీ తొలగించు</string>
 </resources>

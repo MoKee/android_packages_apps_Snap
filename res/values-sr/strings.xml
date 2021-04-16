@@ -19,7 +19,7 @@
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Постави слику као</string>
-    <string name="delete">Обриши</string>
+    <string name="delete">Избриши</string>
     <plurals name="delete_selection">
         <item quantity="one">Избрисати изабрану ставку?</item>
         <item quantity="few">Избрисати изабрану ставку?</item>
@@ -80,7 +80,7 @@
     <string name="auto">Аутоматски</string>
     <string name="flash_on">Са блицем</string>
     <string name="flash_off">Без блица</string>
-    <string name="unknown">Непознато</string>
+    <string name="unknown">Непознат</string>
     <string name="try_to_set_local_album_available_offline">Ова ставка је локално сачувана и доступна ван мреже.</string>
     <string name="please_wait">Молим сачекајте</string>
     <string name="rendering_photo_sphere">Генерисање фото сфере</string>
@@ -96,7 +96,7 @@
     <string name="time_lapse_title">Снимањe у дужем интервалу</string>
     <string name="capturing">Снимање</string>
     <string name="pref_camera_id_title">Избор камере</string>
-    <string name="pref_camera_id_entry_back">Задња</string>
+    <string name="pref_camera_id_entry_back">Назад</string>
     <string name="pref_camera_id_entry_front">Предња</string>
     <string name="pref_camera_recordlocation_title">Локација</string>
     <string name="pref_camera_location_label">ЛОКАЦИЈА</string>
@@ -107,6 +107,9 @@
         <item quantity="other">%d секунди</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Звучно одбројавање</string>
+    <string name="pref_camera_savepath_title">Складиште</string>
+    <string name="pref_camera_savepath_entry_0">Телефон</string>
+    <string name="pref_camera_savepath_entry_1">SD картица</string>
     <string name="setting_off">Искључено</string>
     <string name="setting_on">Укључено</string>
     <string name="pref_video_quality_title">Квалитет видео снимка</string>
@@ -177,7 +180,7 @@
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">ПРЕДЊА КАМЕРА</string>
     <string name="pref_camera_id_label_front">ЗАДЊА КАМЕРА</string>
-    <string name="dialog_ok">У реду</string>
+    <string name="dialog_ok">ОК</string>
     <string name="spaceIsLow_content" product="default">На SD картици понестаје простора. Промените подешавање квалитета или уклоните непотребне фајлове.</string>
     <string name="video_reach_size_limit">Достигнуто је ограничење величине.</string>
     <string name="pano_too_fast_prompt">Пребрзо</string>
@@ -190,7 +193,7 @@
     <string name="pano_review_rendering">Генерисање панораме</string>
     <string name="tap_to_focus">Додирните за фокусирање.</string>
     <string name="pref_video_effect_title">Ефекти</string>
-    <string name="effect_none">Ниједан</string>
+    <string name="effect_none">Ниједно</string>
     <string name="effect_goofy_face_squeeze">Уско лице</string>
     <string name="effect_goofy_face_big_eyes">Велике очи</string>
     <string name="effect_goofy_face_big_mouth">Велика уста</string>
@@ -278,26 +281,30 @@
     <string name="create_tiny_planet">Направи малу планету</string>
     <string name="saving_tiny_planet">Чување мале планете…</string>
     <string name="tiny_planet_zoom">Зумирај</string>
-    <string name="tiny_planet_rotate">Ротација</string>
+    <string name="tiny_planet_rotate">Ротирај</string>
     <string name="crop_save">Сачувај</string>
     <string name="cannot_load_image">Не могу да учитам слику!</string>
     <string name="switch_photo_filmstrip">Приказ филмске траке</string>
     <string name="setting_wallpaper">Подешавање тапета</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">Преостало: %d</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Функција „Шминка“ ради само при снимању видеа у формату VGA.</string>
     <string name="pref_camera2_category_system">Систем</string>
     <string name="pref_camera2_restore_default">Врати на подразумевано</string>
-    <string name="pref_camera2_restore_default_hint">Поставке камере ће бити враћене на подразумеване поставке</string>
+    <string name="pref_camera2_restore_default_hint">Подешавања камере биће враћена на подразумеване вредности</string>
     <plurals name="save_best_dialog_content">
-        <item quantity="one">%1$d од 10 слика ће бити сачувана, а остале ће бити избрисане</item>
+        <item quantity="one">%1$d од 10 слика ће бити сачуване, а остале ће бити избрисане</item>
         <item quantity="few">%1$d од 10 слика ће бити сачуване, а остале ће бити избрисане</item>
         <item quantity="other">%1$d од 10 слика ће бити сачуване, а остале ће бити избрисане</item>
     </plurals>
     <string name="save_best_dialog_title">Сачувај одабране слике?</string>
-    <string name="save_best_dialog_positive_bt">У реду</string>
+    <string name="save_best_dialog_positive_bt">ОК</string>
     <string name="save_best_dialog_native_bt">Откажи</string>
     <plurals name="save_best_image_toast">
-        <item quantity="one">%1$d од 10 слика сачувана.</item>
+        <item quantity="one">%1$d од 10 слика сачувано.</item>
         <item quantity="few">%1$d од 10 слика сачувано.</item>
         <item quantity="other">%1$d од 10 слика сачувано.</item>
     </plurals>
@@ -305,12 +312,12 @@
     <string name="delete_best_dialog_title">Обриши све?</string>
     <string name="delete_best_dialog_content">Да ли сте сигурни да желите обришете свих 10 усликаних фотографија?</string>
     <string name="delete_best_dialog_native_bt">Откажи</string>
-    <string name="delete_best_dialog_positive_bt">Обриши</string>
+    <string name="delete_best_dialog_positive_bt">Избриши</string>
     <string name="delete_all_best_dialog_title">Обриши све?</string>
     <string name="delete_all_best_dialog_content">Да ли сте сигурни да желите да избришете све слике?</string>
     <string name="delete_all_best_dialog_native_bt">Откажи</string>
     <string name="delete_all_best_dialog_positive_bt">Избриши све</string>
     <string name="overflow_best_item1">Сачувај све</string>
     <string name="overflow_best_item2">Избриши све</string>
-    <string name="settings_title">Поставке</string>
+    <string name="settings_title">Подешавања</string>
 </resources>

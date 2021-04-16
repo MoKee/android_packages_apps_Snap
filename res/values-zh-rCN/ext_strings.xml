@@ -23,7 +23,7 @@
     <string name="pref_camera_scenemode_entry_asd">最佳照片</string>
     <string name="pref_camera_scenemode_entry_baby">婴儿</string>
     <string name="pref_camera_scenemode_entry_backgroundblur">背景虚化</string>
-    <string name="pref_camera_scenemode_entry_backlight">逆光</string>
+    <string name="pref_camera_scenemode_entry_backlight">背光</string>
     <string name="pref_camera_scenemode_entry_backlightportrait">逆光人像</string>
     <string name="pref_camera_scenemode_entry_barcode">条形码</string>
     <string name="pref_camera_scenemode_entry_beach">海滩</string>
@@ -31,7 +31,7 @@
     <string name="pref_camera_scenemode_entry_candlelight">烛光</string>
     <string name="pref_camera_scenemode_entry_cine">影院</string>
     <string name="pref_camera_scenemode_entry_closeup">微距</string>
-    <string name="pref_camera_scenemode_entry_dark">暗</string>
+    <string name="pref_camera_scenemode_entry_dark">黑暗</string>
     <string name="pref_camera_scenemode_entry_dish">美食</string>
     <string name="pref_camera_scenemode_entry_duskdawn">夕阳</string>
     <string name="pref_camera_scenemode_entry_document">文档</string>
@@ -65,7 +65,7 @@
     <string name="pref_camera_focusmode_entry_facedetect">人脸识别</string>
     <string name="pref_camera_focusmode_entry_facepriority">人脸优先</string>
     <string name="pref_camera_focusmode_entry_fixed">固定</string>
-    <string name="pref_camera_focusmode_entry_normal">一般</string>
+    <string name="pref_camera_focusmode_entry_normal">正常</string>
     <string name="pref_camera_focusmode_entry_portrait">肖像</string>
     <string name="pref_camera_focusmode_entry_hyperfocal">超焦距</string>
     <string name="pref_camera_coloreffect_entry_washed">冲蚀</string>

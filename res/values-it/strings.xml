@@ -73,10 +73,10 @@
     <string name="iso">ISO</string>
     <string name="unit_mm">mm</string>
     <string name="manual">Manuale</string>
-    <string name="auto">Automatica</string>
+    <string name="auto">Automatico</string>
     <string name="flash_on">Flash scattato</string>
     <string name="flash_off">Senza flash</string>
-    <string name="unknown">Sconosciuta</string>
+    <string name="unknown">Sconosciuto</string>
     <string name="try_to_set_local_album_available_offline">Questo elemento è memorizzato localmente e disponibile offline.</string>
     <string name="please_wait">Attendi</string>
     <string name="rendering_photo_sphere">Visualizzazione foto sferica</string>
@@ -84,7 +84,7 @@
     <string name="cannot_connect_camera">Impossibile collegarsi alla fotocamera.</string>
     <string name="camera_disabled">La fotocamera è stata disattivata in base a norme di sicurezza.</string>
     <string name="error_permissions">L\'app non dispone dei permessi necessari per avviarsi. Controlla le impostazioni relative ai permessi.</string>
-    <string name="dialog_dismiss">Annulla</string>
+    <string name="dialog_dismiss">Spegni</string>
     <string name="wait">Attendi...</string>
     <string name="no_storage" product="default">Per usare la fotocamera devi inserire una scheda SD.</string>
     <string name="preparing_sd" product="default">Preparazione scheda SD...</string>
@@ -92,8 +92,8 @@
     <string name="time_lapse_title">Registrazione al rallentatore</string>
     <string name="capturing">Acquisizione...</string>
     <string name="pref_camera_id_title">Scegli fotocamera</string>
-    <string name="pref_camera_id_entry_back">Posteriore</string>
-    <string name="pref_camera_id_entry_front">Anteriore</string>
+    <string name="pref_camera_id_entry_back">Indietro</string>
+    <string name="pref_camera_id_entry_front">Davanti</string>
     <string name="pref_camera_recordlocation_title">Posizione GPS</string>
     <string name="pref_camera_location_label">LOCALITÀ</string>
     <string name="pref_camera_timer_title">Timer conto alla rovescia</string>
@@ -102,7 +102,10 @@
         <item quantity="other">%d secondi</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Bip conto alla rov.</string>
-    <string name="setting_off">OFF</string>
+    <string name="pref_camera_savepath_title">Archivio</string>
+    <string name="pref_camera_savepath_entry_0">Telefono</string>
+    <string name="pref_camera_savepath_entry_1">Scheda SD</string>
+    <string name="setting_off">Disattivato</string>
     <string name="setting_on">ON</string>
     <string name="pref_video_quality_title">Qualità video</string>
     <string name="pref_video_time_lapse_frame_interval_title">Time-lapse</string>
@@ -110,16 +113,16 @@
     <string name="pref_camcorder_settings_category">Impostazioni videocamera</string>
     <string name="pref_camera_picturesize_title">Dimensioni immagine</string>
     <string name="pref_camera_focusmode_title">Modalità messa a fuoco</string>
-    <string name="pref_camera_focusmode_entry_auto">Automatica</string>
+    <string name="pref_camera_focusmode_entry_auto">Automatico</string>
     <string name="pref_camera_focusmode_entry_infinity">Infinito</string>
     <string name="pref_camera_focusmode_entry_macro">Macro</string>
     <string name="pref_camera_focusmode_label_auto">AUTO</string>
     <string name="pref_camera_focusmode_label_infinity">INFINITO</string>
     <string name="pref_camera_focusmode_label_macro">MACRO</string>
     <string name="pref_camera_flashmode_title">Flash</string>
-    <string name="pref_camera_flashmode_entry_auto">Automatica</string>
+    <string name="pref_camera_flashmode_entry_auto">Automatico</string>
     <string name="pref_camera_flashmode_entry_on">ON</string>
-    <string name="pref_camera_flashmode_entry_off">OFF</string>
+    <string name="pref_camera_flashmode_entry_off">Disattivato</string>
     <string name="pref_camera_flashmode_label_auto">FLASH AUTOMATICO</string>
     <string name="pref_camera_flashmode_label_on">FLASH ATTIVO</string>
     <string name="pref_camera_flashmode_label_off">FLASH DISATTIVATO</string>
@@ -136,7 +139,7 @@
     <string name="pref_camera_whitebalance_label_fluorescent">LUCE NEON</string>
     <string name="pref_camera_whitebalance_label_cloudy">NUVOLOSO</string>
     <string name="pref_camera_scenemode_title">Modalità scena</string>
-    <string name="pref_camera_scenemode_entry_auto">Automatica</string>
+    <string name="pref_camera_scenemode_entry_auto">Automatico</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ ATTIVO</string>
@@ -203,7 +206,7 @@
     <string name="effect_background">SFONDO</string>
     <string name="accessibility_shutter_button">Otturatore</string>
     <string name="accessibility_exit_best_mode_button">Esci dalla modalità foto migliori</string>
-    <string name="accessibility_menu_button">Pulsante Menu</string>
+    <string name="accessibility_menu_button">Tasto Menu</string>
     <string name="accessibility_mode_picker">Selettore fotocamera, video o panorama</string>
     <string name="accessibility_check_box">Casella di controllo %1$s</string>
     <string name="accessibility_switch_to_camera">Passa a foto</string>
@@ -216,7 +219,7 @@
     <string name="accessibility_review_retake">Scatta/Riprendi di nuovo per recensione</string>
     <string name="capital_on">ON</string>
     <string name="capital_off">OFF</string>
-    <string name="pref_video_time_lapse_frame_interval_off">OFF</string>
+    <string name="pref_video_time_lapse_frame_interval_off">Disattivato</string>
     <string name="pref_video_time_lapse_frame_interval_500">0,5 secondi</string>
     <string name="pref_video_time_lapse_frame_interval_1000">1 secondo</string>
     <string name="pref_video_time_lapse_frame_interval_1500">1,5 secondi</string>
@@ -267,7 +270,7 @@
     <string name="remember_location_title">Memorizzare i luoghi delle foto?</string>
     <string name="remember_location_prompt">Aggiungi alle foto e ai video tag relativi alle località in cui sono stati ripresi.\n\nAltre applicazioni possono accedere a queste informazioni e alle tue immagini salvate.</string>
     <string name="remember_location_no">No, grazie</string>
-    <string name="remember_location_yes">Sì</string>
+    <string name="remember_location_yes">Si</string>
     <string name="camera_menu_more_label">ALTRE OPZIONI</string>
     <string name="camera_menu_settings_label">IMPOSTAZIONI</string>
     <string name="create_tiny_planet">Crea pianetino</string>

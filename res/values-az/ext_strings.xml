@@ -23,7 +23,6 @@
     <string name="pref_camera_scenemode_entry_asd">Ən yaxşı poza</string>
     <string name="pref_camera_scenemode_entry_baby">Körpə</string>
     <string name="pref_camera_scenemode_entry_backgroundblur">Arxaplan bulanıqlığı</string>
-    <string name="pref_camera_scenemode_entry_backlight">Arxa işıq</string>
     <string name="pref_camera_scenemode_entry_backlightportrait">Arxa işıqlı portret</string>
     <string name="pref_camera_scenemode_entry_barcode">Barkod</string>
     <string name="pref_camera_scenemode_entry_beach">Çimərlik</string>
@@ -31,7 +30,6 @@
     <string name="pref_camera_scenemode_entry_candlelight">Şam işığı</string>
     <string name="pref_camera_scenemode_entry_cine">Film</string>
     <string name="pref_camera_scenemode_entry_closeup">Yaxın plan</string>
-    <string name="pref_camera_scenemode_entry_dark">Qaranlıq</string>
     <string name="pref_camera_scenemode_entry_dish">Yemək</string>
     <string name="pref_camera_scenemode_entry_duskdawn">Şəfəq vaxtı</string>
     <string name="pref_camera_scenemode_entry_document">Sənəd</string>
@@ -56,7 +54,6 @@
     <string name="pref_camera_scenemode_entry_steadyphoto">Sabit foto</string>
     <string name="pref_camera_scenemode_entry_supernight">Qaranlıq gecə</string>
     <string name="pref_camera_scenemode_entry_sweepstitch">Darayaraq birləştir</string>
-    <string name="pref_camera_scenemode_entry_text">Mətn</string>
     <string name="pref_camera_scenemode_entry_theatre">Teatr</string>
     <string name="pref_camera_scenemode_entry_whiteboard">Ağ lövhə</string>
     <string name="pref_camera_focusmode_entry_continuous">Fasiləsiz</string>

@@ -65,7 +65,7 @@
     <string name="pref_camera_focusmode_entry_facedetect">Detekcija lica</string>
     <string name="pref_camera_focusmode_entry_facepriority">Prioritet lica</string>
     <string name="pref_camera_focusmode_entry_fixed">Fiksni</string>
-    <string name="pref_camera_focusmode_entry_normal">Normalan</string>
+    <string name="pref_camera_focusmode_entry_normal">Normalno</string>
     <string name="pref_camera_focusmode_entry_portrait">Portret</string>
     <string name="pref_camera_focusmode_entry_hyperfocal">Hiperfokus</string>
     <string name="pref_camera_coloreffect_entry_washed">Isprano</string>
@@ -88,4 +88,5 @@
     <string name="pref_camera_shutter_speed_title">Brzina okidača</string>
     <string name="developer_menu_enabled">Omogućili ste napredne opcije kamere</string>
     <string name="developer_menu_disabled">Onemogućili ste napredne opcije kamere</string>
+    <string name="pref_camera2_preferences_category_developer">Napredne opcije</string>
 </resources>

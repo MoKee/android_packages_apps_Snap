@@ -40,7 +40,7 @@
     <string name="pref_camera_selectablezoneaf_entry_centerweighted">Đo sáng trọng tâm</string>
     <string name="pref_camera_selectablezoneaf_entry_frameaverage">Khung hình trung bình</string>
     <string name="pref_camera_advanced_features_title">Tính năng nâng cao</string>
-    <string name="pref_camera_advanced_feature_entry_none">Không có</string>
+    <string name="pref_camera_advanced_feature_entry_none">Không</string>
     <string name="pref_camera_advanced_feature_entry_multi_touch_focus">Lấy nét đa chạm</string>
     <string name="pref_camera_manual_exp_title">Phơi sáng thủ công</string>
     <string name="pref_camera_manual_exp_entry_ISO_priority">Ưu tiên ISO</string>
@@ -68,10 +68,10 @@
     <string name="pref_camera_video_hdr_entry_on">Bật</string>
     <string name="pref_camera_cds_entry_off">Tắt</string>
     <string name="pref_camera_cds_entry_on">Bật</string>
-    <string name="pref_camera_cds_entry_auto">Tự động</string>
+    <string name="pref_camera_cds_entry_auto">Tự động</string>
     <string name="pref_camera_video_cds_entry_off">Tắt</string>
     <string name="pref_camera_video_cds_entry_on">Bật</string>
-    <string name="pref_camera_video_cds_entry_auto">Tự động</string>
+    <string name="pref_camera_video_cds_entry_auto">Tự động</string>
     <string name="pref_camera_tnr_entry_disable">Tắt</string>
     <string name="pref_camera_tnr_entry_enable">Bật</string>
     <string name="pref_camera_video_tnr_entry_disable">Tắt</string>
@@ -107,6 +107,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Chụp liên tục với độ phơi sáng tự động</string>
     <string name="pref_camera_ae_bracket_hdr_title">Chụp liên tục với độ phơi sáng tự động</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Bật</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Tắt</string>
     <string name="err_app_unsupport_ae_bracket_code">AE bracketing chưa được hỗ trợ</string>
     <string name="snapshot_lower_than_video">Kích thước ảnh chụp nhanh video thấp hơn kích thước video xuất ra. Vui lòng chọn độ phân giải cao hơn hoặc bằng kích thước video hiện tại.</string>
     <string name="snapshotsize_low_powermode">Thay đổi kích thước ảnh không được hỗ trợ trong chế độ nguồn điện thấp, kích thước video sẽ được chụp nhanh lại. Vui lòng chọn chế độ nguồn điện bình thường để cho phép thay đổi kích thước ảnh.</string>
@@ -133,7 +134,7 @@
     <string name="pref_camera_denoise_entry_off">Tắt</string>
     <string name="pref_camera_denoise_entry_on">Bật</string>
     <string name="pref_camera_iso_title">ISO</string>
-    <string name="pref_camera_iso_entry_auto">Tự động</string>
+    <string name="pref_camera_iso_entry_auto">Tự động</string>
     <string name="pref_camera_iso_entry_isodeblur">Tự động (HJR)</string>
     <string name="pref_camera_iso_entry_iso50">ISO50</string>
     <string name="pref_camera_iso_entry_iso100">ISO100</string>
@@ -163,14 +164,14 @@
     <string name="pref_camera_iso_entry_iso6400">ISO6400</string>
     <string name="pref_camera_iso_entry_iso12800">ISO12800</string>
     <string name="pref_camera_antibanding_title">Chống rung</string>
-    <string name="pref_camera_antibanding_entry_0">Tự động</string>
+    <string name="pref_camera_antibanding_entry_0">Tự động</string>
     <string name="pref_camera_antibanding_entry_1">50 Hz (Châu Âu)</string>
     <string name="pref_camera_antibanding_entry_2">60 Hz (Hoa Kỳ)</string>
     <string name="pref_camera_filter_mode_entry_on">Bật</string>
     <string name="pref_camera_filter_mode_entry_off">Tắt</string>
     <string name="pref_camera_coloreffect_title">Hiệu ứng màu sắc</string>
     <string name="pref_camera_filter_mode_title">Hiệu ứng màu sắc</string>
-    <string name="pref_camera_coloreffect_entry_none">Không có</string>
+    <string name="pref_camera_coloreffect_entry_none">Không</string>
     <string name="pref_camera_coloreffect_entry_mono">Đơn sắc</string>
     <string name="pref_camera_coloreffect_entry_sepia">Nâu đỏ</string>
     <string name="pref_camera_coloreffect_entry_negative">Âm bản</string>
@@ -222,7 +223,7 @@
     <string name="pref_camera_saturation_entry_level10">Mức 10</string>
     <string name="pref_camera_sharpness_title">Độ sắc nét</string>
     <string name="pref_camera_contrast_title">Độ tương phản</string>
-    <string name="pref_camera_saturation_title">Độ bão hòa</string>
+    <string name="pref_camera_saturation_title">Độ bão hoà</string>
     <string name="pref_camera_picture_format_title">Định dạng ảnh</string>
     <string name="pref_camera_jpegquality_title">Chất lượng ảnh</string>
     <string name="pref_camera_jpegquality_entry_0">Thấp</string>
@@ -253,7 +254,7 @@
     <string name="map_activity_not_found_err">Không có ứng dụng bản đồ được cài đặt để hiện vị trí</string>
     <string name="longshot_enable_message">Các tính năng nâng cao không được hỗ trợ trong chế độ chụp liên tục</string>
     <string name="advance_feature_enable_msg">Chụp liên tục không được hỗ trợ khi các tính năng nâng cao được kích hoạt</string>
-    <string name="camera_gesture_title">Khởi động máy ảnh</string>
+    <string name="camera_gesture_title">Mở camera</string>
     <string name="pref_camera_tsmakeup_title">Làm đẹp</string>
     <string name="pref_camera_tsmakeup_entry_on">Bật</string>
     <string name="pref_camera_tsmakeup_entry_off">Tắt</string>
@@ -351,7 +352,7 @@
     <string name="pref_camera2_instant_aec_entry_disable">Tắt</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">AEC tích cực</string>
     <string name="pref_camera2_instant_aec_entry_fast">AEC nhanh</string>
-    <string name="pref_camera2_saturation_level_title">Độ bão hòa</string>
+    <string name="pref_camera2_saturation_level_title">Độ bão hoà</string>
     <string name="pref_camera2_saturation_level_entry_0">Mức 0</string>
     <string name="pref_camera2_saturation_level_entry_1">Mức 1</string>
     <string name="pref_camera2_saturation_level_entry_2">Mức 2</string>
@@ -414,6 +415,7 @@
     <string name="pref_camera2_initial_camera_entry_mono">Đơn sắc</string>
     <string name="pref_camera2_initial_camera_entry_front">Trước</string>
     <string name="pref_camera2_eis_title">Video EIS</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 và thiết lập khi tạm dừng</string>
     <string name="pref_camera2_eis_entry_disable">Đã tắt</string>
     <string name="pref_camera2_fovc_title">Video FOVC</string>
     <string name="pref_camera2_fovc_entry_enable">Đã bật</string>
@@ -428,11 +430,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Thống kê BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Thống kê BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Thống kê lịch sử</string>
+    <string name="stats_visualizer_bg_label">Biểu đồ BG</string>
+    <string name="stats_visualizer_be_label">Biểu đồ BE</string>
     <string name="pref_camera2_capture_mfnr_title">Giảm nhiễu đa khung</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Đã bật</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Đã tắt</string>
+    <string name="pref_camera2_fs2_title">Chụp nhanh</string>
     <string name="pref_camera2_fs2_entry_enable">Đã bật</string>
     <string name="pref_camera2_fs2_entry_disable">Đã tắt</string>
+    <string name="pref_camera2_abort_captures_title">Hủy chụp ảnh</string>
     <string name="pref_camera2_abort_captures_entry_enable">Đã bật</string>
     <string name="pref_camera2_abort_captures_entry_disable">Đã tắt</string>
     <string name="pref_camera_tone_mapping_entry_user_setting">Cài đặt của người dùng</string>

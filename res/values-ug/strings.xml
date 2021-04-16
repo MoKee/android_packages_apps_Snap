@@ -28,9 +28,9 @@
     <string name="details">تەپسىلاتى</string>
     <string name="close">تاقاش</string>
     <string name="show_on_map">خەرىتىدە كۆرسەت</string>
-    <string name="rotate_left">سولغا ئايلاندۇرۇش</string>
-    <string name="rotate_right">ئوڭغا ئايلاندۇرۇش</string>
-    <string name="edit">تەھرىر</string>
+    <string name="rotate_left">سولغا ئايلاندۇر</string>
+    <string name="rotate_right">ئوڭغا ئايلاندۇر</string>
+    <string name="edit">تەھرىرلەش</string>
     <string name="crop_action">كېسش</string>
     <string name="trim_action">كېسەش</string>
     <string name="set_as">تەڭشىكى</string>
@@ -74,11 +74,12 @@
     <string name="time_lapse_title">ۋاقىت بەلگىلەپ خاتىرىلەش</string>
     <string name="capturing">ئېكران تۇتۇۋاتىدۇ</string>
     <string name="pref_camera_id_title">كامېرا تاللاڭ</string>
-    <string name="pref_camera_id_entry_back">قايتىش</string>
+    <string name="pref_camera_id_entry_back">قايت</string>
     <string name="pref_camera_id_entry_front">ئالدى</string>
     <string name="pref_camera_location_label">ئورنى</string>
     <string name="pref_camera_timer_title">تەتۈر سانىغۇچ ۋاقىت خاتىرىلىگۈچ</string>
     <string name="pref_camera_timer_sound_title">تەتۈر ساناۋاتقاندا ئەسكەرتىش ئاۋازى چىقار</string>
+    <string name="pref_camera_savepath_entry_0">تېلېفون</string>
     <string name="setting_off">تاقاق</string>
     <string name="setting_on">ئوچۇق</string>
     <string name="pref_video_quality_title">سىن سۈپىتى</string>
@@ -115,7 +116,6 @@
     <string name="pref_camera_scenemode_title">مەنزىرە ھالىتى</string>
     <string name="pref_camera_scenemode_entry_auto">ئاپتوماتىك</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
-    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ نى ئېچىڭ</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">HDR+ نى تاقاڭ</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR نى ئېچىڭ</string>
@@ -137,10 +137,8 @@
     <string name="not_selectable_in_scene_mode">تەڭشەكنى مەنزىرە ھالىتىدە تاللىغىلى بولمايدۇ.</string>
     <string name="pref_exposure_title">نۇر ئۆتۈش</string>
     <string name="pref_exposure_label">نۇر ئۆتۈش</string>
-    <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">ئالدى كامېرا</string>
     <string name="pref_camera_id_label_front">كەينى كامېرا</string>
-    <string name="dialog_ok">جەزملەش</string>
     <string name="spaceIsLow_content" product="default">SD كارتا بوشلۇقىڭىز توشاي دېدى. سۈپەت تەڭشەكنى ئۆزگەرتىڭ ياكى بەزى سۈرەتلەرنى ياكى باشقا ھۆججەتلەرنى ئۆچۈرۈڭ.</string>
     <string name="video_reach_size_limit">چوڭلۇق چېكىگە يەتتى.</string>
     <string name="pano_too_fast_prompt">بەك تېز</string>
@@ -240,11 +238,13 @@
     <string name="create_tiny_planet">كىچىك شار رەسىمى قۇر</string>
     <string name="saving_tiny_planet">كىچىك شار رەسىمىنى ساقلاۋاتىدۇ…</string>
     <string name="tiny_planet_zoom">يىراق-يېقىن</string>
-    <string name="tiny_planet_rotate">ئايلاندۇرۇش</string>
-    <string name="crop_save">ساقلاش</string>
+    <string name="tiny_planet_rotate">ئايلاندۇر</string>
+    <string name="crop_save">ساقلا</string>
     <string name="cannot_load_image">بۇ سۈرەتنى يۈكلىيەلمەيدۇ!</string>
     <string name="switch_photo_filmstrip">تام تەسۋىر كۆرۈنۈش</string>
     <string name="setting_wallpaper">تام قەغەزنى تەڭشەۋاتىدۇ</string>
-    <string name="save_best_dialog_positive_bt">جەزملەش</string>
     <string name="delete_best_dialog_positive_bt">ئۆچۈر</string>
+    <string name="delete_all_best_dialog_positive_bt">ھەممىنى ئۆچۈر</string>
+    <string name="overflow_best_item2">ھەممىنى ئۆچۈر</string>
+    <string name="settings_title">تەڭشەش</string>
 </resources>

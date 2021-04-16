@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Camera</string>
-    <string name="video_camera_label">Videocamera</string>
+    <string name="video_camera_label">Camcorder</string>
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Foto instellen als</string>
@@ -43,7 +43,7 @@
         <item quantity="one">%1$d geselecteerd</item>
         <item quantity="other">%1$d geselecteerd</item>
     </plurals>
-    <string name="show_on_map">Op kaart weergeven</string>
+    <string name="show_on_map">Op kaart tonen</string>
     <string name="rotate_left">Linksom draaien</string>
     <string name="rotate_right">Rechtsom draaien</string>
     <string name="edit">Bewerken</string>
@@ -84,7 +84,7 @@
     <string name="cannot_connect_camera">Kan geen verbinding maken met de camera.</string>
     <string name="camera_disabled">De camera is uitgeschakeld vanwege het beveiligingsbeleid.</string>
     <string name="error_permissions">De app heeft niet de essentiële machtigingen die nodig zijn om te starten. Controleer de machtigingsinstellingen.</string>
-    <string name="dialog_dismiss">Sluiten</string>
+    <string name="dialog_dismiss">Uitschakelen</string>
     <string name="wait">Even geduld\u2026</string>
     <string name="no_storage" product="default">Plaats een SD-kaart voordat u de camera gebruikt.</string>
     <string name="preparing_sd" product="default">SD-kaart voorbereiden\u2026</string>
@@ -92,7 +92,7 @@
     <string name="time_lapse_title">Time-lapse-opname</string>
     <string name="capturing">Vastleggen</string>
     <string name="pref_camera_id_title">Camera selecteren</string>
-    <string name="pref_camera_id_entry_back">Achterzijde</string>
+    <string name="pref_camera_id_entry_back">Terug</string>
     <string name="pref_camera_id_entry_front">Voorzijde</string>
     <string name="pref_camera_recordlocation_title">GPS-locatie</string>
     <string name="pref_camera_location_label">LOCATIE</string>
@@ -102,6 +102,9 @@
         <item quantity="other">%d seconden</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Pieptoon bij aftellen</string>
+    <string name="pref_camera_savepath_title">Opslag</string>
+    <string name="pref_camera_savepath_entry_0">Telefoon</string>
+    <string name="pref_camera_savepath_entry_1">SD-kaart</string>
     <string name="setting_off">Uit</string>
     <string name="setting_on">Aan</string>
     <string name="pref_video_quality_title">Videokwaliteit</string>
@@ -172,7 +175,7 @@
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">CAMERA AAN VOORZIJDE</string>
     <string name="pref_camera_id_label_front">CAMERA AAN ACHTERZIJDE</string>
-    <string name="dialog_ok">OK</string>
+    <string name="dialog_ok">Oké</string>
     <string name="spaceIsLow_content" product="default">Uw SD-kaart is bijna vol. Verminder de opnamekwaliteit of verwijder bestanden.</string>
     <string name="video_reach_size_limit">Maximale grootte bereikt.</string>
     <string name="pano_too_fast_prompt">Te snel</string>
@@ -202,7 +205,6 @@
     <string name="effect_silly_faces">GEKKE GEZICHTEN</string>
     <string name="effect_background">ACHTERGROND</string>
     <string name="accessibility_shutter_button">Sluiter</string>
-    <string name="accessibility_exit_best_mode_button">Beste-foto-modus afsluiten</string>
     <string name="accessibility_menu_button">Menuknop</string>
     <string name="accessibility_mode_picker">Camera-, video- of panoramakiezer</string>
     <string name="accessibility_check_box">%1$s selectievakje</string>
@@ -286,7 +288,7 @@
         <item quantity="one">%1$d van de 10 afbeeldingen wordt opgeslagen, de rest wordt verwijderd</item>
         <item quantity="other">%1$d van de 10 afbeeldingen worden opgeslagen, de rest wordt verwijderd</item>
     </plurals>
-    <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="save_best_dialog_positive_bt">Oké</string>
     <string name="save_best_dialog_native_bt">Annuleren</string>
     <plurals name="save_best_image_toast">
         <item quantity="one">%1$d van de 10 afbeeldingen opgeslagen.</item>

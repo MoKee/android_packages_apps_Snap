@@ -19,7 +19,7 @@
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Definir imagem como:</string>
-    <string name="delete">Apagar</string>
+    <string name="delete">Eliminar</string>
     <plurals name="delete_selection">
         <item quantity="one">Apagar o item selecionado?</item>
         <item quantity="other">Apagar os itens selecionados?</item>
@@ -76,7 +76,7 @@
     <string name="auto">Automático</string>
     <string name="flash_on">Flash disparado</string>
     <string name="flash_off">Sem flash</string>
-    <string name="unknown">Desconhecida</string>
+    <string name="unknown">Desconhecido</string>
     <string name="try_to_set_local_album_available_offline">Este item está armazenado localmente e está disponível offline.</string>
     <string name="please_wait">Aguarde</string>
     <string name="rendering_photo_sphere">A processar Photo Sphere</string>
@@ -92,7 +92,7 @@
     <string name="time_lapse_title">Gravação em intervalo de tempo</string>
     <string name="capturing">A capturar</string>
     <string name="pref_camera_id_title">Escolher câmara</string>
-    <string name="pref_camera_id_entry_back">Posterior</string>
+    <string name="pref_camera_id_entry_back">Voltar</string>
     <string name="pref_camera_id_entry_front">Frontal</string>
     <string name="pref_camera_recordlocation_title">Localização GPS</string>
     <string name="pref_camera_location_label">LOCALIZAÇÃO</string>
@@ -102,8 +102,11 @@
         <item quantity="other">%d segundos</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Bip durante a contagem</string>
+    <string name="pref_camera_savepath_title">Armazenamento</string>
+    <string name="pref_camera_savepath_entry_0">Telefone</string>
+    <string name="pref_camera_savepath_entry_1">Cartão SD</string>
     <string name="setting_off">Desativado</string>
-    <string name="setting_on">Ativado</string>
+    <string name="setting_on">Ligada</string>
     <string name="pref_video_quality_title">Qualidade do vídeo</string>
     <string name="pref_video_time_lapse_frame_interval_title">Intervalo de tempo</string>
     <string name="pref_camera_settings_category">Definições da câmara</string>
@@ -118,7 +121,7 @@
     <string name="pref_camera_focusmode_label_macro">MACRO</string>
     <string name="pref_camera_flashmode_title">Flash</string>
     <string name="pref_camera_flashmode_entry_auto">Automático</string>
-    <string name="pref_camera_flashmode_entry_on">Ativado</string>
+    <string name="pref_camera_flashmode_entry_on">Ligada</string>
     <string name="pref_camera_flashmode_entry_off">Desativado</string>
     <string name="pref_camera_flashmode_label_auto">FLASH AUTOMÁTICO</string>
     <string name="pref_camera_flashmode_label_on">FLASH ATIVADO</string>
@@ -278,7 +281,11 @@
     <string name="cannot_load_image">Não é possível carregar a imagem!</string>
     <string name="switch_photo_filmstrip">Vista de película</string>
     <string name="setting_wallpaper">A definir imagem de fundo</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d restante(s)</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">A Maquiagem funciona apenas em tamanhos inferiores a VGA para a gravação de vídeo.</string>
     <string name="pref_camera2_category_system">Sistema</string>
     <string name="pref_camera2_restore_default">Repor predefinições</string>
@@ -298,7 +305,7 @@
     <string name="delete_best_dialog_title">Apagar todas?</string>
     <string name="delete_best_dialog_content">Tem a certeza de que quer apagar todas as 10 fotos tiradas?</string>
     <string name="delete_best_dialog_native_bt">Cancelar</string>
-    <string name="delete_best_dialog_positive_bt">Apagar</string>
+    <string name="delete_best_dialog_positive_bt">Eliminar</string>
     <string name="delete_all_best_dialog_title">Apagar todas?</string>
     <string name="delete_all_best_dialog_content">Tem a certeza de que pretende apagar todas as imagens?</string>
     <string name="delete_all_best_dialog_native_bt">Cancelar</string>

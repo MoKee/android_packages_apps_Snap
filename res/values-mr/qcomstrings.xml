@@ -75,6 +75,7 @@
     <string name="error_app_unsupported_raw">शून्य शटर लॅग मोडमध्ये रॉ पिक्चर फॉरमॅट समर्थित नाही. JPEG निवडा</string>
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE कंस करणे</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE कंस करणे</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">बंद</string>
     <string name="pref_camera_hfr_title">उच्च-चौकटदर रेकॉर्डिंग</string>
     <string name="pref_camera_hfr_entry_off">बंद</string>
     <string name="pref_camera_hfr_entry_2x">संथ हालचाल 60 FPS</string>
@@ -198,6 +199,7 @@
     <string name="advance_feature_enable_msg">प्रगत वैशिष्ट्ये सक्षम केलेली असताना निरंतर शॉट समर्थित नाही</string>
     <string name="camera_gesture_title">कॅमेरा सुरू करा</string>
     <string name="pref_camera_tsmakeup_entry_off">बंद</string>
+    <string name="pref_camera_tsmakeup_custom">सानुकूल</string>
     <string name="all_in_focus">सर्व फोकसमध्ये</string>
     <string name="refocus_toast">शेवटचा फोटो रि-फोकस करण्यासाठी, इथे टॅप करा</string>
     <string name="pref_camera2_mono_only_entry_off">बंद</string>
@@ -206,8 +208,12 @@
     <string name="pref_camera2_mpo_entry_off">बंद</string>
     <string name="pref_camera2_makeup_entry_off">बंद</string>
     <string name="pref_camera2_noise_reduction_entry_off">बंद</string>
+    <string name="pref_camera_scenemode_entry_panorama">पॅनोरामा</string>
     <string name="pref_camera2_shutter_sound_entry_off">बंद</string>
     <string name="pref_camera2_timer_entry_off">बंद</string>
+    <string name="pref_camera2_timer_entry_2sec">2 सेकंद</string>
+    <string name="pref_camera2_timer_entry_5sec">5 सेकंद</string>
+    <string name="pref_camera2_timer_entry_10sec">10 सेकंद</string>
     <string name="pref_camera2_saturation_level_title">संपृक्तता</string>
     <string name="pref_camera2_saturation_level_entry_0">स्तर 0</string>
     <string name="pref_camera2_saturation_level_entry_1">स्तर 1</string>
@@ -227,12 +233,15 @@
     <string name="pref_camera2_anti_banding_level_entry_auto">ऑटो</string>
     <string name="pref_camera2_histogram_title">हिस्टोग्राम</string>
     <string name="pref_camera2_auto_hdr_title">ऑटो HDR</string>
+    <string name="pref_camera_zoom_title">झूम करा</string>
     <string name="pref_camera_zoom_entry_off">बंद</string>
     <string name="pref_camera2_zsl_title">शून्य शटर लॅग</string>
     <string name="pref_camera2_zsl_entry_disable">बंद</string>
     <string name="pref_camera2_afmode_entry_off">बंद</string>
     <string name="pref_camera2_initial_camera_entry_mono">मोनो</string>
+    <string name="pref_camera2_initial_camera_entry_front">पुढील बाजू</string>
     <string name="pref_camera2_picture_format_title">चित्र फॉरमॅट</string>
+    <string name="pref_camera2_switcher_entry_front">पुढील बाजू</string>
     <string name="pref_camera2_force_aux_entry_off">बंद</string>
     <string name="pref_camera_tone_mapping_entry_user_setting">प्रयोक्ता सेटिंग</string>
     <string name="pref_camera_tone_mapping_entry_off">बंद</string>

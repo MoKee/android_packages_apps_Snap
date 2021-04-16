@@ -43,7 +43,7 @@
         <item quantity="one">Valitud on %1$d</item>
         <item quantity="other">Valitud on %1$d</item>
     </plurals>
-    <string name="show_on_map">Kuva kaardil</string>
+    <string name="show_on_map">Näita kaardil</string>
     <string name="rotate_left">Pööra vasakule</string>
     <string name="rotate_right">Pööra paremale</string>
     <string name="edit">Muuda</string>
@@ -83,6 +83,8 @@
     <string name="camera_error_title">Kaamera viga</string>
     <string name="cannot_connect_camera">Kaameraga ei saa ühendada.</string>
     <string name="camera_disabled">Kaamera on keelatud turvaeeskirjade tõttu.</string>
+    <string name="error_permissions">Rakendusel ei ole vajalikke kriitilisi õigusi. Palun kontrollige oma õigusi.</string>
+    <string name="dialog_dismiss">Tühista</string>
     <string name="wait">Oodake\u2026</string>
     <string name="no_storage" product="default">Enne kaamera kasutamist sisestage SD-kaart.</string>
     <string name="preparing_sd" product="default">SD-kaardi ettevalmistamine\u2026</string>
@@ -92,6 +94,7 @@
     <string name="pref_camera_id_title">Kaamera valimine</string>
     <string name="pref_camera_id_entry_back">Tagasi</string>
     <string name="pref_camera_id_entry_front">Esikaamera</string>
+    <string name="pref_camera_recordlocation_title">Talletuse asukoht</string>
     <string name="pref_camera_location_label">ASUKOHT</string>
     <string name="pref_camera_timer_title">Loendustaimer</string>
     <plurals name="pref_camera_timer_entry">
@@ -99,6 +102,9 @@
         <item quantity="other">%d sekundit</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Loenduse heli</string>
+    <string name="pref_camera_savepath_title">Salvestuskoht</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">SD kaart</string>
     <string name="setting_off">Väljas</string>
     <string name="setting_on">Sees</string>
     <string name="pref_video_quality_title">Video kvaliteet</string>
@@ -107,14 +113,14 @@
     <string name="pref_camcorder_settings_category">Videokaamera seaded</string>
     <string name="pref_camera_picturesize_title">Pildi suurus</string>
     <string name="pref_camera_focusmode_title">Teravustamisrežiim</string>
-    <string name="pref_camera_focusmode_entry_auto">Automaatne</string>
+    <string name="pref_camera_focusmode_entry_auto">Autom.</string>
     <string name="pref_camera_focusmode_entry_infinity">Lõpmatus</string>
     <string name="pref_camera_focusmode_entry_macro">Makrovõte</string>
     <string name="pref_camera_focusmode_label_auto">AUTOMAATNE</string>
     <string name="pref_camera_focusmode_label_infinity">LÕPMATUS</string>
     <string name="pref_camera_focusmode_label_macro">MAKROVÕTE</string>
     <string name="pref_camera_flashmode_title">Välk</string>
-    <string name="pref_camera_flashmode_entry_auto">Automaatne</string>
+    <string name="pref_camera_flashmode_entry_auto">Autom.</string>
     <string name="pref_camera_flashmode_entry_on">Sees</string>
     <string name="pref_camera_flashmode_entry_off">Väljas</string>
     <string name="pref_camera_flashmode_label_auto">AUTOMAATVÄLK</string>
@@ -122,7 +128,7 @@
     <string name="pref_camera_flashmode_label_off">VÄLK ON VÄLJAS</string>
     <string name="pref_camera_whitebalance_title">Valge tasakaal</string>
     <string name="pref_camera_whitebalance_label">VALGE TASAKAAL</string>
-    <string name="pref_camera_whitebalance_entry_auto">Automaatne</string>
+    <string name="pref_camera_whitebalance_entry_auto">Autom.</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Hõõglamp</string>
     <string name="pref_camera_whitebalance_entry_daylight">Päevavalgus</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Päevavalguslamp</string>
@@ -133,7 +139,7 @@
     <string name="pref_camera_whitebalance_label_fluorescent">PÄEVAVALGUSLAMP</string>
     <string name="pref_camera_whitebalance_label_cloudy">PILVES</string>
     <string name="pref_camera_scenemode_title">Stseenirežiim</string>
-    <string name="pref_camera_scenemode_entry_auto">Automaatne</string>
+    <string name="pref_camera_scenemode_entry_auto">Autom.</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ ON SEES</string>
@@ -141,7 +147,7 @@
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR ON SEES</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR ON VÄLJAS</string>
     <string name="pref_camera_scenemode_entry_action">Toiming</string>
-    <string name="pref_camera_scenemode_entry_night">Õhtu</string>
+    <string name="pref_camera_scenemode_entry_night">Öö</string>
     <string name="pref_camera_scenemode_entry_sunset">Päikeseloojang</string>
     <string name="pref_camera_scenemode_entry_party">Pidu</string>
     <string name="pref_camera_scenemode_label_auto">PUUDUB</string>
@@ -155,6 +161,15 @@
     <string name="pref_camera_countdown_label_ten">10 SEKUNDIT</string>
     <string name="pref_camera_countdown_label_fifteen">15 SEKUNDIT</string>
     <string name="not_selectable_in_scene_mode">Seda ei saa stseenirežiimis valida.</string>
+    <string name="HDR_disable_continuous_shot">HDR keelab järjestikpildistamise.</string>
+    <string name="advanced_capture_disable_continuous_shot">Täiustatud kaader keelab järjestikpildistamise.</string>
+    <string name="video_quality_4k_disable_IS">4k video kvaliteet keelab pildistabilaatori.</string>
+    <string name="video_quality_4k_disable_SeeMore">SeeMore ei saa kasutada 4k videode ajal.</string>
+    <string name="disable_CDS_during_HighQualityNoiseReduction">Kõrgkvaliteediline mürasummutus lülitab välja CDS-i.</string>
+    <string name="disable_TNR_during_HighQualityNoiseReduction">Kõrgkvaliteediline mürasummutus lülitab välja TNR-i.</string>
+    <string name="disable_CDS_during_SeeMore">SeeMore keelab CDS-i.</string>
+    <string name="disable_TNR_during_SeeMore">SeeMore keelab TNR-i.</string>
+    <string name="disable_NR_during_SeeMore">SeeMore keelab mürasummutuse.</string>
     <string name="pref_exposure_title">Säriaeg</string>
     <string name="pref_exposure_label">SÄRIAEG</string>
     <string name="pref_camera_hdr_label">HDR</string>
@@ -191,7 +206,7 @@
     <string name="effect_background">TAUST</string>
     <string name="accessibility_shutter_button">Päästik</string>
     <string name="accessibility_exit_best_mode_button">Välju parima foto režiimist</string>
-    <string name="accessibility_menu_button">Menüünupp</string>
+    <string name="accessibility_menu_button">Menüü nupp</string>
     <string name="accessibility_mode_picker">Kaamera, video või panoraami valija</string>
     <string name="accessibility_check_box">Märkeruut %1$s</string>
     <string name="accessibility_switch_to_camera">Lülitu fotorežiimile</string>
@@ -261,11 +276,18 @@
     <string name="create_tiny_planet">Loo pisike planeet</string>
     <string name="saving_tiny_planet">Pisikese planeedi salvestamine</string>
     <string name="tiny_planet_zoom">Suumimine</string>
-    <string name="tiny_planet_rotate">Pööramine</string>
+    <string name="tiny_planet_rotate">Pööra</string>
     <string name="crop_save">Salvesta</string>
     <string name="cannot_load_image">Pilti ei saa laadida!</string>
     <string name="switch_photo_filmstrip">Filmiribakuva</string>
     <string name="setting_wallpaper">Taustapildi määramine</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
+    <string name="remaining_photos_format">%d vasakul</string>
+    <string name="initial_recording_seconds">00:00</string>
+    <string name="makeup_video_size_limit">Video salvestamisel töötab Makeup ainult VGA suurusega.</string>
     <string name="pref_camera2_category_system">Süsteem</string>
     <string name="pref_camera2_restore_default">Taasta vaikesätted</string>
     <string name="pref_camera2_restore_default_hint">Kaamera vaikesätted taastatakse</string>

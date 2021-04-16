@@ -65,7 +65,7 @@
     <string name="pref_camera_focusmode_entry_facedetect">Откриване на лице</string>
     <string name="pref_camera_focusmode_entry_facepriority">Фокусиране на лицата</string>
     <string name="pref_camera_focusmode_entry_fixed">Фиксиран</string>
-    <string name="pref_camera_focusmode_entry_normal">Нормално</string>
+    <string name="pref_camera_focusmode_entry_normal">Нормална</string>
     <string name="pref_camera_focusmode_entry_portrait">Портрет</string>
     <string name="pref_camera_focusmode_entry_hyperfocal">Хиперфокално разстояние</string>
     <string name="pref_camera_coloreffect_entry_washed">Измити</string>

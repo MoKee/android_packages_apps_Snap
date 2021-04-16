@@ -29,19 +29,19 @@
     <string name="share_as_photo">Dela som foto</string>
     <string name="deleted">Borttagen</string>
     <string name="undo">ÅNGRA</string>
-    <string name="details">Information</string>
+    <string name="details">Detaljer</string>
     <string name="close">Stäng</string>
     <plurals name="number_of_items_selected">
         <item quantity="one">%1$d har valts</item>
         <item quantity="other">%1$d har valts</item>
     </plurals>
     <plurals name="number_of_albums_selected">
-        <item quantity="one">%1$d vald</item>
-        <item quantity="other">%1$d valda</item>
+        <item quantity="one">%1$d har valts</item>
+        <item quantity="other">%1$d har valts</item>
     </plurals>
     <plurals name="number_of_groups_selected">
-        <item quantity="one">%1$d vald</item>
-        <item quantity="other">%1$d valda</item>
+        <item quantity="one">%1$d har valts</item>
+        <item quantity="other">%1$d har valts</item>
     </plurals>
     <string name="show_on_map">Visa på karta</string>
     <string name="rotate_left">Rotera åt vänster</string>
@@ -76,14 +76,13 @@
     <string name="auto">Auto</string>
     <string name="flash_on">Blixt utlöst</string>
     <string name="flash_off">Ingen blixt</string>
-    <string name="unknown">Okänd</string>
+    <string name="unknown">Okänt</string>
     <string name="try_to_set_local_album_available_offline">Objektet lagras lokalt och är tillgängligt offline.</string>
     <string name="please_wait">Vänta</string>
     <string name="rendering_photo_sphere">Bearbetar sfäriskt foto</string>
     <string name="camera_error_title">Kamerafel</string>
     <string name="cannot_connect_camera">Det går inte att ansluta till kameran.</string>
     <string name="camera_disabled">Kameran har inaktiverats på grund av gällande säkerhetspolicyer.</string>
-    <string name="error_permissions">Appen har inte de kritiska rättigheterna som krävs för att köras. Var vänlig och kontrollera dina rättighetsinställningar.</string>
     <string name="dialog_dismiss">Avvisa</string>
     <string name="wait">Vänta\u2026</string>
     <string name="no_storage" product="default">Sätt i ett SD-kort innan du använder kameran.</string>
@@ -92,7 +91,7 @@
     <string name="time_lapse_title">Intervallinspelning</string>
     <string name="capturing">Tar ett foto …</string>
     <string name="pref_camera_id_title">Välj kamera</string>
-    <string name="pref_camera_id_entry_back">Bakre</string>
+    <string name="pref_camera_id_entry_back">Tillbaka</string>
     <string name="pref_camera_id_entry_front">Främre</string>
     <string name="pref_camera_recordlocation_title">GPS plats</string>
     <string name="pref_camera_location_label">PLATS</string>
@@ -102,6 +101,9 @@
         <item quantity="other">%d sekunder</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Ljudsignal under nedräkningen</string>
+    <string name="pref_camera_savepath_title">Lagring</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">SD-kort</string>
     <string name="setting_off">Av</string>
     <string name="setting_on">På</string>
     <string name="pref_video_quality_title">Videokvalitet</string>
@@ -158,6 +160,11 @@
     <string name="pref_camera_countdown_label_ten">10 SEKUNDER</string>
     <string name="pref_camera_countdown_label_fifteen">15 SEKUNDER</string>
     <string name="not_selectable_in_scene_mode">Inte valbart i scenläget.</string>
+    <string name="disable_CDS_during_HighQualityNoiseReduction">Högkvalitativ brusreducering kommer inaktivera CDS.</string>
+    <string name="disable_TNR_during_HighQualityNoiseReduction">Högkvalitativ brusreducering kommer inaktivera TNR.</string>
+    <string name="disable_CDS_during_SeeMore">SeeMore kommer inaktivera CDS.</string>
+    <string name="disable_TNR_during_SeeMore">SeeMore kommer inaktivera TNR.</string>
+    <string name="disable_NR_during_SeeMore">SeeMore kommer inaktivera brusreducering.</string>
     <string name="pref_exposure_title">Exponering</string>
     <string name="pref_exposure_label">EXPONERING</string>
     <string name="pref_camera_hdr_label">HDR</string>
@@ -250,7 +257,7 @@
     <string name="time_lapse_seconds">sekunder</string>
     <string name="time_lapse_minutes">minuter</string>
     <string name="time_lapse_hours">timmar</string>
-    <string name="time_lapse_interval_set">Klart</string>
+    <string name="time_lapse_interval_set">Färdig</string>
     <string name="set_time_interval">Ange tidssintervall</string>
     <string name="set_time_interval_help">Intervallinspelningsfunktionen är avstängd. Aktivera den om du vill ange tidsintervall.</string>
     <string name="set_duration">Ange längden i sekunder</string>
@@ -263,12 +270,17 @@
     <string name="camera_menu_settings_label">INSTÄLLNINGAR</string>
     <string name="create_tiny_planet">Skapa en liten planet</string>
     <string name="saving_tiny_planet">Den lilla planeten sparas ...</string>
-    <string name="tiny_planet_zoom">Zooma</string>
+    <string name="tiny_planet_zoom">Zoom</string>
     <string name="tiny_planet_rotate">Rotera</string>
     <string name="crop_save">Spara</string>
     <string name="cannot_load_image">Det går inte att läsa in bilden!</string>
     <string name="switch_photo_filmstrip">Visa som filmremsa</string>
     <string name="setting_wallpaper">Bakgrund anges</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
+    <string name="remaining_photos_format">%d kvar</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="pref_camera2_category_system">System</string>
     <string name="pref_camera2_restore_default">Återställ standardvärden</string>
     <string name="pref_camera2_restore_default_hint">Kamerainställningarna kommer att återställas till standardinställningarna</string>
@@ -288,7 +300,7 @@
     <string name="delete_best_dialog_content">Är du säker på att du vill radera alla 10 bilder som har tagits?</string>
     <string name="delete_best_dialog_native_bt">Avbryt</string>
     <string name="delete_best_dialog_positive_bt">Ta bort</string>
-    <string name="delete_all_best_dialog_title">Ta bort alla?</string>
+    <string name="delete_all_best_dialog_title">Radera alla?</string>
     <string name="delete_all_best_dialog_content">Är du säker på att du vill ta bort alla bilder?</string>
     <string name="delete_all_best_dialog_native_bt">Avbryt</string>
     <string name="delete_all_best_dialog_positive_bt">Ta bort alla</string>

@@ -20,7 +20,9 @@
     limitations under the License.
 -->
 <resources>
+    <string name="pref_camera_powermode_title">Energiläge</string>
     <string name="pref_camera_powermode_entry_lp">Låg energi</string>
+    <string name="pref_camera_powermode_entry_np">Normal energi</string>
     <string name="pref_camera_autoexposure_title">Automatisk exponering</string>
     <string name="pref_camera_autoexposure_entry_frameaverage">Bildgenomsnitt</string>
     <string name="pref_camera_autoexposure_entry_centerweighted">Mittvägd</string>
@@ -103,18 +105,17 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Automatisk exponeringsvariation</string>
     <string name="pref_camera_ae_bracket_hdr_title">Automatisk exponeringsvariation</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">På</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Av</string>
     <string name="pref_camera_hfr_title">Inspelning med hög framerate</string>
     <string name="pref_camera_hfr_entry_off">Av</string>
     <string name="pref_camera_hfr_entry_2x">Slow Motion 60 FPS</string>
     <string name="pref_camera_hfr_entry_3x">Slow Motion 90 FPS</string>
     <string name="pref_camera_hfr_entry_4x">Slow Motion 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Slow Motion 240 FPS</string>
-    <string name="pref_camera_hfr_entry_16x">Långsam rörelse 480 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Höghastighet 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Höghastighet 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Höghastighet 120 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_240">Höghastighet 240 FPS</string>
-    <string name="pref_camera_hfr_entry_hsr_480">Hög hastighet 480 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_240">Snabbt 240 FPS</string>
     <string name="pref_camera_noise_reduction_title">Brusreducering</string>
     <string name="pref_camera_noise_reduction_entry_off">Av</string>
     <string name="pref_camera_noise_reduction_entry_fast">Snabb</string>
@@ -218,7 +219,7 @@
     <string name="pref_camera_picture_format_title">Bildformat</string>
     <string name="pref_camera_jpegquality_title">Bildkvalitet</string>
     <string name="pref_camera_jpegquality_entry_0">Låg</string>
-    <string name="pref_camera_jpegquality_entry_1">Standard</string>
+    <string name="pref_camera_jpegquality_entry_1">65% (normal)</string>
     <string name="pref_camera_jpegquality_entry_2">Hög</string>
     <string name="pref_camera_histogram_title">Histogram</string>
     <string name="pref_camera_histogram_entry_enable">Aktivera</string>
@@ -244,7 +245,8 @@
     <string name="map_activity_not_found_err">Det finns ingen kartapp installerad för att visa platsen</string>
     <string name="longshot_enable_message">Avancerade funktioner stöds inte vid kontinuerlig bildtagning</string>
     <string name="advance_feature_enable_msg">Kontinuerlig bildtagning stöds inte när avancerade funktioner är aktiverade</string>
-    <string name="camera_gesture_title">Starta kamera</string>
+    <string name="camera_gesture_title">Öppna kamera</string>
+    <string name="pref_camera_tsmakeup_title">Försköning</string>
     <string name="pref_camera_tsmakeup_entry_on">På</string>
     <string name="pref_camera_tsmakeup_entry_off">Av</string>
     <string name="pref_camera_tsmakeup_entry_low">Låg</string>
@@ -254,8 +256,10 @@
     <string name="text_tsmakeup_alert_title">Varning</string>
     <string name="text_tsmakeup_alert_continue">Fortsätt</string>
     <string name="text_tsmakeup_alert_quit">Avbryt</string>
+    <string name="text_tsmakeup_beautify_toast">Försköna</string>
     <string name="all_in_focus">Allt i fokus</string>
     <string name="refocus_toast">För att återfokusera senaste bilden, klicka här</string>
+    <string name="camera_unknown_error">Okänt fel, stänger kamera.</string>
     <string name="pref_camera2_camera2_title">Camera2-läge</string>
     <string name="pref_camera2_camera2_entry_enable">Aktivera</string>
     <string name="pref_camera2_camera2_entry_disable">Avaktivera</string>
@@ -269,12 +273,13 @@
     <string name="pref_camera2_mpo_title">MPO-format</string>
     <string name="pref_camera2_mpo_entry_on">På</string>
     <string name="pref_camera2_mpo_entry_off">Av</string>
+    <string name="pref_camera2_makeup_title">Makeup</string>
     <string name="pref_camera2_makeup_entry_on">På</string>
     <string name="pref_camera2_makeup_entry_off">Av</string>
     <string name="pref_camera2_noise_reduction_title">Brusreducering</string>
     <string name="pref_camera2_noise_reduction_entry_off">Av</string>
     <string name="pref_camera2_noise_reduction_entry_fast">Snabb</string>
-    <string name="pref_camera2_noise_reduction_entry_high_quality">Hög kvalite</string>
+    <string name="pref_camera2_noise_reduction_entry_high_quality">Hög kvalitet</string>
     <string name="pref_camera2_videosnap_entry_enable">Aktivera</string>
     <string name="pref_camera2_videosnap_entry_disable">Avaktivera</string>
     <string name="pref_camera2_touch_track_focus_entry_on">Aktivera</string>
@@ -358,19 +363,17 @@
     <string name="pref_camera2_zsl_entry_hal_zsl">Hårdvaru-ZSL</string>
     <string name="pref_camera2_afmode_entry_disable">Avaktiverad</string>
     <string name="pref_camera2_afmode_entry_off">Av</string>
-    <string name="pref_camera2_afmode_entry_continuous_video">Kontinuerlig video</string>
-    <string name="pref_camera2_afmode_entry_continuous_picture">Kontinuerlig bild</string>
-    <string name="pref_camera2_afmode_entry_edof">Utökat fokusdjup</string>
     <string name="pref_camera2_switch_camera_title">Byt kamera beroende på ID</string>
+    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
-    <string name="pref_camera2_eis_title">EIS-video</string>
+    <string name="pref_camera2_initial_camera_entry_front">Främre</string>
     <string name="pref_camera2_eis_entry_disable">Avaktiverad</string>
-    <string name="pref_camera2_fovc_title">FOVC-video</string>
     <string name="pref_camera2_fovc_entry_enable">Aktiverad</string>
     <string name="pref_camera2_fovc_entry_disable">Avaktiverad</string>
     <string name="pref_camera2_video_hdr_entry_enable">Aktiverad</string>
     <string name="pref_camera2_video_hdr_entry_disable">Avaktiverad</string>
     <string name="pref_camera2_picture_format_title">Bildformat</string>
+    <string name="pref_camera2_switcher_entry_front">Främre</string>
     <string name="pref_camera2_force_aux_entry_on">På</string>
     <string name="pref_camera2_force_aux_entry_off">Av</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Aktiverad</string>

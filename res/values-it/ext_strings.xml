@@ -23,7 +23,7 @@
     <string name="pref_camera_scenemode_entry_asd">Scatto migliore</string>
     <string name="pref_camera_scenemode_entry_baby">Bambino</string>
     <string name="pref_camera_scenemode_entry_backgroundblur">Fondale sfocato</string>
-    <string name="pref_camera_scenemode_entry_backlight">Retroilluminato</string>
+    <string name="pref_camera_scenemode_entry_backlight">Retroilluminazione</string>
     <string name="pref_camera_scenemode_entry_backlightportrait">Ritratto retroilluminato</string>
     <string name="pref_camera_scenemode_entry_barcode">Codice a barre</string>
     <string name="pref_camera_scenemode_entry_beach">Spiaggia</string>

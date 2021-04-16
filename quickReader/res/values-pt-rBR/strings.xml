@@ -19,7 +19,7 @@
     <string name="quick_reader_no_activity_found">Nenhum aplicativo instalado pode abrir este conteúdo</string>
     <string name="quick_reader_permission_error_title">Erro de permissão</string>
     <string name="quick_reader_permission_rationale_message">É necessário o acesso à câmera para ler o código de barras</string>
-    <string name="quick_reader_permission_rationale_positive">Perguntar novamente</string>
+    <string name="quick_reader_permission_rationale_positive">Permitir novamente</string>
     <string name="quick_reader_permission_fatal_message">O acesso à câmera foi negado. Por favor, conceda-o nas configurações do aplicativo.</string>
     <string name="quick_reader_permission_fatal_positive">Abrir configurações</string>
     <string name="quick_reader_scanned_text_title">Texto digitalizado</string>

@@ -14,18 +14,5 @@
      limitations under the License.
 -->
 <resources>
-    <string name="accessibility_switch_to_qr">Darllenydd QR</string>
-    <string name="quick_reader_action_dismiss">Diystyru</string>
-    <string name="quick_reader_no_activity_found">Does dim ap wedi\'i osod sydd â\'r gallu i agor y cynnwys hwn</string>
-    <string name="quick_reader_permission_error_title">Gwall caniatâd</string>
-    <string name="quick_reader_permission_rationale_message">Mae angen mynediad i\'r camera er mwyn sganio\'r cod bar.</string>
-    <string name="quick_reader_permission_rationale_positive">Gofyn eto</string>
-    <string name="quick_reader_permission_fatal_message">Gwrthodwyd mynediad i\'r camera. Rhaid ei ganiatáu o osodiadau\'r ap.</string>
-    <string name="quick_reader_permission_fatal_positive">Agor gosodiadau</string>
-    <string name="quick_reader_scanned_text_title">Testun wedi\'i sganio</string>
-    <string name="quick_reader_scanned_text_positive">Copïo</string>
-    <string name="quick_reader_scanned_text_negative">Rhannu</string>
-    <string name="quick_reader_share_title">Rhannu gyda\u2026</string>
-    <string name="quick_reader_copied_message">Copïwyd i\'r clipfwrdd</string>
-    <string name="quick_reader_only_unlocked">Ni ellir gweithredu hyn tra bod y ddyfais ar glo</string>
+    <string name="quick_reader_action_dismiss">Wfftio</string>
 </resources>

@@ -26,7 +26,7 @@
         <item quantity="few">Izbriši izbrane predmete?</item>
         <item quantity="other">Izbriši izbrane predmete?</item>
     </plurals>
-    <string name="share">Deli</string>
+    <string name="share">Skupna raba</string>
     <string name="share_panorama">Deli panoramo</string>
     <string name="share_as_photo">Deli kot fotografijo</string>
     <string name="deleted">Izbrisano</string>
@@ -52,18 +52,18 @@
         <item quantity="other">Št. izbranih: %1$d</item>
     </plurals>
     <string name="show_on_map">Prikaži na zemljevidu</string>
-    <string name="rotate_left">Zasukaj levo</string>
-    <string name="rotate_right">Zasukaj desno</string>
+    <string name="rotate_left">Zavrti levo</string>
+    <string name="rotate_right">Zavrti desno</string>
     <string name="edit">Uredi</string>
     <string name="crop_action">Obreži</string>
     <string name="trim_action">Prireži</string>
     <string name="set_as">Nastavi kot</string>
     <string name="video_err">Videopos. ni mogoče predvajati.</string>
     <string name="crop_saved">        Obrezana slika je bila shranjena v <xliff:g id="FOLDER_NAME">%s</xliff:g>.</string>
-    <string name="title">Naziv</string>
+    <string name="title">Naslov</string>
     <string name="description">Opis</string>
     <string name="time">Čas</string>
-    <string name="location">Lokacija</string>
+    <string name="location">Mesto</string>
     <string name="path">Pot</string>
     <string name="width">Širina</string>
     <string name="height">Višina</string>
@@ -100,8 +100,8 @@
     <string name="time_lapse_title">Snemanje s časovnim zamikom</string>
     <string name="capturing">Snemanje</string>
     <string name="pref_camera_id_title">Izberite fotoaparat</string>
-    <string name="pref_camera_id_entry_back">Zadaj</string>
-    <string name="pref_camera_id_entry_front">Spredaj</string>
+    <string name="pref_camera_id_entry_back">Nazaj</string>
+    <string name="pref_camera_id_entry_front">Sprednja</string>
     <string name="pref_camera_recordlocation_title">GPS lokacija</string>
     <string name="pref_camera_location_label">LOKACIJA</string>
     <string name="pref_camera_timer_title">Odštevalnik</string>
@@ -112,6 +112,9 @@
         <item quantity="other">%d sekund</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Pisk med odštev.</string>
+    <string name="pref_camera_savepath_title">Mesto za shranjevanje</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">Kartica SD</string>
     <string name="setting_off">Izklopljeno</string>
     <string name="setting_on">Vklopljeno</string>
     <string name="pref_video_quality_title">Kakovost videoposnetkov</string>
@@ -133,7 +136,7 @@
     <string name="pref_camera_flashmode_label_auto">SAMODEJNA BLISKAVICA</string>
     <string name="pref_camera_flashmode_label_on">BLISKAVICA VKLOPLJENA</string>
     <string name="pref_camera_flashmode_label_off">BLISKAVICA IZKLOPLJENA</string>
-    <string name="pref_camera_whitebalance_title">Ravnovesje beline</string>
+    <string name="pref_camera_whitebalance_title">Ravnov. beline</string>
     <string name="pref_camera_whitebalance_label">RAVNOVESJE BELINE</string>
     <string name="pref_camera_whitebalance_entry_auto">Samodejno</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Žarilna nitka</string>
@@ -154,7 +157,7 @@
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR VKLOPLJEN</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR IZKLOPLJEN</string>
     <string name="pref_camera_scenemode_entry_action">Gibanje</string>
-    <string name="pref_camera_scenemode_entry_night">Ponoči</string>
+    <string name="pref_camera_scenemode_entry_night">Noč</string>
     <string name="pref_camera_scenemode_entry_sunset">Sončni zahod</string>
     <string name="pref_camera_scenemode_entry_party">Zabava</string>
     <string name="pref_camera_scenemode_label_auto">BREZ</string>
@@ -213,7 +216,7 @@
     <string name="effect_background">OZADJE</string>
     <string name="accessibility_shutter_button">Gumb za fotografiranje</string>
     <string name="accessibility_exit_best_mode_button">Izhod iz načina najboljše fotografije</string>
-    <string name="accessibility_menu_button">Gumb za meni</string>
+    <string name="accessibility_menu_button">Menijski gumb</string>
     <string name="accessibility_mode_picker">Izbirnik fotoaparata, kamere ali panorame</string>
     <string name="accessibility_check_box">Potrditveno polje %1$s</string>
     <string name="accessibility_switch_to_camera">Preklopi na fotoaparat</string>
@@ -269,7 +272,7 @@
     <string name="time_lapse_seconds">s</string>
     <string name="time_lapse_minutes">min.</string>
     <string name="time_lapse_hours">ur</string>
-    <string name="time_lapse_interval_set">Dokončano</string>
+    <string name="time_lapse_interval_set">Končano</string>
     <string name="set_time_interval">Nastavite časovni razmik</string>
     <string name="set_time_interval_help">Značilnost časovnega zamika je izklopljena. Vklopite jo, da nastavite časovni razmik.</string>
     <string name="set_duration">Nastavite trajanje v sekundah</string>
@@ -282,13 +285,17 @@
     <string name="camera_menu_settings_label">NASTAVITVE</string>
     <string name="create_tiny_planet">Ustvari planetek</string>
     <string name="saving_tiny_planet">Shranjevanje planetka …</string>
-    <string name="tiny_planet_zoom">Povečaj/pomanj.</string>
-    <string name="tiny_planet_rotate">Zasukaj</string>
+    <string name="tiny_planet_zoom">Povečava</string>
+    <string name="tiny_planet_rotate">Zavrti</string>
     <string name="crop_save">Shrani</string>
     <string name="cannot_load_image">Slike ni mogoče naložiti.</string>
     <string name="switch_photo_filmstrip">Pogled filmskega traku</string>
     <string name="setting_wallpaper">Nastavljanje ozadja</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">preostalo %d</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Ličila delujejo samo v VGA načinu pri videoposnetkih.</string>
     <string name="pref_camera2_category_system">Sistem</string>
     <string name="pref_camera2_restore_default">Obnovi privzete</string>

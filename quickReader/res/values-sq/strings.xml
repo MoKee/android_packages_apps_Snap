@@ -14,18 +14,8 @@
      limitations under the License.
 -->
 <resources>
-    <string name="accessibility_switch_to_qr">Lexues QR</string>
-    <string name="quick_reader_action_dismiss">Injoro</string>
-    <string name="quick_reader_no_activity_found">Asnjë aplikacion i instaluar mund të hapë këtë përmbajtje</string>
-    <string name="quick_reader_permission_error_title">Problem në të drejta</string>
-    <string name="quick_reader_permission_rationale_message">Nevojiten të drejta të kamerës për të skanuar barcode</string>
-    <string name="quick_reader_permission_rationale_positive">Pyet sërish</string>
-    <string name="quick_reader_permission_fatal_message">E drejta e kamerës u refuzua. Ju lutem lejojeni këtë tek cilësimet e aplikacionit</string>
-    <string name="quick_reader_permission_fatal_positive">Hap cilësimet</string>
-    <string name="quick_reader_scanned_text_title">Teksti i skanuar</string>
+    <string name="quick_reader_action_dismiss">Largo</string>
+    <string name="quick_reader_permission_rationale_positive">Pyet përsëri</string>
     <string name="quick_reader_scanned_text_positive">Kopjo</string>
-    <string name="quick_reader_scanned_text_negative">Shpërndaje</string>
-    <string name="quick_reader_share_title">Shpërndaje me\u2026</string>
-    <string name="quick_reader_copied_message">Kopjo në të papastër</string>
-    <string name="quick_reader_only_unlocked">Ky veprim mund të kryhet vetëm kur paisja është e hapur</string>
+    <string name="quick_reader_scanned_text_negative">Ndaj</string>
 </resources>

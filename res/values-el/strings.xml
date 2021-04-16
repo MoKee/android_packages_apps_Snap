@@ -24,12 +24,12 @@
         <item quantity="one">Διαγραφή επιλεγμένου στοιχείου;</item>
         <item quantity="other">Διαγραφή επιλεγμένων στοιχείων;</item>
     </plurals>
-    <string name="share">Κοινή χρήση</string>
+    <string name="share">שיתוף</string>
     <string name="share_panorama">Κοινή χρήση πανοράματος</string>
     <string name="share_as_photo">Κοινή χρήση ως φωτογραφίας</string>
     <string name="deleted">Διαγράφηκε</string>
     <string name="undo">ΑΝΑΙΡΕΣΗ</string>
-    <string name="details">Λεπτομέρειες</string>
+    <string name="details">פרטים</string>
     <string name="close">Κλείσιμο</string>
     <plurals name="number_of_items_selected">
         <item quantity="one">%1$d επιλεγμένα</item>
@@ -44,8 +44,8 @@
         <item quantity="other">%1$d επιλεγμένα</item>
     </plurals>
     <string name="show_on_map">Εμφάνιση στο χάρτη</string>
-    <string name="rotate_left">Περιστροφή προς τα αριστερά</string>
-    <string name="rotate_right">Περιστροφή προς τα δεξιά</string>
+    <string name="rotate_left">Περιστροφή αριστερά</string>
+    <string name="rotate_right">Περιστροφή δεξιά</string>
     <string name="edit">Επεξεργασία</string>
     <string name="crop_action">Περικοπή</string>
     <string name="trim_action">Περικοπή</string>
@@ -73,7 +73,7 @@
     <string name="iso">ISO</string>
     <string name="unit_mm">μμ</string>
     <string name="manual">Μη αυτόμ.</string>
-    <string name="auto">Αυτόματα</string>
+    <string name="auto">Αυτόματη</string>
     <string name="flash_on">Το φλας άναψε</string>
     <string name="flash_off">Χωρίς φλας</string>
     <string name="unknown">Άγνωστο</string>
@@ -102,6 +102,9 @@
         <item quantity="other">%d δευτερόλεπτα</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Ήχος σε αντ.μέτ.</string>
+    <string name="pref_camera_savepath_title">Αποθηκευτικός χώρος</string>
+    <string name="pref_camera_savepath_entry_0">Τηλέφωνο</string>
+    <string name="pref_camera_savepath_entry_1">Κάρτα SD</string>
     <string name="setting_off">Ανενεργό</string>
     <string name="setting_on">Ενεργό</string>
     <string name="pref_video_quality_title">Ποιότητα βίντεο</string>
@@ -110,14 +113,14 @@
     <string name="pref_camcorder_settings_category">Ρυθμίσεις βιντεοκάμερας</string>
     <string name="pref_camera_picturesize_title">Μέγεθος εικόνας</string>
     <string name="pref_camera_focusmode_title">Λειτουργία εστίασης</string>
-    <string name="pref_camera_focusmode_entry_auto">Αυτόματα</string>
+    <string name="pref_camera_focusmode_entry_auto">Αυτόματη</string>
     <string name="pref_camera_focusmode_entry_infinity">Άπειρο</string>
     <string name="pref_camera_focusmode_entry_macro">Μακροφωτογραφία</string>
     <string name="pref_camera_focusmode_label_auto">ΑΥΤΟΜΑΤΑ</string>
     <string name="pref_camera_focusmode_label_infinity">ΑΠΕΙΡΟ</string>
     <string name="pref_camera_focusmode_label_macro">ΜΑΚΡΟΦΩΤΟΓΡΑΦΙΑ</string>
     <string name="pref_camera_flashmode_title">Φλας</string>
-    <string name="pref_camera_flashmode_entry_auto">Αυτόματα</string>
+    <string name="pref_camera_flashmode_entry_auto">Αυτόματη</string>
     <string name="pref_camera_flashmode_entry_on">Ενεργό</string>
     <string name="pref_camera_flashmode_entry_off">Ανενεργό</string>
     <string name="pref_camera_flashmode_label_auto">ΑΥΤΟΜΑΤΟ ΦΛΑΣ</string>
@@ -125,7 +128,7 @@
     <string name="pref_camera_flashmode_label_off">ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ ΦΛΑΣ</string>
     <string name="pref_camera_whitebalance_title">Ισορροπία λευκού</string>
     <string name="pref_camera_whitebalance_label">ΙΣΟΡΡΟΠΙΑ ΛΕΥΚΟΥ</string>
-    <string name="pref_camera_whitebalance_entry_auto">Αυτόματα</string>
+    <string name="pref_camera_whitebalance_entry_auto">Αυτόματη</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Λαμπτήρας πυρακτώσεως</string>
     <string name="pref_camera_whitebalance_entry_daylight">Φως ημέρας</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Λαμπτήρας φθορισμού</string>
@@ -136,7 +139,7 @@
     <string name="pref_camera_whitebalance_label_fluorescent">ΛΑΜΠΤΗΡΑΣ ΦΘΟΡΙΣΜΟΥ</string>
     <string name="pref_camera_whitebalance_label_cloudy">ΣΥΝΝΕΦΙΑ</string>
     <string name="pref_camera_scenemode_title">Λειτουργία σκηνής</string>
-    <string name="pref_camera_scenemode_entry_auto">Αυτόματα</string>
+    <string name="pref_camera_scenemode_entry_auto">Αυτόματη</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">ΕΝΕΡΓΟΠΟΙΗΣΗ HDR+</string>
@@ -144,7 +147,7 @@
     <string name="pref_camera_scenemode_entry_turn_hdr_on">ΕΝΕΡΓΟΠΟΙΗΣΗ HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_off">ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ HDR</string>
     <string name="pref_camera_scenemode_entry_action">Ενέργεια</string>
-    <string name="pref_camera_scenemode_entry_night">Βράδυ</string>
+    <string name="pref_camera_scenemode_entry_night">Νύχτα</string>
     <string name="pref_camera_scenemode_entry_sunset">Ηλιοβασίλεμα</string>
     <string name="pref_camera_scenemode_entry_party">Πάρτυ</string>
     <string name="pref_camera_scenemode_label_auto">ΚΑΜΙΑ</string>
@@ -172,7 +175,7 @@
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">ΜΠΡΟΣΤΑ</string>
     <string name="pref_camera_id_label_front">ΠΙΣΩ ΚΑΜΕΡΑ</string>
-    <string name="dialog_ok">OK</string>
+    <string name="dialog_ok">ΟΚ</string>
     <string name="spaceIsLow_content" product="default">Ο διαθέσιμος χώρος στην κάρτα SD είναι ελάχιστος. Αλλάξτε τη ρύθμιση ποιότητας ή διαγράψτε κάποιες εικόνες ή άλλα αρχεία.</string>
     <string name="video_reach_size_limit">Συμπληρώθηκε το όριο μεγέθους.</string>
     <string name="pano_too_fast_prompt">Πολύ γρήγορα</string>
@@ -203,7 +206,7 @@
     <string name="effect_background">ΦΟΝΤΟ</string>
     <string name="accessibility_shutter_button">Κλείστρο</string>
     <string name="accessibility_exit_best_mode_button">Έξοδος από τη λειτουργία καλύτερης φωτογραφίας</string>
-    <string name="accessibility_menu_button">Κουμπί μενού</string>
+    <string name="accessibility_menu_button">Πλήκτρο μενού</string>
     <string name="accessibility_mode_picker">Επιλογέας φωτογραφικής μηχανής, βίντεο ή πανοράματος</string>
     <string name="accessibility_check_box">%1$s πλαίσιο επιλογής</string>
     <string name="accessibility_switch_to_camera">Εναλλαγή σε φωτογραφία</string>
@@ -259,7 +262,7 @@
     <string name="time_lapse_seconds">δευτερόλεπτα</string>
     <string name="time_lapse_minutes">λεπτά</string>
     <string name="time_lapse_hours">ώρες</string>
-    <string name="time_lapse_interval_set">Τέλος</string>
+    <string name="time_lapse_interval_set">Ολοκληρώθηκε</string>
     <string name="set_time_interval">Ορισμός χρονικού διαστήματος</string>
     <string name="set_time_interval_help">Η λειτουργία παρέλευσης χρόνου έχει απενεργοποιηθεί. Ενεργοποιήστε την για να ορίσετε το χρονικό διάστημα.</string>
     <string name="set_duration">Ορισμός διάρκειας σε δευτερόλεπτα</string>
@@ -272,7 +275,7 @@
     <string name="camera_menu_settings_label">ΡΥΘΜΙΣΕΙΣ</string>
     <string name="create_tiny_planet">Δημιουργία Tiny Planet</string>
     <string name="saving_tiny_planet">Αποθήκευση Tiny Planet…</string>
-    <string name="tiny_planet_zoom">Εστίαση</string>
+    <string name="tiny_planet_zoom">Μεγέθυνση</string>
     <string name="tiny_planet_rotate">Περιστροφή</string>
     <string name="crop_save">Αποθήκευση</string>
     <string name="cannot_load_image">Δεν είναι δυνατή η φόρτωση της εικόνας!</string>
@@ -288,7 +291,7 @@
         <item quantity="other">Θα αποθηκευτούν %1$d από τις 10 εικόνες και οι υπόλοιπες θα διαγραφούν</item>
     </plurals>
     <string name="save_best_dialog_title">Αποθήκευση επιλεγμένων εικόνων;</string>
-    <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="save_best_dialog_positive_bt">ΟΚ</string>
     <string name="save_best_dialog_native_bt">Ακύρωση</string>
     <plurals name="save_best_image_toast">
         <item quantity="one">Αποθηκεύτηκε %1$d από τις 10 εικόνες.</item>

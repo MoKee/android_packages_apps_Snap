@@ -43,9 +43,9 @@
         <item quantity="one">%1$d valgt</item>
         <item quantity="other">%1$d valgt</item>
     </plurals>
-    <string name="show_on_map">Vis på kartet</string>
-    <string name="rotate_left">Rotér mot venstre</string>
-    <string name="rotate_right">Rotér mot høyre</string>
+    <string name="show_on_map">Vis på kart</string>
+    <string name="rotate_left">Roter til venstre</string>
+    <string name="rotate_right">Roter til høyre</string>
     <string name="edit">Rediger</string>
     <string name="crop_action">Beskjær</string>
     <string name="trim_action">Klipp</string>
@@ -55,7 +55,7 @@
     <string name="title">Tittel</string>
     <string name="description">Beskrivelse</string>
     <string name="time">Klokkeslett</string>
-    <string name="location">Posisjon</string>
+    <string name="location">Sted</string>
     <string name="path">Bane</string>
     <string name="width">Bredde</string>
     <string name="height">Høyde</string>
@@ -73,7 +73,7 @@
     <string name="iso">ISO</string>
     <string name="unit_mm">mm</string>
     <string name="manual">Manuelt</string>
-    <string name="auto">Auto</string>
+    <string name="auto">Automatisk</string>
     <string name="flash_on">Blits brukes</string>
     <string name="flash_off">Uten blits</string>
     <string name="unknown">Ukjent</string>
@@ -102,6 +102,9 @@
         <item quantity="other">%d sekunder</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Nedtellingslyd</string>
+    <string name="pref_camera_savepath_title">Lagring</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">SD-kort</string>
     <string name="setting_off">Av</string>
     <string name="setting_on">På</string>
     <string name="pref_video_quality_title">Videokvalitet</string>
@@ -110,14 +113,14 @@
     <string name="pref_camcorder_settings_category">Videoinnstillinger</string>
     <string name="pref_camera_picturesize_title">Bildestørrelse</string>
     <string name="pref_camera_focusmode_title">Fokusmodus</string>
-    <string name="pref_camera_focusmode_entry_auto">Auto</string>
+    <string name="pref_camera_focusmode_entry_auto">Automatisk</string>
     <string name="pref_camera_focusmode_entry_infinity">Uendelig</string>
     <string name="pref_camera_focusmode_entry_macro">Makro</string>
     <string name="pref_camera_focusmode_label_auto">AUTO</string>
     <string name="pref_camera_focusmode_label_infinity">UENDELIG</string>
     <string name="pref_camera_focusmode_label_macro">MAKRO</string>
     <string name="pref_camera_flashmode_title">Blits</string>
-    <string name="pref_camera_flashmode_entry_auto">Auto</string>
+    <string name="pref_camera_flashmode_entry_auto">Automatisk</string>
     <string name="pref_camera_flashmode_entry_on">På</string>
     <string name="pref_camera_flashmode_entry_off">Av</string>
     <string name="pref_camera_flashmode_label_auto">AUTOMATISK BLITS</string>
@@ -125,7 +128,7 @@
     <string name="pref_camera_flashmode_label_off">BLITS AV</string>
     <string name="pref_camera_whitebalance_title">Hvitbalanse</string>
     <string name="pref_camera_whitebalance_label">HVITBALANSE</string>
-    <string name="pref_camera_whitebalance_entry_auto">Auto</string>
+    <string name="pref_camera_whitebalance_entry_auto">Automatisk</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Hvitglødende</string>
     <string name="pref_camera_whitebalance_entry_daylight">Dagslys</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescerende</string>
@@ -136,9 +139,8 @@
     <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCERENDE</string>
     <string name="pref_camera_whitebalance_label_cloudy">OVERSKYET</string>
     <string name="pref_camera_scenemode_title">Scenemodus</string>
-    <string name="pref_camera_scenemode_entry_auto">Auto</string>
+    <string name="pref_camera_scenemode_entry_auto">Automatisk</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
-    <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ PÅ</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">HDR+ AV</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR PÅ</string>
@@ -169,7 +171,6 @@
     <string name="disable_NR_during_SeeMore">SeeMore vil deaktivere støyreduksjon.</string>
     <string name="pref_exposure_title">Eksponering</string>
     <string name="pref_exposure_label">EKSPONERING</string>
-    <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">FRONTKAMERA</string>
     <string name="pref_camera_id_label_front">BAKRE KAMERA</string>
     <string name="dialog_ok">OK</string>
@@ -178,7 +179,6 @@
     <string name="pano_too_fast_prompt">For rask</string>
     <string name="pano_dialog_prepare_preview">Forbereder panorama</string>
     <string name="pano_dialog_panorama_failed">Kunne ikke lagre panorama.</string>
-    <string name="pano_dialog_title">Panorama</string>
     <string name="pano_capture_indication">Panoramaopptak</string>
     <string name="pano_dialog_waiting_previous">Venter på forrige panorama</string>
     <string name="pano_review_saving_indication_str">Lagrer …</string>
@@ -202,7 +202,7 @@
     <string name="effect_silly_faces">MORSOMME ANSIKTER</string>
     <string name="effect_background">BAKGRUNN</string>
     <string name="accessibility_shutter_button">Lukker</string>
-    <string name="accessibility_menu_button">Meny-knapp</string>
+    <string name="accessibility_menu_button">Meny-knappen</string>
     <string name="accessibility_mode_picker">Valg av kamera, video eller panorama</string>
     <string name="accessibility_check_box">%1$s-avmerkingsboks</string>
     <string name="accessibility_switch_to_camera">Bytt til foto</string>
@@ -258,7 +258,7 @@
     <string name="time_lapse_seconds">sekunder</string>
     <string name="time_lapse_minutes">minutter</string>
     <string name="time_lapse_hours">timer</string>
-    <string name="time_lapse_interval_set">Ferdig</string>
+    <string name="time_lapse_interval_set">OK</string>
     <string name="set_time_interval">Angi tidsintervall</string>
     <string name="set_time_interval_help">Funksjonen for intervallmodus er avslått. Slå den på for å angi et tidsintervall.</string>
     <string name="set_duration">Still varighet i sekunder</string>
@@ -271,8 +271,7 @@
     <string name="camera_menu_settings_label">INNSTILLINGER</string>
     <string name="create_tiny_planet">Lag miniplanet</string>
     <string name="saving_tiny_planet">Lagrer miniplanet …</string>
-    <string name="tiny_planet_zoom">Zoom</string>
-    <string name="tiny_planet_rotate">Rotér</string>
+    <string name="tiny_planet_rotate">Roter</string>
     <string name="crop_save">Lagre</string>
     <string name="cannot_load_image">Kan ikke laste inn bildet.</string>
     <string name="switch_photo_filmstrip">Filmstripevisning</string>
@@ -283,6 +282,14 @@
     <string name="remaining_photos_format">%d igjen</string>
     <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Makeup fungerer bare under VGA størrelse i videoopptak.</string>
+    <string name="pref_camera2_category_system">System</string>
+    <string name="pref_camera2_restore_default">Gjenopprett standard</string>
     <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="save_best_dialog_native_bt">Avbryt</string>
+    <string name="delete_best_dialog_native_bt">Avbryt</string>
     <string name="delete_best_dialog_positive_bt">Slett</string>
+    <string name="delete_all_best_dialog_native_bt">Avbryt</string>
+    <string name="delete_all_best_dialog_positive_bt">Slett alle</string>
+    <string name="overflow_best_item2">Slett alle</string>
+    <string name="settings_title">Innstillinger</string>
 </resources>

@@ -43,20 +43,20 @@
         <item quantity="one">%1$d kiválasztva</item>
         <item quantity="other">%1$d kiválasztva</item>
     </plurals>
-    <string name="show_on_map">Megjelenítés térképen</string>
+    <string name="show_on_map">Mutassa a térképen</string>
     <string name="rotate_left">Forgatás balra</string>
     <string name="rotate_right">Forgatás jobbra</string>
-    <string name="edit">Szerkesztés</string>
+    <string name="edit">Szerkeztés</string>
     <string name="crop_action">Körbevágás</string>
     <string name="trim_action">Vágás</string>
     <string name="set_as">Beállítás mint</string>
     <string name="video_err">Nem lehet lejátszani a videót.</string>
     <string name="crop_saved">A körbevágott kép mentve a(z) <xliff:g id="FOLDER_NAME">%s</xliff:g> mappába.</string>
-    <string name="title">Cím</string>
+    <string name="title">Név</string>
     <string name="description">Leírás</string>
     <string name="time">Idő</string>
     <string name="location">Hely</string>
-    <string name="path">Elérési út</string>
+    <string name="path">Elérési útvonal</string>
     <string name="width">Szélesség</string>
     <string name="height">Magasság</string>
     <string name="orientation">Tájolás</string>
@@ -70,7 +70,7 @@
     <string name="focal_length">Fókusztávolság</string>
     <string name="white_balance">Fehéregyensúly</string>
     <string name="exposure_time">Exponálási idő</string>
-    <string name="iso">ISO</string>
+    <string name="iso">Válasszon ISO értéket</string>
     <string name="unit_mm">mm</string>
     <string name="manual">Kézi</string>
     <string name="auto">Automatikus</string>
@@ -79,7 +79,7 @@
     <string name="unknown">Ismeretlen</string>
     <string name="try_to_set_local_album_available_offline">Az elem helyileg van tárolva, és elérhető offline módban.</string>
     <string name="please_wait">Kérjük, várjon</string>
-    <string name="rendering_photo_sphere">Körpanorámakép megjelenítése</string>
+    <string name="rendering_photo_sphere">Körpanorámakép összeillesztése</string>
     <string name="camera_error_title">Kamerahiba</string>
     <string name="cannot_connect_camera">Nem lehet csatlakozni a kamerához.</string>
     <string name="camera_disabled">A biztonsági házirendek miatt a kamera le van tiltva.</string>
@@ -92,7 +92,7 @@
     <string name="time_lapse_title">Gyorsított felvétel</string>
     <string name="capturing">Rögzítés</string>
     <string name="pref_camera_id_title">Kameraválasztás</string>
-    <string name="pref_camera_id_entry_back">Hátsó</string>
+    <string name="pref_camera_id_entry_back">Vissza</string>
     <string name="pref_camera_id_entry_front">Elülső</string>
     <string name="pref_camera_recordlocation_title">Hely tárolása</string>
     <string name="pref_camera_location_label">HELY</string>
@@ -102,6 +102,9 @@
         <item quantity="other">%d másodperc</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Hangjelzéssel</string>
+    <string name="pref_camera_savepath_title">Tároló</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">SD-kártya</string>
     <string name="setting_off">Ki</string>
     <string name="setting_on">Be</string>
     <string name="pref_video_quality_title">Videó minősége</string>
@@ -172,7 +175,7 @@
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">ELÜLSŐ KAMERA</string>
     <string name="pref_camera_id_label_front">HÁTSÓ KAMERA</string>
-    <string name="dialog_ok">OK</string>
+    <string name="dialog_ok">Rendben</string>
     <string name="spaceIsLow_content" product="default">Az SD-kártyán kezd elfogyni a hely. Módosítsa a minőségi beállításokat, vagy töröljön néhány képet vagy egyéb fájlt.</string>
     <string name="video_reach_size_limit">A videó elérte a méretkorlátot.</string>
     <string name="pano_too_fast_prompt">Túl gyors</string>
@@ -182,7 +185,7 @@
     <string name="pano_capture_indication">Panorámakép rögzítése</string>
     <string name="pano_dialog_waiting_previous">Várakozás az előző panorámaképre</string>
     <string name="pano_review_saving_indication_str">Mentés\u2026</string>
-    <string name="pano_review_rendering">Panorámakép megjelenítése</string>
+    <string name="pano_review_rendering">Panorámakép összeillesztése</string>
     <string name="tap_to_focus">A fókuszáláshoz érintse meg.</string>
     <string name="pref_video_effect_title">Effektek</string>
     <string name="effect_none">Nincs</string>
@@ -203,7 +206,7 @@
     <string name="effect_background">HÁTTÉR</string>
     <string name="accessibility_shutter_button">Exponálógomb</string>
     <string name="accessibility_exit_best_mode_button">Kilépés a legjobb fotó módból</string>
-    <string name="accessibility_menu_button">Menügomb</string>
+    <string name="accessibility_menu_button">Menü gomb</string>
     <string name="accessibility_mode_picker">Kamera, videó vagy panoráma kiválasztása</string>
     <string name="accessibility_check_box">%1$s jelölőnégyzet</string>
     <string name="accessibility_switch_to_camera">Váltás fotóra</string>
@@ -273,41 +276,42 @@
     <string name="create_tiny_planet">Kisbolygó létrehozása</string>
     <string name="saving_tiny_planet">Kisbolygó mentése…</string>
     <string name="tiny_planet_zoom">Nagyít/kicsinyít</string>
-    <string name="tiny_planet_rotate">Elforgatás</string>
+    <string name="tiny_planet_rotate">Forgatás</string>
     <string name="crop_save">Mentés</string>
     <string name="cannot_load_image">Nem sikerült betölteni a képet!</string>
     <string name="switch_photo_filmstrip">Filmszalagnézet</string>
     <string name="setting_wallpaper">Háttérkép beállítása</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d maradt</string>
     <string name="initial_recording_seconds">0:00</string>
-    <string name="makeup_video_size_limit">Smink csak a VGA méretű videók rögzítésekor működik.</string>
+    <string name="makeup_video_size_limit">A Smink csak a VGA méretű videók rögzítésekor működik.</string>
     <string name="pref_camera2_category_system">Rendszer</string>
-    <string name="pref_camera2_restore_default">Alapértékek visszaállítása</string>
+    <string name="pref_camera2_restore_default">Alapértelmezett beállítások visszaállítása</string>
     <string name="pref_camera2_restore_default_hint">A kamera beállításai alaphelyzetbe kerülnek vissza</string>
     <plurals name="save_best_dialog_content">
-        <item quantity="one">10-ből %1$d kép mentésre kerül és a többi törlődik</item>
-        <item quantity="other">10-ből %1$d kép mentésre kerül és a többi törlődik</item>
+        <item quantity="one">10-ből %1$d kép mentésre kerül és a többi törlődni fog</item>
+        <item quantity="other">10-ből %1$d kép mentésre kerül és a többi törlődni fog</item>
     </plurals>
     <string name="save_best_dialog_title">Menti a kijelölt képeket?</string>
-    <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="save_best_dialog_positive_bt">Rendben</string>
     <string name="save_best_dialog_native_bt">Mégse</string>
     <plurals name="save_best_image_toast">
         <item quantity="one">10-ből %1$d kép elmentve.</item>
         <item quantity="other">10-ből %1$d kép elmentve.</item>
     </plurals>
-    <string name="dialog_do_not_show">Ne jelenjen meg többet</string>
+    <string name="dialog_do_not_show">Ne mutassa újra</string>
     <string name="delete_best_dialog_title">Törli az összeset?</string>
-    <string name="delete_best_dialog_content">Biztosan törli mind a 10 fényképet?</string>
+    <string name="delete_best_dialog_content">Biztos benne, hogy törölni akarja mind a 10 képet?</string>
     <string name="delete_best_dialog_native_bt">Mégse</string>
     <string name="delete_best_dialog_positive_bt">Törlés</string>
     <string name="delete_all_best_dialog_title">Törli az összeset?</string>
-    <string name="delete_all_best_dialog_content">Biztosan törli az összes képet?</string>
+    <string name="delete_all_best_dialog_content">Biztos benne, hogy törölni akarja az összes képet?</string>
     <string name="delete_all_best_dialog_native_bt">Mégse</string>
-    <string name="delete_all_best_dialog_positive_bt">Az összes törlése</string>
+    <string name="delete_all_best_dialog_positive_bt">Összes törlése</string>
     <string name="overflow_best_item1">Az összes mentése</string>
-    <string name="overflow_best_item2">Az összes törlése</string>
+    <string name="overflow_best_item2">Összes törlése</string>
     <string name="settings_title">Beállítások</string>
 </resources>

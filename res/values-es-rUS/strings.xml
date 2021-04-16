@@ -19,7 +19,7 @@
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Establecer imagen como</string>
-    <string name="delete">Borrar</string>
+    <string name="delete">Eliminar</string>
     <plurals name="delete_selection">
         <item quantity="one">¿Borrar elemento?</item>
         <item quantity="other">¿Borrar elementos?</item>
@@ -44,8 +44,8 @@
         <item quantity="other">%1$d seleccionados</item>
     </plurals>
     <string name="show_on_map">Mostrar en el mapa</string>
-    <string name="rotate_left">Girar a la izquierda</string>
-    <string name="rotate_right">Girar a la derecha</string>
+    <string name="rotate_left">Rotar hacia la izquierda</string>
+    <string name="rotate_right">Rotar hacia la derecha</string>
     <string name="edit">Editar</string>
     <string name="crop_action">Recortar</string>
     <string name="trim_action">Recortar</string>
@@ -92,7 +92,7 @@
     <string name="time_lapse_title">Grabación en intervalos</string>
     <string name="capturing">Capturando</string>
     <string name="pref_camera_id_title">Elegir cámara</string>
-    <string name="pref_camera_id_entry_back">Trasera</string>
+    <string name="pref_camera_id_entry_back">Atrás</string>
     <string name="pref_camera_id_entry_front">Frontal</string>
     <string name="pref_camera_recordlocation_title">Ubicación GPS</string>
     <string name="pref_camera_location_label">UBICACIÓN</string>
@@ -102,7 +102,10 @@
         <item quantity="other">%d segundos</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Marcar cta regr</string>
-    <string name="setting_off">Desactivada</string>
+    <string name="pref_camera_savepath_title">Almacenamiento</string>
+    <string name="pref_camera_savepath_entry_0">Teléfono</string>
+    <string name="pref_camera_savepath_entry_1">Tarjeta SD</string>
+    <string name="setting_off">Desactivado</string>
     <string name="setting_on">Activada</string>
     <string name="pref_video_quality_title">Calidad del video</string>
     <string name="pref_video_time_lapse_frame_interval_title">Intervalo</string>
@@ -118,12 +121,12 @@
     <string name="pref_camera_focusmode_label_macro">MACRO</string>
     <string name="pref_camera_flashmode_title">Flash</string>
     <string name="pref_camera_flashmode_entry_auto">Automático</string>
-    <string name="pref_camera_flashmode_entry_on">Activado</string>
+    <string name="pref_camera_flashmode_entry_on">Activada</string>
     <string name="pref_camera_flashmode_entry_off">Desactivado</string>
     <string name="pref_camera_flashmode_label_auto">FLASH AUTOMÁTICO</string>
     <string name="pref_camera_flashmode_label_on">FLASH ACTIVADO</string>
     <string name="pref_camera_flashmode_label_off">FLASH DESACTIVADO</string>
-    <string name="pref_camera_whitebalance_title">Balance de blancos</string>
+    <string name="pref_camera_whitebalance_title">Balance blanco</string>
     <string name="pref_camera_whitebalance_label">BALANCE DE BLANCOS</string>
     <string name="pref_camera_whitebalance_entry_auto">Automático</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Incandescente</string>
@@ -273,12 +276,16 @@
     <string name="create_tiny_planet">Crear efecto miniplaneta</string>
     <string name="saving_tiny_planet">Guardando efecto miniplaneta…</string>
     <string name="tiny_planet_zoom">Zoom</string>
-    <string name="tiny_planet_rotate">Girar</string>
+    <string name="tiny_planet_rotate">Rotar</string>
     <string name="crop_save">Guardar</string>
     <string name="cannot_load_image">No se puede cargar la imagen.</string>
     <string name="switch_photo_filmstrip">Tira de diapositivas</string>
     <string name="setting_wallpaper">Estableciendo fondo de pantalla…</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d izquierda</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">El maquillaje (makeup) trabaja solamente bajo el tamaño VGA en grabación de vídeo.</string>
     <string name="pref_camera2_category_system">Sistema</string>
     <string name="pref_camera2_restore_default">Restaurar predefinidos</string>
@@ -298,12 +305,12 @@
     <string name="delete_best_dialog_title">¿Borrar todo?</string>
     <string name="delete_best_dialog_content">¿Seguro de que quieres borrar las 10 fotos tomadas?</string>
     <string name="delete_best_dialog_native_bt">Cancelar</string>
-    <string name="delete_best_dialog_positive_bt">Borrar</string>
+    <string name="delete_best_dialog_positive_bt">Eliminar</string>
     <string name="delete_all_best_dialog_title">¿Borrar todo?</string>
     <string name="delete_all_best_dialog_content">¿Seguro de que quieres borrar todas las imágenes?</string>
     <string name="delete_all_best_dialog_native_bt">Cancelar</string>
     <string name="delete_all_best_dialog_positive_bt">Borrar todo</string>
     <string name="overflow_best_item1">Guardar todo</string>
     <string name="overflow_best_item2">Borrar todo</string>
-    <string name="settings_title">Ajustes</string>
+    <string name="settings_title">Configuración</string>
 </resources>

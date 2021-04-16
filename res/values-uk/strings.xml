@@ -20,6 +20,12 @@
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Встан. зображення як</string>
     <string name="delete">Видалити</string>
+    <plurals name="delete_selection">
+        <item quantity="one">Видалити вибраний елемент?</item>
+        <item quantity="few">Видалити вибрані елементи?</item>
+        <item quantity="many">Видалити вибрані елементи?</item>
+        <item quantity="other">Видалити вибрані елементи?</item>
+    </plurals>
     <string name="share">Поділитися</string>
     <string name="share_panorama">Поділитися панорамою</string>
     <string name="share_as_photo">Поділитися як фотографією</string>
@@ -27,9 +33,27 @@
     <string name="undo">СКАСУВАТИ</string>
     <string name="details">Подробиці</string>
     <string name="close">Закрити</string>
-    <string name="show_on_map">Показати на карті</string>
-    <string name="rotate_left">Повернути ліворуч</string>
-    <string name="rotate_right">Повернути праворуч</string>
+    <plurals name="number_of_items_selected">
+        <item quantity="one">%1$d обрано</item>
+        <item quantity="few">%1$d обрано</item>
+        <item quantity="many">%1$d обрано</item>
+        <item quantity="other">%1$d обрано</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="one">%1$d обрано</item>
+        <item quantity="few">%1$d обрано</item>
+        <item quantity="many">%1$d обрано</item>
+        <item quantity="other">%1$d обрано</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="one">%1$d обрано</item>
+        <item quantity="few">%1$d обрано</item>
+        <item quantity="many">%1$d обрано</item>
+        <item quantity="other">%1$d обрано</item>
+    </plurals>
+    <string name="show_on_map">Показати на мапі</string>
+    <string name="rotate_left">Обернути ліворуч</string>
+    <string name="rotate_right">Обернути праворуч</string>
     <string name="edit">Редагувати</string>
     <string name="crop_action">Кадрувати</string>
     <string name="trim_action">Обрізати</string>
@@ -39,7 +63,7 @@
     <string name="title">Назва</string>
     <string name="description">Опис</string>
     <string name="time">Час</string>
-    <string name="location">Місцезнаходження</string>
+    <string name="location">Розташування</string>
     <string name="path">Шлях</string>
     <string name="width">Ширина</string>
     <string name="height">Висота</string>
@@ -81,7 +105,16 @@
     <string name="pref_camera_recordlocation_title">GPS місцезнаходження</string>
     <string name="pref_camera_location_label">МІСЦЕЗНАХОДЖЕННЯ</string>
     <string name="pref_camera_timer_title">Таймер зворотного відліку</string>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="one">1 с.</item>
+        <item quantity="few">%d с.</item>
+        <item quantity="many">%d с.</item>
+        <item quantity="other">%d с.</item>
+    </plurals>
     <string name="pref_camera_timer_sound_title">Звуковий сигнал під час зворотного відліку</string>
+    <string name="pref_camera_savepath_title">Пам\'ять</string>
+    <string name="pref_camera_savepath_entry_0">Телефон</string>
+    <string name="pref_camera_savepath_entry_1">SD-карта</string>
     <string name="setting_off">Вимк</string>
     <string name="setting_on">Увімк</string>
     <string name="pref_video_quality_title">Якість відео</string>
@@ -110,7 +143,7 @@
     <string name="pref_camera_whitebalance_entry_daylight">Денне світло</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Лампа денного світла</string>
     <string name="pref_camera_whitebalance_entry_cloudy">Хмарно</string>
-    <string name="pref_camera_whitebalance_label_auto">AUTO</string>
+    <string name="pref_camera_whitebalance_label_auto">АВТО</string>
     <string name="pref_camera_whitebalance_label_incandescent">ЛАМПА РОЗЖАРЮВАННЯ</string>
     <string name="pref_camera_whitebalance_label_daylight">ДЕННЕ СВІТЛО</string>
     <string name="pref_camera_whitebalance_label_fluorescent">ЛАМПА ДЕННОГО СВІТЛА</string>
@@ -152,7 +185,7 @@
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">ПЕРЕДНЯ КАМЕРА</string>
     <string name="pref_camera_id_label_front">ЗАДНЯ КАМЕРИ</string>
-    <string name="dialog_ok">OK</string>
+    <string name="dialog_ok">ОК</string>
     <string name="spaceIsLow_content" product="default">На карті SD недостатньо місця. Змініть налаштування якості чи видаліть зображення або інші файли.</string>
     <string name="video_reach_size_limit">Досягнуто обмеження розміру.</string>
     <string name="pano_too_fast_prompt">Занадто швидко</string>
@@ -165,7 +198,7 @@
     <string name="pano_review_rendering">Обробка панорами</string>
     <string name="tap_to_focus">Торкніться, щоб фокусувати.</string>
     <string name="pref_video_effect_title">Ефекти</string>
-    <string name="effect_none">Нічого</string>
+    <string name="effect_none">Немає</string>
     <string name="effect_goofy_face_squeeze">Стиснення</string>
     <string name="effect_goofy_face_big_eyes">Великі очі</string>
     <string name="effect_goofy_face_big_mouth">Великий рот</string>
@@ -182,6 +215,7 @@
     <string name="effect_silly_faces">КУМЕДНІ ОБЛИЧЧЯ</string>
     <string name="effect_background">ФОН</string>
     <string name="accessibility_shutter_button">Затвор</string>
+    <string name="accessibility_exit_best_mode_button">Вихід з режиму найкращого знімка</string>
     <string name="accessibility_menu_button">Кнопка «Меню»</string>
     <string name="accessibility_mode_picker">Перемикач між режимами «Фото», «Відео» і «Панорама»</string>
     <string name="accessibility_check_box">Прапорець %1$s</string>
@@ -252,13 +286,45 @@
     <string name="create_tiny_planet">Створити крихітну планету</string>
     <string name="saving_tiny_planet">Збереження крихітної планети …</string>
     <string name="tiny_planet_zoom">Масштабування</string>
-    <string name="tiny_planet_rotate">Повернути</string>
+    <string name="tiny_planet_rotate">Обернути</string>
     <string name="crop_save">Зберегти</string>
     <string name="cannot_load_image">Не вдалося завантажити зображення!</string>
     <string name="switch_photo_filmstrip">Подання діафільму</string>
     <string name="setting_wallpaper">Встановити шпалери</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">Залишилось: %d</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Функція Makeup працює тільки під час запису відео в VGA.</string>
-    <string name="save_best_dialog_positive_bt">OK</string>
+    <string name="pref_camera2_category_system">Система</string>
+    <string name="pref_camera2_restore_default">Відновити значення за замовчуванням</string>
+    <string name="pref_camera2_restore_default_hint">Налаштування камери будуть відновлені за замовчуванням</string>
+    <plurals name="save_best_dialog_content">
+        <item quantity="one">%1$d із 10 зображень будуть збережені, а решта буде видалена</item>
+        <item quantity="few">%1$d із 10 зображень будуть збережені, а решта буде видалена</item>
+        <item quantity="many">%1$d із 10 зображень будуть збережені, а решта буде видалена</item>
+        <item quantity="other">%1$d із 10 зображень будуть збережені, а решта буде видалена</item>
+    </plurals>
+    <string name="save_best_dialog_title">Зберегти вибрані зображення?</string>
+    <string name="save_best_dialog_positive_bt">ОК</string>
+    <string name="save_best_dialog_native_bt">Скаcувати</string>
+    <plurals name="save_best_image_toast">
+        <item quantity="one">%1$d із 10 зображень збережено.</item>
+        <item quantity="few">%1$d із 10 зображень збережено.</item>
+        <item quantity="many">%1$d із 10 зображень збережено.</item>
+        <item quantity="other">%1$d із 10 зображень збережено.</item>
+    </plurals>
+    <string name="dialog_do_not_show">Не показувати знову</string>
+    <string name="delete_best_dialog_title">Видалити всі?</string>
+    <string name="delete_best_dialog_content">Ви дійсно хочете видалити всі 10 зображень?</string>
+    <string name="delete_best_dialog_native_bt">Скаcувати</string>
     <string name="delete_best_dialog_positive_bt">Видалити</string>
+    <string name="delete_all_best_dialog_title">Видалити всі?</string>
+    <string name="delete_all_best_dialog_content">Ви впевнені, що хочете видалити зображення?</string>
+    <string name="delete_all_best_dialog_native_bt">Скаcувати</string>
+    <string name="delete_all_best_dialog_positive_bt">Видалити всі</string>
+    <string name="overflow_best_item1">Зберегти все</string>
+    <string name="overflow_best_item2">Видалити всі</string>
+    <string name="settings_title">Налаштування</string>
 </resources>

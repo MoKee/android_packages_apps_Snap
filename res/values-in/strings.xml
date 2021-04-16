@@ -39,20 +39,20 @@
     <plurals name="number_of_groups_selected">
         <item quantity="other">%1$d dipilih</item>
     </plurals>
-    <string name="show_on_map">Tampilkan di peta</string>
+    <string name="show_on_map">Tampilkan pada peta</string>
     <string name="rotate_left">Putar ke kiri</string>
     <string name="rotate_right">Putar ke kanan</string>
-    <string name="edit">Edit</string>
+    <string name="edit">Ubah</string>
     <string name="crop_action">Potong</string>
     <string name="trim_action">Pangkas</string>
     <string name="set_as">Atur sebagai</string>
     <string name="video_err">Tidak dapat memutar video.</string>
     <string name="crop_saved">Gambar yang dipotong disimpan ke <xliff:g id="folder_name">%s</xliff:g>.</string>
-    <string name="title">Nama</string>
+    <string name="title">Judul</string>
     <string name="description">Deskripsi</string>
     <string name="time">Waktu</string>
     <string name="location">Lokasi</string>
-    <string name="path">Alur</string>
+    <string name="path">Jalur</string>
     <string name="width">Lebar</string>
     <string name="height">Tinggi</string>
     <string name="orientation">Orientasi</string>
@@ -69,7 +69,7 @@
     <string name="iso">ISO</string>
     <string name="unit_mm">mm</string>
     <string name="manual">Manual</string>
-    <string name="auto">Otomatis</string>
+    <string name="auto">Secara otomatis</string>
     <string name="flash_on">Lampu kilat aktif</string>
     <string name="flash_off">Tanpa lampu kilat</string>
     <string name="unknown">Tidak dikenal</string>
@@ -80,7 +80,7 @@
     <string name="cannot_connect_camera">Tidak dapat terhubung ke kamera.</string>
     <string name="camera_disabled">Kamera telah dinonaktifkan karena kebijakan keamanan.</string>
     <string name="error_permissions">Aplikasi ini tidak memiliki izin kritis yang diperlukan untuk menjalankan. Silakan periksa pengaturan izin anda.</string>
-    <string name="dialog_dismiss">Abaikan</string>
+    <string name="dialog_dismiss">Tutup</string>
     <string name="wait">Harap tunggu\u2026</string>
     <string name="no_storage" product="default">Masukkan kartu SD sebelum menggunakan kamera.</string>
     <string name="preparing_sd" product="default">Menyiapkan kartu SD\u2026</string>
@@ -97,6 +97,9 @@
         <item quantity="other">%d detik</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Bip penghitungan</string>
+    <string name="pref_camera_savepath_title">Penyimpanan</string>
+    <string name="pref_camera_savepath_entry_0">Telepon</string>
+    <string name="pref_camera_savepath_entry_1">Kartu SD</string>
     <string name="setting_off">Mati</string>
     <string name="setting_on">Hidup</string>
     <string name="pref_video_quality_title">Kualitas video</string>
@@ -105,22 +108,22 @@
     <string name="pref_camcorder_settings_category">Pengaturan perekam video</string>
     <string name="pref_camera_picturesize_title">Ukuran gambar</string>
     <string name="pref_camera_focusmode_title">Mode fokus</string>
-    <string name="pref_camera_focusmode_entry_auto">Otomatis</string>
+    <string name="pref_camera_focusmode_entry_auto">Secara otomatis</string>
     <string name="pref_camera_focusmode_entry_infinity">Tak Terbatas</string>
     <string name="pref_camera_focusmode_entry_macro">Makro</string>
     <string name="pref_camera_focusmode_label_auto">OTOMATIS</string>
     <string name="pref_camera_focusmode_label_infinity">TAK TERBATAS</string>
     <string name="pref_camera_focusmode_label_macro">BESAR</string>
     <string name="pref_camera_flashmode_title">Lampu kilat</string>
-    <string name="pref_camera_flashmode_entry_auto">Otomatis</string>
-    <string name="pref_camera_flashmode_entry_on">Aktif</string>
-    <string name="pref_camera_flashmode_entry_off">Tidak aktif</string>
+    <string name="pref_camera_flashmode_entry_auto">Secara otomatis</string>
+    <string name="pref_camera_flashmode_entry_on">Hidup</string>
+    <string name="pref_camera_flashmode_entry_off">Mati</string>
     <string name="pref_camera_flashmode_label_auto">LAMPU KILAT OTOMATIS</string>
     <string name="pref_camera_flashmode_label_on">LAMPU KILAT HIDUP</string>
     <string name="pref_camera_flashmode_label_off">LAMPU KILAT MATI</string>
     <string name="pref_camera_whitebalance_title">Keseimbangan putih</string>
     <string name="pref_camera_whitebalance_label">KESEIMBANGAN PUTIH</string>
-    <string name="pref_camera_whitebalance_entry_auto">Otomatis</string>
+    <string name="pref_camera_whitebalance_entry_auto">Secara otomatis</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Berpijar</string>
     <string name="pref_camera_whitebalance_entry_daylight">Siang Hari</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Berpendar</string>
@@ -131,7 +134,7 @@
     <string name="pref_camera_whitebalance_label_fluorescent">BERPENDAR</string>
     <string name="pref_camera_whitebalance_label_cloudy">BERAWAN</string>
     <string name="pref_camera_scenemode_title">Mode adegan</string>
-    <string name="pref_camera_scenemode_entry_auto">Otomatis</string>
+    <string name="pref_camera_scenemode_entry_auto">Secara otomatis</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ HIDUP</string>
@@ -167,7 +170,7 @@
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">KAMERA DEPAN</string>
     <string name="pref_camera_id_label_front">KAMERA BELAKANG</string>
-    <string name="dialog_ok">OK</string>
+    <string name="dialog_ok">Oke</string>
     <string name="spaceIsLow_content" product="default">Kartu SD Anda kehabisan ruang kosong. Ubah pengaturan kualitas atau hapus beberapa gambar atau berkas lain.</string>
     <string name="video_reach_size_limit">Batas ukuran tercapai.</string>
     <string name="pano_too_fast_prompt">Terlalu cepat</string>
@@ -180,7 +183,7 @@
     <string name="pano_review_rendering">Merender panorama</string>
     <string name="tap_to_focus">Sentuh untuk fokus.</string>
     <string name="pref_video_effect_title">Efek</string>
-    <string name="effect_none">Tidak ada</string>
+    <string name="effect_none">Tidak Ada</string>
     <string name="effect_goofy_face_squeeze">Remas</string>
     <string name="effect_goofy_face_big_eyes">Mata besar</string>
     <string name="effect_goofy_face_big_mouth">Mulut besar</string>
@@ -188,7 +191,7 @@
     <string name="effect_goofy_face_big_nose">Hidung besar</string>
     <string name="effect_goofy_face_small_eyes">Mata kecil</string>
     <string name="effect_backdropper_space">Luar angkasa</string>
-    <string name="effect_backdropper_sunset">Terbenam</string>
+    <string name="effect_backdropper_sunset">Senja</string>
     <string name="effect_backdropper_gallery">Video Anda</string>
     <string name="video_snapshot_hint">Sentuh untuk mengambil foto saat sedang merekam.</string>
     <string name="video_recording_started">Perekaman video telah dimulai.</string>
@@ -267,13 +270,17 @@
     <string name="camera_menu_settings_label">SETELAN</string>
     <string name="create_tiny_planet">Buat Tiny Planet</string>
     <string name="saving_tiny_planet">Menyimpan Tiny Planet …</string>
-    <string name="tiny_planet_zoom">Zoom</string>
+    <string name="tiny_planet_zoom">Perbesar</string>
     <string name="tiny_planet_rotate">Putar</string>
     <string name="crop_save">Simpan</string>
     <string name="cannot_load_image">Tidak dapat memuat gambar!</string>
     <string name="switch_photo_filmstrip">Tampilan bingkai film</string>
     <string name="setting_wallpaper">Setel wallpaper</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d tersisa</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Makeup hanya bekerja dibawah ukuran VGA di perekam video.</string>
     <string name="pref_camera2_category_system">Sistem</string>
     <string name="pref_camera2_restore_default">Kembalikan ke awal</string>
@@ -282,15 +289,15 @@
         <item quantity="other">%1$d dari 10 gambar akan disimpan dan sisanya akan dihapus</item>
     </plurals>
     <string name="save_best_dialog_title">Simpan gambar yang dipilih?</string>
-    <string name="save_best_dialog_positive_bt">OK</string>
-    <string name="save_best_dialog_native_bt">Batalkan</string>
+    <string name="save_best_dialog_positive_bt">Oke</string>
+    <string name="save_best_dialog_native_bt">Batal</string>
     <plurals name="save_best_image_toast">
         <item quantity="other">%1$d dari 10 gambar telah disimpan.</item>
     </plurals>
     <string name="dialog_do_not_show">Jangan tampilkan lagi</string>
     <string name="delete_best_dialog_title">Hapus semua?</string>
     <string name="delete_best_dialog_content">Apakah Anda yakin ingin menghapus 10 foto yang dipotret?</string>
-    <string name="delete_best_dialog_native_bt">Batalkan</string>
+    <string name="delete_best_dialog_native_bt">Batal</string>
     <string name="delete_best_dialog_positive_bt">Hapus</string>
     <string name="delete_all_best_dialog_title">Hapus semua?</string>
     <string name="delete_all_best_dialog_content">Apakah Anda yakin ingin menghapus semua gambar?</string>

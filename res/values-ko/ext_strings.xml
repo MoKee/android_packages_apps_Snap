@@ -16,14 +16,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pref_camera_aspectratio_wide">와이드</string>
-    <string name="pref_camera_megapixel_format">(<xliff:g id="ratio" example="16:9">%1$s</xliff:g>) <xliff:g id="pixels">%2$1.1f</xliff:g>백만 화소</string>
+    <string name="pref_camera_megapixel_format">(<xliff:g id="ratio" example="16:9">%1$s</xliff:g>) <xliff:g id="pixels">%2$1.1f</xliff:g>만 화소</string>
     <string name="pref_camera_scenemode_entry_antimotionblur">모션 블러 감소</string>
     <string name="pref_camera_scenemode_entry_aqua">아쿠아</string>
     <string name="pref_camera_scenemode_entry_ar">증강 현실</string>
     <string name="pref_camera_scenemode_entry_asd">베스트 샷</string>
     <string name="pref_camera_scenemode_entry_baby">아기</string>
     <string name="pref_camera_scenemode_entry_backgroundblur">배경 블러</string>
-    <string name="pref_camera_scenemode_entry_backlight">역광</string>
+    <string name="pref_camera_scenemode_entry_backlight">백라이트</string>
     <string name="pref_camera_scenemode_entry_backlightportrait">역광 (인물)</string>
     <string name="pref_camera_scenemode_entry_barcode">바코드</string>
     <string name="pref_camera_scenemode_entry_beach">해변</string>
@@ -56,7 +56,7 @@
     <string name="pref_camera_scenemode_entry_steadyphoto">안정된 사진</string>
     <string name="pref_camera_scenemode_entry_supernight">어두운 밤</string>
     <string name="pref_camera_scenemode_entry_sweepstitch">파노라마</string>
-    <string name="pref_camera_scenemode_entry_text">텍스트</string>
+    <string name="pref_camera_scenemode_entry_text">수치</string>
     <string name="pref_camera_scenemode_entry_theatre">극장</string>
     <string name="pref_camera_scenemode_entry_whiteboard">화이트보드</string>
     <string name="pref_camera_focusmode_entry_continuous">연속</string>

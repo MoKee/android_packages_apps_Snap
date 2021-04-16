@@ -19,7 +19,7 @@
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Setați fotografia ca</string>
-    <string name="delete">Ștergeți</string>
+    <string name="delete">Ștergeţi</string>
     <plurals name="delete_selection">
         <item quantity="one">Ștergeți articolul selectat?</item>
         <item quantity="few">Ștergeți articolele selectate?</item>
@@ -48,9 +48,9 @@
         <item quantity="other">%1$d selectate</item>
     </plurals>
     <string name="show_on_map">Afişaţi pe hartă</string>
-    <string name="rotate_left">Rotește spre stânga</string>
-    <string name="rotate_right">Rotește spre dreapta</string>
-    <string name="edit">Editare</string>
+    <string name="rotate_left">Rotiţi spre stânga</string>
+    <string name="rotate_right">Rotiţi spre dreapta</string>
+    <string name="edit">Editează / Editare</string>
     <string name="crop_action">Decupați</string>
     <string name="trim_action">Decupaţi</string>
     <string name="set_as">Setați ca</string>
@@ -61,8 +61,8 @@
     <string name="time">Timp</string>
     <string name="location">Locație</string>
     <string name="path">Cale</string>
-    <string name="width">Lățime</string>
-    <string name="height">Înălțime</string>
+    <string name="width">Lăţime</string>
+    <string name="height">Înălţime</string>
     <string name="orientation">Orientare</string>
     <string name="duration">Durată</string>
     <string name="mimetype">Tip MIME</string>
@@ -77,10 +77,10 @@
     <string name="iso">ISO</string>
     <string name="unit_mm">mm</string>
     <string name="manual">Manual</string>
-    <string name="auto">Automat</string>
+    <string name="auto">Auto</string>
     <string name="flash_on">Bliț activat</string>
     <string name="flash_off">Fără bliț</string>
-    <string name="unknown">Necunoscută</string>
+    <string name="unknown">Necunoscut</string>
     <string name="try_to_set_local_album_available_offline">        Acest element este stocat local și disponibil offline.</string>
     <string name="please_wait">Așteptați</string>
     <string name="rendering_photo_sphere">Redare fotografie sferică</string>
@@ -97,7 +97,7 @@
     <string name="capturing">Se capturează</string>
     <string name="pref_camera_id_title">Alegeți camera foto</string>
     <string name="pref_camera_id_entry_back">Înapoi</string>
-    <string name="pref_camera_id_entry_front">Frontală</string>
+    <string name="pref_camera_id_entry_front">Frontal</string>
     <string name="pref_camera_recordlocation_title">Locație GPS</string>
     <string name="pref_camera_location_label">LOCAȚIE</string>
     <string name="pref_camera_timer_title">Temporizator</string>
@@ -107,7 +107,10 @@
         <item quantity="other">%d secunde</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Bip în timpul numărătorii inverse</string>
-    <string name="setting_off">Dezactivat</string>
+    <string name="pref_camera_savepath_title">Stocare</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">Card SD</string>
+    <string name="setting_off">Oprit</string>
     <string name="setting_on">Activat</string>
     <string name="pref_video_quality_title">Calitatea video</string>
     <string name="pref_video_time_lapse_frame_interval_title">Filmare lentă</string>
@@ -115,22 +118,22 @@
     <string name="pref_camcorder_settings_category">Setările camerei video</string>
     <string name="pref_camera_picturesize_title">Dimensiune fotografie</string>
     <string name="pref_camera_focusmode_title">Mod focalizare</string>
-    <string name="pref_camera_focusmode_entry_auto">Automat</string>
+    <string name="pref_camera_focusmode_entry_auto">Auto</string>
     <string name="pref_camera_focusmode_entry_infinity">Infinit</string>
     <string name="pref_camera_focusmode_entry_macro">Macro</string>
     <string name="pref_camera_focusmode_label_auto">AUTOMAT</string>
     <string name="pref_camera_focusmode_label_infinity">INFINIT</string>
     <string name="pref_camera_focusmode_label_macro">MACRO</string>
     <string name="pref_camera_flashmode_title">Bliț</string>
-    <string name="pref_camera_flashmode_entry_auto">Automat</string>
+    <string name="pref_camera_flashmode_entry_auto">Auto</string>
     <string name="pref_camera_flashmode_entry_on">Activat</string>
-    <string name="pref_camera_flashmode_entry_off">Dezactivat</string>
+    <string name="pref_camera_flashmode_entry_off">Oprit</string>
     <string name="pref_camera_flashmode_label_auto">BLIȚ AUTOMAT</string>
     <string name="pref_camera_flashmode_label_on">BLIȚ ACTIVAT</string>
     <string name="pref_camera_flashmode_label_off">BLIȚ DEZACTIVAT</string>
     <string name="pref_camera_whitebalance_title">Balans de alb</string>
     <string name="pref_camera_whitebalance_label">BALANS DE ALB</string>
-    <string name="pref_camera_whitebalance_entry_auto">Automat</string>
+    <string name="pref_camera_whitebalance_entry_auto">Auto</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
     <string name="pref_camera_whitebalance_entry_daylight">Lumină de zi</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
@@ -141,7 +144,7 @@
     <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCENT</string>
     <string name="pref_camera_whitebalance_label_cloudy">ÎNNORAT</string>
     <string name="pref_camera_scenemode_title">Mod Scenă</string>
-    <string name="pref_camera_scenemode_entry_auto">Automat</string>
+    <string name="pref_camera_scenemode_entry_auto">Auto</string>
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ ACTIVAT</string>
@@ -208,7 +211,7 @@
     <string name="effect_background">FUNDAL</string>
     <string name="accessibility_shutter_button">Obturator</string>
     <string name="accessibility_exit_best_mode_button">Ieșire din modul cea mai bună fotografie</string>
-    <string name="accessibility_menu_button">Buton Meniu</string>
+    <string name="accessibility_menu_button">Butonul Meniu</string>
     <string name="accessibility_mode_picker">Selector pentru cameră foto, cameră video sau panoramă</string>
     <string name="accessibility_check_box">Caseta de selectare pentru %1$s</string>
     <string name="accessibility_switch_to_camera">Comutați la foto</string>
@@ -221,7 +224,7 @@
     <string name="accessibility_review_retake">Refaceţi</string>
     <string name="capital_on">ACTIVAT</string>
     <string name="capital_off">DEZACTIVAT</string>
-    <string name="pref_video_time_lapse_frame_interval_off">Dezactivat</string>
+    <string name="pref_video_time_lapse_frame_interval_off">Oprit</string>
     <string name="pref_video_time_lapse_frame_interval_500">0,5 secunde</string>
     <string name="pref_video_time_lapse_frame_interval_1000">1 secundă</string>
     <string name="pref_video_time_lapse_frame_interval_1500">1,5 secunde</string>
@@ -278,8 +281,8 @@
     <string name="create_tiny_planet">Creați o Miniplanetă</string>
     <string name="saving_tiny_planet">Se salvează Miniplaneta …</string>
     <string name="tiny_planet_zoom">Zoom</string>
-    <string name="tiny_planet_rotate">Rotiţi</string>
-    <string name="crop_save">Salvați</string>
+    <string name="tiny_planet_rotate">Rotire</string>
+    <string name="crop_save">Salvaţi</string>
     <string name="cannot_load_image">Nu se poate încărca imaginea!</string>
     <string name="switch_photo_filmstrip">Afișare tip peliculă</string>
     <string name="setting_wallpaper">Se setează imaginea de fundal</string>
@@ -299,7 +302,7 @@
     </plurals>
     <string name="save_best_dialog_title">Salvați imaginile selectate?</string>
     <string name="save_best_dialog_positive_bt">OK</string>
-    <string name="save_best_dialog_native_bt">Anulați</string>
+    <string name="save_best_dialog_native_bt">Revocați</string>
     <plurals name="save_best_image_toast">
         <item quantity="one">%1$d din 10 imagini salvată.</item>
         <item quantity="few">%1$d din 10 imagini salvate.</item>
@@ -308,11 +311,11 @@
     <string name="dialog_do_not_show">Nu mai afişa</string>
     <string name="delete_best_dialog_title">Ștergeți tot?</string>
     <string name="delete_best_dialog_content">Sigur doriți să ștergeți toate cele 10 fotografii?</string>
-    <string name="delete_best_dialog_native_bt">Anulați</string>
-    <string name="delete_best_dialog_positive_bt">Ștergeți</string>
+    <string name="delete_best_dialog_native_bt">Revocați</string>
+    <string name="delete_best_dialog_positive_bt">Ștergeţi</string>
     <string name="delete_all_best_dialog_title">Ștergeți tot?</string>
     <string name="delete_all_best_dialog_content">Sigur doriți să ștergeți toate imaginile?</string>
-    <string name="delete_all_best_dialog_native_bt">Anulați</string>
+    <string name="delete_all_best_dialog_native_bt">Revocați</string>
     <string name="delete_all_best_dialog_positive_bt">Ștergeți tot</string>
     <string name="overflow_best_item1">Salvați tot</string>
     <string name="overflow_best_item2">Ștergeți tot</string>

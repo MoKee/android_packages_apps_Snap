@@ -28,12 +28,10 @@
         <item quantity="many">Dileu\'r eitemau a ddewiswyd?</item>
         <item quantity="other">Dileu\'r eitemau a ddewiswyd?</item>
     </plurals>
-    <string name="share">Rhannu</string>
     <string name="share_panorama">Rhannu\'r panorama</string>
     <string name="share_as_photo">Rhannu fel llun</string>
     <string name="deleted">Dilëwyd</string>
     <string name="undo">DADWNEUD</string>
-    <string name="details">Manylion</string>
     <string name="close">Cau</string>
     <plurals name="number_of_items_selected">
         <item quantity="zero">%1$d wedi\'u dewis</item>
@@ -59,22 +57,12 @@
         <item quantity="many">%1$d wedi\'u dewis</item>
         <item quantity="other">%1$d wedi\'u dewis</item>
     </plurals>
-    <string name="show_on_map">Dangos ar fap</string>
-    <string name="rotate_left">Cylchdroi\'n wrthglocwedd</string>
-    <string name="rotate_right">Cylchdroi i\'r dde</string>
-    <string name="edit">Golygu</string>
     <string name="crop_action">Tocio</string>
     <string name="trim_action">Tocio</string>
     <string name="set_as">Gosod fel</string>
     <string name="video_err">Methu â chwarae\'r fideo.</string>
     <string name="crop_saved">Cadwyd y ddelwedd wedi\'i thocio yn <xliff:g id="folder_name">%s</xliff:g>.</string>
-    <string name="title">Teitl</string>
-    <string name="description">Disgrifiad</string>
     <string name="time">Amser</string>
-    <string name="location">Lleoliad</string>
-    <string name="path">Llwybr</string>
-    <string name="width">Lled</string>
-    <string name="height">Uchder</string>
     <string name="orientation">Gorweddiad</string>
     <string name="duration">Hyd</string>
     <string name="mimetype">Math MIME</string>
@@ -85,7 +73,7 @@
     <string name="aperture">Agorfa</string>
     <string name="focal_length">Hyd Ffocal</string>
     <string name="white_balance">Cydbwysedd gwyn</string>
-    <string name="exposure_time">Amser amlygiad</string>
+    <string name="exposure_time">Amser Dinoethiad</string>
     <string name="iso">ISO</string>
     <string name="unit_mm">mm</string>
     <string name="manual">Â llaw</string>
@@ -100,7 +88,7 @@
     <string name="cannot_connect_camera">Methu â chysylltu â\'r camera.</string>
     <string name="camera_disabled">Mae\'r camera wedi\'i analluogi oherwydd polisïau diogelwch.</string>
     <string name="error_permissions">Nid oes gan yr ap yr hawliau sydd ei angen arno er mwyn rhedeg. Gwiria dy osodiadau caniatâd.</string>
-    <string name="dialog_dismiss">Gwrthod</string>
+    <string name="dialog_dismiss">Wfftio</string>
     <string name="wait">Arhosa\u2026</string>
     <string name="no_storage" product="default">Gosoda gerdyn SD cyn defnyddio\'r camera.</string>
     <string name="preparing_sd" product="default">Yn paratoi\'r cerdyn SD\u2026</string>
@@ -109,8 +97,6 @@
     <string name="capturing">Cipio</string>
     <string name="pref_camera_id_title">Dewis camera</string>
     <string name="pref_camera_id_entry_back">Nôl</string>
-    <string name="pref_camera_id_entry_front">Blaen</string>
-    <string name="pref_camera_recordlocation_title">Lleoliad GPS</string>
     <string name="pref_camera_location_label">LLEOLIAD</string>
     <string name="pref_camera_timer_title">Amserydd cyfrif i lawr</string>
     <plurals name="pref_camera_timer_entry">
@@ -122,7 +108,7 @@
         <item quantity="other">%d eiliad</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Bipio wrth gyfrif i lawr</string>
-    <string name="setting_off">I Ffwrdd</string>
+    <string name="pref_camera_savepath_entry_1">Cerdyn SD</string>
     <string name="setting_on">Ymlaen</string>
     <string name="pref_video_quality_title">Ansawdd fideo</string>
     <string name="pref_video_time_lapse_frame_interval_title">Treigl amser</string>
@@ -139,7 +125,6 @@
     <string name="pref_camera_flashmode_title">Flach</string>
     <string name="pref_camera_flashmode_entry_auto">Awto</string>
     <string name="pref_camera_flashmode_entry_on">Ymlaen</string>
-    <string name="pref_camera_flashmode_entry_off">I ffwrdd</string>
     <string name="pref_camera_flashmode_label_auto">FFLACH - AWTO</string>
     <string name="pref_camera_flashmode_label_on">FFLACH - GORFODI</string>
     <string name="pref_camera_flashmode_label_off">FFLACH - DIM</string>
@@ -164,7 +149,6 @@
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR YMLAEN</string>
     <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR I FFWRDD</string>
     <string name="pref_camera_scenemode_entry_action">Symudiad</string>
-    <string name="pref_camera_scenemode_entry_night">Nos</string>
     <string name="pref_camera_scenemode_entry_sunset">Machlud</string>
     <string name="pref_camera_scenemode_entry_party">Parti</string>
     <string name="pref_camera_scenemode_label_auto">DIM</string>
@@ -178,17 +162,8 @@
     <string name="pref_camera_countdown_label_ten">10 EILIAD</string>
     <string name="pref_camera_countdown_label_fifteen">15 EILIAD</string>
     <string name="not_selectable_in_scene_mode">Nid yw\'n bosib ei ddewis mewn modd golygfa.</string>
-    <string name="HDR_disable_continuous_shot">Bydd HDR yn analluogi cipio parhaus.</string>
-    <string name="advanced_capture_disable_continuous_shot">Bydd cipiad uwch yn analluogi cipio parhaus.</string>
-    <string name="video_quality_4k_disable_IS">Bydd defnyddio ansawdd fideo 4k yn analluogi sefydlogi\'r llun.</string>
-    <string name="video_quality_4k_disable_SeeMore">Ni ellir galluogi SeeMore yn ystod fideo 4k.</string>
-    <string name="disable_CDS_during_HighQualityNoiseReduction">Bydd lleihad sŵn o ansawdd uchel yn analluogi CDS.</string>
-    <string name="disable_TNR_during_HighQualityNoiseReduction">Bydd lleihad sŵn o ansawdd uchel yn analluogi TNR.</string>
-    <string name="disable_CDS_during_SeeMore">Bydd SeeMore yn analluogi CDS.</string>
-    <string name="disable_TNR_during_SeeMore">Bydd SeeMore yn analluogi TNR.</string>
-    <string name="disable_NR_during_SeeMore">Bydd SeeMore yn analluogi lleihad sŵn.</string>
-    <string name="pref_exposure_title">Amlygiad</string>
-    <string name="pref_exposure_label">AMLYGIAD</string>
+    <string name="pref_exposure_title">Goleuni</string>
+    <string name="pref_exposure_label">GOLEUNI</string>
     <string name="pref_camera_hdr_label">HDR</string>
     <string name="pref_camera_id_label_back">CAMERA BLAEN</string>
     <string name="pref_camera_id_label_front">CAMERA CEFN</string>
@@ -236,7 +211,6 @@
     <string name="accessibility_review_retake">Adolygu eto</string>
     <string name="capital_on">YMLAEN</string>
     <string name="capital_off">I FFWRDD</string>
-    <string name="pref_video_time_lapse_frame_interval_off">I ffwrdd</string>
     <string name="pref_video_time_lapse_frame_interval_500">0.5 eiliad</string>
     <string name="pref_video_time_lapse_frame_interval_1000">1 eiliad</string>
     <string name="pref_video_time_lapse_frame_interval_1500">1.5 eiliad</string>
@@ -257,7 +231,6 @@
     <string name="pref_video_time_lapse_frame_interval_150000">2.5 munud</string>
     <string name="pref_video_time_lapse_frame_interval_180000">3 munud</string>
     <string name="pref_video_time_lapse_frame_interval_240000">4 munud</string>
-    <string name="pref_video_time_lapse_frame_interval_300000">5 munud</string>
     <string name="pref_video_time_lapse_frame_interval_360000">6 munud</string>
     <string name="pref_video_time_lapse_frame_interval_600000">10 munud</string>
     <string name="pref_video_time_lapse_frame_interval_720000">12 munud</string>
@@ -279,7 +252,7 @@
     <string name="time_lapse_seconds">eiliadau</string>
     <string name="time_lapse_minutes">munudau</string>
     <string name="time_lapse_hours">oriau</string>
-    <string name="time_lapse_interval_set">Iawn</string>
+    <string name="time_lapse_interval_set">Cwblhau</string>
     <string name="set_time_interval">Gosod Ysbaid Amser</string>
     <string name="set_time_interval_help">Mae\'r nodwedd treigl amser i ffwrdd. Rhaid ei droi ymlaen i osod ysbaid amser.</string>
     <string name="set_duration">Gosod yr hyd mewn eiliadau</string>
@@ -293,13 +266,9 @@
     <string name="create_tiny_planet">Creu Delwedd Planed Fychan</string>
     <string name="saving_tiny_planet">Yn cadw fy Mhlaned Fychan …</string>
     <string name="tiny_planet_zoom">Chwyddo</string>
-    <string name="tiny_planet_rotate">Cylchdroi</string>
-    <string name="crop_save">Cadw</string>
     <string name="cannot_load_image">Methu â llwytho\'r ddelwedd!</string>
     <string name="switch_photo_filmstrip">Golwg stribed ffilm</string>
     <string name="setting_wallpaper">Yn gosod fel papur wal</string>
-    <string name="remaining_photos_format">%d yn weddill</string>
-    <string name="makeup_video_size_limit">Dyw colur ond yn gweithio dan faint VGA wrth recordio fideo.</string>
     <string name="pref_camera2_category_system">System</string>
     <string name="pref_camera2_restore_default">Adfer y rhagosodiadau</string>
     <string name="pref_camera2_restore_default_hint">Caiff gosodiadau\'r camer eu hailosod i\'r gosodiadau rhagosodedig</string>
@@ -313,7 +282,7 @@
     </plurals>
     <string name="save_best_dialog_title">Cadw\'r delweddau a ddewiswyd?</string>
     <string name="save_best_dialog_positive_bt">Iawn</string>
-    <string name="save_best_dialog_native_bt">Diddymu</string>
+    <string name="save_best_dialog_native_bt">Canslo</string>
     <plurals name="save_best_image_toast">
         <item quantity="zero">Cadwyd %1$d o 10 delwedd.</item>
         <item quantity="one">Cadwyd %1$d o 10 delwedd.</item>
@@ -322,14 +291,13 @@
         <item quantity="many">Cadwyd %1$d o 10 delwedd.</item>
         <item quantity="other">Cadwyd %1$d o 10 delwedd.</item>
     </plurals>
-    <string name="dialog_do_not_show">Peidio â dangos eto</string>
     <string name="delete_best_dialog_title">Dileu\'r cwbl?</string>
     <string name="delete_best_dialog_content">Wyt ti\'n bendant eisiau dileu\'r 10 llun?</string>
-    <string name="delete_best_dialog_native_bt">Diddymu</string>
+    <string name="delete_best_dialog_native_bt">Canslo</string>
     <string name="delete_best_dialog_positive_bt">Dileu</string>
     <string name="delete_all_best_dialog_title">Dileu\'r cwbl?</string>
     <string name="delete_all_best_dialog_content">Wyt ti\'n bendant eisiau dileu\'r holl luniau?</string>
-    <string name="delete_all_best_dialog_native_bt">Diddymu</string>
+    <string name="delete_all_best_dialog_native_bt">Canslo</string>
     <string name="delete_all_best_dialog_positive_bt">Dileu\'r cwbl</string>
     <string name="overflow_best_item1">Cadw\'r cwbl</string>
     <string name="overflow_best_item2">Dileu\'r cwbl</string>

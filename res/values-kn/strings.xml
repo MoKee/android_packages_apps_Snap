@@ -24,7 +24,7 @@
         <item quantity="one">ಆಯ್ಕೆ ಮಾಡಿದ ಐಟಂ ಅಳಿಸುವುದೇ?</item>
         <item quantity="other">ಆಯ್ಕೆ ಮಾಡಿದ ಐಟಂಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
     </plurals>
-    <string name="share">ಹಂಚು</string>
+    <string name="share">ಹಂಚಿಕೊಳ್ಳಿ</string>
     <string name="share_panorama">ಪನೋರಮಾ ಹಂಚಿರಿ</string>
     <string name="share_as_photo">ಫೋಟೋ ಆಗಿ ಹಂಚಿರಿ</string>
     <string name="deleted">ಅಳಿಸಲಾಗಿದೆ</string>
@@ -46,7 +46,7 @@
     <string name="show_on_map">ನಕ್ಷೆಯಲ್ಲಿ ತೋರಿಸಿ</string>
     <string name="rotate_left">ಎಡಕ್ಕೆ ತಿರುಗಿಸಿ</string>
     <string name="rotate_right">ಬಲಕ್ಕೆ ತಿರುಗಿಸಿ</string>
-    <string name="edit">ಸಂಪಾದಿಸಿ</string>
+    <string name="edit">ಪರಿಷ್ಕರಿಸಿ</string>
     <string name="crop_action">ಕ್ರಾಪ್ ಮಾಡಿ</string>
     <string name="trim_action">ಟ್ರಿಮ್ ಮಾಡಿ</string>
     <string name="set_as">ಹೀಗೆ ಹೊಂದಿಸಿ</string>
@@ -55,11 +55,12 @@
     <string name="title">ಶೀರ್ಷಿಕೆ</string>
     <string name="description">ವಿವರಣೆ</string>
     <string name="time">ಸಮಯ</string>
-    <string name="location">ಸ್ಥಾನ</string>
+    <string name="location">ಸ್ಥಳ</string>
     <string name="path">ಪಥ</string>
     <string name="width">ಅಗಲ</string>
     <string name="height">ಎತ್ತರ</string>
     <string name="orientation">ಓರಿಯಂಟೇಶನ್ಟ</string>
+    <string name="duration">ಅವಧಿ</string>
     <string name="mimetype">MIME ವಿಧ</string>
     <string name="file_size">ಫೈಲ್ ಗಾತ್ರ</string>
     <string name="maker">ಮೇಕರ್</string>
@@ -82,6 +83,8 @@
     <string name="camera_error_title">ಕ್ಯಾಮರಾ ದೋಷ</string>
     <string name="cannot_connect_camera">ಕ್ಯಾಮರಾಕ್ಕೆ ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.</string>
     <string name="camera_disabled">ಭದ್ರತಾ ನೀತಿಗಳ ಕಾರಣದಿಂದಾಗಿ ಕ್ಯಾಮರಾ ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ.</string>
+    <string name="error_permissions">ಈ ಕಿರುತಂತ್ರಾಂಶವು ಚಲಿಸಲು ನಿರ್ಣಾಯಕ ಪರವಾನಗಿಗಳು ಲಭ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪರವಾನಗಿಗಳ ಸಂಯೋಜನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.</string>
+    <string name="dialog_dismiss">ವಜಾ ಮಾಡು</string>
     <string name="wait">ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ…</string>
     <string name="no_storage" product="default">ಕ್ಯಾಮರಾ ಉಪಯೋಗಿಸುವ ಮುನ್ನ ಒಂದು SD ಕಾರ್ಡ್ ಸೇರ್ಪಡೆಗೊಳಿಸಿ.</string>
     <string name="preparing_sd" product="default">SD ಕಾರ್ಡ್ ಸಿದ್ದಗೊಳ್ಳುತ್ತಿದೆ\u2026</string>
@@ -91,6 +94,7 @@
     <string name="pref_camera_id_title">ಕ್ಯಾಮರಾ ಆಯ್ಕೆಗೊಳಿಸಿ</string>
     <string name="pref_camera_id_entry_back">ಹಿಂದೆ</string>
     <string name="pref_camera_id_entry_front">ಮುಂದೆ</string>
+    <string name="pref_camera_recordlocation_title">GPS ಸ್ಥಳ</string>
     <string name="pref_camera_location_label">ಸ್ಥಾನ</string>
     <string name="pref_camera_timer_title">ಕೌಂಟ್‌ಡೌನ್ ಟೈಮರ್</string>
     <plurals name="pref_camera_timer_entry">
@@ -98,8 +102,10 @@
         <item quantity="other">%d ಸೆಕೆಂಡುಗಳು</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">ಕೌಂಟ್‌ಡೌನ್ ವೇಳೆ ಬೀಪ್</string>
+    <string name="pref_camera_savepath_entry_0">ಫೋನ್</string>
+    <string name="pref_camera_savepath_entry_1">SD ಕಾರ್ಡ್</string>
     <string name="setting_off">ಆಫ್ ಆಗಿದೆ</string>
-    <string name="setting_on">ಆನ್ ಆಗಿದೆ</string>
+    <string name="setting_on">ಆರಂಭಿಸು</string>
     <string name="pref_video_quality_title">ವೀಡಿಯೋ ಗುಣಮಟ್ಟ</string>
     <string name="pref_video_time_lapse_frame_interval_title">ಸಮಯ ಲ್ಯಾಪ್ಸ್</string>
     <string name="pref_camera_settings_category">ಕ್ಯಾಮರಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
@@ -114,7 +120,7 @@
     <string name="pref_camera_focusmode_label_macro">ಮ್ಯಾಕ್ರೊ</string>
     <string name="pref_camera_flashmode_title">ಫ್ಲ್ಯಾಶ್</string>
     <string name="pref_camera_flashmode_entry_auto">ಸ್ವಯಂ</string>
-    <string name="pref_camera_flashmode_entry_on">ಆನ್ ಆಗಿದೆ</string>
+    <string name="pref_camera_flashmode_entry_on">ಆರಂಭಿಸು</string>
     <string name="pref_camera_flashmode_entry_off">ಆಫ್ ಆಗಿದೆ</string>
     <string name="pref_camera_flashmode_label_auto">ಫ್ಲ್ಯಾಶ್ ಸ್ವಯಂ</string>
     <string name="pref_camera_flashmode_label_on">ಫ್ಲ್ಯಾಶ್ ಆನ್</string>
@@ -172,7 +178,7 @@
     <string name="pano_review_rendering">ಪನೋರಮಾ ರೆಂಡರ್ ಮಾಡುತ್ತಿದೆ</string>
     <string name="tap_to_focus">ಫೋಕಸ್‌ಗೆ ಸ್ಪರ್ಶಿಸಿ.</string>
     <string name="pref_video_effect_title">ಪರಿಣಾಮಗಳು</string>
-    <string name="effect_none">ಯಾವುದೂ ಇಲ್ಲ</string>
+    <string name="effect_none">ಶೂನ್ಯ</string>
     <string name="effect_goofy_face_squeeze">ಕಿವುಚಿ</string>
     <string name="effect_goofy_face_big_eyes">ದೊಡ್ಡ ಕಣ್ಣುಗಳು</string>
     <string name="effect_goofy_face_big_mouth">ದೊಡ್ಡ ಬಾಯಿ</string>
@@ -189,8 +195,7 @@
     <string name="effect_silly_faces">ಬೆಪ್ಪು ಮುಖಗಳು</string>
     <string name="effect_background">ಹಿನ್ನೆಲೆ</string>
     <string name="accessibility_shutter_button">ಶಟರ್</string>
-    <string name="accessibility_exit_best_mode_button">ಉತ್ತಮ ಚಿತ್ರ ರೀತಿಯಿಂದ ನಿರ್ಗಮಿಸು</string>
-    <string name="accessibility_menu_button">ಮೆನು ಬಟನ್</string>
+    <string name="accessibility_menu_button">ಮೆನು ಗುಂಡಿ</string>
     <string name="accessibility_mode_picker">ಕ್ಯಾಮರಾ, ವೀಡಿಯೋ, ಅಥವಾ ಸಮಗ್ರ ನೋಟ ಸೆಲೆಕ್ಟರ್</string>
     <string name="accessibility_check_box">%1$s ಚೆಕ್ ಬಾಕ್ಸ್</string>
     <string name="accessibility_switch_to_camera">ಫೊಟೋಕ್ಕೆ ಬದಲಾಯಿಸಿ</string>
@@ -230,6 +235,7 @@
     <string name="pref_video_time_lapse_frame_interval_720000">12 ನಿಮಿಷಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_900000">15 ನಿಮಿಷಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_1440000">24 ನಿಮಿಷಗಳು</string>
+    <string name="pref_video_time_lapse_frame_interval_1800000">0.5 ಗಂಟೆಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_3600000">1 ಗಂಟೆ</string>
     <string name="pref_video_time_lapse_frame_interval_5400000">1.5 ಗಂಟೆ</string>
     <string name="pref_video_time_lapse_frame_interval_7200000">2 ಗಂಟೆಗಳು</string>
@@ -238,6 +244,7 @@
     <string name="pref_video_time_lapse_frame_interval_14400000">4 ಗಂಟೆಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_18000000">5 ಗಂಟೆಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_21600000">6 ಗಂಟೆಗಳು</string>
+    <string name="pref_video_time_lapse_frame_interval_36000000">10 ಗಂಟೆಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_43200000">12 ಗಂಟೆಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_54000000">15 ಗಂಟೆಗಳು</string>
     <string name="pref_video_time_lapse_frame_interval_86400000">24 ಗಂಟೆಗಳು</string>
@@ -258,35 +265,19 @@
     <string name="create_tiny_planet">ಟಿನಿ ಪ್ಲಾನೆಟ್ ಸೃಷ್ಟಿಸಿ</string>
     <string name="saving_tiny_planet">ಟಿನಿ ಪ್ಲಾನೆಟ್ ಉಳಿಸಲಾಗುತ್ತಿದೆ …</string>
     <string name="tiny_planet_zoom">ಝೂಮ್</string>
-    <string name="tiny_planet_rotate">ತಿರುಗಿಸಿ</string>
+    <string name="tiny_planet_rotate">ತಿರುಗಿಸು</string>
     <string name="crop_save">ಉಳಿಸಿ</string>
     <string name="cannot_load_image">ಇಮೇಜ್ ಲೋಜ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ!</string>
     <string name="switch_photo_filmstrip">ಫಿಲ್ಮ್‌ಸ್ಟ್ರಿಪ್ ವೀಕ್ಷಣೆ</string>
     <string name="setting_wallpaper">ವಾಲ್‌ಪೇಪರ್‌ ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ</string>
     <string name="pref_camera2_category_system">ವ್ಯವಸ್ಥೆ</string>
-    <string name="pref_camera2_restore_default">ಇದ್ದಾಯ್ಕೆ ಮರುಸ್ಥಾಪನೆ</string>
-    <string name="pref_camera2_restore_default_hint">ತಿಟ್ಟುಕದ ಇದ್ದಾಯ್ಕೆಗಳನ್ನು ಪುನಃಸ್ಥಾಪಿಸಲಾಗುವುದು</string>
-    <plurals name="save_best_dialog_content">
-        <item quantity="one">10 ಚಿತ್ರಗಳಲ್ಲಿ %1$d ನ್ನು ಉಳಿಸಿ ಉಳಿದವುಗಳನ್ನು ಅಳಿಸಲಾಗುವುದು</item>
-        <item quantity="other">10 ಚಿತ್ರಗಳಲ್ಲಿ %1$d ನ್ನು ಉಳಿಸಿ ಉಳಿದವುಗಳನ್ನು ಅಳಿಸಲಾಗುವುದು</item>
-    </plurals>
-    <string name="save_best_dialog_title">ಆಯ್ಕೆ ಮಾಡಿದ ಚಿತ್ರಗಳನ್ನು ಉಳಿಸುವುದೇ?</string>
+    <string name="pref_camera2_restore_default">ಪೂರ್ವನಿರ್ಧರಿತಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ</string>
     <string name="save_best_dialog_positive_bt">ಸರಿ</string>
     <string name="save_best_dialog_native_bt">ರದ್ದು</string>
-    <plurals name="save_best_image_toast">
-        <item quantity="one">೧೦ರಲ್ಲಿ %1$d ಚಿತ್ರವನ್ನು ಉಳಿಸಲಾಗಿದೆ.</item>
-        <item quantity="other">೧೦ರಲ್ಲಿ %1$d ಚಿತ್ರಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ.</item>
-    </plurals>
-    <string name="dialog_do_not_show">ಪುನಃ ತೋರಿಸದಿರು</string>
-    <string name="delete_best_dialog_title">ಎಲ್ಲಾ ಅಳಿಸಲೇ?</string>
-    <string name="delete_best_dialog_content">ನೀವು ಸೆರೆಹಿಡಿದ ಎಲ್ಲಾ ೧೦ ಚಿತ್ರಗಳನ್ನು ಅಳಿಸಲು ಖಚಿತವೇ?</string>
     <string name="delete_best_dialog_native_bt">ರದ್ದು</string>
     <string name="delete_best_dialog_positive_bt">ಅಳಿಸು</string>
-    <string name="delete_all_best_dialog_title">ಎಲ್ಲಾ ಅಳಿಸಲೇ?</string>
-    <string name="delete_all_best_dialog_content">ನೀವು ಎಲ್ಲಾ ಚಿತ್ರಗಳನ್ನು ಅಳಿಸಲು ಖಚಿತವೇ?</string>
     <string name="delete_all_best_dialog_native_bt">ರದ್ದು</string>
-    <string name="delete_all_best_dialog_positive_bt">ಎಲ್ಲಾ ಅಳಿಸು</string>
-    <string name="overflow_best_item1">ಎಲ್ಲಾ ಉಳಿಸು</string>
-    <string name="overflow_best_item2">ಎಲ್ಲಾ ಅಳಿಸು</string>
-    <string name="settings_title">ಅಳವಡಿಕೆಗಳು</string>
+    <string name="delete_all_best_dialog_positive_bt">ಎಲ್ಲವನ್ನೂ ಅಳಿಸು</string>
+    <string name="overflow_best_item2">ಎಲ್ಲವನ್ನೂ ಅಳಿಸು</string>
+    <string name="settings_title">ಸಂಯೋಜನೆಗಳು</string>
 </resources>

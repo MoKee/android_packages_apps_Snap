@@ -23,7 +23,7 @@
     <string name="pref_camera_scenemode_entry_asd">Beste Skoot</string>
     <string name="pref_camera_scenemode_entry_baby">Baba</string>
     <string name="pref_camera_scenemode_entry_backgroundblur">Vervaag agtergrond</string>
-    <string name="pref_camera_scenemode_entry_backlight">Agtergrond verligting</string>
+    <string name="pref_camera_scenemode_entry_backlight">Agtergrondlig</string>
     <string name="pref_camera_scenemode_entry_backlightportrait">Portret agtergrond verligting</string>
     <string name="pref_camera_scenemode_entry_barcode">Strepieskode</string>
     <string name="pref_camera_scenemode_entry_beach">Strand</string>

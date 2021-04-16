@@ -15,7 +15,7 @@
 -->
 <resources>
     <string name="accessibility_switch_to_qr">QR okuyucu</string>
-    <string name="quick_reader_action_dismiss">Vazgeç</string>
+    <string name="quick_reader_action_dismiss">Reddet</string>
     <string name="quick_reader_no_activity_found">Bu içeriği açabilecek hiçbir uygulama yok</string>
     <string name="quick_reader_permission_error_title">İzin hatası</string>
     <string name="quick_reader_permission_rationale_message">Barkodu taramak için kamera erişimi gerekiyor</string>
