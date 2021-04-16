@@ -46,6 +46,7 @@
     <string name="pref_camera_manual_exp_entry_ISO_priority">Prioritas ISO</string>
     <string name="pref_camera_manual_exp_entry_exptime_priority">Prioritas waktu pencahayaan</string>
     <string name="pref_camera_manual_exp_entry_user_setting">Pengaturan pada pengguna</string>
+    <string name="pref_camera_manual_exp_entry_gains_priority">Mendapatkan prioritas</string>
     <string name="pref_camera_manual_exp_entry_off">Tidak aktif</string>
     <string name="pref_camera_manual_wb_title">Keseimbangan putih manual</string>
     <string name="pref_camera_manual_wb_entry_color_temperature">Suhu pada warna</string>
@@ -117,10 +118,12 @@
     <string name="pref_camera_hfr_entry_3x">Gerakan lambat 90 FPS</string>
     <string name="pref_camera_hfr_entry_4x">Gerakan lambat 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Gerakan lambat 240 FPS</string>
+    <string name="pref_camera_hfr_entry_16x">Gerakan lambat 480 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Kecepatan tinggi 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Kecepatan tinggi 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Kecepatan tinggi 120 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_240">Kecepatan tinggi 240 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_480">Kecepatan tinggi 480 FPS</string>
     <string name="pref_camera_noise_reduction_title">Pengurangan kebisingan</string>
     <string name="pref_camera_noise_reduction_entry_off">Tidak aktif</string>
     <string name="pref_camera_noise_reduction_entry_fast">Cepat</string>
