@@ -99,6 +99,7 @@
         <item quantity="other">%d सेकंद</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">काउंटडाउन दरम्यान बीप करा</string>
+    <string name="pref_camera_savepath_entry_0">फोन</string>
     <string name="setting_off">बंद</string>
     <string name="setting_on">चालू</string>
     <string name="pref_video_quality_title">व्हिडिओ गुणवत्ता</string>
@@ -267,4 +268,6 @@
     <string name="setting_wallpaper">वॉलपेपर सेट करत आहे</string>
     <string name="save_best_dialog_positive_bt">ठीक आहे</string>
     <string name="delete_best_dialog_positive_bt">हटवायचे?</string>
+    <string name="delete_all_best_dialog_positive_bt">सर्व हटवा</string>
+    <string name="overflow_best_item2">सर्व हटवा</string>
 </resources>

@@ -106,6 +106,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Držanje automatske ekspozicije</string>
     <string name="pref_camera_ae_bracket_hdr_title">Držanje automatske ekspozicije</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Uklj.</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Isključen</string>
     <string name="err_app_unsupport_ae_bracket_code">AE bracketing još nije podržan</string>
     <string name="snapshot_lower_than_video">Rezolucija brzinskog snimka je niža od rezolucije videa. Izaberite rezoluciju veću ili jednaku trenutnoj veličini videa.</string>
     <string name="snapshotsize_low_powermode">Promjena veličine slike nije podržana u načinu niske potrošnje. Snimit će se brzinski snimak. Odaberite način normalne potrošnje kako biste mogli mijenjati veličinu slike.</string>

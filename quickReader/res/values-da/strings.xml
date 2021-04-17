@@ -14,5 +14,9 @@
      limitations under the License.
 -->
 <resources>
+    <string name="quick_reader_action_dismiss">Afvis</string>
     <string name="quick_reader_permission_rationale_message">Kamera-adgang behøves for at skanne stregkoden</string>
+    <string name="quick_reader_permission_rationale_positive">Spørg igen</string>
+    <string name="quick_reader_scanned_text_positive">Kopier</string>
+    <string name="quick_reader_scanned_text_negative">Del</string>
 </resources>

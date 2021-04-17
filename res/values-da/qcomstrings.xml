@@ -106,6 +106,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Autoeksponeringsrammer</string>
     <string name="pref_camera_ae_bracket_hdr_title">Autoeksponeringsrammer</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Til</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Fra</string>
     <string name="err_app_unsupport_ae_bracket_code">AE-bracketing understøttes ikke endnu</string>
     <string name="snapshot_lower_than_video">Størrelse på videosnapshot er mindre end videoens størrelse, loftet er videostørrelsen. Vælg en opløsning højere eller magen til den aktuelle videostørrelse.</string>
     <string name="snapshotsize_low_powermode">Skift af billedstørrelse understøttes ikke i Lav strømtilstand, et snapshot i videostørrelsen vil blive taget. Vælg Normal strømtilstand for at tillade ændring af billedstørrelse.</string>
@@ -165,6 +166,8 @@
     <string name="pref_camera_antibanding_entry_2">60 Hz (USA)</string>
     <string name="pref_camera_filter_mode_entry_on">Til</string>
     <string name="pref_camera_filter_mode_entry_off">Fra</string>
+    <string name="pref_camera_coloreffect_title">Farveeffekt</string>
+    <string name="pref_camera_filter_mode_title">Farveeffekt</string>
     <string name="pref_camera_coloreffect_entry_none">Ingen</string>
     <string name="pref_camera_coloreffect_entry_mono">Mono</string>
     <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
@@ -308,7 +311,13 @@
     <string name="pref_camera2_shutter_sound_entry_off">Fra</string>
     <string name="pref_camera2_shutter_sound_title">Lukkerlyd</string>
     <string name="pref_camera2_timer_entry_off">Fra</string>
+    <string name="pref_camera2_timer_entry_2sec">2 sekunder</string>
+    <string name="pref_camera2_timer_entry_5sec">5 sekunder</string>
+    <string name="pref_camera2_timer_entry_10sec">10 sekunder</string>
     <string name="makeup_ui_ok_button">OK</string>
+    <string name="perf_camera2_version_info">Versionsoplysninger</string>
+    <string name="perf_camera2_preferences_category_general">Generelt</string>
+    <string name="perf_camera2_preferences_category_system">System</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_entry_disable">Deaktivér</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Aggressiv AEC</string>

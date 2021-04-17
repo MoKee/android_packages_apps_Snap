@@ -91,6 +91,7 @@
     <string name="pref_camera_id_title">Kameras izvēle</string>
     <string name="pref_camera_id_entry_back">Aizmugurējā</string>
     <string name="pref_camera_id_entry_front">Priekšējā</string>
+    <string name="pref_camera_recordlocation_title">Atrašanās vietas saglabāšana</string>
     <string name="pref_camera_location_label">ATRAŠANĀS VIETA</string>
     <string name="pref_camera_timer_title">Laika atskaites taimeris</string>
     <string name="pref_camera_timer_sound_title">Atskaņot signālu</string>
@@ -262,4 +263,6 @@
     <string name="setting_wallpaper">Notiek fona tapetes iestatīšana.</string>
     <string name="save_best_dialog_positive_bt">Labi</string>
     <string name="delete_best_dialog_positive_bt">Dzēst</string>
+    <string name="delete_all_best_dialog_positive_bt">Dzēst visu</string>
+    <string name="overflow_best_item2">Dzēst visu</string>
 </resources>

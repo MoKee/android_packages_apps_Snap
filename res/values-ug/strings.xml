@@ -79,6 +79,7 @@
     <string name="pref_camera_location_label">ئورنى</string>
     <string name="pref_camera_timer_title">تەتۈر سانىغۇچ ۋاقىت خاتىرىلىگۈچ</string>
     <string name="pref_camera_timer_sound_title">تەتۈر ساناۋاتقاندا ئەسكەرتىش ئاۋازى چىقار</string>
+    <string name="pref_camera_savepath_entry_0">تېلېفون</string>
     <string name="setting_off">تاقاق</string>
     <string name="setting_on">ئوچۇق</string>
     <string name="pref_video_quality_title">سىن سۈپىتى</string>
@@ -247,4 +248,7 @@
     <string name="setting_wallpaper">تام قەغەزنى تەڭشەۋاتىدۇ</string>
     <string name="save_best_dialog_positive_bt">جەزملەش</string>
     <string name="delete_best_dialog_positive_bt">ئۆچۈر</string>
+    <string name="delete_all_best_dialog_positive_bt">ھەممىنى ئۆچۈر</string>
+    <string name="overflow_best_item2">ھەممىنى ئۆچۈر</string>
+    <string name="settings_title">تەڭشەش</string>
 </resources>

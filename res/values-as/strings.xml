@@ -99,6 +99,7 @@
         <item quantity="other">%d ছেকেণ্ড</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">কাউণ্টডাউনৰ সময়ত বীপ কৰা</string>
+    <string name="pref_camera_savepath_entry_0">ফোন</string>
     <string name="setting_off">অফ</string>
     <string name="setting_on">অন কৰক</string>
     <string name="pref_video_quality_title">ভিডিঅ’ গুণমান</string>
@@ -267,4 +268,6 @@
     <string name="setting_wallpaper">ৱাল পেপাৰ চেটিং</string>
     <string name="save_best_dialog_positive_bt">ঠিক</string>
     <string name="delete_best_dialog_positive_bt">মচি দিয়া</string>
+    <string name="delete_all_best_dialog_positive_bt">সকলোবোৰ মচি পেলাওঁক</string>
+    <string name="overflow_best_item2">সকলোবোৰ মচি পেলাওঁক</string>
 </resources>

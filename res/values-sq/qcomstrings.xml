@@ -25,8 +25,11 @@
     <string name="pref_camera_powermode_entry_np">Energji normale</string>
     <string name="pref_camera_skinToneEnhancement_entry_enable">Aktivizo</string>
     <string name="pref_camera_skinToneEnhancement_entry_disable">Çaktivizo</string>
+    <string name="pref_camera_selectablezoneaf_entry_auto">Automatik</string>
+    <string name="pref_camera_advanced_feature_entry_none">Asnjë</string>
     <string name="pref_camera_manual_exp_entry_gains_priority">Merr përparësi</string>
     <string name="pref_camera_manual_exp_entry_off">Inaktiv</string>
+    <string name="pref_camera_manual_wb_entry_color_temperature">Temperatura e ngjyrave</string>
     <string name="pref_camera_manual_wb_entry_off">Inaktiv</string>
     <string name="pref_camera_manual_focus_entry_off">Inaktiv</string>
     <string name="pref_camera_instant_capture_title">Shkrepje e menjëhershme</string>
@@ -41,8 +44,10 @@
     <string name="pref_camera_video_hdr_entry_on">Aktiv</string>
     <string name="pref_camera_cds_entry_off">Inaktiv</string>
     <string name="pref_camera_cds_entry_on">Aktiv</string>
+    <string name="pref_camera_cds_entry_auto">Automatik</string>
     <string name="pref_camera_video_cds_entry_off">Inaktiv</string>
     <string name="pref_camera_video_cds_entry_on">Aktiv</string>
+    <string name="pref_camera_video_cds_entry_auto">Automatik</string>
     <string name="pref_camera_tnr_entry_disable">Çaktivizo</string>
     <string name="pref_camera_tnr_entry_enable">Aktivizo</string>
     <string name="pref_camera_video_tnr_entry_disable">Çaktivizo</string>
@@ -64,6 +69,7 @@
     <string name="error_app_unsupported_hsr">Profili i shpejtësisë së lartë nuk është i disponueshëm për madhësinë e zgjedhur të videos. Zgjidhni një madhësi videoje më të vogël</string>
     <string name="error_app_unsupported_profile">Profil video i papranueshëm</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Aktiv</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Inaktiv</string>
     <string name="err_app_unsupport_ae_bracket_code">Grupimi AE është ende i papranueshëm</string>
     <string name="snapshot_lower_than_video">Madhësia e videos së çastit është më e vogel se madhësia e videos. Zgjidhni një rezolucion më të lartë ose të barabartë me madhësinë e videos aktuale.</string>
     <string name="snapshotsize_low_powermode">Ndryshimi i madhësisë së fotos nuk është i pranueshëm në profilin Energji e Ulët. Zgjidhni profilin Energji Normale për të lejuar ndryshimin e madhësisë së fotos.</string>
@@ -116,10 +122,12 @@
     <string name="pref_camera_coloreffect_entry_mono">Mono</string>
     <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
     <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Bëje afishe</string>
     <string name="pref_camera_dis_entry_off">Inaktiv</string>
     <string name="pref_camera_dis_entry_on">Aktiv</string>
     <string name="pref_camera_facerc_entry_off">Inaktiv</string>
     <string name="pref_camera_facerc_entry_on">Aktiv</string>
+    <string name="pref_camera_sharpness_title">Qartësia</string>
     <string name="pref_camera_contrast_title">Kontrasti</string>
     <string name="pref_camera_saturation_title">Saturimi</string>
     <string name="pref_camera_picture_format_title">Formati i fotos</string>
@@ -244,6 +252,7 @@
     <string name="pref_camera2_anti_banding_level_entry_off">Inaktiv</string>
     <string name="pref_camera2_anti_banding_level_entry_50hz">50 Hz (Evropë)</string>
     <string name="pref_camera2_anti_banding_level_entry_60hz">60 Hz (SHBA)</string>
+    <string name="pref_camera2_anti_banding_level_entry_auto">Automatik</string>
     <string name="pref_camera2_histogram_title">Histogram</string>
     <string name="pref_camera2_histogram_entry_enable">Aktivizo</string>
     <string name="pref_camera2_histogram_entry_disable">Çaktivizo</string>

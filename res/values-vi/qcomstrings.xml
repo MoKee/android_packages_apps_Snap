@@ -107,6 +107,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Chụp liên tục với độ phơi sáng tự động</string>
     <string name="pref_camera_ae_bracket_hdr_title">Chụp liên tục với độ phơi sáng tự động</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Bật</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Tắt</string>
     <string name="err_app_unsupport_ae_bracket_code">AE bracketing chưa được hỗ trợ</string>
     <string name="snapshot_lower_than_video">Kích thước ảnh chụp nhanh video thấp hơn kích thước video xuất ra. Vui lòng chọn độ phân giải cao hơn hoặc bằng kích thước video hiện tại.</string>
     <string name="snapshotsize_low_powermode">Thay đổi kích thước ảnh không được hỗ trợ trong chế độ nguồn điện thấp, kích thước video sẽ được chụp nhanh lại. Vui lòng chọn chế độ nguồn điện bình thường để cho phép thay đổi kích thước ảnh.</string>
@@ -414,6 +415,7 @@
     <string name="pref_camera2_initial_camera_entry_mono">Đơn sắc</string>
     <string name="pref_camera2_initial_camera_entry_front">Trước</string>
     <string name="pref_camera2_eis_title">Video EIS</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 và thiết lập khi tạm dừng</string>
     <string name="pref_camera2_eis_entry_disable">Đã tắt</string>
     <string name="pref_camera2_fovc_title">Video FOVC</string>
     <string name="pref_camera2_fovc_entry_enable">Đã bật</string>
@@ -428,11 +430,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Thống kê BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Thống kê BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Thống kê lịch sử</string>
+    <string name="stats_visualizer_bg_label">Biểu đồ BG</string>
+    <string name="stats_visualizer_be_label">Biểu đồ BE</string>
     <string name="pref_camera2_capture_mfnr_title">Giảm nhiễu đa khung</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Đã bật</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Đã tắt</string>
+    <string name="pref_camera2_fs2_title">Chụp nhanh</string>
     <string name="pref_camera2_fs2_entry_enable">Đã bật</string>
     <string name="pref_camera2_fs2_entry_disable">Đã tắt</string>
+    <string name="pref_camera2_abort_captures_title">Hủy chụp ảnh</string>
     <string name="pref_camera2_abort_captures_entry_enable">Đã bật</string>
     <string name="pref_camera2_abort_captures_entry_disable">Đã tắt</string>
     <string name="pref_camera_tone_mapping_entry_user_setting">Cài đặt của người dùng</string>

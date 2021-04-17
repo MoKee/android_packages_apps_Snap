@@ -14,9 +14,19 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crop_action">Skera</string>
     <string name="crop_saved">        Utanskorin mynd vistuð í <xliff:g id="folder_name">%s</xliff:g>.</string>
+    <string name="model">Gerð</string>
+    <string name="aperture">Ljósop</string>
+    <string name="focal_length">Brennivídd</string>
     <string name="try_to_set_local_album_available_offline">        Þetta atriði er geymt á tækinu og er tiltækt án nettengingar.</string>
+    <string name="dialog_dismiss">Dismiss</string>
+    <string name="pref_exposure_title">Lýsing</string>
+    <string name="effect_none">Engin</string>
     <string name="clear_effects">Hreinsa brellur</string>
     <string name="capital_on">KVEIKT</string>
     <string name="capital_off">SLÖKKT</string>
+    <string name="tiny_planet_rotate">Snúa</string>
+    <string name="cannot_load_image">Ekki er hægt að hlaða myndina!</string>
+    <string name="setting_wallpaper">Velur veggfóður</string>
 </resources>

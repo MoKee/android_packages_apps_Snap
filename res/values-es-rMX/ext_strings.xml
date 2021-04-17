@@ -15,6 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pref_camera_aspectratio_wide">Ancho</string>
+    <string name="pref_camera_megapixel_format">(<xliff:g id="ratio" example="16:9">%1$s</xliff:g>) <xliff:g id="pixels">%2$1.1f</xliff:g> megapíxeles</string>
     <string name="pref_camera_scenemode_entry_antimotionblur">Reductor de desenfoque</string>
     <string name="pref_camera_scenemode_entry_aqua">Agua</string>
     <string name="pref_camera_scenemode_entry_ar">Realidad aumentada</string>
@@ -37,6 +39,7 @@
     <string name="pref_camera_scenemode_entry_fireworks">Fuegos artificiales</string>
     <string name="pref_camera_scenemode_entry_flowers">Flores</string>
     <string name="pref_camera_scenemode_entry_handheldtwilight">Anochecer</string>
+    <string name="pref_camera_scenemode_entry_highsensitivity">Alta sensibilidad</string>
     <string name="pref_camera_scenemode_entry_indoor">Interior</string>
     <string name="pref_camera_scenemode_entry_landscape">Horizontal</string>
     <string name="pref_camera_scenemode_entry_mix_illuminant">Mezcla de luces</string>
@@ -83,4 +86,7 @@
     <string name="pref_camera_focustime_entry_10">10 segundos</string>
     <string name="pref_camera_focustime_entry_infinite">Infinito</string>
     <string name="pref_camera_shutter_speed_title">Velocidad de obturación</string>
+    <string name="developer_menu_enabled">Has activado las opciones avanzadas de la cámara</string>
+    <string name="developer_menu_disabled">Has desactivado las opciones avanzadas de la cámara</string>
+    <string name="pref_camera2_preferences_category_developer">Opciones avanzadas</string>
 </resources>

@@ -83,6 +83,8 @@
     <string name="camera_error_title">Error de cámara</string>
     <string name="cannot_connect_camera">No se puede establecer conexión con la cámara.</string>
     <string name="camera_disabled">La cámara ha sido desactivada por políticas de seguridad.</string>
+    <string name="error_permissions">La aplicación no tiene permisos críticos necesarios para ejecutarse. Comprueba la configuración de los permisos.</string>
+    <string name="dialog_dismiss">Descartar</string>
     <string name="wait">Espera…\u2026</string>
     <string name="no_storage" product="default">Inserta una tarjeta SD antes de usar la cámara.</string>
     <string name="preparing_sd" product="default">Preparando la tarjeta SD\u2026</string>
@@ -92,6 +94,7 @@
     <string name="pref_camera_id_title">Elegir cámara</string>
     <string name="pref_camera_id_entry_back">Trasera</string>
     <string name="pref_camera_id_entry_front">Frontal</string>
+    <string name="pref_camera_recordlocation_title">Localización GPS</string>
     <string name="pref_camera_location_label">UBICACIÓN</string>
     <string name="pref_camera_timer_title">Temp. de cuenta regresiva</string>
     <plurals name="pref_camera_timer_entry">
@@ -99,6 +102,9 @@
         <item quantity="other">%d segundos</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Sonido en cuenta regresiva</string>
+    <string name="pref_camera_savepath_title">Almacenamiento</string>
+    <string name="pref_camera_savepath_entry_0">Teléfono</string>
+    <string name="pref_camera_savepath_entry_1">Tarjeta SD</string>
     <string name="setting_off">Desactivada</string>
     <string name="setting_on">Activada</string>
     <string name="pref_video_quality_title">Calidad de video</string>
@@ -155,6 +161,15 @@
     <string name="pref_camera_countdown_label_ten">10 SEGUNDOS</string>
     <string name="pref_camera_countdown_label_fifteen">15 SEGUNDOS</string>
     <string name="not_selectable_in_scene_mode">No se puede seleccionar en el modo de escena.</string>
+    <string name="HDR_disable_continuous_shot">El HDR desactivará el disparo continuo.</string>
+    <string name="advanced_capture_disable_continuous_shot">La captura avanzada desactivará el disparo continuo.</string>
+    <string name="video_quality_4k_disable_IS">La calidad de vídeo 4K desactivará la estabilización de imagen.</string>
+    <string name="video_quality_4k_disable_SeeMore">SeeMore no puede activarse durante un vídeo 4K.</string>
+    <string name="disable_CDS_during_HighQualityNoiseReduction">La reducción de ruido de alta calidad desactivará el CDS.</string>
+    <string name="disable_TNR_during_HighQualityNoiseReduction">La reducción de ruido de alta calidad desactivará el TNR.</string>
+    <string name="disable_CDS_during_SeeMore">SeeMore desactivará el CDS.</string>
+    <string name="disable_TNR_during_SeeMore">SeeMore desactivará el TNR.</string>
+    <string name="disable_NR_during_SeeMore">SeeMore desactivará la reducción de ruido.</string>
     <string name="pref_exposure_title">Exposición</string>
     <string name="pref_exposure_label">EXPOSICIÓN</string>
     <string name="pref_camera_hdr_label">HDR</string>
@@ -190,6 +205,7 @@
     <string name="effect_silly_faces">CARAS GRACIOSAS</string>
     <string name="effect_background">FONDO</string>
     <string name="accessibility_shutter_button">Obturador</string>
+    <string name="accessibility_exit_best_mode_button">Salir del modo mejor foto</string>
     <string name="accessibility_menu_button">Botón de menú</string>
     <string name="accessibility_mode_picker">Selector de cámara, video o foto panorámica</string>
     <string name="accessibility_check_box">Casilla de verificación %1$s</string>
@@ -265,6 +281,36 @@
     <string name="cannot_load_image">No se puede cargar la imagen.</string>
     <string name="switch_photo_filmstrip">Tira de diapositivas</string>
     <string name="setting_wallpaper">Estableciendo fondo de pantalla…</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
+    <string name="remaining_photos_format">%d restantes</string>
+    <string name="initial_recording_seconds">00:00</string>
+    <string name="makeup_video_size_limit">Makeup solo funciona bajo la resolución VGA cuando se graba un vídeo.</string>
+    <string name="pref_camera2_category_system">Sistema</string>
+    <string name="pref_camera2_restore_default">Restaurar valores predeterminados</string>
+    <string name="pref_camera2_restore_default_hint">Los ajustes de la cámara se restaurarán a los ajustes por defecto</string>
+    <plurals name="save_best_dialog_content">
+        <item quantity="one">%1$d de 10 imágenes se guardarán y el resto se eliminará</item>
+        <item quantity="other">%1$d de 10 imágenes se guardarán y el resto se eliminará</item>
+    </plurals>
+    <string name="save_best_dialog_title">¿Guardar imágenes seleccionadas?</string>
     <string name="save_best_dialog_positive_bt">Aceptar</string>
+    <string name="save_best_dialog_native_bt">Cancelar</string>
+    <plurals name="save_best_image_toast">
+        <item quantity="one">%1$d de 10 imágenes guardadas.</item>
+        <item quantity="other">%1$d de 10 imágenes guardadas.</item>
+    </plurals>
+    <string name="dialog_do_not_show">No mostrar de nuevo</string>
+    <string name="delete_best_dialog_title">¿Borrar todo?</string>
+    <string name="delete_best_dialog_content">¿Desea borrar las 10 fotos tomadas?</string>
+    <string name="delete_best_dialog_native_bt">Cancelar</string>
     <string name="delete_best_dialog_positive_bt">Eliminar</string>
+    <string name="delete_all_best_dialog_title">¿Borrar todo?</string>
+    <string name="delete_all_best_dialog_content">¿Desea borrar todas las imágenes?</string>
+    <string name="delete_all_best_dialog_native_bt">Cancelar</string>
+    <string name="delete_all_best_dialog_positive_bt">Eliminar todo</string>
+    <string name="overflow_best_item1">Guardar todo</string>
+    <string name="overflow_best_item2">Eliminar todo</string>
+    <string name="settings_title">Ajustes</string>
 </resources>

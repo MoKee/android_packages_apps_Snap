@@ -107,6 +107,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Air</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Dheth</string>
     <string name="err_app_unsupport_ae_bracket_code">Chan eil taic ri AE bracketing fhathast</string>
     <string name="snapshot_lower_than_video">Tha meud a’ snapshot video nas ìsle na meud a’ video; a’ cur a chrìoch air meud a’ video. Tagh dùmhlachd-bhreacaidh nas àirde no co-ionnan ri meud làithreach a’ video.</string>
     <string name="snapshotsize_low_powermode">Cha chuir modh na cumhachd ìosal taic ri atharrachadh meud an deilbh; thèid snapshot air meud a’ video a thogail. Tagh modh cumhachd àbhaisteach airson comas atharrachaidh a chur air meud an deilbh.</string>

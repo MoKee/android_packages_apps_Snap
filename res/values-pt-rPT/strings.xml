@@ -102,6 +102,9 @@
         <item quantity="other">%d segundos</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Bip durante a contagem</string>
+    <string name="pref_camera_savepath_title">Armazenamento</string>
+    <string name="pref_camera_savepath_entry_0">Telefone</string>
+    <string name="pref_camera_savepath_entry_1">Cartão SD</string>
     <string name="setting_off">Desativado</string>
     <string name="setting_on">Ativado</string>
     <string name="pref_video_quality_title">Qualidade do vídeo</string>
@@ -278,7 +281,11 @@
     <string name="cannot_load_image">Não é possível carregar a imagem!</string>
     <string name="switch_photo_filmstrip">Vista de película</string>
     <string name="setting_wallpaper">A definir imagem de fundo</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d restante(s)</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">A Maquiagem funciona apenas em tamanhos inferiores a VGA para a gravação de vídeo.</string>
     <string name="pref_camera2_category_system">Sistema</string>
     <string name="pref_camera2_restore_default">Repor predefinições</string>

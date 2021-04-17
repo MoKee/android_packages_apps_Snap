@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="close">ပိတ်သည်</string>
+    <string name="edit">တည်းဖြတ်မည်</string>
+    <string name="crop_action">ဖြတ်ရန်</string>
+    <string name="model">မော်ဒယ်လ်</string>
+    <string name="aperture">အလင်းဝင်ပေါက်</string>
+    <string name="focal_length">ဖိုကယ်အရှည်</string>
+    <string name="manual">တစ်ဆင့်ခြင်း</string>
+    <string name="unknown">မသိ</string>
+    <string name="dialog_dismiss">Dismiss</string>
+    <string name="pref_camera_savepath_entry_0">ဖုန်း</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">တိမ်ထူသည်</string>
+    <string name="pref_camera_scenemode_entry_night">ည</string>
+    <string name="pref_exposure_title">အလင်းရမှု</string>
+    <string name="dialog_ok">အိုကေ</string>
+    <string name="effect_none">တစ်ခုမှမဟုတ်ပါ</string>
+    <string name="time_lapse_interval_set">ရပြီ</string>
+    <string name="tiny_planet_rotate">လှည့်ရန်</string>
+    <string name="cannot_load_image">ပုံတင်လို့မရပါ!</string>
+    <string name="setting_wallpaper">နောက်ခံ ရွေးနေစဉ်</string>
+    <string name="save_best_dialog_positive_bt">အိုကေ</string>
+    <string name="save_best_dialog_native_bt">မလုပ်တော့</string>
+    <string name="delete_best_dialog_native_bt">မလုပ်တော့</string>
+    <string name="delete_all_best_dialog_native_bt">မလုပ်တော့</string>
+</resources>

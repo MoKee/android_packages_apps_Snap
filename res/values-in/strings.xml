@@ -97,6 +97,9 @@
         <item quantity="other">%d detik</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Bip penghitungan</string>
+    <string name="pref_camera_savepath_title">Penyimpanan</string>
+    <string name="pref_camera_savepath_entry_0">Telepon</string>
+    <string name="pref_camera_savepath_entry_1">Kartu SD</string>
     <string name="setting_off">Mati</string>
     <string name="setting_on">Hidup</string>
     <string name="pref_video_quality_title">Kualitas video</string>
@@ -273,7 +276,11 @@
     <string name="cannot_load_image">Tidak dapat memuat gambar!</string>
     <string name="switch_photo_filmstrip">Tampilan bingkai film</string>
     <string name="setting_wallpaper">Setel wallpaper</string>
+    <string name="pref_camera_video_rotation_label_90">90</string>
+    <string name="pref_camera_video_rotation_label_180">180</string>
+    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d tersisa</string>
+    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Makeup hanya bekerja dibawah ukuran VGA di perekam video.</string>
     <string name="pref_camera2_category_system">Sistem</string>
     <string name="pref_camera2_restore_default">Kembalikan ke awal</string>

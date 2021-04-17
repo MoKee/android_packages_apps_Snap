@@ -107,6 +107,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Esposizio automatikoaren kortxetamendua</string>
     <string name="pref_camera_ae_bracket_hdr_title">Esposizio automatikoaren kortxetamendua</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Bai</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Ez</string>
     <string name="err_app_unsupport_ae_bracket_code">Momentuz HDR esposizio automatikoa ez dago erabilgarri aplikazioan</string>
     <string name="snapshot_lower_than_video">Uneko argazki tamaina bideoarena baino txikiagoa da. Aukeratu bideoaren berdina edo handiagoa den erresoluzio bat, mesedez.</string>
     <string name="snapshotsize_low_powermode">Irudiaren erresoluzioa ez dago energia baxuko modurako baliagarri. Aldiuneko argazki bat egingo da bideo erresoluzioan. Aukeratu modu arrunta irudiaren tamaina erabili ahal izateko, mesedez.</string>

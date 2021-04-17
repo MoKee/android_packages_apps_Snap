@@ -99,6 +99,7 @@
         <item quantity="other">%d ସେକେଣ୍ଡ</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">କାଉଣ୍ଟଡାଉନ ସମୟରେ ବିପ୍</string>
+    <string name="pref_camera_savepath_entry_0">ଫୋନ୍</string>
     <string name="setting_off">ଅଫ୍</string>
     <string name="setting_on">ଅନ</string>
     <string name="pref_video_quality_title">ଭିଡିଓ ଗୁଣବତ୍ତା</string>
@@ -267,4 +268,6 @@
     <string name="setting_wallpaper">ୱାଲପେପର୍ ସେଟିଂ</string>
     <string name="save_best_dialog_positive_bt">ଓକେ</string>
     <string name="delete_best_dialog_positive_bt">ବିଲୋପ କରନ୍ତୁ</string>
+    <string name="delete_all_best_dialog_positive_bt">ସମସ୍ତ ବିଲୋପ କରନ୍ତୁ</string>
+    <string name="overflow_best_item2">ସମସ୍ତ ବିଲୋପ କରନ୍ତୁ</string>
 </resources>

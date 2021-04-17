@@ -107,6 +107,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Auto Exposure Bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_title">Auto Exposure Bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">On</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Disattivato</string>
     <string name="err_app_unsupport_ae_bracket_code">AE bracketing non è ancora supportato</string>
     <string name="snapshot_lower_than_video">Le dimensioni dello snapshot sono inferiori a quelle del video, e sono state adattate. Si prega di selezionare una risoluzione maggiore o uguale a quella del video.</string>
     <string name="snapshotsize_low_powermode">La modifica delle dimensioni dell\'immagine non è supportata in modalità basso consumo; saranno utilizzate le dimensioni del video. Si prega di selezionare la modalità consumo normale per consentire la modifica delle dimensioni dell\'immagine.</string>

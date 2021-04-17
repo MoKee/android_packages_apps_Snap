@@ -107,6 +107,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">أقواس AE</string>
     <string name="pref_camera_ae_bracket_hdr_title">أقواس AE</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">مفعل</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">إيقاف تشغيل</string>
     <string name="err_app_unsupport_ae_bracket_code">أقواس AE غير معتمدة حتى الآن</string>
     <string name="snapshot_lower_than_video">حجم لقطة الفيديو أقل من حجم الفيديو، وتخطى حجم الفيديو. الرجاء تحديد دقة أعلى أو مساوية لحجم الفيديو الحالي.</string>
     <string name="snapshotsize_low_powermode">تغيير حجم الصورة غير معتمد في وضع \"الطاقة المنخفضة\"، وسوف تُؤخذ لقطة حجم الفيديو. الرجاء تحديد وضع \"الطاقة العادية\" للسماح بتغيير حجم الصورة.</string>
@@ -429,11 +430,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">إحصاءات BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">إحصاءات BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">إحصائيات Hist</string>
+    <string name="stats_visualizer_bg_label">عرض التخطيط البياني BG</string>
+    <string name="stats_visualizer_be_label">عرض التخطيط البياني BE</string>
     <string name="pref_camera2_capture_mfnr_title">تقليل الضوضاء متعدد الأطار</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">مفعل</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">معطّل</string>
+    <string name="pref_camera2_fs2_title">التقاط سريع</string>
     <string name="pref_camera2_fs2_entry_enable">مفعل</string>
     <string name="pref_camera2_fs2_entry_disable">معطّل</string>
+    <string name="pref_camera2_abort_captures_title">إجهاض الالتقاط</string>
     <string name="pref_camera2_abort_captures_entry_enable">مفعل</string>
     <string name="pref_camera2_abort_captures_entry_disable">معطّل</string>
     <string name="pref_camera_tone_mapping_entry_user_setting">إعداد المستخدم</string>

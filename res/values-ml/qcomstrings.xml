@@ -75,6 +75,7 @@
     <string name="error_app_unsupported_raw">സീറോ ഷട്ടർ ലാഗ് മോഡിൽ അസംസ്കൃത ചിത്രം ഫോർമാറ്റ് പിന്തുണയ്ക്കില്ല. JPEG തിരഞ്ഞെടുക്കുക</string>
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE-ബ്രാക്കറ്റിംഗ്</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE-ബ്രാക്കറ്റിംഗ്</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">ഓഫാണ്</string>
     <string name="pref_camera_hfr_title">ഹൈ-ഫ്രെയിംറേറ്റ് റിക്കോര്‍ഡിംഗ്</string>
     <string name="pref_camera_hfr_entry_off">ഓഫാണ്</string>
     <string name="pref_camera_hfr_entry_2x">സ്ലോ മോഷൻ 60 FPS</string>
@@ -198,6 +199,8 @@
     <string name="advance_feature_enable_msg">വിപുലമായ സവിശേഷതകൾ പ്രാപ്തമാക്കിയിരിക്കുമ്പോള്‍ തുടർച്ചയായ ഷോട്ട് പിന്തുണയ്ക്കില്ല.</string>
     <string name="camera_gesture_title">ക്യാമറ സമാരംഭിക്കുക</string>
     <string name="pref_camera_tsmakeup_entry_off">ഓഫാണ്</string>
+    <string name="pref_camera_tsmakeup_custom">ഇഷ്‌ടാനുസൃതം</string>
+    <string name="text_tsmakeup_alert_quit">റദ്ദാക്കുക</string>
     <string name="all_in_focus">എല്ലാ ഫോക്കസിൽ</string>
     <string name="refocus_toast">അവസാന ഫോട്ടോ വീണ്ടും ഫോക്കസ് ചെയ്യുന്നതിന്, ഇവിടെ അമര്‍ത്തുക</string>
     <string name="pref_camera2_mono_only_entry_off">ഓഫാണ്</string>
@@ -206,8 +209,14 @@
     <string name="pref_camera2_mpo_entry_off">ഓഫാണ്</string>
     <string name="pref_camera2_makeup_entry_off">ഓഫാണ്</string>
     <string name="pref_camera2_noise_reduction_entry_off">ഓഫാണ്</string>
+    <string name="pref_camera_scenemode_entry_panorama">പനോരമ</string>
     <string name="pref_camera2_shutter_sound_entry_off">ഓഫാണ്</string>
     <string name="pref_camera2_timer_entry_off">ഓഫാണ്</string>
+    <string name="pref_camera2_timer_entry_2sec">2 സെക്കൻഡ്</string>
+    <string name="pref_camera2_timer_entry_5sec">5 സെക്കൻഡ്</string>
+    <string name="pref_camera2_timer_entry_10sec">10 സെക്കൻഡ്</string>
+    <string name="makeup_ui_ok_button">ശരി</string>
+    <string name="pref_camera2_scene_mode_instructional_ok">ശരി</string>
     <string name="pref_camera2_saturation_level_title">സാച്ചുറേഷൻ</string>
     <string name="pref_camera2_saturation_level_entry_0">ലെവല്‍ 0</string>
     <string name="pref_camera2_saturation_level_entry_1">ലെവല്‍ 1</string>
@@ -227,12 +236,15 @@
     <string name="pref_camera2_anti_banding_level_entry_auto">ഓട്ടോ</string>
     <string name="pref_camera2_histogram_title">ഹിസ്റ്റോഗ്രാം</string>
     <string name="pref_camera2_auto_hdr_title">ഓട്ടോ HDR</string>
+    <string name="pref_camera_zoom_title">സൂം</string>
     <string name="pref_camera_zoom_entry_off">ഓഫാണ്</string>
     <string name="pref_camera2_zsl_title">സീറോ ഷട്ടർ ലാഗ്</string>
     <string name="pref_camera2_zsl_entry_disable">ഓഫാണ്</string>
     <string name="pref_camera2_afmode_entry_off">ഓഫാണ്</string>
     <string name="pref_camera2_initial_camera_entry_mono">മോണോ</string>
+    <string name="pref_camera2_initial_camera_entry_front">മുന്നില്‍</string>
     <string name="pref_camera2_picture_format_title">പിക്ചര്‍ ഫോര്‍മാറ്റ്</string>
+    <string name="pref_camera2_switcher_entry_front">മുന്നില്‍</string>
     <string name="pref_camera2_force_aux_entry_off">ഓഫാണ്</string>
     <string name="pref_camera_tone_mapping_entry_user_setting">ഉപയോക്തൃ ക്രമീകരണം</string>
     <string name="pref_camera_tone_mapping_entry_off">ഓഫാണ്</string>

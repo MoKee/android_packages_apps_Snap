@@ -15,7 +15,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="delete">Forigi</string>
+    <string name="share">Konigi</string>
+    <string name="deleted">Forigita</string>
     <string name="edit">Redakti</string>
+    <string name="description">Priskribo</string>
     <string name="location">Loko</string>
     <string name="unknown">Nekonata</string>
     <string name="pref_camera_location_label">LOKO</string>
@@ -23,6 +26,7 @@
         <item quantity="one">1 sekundo</item>
         <item quantity="other">%d sekundoj</item>
     </plurals>
+    <string name="pref_camera_scenemode_label_night">NOKTO</string>
     <string name="pref_camera_countdown_label_one">1 SEKUNDO</string>
     <string name="pref_camera_countdown_label_three">3 SEKUNDOJ</string>
     <string name="pref_camera_countdown_label_ten">10 SEKUNDOJ</string>

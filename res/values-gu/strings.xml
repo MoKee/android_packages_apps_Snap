@@ -83,6 +83,7 @@
     <string name="camera_error_title">કેમેરા ભૂલ</string>
     <string name="cannot_connect_camera">કેમેરા સાથે જોડાણ કરી શકાશે નહીં.</string>
     <string name="camera_disabled">સુરક્ષા નીતિનાં કારણે કેમેરા નિષ્ક્રીય થયો છે.</string>
+    <string name="dialog_dismiss">Dismiss</string>
     <string name="wait">કૃપા કરીને રાહ જુઓ...</string>
     <string name="no_storage" product="default">કેમેરાનો વપરાશ કરતા પહેલાં SD કાર્ડ દાખલ કરો.</string>
     <string name="preparing_sd" product="default">SD કાર્ડ તૈયાર કરવું\u2026</string>
@@ -99,6 +100,7 @@
         <item quantity="other">%d સેકન્ડ્સ</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">કાઉન્ટડાઉન દરમિયાન બીપ</string>
+    <string name="pref_camera_savepath_entry_0">ફોન</string>
     <string name="setting_off">બંધ</string>
     <string name="setting_on">ચાલુ</string>
     <string name="pref_video_quality_title">વિડીયો ગુણવત્તા</string>
@@ -267,4 +269,6 @@
     <string name="setting_wallpaper">વોલપેપર સુયોજીત કરો</string>
     <string name="save_best_dialog_positive_bt">ઑકે</string>
     <string name="delete_best_dialog_positive_bt">હટાવો</string>
+    <string name="delete_all_best_dialog_positive_bt">તમામ હટાવો</string>
+    <string name="overflow_best_item2">તમામ હટાવો</string>
 </resources>

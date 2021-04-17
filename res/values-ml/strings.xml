@@ -99,6 +99,7 @@
         <item quantity="other">%d സെക്കൻഡ്</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">കൗണ്ട്ഡൗണില്‍ ബീപ്</string>
+    <string name="pref_camera_savepath_entry_0">ഫോണ്‍</string>
     <string name="setting_off">ഓഫാണ്</string>
     <string name="setting_on">ഓണാക്കുക</string>
     <string name="pref_video_quality_title">വീഡിയോ ഗുണമേന്മ</string>
@@ -266,5 +267,10 @@
     <string name="switch_photo_filmstrip">ഫിലിംസ്ട്രിപ്പ് കാഴ്ച</string>
     <string name="setting_wallpaper">വാള്‍പേപ്പർ സജ്ജമാക്കുന്നു</string>
     <string name="save_best_dialog_positive_bt">ശരി</string>
+    <string name="save_best_dialog_native_bt">റദ്ദാക്കുക</string>
+    <string name="delete_best_dialog_native_bt">റദ്ദാക്കുക</string>
     <string name="delete_best_dialog_positive_bt">ഇല്ലാതാക്കുക</string>
+    <string name="delete_all_best_dialog_native_bt">റദ്ദാക്കുക</string>
+    <string name="delete_all_best_dialog_positive_bt">എല്ലാം ഇല്ലാതാക്കുക</string>
+    <string name="overflow_best_item2">എല്ലാം ഇല്ലാതാക്കുക</string>
 </resources>

@@ -99,6 +99,7 @@
         <item quantity="other">%d సెకనులు</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">కౌంట్‌డౌన్ సమయంలో బీప్</string>
+    <string name="pref_camera_savepath_entry_0">ఫోన్</string>
     <string name="setting_off">ఆఫ్‌లో ఉంది</string>
     <string name="setting_on">ఆన్</string>
     <string name="pref_video_quality_title">వీడియో నాణ్యత</string>
@@ -267,4 +268,6 @@
     <string name="setting_wallpaper">వాల్‌పేపర్ సెట్ చేయబడుతుంది</string>
     <string name="save_best_dialog_positive_bt">సరే</string>
     <string name="delete_best_dialog_positive_bt">తొలగించు</string>
+    <string name="delete_all_best_dialog_positive_bt">అన్నీ తొలగించు</string>
+    <string name="overflow_best_item2">అన్నీ తొలగించు</string>
 </resources>

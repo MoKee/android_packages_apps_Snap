@@ -21,6 +21,7 @@
     <string name="pref_camera_scenemode_entry_nightindoor">Innandyra um nótt</string>
     <string name="pref_camera_scenemode_entry_spotlight">Ljóskastari</string>
     <string name="pref_camera_scenemode_entry_steadyphoto">Stöðug mynd</string>
+    <string name="pref_camera_focusmode_entry_fixed">Fast</string>
     <string name="pref_camera_coloreffect_entry_vintage_warm">Gamaldags hlýlegt</string>
     <string name="pref_camera_coloreffect_entry_vintage_cold">Gamaldags kuldalegt</string>
     <string name="pref_camera_coloreffect_entry_point_blue">Blár punktur</string>

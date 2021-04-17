@@ -107,6 +107,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Activado</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Desactivado</string>
     <string name="err_app_unsupport_ae_bracket_code">Todavía es incompatible el horquillado AE</string>
     <string name="snapshot_lower_than_video">El tamaño de la captura de vídeo es menor que el tamaño del vídeo, limitando el tamaño de vídeo. Seleccione una resolución mayor o igual que el tamaño del vídeo actual.</string>
     <string name="snapshotsize_low_powermode">La redimensión de la imagen es incompatible en modo de Bajo Consumo, se tomará una captura del tamaño del vídeo. Seleccione el modo de Energía Normal para permitir redimensionar la imagen.</string>
@@ -429,11 +430,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Estadísticas de BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Estadísticas de BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Estadísticas Hist</string>
+    <string name="stats_visualizer_bg_label">Vista gráfica de BG</string>
+    <string name="stats_visualizer_be_label">Vista gráfica BE</string>
     <string name="pref_camera2_capture_mfnr_title">Reducción de ruido múltiple</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Activado</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Desactivado</string>
+    <string name="pref_camera2_fs2_title">Obturador rápido</string>
     <string name="pref_camera2_fs2_entry_enable">Activado</string>
     <string name="pref_camera2_fs2_entry_disable">Desactivado</string>
+    <string name="pref_camera2_abort_captures_title">Abortar capturas</string>
     <string name="pref_camera2_abort_captures_entry_enable">Activado</string>
     <string name="pref_camera2_abort_captures_entry_disable">Desactivado</string>
     <string name="pref_camera_tone_mapping_entry_user_setting">Ajustes de usuario</string>

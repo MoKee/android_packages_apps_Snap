@@ -102,6 +102,10 @@
         <item quantity="other">%d saniye</item>
     </plurals>
     <string name="pref_camera_timer_sound_title">Geri sayımda bip sesi çıkar</string>
+    <string name="pref_camera_savepath_title">Depolama</string>
+    <string name="pref_camera_savepath_default">0</string>
+    <string name="pref_camera_savepath_entry_0">Telefon</string>
+    <string name="pref_camera_savepath_entry_1">SD Kart</string>
     <string name="setting_off">Kapalı</string>
     <string name="setting_on">Açık</string>
     <string name="pref_video_quality_title">Video kalitesi</string>
@@ -278,6 +282,7 @@
     <string name="cannot_load_image">Resim yüklenemiyor!</string>
     <string name="switch_photo_filmstrip">Film şeridi görünümü</string>
     <string name="setting_wallpaper">Duvar kağıdı ayarlanıyor</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>
