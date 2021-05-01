@@ -30,6 +30,7 @@ import android.content.SharedPreferences;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.ImageFormat;
 import android.graphics.Matrix;
@@ -1824,6 +1825,10 @@ public class CaptureModule implements CameraModule, PhotoController,
             case HFR:
                 if (!HFR_RATE.equals("")) {
                     mSettingsManager.setValue(SettingsManager.KEY_VIDEO_HIGH_FRAME_RATE, HFR_RATE);
+                }
+                if (!mSettingsManager.isHFRSupportedOnCurrentResolution()) {
+                    Toast.makeText(mActivity, R.string.hfr_unsupported_current_resolution,
+                            Toast.LENGTH_LONG).show();
                 }
                 createSessionForVideo(cameraId);
                 break;
@@ -4944,6 +4949,9 @@ public class CaptureModule implements CameraModule, PhotoController,
             return;
         }
         Log.d(TAG, "onSingleTapUp " + x + " " + y);
+
+        mUI.closeModeSwitcher(true);
+
         int currentId = mCurrentSceneMode.getCurrentId();
         if(mLockAFAE) {
             mLockAFAE = false;
@@ -6813,6 +6821,8 @@ public class CaptureModule implements CameraModule, PhotoController,
         }
 
         Log.d(TAG,"onShutterButtonClick");
+
+        mUI.closeModeSwitcher(true);
 
         if (mCurrentSceneMode.mode == CameraMode.HFR ||
                 mCurrentSceneMode.mode == CameraMode.VIDEO) {
@@ -8987,12 +8997,16 @@ public class CaptureModule implements CameraModule, PhotoController,
                  nextSceneMode.mode == CameraMode.SAT ||
                  nextSceneMode.mode == CameraMode.PRO_MODE)) {
             mSettingsManager.setValue(SettingsManager.KEY_FRONT_REAR_SWITCHER_VALUE, "rear");
+            mUI.setFrontBackSwitcherDrawable();
         } else {
             restartAll();
         }
         updateZoomSeekBarVisible();
         mUI.updateZoomSeekBar(1.0f);
         updateZoom();
+        mUI.closeModeSwitcher(true);
+        mUI.setCurrentModeIcon(mode);
+        mUI.setSwitcherAnimationNeeded(true);
         return 1;
     }
 
@@ -9028,6 +9042,16 @@ public class CaptureModule implements CameraModule, PhotoController,
 
     public String[] getSelectableModes() {
         return mSelectableModes;
+    }
+
+    public List<Integer> getCameraModeIconList() {
+        ArrayList<Integer> cameraModeIcons = new ArrayList<>();
+        TypedArray ic = mActivity.getResources()
+                .obtainTypedArray(R.array.camera_modes_back);
+        for (SceneModule sceneModule : mSceneCameraIds) {
+            cameraModeIcons.add(ic.getResourceId(sceneModule.mode.ordinal(), 0));
+        }
+        return cameraModeIcons;
     }
 
     private class SceneModule {
