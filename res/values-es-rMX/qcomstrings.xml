@@ -46,6 +46,7 @@
     <string name="pref_camera_manual_exp_entry_ISO_priority">Prioridad ISO</string>
     <string name="pref_camera_manual_exp_entry_exptime_priority">Prioridad tiempo de exposición</string>
     <string name="pref_camera_manual_exp_entry_user_setting">Configuración de usuario</string>
+    <string name="pref_camera_manual_exp_entry_gains_priority">Obtiene prioridad</string>
     <string name="pref_camera_manual_exp_entry_off">Desactivada</string>
     <string name="pref_camera_manual_wb_title">Balance de blancos manual</string>
     <string name="pref_camera_manual_wb_entry_color_temperature">Temperatura de color</string>
@@ -413,7 +414,9 @@
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Frontal</string>
     <string name="pref_camera2_eis_title">Vídeo EIS</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 y establecer cuando se pausa</string>
     <string name="pref_camera2_eis_entry_disable">Deshabilitado</string>
+    <string name="pref_camera2_fovc_title">Video FOVC</string>
     <string name="pref_camera2_fovc_entry_enable">Activado</string>
     <string name="pref_camera2_fovc_entry_disable">Deshabilitado</string>
     <string name="pref_camera2_video_hdr_entry_enable">Activado</string>
@@ -422,8 +425,11 @@
     <string name="pref_camera2_stats_visualizer_entry_disable">Deshabilitar todo</string>
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Estadísticas de BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Estadísticas de BE</string>
+    <string name="pref_camera2_stats_visualizer_entry_hist_stats">Estadísticas</string>
+    <string name="pref_camera2_capture_mfnr_title">Reducción de ruido multi-marco</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Activado</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Deshabilitado</string>
+    <string name="pref_camera2_capture_mfsr_title">Súper resolución multi-marco</string>
     <string name="pref_camera2_capture_mfsr_entry_enable">Activado</string>
     <string name="pref_camera2_capture_mfsr_entry_disable">Deshabilitado</string>
 </resources>
