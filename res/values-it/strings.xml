@@ -103,6 +103,7 @@
     </plurals>
     <string name="pref_camera_timer_sound_title">Bip conto alla rov.</string>
     <string name="pref_camera_savepath_title">Archivio</string>
+    <string name="pref_camera_savepath_default">0</string>
     <string name="pref_camera_savepath_entry_0">Telefono</string>
     <string name="pref_camera_savepath_entry_1">Scheda SD</string>
     <string name="setting_off">OFF</string>
@@ -281,6 +282,7 @@
     <string name="cannot_load_image">Impossibile caricare l\'immagine.</string>
     <string name="switch_photo_filmstrip">Visualizzazione sequenza</string>
     <string name="setting_wallpaper">Impostazione dello sfondo</string>
+    <string name="pref_camera_video_rotation_label_0">0</string>
     <string name="pref_camera_video_rotation_label_90">90</string>
     <string name="pref_camera_video_rotation_label_180">180</string>
     <string name="pref_camera_video_rotation_label_270">270</string>
