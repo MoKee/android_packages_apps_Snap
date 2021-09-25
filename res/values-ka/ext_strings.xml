@@ -15,5 +15,5 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="pref_camera_focusmode_entry_fixed">მუდმივი</string>
+    <string name="hfr_unsupported_current_resolution">HFR არაა მხარდაჭერილი ამ გაფართოებაზე</string>
 </resources>
