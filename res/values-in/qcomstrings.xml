@@ -419,6 +419,9 @@
     <string name="pref_camera2_switcher_entry_front">Depan</string>
     <string name="pref_camera2_force_aux_entry_on">Hidup</string>
     <string name="pref_camera2_force_aux_entry_off">Tidak aktif</string>
+    <string name="pref_camera2_stats_visualizer_entry_bg_stats">Statistik BG</string>
+    <string name="pref_camera2_stats_visualizer_entry_be_stats">Statistik BE</string>
+    <string name="pref_camera2_stats_visualizer_entry_hist_stats">Statistik Hist</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Dihidupkan</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Dimatikan</string>
     <string name="pref_camera2_fs2_title">Rana cepat</string>
