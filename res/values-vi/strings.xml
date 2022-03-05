@@ -98,7 +98,6 @@
     </plurals>
     <string name="pref_camera_timer_sound_title">Tiếng bíp khi đếm ngược</string>
     <string name="pref_camera_savepath_title">Lưu trữ</string>
-    <string name="pref_camera_savepath_default">0</string>
     <string name="pref_camera_savepath_entry_0">Điện thoại</string>
     <string name="pref_camera_savepath_entry_1">Thẻ SD</string>
     <string name="setting_off">Tắt</string>
@@ -277,12 +276,7 @@
     <string name="cannot_load_image">Không thể tải hình ảnh!</string>
     <string name="switch_photo_filmstrip">Chế độ xem cuộn phim</string>
     <string name="setting_wallpaper">Đang đặt hình nền</string>
-    <string name="pref_camera_video_rotation_label_0">0</string>
-    <string name="pref_camera_video_rotation_label_90">90</string>
-    <string name="pref_camera_video_rotation_label_180">180</string>
-    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d còn lại</string>
-    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Làm đẹp chỉ hoạt động dưới kích thước VGA trong khi quay video.</string>
     <string name="pref_camera2_category_system">Hệ thống</string>
     <string name="pref_camera2_restore_default">Khôi phục mặc định</string>

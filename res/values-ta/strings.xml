@@ -277,10 +277,6 @@
     <string name="cannot_load_image">படத்தை லோட்செய்ய முடியவில்லை!</string>
     <string name="switch_photo_filmstrip">படச்சுருள் காட்சி</string>
     <string name="setting_wallpaper">வால்பேப்பர் அமைப்பு</string>
-    <string name="pref_camera_video_rotation_label_90">90</string>
-    <string name="pref_camera_video_rotation_label_180">180</string>
-    <string name="pref_camera_video_rotation_label_270">270</string>
-    <string name="initial_recording_seconds">00:00</string>
     <string name="pref_camera2_category_system">முறைமை</string>
     <string name="pref_camera2_restore_default">இயல்புநிலைகளை மீட்டெடு</string>
     <string name="save_best_dialog_positive_bt">சரி</string>

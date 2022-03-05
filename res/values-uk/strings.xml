@@ -291,12 +291,7 @@
     <string name="cannot_load_image">Не вдалося завантажити зображення!</string>
     <string name="switch_photo_filmstrip">Подання діафільму</string>
     <string name="setting_wallpaper">Встановити шпалери</string>
-    <string name="pref_camera_video_rotation_label_0">0</string>
-    <string name="pref_camera_video_rotation_label_90">90</string>
-    <string name="pref_camera_video_rotation_label_180">180</string>
-    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">Залишилось: %d</string>
-    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Функція Makeup працює тільки під час запису відео в VGA.</string>
     <string name="pref_camera2_category_system">Система</string>
     <string name="pref_camera2_restore_default">Відновити значення за замовчуванням</string>

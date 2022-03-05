@@ -286,11 +286,7 @@
     <string name="cannot_load_image">Не могу да учитам слику!</string>
     <string name="switch_photo_filmstrip">Приказ филмске траке</string>
     <string name="setting_wallpaper">Подешавање тапета</string>
-    <string name="pref_camera_video_rotation_label_90">90</string>
-    <string name="pref_camera_video_rotation_label_180">180</string>
-    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">Преостало: %d</string>
-    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Функција „Шминка“ ради само при снимању видеа у формату VGA.</string>
     <string name="pref_camera2_category_system">Систем</string>
     <string name="pref_camera2_restore_default">Врати на подразумевано</string>

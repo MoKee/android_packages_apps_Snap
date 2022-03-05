@@ -291,11 +291,7 @@
     <string name="cannot_load_image">Не атрымалася загрузіць выяву!</string>
     <string name="switch_photo_filmstrip">Стужка</string>
     <string name="setting_wallpaper">Усталёўка шпалер</string>
-    <string name="pref_camera_video_rotation_label_90">90</string>
-    <string name="pref_camera_video_rotation_label_180">180</string>
-    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d злева</string>
-    <string name="initial_recording_seconds">00:00</string>
     <string name="makeup_video_size_limit">Макіяж працуе толькі пад памер VGA у запісу відэа.</string>
     <string name="pref_camera2_category_system">Сістэма</string>
     <string name="pref_camera2_restore_default">Аднавіць па змаўчанні</string>

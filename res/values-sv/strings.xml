@@ -277,11 +277,7 @@
     <string name="cannot_load_image">Det går inte att läsa in bilden!</string>
     <string name="switch_photo_filmstrip">Visa som filmremsa</string>
     <string name="setting_wallpaper">Bakgrund anges</string>
-    <string name="pref_camera_video_rotation_label_90">90</string>
-    <string name="pref_camera_video_rotation_label_180">180</string>
-    <string name="pref_camera_video_rotation_label_270">270</string>
     <string name="remaining_photos_format">%d kvar</string>
-    <string name="initial_recording_seconds">00:00</string>
     <string name="pref_camera2_category_system">System</string>
     <string name="pref_camera2_restore_default">Återställ standardvärden</string>
     <string name="pref_camera2_restore_default_hint">Kamerainställningarna kommer att återställas till standardinställningarna</string>
