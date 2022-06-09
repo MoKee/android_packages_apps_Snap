@@ -344,6 +344,8 @@
     <string name="pref_camera2_scene_mode_panorama_instructional_content">Memungkinkan Anda untuk menggerakkan ke kiri atau ke kanan untuk mengambil foto lanskap yang luas. Anda dapat juga menggerakkan ke atas atau ke bawah untuk mengambil foto tinggi.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster mengurangi kabur dari tangan yang gemetar. Ini bisa sangat membantu saat memotret di tempat yang sulit.</string>
     <string name="pref_camera2_scene_mode_pro_instructional_content">Dengan modus Pro, Anda dapat secara manual mengontrol setelan untuk ISO, pencahayaan, keseimbangan putih, dan fokus. Anda akan memiliki akses yang mudah ke semua setelan lanjutan ini.</string>
+    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">Dengan mode DeepZoom, Anda dapat mengambil foto yang ditingkatkan pada 2x atau 4x pembesaran.</string>
+    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">Dengan mode DeepPortrait, Anda dapat mengambil foto selfie dengan latar belakang blur. Anda dapat menggunakan penggeser untuk menyesuaikan tingkat blur.</string>
     <string name="pref_camera2_not_show_again">Jangan tampilkan lagi</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OKE</string>
     <string name="pref_camera2_instant_aec_title">Instan AEC</string>
@@ -402,6 +404,7 @@
     <string name="pref_camera2_zsl_entry_disable">Tidak aktif</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Perangkat lunak ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Perangkat keras ZSL</string>
+    <string name="pref_camera2_videoencoderprofile_title">Profil encoder</string>
     <string name="pref_camera2_afmode_entry_disable">Dimatikan</string>
     <string name="pref_camera2_afmode_entry_off">Tidak aktif</string>
     <string name="pref_camera2_switch_camera_title">Beralih kamera dengan ID</string>
